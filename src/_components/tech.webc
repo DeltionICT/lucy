@@ -1,5 +1,5 @@
 <script webc:type="js">
-  myhref = url('/subjects/' + slugify(title) + '/introductie/')
+  myhref = '/subjects/' + slugify(title) + '/introductie/'
   switch (color) {
     case "blue":
       color = "var(--c-blue)"

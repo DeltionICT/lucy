@@ -22,7 +22,7 @@ technology: js
 Maak een input-vak waar je een getal in kan typen met daaronder een button.<br>
 Wanneer je op de button drukt wordt de tafel daaronder weergegeven.
 
-<img src="{{ '/_assets/frontend/js22_tafels.png' | url }}" alt="Voorbeeld tafel" style="width:350px">
+<img src="{{ '/_assets/frontend/js22_tafels.png'  }}" alt="Voorbeeld tafel" style="width:350px">
 
 ### Uitbreiding:
 * Voeg 2 inputs toe waarin je kan aangeven waar de tafel moet starten (standaard = 1) en stoppen (standaard = 10)

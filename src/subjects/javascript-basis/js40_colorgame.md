@@ -34,6 +34,6 @@ Maak de hieronder weergegeven colorgame met behulp van [deze tutorial](https://s
     * hoe lang eer tussen het wisselen van de kleuren zit
     * of de basiskleur ook steeds mee wisselt
 
-<img src="{{ '/_assets/frontend/colorgame.png' | url }}" alt="colorgame" style="width:600px">
+<img src="{{ '/_assets/frontend/colorgame.png'  }}" alt="colorgame" style="width:600px">
 
 

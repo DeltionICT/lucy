@@ -30,4 +30,4 @@ technology: php, html, dbq
 
 ## Activity diagram
 
-{{ '/_assets/backend/schema_db_login.svg' | url | image: 'schema loginform', 100 }}
+{{ '/_assets/backend/schema_db_login.svg' | image: 'schema loginform', 100 }}

@@ -16,7 +16,7 @@ technology: ide, html, css
 > #### Dit ga je leren
 > * Content laden op basis van een query-string in de url
 
-{{ '/_assets/php_intermediate/functions.png' | url | image: 'image functions', 10 }}
+{{ '/_assets/php_intermediate/functions.png' | image: 'image functions', 10 }}
 
 ## Opdracht
 1. Maak een index-file en een map 'content'.

@@ -29,4 +29,4 @@ technology: php, html
 ## Activity diagram
 
 
-{{ '/_assets/backend/schema_loginform.svg' | url | image: 'schema loginform', 100 }}
+{{ '/_assets/backend/schema_loginform.svg' | image: 'schema loginform', 100 }}

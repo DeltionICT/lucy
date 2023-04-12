@@ -16,8 +16,8 @@ technology: ide, html, css, php, functions, oop, csharp
 > * Basiskennis Objectgeoriënteerd programmeren
 > * Het gebruik van klassen, objecten en methods
 
-{{ '/_assets/api/PHP-logo.png' | url | image: 'PHP Logo', 10 }}
-{{ '/_assets/api/c-sharp.png' | url | image: 'C# Logo', 10 }}
+{{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
+{{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 10 }}
 
 
 ## Opdracht

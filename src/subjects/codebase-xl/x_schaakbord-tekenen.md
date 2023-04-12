@@ -19,4 +19,4 @@ Maak een programma dat een schaakbord presenteert op het scherm. Gebruik
 in dit programma een geneste for-loop.
 
   
-{{ '/_assets/basis/schaakbord.svg' | url | image: 'Schaakbord', 25 }}
+{{ '/_assets/basis/schaakbord.svg' | image: 'Schaakbord', 25 }}

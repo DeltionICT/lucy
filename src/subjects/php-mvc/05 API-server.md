@@ -10,7 +10,7 @@ author: rkerssies
 
 
 
-<img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/Laravel-logo.png'  }}" style="width:10%;">
 
 > ##### Voorkennis
 > * programmeer-basics, functions, OOP, MVC-frameworks, git
@@ -24,9 +24,9 @@ author: rkerssies
 ***Taken:***
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
-zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
+zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
 
-Alle request worden gestest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com' | url }})
+Alle request worden gestest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com'  }})
 
 <hr>
 1. Maak een API-server in een framework met de volgende werking;

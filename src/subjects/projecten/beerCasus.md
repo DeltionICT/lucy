@@ -11,13 +11,13 @@ author: rkerssies, cstegeman
 
 
 
-<img src="{{ '/_assets/projecten/beer/prj_biertjes.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/projecten/beer/prj_biertjes.png'  }}" style="width:10%;">
 
 
 'We like bier' is een project voor The Belgian Beer Company om meer naamsbekendheid voor Belgische speciaal bieren te creëren onder studenten en young adults.
 
 Het project is opgedeeld in 3 fases.  Je krijgt van de TBBC een SQL-script met alle 750 bieren.<br>
-De database is geëxporteerd in een [sql-file]({{'/_assets/projecten/beer/pao_beer.sql' | url}}) .
+De database is geëxporteerd in een [sql-file]({{'/_assets/projecten/beer/pao_beer.sql' }}) .
 
 ## Fase 1:
 Er moet een mooie aansprekende site komen met alle 750 Belgian beers.
@@ -28,10 +28,10 @@ Het maakt niet uit hoe vaak een gebruiker klikt.<br>
 Bijvoorbeeld:
 <div style="display:flex; column-gap:20px; margin-top:20px;">
     <div style="flex:4">
-        <img src="{{ '/_assets/projecten/beer/fase1.png' | url }}">
+        <img src="{{ '/_assets/projecten/beer/fase1.png'  }}">
     </div>
     <div style="flex:2">
-        <img src="{{ '/_assets/projecten/beer/bier_likes.png' | url }}">
+        <img src="{{ '/_assets/projecten/beer/bier_likes.png'  }}">
     </div>
 </div>
 
@@ -46,10 +46,10 @@ Er moet nu ook bijgehouden worden dat niet gebruikers meerdere malen op een bier
 * De weergave blijft in principe gelijk 
 <div style="display:flex; column-gap:20px; max-width:600px; margin-top:20px;">
     <div style="flex:4">
-        <img src="{{ '/_assets/projecten/beer/bier_likes.png' | url }}">
+        <img src="{{ '/_assets/projecten/beer/bier_likes.png'  }}">
     </div>
     <div style="flex:2">
-        <img src="{{ '/_assets/projecten/beer/bier_ip.png' | url }}">
+        <img src="{{ '/_assets/projecten/beer/bier_ip.png'  }}">
     </div>
 </div>
 
@@ -59,13 +59,13 @@ De TBBCompany wil nu ook dat gebruikers een profiel kunnen aanmaken en daarmee z
 * maak een rating-tabel aan waar users een rating kunnen geven en een proefnotitie opslaan
 <div style="display:flex; column-gap:20px;  margin-top:20px;">
     <div style="flex:2">
-        <img src="{{ '/_assets/projecten/beer/user_inlog.png' | url }}">
+        <img src="{{ '/_assets/projecten/beer/user_inlog.png'  }}">
     </div>
     <div style="flex:3">
-        <img src="{{ '/_assets/projecten/beer/user-rating.png' | url }}">
+        <img src="{{ '/_assets/projecten/beer/user-rating.png'  }}">
     </div>
     <div style="flex:2">
-        <img src="{{ '/_assets/projecten/beer/rating.png' | url }}">
+        <img src="{{ '/_assets/projecten/beer/rating.png'  }}">
     </div>
 </div>
 

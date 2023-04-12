@@ -55,9 +55,9 @@ Winkelketen Handig joh bestaat uit 3 vestigingen in Flevoland, Drenthe en Friesl
 * Klanten kunnen een overzicht van eigen bestellingen opvragen
 
 ### ERD
-{{ '/_assets/projecten/handigjoh/handigjoh_erd.png' | url | image: 'ERD Handig Joh', 80 }}
+{{ '/_assets/projecten/handigjoh/handigjoh_erd.png' | image: 'ERD Handig Joh', 80 }}
 
 
 ### Overige Documentatie
-* [Documenten Handig Joh]({{'/_assets/projecten/handigjoh/hj.zip' | url }})
+* [Documenten Handig Joh]({{'/_assets/projecten/handigjoh/hj.zip' }})
 

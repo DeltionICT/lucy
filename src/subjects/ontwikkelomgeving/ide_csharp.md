@@ -21,5 +21,5 @@ Een ontwikkelomgeving waarmee je kunt programmeren in C#
 * Installeer Visual Studio Community Edition.
 * Let op dat je de 2 features uit het plaatje installeert.
 
-{{ '/_assets/csharp/VSinstall.png' | url | image: 'Visual Studio installeren', 80 }}
+{{ '/_assets/csharp/VSinstall.png' | image: 'Visual Studio installeren', 80 }}
 

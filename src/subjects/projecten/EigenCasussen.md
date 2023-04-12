@@ -10,7 +10,7 @@ author: rkerssies
 
 
 
-<img src="{{ '/_assets/projecten/project-laptop.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/projecten/project-laptop.png'  }}" style="width:10%;">
 
 
 ## Casus

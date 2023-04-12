@@ -10,7 +10,7 @@ author: rkerssies
 
 
 
-<img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/Laravel-logo.png'  }}" style="width:10%;">
 
 > ##### Voorkennis
 > * programmeer-basics, functions, databases, MVC-basics, git
@@ -24,7 +24,7 @@ author: rkerssies
 ***Taken:***
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
-zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
+zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
 
 <hr>
 1. Maak een applicatie in een framework met de volgende werking;
@@ -52,7 +52,7 @@ zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
 * configureerbare waarden worden centraal opgeslagen in een config-file
 * alle nieuwe classes zijn voorzien van namespaces en autoloader-proof
 * de volgende mogelijkheden zijn beschikbaar: inlog, password-verificatie en password-forgot
-  * bijvoorbeeld door: [Breeze]({{ 'https://laravel.com/docs/9.x/starter-kits#laravel-breeze' | url }})
+  * bijvoorbeeld door: [Breeze]({{ 'https://laravel.com/docs/9.x/starter-kits#laravel-breeze'  }})
 * de database wordt opgebouwd en gerefreshed met 'migrations'
 * alle tabellen worden voorzien van voldoende en representatieve dummy-data met seeders en factories
 
@@ -98,7 +98,7 @@ zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
 
 <b>!</b> In het framework zijn de volgende technische eigenschappen toegepast:
 * RBAC (rollbased-access-control)
-  * evt uitgevoerd met: [Bouncer]({{ 'https://github.com/JosephSilber/bouncer' | url }}) of [Laratrust]({{ 'https://laratrust.santigarcor.me' | url }})
+  * evt uitgevoerd met: [Bouncer]({{ 'https://github.com/JosephSilber/bouncer'  }}) of [Laratrust]({{ 'https://laratrust.santigarcor.me'  }})
 * dummy-accounts en daarbij gekoppelde rollen en rechten worden door seeding en factories toegevoegd aan de databasetabellen
 
 > ##### Op te leveren

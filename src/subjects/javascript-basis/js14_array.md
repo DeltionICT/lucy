@@ -30,7 +30,7 @@ Zet in een DIV de volgende tekst neer: "De <i>Saab</i> kost €<i>17000</i>" (cu
     * Zorg dat als je op "toevoegen" klikt, in de ene array de auto, en in de andere de prijs wordt toegevoegd én zorg dat de lijst met auto's ververst wordt
 * Zet onder de lijst de tekst: "De totaalprijs van de <i>4</i> auto's is: €<i>67000</i>" en dat veranderd automatisch als het aantal of de prijs van de auto's veranderd
 
-<img src="{{ '/_assets/frontend/js14_base.png' | url }}" alt="Voorbeeld arrays" style="width:250px">
+<img src="{{ '/_assets/frontend/js14_base.png'  }}" alt="Voorbeeld arrays" style="width:250px">
 
 
 ### Uitbreiding:

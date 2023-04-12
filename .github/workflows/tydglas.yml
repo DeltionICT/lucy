@@ -1,4 +1,4 @@
-name: Experimental on tydglas.nl
+name: Lucy on tydglas.nl
 on:
   push:
     branches: ['master']

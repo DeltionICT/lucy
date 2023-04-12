@@ -8,7 +8,7 @@ technologies: api
 ---
 
 
-<img src="{{ '/_assets/themas/webserver.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/themas/webserver.png'  }}" style="width:10%;">
 
 
 ## Domain-names maken op een local-server
@@ -102,6 +102,6 @@ Ook kan er nog met QSA (query striing append) worden gewerkt zal in het volgende
 ```http://mvc2022.rk/cars/all?orderby=brand&direction=desc```
 ________________________________
 * Externe resources
-[Extra uitleg Windows]({{ 'https://ecompile.io/blog/localhost-custom-domain-nameje' | url }}) 
-[Extra uitleg Windows]({{ 'https://www.freecodecamp.org/news/how-to-find-and-edit-a-windows-hosts-file/' | url }}) 
-[Extra uitleg Mac>]({{ 'https://www.mdahosting.com/where-is-the-hosts-file-on-a-mac/' | url }}) 
+[Extra uitleg Windows]({{ 'https://ecompile.io/blog/localhost-custom-domain-nameje'  }}) 
+[Extra uitleg Windows]({{ 'https://www.freecodecamp.org/news/how-to-find-and-edit-a-windows-hosts-file/'  }}) 
+[Extra uitleg Mac>]({{ 'https://www.mdahosting.com/where-is-the-hosts-file-on-a-mac/'  }}) 

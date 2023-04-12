@@ -32,9 +32,9 @@ technology: js
 
 <div style="display:flex; column-gap:20px; max-width:500px; margin-top:20px;">
     <div style="flex:4">
-        <img src="{{ '/_assets/frontend/js10_afb1.png' | url }}">
+        <img src="{{ '/_assets/frontend/js10_afb1.png'  }}">
     </div>
     <div style="flex:4">
-        <img src="{{ '/_assets/frontend/js10_afb2.png' | url }}">
+        <img src="{{ '/_assets/frontend/js10_afb2.png'  }}">
     </div>
 </div>

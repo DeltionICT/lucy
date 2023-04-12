@@ -10,7 +10,7 @@ author: rkerssies
 
 
 
-<img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/PHP-logo.png'  }}" style="width:10%;">
 
 > ##### Voorkennis
 > * programmeer-basics, functions, git
@@ -21,7 +21,7 @@ author: rkerssies
 
 * Programmeertaal: PHP of een andere backend-taal
 
-<img src="{{ '/_assets/api/mvc-concept.png' | url }}" style="width:30%;">
+<img src="{{ '/_assets/api/mvc-concept.png'  }}" style="width:30%;">
 
 
 
@@ -30,9 +30,9 @@ author: rkerssies
 
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten mogen met een basic MVC-framework worden uitgevoerd,
-dit is te vinden op: GitHub-[MVC2022]({{ 'https://github.com/InCubics/mvc2022' | url }}).
-Dit MVC-project vereist  [clean-urls]({{ '/thema/local-domainnames/' | url }})
-Video's met uitleg over basic MVC-werking en staan in de 'bestanden' van het PHP [Teams-kanaal]({{ 'https://teams.microsoft.com/l/channel/19%3a58331b90c22b40ac8c56aad6cea82c5a%40thread.skype/04a%2520MVC%2520fundamentals?groupId=88bc2e4b-541f-4638-b34b-de6546be3aa7&tenantId=2867a850-2fe5-43f7-92b9-8e326586b667' | url }}) (vraag evt om toegang) 
+dit is te vinden op: GitHub-[MVC2022]({{ 'https://github.com/InCubics/mvc2022'  }}).
+Dit MVC-project vereist  [clean-urls]({{ '/thema/local-domainnames/'  }})
+Video's met uitleg over basic MVC-werking en staan in de 'bestanden' van het PHP [Teams-kanaal]({{ 'https://teams.microsoft.com/l/channel/19%3a58331b90c22b40ac8c56aad6cea82c5a%40thread.skype/04a%2520MVC%2520fundamentals?groupId=88bc2e4b-541f-4638-b34b-de6546be3aa7&tenantId=2867a850-2fe5-43f7-92b9-8e326586b667'  }}) (vraag evt om toegang) 
 
 Pull het Git-project binnen naar jouw localhost. 
 Zet een database op voor het project en gebruik daarvoor de bijgevoegde sql-file.

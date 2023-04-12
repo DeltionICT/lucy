@@ -10,7 +10,7 @@ author: rkerssies
 
 
 
-<img src="{{ '/_assets/api/database.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/database.png'  }}" style="width:10%;">
 
 > ##### Voorkennis
 > * programmeer-basics, git

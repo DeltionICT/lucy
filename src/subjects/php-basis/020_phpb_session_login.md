@@ -32,4 +32,4 @@ Als gebruiker wil ik kunnen inloggen zodat ik toegang krijg tot de content van d
 
 ## Activity diagram
 
-{{ '/_assets/backend/session_login.svg' | url | image: 'session login', 100 }}
+{{ '/_assets/backend/session_login.svg' | image: 'session login', 100 }}

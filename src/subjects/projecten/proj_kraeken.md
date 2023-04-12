@@ -33,9 +33,9 @@ De eigenaar en directeur is Tom Schering. Tom Schering wil graag een applicatie/
 De website heeft ook een gedeelte dat toegankelijk is voor publiek. 
 
 ### ERD
-{{ '/_assets/projecten/kraeken/erd_kraeken.png' | url | image: 'ERD kraeken', 80 }}
+{{ '/_assets/projecten/kraeken/erd_kraeken.png' | image: 'ERD kraeken', 80 }}
 
 
 ### Overige Documentatie
-* [Projectplan voor de website voor radiostation Kraeken]({{'/_assets/projecten/kreaken/kraeken.pdf' | url }})
+* [Projectplan voor de website voor radiostation Kraeken]({{'/_assets/projecten/kreaken/kraeken.pdf' }})
 * [Afbeeldingen van de DJ's van radiostation Kraeken]({{ '/_assets/projecten/kraeken/kraeken_afbeeldingen.zip'}})

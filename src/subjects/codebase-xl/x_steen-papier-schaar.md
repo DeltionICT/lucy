@@ -37,6 +37,6 @@ In de show ”The Big Bang Theory” spelen de hoofdpersonen een andere versie v
 Deze versie noemen ze ”rock, paper, scissors, lizard, spock”.  
 Het toevoegen van 2 extra opties biedt veel meer mogelijkheden waardoor een gelijkspel minder vaak voor zal komen.
 
-{{ 'https://camo.githubusercontent.com/685d0459ef1fec598b62c19f3bd7421f6090b665e887df5f7cca684544b390a8/68747470733a2f2f692e696d6775722e636f6d2f7333334d4e384d2e706e67' | url | image: 'Rock-Paper-Scissors-Lizard-Spock', 60 }}
+{{ 'https://camo.githubusercontent.com/685d0459ef1fec598b62c19f3bd7421f6090b665e887df5f7cca684544b390a8/68747470733a2f2f692e696d6775722e636f6d2f7333334d4e384d2e706e67' | image: 'Rock-Paper-Scissors-Lizard-Spock', 60 }}
 
 

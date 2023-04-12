@@ -16,7 +16,7 @@ technology: php
 > * Parameters meegeven aan een functie
 > * Een waarde teruggeven uit een functie.
 
-{{ '/_assets/basis/functions.png' | url | image: 'functions', 10 }}
+{{ '/_assets/basis/functions.png' | image: 'functions', 10 }}
 
 
 ## Opdracht

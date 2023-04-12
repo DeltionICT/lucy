@@ -493,7 +493,7 @@ push!
 
 Maak een formulier dat er minimaal zo uitziet als hieronder weergegeven:
 
-{{ 'https://static.edutorial.nl/lucy/php/opdracht8.jpg' | url | image: 'Opdracht 8 formulier', 20 }}  
+{{ 'https://static.edutorial.nl/lucy/php/opdracht8.jpg' | image: 'Opdracht 8 formulier', 20 }}  
 
 <br>
 Als op de knop "Bereken" wordt gedrukt, moet het volgende gebeuren:
@@ -513,7 +513,7 @@ Als op de knop "Bereken" wordt gedrukt, moet het volgende gebeuren:
 #### Uitvoer Eindbedrag na 10 jaar  
 <br>
 
-{{ 'https://static.edutorial.nl/lucy/php/opdracht8-voorbeeld1.jpg' | url | image: 'Opdracht 8 uitvoer : Eindbedrag na 10 jaar', 20 }}  
+{{ 'https://static.edutorial.nl/lucy/php/opdracht8-voorbeeld1.jpg' | image: 'Opdracht 8 uitvoer : Eindbedrag na 10 jaar', 20 }}  
 
 <br>
 
@@ -521,7 +521,7 @@ Als op de knop "Bereken" wordt gedrukt, moet het volgende gebeuren:
 
 <br>
 
-{{ 'https://static.edutorial.nl/lucy/php/opdracht8-voorbeeld2.jpg' | url | image: 'Opdracht 8 uitvoer : Eindbedrag verdubbeld', 20 }}  
+{{ 'https://static.edutorial.nl/lucy/php/opdracht8-voorbeeld2.jpg' | image: 'Opdracht 8 uitvoer : Eindbedrag verdubbeld', 20 }}  
 
 <br>
 

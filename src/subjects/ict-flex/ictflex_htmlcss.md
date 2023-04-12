@@ -512,7 +512,7 @@ ontwerpen volgens vaste patronen:
 
 In veel gevallen ziet het er dan in grote lijnen uit als in onderstaande figuur
 
-{{ 'https://static.edutorial.nl/lucy/htmlcss/opdracht-layout-webpagina.jpg' | url | image: 'Standaard webpagina layout', 60 }}
+{{ 'https://static.edutorial.nl/lucy/htmlcss/opdracht-layout-webpagina.jpg' | image: 'Standaard webpagina layout', 60 }}
 
 
 Als webdesigner/webdeveloper/programmeur ben je natuurlijk vrij om je

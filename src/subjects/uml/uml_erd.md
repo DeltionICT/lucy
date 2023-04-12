@@ -9,7 +9,7 @@ author: rkerssies
 
 
 
-<img src="{{ '/_assets/themas/diagram.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/themas/diagram.png'  }}" style="width:10%;">
 
 > ##### Voorkennis
 > * database-tabellen, database-relaties, soorten relaties
@@ -22,25 +22,25 @@ een REST API-server die op zijn beurt data uit een database haalt. Bij grotere a
 database-tabellen die mer elkaar verschillende relaties hebben. Om hierin overzicht te krijgen maakt men een 'Entiteits Relatie Diagram',
 ofwel een ERD.
 
-<img src="{{ '/_assets/themas/Entity-Relationship-Diagram-ERD-of-Employee-Database.png' | url }}" style="width:40%;"> 
-<img src="{{ '/_assets/themas/Entity-Relationship-Diagram-ERD-of-the-database.png' | url }}" style="width:50%;">
+<img src="{{ '/_assets/themas/Entity-Relationship-Diagram-ERD-of-Employee-Database.png'  }}" style="width:40%;"> 
+<img src="{{ '/_assets/themas/Entity-Relationship-Diagram-ERD-of-the-database.png'  }}" style="width:50%;">
 
 
 ## Opdracht
-SequenceDiagrammen zijn onder andere te maken met [LucidChart]({{ 'https://lucid.app/nl/users/registerLevel?anonId=0.0fa5251918635719ec0&sessionDate=2023-02-09T09%3A33%3A23.631Z&sessionId=0.587259fc18635719ec1' | url }}).
+SequenceDiagrammen zijn onder andere te maken met [LucidChart]({{ 'https://lucid.app/nl/users/registerLevel?anonId=0.0fa5251918635719ec0&sessionDate=2023-02-09T09%3A33%3A23.631Z&sessionId=0.587259fc18635719ec1'  }}).
 Na het installeren kan je een student-licence van de frontend-docent ontvangen.
 
 Maak ERD's vooraf bij het opstarten van elk toekomstig project, waarin afstemming met mede-developers nodig is.
 Tijdens het project is het verstandig om SequenceDiagrammen bij te werken en bij het opleveren samen met alle ander projectdocumentatie te archiveren.
-Details over SequenceDiagrammen zijn te vinden op how to: [SequenceDiagram]({{ 'https://www.lucidchart.com/pages/uml-sequence-diagram' | url }})
-en [ERD explained]({{ 'https://lucidchart.zendesk.com/hc/en-us/articles/207299756-Entity-Relationship-Diagrams' | url }})
+Details over SequenceDiagrammen zijn te vinden op how to: [SequenceDiagram]({{ 'https://www.lucidchart.com/pages/uml-sequence-diagram'  }})
+en [ERD explained]({{ 'https://lucidchart.zendesk.com/hc/en-us/articles/207299756-Entity-Relationship-Diagrams'  }})
 of gebruik het ontwerp-tab in XAMPP om ERD's weer te geven en evt. kleine aanpassingen te maken.
 
-<img src="{{ '/_assets/themas/erd_xampp.png' | url }}" style="width:50%;">
+<img src="{{ '/_assets/themas/erd_xampp.png'  }}" style="width:50%;">
 
 
-NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language' | url }})-bibliotheek.
-<img src="{{ '/_assets/themas/UML_diagram.png' | url }}" style="width:60%;">
+NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.
+<img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren
 > * een ERD van (complex) dtabasetabellen, voordat er wordt geprogrammeerd

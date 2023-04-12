@@ -39,4 +39,4 @@ technology: dbq
     10. Geef de top 5 van meest gebruikte locaties voor cursussen waarvan de code begint met 'DB'
 * Bewaar de queries en toon je werk aan 1 van de docenten.
 
-![Cursus databases ERD]({{ '/_assets/backend/cursus.png' | url }})
+![Cursus databases ERD]({{ '/_assets/backend/cursus.png'  }})

@@ -9,7 +9,7 @@ author: rkerssies
 
 
 
-<img src="{{ '/_assets/themas/design.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/themas/design.png'  }}" style="width:10%;">
 
 > ##### Voorkennis
 > * logisch denken, enig gevoel voor design 
@@ -24,8 +24,8 @@ In de praktijk kan/mag een developer NIET zelf bepalen hoe de app/applicatie er 
 Om te voorkomen dat er achteraf veel uren worden verstookt aan het steeds her-designen van de app/applicatie, 
 is het verstandig hier vooraf afspraken over te maken. Een geaccordeerde mockup is z'n afspraak m.b.t. de look n feel.  
 
-<img src="{{ '/_assets/themas/mockup.png' | url }}" style="width:40%;"> 
-<img src="{{ '/_assets/themas/app-mockup.jpeg' | url }}" style="width:40%;">
+<img src="{{ '/_assets/themas/mockup.png'  }}" style="width:40%;"> 
+<img src="{{ '/_assets/themas/app-mockup.jpeg'  }}" style="width:40%;">
 
 
 ## Opdracht

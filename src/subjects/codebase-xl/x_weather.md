@@ -20,7 +20,7 @@ Geef een lijst met weergegevens (windrichting, temperatuur e.a.) van de komende 
 Bekijk onderstaand voorbeeld hiervoor  
 
 
-![weather.png]({{ '/_assets/weather.png' | url }})
+![weather.png]({{ '/_assets/weather.png' }})
 
 Weertabel (klik om te vergroten)
 

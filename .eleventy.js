@@ -230,7 +230,7 @@ module.exports = function(eleventyConfig) {
     });
 
     return {
-        pathPrefix: "/",
+        pathPrefix: "/lucy/",
         dir: {
             input: "src",
             output: "docs",

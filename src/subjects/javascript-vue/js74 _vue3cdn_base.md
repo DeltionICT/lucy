@@ -21,6 +21,6 @@ Bekijk een basis VUE3 opzet via CDN op [std.stegion.nl](https://std.stegion.nl/c
     * Toon deze net als "tekst" in de HTML
     * zoek in Google op "v-for" en probeer de lijst in een &lt;ul&gt; structuur te plaatsen 
 
-<!-- <img src="{{ '/_assets/frontend/js14_base.png' | url }}" alt="Voorbeeld arrays" style="width:250px"> -->
+<!-- <img src="{{ '/_assets/frontend/js14_base.png'  }}" alt="Voorbeeld arrays" style="width:250px"> -->
 
 

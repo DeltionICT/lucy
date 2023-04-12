@@ -10,7 +10,7 @@ author: rkerssies
 
 
 
-<img src="{{ '/_assets/projecten/project-laptop.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/projecten/project-laptop.png'  }}" style="width:10%;">
 
 ## De casus
 Schoonmaakbedrijf Het Zwabbertje is gespecialiseerd in het reinigen van kantoorpanden. Om te controleren of dit ook goed gedaan wordt, wordt dagelijks  gecontroleerd hoe de schoonmaakwerkzaamheden zijn uitgevoerd. Er wordt gecontroleerd op de volgende punten:

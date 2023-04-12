@@ -47,10 +47,10 @@ Je kunt afbeeldingen tonen met behulp van markdown-code:
 ![alt-tekst](http://link/naar/de/afbeelding)
 
 // relatieve link naar een afbeelding op 100% van de breedte van de pagina:
-![alt-tekst]( {{ '/pad/naar/map/in/src-directory' | url }} )
+![alt-tekst]( {{ '/pad/naar/map/in/src-directory' }} )
 
 // relatieve link naar een afbeelding met een aangepaste breedte in %
-{{ '/_assets/backend/cursus.png' | url | image: 'Cursus databases ERD', 60 }}
+{{ '/_assets/backend/cursus.png' | image: 'Cursus databases ERD', 60 }}
 ```
 De dubbele curly braces zorgen ervoor dat het opgegeven pad wordt omgezet naar een absolute url.  
 Het pad naar de afbeelding wordt bewerkt door een 'url'-filter. De baseURL wordt toegevoegd.  
@@ -102,6 +102,37 @@ Onderstaande extra stijlen in de table-tag werken niet in deze readme, maar wel 
 ```
 
 ## Updates
+
+```python
+Template:
+---
+title: Template
+date: 2023-01-01
+author: jsiewers
+---
+
+
+> #### Voorkennis
+> * Je hebt je docentenopleiding afgerond
+> * Je kunt werken met een computer
+
+> #### Dit ga je leren
+> * Je gaat aan de hand van een template een nieuwe opdracht maken voor een module
+> * Markdown: Je maakt gebruik van markdown om de opdracht vorm te geven
+> * Testen: Je test de nieuwe opdracht in een lokale omgeving
+> * Indienen van een pull-request
+
+## Opdracht
+Dit beschrijft wat je moet doen en wat er van je wordt verwacht
+
+## Resultaat
+Dit is het gewenste resultaat
+Hier wordt aangegeveen wat je moet opleveren en waar.
+
+## Evaluatie
+Dit is een rubrics of checklist  waaraan je kunt zien of de opdracht juist is uitgevoerd
+```
+
 Reverting
 
 rel v0.1.0 2023-02-09
