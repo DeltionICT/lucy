@@ -1,0 +1,14 @@
+{
+    "icons": [
+        {
+            "src": "_system/192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "_system/512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

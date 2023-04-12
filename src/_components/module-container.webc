@@ -1,0 +1,14 @@
+<slot></slot>
+
+<style webc:scoped>
+    :host {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    :host::after {
+        content: '';
+        flex: 0 0 245px;
+    }
+</style>

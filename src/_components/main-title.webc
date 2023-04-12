@@ -1,0 +1,34 @@
+<script webc:type="js">
+    ` <div class="category">
+        <a href="${ref}"><slot name="category">Frontend</slot></a>
+    </div>
+    <div class="authors">
+        <slot name="authors">Jan Jaap Siewers</slot> |
+        <slot name="date">Mar, 2023</slot>
+    </div>
+    <div class="title">
+        <h1><slot name="title">Title</slot></h1>
+    </div>`
+</script>
+
+<style webc:scoped>
+    :host {
+        margin: 0 0 2rem 0;
+    }
+
+    div.category {
+        border-bottom: 1px solid var(--c-brand);
+        font-weight: bold;
+    }
+
+    div.category a {
+        text-decoration: none;
+    }
+
+    div.authors {
+        text-align: right;
+        font-style: italic;
+        font-size: 0.9rem;
+
+    }
+</style>

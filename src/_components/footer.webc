@@ -1,0 +1,35 @@
+<div class="cc">
+    <slot name="cc">cc</slot>
+</div>
+<div class="copy">
+    <slot name="copy">copy</slot>
+</div>
+
+<style webc:scoped>
+    :host {
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        background-color: var(--c-header-bg);
+        padding: 1rem;
+        border-radius: 8px;
+        width: 80%;
+        margin: 0 auto 2rem auto;
+    }
+
+    div.cc {
+        padding-top: 0.4rem;
+        margin-right: 1rem;
+
+    }
+
+    div.copy p {
+        line-height: 1.3rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+    :host {
+        flex-direction: column;
+    }
+}
+</style>

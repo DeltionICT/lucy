@@ -1,0 +1,22 @@
+:root {
+    scroll-behavior: smooth;
+    --c-green: #5e752c;
+    --c-orange: #f48220;
+    --c-blue: #45438a;
+    --c-yellow: #fff25d;
+    --c-purple: #7188ec;
+    --c-pink: #9b0011;
+    --c-grey: #bbb3a6;
+    --c-brand: #25255b;
+    --c-brand-orange: #f48220;
+    --c-white: #deeef3;
+    --c-code: rgb(232, 241, 255);
+    --c-bg: #ededed;
+    --c-header-bg: #e0e0e0;
+    --fontfamily: 'Helvetica Neue', 'Arial', sans-serif;
+    --codefont: 'Azeret Mono', monospace;
+    --lineheight: 1.8rem;
+    --fontsize: 16px;
+    --c-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --c-box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

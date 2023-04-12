@@ -1,0 +1,26 @@
+{
+  "name": "lucy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --serve --incremental",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "Jan Jaap Siewers",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^3.1.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "@11ty/eleventy-plugin-webc": "^0.11.0",
+    "@11ty/webc": "^0.11.2",
+    "eleventy-favicon": "^1.1.3",
+    "install": "^0.13.0",
+    "luxon": "^3.3.0"
+  }
+}
