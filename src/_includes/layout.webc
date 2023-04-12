@@ -27,7 +27,7 @@
             </div>
             <div slot="links">
                 <span webc:if></span>
-                <nav-item webc:for="(k, item) in nav" :url="url(item.url)" :title="item.name"
+                <nav-item webc:for="(k, item) in nav" :url="item.url" :title="item.name"
                     :selected="getNavClass(item.selected, page.url)"></nav-item>
             </div>
         </nav>
