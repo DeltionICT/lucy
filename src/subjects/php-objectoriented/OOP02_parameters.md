@@ -1,7 +1,5 @@
 ---
-title: Een klasse maken
-key: 2600
-difficulty: basic
+title: Gebruik van parameters
 date: 2023-03-24
 author: rkerssies
 technology: ide, html, css, php, functions, oop, csharp
@@ -9,7 +7,9 @@ technology: ide, html, css, php, functions, oop, csharp
 
 
 > #### Voorkennis
-> * Basiskennis van een backend-taal zoals php of C#
+> * Basiskennis van een backend-taal zoals PHP of C#
+> * Classes met methods maken
+> * Objecten van classes maken en methods daarop aanroepen
 > * Zelf methodes kunnen maken en toepassen  
 
 > #### Dit ga je leren
@@ -17,7 +17,7 @@ technology: ide, html, css, php, functions, oop, csharp
 > * Het gebruik van klassen, objecten en methods
 
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
-{{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 10 }}
+{{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 8 }}
 
 
 ## Opdracht
