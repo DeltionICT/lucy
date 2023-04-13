@@ -41,7 +41,7 @@ layout: layout.webc
         <p slot="techs">
             <tech color="blue" title="PHP Objectoriënted"></tech>
             <tech color="blue" title="C#" Objectoriënted></tech>
-            <tech color="blue" title="OOP Projects"></tech>
+            <tech color="blue" title="OO Projects"></tech>
         </p>
     </module>
     <module>

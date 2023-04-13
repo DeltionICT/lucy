@@ -1,12 +1,11 @@
 ---
-title: Image gallery functions
+title: Image-gallery function
 key: 2550
 difficulty: basic
 date: 2023-03-24
 author: rkerssies
 technology: php
 ---
-
 
 > #### Voorkennis
 > * Basiskennis programmeren in php
@@ -28,7 +27,7 @@ Gebruik een image-editor (paint.net of photoshop) om van de afbeeldingen een uit
 1. Maak een map 'images' met daarin de afbeeldingen.
 2. Maak een php-pagina met daarin een functie waarin de paden van alle afbeeldingen in de map 'images' worden verzameld in een array. Bijvoorbeeld met [scandir](https://www.php.net/manual/en/function.scandir.php) of [glob](https://www.php.net/manual/en/function.glob.php).
 3. Maak in diezefde functie een lus waarbij de array met image-paden wordt doorlopen
-4. Combineer de paden met html zodat de afbeeldingen worden weergegeven. 
+4. Combineer (render) de paden met html zodat de afbeeldingen worden weergegeven. 
 5. Geef de complete html-code terug uit de functie
     * image-tags
     * een attribute 'class' die verwijst naar een css-class voor de opmaak
@@ -49,10 +48,10 @@ Signatuur van de functie:
    * @return string
    * 
    * /
-   function showPictures($map) {
+   function showPictures($path) {
 
-      // code om alle afbeeldingen in $map toe te voegen aan een array
-      // foreach-loop met code om afbeeldingen in '$map' weer te geven
+      // code om alle afbeeldingen in $path toe te voegen aan een array
+      // foreach-loop met code om afbeeldingen in '$path' weer te geven
       
       return $html;
    }
@@ -66,7 +65,7 @@ Signatuur van de functie:
 </html>
 ```
 
-Output:
+Output resulaat zichtbaar in de browser:
 ```html
  <html> 
    <body>
@@ -79,7 +78,7 @@ Output:
 ```
 
 ## Resultaat
-* Een php-pagina met daarin html-code en 1 php functie.
+* Een PHP-pagina met daarin html-code en één PHP-functie.
 * Functionaliteit volgens de beschrijving in de opdracht.
 
 
