@@ -54,7 +54,7 @@ wordt gebruikt om de class in te lezen (include).<br>
    Uiteraard moet alles blijven werken als daarvoor.
 
 ## Resultaat
-Kennis toepassen van namespaces en een autoloader.
+* Kennis toepassen van namespaces en een autoloader.
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

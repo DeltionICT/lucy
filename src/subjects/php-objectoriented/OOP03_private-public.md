@@ -98,10 +98,9 @@ Een voorbeeld van het gebruik van class met private en public properties en meth
 * Als er foutieve informatie of onmogelijke situaties ontstaan worden de fouten verzameld en allemaal in een lijst getoond.
 
 ## Resultaat
-Methods binnen een class die elkaar kunnen aanroepen.<br>
-Uitwisselen van proporties binnen methods van een class en evt. deze beschikbaar maken buiten de class.
-Elk object krijgt verschillende parameters mee en geeft correcte resultaten terug.
-
+* Methods binnen een class die elkaar kunnen aanroepen.<br>
+* Uitwisselen van proporties binnen methods van een class en evt. deze beschikbaar maken buiten de class.
+* Elk object krijgt verschillende parameters mee en geeft correcte resultaten terug.
 
 
 ## Evaluatie

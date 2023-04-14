@@ -35,7 +35,7 @@ Houdt de volgende structuur aan in je code:
   en een melding vanuit de property "failMessage" worden getroond.
 
 ## Resultaat
-Bij het maken van een objecten van een class, worden er direct  waarbij bij het
+* Bij het maken van een objecten van een class, worden er direct  waarbij bij het
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

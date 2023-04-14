@@ -38,7 +38,7 @@ Houdt de volgende structuur aan in je code:
    de getters op het scherm.
 
 ## Resultaat
-Overeenkomsten tussen objecten kunnen in aparte classes worden verzameld en worden hergebruikt en gecombineerd in verschillende objecten
+* Overeenkomsten tussen objecten kunnen in aparte classes worden verzameld en worden hergebruikt en gecombineerd in verschillende objecten
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

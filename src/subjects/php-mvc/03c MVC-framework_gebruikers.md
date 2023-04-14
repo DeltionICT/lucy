@@ -39,6 +39,7 @@ zoals:
 <br><br>
 <hr>
 <b>!</b> In het framework zijn de volgende technische eigenschappen toegepast:
+
 * correcte routes om de requests van de url op te vangen
 * overzichtelijk en goed toegepaste controllers en actions
 * in een action worden gegevens op een praktische manier beschikbaar gesteld aan de correcte view

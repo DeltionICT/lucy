@@ -46,8 +46,8 @@ Houdt de volgende structuur aan in je code:
     * Breid de werking uit met een formulier waarin verstuurde de waarden als parameters worden ingevoerd.
 
 ## Resultaat
-Meerdere objecten van dezelfde class.
-Elk object krijgt verschillende parameters mee en geeft correcte resultaten terug.
+* Meerdere objecten van dezelfde class.
+* Elk object krijgt verschillende parameters mee en geeft correcte resultaten terug.
 
 
 ## Evaluatie

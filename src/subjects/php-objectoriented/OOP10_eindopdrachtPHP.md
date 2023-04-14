@@ -94,6 +94,6 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
      * geef data aan de query-method in de vorm van een multi associative array
 
 
-> ##### Op te leveren
-> * een OOP-applicatie met waarin uitsluitend gebruik is gemaakt van classes
-> * het tonen van gegevens van personen, studenten of docenten op basis van data uit een database-tabel
+## Op te leveren
+* een OOP-applicatie met waarin uitsluitend gebruik is gemaakt van classes
+* het tonen van gegevens van personen, studenten of docenten op basis van data uit een database-tabel

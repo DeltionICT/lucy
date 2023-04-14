@@ -43,7 +43,7 @@ Houdt de volgende structuur aan in je code:
    Zoek uit waarom deze manier van namespaces gebruiken als 'best-practice' wordt gezien.
 
 ## Resultaat
-Kennis van namespaces en het gebruik hiervan (kunnen toepassen)
+* Kennis van namespaces en het gebruik hiervan (kunnen toepassen)
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

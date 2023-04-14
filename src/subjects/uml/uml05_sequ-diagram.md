@@ -7,8 +7,6 @@ technology: uml
 author: rkerssies
 ---
 
-
-
 <img src="{{ '/_assets/themas/diagram.png'  }}" style="width:10%;">
 
 > ##### Voorkennis
@@ -22,7 +20,7 @@ Bij het programmeren van grotere projecten in OOP kan het aantal OOP-objecten en
 nog al onoverzichtelijk worden. Een SequenceDiagram doorloopt een scenario en toont daarin welke methods van objecten
 opeenvolgend worden aangeroepen.
 
-<img src="{{ '/_assets/themas/uml-sequence-example.png'  }}" style="width:50%;"> 
+<img src="{{ '/_assets/themas/uml-sequence-example.png'  }}" style="width:50%;"><br> 
 <img src="{{ '/_assets/themas/Sequence-diagram-of-data-exchange-between-data-owner-and-data-consumer.png'  }}" style="width:40%;">
 
 
@@ -36,8 +34,8 @@ Details over SequenceDiagrammen zijn te vinden op how to: [SequenceDiagram]({{ '
 en [SequenceDiagram explained]({{ 'https://www.lucidchart.com/pages/uml-sequence-diagram'  }})of
 [SequenceDiagram explained 2]({{ 'https://www.archimetric.com/what-is-sequence-diagram/'  }})
 
-
-NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.
+<br><br>
+NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
 <img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren
