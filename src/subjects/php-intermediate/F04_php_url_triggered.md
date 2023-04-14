@@ -9,7 +9,7 @@ technology: ide, html, css
 
 
 > #### Voorkennis
-> * Basis programmeren; variabelen, if-else, arrays, loops
+> * Basis programmeren; variabelen, if-else, arrays, loops, functions en parameters
 > * Renderen (verzamelen gegevens, bijvoorbeeld gegevens in één lange string verzamelen)
 > * Structuur-> eerst logica, daarna weergave.
 
