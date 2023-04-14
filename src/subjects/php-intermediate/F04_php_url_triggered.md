@@ -10,7 +10,7 @@ technology: ide, html, css
 
 > #### Voorkennis
 > * Basis programmeren; variabelen, if-else, arrays, loops
-> * Renderen (verzalelen gegevens, bijvoorbeeld gegevens in één lange string verzamelen)
+> * Renderen (verzamelen gegevens, bijvoorbeeld gegevens in één lange string verzamelen)
 > * Structuur-> eerst logica, daarna weergave.
 
 > #### Dit ga je leren
