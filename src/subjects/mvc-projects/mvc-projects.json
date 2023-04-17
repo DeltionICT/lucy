@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"mvc-projects",
+	"coursetitle":"MVC projects",
+	"permalink":"/subjects/mvc-projects/{{ title | slugify }}/{{ page.index }}"
+}

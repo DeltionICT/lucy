@@ -21,3 +21,4 @@ docs/
 # Ignore test files
 .cache
 test/stubs-layout-cache/_includes/*.js
+.DS_Store

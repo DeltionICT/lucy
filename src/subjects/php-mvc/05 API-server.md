@@ -7,11 +7,6 @@ technology: php, dbo, dbq
 author: rkerssies
 ---
 
-
-
-
-<img src="{{ '/_assets/api/Laravel-logo.png'  }}" style="width:10%;">
-
 > ##### Voorkennis
 > * programmeer-basics, functions, OOP, MVC-frameworks, git
 > * API-toepassen, json
@@ -19,16 +14,24 @@ author: rkerssies
 > ##### Doel
 > * API-server opzetten om data op te halen of CRUD-acties uit te voeren binnen een framework
 
-* Programmeertaal: PHP of een andere backend-taal
+{{ '/_assets/api/Laravel-logo.png' | image: 'PHP Logo', 8 }}
+{{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 8 }}
+<br><br>
 
 ***Taken:***
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
-zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
+zoals:
+* [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
+* C#
+<br><br>
+  Creating your own API-service &emsp;{{ '/_assets/api/api.png' | image: 'api', 4 }}
+<br><br>
 
-Alle request worden gestest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com'  }})
-
+Alle request worden getest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com'  }}) {{ '/_assets/_icons/postman.png' | image: 'postman', 2 }}
+<br><br>
 <hr>
+
 1. Maak een API-server in een framework met de volgende werking;
 * alle responses zijn in json, met daarbij extra meta-data ook in json
 * in de url is duidelijk welk model/databasetabel wordt aangesproken
@@ -41,7 +44,7 @@ Alle request worden gestest met een API-testtool, zoals [Postman]({{ 'https://ww
 
 In het framework zijn de volgende technische eigenschappen toegepast:
 * correcte api-url's om de requests van de url op te vangen
-
+  <br><br>
 <hr>
 
 2. Maak een API-server in een framework met de volgende werking;
@@ -50,7 +53,7 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 
 In het framework zijn de volgende technische eigenschappen toegepast:
 * correcte api-routes om de requests van de url op te vangen
-
+<br><br>
 <hr>
 
 3. Maak een API-server in een framework met de volgende werking;
@@ -61,6 +64,7 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 In het framework zijn de volgende technische eigenschappen toegepast:
 * maak gebruik van de mogelijkheid om variabelen voor een model in de API-url te plaatsen
 * instatieer een model-class en validatie-class op basis van de class-naam in de url   
+  <br><br>
 
 > ##### Op te leveren
 > * een REST API-applicatie met;

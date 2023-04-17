@@ -10,28 +10,61 @@ Over Lucy
 * Gebruik <code>npm start</code> om een webserver op te starten en de gegenereerde site te bekijken in je lokale omgeving.
 
 ### Hoe werkt het
-* De opdrachten staan in de map src/subjects. In deze map kunnen nieuwe opdrachten geplaatst worden en bestaande opdrachten kunnen worden aangepast.
-* Een nieuwe opdracht begint altijd met:
-
+* Iedere leerlijn heeft een map in src/subjects. Hier kun je nieuwe opdrachten maken en toevoegen. Een map is voorzien van een <mapnaam>.json-file. Dit .json-bestand bevat de informatie voor eleventy om de markdown-bestanden om te zetten en html te genereren.
+Hieronder een voorbeeld:
+```json
+{
+	"layout":"assignment.webc",
+	"tags":"database-ontwerp",
+	"coursetitle":"Database ontwerp",
+	"permalink":"/subjects/database-ontwerp/{{ title | slugify }}/{{ page.index }}"
+}
+```
+* Layout is de template die wordt gebruikt (altijd dezelfde voor opdrachten)
+* tags is de slugname voor de map
+* coursetitle is de titel bovenaan iedere opdracht in een leerlijn
+* permalink is de link die wordt gegenereerd relatief aan de rootmap van de website.
+    
+## Frontmatter
+* De tekst die tussen de '---' en de '---' staat wordt 'frontmatter' genoemd.
+* In de frontmatter geef je informatie over de opdracht
+* De auteurs komen uit _data/authors.json. Met de keys uit dit authors.json wordt gerefereerd aan de auteurs van de opdracht.
+* De datum is nu de werkelijke datum. Hier wordt niet meer op gesorteerd (zoals in eerder versies)
+* De titel wordt weergeven in links naar en in de titel van de opdracht.
 
 ```python
----
-title: Array
-author: rkerssies, jsiewers, cstegeman, kstarreveld
-date: 2023-01-02
----
 
+Template:
+---
+title: Template
+date: 2023-01-01
+author: jsiewers
+---
+> #### Voorkennis
+> * Je hebt je docentenopleiding afgerond
+> * Je kunt werken met een computer
+
+> #### Dit ga je leren
+> * Je gaat aan de hand van een template een nieuwe opdracht maken voor een module
+> * Markdown: Je maakt gebruik van markdown om de opdracht vorm te geven
+> * Testen: Je test de nieuwe opdracht in een lokale omgeving
+> * Indienen van een pull-request
+
+## Opdracht
+Dit beschrijft wat je moet doen en wat er van je wordt verwacht
+
+## Resultaat
+Dit is het gewenste resultaat
+Hier wordt aangegeveen wat je moet opleveren en waar.
+
+## Evaluatie
+Dit is een rubrics of checklist  waaraan je kunt zien of de opdracht juist is uitgevoerd
 ```
-* De tekst die tussen de '---' en de '---' staat wordt 'frontmatter' genoemd.
-* De volgorde waarin opdrachen worden getoond is afhankelijk van de bestandsnaam
-* De titel wordt weergegeven in de applicatie.  
-* Author is de key van een of meerdere auteurs in ./_data/authors.json.
-* date: datum waarop het document is aangemaakt. De datum verschijnt bovenaan iedere opdracht.
-
-### Codefragmenten
+  
+## Codefragmenten
 Een codefragment kun je genereren door te starten met <code>'''javascript</code> en ook te eindigen met <code>'''</code>. In plaats van javascript kun je ook andere talen gebruiken (php, python, csv, sql en meer).
 
-### Video
+## Video
 Je kunt video's plaatsen die op youtube staan. Een enkele video plaats je met de volgende shorcode:
 ```javascript
 // Een video plaatsen
@@ -53,7 +86,7 @@ Je kunt afbeeldingen tonen met behulp van markdown-code:
 {{ '/_assets/backend/cursus.png' | image: 'Cursus databases ERD', 60 }}
 ```
 De dubbele curly braces zorgen ervoor dat het opgegeven pad wordt omgezet naar een absolute url.  
-Het pad naar de afbeelding wordt bewerkt door een 'url'-filter. De baseURL wordt toegevoegd.  
+Het pad naar de afbeelding wordt nu automatisch bewerkt door een 'url'-filter. Zodat het absolute root-pad naar de website wordt toegevoegd. Ten opzichte van de vorige versie is het url-filter verwijderd. 
 Het 'image'-filter wordt aangeroepen met de grootte als percentage en de alt-tekst.  
 
 ### Links
@@ -101,37 +134,10 @@ Onderstaande extra stijlen in de table-tag werken niet in deze readme, maar wel 
 </div>
 ```
 
+
 ## Updates
 
-```python
-Template:
----
-title: Template
-date: 2023-01-01
-author: jsiewers
----
-
-
-> #### Voorkennis
-> * Je hebt je docentenopleiding afgerond
-> * Je kunt werken met een computer
-
-> #### Dit ga je leren
-> * Je gaat aan de hand van een template een nieuwe opdracht maken voor een module
-> * Markdown: Je maakt gebruik van markdown om de opdracht vorm te geven
-> * Testen: Je test de nieuwe opdracht in een lokale omgeving
-> * Indienen van een pull-request
-
-## Opdracht
-Dit beschrijft wat je moet doen en wat er van je wordt verwacht
-
-## Resultaat
-Dit is het gewenste resultaat
-Hier wordt aangegeveen wat je moet opleveren en waar.
-
-## Evaluatie
-Dit is een rubrics of checklist  waaraan je kunt zien of de opdracht juist is uitgevoerd
-```
+Nieuwe versie lucy gelanceerd op https://edu.tydglas.nl/lucy
 
 Reverting
 
