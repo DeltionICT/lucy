@@ -7,9 +7,6 @@ author: jsiewers
 technology: php, html
 ---
 
-
-
-
 > #### Voorkennis
 > * Basiskennis HTML
 > * PHP Arrays en superglobals $_POST en $_GET
@@ -23,6 +20,7 @@ technology: php, html
 Maak een formulier met een selectbox. In de selectbox kun je een kleur kiezen. Als je het formulier hebt verstuurd zie je een pagina waarvan de achtergrondkleur overeenkomt met de kleur die je had gekozen.
 
 ## Try it!
+```php
 <div class="html">
     <form action="https://static.edutorial.nl/php/color_background.php" method="post">
         <label for="kleur">Kies een kleur</label>
@@ -35,3 +33,5 @@ Maak een formulier met een selectbox. In de selectbox kun je een kleur kiezen. A
         <input type="submit">
     </form>
 </div>
+```
+

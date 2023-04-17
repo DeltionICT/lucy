@@ -675,7 +675,7 @@ minder vaak voor zal komen.
 
 Deze versie heeft wel een hoop meer mogelijkheden, vormen en regels.
 
-{{ 'https://static.edutorial.nl/lucy/javascript/RPSLS.png' | image: 'Rock-Paper-Scissors-Lizzard-Spock', 60 }}
+{{ 'https://static.edutorial.nl/lucy/javascript/RPSLS.png' | image: 'Rock-Paper-Scissors-Lizzard-Spock', 20 }}
 
 # Afronding
 
