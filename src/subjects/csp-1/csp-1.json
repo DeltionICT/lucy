@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"csp-1",
+	"coursetitle":"CSP 1",
+	"permalink":"/subjects/csp-1/{{ title | slugify }}/{{ page.index }}"
+}
