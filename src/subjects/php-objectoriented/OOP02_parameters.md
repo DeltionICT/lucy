@@ -59,8 +59,8 @@ Een voorbeeld:
 4. Toon het resultaat (return van de method) op het scherm.  
 
 ## Resultaat
-Een werkend script gebaseerd op een klasse, object en een method.  
-Het resultaat wordt weergegeven
+* Een werkend script gebaseerd op een klasse, object en een method.  
+* Het resultaat wordt weergegeven
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

@@ -24,7 +24,7 @@ Hoe maakt je duidelijk aan een mede-developer hoe jij het proces ziet
 en op welke manier jij dit wil gaan uitwerken in code. 
 Activiteitendiagrammen zijn hiervoor het meest geschikte middel om afstemming te krijgen hoe het proces moet gaan verlopen.
 
-<img src="{{ '/_assets/themas/activitydiagram.png'  }}" style="width:22%;"> 
+<img src="{{ '/_assets/themas/activitydiagram.png'  }}" style="width:22%;"><br> 
 <img src="{{ '/_assets/themas/activitydiagram-banking.png'  }}" style="width:40%;">
 
 
@@ -38,8 +38,8 @@ Tijdens het project is het verstandig om ActiviteitsDiagrammen bij te werken en 
 Details over ActiviteitenDiagrammen zijn te vinden op how to: [ActivityDiagram]({{ 'https://www.lucidchart.com/pages/how-to-draw-an-activity-diagram-in-UML'  }}) en 
 [ActivityDiagram explained]({{ 'https://www.lucidchart.com/pages/uml-activity-diagram'  }}).
 
-
-NB: ActiviteitenDigrammen vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.
+<br><br>
+NB: ActiviteitenDigrammen vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
 <img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren

@@ -24,7 +24,7 @@ werking en manier van aanroepen van methods.
 Een class-diagram geeft hierin overzicht. Bij het werken in frameworks is het niet nodig om ook alle classes
 van het framework op te nemen in een class-diagram, alleen als deze relatie een toegevoegde waarde heeft.
 
-<img src="{{ '/_assets/themas/class-diagram-example.png'  }}" style="width:38%;"> 
+<img src="{{ '/_assets/themas/class-diagram-example.png'  }}" style="width:38%;"> <br>
 <img src="{{ '/_assets/themas/classdiagram.png'  }}" style="width:58%;">
 
 
@@ -37,9 +37,8 @@ Tijdens het project is het verstandig om ClassDiagrammen bij te werken en bij he
 Details over ClassDiagrammen zijn te vinden op how to: [ClassDiagram]({{ 'https://www.lucidchart.com/pages/how-to-draw-a-class-diagram-in-UML'  }})
 en [ClassDiagrammen explained]({{ 'https://www.lucidchart.com/pages/uml-class-diagram'  }}).
 
-
-NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.
-
+<br><br>
+NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
 <img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren

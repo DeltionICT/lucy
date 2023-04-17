@@ -35,11 +35,11 @@ Tijdens het project is het verstandig om SequenceDiagrammen bij te werken en bij
 Details over SequenceDiagrammen zijn te vinden op how to: [SequenceDiagram]({{ 'https://www.lucidchart.com/pages/uml-sequence-diagram'  }})
 en [ERD explained]({{ 'https://lucidchart.zendesk.com/hc/en-us/articles/207299756-Entity-Relationship-Diagrams'  }})
 of gebruik het ontwerp-tab in XAMPP om ERD's weer te geven en evt. kleine aanpassingen te maken.
-
+<br><br>
 <img src="{{ '/_assets/themas/erd_xampp.png'  }}" style="width:50%;">
 
-
-NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.
+<br><br>
+NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
 <img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren
