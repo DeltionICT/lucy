@@ -35,3 +35,11 @@ h5 {
 h5 {
     border: none;
 }
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+ul {
+    margin: 0 0 1rem 1rem;
+}

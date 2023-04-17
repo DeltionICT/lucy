@@ -13,7 +13,7 @@ code {
     padding-right:0.2rem;
 }
 div.html {
-    background-color: var(--c-bg);
+    background-color: var(--c-header-bg);
     padding:16px;
     border-radius: 4px;
 }
