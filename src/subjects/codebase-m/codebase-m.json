@@ -1,6 +1,6 @@
 {
 	"layout":"assignment.webc",
 	"tags":"codebase-m",
-	"coursetitle":"Codebase interMediate",
+	"coursetitle":"Codebase M",
 	"permalink":"/subjects/codebase-m/{{ title | slugify }}/{{ page.index }}"
 }

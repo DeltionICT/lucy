@@ -72,6 +72,7 @@ layout: layout.webc
         <p slot="title">Thema</p>
         <p slot="techs">
             <tech color="yellow" title="ICT-flex"></tech>
+            <tech color="blue" title="Python"></tech>
             <tech color="yellow" title="Hosting"></tech>
             <tech color="purple" title="Security"></tech>
         </p>
