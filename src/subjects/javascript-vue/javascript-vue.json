@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"javascript-vue",
-	"coursetitle":"Javascript Vue",
-	"permalink":"/subjects/javascript-vue/{{ title | slugify }}/{{ page.index }}"
-}

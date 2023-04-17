@@ -22,7 +22,7 @@ layout: layout.webc
             <tech color="orange" title="HTML"></tech>
             <tech color="orange" title="CSS"></tech>
             <tech color="green" title="Javascript basis"></tech>
-            <tech color="green" title="Javascript Vue"></tech>
+            <tech color="green" title="CSP1"></tech>
             <tech color="yellow" title="User interfaces design"></tech>
             <tech color="blue" title="PHP Intermediate"></tech>
         </p>
