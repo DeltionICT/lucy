@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"php-objectoriented",
-	"coursetitle":"PHP Objectoriënted",
-	"permalink":"/subjects/php-objectoriented/{{ title | slugify }}/{{ page.index }}"
-}
