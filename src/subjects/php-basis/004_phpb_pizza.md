@@ -18,17 +18,10 @@ technology: html, php
 > * Uitvoer van PHP weergeven in HTML
 
 
-## Resultaat
-* Een website voor Pizzeria "circulare delicioso" waar je pizza's kunt bestellen.
-* Maak het formulier zoals in het voorbeeld
-* Nadat het formulier is ingevuld en verstuurd:
-    * De juiste prijs voor de pizza wordt getoond
-    * De prijs voor eventuele extra's wordt getoond.
-
 ## Voor pizza-ninja's....
 * Zorg ervoor dat je meerdere pizza's tegelijk kunt bestellen
 * Per pizza kun je extra's bijbestellen
-
+```php
 <div class="html">
 <div>
   <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/pizzas/spianata_piccante.jpg">
@@ -73,6 +66,7 @@ technology: html, php
   <input type="submit" value="bestellen!">
 </div>
 </div>
+```
 
 ## Testen
 Een pizza Tirato met extra kaas en bezorgkosten toont het volgende op het scherm:
@@ -90,3 +84,11 @@ Bedankt voor uw bestelling!
 * U heeft extra olijven besteld: &euro; 1,50
 * U komt de pizza zelf afhalen
 * U betaalt &euro; 14,00 aan onze kassa.
+
+
+## Op te leveren
+* Een website voor Pizzeria "circulare delicioso" waar je pizza's kunt bestellen.
+* Maak het formulier zoals in het voorbeeld
+* Nadat het formulier is ingevuld en verstuurd:
+  * De juiste prijs voor de pizza wordt getoond
+  * De prijs voor eventuele extra's wordt getoond.

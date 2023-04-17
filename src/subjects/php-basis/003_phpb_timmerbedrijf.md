@@ -17,7 +17,7 @@ technology: html, php
 > * Berekeningen maken met PHP
 
 
-## Resultaat
+## Opdracht
 * Maak een calculatieprogramma voor Timmerbedrijf "About Hout".
 * Het programma kan uitrekenen wat het kost om hout te bestellen om een tafel te maken.
 * Voor het tafelblad kun je kiezen uit drie verschillende houtsoorten. 
@@ -25,6 +25,7 @@ technology: html, php
 * De applicatie toont het aantal m2 uit en het toont de berekende prijs.
 * Een test voor het programma, zodat je zeker weet dat de juiste bedragen worden gefactureerd.
 
+```php
 <div class="html">
 
 <div>
@@ -76,3 +77,7 @@ technology: html, php
   <input type="submit" value="bestellen!">
 </div>
 </div>
+```
+
+## Op te leveren
+* een applicatie die de kosten berekend op basis van de maat tafelblad en het soort hout  

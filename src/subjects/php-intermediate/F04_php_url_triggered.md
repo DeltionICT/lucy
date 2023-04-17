@@ -10,11 +10,11 @@ technology: ide, html, css
 
 > #### Voorkennis
 > * Basis programmeren; variabelen, if-else, arrays, loops
-> * Renderen (verzamelen gegevens, bijvoorbeeld gegevens in één lange string verzamelen)
+> * Renderen (verzalelen gegevens, bijvoorbeeld gegevens in één lange string verzamelen)
 > * Structuur-> eerst logica, daarna weergave.
 
 > #### Dit ga je leren
-> * Content laden en verzamelen op basis van een query-string in de url
+> * Content laden op basis van een query-string in de url
 
 {{ '/_assets/php_intermediate/functions.png' | image: 'image functions', 10 }}
 

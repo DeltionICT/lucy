@@ -62,7 +62,7 @@ Het programma heeft de volgende technische eigenschappen:
 * als bezoeker wil ik mij kunnen registreren, zodat ik zelf ook toegang krijg tot beveiligde content
   * kanttekening 1: leeftijdscheck >= 18 jaar
   * kanttekening 2: er wordt gebruik gemaakt van emailverificatie
-* meta-tags en seo worden optimaliseert met behulp van services
+* meta-tags en seo worden geoptimaliseerd met behulp van services
 * de naam in de browser-tab wordt bijgewerkt m.b.v. services
 * het email-account wordt bewaard in de config-file en goed beveiligd
 <br><br>
