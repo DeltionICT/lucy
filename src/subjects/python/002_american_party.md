@@ -12,7 +12,7 @@ author: jsiewers
 > * Toepassen van de input-functie
 > * Toepassen van openen en schrijven in tekstbestanden
 
-### Resultaat
+## Resultaat
 * Een python-bestand met de code
 * Een tekstbestand met gegevens volgens opdracht
 
