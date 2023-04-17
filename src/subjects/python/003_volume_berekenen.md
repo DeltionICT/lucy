@@ -19,26 +19,30 @@ author: jsiewers
 
 
 Schrijf 2 functies die het volume uitrekenen.  
-De eerste functie berekent de inhoud van een kubus.  
-Alle zijden van de kubus zijn even lang.  
-[Zo bereken je het volume](https://nl.wikibooks.org/wiki/Wiskunde/Volume)  
-De functie moet je op de volgende manier kunnen aanroepen:  
+#### De eerste functie berekent de inhoud van een kubus.  
+* Alle zijden van de kubus zijn even lang.  
+* [Zo bereken je het volume](https://nl.wikibooks.org/wiki/Wiskunde/Volume)  
+* De functie moet je op de volgende manier kunnen aanroepen: 
+ 
 ```python
 volume = kubus_vol(5)
 ```
+```csv
+De inhoud van deze kubus is: 125
+```
 
-`De inhoud van deze kubus is: 125`
-
-De tweede functie berekent het volume van een bol.  
-[Zo bereken je het volume](https://nl.wikibooks.org/wiki/Wiskunde/Volume)  
-Je hebt in ieder geval het getal pi nodig. 
-Python heeft een eigen nauwkeurige versie van het getal pi namelijk math.pi
+#### De tweede functie berekent het volume van een bol.  
+* [Zo bereken je het volume](https://nl.wikibooks.org/wiki/Wiskunde/Volume)  
+* Je hebt in ieder geval het getal pi nodig. 
+* Python heeft een eigen nauwkeurige versie van het getal pi namelijk math.pi
 
 ```python
 volume = bol_vol(4)
 ```
 
-`De inhoud van deze bol is: 268.082573106329`
+```csv
+De inhoud van deze bol is: 268.082573106329`
+```
 
 ## Resultaat
 Een python-bestand met werkende code
