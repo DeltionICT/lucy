@@ -36,21 +36,20 @@ layout: layout.webc
         </p>
     </module>
     <module>
+        <p slot="title">Frontend development</p>
+        <p slot="techs">
+            <tech color="green" title="Javascript Vue"></tech>
+            <tech color="green" title="Webcomponents"></tech>
+            <tech color="yellow" title="User experience design"></tech>
+        </p>
+    </module>
+    <module>
         <p slot="title">Frameworks (MVC) en API</p>
         <p slot="techs">
             <tech color="blue" title="PHP MVC"></tech>
             <tech color="green" title="JS MVC"></tech>
             <tech color="green" title="C# MVC"></tech>
             <tech color="green" title="MVC Projects"></tech>
-        </p>
-    </module>
-    <module>
-        <p slot="title">Frontend development</p>
-        <p slot="techs">
-            <tech color="green" title="Javascript Vue"></tech>
-            <tech color="green" title="Webcomponents"></tech>
-            <tech color="pink" title="React Native"></tech>
-            <tech color="yellow" title="User experience design"></tech>
         </p>
     </module>
     <module>
@@ -62,12 +61,13 @@ layout: layout.webc
             <tech color="purple" title="Projecten"></tech>
             <tech color="purple" title="Database ontwerp"></tech>
         </p>
-    </module>
+    </module>    
     <module>
         <p slot="title">Keuzedelen</p>
         <p slot="techs">
             <tech color="yellow" title="Verdieping Software"></tech>
             <tech color="yellow" title="Oriëntatie Blockchain"></tech>
+            <tech color="yellow" title="React Native"></tech>
         </p>
     </module>
     <module>
@@ -78,6 +78,7 @@ layout: layout.webc
             <tech color="yellow" title="Hosting"></tech>
             <tech color="purple" title="Security"></tech>
             <tech color="purple" title="Intakes en bezoekers"></tech>
+            <tech color="purple" title="Hello Dolly"></tech>
         </p>
     </module>
 </module-container>

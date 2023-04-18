@@ -17,6 +17,10 @@
         margin: 0 auto 2rem auto;
     }
 
+    :host img {
+        width:auto;
+    }
+
     div.cc {
         padding-top: 0.4rem;
         margin-right: 1rem;
