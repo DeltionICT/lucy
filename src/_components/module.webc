@@ -16,7 +16,6 @@
         border-radius: 8px;
         box-shadow: var(--c-box-shadow);
         background-color: var(--c-header-bg);
-        margin: 1rem;
         overflow: auto;
     }
 

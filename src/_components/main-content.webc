@@ -21,11 +21,17 @@
 
     div.content {
         flex: 1 0 0;
+        max-width: calc(80vw - 300px)
     }
 
     @media only screen and (max-width: 600px) {
         :host {
             flex-direction: column;
         }
+        div.content {
+            flex: 1 0 0;
+            max-width: auto;
+        }
+
     }
 </style>
