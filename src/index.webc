@@ -28,15 +28,6 @@ layout: layout.webc
         </p>
     </module>
     <module>
-        <p slot="title">Frontend development</p>
-        <p slot="techs">
-            <tech color="green" title="Javascript Vue"></tech>
-            <tech color="green" title="Webcomponents"></tech>
-            <tech color="pink" title="React Native"></tech>
-            <tech color="yellow" title="User experience design"></tech>
-        </p>
-    </module>
-    <module>
         <p slot="title">Object georiënteerd programmeren</p>
         <p slot="techs">
             <tech color="blue" title="Objectgeoriënteerd"></tech>
@@ -44,6 +35,15 @@ layout: layout.webc
             <tech color="blue" title="OO Projects"></tech>
         </p>
     </module>
+        <module>
+            <p slot="title">Frontend development</p>
+            <p slot="techs">
+                <tech color="green" title="Javascript Vue"></tech>
+                <tech color="green" title="Webcomponents"></tech>
+                <tech color="pink" title="React Native"></tech>
+                <tech color="yellow" title="User experience design"></tech>
+            </p>
+        </module>
     <module>
         <p slot="title">Frameworks (MVC) en API</p>
         <p slot="techs">
