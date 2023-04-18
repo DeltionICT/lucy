@@ -38,7 +38,7 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
      * render de uitkomst en toon deze in de article-tag
      * respecteer de volgende code-structuur:
         * class(es) (in)lezen
-        * logica; initaliseren classes, aanroepen methods en renderen
+        * logica; objecten van classes maken, het aanroepen methods op classes en het renderen van resultaten
         * weergeven van de gerenderde waarden in de html-structuur
 
        Voer de code uit volgens “best practice” technieken.
