@@ -53,13 +53,13 @@ Een voorbeeld:
 ```
 
 #### Stappen
-1. Maak een klasse met daarin één methode.  
+1. Maak een class met daarin één methode.  
 2. In de methode wordt bij het aanroepen van die methode een teller opgehoogd.  
 3. Maak een object van de klasse en roep vanuit het object de methode aan.   
 4. Toon het resultaat (return van de method) op het scherm.  
 
 ## Resultaat
-* Een werkend script gebaseerd op een klasse, object en een method.  
+* Een werkend script gebaseerd op een class, object en een method.  
 * Het resultaat wordt weergegeven
 
 ## Evaluatie

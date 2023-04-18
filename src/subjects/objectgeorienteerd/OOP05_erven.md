@@ -30,7 +30,7 @@ Houdt de volgende structuur aan in je code:
 1. Maak een class die methods heeft om waarden op te slaan en uit te vragen (getters & setters) die elk voortuig heeft (bijv: wielen, stuur, zitplaatsen, etc).
 2. Maak een class 'autos' met methods veel eigenschappen van de class 'voertuigen' erft.<br>
    Voeg specifieke aspecten van een auto met getters en setters uitbreid.
-3. Maak een class 'bicyles' met methods veel eigenschappen van de class 'voertuigen' erft.<br>
+3. Maak een class 'bicycles' met methods veel eigenschappen van de class 'voertuigen' erft.<br>
    Voeg specifieke aspecten van een auto met getters en setters uitbreid.
 4. Maak een object van de class 'bicycles' en set verschillende properties, ook methods van voertuigen. Toon de verzamelde gegevens vanuit
    de getters op het scherm.

@@ -26,13 +26,14 @@ Houdt de volgende structuur aan in je code:
 * tonen van html-structuur en het weergeven van de gerenderde gegevens.
 * werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
 
-[Uitleg IP-adresses & subnetMasks]({{ '_assets/aip/IP-subnet uitleg.docx' | url }})
+1. Kopieer de vorige OOP-opdracht en geef het project een nieuwe naam
 
-1. Neem de opdracht hiervoor over 'public en private'
-* laat het invoegen van het ip-adres en het subnetmask verlopen via de constructor
-* laat de eerste validatie op het ip en subnetmask worden uitgevoerd door de constructor
-* als het ip of subnetmask niet voldoen aan het formaat, laat bij het aanroepen van een method het proces direct stoppe
-  en een melding vanuit de property "failMessage" worden getroond.
+2. Bij het aanmaken van een object sportteams wordt het maximaal aantal teams opgegeven 
+3. Pas het project zo aan dat per object:
+   * het maximum aantal teams in een public property komt
+   * het maximum aantal teams niet kan worden overschreven
+   * als het maximum aantal teams is overschreven een public property "writeTeam" van 'true' op 'false' wordt gezet
+4. Toon aan dat per request het object (of objecten) op de gewenste manier werken (doorloop meerdere scenario's)
 
 ## Resultaat
 Bij het maken van een objecten van een class, worden er direct  waarbij bij het

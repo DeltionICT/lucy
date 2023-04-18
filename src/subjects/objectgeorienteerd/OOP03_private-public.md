@@ -26,15 +26,6 @@ technology: ide, html, css, php, functions, oop, csharp
 [php private]({{ 'https://www.w3schools.com/php/keyword_private.asp' | url }})<br>
 [php protected]({{ 'https://www.w3schools.com/php/keyword_protected.asp' | url }})
 
-
-
-## Opdracht
-Houdt de volgende structuur aan in je code:
-* lezen van classes
-* objecten maken en logica uitvoeren en het renderen van gegevens
-* tonen van html-structuur en het weergeven van de gerenderde gegevens.
-* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
-
 Een voorbeeld van het gebruik van class met private en public properties en methods;
 ```php
 <?php
@@ -82,20 +73,26 @@ Een voorbeeld van het gebruik van class met private en public properties en meth
 <html>
 ```
 
-1. Maak een uitgebreide IP-calculator
-   [Uitleg IP-adresses & subnetMasks]({{ '_assets/aip/IP-subnet uitleg.docx' | url }})<br>
-* Maak method 'setIp'om het ip-adres op te geven, de invoer te controleren en deze beschikbaar stelt aan alle ander methods.
-  Bij foutieve invoer wordt een property "failMessage" gezet met een passende foutmelding.
-* Maak een method 'setSubnet' om het subnetmask op te geven, de invoer te controleren en deze beschikbaar stelt aan alle ander methods.
-  Bij foutieve invoer wordt een property "failMessage" gezet met een passende foutmelding.
-* Maak een method 'getNetwerk' die het netwerkdeel bepaald op basis van ip-adres uit de property en het opgegeven subnetmask in het setSubnet-method.
-  Het ip-adres is achteraf ook op het object op te vragen.
-* Maak een method 'getBroadcast' die het broadcast-ip bepaald op basis van ip-adres uit de property en het opgegeven subnetmask in het setSubnet-method.
-* Maak een method 'getAmounthost' die het aantal mogelijke ip-adressen bepaald op basis van ip-adres uit de property en het opgegeven subnetmask in het setSubnet-method.
-* Maak een method 'getIpNetwork' dat het ip-adres bepaald voor de netwerk-kaart op basis van ip-adres uit de property en het opgegeven subnetmask in het setSubnet-method.
 
-* Maak een formulier dat op basis input-velden en checkboxen de gewenste resultaten teruggeeft en toont.
-* Als er foutieve informatie of onmogelijke situaties ontstaan worden de fouten verzameld en allemaal in een lijst getoond.
+## Opdracht
+Houdt de volgende structuur aan in je code:
+* lezen van classes
+* objecten maken en logica uitvoeren en het renderen van gegevens
+* tonen van html-structuur en het weergeven van de gerenderde gegevens.
+* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+
+1.  Kopieer de vorige OOP-opdracht en geef het project een nieuwe naam
+
+2. Maak een property aan waarin het maximale aantal spelers van een team wordt bepaald
+3. Maak een method aan om spelers team worden toegevoegd, door de naam van het team, de naam van de speler en de het rugnummer mee te geven
+4. Maak een method(s) aan die alléén binnen de class kan worden aangeroepen die controleert of:
+   * het aantal spelers voor een team niet is overschreven
+   * het rugnummer in een team al in gebruik is
+   * als hier niet aan wordt voldaan wordt er een public property 'fails' aan gemaakt waarin alle foutieve toevoegingen worden verzameld in een array
+   * als er een speler wordt aangemaakt met een niet bestaand team, dan wordt er een private property gezet van 'true' naar 'false'
+5. Pas de method aan die de teams teruggeeft door alle spelers en hun rugnummer (nested) mee te geven per team
+6. Het moet nu onmogelijk zijn om in de weergave meer spelers dan het maximum per team te zien en rugnummers per team komen maar 1x voor
+
 
 ## Resultaat
 Methods binnen een class die elkaar kunnen aanroepen.<br>

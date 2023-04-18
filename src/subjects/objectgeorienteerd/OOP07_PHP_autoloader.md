@@ -12,7 +12,7 @@ technology: ide, html, css, php, functions, oop, csharp
 > * Properties instellen en acties uitvoeren voordat de eerste method wordt aangeroepen
 > * Het gebruik van public/private properies en methods & de constructor
 > * Classes elkaars methodes laten overerven
-> * Gebruik van namespaces en use
+> * Gebruik van namespaces en use !
 
 
 > #### Dit ga je leren
@@ -26,7 +26,6 @@ Houdt de volgende structuur aan in je code:
 * objecten maken en logica uitvoeren en het renderen van gegevens
 * tonen van html-structuur en het weergeven van de gerenderde gegevens.
 * werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
-
 
 1. Maak een index-file en twee folders in een app-folder. De mappen hebben de naam 'lib' en 'vendor'.<br>
    Dus bijvoorbeeld: : ./index.php,   ./app/vendor/class.php   en    ./app/lib/class.php <br>
