@@ -47,7 +47,6 @@ layout: layout.webc
             <tech color="blue" title="PHP MVC"></tech>
             <tech color="blue" title="C# MVC"></tech>
             <tech color="green" title="JS MVC"></tech>
-            <tech color="purple" title="MVC Projects"></tech>
         </p>
     </module>
     <module>
