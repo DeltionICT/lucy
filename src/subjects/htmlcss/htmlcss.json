@@ -2,5 +2,5 @@
 	"layout":"assignment.webc",
 	"tags":"html-css",
 	"coursetitle":"HTML-CSS",
-	"permalink":"/subjects/htmlcss/{{ title | slugify }}/{{ page.index }}"
+	"permalink":"/subjects/html-css/{{ title | slugify }}/{{ page.index }}"
 }
