@@ -77,6 +77,7 @@ layout: layout.webc
             <tech color="yellow" title="Verdieping Software"></tech>
             <tech color="yellow" title="Oriëntatie Blockchain"></tech>
             <tech color="yellow" title="React Native"></tech>
+            <tech color="yellow" title="Programmeren van Microcontrollers"></tech>
         </p>
     </module>
     <module>
