@@ -7,22 +7,17 @@ author: jsiewers
 technology: scrum
 ---
 
-
-
-
 > ##### Voorkennis
-> * Backend frameworks, frontend frameworks, scrum, git 
-> * Programmeertaal: vrije keuze
+> * OOP, MVC, databases, queries, API, git
+> * Frontend-framework
 > * Kennis van projectmatig werken en/of Scrum
 
-## Resultaat
-* Een overzicht van geplande en gerealiseerde taken. Gebruik hiervoor een scrumboard of andere projecttool zoal Github, Azure DevOps of vergelijkbaar.
-* Minimaal 4 wireframes van de belangrijkste schermen
-* Een stroomschema/activity diagram van minimaal 2 processen
-* Een presentatie van de volledig werkende website.
-* Een codereview waarin je jouw deel van de code uitlegt.
-* Een evaluatie met aanbevelingen ten aanzien van het product en het proces
-* Een kort verslag waarin je uitlegt wat je hebt geleerd van het project.
+> #### Dit ga je leren
+> * Verschillend OOP- en fontend-technieken en mogelijkheden combineren in één applicatie
+> * Optimaal gebruikmaken van frameworks
+> * Vooraf ontwerpen en uitdenken van de applicatie m.b.v. UML; wireframes, mockup, flowcharts
+> * Projectmatig samenwerken binnen een ontwikkel-team (SCRUM)
+
 
 ## Uitvoering
 Dit project kun je met 2 - 4 studenten uitvoeren.
@@ -60,7 +55,7 @@ Het reisbureau heeft al een complete database met gegevens, deze (sql) database 
 
 ### ERD  
 &nbsp;     
-{{ 'https://static.edutorial.nl/projecten/reisbureau-erd.png' | image: 'ERD Handig Joh', 80 }}
+{{ 'https://static.edutorial.nl/projecten/reisbureau-erd.png' | image: 'ERD Handig Joh', 60 }}
 
 
 ### Overige Documentatie
@@ -68,3 +63,28 @@ Het reisbureau heeft al een complete database met gegevens, deze (sql) database 
 * [Voorbeeld van de JSON data van reserveringen](https://static.edutorial.nl/projecten/reservations.json)
 * [Voorbeeld van een reservering van 1 klant](https://static.edutorial.nl/projecten/customer_reservations.json)
 
+
+## Eisen
+* Een overzicht van geplande en gerealiseerde taken. Gebruik hiervoor een scrumboard of andere projecttool zoal Github, Azure DevOps of vergelijkbaar.
+* Minimaal 4 wireframes van de belangrijkste schermen
+* Een stroomschema/activity diagram van minimaal 2 processen
+* Een presentatie van de volledig werkende website.
+* Een codereview waarin je jouw deel van de code uitlegt.
+* Een evaluatie met aanbevelingen ten aanzien van het product en het proces
+* Een kort verslag waarin je uitlegt wat je hebt geleerd van het project.
+
+
+<hr>
+
+## Op te leveren
+* Samenwerking met 4 teamleden waarmee het eindproduct gezamenlijk tot stand is gekomen
+* Een OOP-applicatie met waarin gebruik is gemaakt van een framework
+* Een correct werkend eindproduct dat voldoet aan de wensen van de klant (uiterlijk, gebruikersgemak en functionaliteiten)
+* Een product dat uitgevoerd is met de huidige 'best practice' inzichten
+* Inzichtelijk werkproces met o.a.: GIT-commits, userstory-taken en burndowns
+
+
+## Evaluatie
+* Presentatie(s) voor de ProductPreview (per sprint)
+* Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+  Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

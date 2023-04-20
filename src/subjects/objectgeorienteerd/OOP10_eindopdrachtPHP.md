@@ -96,5 +96,10 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
 
 
 > ##### Op te leveren
-> * een OOP-applicatie met waarin uitsluitend gebruik is gemaakt van classes
-> * het tonen van gegevens van personen, studenten of docenten op basis van data uit een database-tabel
+* een OOP-applicatie met waarin uitsluitend gebruik is gemaakt van classes
+* het tonen van gegevens van personen, studenten of docenten op basis van data uit een database-tabel
+
+
+## Evaluatie
+Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

@@ -8,7 +8,16 @@ author: rkerssies, cstegeman
 
 ---
 
+> ##### Voorkennis
+> * OOP, MVC, databases, queries, API, git
+> * Frontend-framework
+> * Kennis van projectmatig werken en/of Scrum
 
+> #### Dit ga je leren
+> * Verschillend OOP- en fontend-technieken en mogelijkheden combineren in één applicatie
+> * Optimaal gebruikmaken van frameworks
+> * Vooraf ontwerpen en uitdenken van de applicatie m.b.v. UML; wireframes, mockup, flowcharts
+> * Projectmatig samenwerken binnen een ontwikkel-team (SCRUM)
 
 
 <img src="{{ '/_assets/projecten/beer/prj_biertjes.png'  }}" style="width:10%;">
@@ -25,15 +34,10 @@ Iedere gebruiker kan klikken op een Biertje uit de lijst, bij iedere klik gaat e
 Het maakt niet uit hoe vaak een gebruiker klikt.<br>
 * maak een eigen bier-database aan en haal de bier tabel naar binnen via het SQL-script
 * voeg het veld "likes" aan de tabel toe (zie afbeelding hier rechts-onder)
-Bijvoorbeeld:
-<div style="display:flex; column-gap:20px; margin-top:20px;">
-    <div style="flex:4">
-        <img src="{{ '/_assets/projecten/beer/fase1.png'  }}">
-    </div>
-    <div style="flex:2">
-        <img src="{{ '/_assets/projecten/beer/bier_likes.png'  }}">
-    </div>
-</div>
+Bijvoorbeeld:<br>
+        <img src="{{ '/_assets/projecten/beer/fase1.png'  }}" style="width:30%;">
+        <img src="{{ '/_assets/projecten/beer/bier_likes.png'  }}" style="width:30%;">
+<br>
 
 
 ## Fase 2:
@@ -43,31 +47,19 @@ Er moet nu ook bijgehouden worden dat niet gebruikers meerdere malen op een bier
 * Maak een nieuwe tabel aan zoals rechtsonder weergegeven
     * bij elke like van een IP-adres voeg je id-bier en ip-adres aan de tabel toe
     * om aantal likes op een bier te berekeken: schrijf een query die het aantal bieren telt (per id)
-* De weergave blijft in principe gelijk 
-<div style="display:flex; column-gap:20px; max-width:600px; margin-top:20px;">
-    <div style="flex:4">
-        <img src="{{ '/_assets/projecten/beer/bier_likes.png'  }}">
-    </div>
-    <div style="flex:2">
-        <img src="{{ '/_assets/projecten/beer/bier_ip.png'  }}">
-    </div>
-</div>
+* De weergave blijft in principe gelijk<br> 
+        <img src="{{ '/_assets/projecten/beer/bier_likes.png'  }}" style="width:30%;">
+        <img src="{{ '/_assets/projecten/beer/bier_ip.png'  }}" style="width:14%;">
+<br><br>
 
 ## Fase 3:
 De TBBCompany wil nu ook dat gebruikers een profiel kunnen aanmaken en daarmee zelf rating op een schaal van 1…5 sterren kunnen geven aan een biertje, en ook een proefnotitie kunnen opschrijven.
 * Maak een users tabel aan waar men op kan inloggen
-* maak een rating-tabel aan waar users een rating kunnen geven en een proefnotitie opslaan
-<div style="display:flex; column-gap:20px;  margin-top:20px;">
-    <div style="flex:2">
-        <img src="{{ '/_assets/projecten/beer/user_inlog.png'  }}">
-    </div>
-    <div style="flex:3">
-        <img src="{{ '/_assets/projecten/beer/user-rating.png'  }}">
-    </div>
-    <div style="flex:2">
-        <img src="{{ '/_assets/projecten/beer/rating.png'  }}">
-    </div>
-</div>
+* maak een rating-tabel aan waar users een rating kunnen geven en een proefnotitie opslaan<br>
+        <img src="{{ '/_assets/projecten/beer/user_inlog.png'  }}" style="width:20%;">
+        <img src="{{ '/_assets/projecten/beer/user-rating.png'  }}" style="width:45%;"><br>
+        <img src="{{ '/_assets/projecten/beer/rating.png'  }}" style="width:30%;">
+<br><br>
 
 ## Fase 4:
 De TBBCompany wil nu ook een overzichtsrapport van hun populairste bieren.
@@ -95,5 +87,18 @@ Toepassen van andere API’s via Laravel of C# mag natuurlijk ook maar kost waar
 * code-review
 
 
-> {{technologiesTags}}
+<hr>
+
+## Op te leveren
+* Samenwerking met 4 teamleden waarmee het eindproduct gezamenlijk tot stand is gekomen
+* Een OOP-applicatie met waarin gebruik is gemaakt van een framework
+* Een correct werkend eindproduct dat voldoet aan de wensen van de klant (uiterlijk, gebruikersgemak en functionaliteiten)
+* Een product dat uitgevoerd is met de huidige 'best practice' inzichten
+* Inzichtelijk werkproces met o.a.: GIT-commits, userstory-taken en burndowns
+
+
+## Evaluatie
+* Presentatie(s) voor de ProductPreview (per sprint)
+* Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+  Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
 
