@@ -10,13 +10,20 @@ technology: ide, html, css
 
 > #### Voorkennis
 > * Basis programmeren; variabelen, if-else, arrays, loops
-> * Renderen (verzalelen gegevens, bijvoorbeeld gegevens in één lange string verzamelen)
+> * Renderen (verzamelen gegevens, bijvoorbeeld gegevens in één lange string verzamelen)
 > * Structuur-> eerst logica, daarna weergave.
 
 > #### Dit ga je leren
 > * Content laden op basis van een query-string in de url
 
 {{ '/_assets/php_intermediate/functions.png' | image: 'image functions', 10 }}
+
+## Wat is het wat we willen bereiken
+* Je wilt meerdere pagina's kunnen openen zonder van URL te switchen
+* Hoe kan je meerdere PHP-files openen vanuit één pagina ?
+* De opbouw van jouw site kan dynamischer; één layout-structuur waarin andere PHP-content wordt geïnjecteerd
+* !! DIT is GEEN monkey-see-monkey-do opdracht
+
 
 ## Opdracht
 1. Maak een index-file en een map 'content'.
@@ -41,7 +48,15 @@ website04
 ```
 
 3. Maak PHP-files aan in de 'content' map waarin de functie en de bestandsnaam EXACT hetzelfde zijn.
-4. laat de functies in content-map files in ieder geval een titel als inhoud teruggeven bijv: <br>
+4. De naam van het PHP-contentbestand en de naam van de functie zijn het zelfde.<br>
+   Door dit te doen kan je door een GET-waarde (key: controller) gebruiken om een PHP-file in te lezen<br>
+   en daarna de functie in die PHP-file (met dezelfde naam) aan te roepen.<br>
+   
+   Elk functie geeft ALTIJD een return. De return van een content-functie is altijd een stuk HTML waarin informatie wordt getoond. 
+   Dit kan tekst, afbeeldingen, tabellen, lijsten en formulieren zijn, of een combinatie daarvan.<br> 
+
+4. Laat de functies in content-map files in ieder geval een titel als inhoud teruggeven bijvoorbeeld <br>
+   voor de `content/home.php` file bevat een functie met de naam `home( )` die het volgende zou kunnen teruggeven: <br>
 ```php
     return ('<h1>Home</h1>');
 ```
@@ -51,7 +66,7 @@ website04
 ```php
 
 <?php
-   // php-code komt hier!
+   // alle php-logica komt hier!
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -66,6 +81,10 @@ website04
 </body>
 </html>
 ```
+Probeer het volgende te realiseren:
+* PHP logica boven in
+* Alle PHP logica in functies te stoppen
+* Plaats alle functies in een eigen php-file en include deze (wanneer nodig)
 <br><br>
 6. Gebruik de `$_GET` superglobal om de bestanden in de map content in te voegen in `index.php` (file-inclusion).
    * Let op! Als er geen query-string is in de url (1e maal site bezoeken; get-controller is empty), wat doe je dan?!
@@ -90,7 +109,7 @@ Mooi als dit werkt, maar er zijn geen functies gebruikt.
     include( 'content/'.$_GET['controller'].'.php' );
 
     $function = $_GET['controller']; 
-    $render = $function();
+    $render = $function();      // index.php?controller=bla  ===>>  $_GET['controller ] = 'bla'   ===>>   bla()
 ?>
 
 <html>
