@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"react-native",
-	"coursetitle":"React Native",
-	"permalink":"/subjects/react-native/{{ title | slugify }}/{{ page.index }}"
-}

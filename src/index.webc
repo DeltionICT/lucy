@@ -63,7 +63,8 @@ layout: layout.webc
         <p slot="title">Keuzedelen</p>
         <p slot="techs">
             <tech color="yellow" title="Verdieping Software"></tech>
-            <tech color="yellow" title="Oriëntatie Blockchain"></tech>
+            <tech color="brown" title="Oriëntatie Blockchain"></tech>
+            <tech color="darkgreen" title="App developement"></tech>
         </p>
     </module>
     <module>
@@ -71,9 +72,10 @@ layout: layout.webc
         <p slot="techs">
             <tech color="pink" title="ICT-flex"></tech>
             <tech color="blue" title="Python"></tech>
-            <tech color="yellow" title="Hosting"></tech>
-            <tech color="purple" title="Security"></tech>
-            <tech color="purple" title="Intakes en bezoekers"></tech>
+            <tech color="red" title="Hosting"></tech>
+            <tech color="red" title="Security"></tech>
+            <tech color="red" title="SEO"></tech>
+            <tech color="grey" title="Intakes en bezoekers"></tech>
         </p>
     </module>
 </module-container>

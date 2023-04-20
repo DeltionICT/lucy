@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"app-development",
+	"coursetitle":"React Native",
+	"permalink":"/subjects/app-development/{{ title | slugify }}/{{ page.index }}"
+}

@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"seo",
+	"coursetitle":"Search Engine Optimalisation",
+	"permalink":"/subjects/seo/{{ title | slugify }}/{{ page.index }}"
+}
