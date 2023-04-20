@@ -4,6 +4,7 @@
     case "blue":
       color = "var(--c-blue)"
       text = "#fff"
+      width: "100%"
       break;
     case "yellow":
       color = "var(--c-yellow)"
@@ -11,6 +12,10 @@
       break;
     case "green":
       color = "var(--c-green)"
+      text = "#fff"
+      break;
+    case "darkgreen":
+      color = "var(--c-darkgreen)"
       text = "#fff"
       break;
     case "purple":
@@ -29,11 +34,23 @@
       color = "var(--c-grey)"
       text = "var(--c-brand)"
       break;
+    case "brown":
+      color = "var(--c-brown)"
+      text = "#fff"
+      break;
+    case "red":
+      color = "var(--c-red)"
+      text = "#fff"
+      break;
+    case "black":
+      color = "var(--c-black)"
+      text = "#fff"
+      break;
     default:
       color = "var(--c-blue)"
       text = "#fff"
   }
-  `<span style=background-color:${color};><a style="color:${text}" href=${myhref}>${title}</a><slot></slot></span>`;
+  `<span style=background-color:${color}; width:100%;><a style="color:${text};" href=${myhref}>${title}</a><slot></slot></span>`;
 </script>
 
 <style webc:scoped>
