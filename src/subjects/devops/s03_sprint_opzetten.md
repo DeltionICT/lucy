@@ -35,7 +35,7 @@ _{{ '/_assets/scrum_devops/scrum.png' | image: 'scrum', 10 }}_
 5. Maak samen met ALLE teamleden de taken aan voor ELKE sprint<br>
     * Vul de 'remaining work' in met een reele inschatting voor elke afzonderlijke taak.
     * Werk de 'beschrijving' uit met alle details die nodig zijn om de taak goed te verhelderen.<br>
-        Iedereen moet kunnen begrijpen wat er precies moet gebeuren.
+        Iedereen moet kunnen begrijpen wat er precies moet gebeuren.<br>
    {{ '/_assets/scrum_devops/devops/4b add task ith suggestions.png' | image: 'Devops', 60 }}
 6. Verdeel alle taken onder de team-leden, zodat iedereen evenveel werk krijgt t.o.v. de werktijd.
     * Zorg dat taken kleine op zichzelf staande klussen zijn. Liver meer taken onder een userstory dan te weinig.<br>

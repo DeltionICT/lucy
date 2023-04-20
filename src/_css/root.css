@@ -1,12 +1,16 @@
 :root {
     scroll-behavior: smooth;
-    --c-green: #5e752c;
+    --c-green: #637a32;
+    --c-darkgreen: #35460d;
     --c-orange: #f48220;
     --c-blue: #45438a;
-    --c-yellow: #fff25d;
+    --c-yellow: #eae27e;
     --c-purple: #7188ec;
-    --c-pink: #9b0011;
+    --c-pink: #f8a6b1;
+    --c-red: #9b0011;
     --c-grey: #bbb3a6;
+    --c-brown: #8c631f;
+    --c-black: #2e2e31;
     --c-brand: #25255b;
     --c-brand-orange: #f48220;
     --c-white: #deeef3;
@@ -19,4 +23,11 @@
     --fontsize: 16px;
     --c-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     --c-box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.brown {
+    background-color: #8c631f;
+}
+.red {
+    background-color: #9b0011;
 }
