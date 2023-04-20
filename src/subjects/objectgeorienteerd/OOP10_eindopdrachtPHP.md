@@ -13,15 +13,16 @@ technology: ide, html, css, php, functions, oop, csharp
 > * Het gebruik van public/private properies en methods & de constructor
 > * Classes elkaars methodes laten overerven
 > * Gebruik van namespaces en use
+> * Inzetten van een PHP-autoloader
 
 
 > #### Dit ga je leren
-> * PHP; automatisch laden van classes die 'ge-used' worden op basis van hun namespace
+> * PHP; Verschillend OOP-technieken en mogelijkheden combineren in één applicatie
 
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
 
 ## Opdracht
-Maak een OOP-baseerde web-applicatie waarin persoongssgegevens worden verzameld, bewaard en beheerd.
+Maak een OOP-baseerde web-applicatie waarin persoonsgegevens worden verzameld, bewaard en beheerd.
 
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 <hr>
