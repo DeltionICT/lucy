@@ -65,6 +65,7 @@ layout: layout.webc
             <tech color="yellow" title="Verdieping Software"></tech>
             <tech color="brown" title="Oriëntatie Blockchain"></tech>
             <tech color="darkgreen" title="App developement"></tech>
+            <tech color="purple" title="Programmeren van Microcontrollers"></tech>
         </p>
     </module>
     <module>
