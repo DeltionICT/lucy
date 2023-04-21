@@ -35,7 +35,7 @@ module.exports = function(eleventyConfig) {
         swDest: "./docs/sw.js",
         globDirectory: "./docs",
         globPatterns: ["**/*.{js,css,html}"]
-      });
+    });
 
     eleventyConfig.addPlugin(eleventyImagePlugin, {
 		// Set global default options

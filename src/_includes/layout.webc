@@ -31,7 +31,6 @@
                 <eleventy-image src="./src/_system/deltion.svg" alt="logo deltion"></eleventy-image>
             </div>
             <div slot="links">
-                <span webc:if></span>
                 <nav-item webc:for="(k, item) in nav" :url="item.url" :title="item.name"
                     :selected="getNavClass(item.selected, page.url)"></nav-item>
             </div>
