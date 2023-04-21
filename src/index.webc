@@ -13,14 +13,13 @@ layout: layout.webc
             <tech color="grey" title="Codebase M"></tech>
             <tech color="grey" title="Codebase XL"></tech>
             <tech color="blue" title="PHP Basis"></tech>
-            <tech color="blue" title="Database queries"></tech>
+            <tech color="brown" title="Database queries"></tech>
         </p>
     </module>
     <module>
         <p slot="title">Basis webdevelopment</p>
         <p slot="techs">
-            <tech color="orange" title="HTML"></tech>
-            <tech color="orange" title="CSS"></tech>
+            <tech color="orange" title="HTML-CSS"></tech>
             <tech color="green" title="Javascript basis"></tech>
             <tech color="green" title="CSP 1"></tech>
             <tech color="yellow" title="User interfaces design"></tech>
@@ -31,7 +30,6 @@ layout: layout.webc
         <p slot="title">Object georiënteerd programmeren</p>
         <p slot="techs">
             <tech color="blue" title="Objectgeoriënteerd"></tech>
-            <tech color="blue" title="C#" Objectoriënted></tech>
             <tech color="blue" title="OO Projects"></tech>
         </p>
     </module>
@@ -40,55 +38,45 @@ layout: layout.webc
             <p slot="techs">
                 <tech color="green" title="Javascript Vue"></tech>
                 <tech color="green" title="Webcomponents"></tech>
-                <tech color="pink" title="React Native"></tech>
                 <tech color="yellow" title="User experience design"></tech>
             </p>
         </module>
     <module>
-        <p slot="title">Frontend development</p>
-        <p slot="techs">
-            <tech color="green" title="Javascript Vue"></tech>
-            <tech color="green" title="Webcomponents"></tech>
-            <tech color="yellow" title="User experience design"></tech>
-        </p>
-    </module>
-    <module>
         <p slot="title">Frameworks (MVC) en API</p>
         <p slot="techs">
             <tech color="blue" title="PHP MVC"></tech>
+            <tech color="blue" title="C# MVC"></tech>
             <tech color="green" title="JS MVC"></tech>
-            <tech color="green" title="C# MVC"></tech>
-            <tech color="green" title="MVC Projects"></tech>
         </p>
     </module>
     <module>
         <p slot="title">Ontwerpen en samenwerken</p>
         <p slot="techs">
-            <tech color="yellow" title="Scrum"></tech>
+            <tech color="brown" title="Database ontwerp"></tech>
             <tech color="yellow" title="UML"></tech>
+            <tech color="purple" title="Scrum"></tech>
             <tech color="purple" title="DevOps"></tech>
             <tech color="purple" title="Projecten"></tech>
-            <tech color="purple" title="Database ontwerp"></tech>
         </p>
-    </module>    
+    </module>
     <module>
         <p slot="title">Keuzedelen</p>
         <p slot="techs">
             <tech color="yellow" title="Verdieping Software"></tech>
-            <tech color="yellow" title="Oriëntatie Blockchain"></tech>
-            <tech color="yellow" title="React Native"></tech>
-            <tech color="yellow" title="Programmeren van Microcontrollers"></tech>
+            <tech color="brown" title="Oriëntatie Blockchain"></tech>
+            <tech color="darkgreen" title="App developement"></tech>
+            <tech color="purple" title="Programmeren van Microcontrollers"></tech>
         </p>
     </module>
     <module>
         <p slot="title">Thema</p>
         <p slot="techs">
-            <tech color="yellow" title="ICT-flex"></tech>
+            <tech color="pink" title="ICT-flex"></tech>
             <tech color="blue" title="Python"></tech>
-            <tech color="yellow" title="Hosting"></tech>
-            <tech color="purple" title="Security"></tech>
-            <tech color="purple" title="Intakes en bezoekers"></tech>
-            <tech color="purple" title="Hello Dolly"></tech>
+            <tech color="red" title="Hosting"></tech>
+            <tech color="red" title="Security"></tech>
+            <tech color="red" title="SEO"></tech>
+            <tech color="grey" title="Intakes en bezoekers"></tech>
         </p>
     </module>
 </module-container>
