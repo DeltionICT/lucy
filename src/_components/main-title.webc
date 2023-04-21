@@ -31,4 +31,8 @@
         font-size: 0.9rem;
 
     }
+
+    div.authors p {
+        margin: 0 0 0 0;
+    }
 </style>
