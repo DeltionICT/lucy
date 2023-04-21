@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"microcontrollers, arduino",
+	"coursetitle":"Programmeren van Microcontrollers",
+	"permalink":"/subjects/programmeren-van-microcontrollers/{{ title | slugify }}/{{ page.index }}"
+}
