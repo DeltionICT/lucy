@@ -25,6 +25,10 @@
         text-decoration: none;
     }
 
+    div.category p {
+        margin: 0 0 0 0;
+    }
+
     div.authors {
         text-align: right;
         font-style: italic;

@@ -3,4 +3,4 @@ layout: layout.webc
 permalink: /authors/index.html
 ---
 
-<list-link webc:for="(k, item) in authors" :href="slugify(item.name)" @html="item.name"></list-link>
+<list-link webc:for="(k, item) in authors" :href="'authors/' + slugify(item.name)" @html="item.name"></list-link>

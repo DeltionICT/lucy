@@ -20,6 +20,11 @@
 </head>
 
 <body>
+    <script webc:keep">
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }
+    </script>
     <header>
         <nav>
             <div slot="logo">
