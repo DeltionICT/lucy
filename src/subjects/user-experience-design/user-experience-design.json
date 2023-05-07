@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"user-experience-design",
-	"coursetitle":"User experience design",
-	"permalink":"/subjects/user-experience-design/{{ title | slugify }}/{{ page.index }}"
-}

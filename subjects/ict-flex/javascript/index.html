@@ -1,0 +1,1499 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy | Leeromgeving Software development</title>
+    <link rel="shortcut icon" href="/lucy/_system/favicon.ico" sizes="any"><!-- 32×32 -->
+    <link rel="icon" href="/lucy/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/lucy/_system/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="manifest" href="/lucy/manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+    
+    
+    
+    <style>.wv0jwq1on{list-style-type:none}.wv0jwq1on a{text-decoration:none}.wv0jwq1on li{width:90%;padding:2px 0px 2px 8px;border-radius:8px;margin:0 0 0.5rem 0}.wv0jwq1on li.selected{background-color:var(--c-brand);color:#fff}.wv0jwq1on li.notselected{background-color:var(--c-header-bg)}@media only screen and (max-width:600px){.wv0jwq1on li{width:100%}}
+.webcftrhj{display:flex;justify-content:flex-start}.webcftrhj div.sidebar{flex:0 0 300px}.webcftrhj div.sidebar ul{margin:0 0 1rem 0}.webcftrhj div.content{flex:1 0 0;max-width:calc(80vw - 300px)}@media only screen and (max-width:600px){.webcftrhj{flex-direction:column}.webcftrhj div.content{flex:1 0 0;max-width:80vw}}
+.w3ogpr5jr{margin:0 0 2rem 0}.w3ogpr5jr div.category{border-bottom:1px solid var(--c-brand);font-weight:bold}.w3ogpr5jr div.category a{text-decoration:none}.w3ogpr5jr div.category p{margin:0 0 0 0}.w3ogpr5jr div.authors{text-align:right;font-style:italic;font-size:0.9rem}.w3ogpr5jr div.authors p{margin:0 0 0 0}
+.wh61vald5{margin-right:30px}.wh61vald5:last-child{margin-right:0px}.wh61vald5 .notselected{color:var(--c-brand);padding:8px 0px 8px 8px;border-radius:4px;text-decoration:none}.wh61vald5 .selected{background-color:var(--c-brand);color:var(--c-bg);padding:8px;border-radius:4px;text-decoration:none}
+.w4go7t2fx{display:flex;flex-direction:row;justify-content:space-between;width:80%;margin:8px auto 0 auto}.w4go7t2fx div.links{display:block;text-align:right}@media only screen and (max-width:400px){.w4go7t2fx{flex-direction:column}.w4go7t2fx div.links{text-align:center}}
+.wq89ttfva{padding-top:1rem;padding-bottom:1rem;background-color:var(--c-header-bg);box-shadow:var(--c-box-shadow)}
+.w9s7xnshy{display:flex;flex-direction:column;width:80%;margin:1rem auto 2rem auto;flex:1 0 auto}
+.wzi47stss{display:flex;justify-content:start;flex-direction:row;background-color:var(--c-header-bg);padding:1rem;border-radius:8px;width:80%;margin:0 auto 2rem auto}.wzi47stss img{width:auto}.wzi47stss div.cc{padding-top:0.4rem;margin-right:1rem}.wzi47stss div.copy p{line-height:1.3rem}@media only screen and (max-width:600px){.wzi47stss{flex-direction:column}}
+:root {
+    scroll-behavior: smooth;
+    --c-green: #637a32;
+    --c-darkgreen: #35460d;
+    --c-orange: #f48220;
+    --c-blue: #45438a;
+    --c-yellow: #eae27e;
+    --c-purple: #7188ec;
+    --c-pink: #f8a6b1;
+    --c-red: #9b0011;
+    --c-grey: #bbb3a6;
+    --c-brown: #8c631f;
+    --c-black: #2e2e31;
+    --c-brand: #25255b;
+    --c-brand-orange: #f48220;
+    --c-white: #deeef3;
+    --c-code: rgb(232, 241, 255);
+    --c-bg: #ededed;
+    --c-header-bg: #e0e0e0;
+    --fontfamily: 'Helvetica Neue', 'Arial', sans-serif;
+    --codefont: 'Azeret Mono', monospace;
+    --lineheight: 1.8rem;
+    --fontsize: 16px;
+    --c-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --c-box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* .brown {
+    background-color: #8c631f;
+}
+.red {
+    background-color: #9b0011;
+} */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: var(--fontsize);
+    color: var(--c-brand);
+    line-height: var(--lineheight);
+    background-color: var(--c-bg);
+}
+
+ul,
+ol {
+    margin-left: 1rem;
+}
+
+a {
+    /* text-decoration: none; */
+    color: var(--c-brand);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: var(--c-text-light-3);
+    margin-bottom: 1rem;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+th {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+blockquote {
+    background-color: #fff;
+    border: 1px solid var(--c-brand);
+    border-left: 5px solid var(--c-brand);
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: var(--c-box-shadow);
+}
+
+/* Video */
+.video-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+}
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: var(--c-brand);
+}
+
+h1 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+h4,
+h5 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    display: inline-block;
+
+}
+
+
+h5 {
+    border: none;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+ul {
+    margin: 0 0 1rem 1rem;
+}
+/**
+ * One Light theme for prism.js
+ * Based on Atom's One Light theme: https://github.com/atom/atom/tree/master/packages/one-light-syntax
+ */
+
+/**
+ * One Light colours (accurate as of commit eb064bf on 19 Feb 2021)
+ * From colors.less
+ * --mono-1: hsl(230, 8%, 24%);
+ * --mono-2: hsl(230, 6%, 44%);
+ * --mono-3: hsl(230, 4%, 64%)
+ * --hue-1: hsl(198, 99%, 37%);
+ * --hue-2: hsl(221, 87%, 60%);
+ * --hue-3: hsl(301, 63%, 40%);
+ * --hue-4: hsl(119, 34%, 47%);
+ * --hue-5: hsl(5, 74%, 59%);
+ * --hue-5-2: hsl(344, 84%, 43%);
+ * --hue-6: hsl(35, 99%, 36%);
+ * --hue-6-2: hsl(35, 99%, 40%);
+ * --syntax-fg: hsl(230, 8%, 24%);
+ * --syntax-bg: hsl(230, 1%, 98%);
+ * --syntax-gutter: hsl(230, 1%, 62%);
+ * --syntax-guide: hsla(230, 8%, 24%, 0.2);
+ * --syntax-accent: hsl(230, 100%, 66%);
+ * From syntax-variables.less
+ * --syntax-selection-color: hsl(230, 1%, 90%);
+ * --syntax-gutter-background-color-selected: hsl(230, 1%, 90%);
+ * --syntax-cursor-line: hsla(230, 8%, 24%, 0.05);
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     background-color: var(--c-code);
+     color: hsl(230, 8%, 24%);
+     font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+     direction: ltr;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     line-height: 1.5;
+     -moz-tab-size: 2;
+     -o-tab-size: 2;
+     tab-size: 2;
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+     overflow-x:scroll;
+     overflow-y:scroll;
+ }
+ 
+ /* Selection */
+ code[class*="language-"]::-moz-selection,
+ code[class*="language-"] *::-moz-selection,
+ pre[class*="language-"] *::-moz-selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ code[class*="language-"]::selection,
+ code[class*="language-"] *::selection,
+ pre[class*="language-"] *::selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: 0.5em 0;
+     border-radius: 0.3em;
+     box-shadow:var(--c-box-shadow);
+     overflow: auto;
+ 
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+     padding: 0.2em 0.3em;
+     border-radius: 0.3em;
+     white-space: normal;
+ }
+ 
+ .token.comment,
+ .token.prolog,
+ .token.cdata {
+     color: hsl(0, 0%, 56%);
+ }
+ 
+ .token.doctype,
+ .token.punctuation,
+ .token.entity {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .token.attr-name,
+ .token.class-name,
+ .token.boolean,
+ .token.constant,
+ .token.number,
+ .token.atrule {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .token.keyword {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .token.property,
+ .token.tag,
+ .token.symbol,
+ .token.deleted,
+ .token.important {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .token.selector,
+ .token.string,
+ .token.char,
+ .token.builtin,
+ .token.inserted,
+ .token.regex,
+ .token.attr-value,
+ .token.attr-value > .token.punctuation {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .token.variable,
+ .token.operator,
+ .token.function {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .token.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ /* HTML overrides */
+ .token.attr-value > .token.punctuation.attr-equals,
+ .token.special-attr > .token.attr-value > .token.value.css {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* CSS overrides */
+ .language-css .token.selector {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .language-css .token.property {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-css .token.function,
+ .language-css .token.url > .token.function {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-css .token.url > .token.string.url {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-css .token.important,
+ .language-css .token.atrule .token.rule {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* JS overrides */
+ .language-javascript .token.operator {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-javascript .token.template-string > .token.interpolation > .token.interpolation-punctuation.punctuation {
+     color: hsl(344, 84%, 43%);
+ }
+ 
+ /* JSON overrides */
+ .language-json .token.operator {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-json .token.null.keyword {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ /* MD overrides */
+ .language-markdown .token.url,
+ .language-markdown .token.url > .token.operator,
+ .language-markdown .token.url-reference.url > .token.string {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-markdown .token.url > .token.content {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .language-markdown .token.url > .token.url,
+ .language-markdown .token.url-reference.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-markdown .token.blockquote.punctuation,
+ .language-markdown .token.hr.punctuation {
+     color: hsl(230, 4%, 64%);
+     font-style: italic;
+ }
+ 
+ .language-markdown .token.code-snippet {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-markdown .token.bold .token.content {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .language-markdown .token.italic .token.content {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-markdown .token.strike .token.content,
+ .language-markdown .token.strike .token.punctuation,
+ .language-markdown .token.list.punctuation,
+ .language-markdown .token.title.important > .token.punctuation {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ /* General */
+ .token.bold {
+     font-weight: bold;
+ }
+ 
+ .token.comment,
+ .token.italic {
+     font-style: italic;
+ }
+ 
+ .token.entity {
+     cursor: help;
+ }
+ 
+ .token.namespace {
+     opacity: 0.8;
+ }
+ 
+ /* Plugin overrides */
+ /* Selectors should have higher specificity than those in the plugins' default stylesheets */
+ 
+ /* Show Invisibles plugin overrides */
+ .token.token.tab:not(:empty):before,
+ .token.token.cr:before,
+ .token.token.lf:before,
+ .token.token.space:before {
+     color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Toolbar plugin overrides */
+ /* Space out all buttons and move them away from the right edge of the code block */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+     margin-right: 0.4em;
+ }
+ 
+ /* Styling the buttons */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 6%, 44%);
+     padding: 0.1em 0.4em;
+     border-radius: 0.3em;
+ }
+ 
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+     background: hsl(230, 1%, 78%); /* custom: darken(--syntax-bg, 20%) */
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* Line Highlight plugin overrides */
+ /* The highlighted line itself */
+ .line-highlight.line-highlight {
+     background: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Default line numbers in Line Highlight plugin */
+ .line-highlight.line-highlight:before,
+ .line-highlight.line-highlight[data-end]:after {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 8%, 24%);
+     padding: 0.1em 0.6em;
+     border-radius: 0.3em;
+     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); /* same as Toolbar plugin default */
+ }
+ 
+ /* Hovering over a linkable line number (in the gutter area) */
+ /* Requires Line Numbers plugin as well */
+ pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows > span:hover:before {
+     background-color: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Line Numbers and Command Line plugins overrides */
+ /* Line separating gutter from coding area */
+ .line-numbers.line-numbers .line-numbers-rows,
+ .command-line .command-line-prompt {
+     border-right-color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Stuff in the gutter */
+ .line-numbers .line-numbers-rows > span:before,
+ .command-line .command-line-prompt > span:before {
+     color: hsl(230, 1%, 62%);
+ }
+ 
+ /* Match Braces plugin overrides */
+ /* Note: Outline colour is inherited from the braces */
+ .rainbow-braces .token.token.punctuation.brace-level-1,
+ .rainbow-braces .token.token.punctuation.brace-level-5,
+ .rainbow-braces .token.token.punctuation.brace-level-9 {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-2,
+ .rainbow-braces .token.token.punctuation.brace-level-6,
+ .rainbow-braces .token.token.punctuation.brace-level-10 {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-3,
+ .rainbow-braces .token.token.punctuation.brace-level-7,
+ .rainbow-braces .token.token.punctuation.brace-level-11 {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-4,
+ .rainbow-braces .token.token.punctuation.brace-level-8,
+ .rainbow-braces .token.token.punctuation.brace-level-12 {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* Diff Highlight plugin overrides */
+ /* Taken from https://github.com/atom/github/blob/master/styles/variables.less */
+ pre.diff-highlight > code .token.token.deleted:not(.prefix),
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) {
+     background-color: hsla(353, 100%, 66%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::-moz-selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix),
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) {
+     background-color: hsla(137, 100%, 55%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::-moz-selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ /* Previewers plugin overrides */
+ /* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-light-ui */
+ /* Border around popup */
+ .prism-previewer.prism-previewer:before,
+ .prism-previewer-gradient.prism-previewer-gradient div {
+     border-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Angle and time should remain as circles and are hence not included */
+ .prism-previewer-color.prism-previewer-color:before,
+ .prism-previewer-gradient.prism-previewer-gradient div,
+ .prism-previewer-easing.prism-previewer-easing:before {
+     border-radius: 0.3em;
+ }
+ 
+ /* Triangles pointing to the code */
+ .prism-previewer.prism-previewer:after {
+     border-top-color: hsl(0, 0, 95%);
+ }
+ 
+ .prism-previewer-flipped.prism-previewer-flipped.after {
+     border-bottom-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Background colour within the popup */
+ .prism-previewer-angle.prism-previewer-angle:before,
+ .prism-previewer-time.prism-previewer-time:before,
+ .prism-previewer-easing.prism-previewer-easing {
+     background: hsl(0, 0%, 100%);
+ }
+ 
+ /* For angle, this is the positive area (eg. 90deg will display one quadrant in this colour) */
+ /* For time, this is the alternate colour */
+ .prism-previewer-angle.prism-previewer-angle circle,
+ .prism-previewer-time.prism-previewer-time circle {
+     stroke: hsl(230, 8%, 24%);
+     stroke-opacity: 1;
+ }
+ 
+ /* Stroke colours of the handle, direction point, and vector itself */
+ .prism-previewer-easing.prism-previewer-easing circle,
+ .prism-previewer-easing.prism-previewer-easing path,
+ .prism-previewer-easing.prism-previewer-easing line {
+     stroke: hsl(230, 8%, 24%);
+ }
+ 
+ /* Fill colour of the handle */
+ .prism-previewer-easing.prism-previewer-easing circle {
+     fill: transparent;
+ }
+pre {
+    white-space: pre;
+    overflow: auto;
+    background-color: #ffffff;
+    border: 1px solid var(--c-text);
+    padding: 5px;
+}
+
+code {
+    border-radius: 4px;
+    background-color:var(--c-code);
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+}
+div.html {
+    background-color: var(--c-header-bg);
+    padding:16px;
+    border-radius: 4px;
+}
+
+div.html table td, div.html table th {
+    border:1px solid var(--c-text);
+    padding: 4px;
+}
+div.html table {
+    border-collapse:collapse;
+}</style>
+</head>
+
+<body>
+    
+    <header class="wq89ttfva">
+        <nav class="w4go7t2fx"><a href="/lucy/">
+    <div>
+                <img loading="lazy" decoding="async" src="/lucy/_img/B36NADJHz0-120.svg" alt="logo deltion" width="120" height="41">
+            </div>
+</a>
+<div class="links">
+    <div>
+                <nav-item url="/" title="Modules" selected="selected" class="wh61vald5"><a href="/lucy/" class="selected">Modules</a>
+
+</nav-item>
+<nav-item url="/authors/" title="Auteurs" selected="notselected" class="wh61vald5"><a href="/lucy/authors/" class="notselected">Auteurs</a>
+
+</nav-item>
+            </div>
+</div>
+
+</nav>
+    
+
+</header>
+    <main class="w9s7xnshy">
+        <main-title ref="/subjects/ict-flex/introductie/" class="w3ogpr5jr"><div class="category">
+        <a href="/lucy/subjects/ict-flex/introductie/"><p slot="category">ICT Flex</p></a>
+    </div>
+    <div class="authors">
+        <span slot="authors">Jan Jaap Siewers, Jeroen Heuvelman, André Dalmolen</span> |
+        <span slot="date">Mar 14, 2023</span>
+    </div>
+    <div class="title">
+        <h1><div slot="title">Javascript</div></h1>
+    </div>
+
+</main-title>
+<main-content class="webcftrhj"><div class="sidebar">
+    <ul>
+        <list-link url="/subjects/ict-flex/introductie/" page="/subjects/ict-flex/javascript/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/introductie/"><li class="notselected">Introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/database-introductie/" page="/subjects/ict-flex/javascript/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/database-introductie/"><li class="notselected">Database introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/hosting/" page="/subjects/ict-flex/javascript/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/hosting/"><li class="notselected">Hosting</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/html-en-css/" page="/subjects/ict-flex/javascript/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/html-en-css/"><li class="notselected">HTML en CSS</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/javascript/" page="/subjects/ict-flex/javascript/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/javascript/"><li class="selected">Javascript</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/ken-jezelf/" page="/subjects/ict-flex/javascript/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/ken-jezelf/"><li class="notselected">Ken Jezelf</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/beginnen-met-php/" page="/subjects/ict-flex/javascript/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/beginnen-met-php/"><li class="notselected">Beginnen met PHP</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/programmeren-basis/" page="/subjects/ict-flex/javascript/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/programmeren-basis/"><li class="notselected">Programmeren basis</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/webpagina/" page="/subjects/ict-flex/javascript/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/webpagina/"><li class="notselected">Webpagina</li></a>
+
+</list-link>
+    </ul>
+</div>
+<div class="content">
+    <blockquote>
+<h4>Voorkennis</h4>
+<ul>
+<li>Je hebt al kennis van HTML en CSS</li>
+</ul>
+</blockquote>
+<blockquote>
+<h4>Dit ga je leren</h4>
+<ul>
+<li>Je gaat leren waar je javascript voor kan gebruiken</li>
+<li>Je gaat leren javascript code te schrijven en toe te passen in websites</li>
+<li>Je kan javascript-code debuggen en testen</li>
+<li>Je kunt code van anderen lezen, begrijpen en aanpassen</li>
+</ul>
+</blockquote>
+<h2>Introductie</h2>
+<p>In vorige projecten heb je al kennis gemaakt met HTML en CSS. Met HTML
+kun je de structuur van een webpagina bepalen. CSS kun je vervolgens
+gebruiken om de opmaak van de pagina te bepalen. Hiermee bepaal je dus
+de kleuren, het lettertype en de lettergrootte.</p>
+<p>Wanneer je kennis hebt van HTML en CSS kun je een webpagina bouwen. In
+dit project gaan we nog een extra functionaliteit toevoegen aan de
+webpagina en dat doen we met JavaScript.</p>
+<h2>Vakdocenten</h2>
+<ul>
+<li>Jeroen Heuvelman - JHN - jheuvelman@deltion.nl</li>
+<li>Andre Dalmolen - ADN - adalmolen@deltion.nl</li>
+<li>Peter van Gemert - PGT - pgemert@deltion.nl</li>
+<li>Jan Jaap Siewers - JJS - jsiewers@deltion.nl</li>
+</ul>
+<h2>Backlog</h2>
+<ul>
+<li>
+<p>Als webdeveloper wil ik weten wat Javascript is en waarvoor ik dit
+kan gebruiken.</p>
+</li>
+<li>
+<p>Als webdeveloper wil ik de basis van JavaScript kennen, zodat ik dit
+kan toepassen in door mij gemaakte websites.</p>
+</li>
+<li>
+<p>Als webdeveloper wil ik weten hoe ik JavaScript code kan debuggen,
+zodat ik fouten in mijn code of in code van andere programmeurs kan
+vinden en kan oplossen.</p>
+</li>
+<li>
+<p>Als webdeveloper wil ik JavaScript kunnen lezen zodat ik code van
+anderen kan controleren op fouten.</p>
+</li>
+<li>
+<p>Als webdeveloper wil ik javascript kunnen lezen zodat ik code van
+anderen kan beoordelen op bruikbaarheid in eigen projecten.</p>
+</li>
+<li>
+<p>Als student wil ik opdrachten maken met JavaScript, zodat ik kan
+leren hoe ik JavaScript in de praktijk kan toepassen.</p>
+</li>
+</ul>
+<h2>Javascript</h2>
+<h4>Waarvoor wordt JavaScript gebruikt?</h4>
+<p>Naast HTML en CSS kunnen we JavaScript toevoegen aan een webpagina
+hierdoor wordt de pagina interactief. We kunnen met JavaScript
+afbeeldingen laten bewegen of menu’s laten uitschuiven. Ook kunnen we
+met JavaScript bepalen wat er moet gebeuren wanneer een bezoeker op een
+knop klikt op de webpagina. JavaScript wordt voornamelijk gebruikt voor
+de onderstaande toepassingen in de browser.</p>
+<ul>
+<li>
+<p><strong>Formuliervalidatie</strong><br>
+JavaScript is erg geschikt om ingevulde gegevens in een webformulier
+op de pagina te controleren voordat het formulier wordt verzonden.</p>
+</li>
+<li>
+<p><strong>Dynamische menu’s en afbeeldingen</strong><br>
+Met JavaScript kunnen menu’s, kleuren en afbeeldingen tijdens het
+gebruik van de pagina worden vervangen. Denk bijvoorbeeld aan
+uitklapmenu’s of foto carrousels.</p>
+</li>
+<li>
+<p><strong>Aanpassingen van stijlen en animaties</strong><br>
+Wanneer een webpagina geladen is in de browser, dan kan met
+JavaScript de aanwezigheid, positie en inhoud van elk element op de
+pagina opgehaald en aangepast worden. Denk hierbij aan het wijzigen
+van de pagina wanneer de bezoeker naar beneden scrolt.</p>
+</li>
+</ul>
+<p>JavaScript wordt als scripttaal vaak onderschat maar het is een
+krachtige taal. Zo kunnen met JavaScript bijvoorbeeld spelletjes of 3d
+animaties gemaakt worden. Om te zien hoe krachtig JavaScript is kun je
+de voorbeelden op de volgende webpagina bekijken:
+<a href="https://threejs.org/examples/#webgl_animation_skinning_blending">https://threejs.org/examples/#webgl_animation_skinning_blending</a></p>
+<p>Er zijn online natuurlijk nog veel meer voorbeelden van JavaScript te
+vinden. Naast HTML en CSS is JavaScript kennis belangrijk voor een
+webdeveloper.</p>
+<h4>JavaScript is geen Java</h4>
+<p>De programmeertalen JavaScript en Java worden nogal eens met elkaar
+verward omdat de namen sterk op elkaar lijken. Toch kan je deze
+vergelijking niet maken. JavaScript en Java zijn echt verschillende
+talen. Een aantal verschillen tussen Java en Javascript:</p>
+<ul>
+<li>
+<p>Java is een programmeertaal, Javascript is een scripttaal.</p>
+</li>
+<li>
+<p>Java is server-side, JavaScript is client-side.</p>
+</li>
+<li>
+<p>Java-code moet, voordat je ze kan gebruiken eerst gecompileerd
+worden, Javascript is gewoon platte tekst.</p>
+</li>
+<li>
+<p>Java-applicaties kunnen zowel in een virtuele machine als in een
+browser draaien. Javascript code draait alleen in een browser.</p>
+</li>
+<li>
+<p>Een gecompileerd Java-programma krijgt de extensie .class. Een
+Javascript heeft de .js extensie.</p>
+</li>
+<li>
+<p>Java is ontwikkeld door Sun Microsystems, JavaScript door Netscape.</p>
+</li>
+</ul>
+<h4>Basiselementen</h4>
+<p>In dit hoofdstuk maken we kennis met de volgende JavaScript elementen:</p>
+<ul>
+<li>
+<p>Alert</p>
+</li>
+<li>
+<p>JavaScript debuggen</p>
+</li>
+<li>
+<p>Write</p>
+</li>
+<li>
+<p>Confirm</p>
+</li>
+<li>
+<p>Prompt</p>
+</li>
+<li>
+<p>Functies</p>
+</li>
+<li>
+<p>Variabelen</p>
+</li>
+<li>
+<p>Operatoren</p>
+</li>
+</ul>
+<h4>Alert</h4>
+<p>JavaScript wordt direct uitgevoerd in de browser van de bezoeker
+(client-side) De browser herkent JavaScript aan de <code>&lt;script&gt;</code>-tag. Om
+JavaScript in je webpagina te gebruiken dien je dit als volgt te
+plaatsen:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>script<span class="token operator">></span> <span class="token operator">...</span><span class="token operator">...</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></code></pre>
+<p><em><strong>Taak : Alert</strong></em> <strong>Voorbereiding</strong></p>
+<ul>
+<li>
+<p>Maak in je folder een nieuwe folder aan voor deze opdracht.</p>
+</li>
+<li>
+<p>Zorg voor versiecontrole op deze folder.</p>
+</li>
+<li>
+<p>Plaats een in deze folder en gebruik je favoriete editor om de code
+van listing <a href="#lst:alert" data-reference-type="ref" data-reference="lst:alert">[lst:alert]</a> in dit bestand te
+plaatsen.</p>
+</li>
+<li>
+<p>Add en Commit in Git.</p>
+</li>
+<li>
+<p>Start de webpagina op en kijk wat er gebeurd.</p>
+</li>
+</ul>
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span><br>    <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Interactieve HTML<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Interactieve HTML<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>Mijn eerste JavaScript<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br>        <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'Hello world...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<h4>Debuggen van JavaScript code</h4>
+<p>Wanneer we tijdens het programmeren een type- of een syntaxfout maken
+dan kan het gebeuren dat we een lege webpagina te zien krijgen of dat
+het script niet werkt. We moeten dan teruggaan naar de code van het
+script zodat we deze kunnen aanpassen. Dat opsporen en oplossen van
+fouten in de code noemen we debuggen.</p>
+<h4>Taak : Debugging</h4>
+<p>Ga terug naar de code van en maak een typefout, wijzig alert
+in aler.</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>script<span class="token operator">></span><br>    <span class="token function">aler</span><span class="token punctuation">(</span><span class="token string">'hello world...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></code></pre>
+<p>Sla vervolgens het script op en roep deze opnieuw op in de browser. Het
+script werkt nu niet meer en de alertbox wordt niet getoond. Alle
+browsers hebben hulpmiddelen die ons helpen om de gemaakte fouten op te
+sporen. We noemen dit Debuggen. Dit debuggen kan via de console. In
+Google Chrome kunnen we deze oproepen met F12 (of rechtermuisknop
+-&gt;&quot;Inspecteren&quot;). We krijgen dan de JavaScript console te zien. De
+console geeft aan welke fouten het script bevat.</p>
+<h2>Debugger Commando</h2>
+<p>JavaScript heeft nog een extra commando om fouten in de code op te
+sporen. Dit is het debugger commando. Met het debugger commando is het
+mogelijk om tijdens het uitvoeren van de code deze tijdelijk te
+onderbreken met een breakpoint om deze daarna weer door te laten lopen.
+Meer informatie over het debuggen van JavaScript code en het debugger
+commando kun je vinden op:
+<a href="https://www.w3schools.com/js/js_debugging.asp">https://www.w3schools.com/js/js_debugging.asp</a></p>
+<p>Bezoek deze pagina en bestudeer hoe het debuggen van JavaScript code
+werkt.</p>
+<h2>Ingebouwde methodes</h2>
+<p>Alle programmeertalen hebben een ingebouwde library met methodes waarmee
+we de meest voorkomende taken kunnen uitvoeren. Een voorbeeld hiervan is
+de alert methode van de vorige opdracht. JavaScript heeft nog meer
+methodes een aantal van deze methodes gaan we hieronder behandelen.</p>
+<h4>document.write()</h4>
+<p>Deze methode kunnen we gebruiken om teksten of HTML-elementen vanuit
+JavaScript op het scherm te tonen. De <code>write</code>-methode kan als volgt
+gebruikt worden:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>script<span class="token operator">></span><br>    document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">'hier komt jouw tekst'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></code></pre>
+<p>Op de website <a href="https://www.w3schools.com/jsref/met_doc_write.asp">https://www.w3schools.com/jsref/met_doc_write.asp</a> kan
+je hierover meer informatie vinden. Zoek dit uit.</p>
+<h4>confirm()</h4>
+<p>Soms is het nodig om feedback van een gebruiker op te vragen. Een manier
+omdat te doen is de <code>confirm</code>-methode. Deze methode kan als volgt
+gebruikt worden:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>script<span class="token operator">></span><br>    <span class="token function">confirm</span><span class="token punctuation">(</span><span class="token string">"Wilt u deze weizigingen doorvoeren?"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></code></pre>
+<p>Op de website: <a href="https://www.w3schools.com/jsref/met_win_confirm.asp">https://www.w3schools.com/jsref/met_win_confirm.asp</a>
+kan je hierover meer informatie vinden. Zoek dit uit.</p>
+<h4>prompt()</h4>
+<p>Met de promptbox kun je de gebruiker om input vragen. De
+<code>prompt</code>-methode kan als volgt gebruikt worden:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>script<span class="token operator">></span><br>    <span class="token function">prompt</span><span class="token punctuation">(</span><span class="token string">"Wat is uw leeftijd?"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></code></pre>
+<p>Op de website:
+<a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt">https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt</a>
+kan je hierover meer informatie vonden. Zoek dit uit.</p>
+<h2>Variabelen</h2>
+<p>Net als in PHP is het ook in JavaScript mogelijk om variabelen te
+gebruiken. Door variabelen te gebruiken is het mogelijk om bijvoorbeeld
+te gaan rekenen met getallen.</p>
+<p>Op de website: <a href="https://www.w3schools.com/js/js_variables.asp">https://www.w3schools.com/js/js_variables.asp</a> kan je
+hierover meer informatie vinden. Zoek dit uit.</p>
+<h2>Functies</h2>
+<p>Soms heb je stukjes code nodig die op meerdere plekken op je website of
+in je programma gebruikt moeten worden. Denk bijvoorbeeld aan het
+berekenen van een Btw-bedrag in een webshop. Je kan deze code dan op
+verschillende plekken in je programma plaatsen, maar wanneer je dan wat
+wilt aanpassen in dit stukje code, dan dien je dat op verschillende
+plekken in je programma te doen. De kans dat je een fout maakt is dan
+erg groot.</p>
+<p>Om dit te voorkomen kan je gebruik maken van functies. Functies zijn
+stukjes code die buiten de rest van het script geschreven worden. De
+code in een functie wordt alleen aangeroepen wanneer jij daar expliciet
+om vraagt. Met een functie kan je bijvoorbeeld bepalen welk script er
+uitgevoerd moet worden of wanneer een bezoeker op een bepaalde button op
+je website klikt.</p>
+<p>De onderstaande code is een voorbeeld hoe je met JavaScript een functie
+op een knop kan plaatsen.</p>
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>nl<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Interactieve HTML<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br>        <span class="token keyword">function</span> <span class="token function">buttonClick</span><span class="token punctuation">(</span><span class="token punctuation">)</span><br>        <span class="token punctuation">{</span><br>            <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'Er is op de knop geklikt...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Klik op deze knop<span class="token punctuation">"</span></span><br>    <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">buttonClick</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span> <span class="token punctuation">/></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<p>Een functie om het btw-bedrag (uitgaande van een btw-percentage van 21%)
+te berekenen kan er als volgt uitzien:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>script<span class="token operator">></span><br>    <span class="token keyword">function</span> <span class="token function">berekenBtw</span><span class="token punctuation">(</span><span class="token parameter">bedragExBtw</span><span class="token punctuation">)</span><br>    <span class="token punctuation">{</span><br>        <span class="token keyword">return</span> bedragExBtw <span class="token operator">*</span> <span class="token number">0.21</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><br><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></code></pre>
+<p>Als we deze functie bestuderen dan zien we dat functie wordt aangeroepen
+met een bedragExBtw. De functie geeft vervolgens het btw-bedrag terug
+dmv. het <code>return</code>-commando. Wanneer we met deze functie het btw-bedrag
+van ,- willen uitrekenen dan dienen we deze functie als volgt aan te
+roepen:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>script<span class="token operator">></span><br>    <span class="token function">berekenBtw</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></code></pre>
+<p>De functie geeft vervolgens de uitkomst terug en zal in dit geval ,-
+returnen.</p>
+<p>Op de website: <a href="https://www.w3schools.com/js/js_functions.asp">https://www.w3schools.com/js/js_functions.asp</a> kan je
+meer informatie vinden over functies. Zoek dit uit.</p>
+<h2>Meer verdieping in JavaScript</h2>
+<p>Maak de cursus “Learn JavaScript ”op Codecademy.
+<a href="https://www.codecademy.com/learn/introduction-to-javascript">https://www.codecademy.com/learn/introduction-to-javascript</a> om je
+kennis over JavaScript te verdiepen.</p>
+<h4>Opdracht 1 : Getallen</h4>
+<ul>
+<li>
+<p>Gebruik je favoriete editor om de code in listing
+<a href="#lst:Opdracht1" data-reference-type="ref" data-reference="lst:Opdracht1">[lst:Opdracht1]</a> in het bestand
+<code>getallen.html</code> te plaatsen.</p>
+</li>
+<li>
+<p>Commit <code>getallen.html</code> in Git.</p>
+</li>
+<li>
+<p>Start de webpagina op en kijk wat er gebeurt.</p>
+</li>
+<li>
+<p>Pas het script aan zodat je twee getallen kunt invoeren.</p>
+</li>
+<li>
+<p>Wanneer op de knop gelikt wordt, moeten de twee getallen opgeteld
+worden, de uitvoer moet zichtbaar gemaakt worden met een alert box.</p>
+</li>
+<li>
+<p>Commit</p>
+</li>
+</ul>
+<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token constant">DOCTYPE</span> html<span class="token operator">></span><br><span class="token operator">&lt;</span>html lang<span class="token operator">=</span><span class="token string">"nl"</span><span class="token operator">></span><br><span class="token operator">&lt;</span>head<span class="token operator">></span><br>  <span class="token operator">&lt;</span>meta charset<span class="token operator">=</span><span class="token string">"UTF-8"</span><span class="token operator">></span><br>  <span class="token operator">&lt;</span>title<span class="token operator">></span>Interactieve <span class="token constant">HTML</span><span class="token operator">&lt;</span><span class="token operator">/</span>title<span class="token operator">></span><br>  <span class="token operator">&lt;</span>script<span class="token operator">></span><br>    <span class="token keyword">function</span> <span class="token function">checkForm</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>      <span class="token keyword">let</span> getal <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'getal'</span><span class="token punctuation">)</span><br>      <span class="token punctuation">.</span>value<span class="token punctuation">;</span><br>      <span class="token keyword">if</span><span class="token punctuation">(</span>getal <span class="token operator">&lt;</span> <span class="token number">0</span> <span class="token operator">||</span> getal <span class="token operator">>=</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>        <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'Het ingevulde getal is onjuist...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>      <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span><br>        <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'Het ingevulde getal is juist...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>      <span class="token punctuation">}</span><br>    <span class="token punctuation">}</span><br>  <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span><br>  <span class="token operator">&lt;</span><span class="token operator">/</span>head<span class="token operator">></span><br><br><span class="token operator">&lt;</span>body<span class="token operator">></span><br>    <span class="token operator">&lt;</span>h1<span class="token operator">></span>Oefenen met JavaScript<span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">></span><br><br>    Vul een getal tussen <span class="token number">0</span> en <span class="token number">10</span> <span class="token keyword">in</span><span class="token operator">:</span><br>    <span class="token operator">&lt;</span>br <span class="token operator">/</span><span class="token operator">></span><span class="token operator">&lt;</span>br <span class="token operator">/</span><span class="token operator">></span><br>    <span class="token operator">&lt;</span>label <span class="token keyword">for</span><span class="token operator">=</span><span class="token string">"getal"</span><span class="token operator">></span>Getal<span class="token operator">:</span><span class="token operator">&lt;</span><span class="token operator">/</span>label<span class="token operator">></span><span class="token operator">&lt;</span>br<span class="token operator">></span><br>    <span class="token operator">&lt;</span>input type<span class="token operator">=</span><span class="token string">"text"</span> id<span class="token operator">=</span><span class="token string">"getal"</span> name<span class="token operator">=</span><span class="token string">"getal"</span><span class="token operator">></span><span class="token operator">&lt;</span>br<span class="token operator">></span><br>    <span class="token operator">&lt;</span>br <span class="token operator">/</span><span class="token operator">></span><br>    <span class="token operator">&lt;</span>input type<span class="token operator">=</span><span class="token string">"button"</span> value<span class="token operator">=</span><span class="token string">"Controleer getal"</span><br>    onclick<span class="token operator">=</span><span class="token string">"checkForm()"</span> <span class="token operator">/</span><span class="token operator">></span><br><br><span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">></span><br><span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">></span></code></pre>
+<h2>Interactieve teksten aanpassen</h2>
+<p>Met JavaScript is het ook mogelijk om zonder de pagina te vernieuwen
+teksten en afbeeldingen te vervangen. Dit kan op de volgende manier
+gebruikt worden:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span>JavaScript<span class="token operator">--</span><span class="token operator">></span><br><span class="token operator">&lt;</span>script<span class="token operator">></span><br>    document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">"textDiv"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token string">"Uw ingevoerde postcode is onjuist."</span><br><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span><br><br><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span>In <span class="token constant">HTML</span><span class="token operator">--</span><span class="token operator">></span><br><span class="token operator">&lt;</span>div id<span class="token operator">=</span><span class="token string">"textDiv"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span></code></pre>
+<p>Op de website <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script&quot;" class="uri">https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script&quot;</a> kan je hierover meer informatie vinden. Zoek dit uit.</p>
+<h4>Taak : Interactieve Tekst</h4>
+<p>Open het bestand uit de vorige opdracht en pas de code aan zodat de uitkomst op het scherm getoond wordt en niet in een alert box. De tekst moet dus in een div zijn genest.
+Test je programma en commit.</p>
+<h2>Formulieren valideren met JavaScript</h2>
+<p>Een veel gebruikte toepassing van JavaScript is het valideren van
+gegevens in formulieren. Wanneer een bezoeker bijvoorbeeld een postcode
+of een telefoonnummer moet invullen dan is het mogelijk om voordat het
+formulier verzonden wordt, met JavaScript te controleren of de ingevulde
+gegevens correct zijn. Een voorbeeld van formulier validatie met
+JavaScript kun je vinden op
+<a href="https://www.w3schools.com/js/js_validation.asp">https://www.w3schools.com/js/js_validation.asp</a>. Bestudeer deze code
+en oefen ermee.</p>
+<h2>Opdrachten</h2>
+<p>Door middel van een aantal opdrachten ga je nu proberen je kennis over
+JavaScript in de praktijk te brengen. Maak deze opdrachten, test je
+programma’s en commit je code in git. Zorg voor nette leesbare code.
+Plaats CSS en JavaScript in aparte bestanden.</p>
+<ul>
+<li>
+<p>Opdracht 2 Een toets.</p>
+</li>
+<li>
+<p>Opdracht 3 Memory.</p>
+</li>
+<li>
+<p>Opdracht 4 Steen, Papier, Schaar.</p>
+</li>
+</ul>
+<h4>Opdracht 2: Een toets</h4>
+<p>Een docent vraagt of je hem wilt helpen met de controle van een toets.
+Hij wil dat studenten een antwoord kunnen invoeren in een webpagina. De
+webpagina moet na het invoeren van de antwoorden meteen controleren of
+het antwoord correct is.</p>
+<h4>Vragen met antwoorden:</h4>
+<p>De toets moet de volgende vragen bevatten:</p>
+<ol>
+<li>
+<p>Vraag: Wat is de hoofdstad van Spanje? Antwoord: Madrid.</p>
+</li>
+<li>
+<p>Vraag: In welke zee ligt het eiland Mallorca? Antwoord: Middellandse
+zee.</p>
+</li>
+<li>
+<p>vraag Hoeveel paar poten heeft een duizendpoot? Antwoord: 15 paar.</p>
+</li>
+</ol>
+<h4>Opdracht:</h4>
+<ol>
+<li>
+<p>Maak een pagina waar een student de vragen kan beantwoorden.</p>
+</li>
+<li>
+<p>Maak een knop met de tekst &quot;controleer antwoorden&quot;. Zodra je op de
+knop klikt worden de invoer velden gecontroleerd op correctheid en
+word het resultaat weergegeven aan de gebruiker.</p>
+</li>
+</ol>
+<h4>Opdracht 3 : Memory</h4>
+<p>In deze opdracht gaan we het spel &quot;memory&quot; programmeren met HTML/CSS en
+JavaScript. Om je op weg te helpen krijg je een basis script die je kan
+gebruiken om het spel uit te bereiden en verder af te maken.</p>
+<ol>
+<li>
+<p>Gebruikt je favoriete IDE of editor om de onderstaande code in het
+bestand ./javascript/memory/index.html te plaatsen.
+(Listing: <a href="#lst:javascriptindex" data-reference-type="ref" data-reference="lst:javascriptindex">[lst:javascriptindex]</a>)</p>
+</li>
+<li>
+<p>Commit dit in git.</p>
+</li>
+<li>
+<p>Start de webpagina en kijk wat er gebeurd.</p>
+</li>
+<li>
+<p>Vervang de alert boxen in het script door interactieve teksten
+(&lt;div&gt;).</p>
+</li>
+<li>
+<p>Zoek afbeeldingen die je wilt gebruiken voor het memory spel. Denk
+aan het auteursrecht.</p>
+</li>
+<li>
+<p>Pas het script aan, zodat het spel werkt met de door jouw gekozen
+afbeeldingen.</p>
+</li>
+<li>
+<p>Pas het script aan, zodat het spel werkt met minimaal 8 memory
+kaarten.</p>
+</li>
+<li>
+<p>Alle kaarten liggen nu altijd op dezelfde volgorde. Pas het script
+aan zodat bij elk nieuw spel dat gespeeld wordt de kaarten op een
+willekeurige plek in het spel liggen.</p>
+<p>Je mag hiervoor onderstaande functie shuffleCards gebruiken
+(Listing <a href="#lst:shuffleCards" data-reference-type="ref" data-reference="lst:shuffleCards">[lst:shuffleCards]</a>), maar je
+mag het natuurlijk ook zelf programmeren.</p>
+</li>
+<li>
+<p>Pas het script aan, zodat er bij elke klik op een kaart een geluidje
+afgespeeld wordt. Je kan hiervoor zelf een geluidje downloaden.
+(Bijvoorbeeld op de volgende website:
+<a href="https://blog.felgo.com/game-resources/16-sites-featuring-free-game-sounds">https://blog.felgo.com/game-resources/16-sites-featuring-free-game-sounds</a>
+Een voorbeeld hoe je met JavaScript geluiden kan afspelen kan je
+vinden op: <a href="https://www.w3schools.com/JSREF/met_audio_play.asp">https://www.w3schools.com/JSREF/met_audio_play.asp</a></p>
+</li>
+<li>
+<p>Voeg een variabele toe aan het script waarmee geteld wordt hoe vaak
+er geklikt is, toon deze variabele na elke klik op het scherm.</p>
+</li>
+</ol>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Simple Memory<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css"><br>        <span class="token selector">h1</span> <span class="token punctuation">{</span><br>            <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span><br>            <span class="token property">font-family</span><span class="token punctuation">:</span> verdana<span class="token punctuation">;</span><br>            <span class="token property">font-size</span><span class="token punctuation">:</span> 25px<span class="token punctuation">;</span><br>            <span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br>        <span class="token selector">.memoryContainer</span> <span class="token punctuation">{</span><br>            <span class="token property">width</span><span class="token punctuation">:</span> 240px<span class="token punctuation">;</span><br>            <span class="token property">height</span><span class="token punctuation">:</span> 325px<span class="token punctuation">;</span><br>            <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #E9E9E9<span class="token punctuation">;</span><br>            <span class="token property">margin</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span><br>            <span class="token property">background-color</span><span class="token punctuation">:</span> #666<span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br>        <span class="token selector">.memoryCard</span><span class="token punctuation">{</span><br>            <span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><br>            <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span><br>            <span class="token property">background-color</span><span class="token punctuation">:</span> #0099FF<span class="token punctuation">;</span><br>            <span class="token property">margin</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span><br>            <span class="token property">border</span><span class="token punctuation">:</span>1px solid #999999<span class="token punctuation">;</span><br>            <span class="token property">font-size</span><span class="token punctuation">:</span>25px<span class="token punctuation">;</span><br>            <span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span><br>            <span class="token property">color</span><span class="token punctuation">:</span>white<span class="token punctuation">;</span><br>            <span class="token property">float</span><span class="token punctuation">:</span>left<span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br>        <span class="token keyword">var</span> userClick1 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span><br>        <span class="token keyword">var</span> userClick2 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span><br>        <span class="token keyword">var</span> userSelectedCard1 <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span><br>        <span class="token keyword">var</span> userSelectedCard2 <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span><br>        <span class="token keyword">function</span> <span class="token function">checkClickedCard</span><span class="token punctuation">(</span><span class="token parameter">cardNum<span class="token punctuation">,</span> cardId</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>            <span class="token comment">//Geklikte kaart disablen, want je mag maar een keer op dezelfde kaart klikken</span><br>            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>cardId<span class="token punctuation">)</span><span class="token punctuation">.</span>disabled <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span><br>            <span class="token comment">//juiste waarde op de kaart zetten</span><br>            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>cardId<span class="token punctuation">)</span><span class="token punctuation">.</span>value <span class="token operator">=</span> cardNum<span class="token punctuation">;</span><br>            <span class="token comment">//document.getElementById(cardId).style = "background: url(myimage.png)";</span><br><br>            <span class="token comment">//Lees en onthoudt klik1 en klik2</span><br>            <span class="token keyword">if</span><span class="token punctuation">(</span>userClick1<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>                userClick1 <span class="token operator">=</span> cardNum<span class="token punctuation">;</span><br>                userSelectedCard1 <span class="token operator">=</span> cardId<span class="token punctuation">;</span><br>            <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span><br>                userClick2 <span class="token operator">=</span> cardNum<span class="token punctuation">;</span><br>                userSelectedCard2 <span class="token operator">=</span> cardId<span class="token punctuation">;</span><br>            <span class="token punctuation">}</span><br><br>            <span class="token keyword">if</span><span class="token punctuation">(</span>userClick2<span class="token operator">!=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>                <span class="token keyword">if</span><span class="token punctuation">(</span>userClick1<span class="token operator">==</span>userClick2<span class="token punctuation">)</span><span class="token punctuation">{</span><br>                    <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'Goed zo...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>                <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span><br>                    <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'Fout...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>                    document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>userSelectedCard1<span class="token punctuation">)</span><span class="token punctuation">.</span>disabled <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span><br>                    document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>userSelectedCard2<span class="token punctuation">)</span><span class="token punctuation">.</span>disabled <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span><br>                    document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>userSelectedCard1<span class="token punctuation">)</span><span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span><br>                    document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>userSelectedCard2<span class="token punctuation">)</span><span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span><br>                <span class="token punctuation">}</span><br><br>                userClick1 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span><br>                userClick2 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span><br>            <span class="token punctuation">}</span><br>        <span class="token punctuation">}</span><br><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>memoryContainer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Memory<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>kaart1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>memoryCard<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">checkClickedCard</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">'kaart1'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token punctuation">/></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>kaart2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>memoryCard<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">checkClickedCard</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token string">'kaart2'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">/></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>kaart3<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>memoryCard<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">checkClickedCard</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">'kaart3'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">/></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>kaart4<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>memoryCard<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">checkClickedCard</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token string">'kaart4'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">/></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<h4>Function shuffleCards()</h4>
+<p>Onderstaande functie kun je gebruiken om de kaarten willekeurig in het
+spel te tonen. Je mag natuurlijk ook je eigen functie hiervoor
+programmeren.</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">shuffleCards</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>    document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">"memoryCards"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span><br>    cardsArr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Array</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token keyword">for</span><span class="token punctuation">(</span>i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>numberOfCards <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>        cardsArr<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><br>        cardsArr<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><br>    <span class="token keyword">while</span><span class="token punctuation">(</span>cardsArr<span class="token punctuation">.</span>length<span class="token operator">></span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>        <span class="token keyword">var</span> randomNumber <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">floor</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token punctuation">(</span>cardsArr<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>        document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">"memoryCards"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerHTML <span class="token operator">+=</span> <span class="token string">'&lt;input type="button" value="'</span> <span class="token operator">+</span> cardsArr<span class="token punctuation">[</span>randomNumber<span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token string">'" id="kaart'</span> <span class="token operator">+</span> cardsArr<span class="token punctuation">.</span>length <span class="token operator">+</span> <span class="token string">'" class="memoryCard" onclick="checkClickedCard('</span> <span class="token operator">+</span> cardsArr<span class="token punctuation">[</span>randomNumber<span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token string">', \'kaart'</span> <span class="token operator">+</span> cardsArr<span class="token punctuation">.</span>length <span class="token operator">+</span> <span class="token string">'\');" />'</span><span class="token punctuation">;</span><br>        cardsArr<span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span>randomNumber<span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<h4>Opdracht 4 : Steen-Papier-Schaar</h4>
+<p>We kennen allemaal hoe steen-papier-schaar werkt. In deze opdracht gaan
+je dit spel nabouwen in JavaScript.</p>
+<h4>Werking van het spel:</h4>
+<p>Steen-papier-schaar kent 2 spelers. Beide spelers steken tegelijkertijd
+de hand naar voren in een bepaalde vorm. Het doel van het spel is om de
+vorm te kiezen die je tegenstander verslaat.</p>
+<p>Beide spelers tellen tegelijk af en steken tegelijk zonder aarzelen de
+hand uit in een van de volgende vormen:</p>
+<ol>
+<li>
+<p>Een vuist (= steen), wint van de schaar door deze bot te maken.</p>
+</li>
+<li>
+<p>Een vlakke hand (= papier), wint van steen door deze te bedekken.</p>
+</li>
+<li>
+<p>Twee gespreide vingers (= schaar), wint van papier door het te
+verknippen.</p>
+</li>
+</ol>
+<p>Het spel wordt doorgaans een afgesproken oneven aantal keren gespeeld
+(meestal 3 keer), zodat er geen gelijkspel mogelijk is. De winnaar is
+degene die de meeste winnende combinaties maakte.</p>
+<h4>Opgave:</h4>
+<p>Programmeer met JavaScript het spel steen-papier-schaar, zodat je dit
+kan spelen tegen de computer. Je kan het spel drie keer spelen, daarna
+wordt de winnaar op het scherm getoond. Gebruik hiervoor HTML5, CSS3 en
+JavaScript.</p>
+<h4>Extra Uitdaging:</h4>
+<p>Wanneer je dit erg makkelijk vond is dit een extra uitdaging om je
+JavaScript skills te testen. In de show &quot;The Big Bang Theory&quot; spelen de
+hoofdpersonen een andere versie van steen-papier-schaar. Deze versie
+noemen ze &quot;rock, paper, scissors, lizard, spock&quot;. Het toevoegen van 2
+extra opties biedt veel meer mogelijkheden waardoor een geleikspel
+minder vaak voor zal komen.</p>
+<p>Deze versie heeft wel een hoop meer mogelijkheden, vormen en regels.</p>
+<img src="https://static.edutorial.nl/lucy/javascript/RPSLS.png" alt="Rock-Paper-Scissors-Lizzard-Spock" style="width:20%;">
+<h1>Afronding</h1>
+<ul>
+<li>
+<p>Gebruik de rubric om te bepalen of je een voldoende of goed hebt
+voor deze opdracht.</p>
+</li>
+<li>
+<p>Deel de code van deze opdracht via Github met de docenten.</p>
+</li>
+<li>
+<p>Bespreek een reviewmoment bij een docent.</p>
+</li>
+<li>
+<p>Bereidt je voor op het reviewmoment.</p>
+</li>
+<li>
+<p>Na goedkeuring:</p>
+<ol>
+<li>
+<p>Plaats de code van de opdrachten in word documenten.</p>
+</li>
+<li>
+<p>Upload de documenten in Cumlaude.</p>
+</li>
+</ol>
+</li>
+</ul>
+<h2>Planning Javascript</h2>
+<p>Je kunt onderstaande sjabloon gebruiken voor jouw eigen planning. Neem
+onderstaande sjabloon daarvoor over in jouw favoriete planningtool en
+voeg waar gewenst eigen regels toe. Zet de verschillende acties daarna
+op de juiste data in jouw agenda.</p>
+<p>PS: Je kunt taken niet altijd na elkaar te plannen. Je zult taken ook
+moeten laten overlappen. Dit geldt ook voor taken in de verschillende
+opdrachten.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Actie</strong></th>
+<th style="text-align:left"><strong>Datumstart</strong></th>
+<th style="text-align:left"><strong>Datumklaar</strong></th>
+<th style="text-align:left"><strong>Klaar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Bestudeer Javascript basiselementen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Verdiep je in Javascript</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak Javascript opdacht 1 - Getallen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak Javascript opdracht 2 - Een toets</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak Javascript opdracht 3 - Memory</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak Javascript opdracht 4 - Steen-Papier-Schaar</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Afronding</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2>Rubric Javascript</h2>
+<h4>Opdracht 1 - Getallen</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Werking</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Het programma werkt foutloos.</td>
+<td style="text-align:left">Het programma werkt, maar geeft waarschuwingen tijdens het uitvoeren.</td>
+<td style="text-align:left">Het programma werkt, maar geeft fouten tijdens het uitvoeren</td>
+<td style="text-align:left">Het programma werkt niet of kan niet gestart worden.</td>
+</tr>
+<tr>
+<td style="text-align:left">Code review</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan de werking van de source code foutloos en zonder hapering uitleggen.</td>
+<td style="text-align:left">Ik moet soms (niet hindelijk) nadenken over de source code van pagina.</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij het uitlegen van de source code.</td>
+<td style="text-align:left">Ik kan de source code niet uitleggen.</td>
+</tr>
+</tbody>
+</table>
+<h4>Opdracht 2 - Een toets</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Werking</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Het programma werkt foutloos.</td>
+<td style="text-align:left">Het programma werkt, maar geeft waarschuwingen tijdens het uitvoeren</td>
+<td style="text-align:left">Het programma werkt, maar geeft fouten tijdens het uitvoeren.</td>
+<td style="text-align:left">Het programma werkt niet of kan niet gestart worden.</td>
+</tr>
+<tr>
+<td style="text-align:left">Code review</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan de werking van de source code foutloos en zonder hapering uitleggen.</td>
+<td style="text-align:left">Ik moet soms (niet hindelijk) nadenken over de source code van pagina.</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij het uitlegen van de source code.</td>
+<td style="text-align:left">Ik kan de source code niet uitleggen.</td>
+</tr>
+</tbody>
+</table>
+<h4>Opdracht 3 - Memory</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Werking</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Het programma werkt foutloos.</td>
+<td style="text-align:left">Het programma werkt, maar geeft waarschuwingen tijdens het uitvoeren</td>
+<td style="text-align:left">Het programma werkt, maar geeft fouten tijdens het uitvoeren.</td>
+<td style="text-align:left">Het programma werkt niet of kan niet gestart worden.</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan de werking van de source code foutloos en zonder hapering uitleggen.</td>
+<td style="text-align:left">Ik moet soms (niet hindelijk) nadenken over de source code van pagina.</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij het uitlegen van de source code.</td>
+<td style="text-align:left">Ik kan de source code niet uitleggen.</td>
+</tr>
+</tbody>
+</table>
+<h4>Opdracht 4 - Steen, papier, schaar</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Opdracht 4 Steen, Papier, Schaar</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Het programma werkt foutloos en heeft de bonus opdracht verwerkt.</td>
+<td style="text-align:left">Het programma werkt foutloos.</td>
+<td style="text-align:left">Het programma werkt, maar geeft fouten tijdens het uitvoeren.</td>
+<td style="text-align:left">Het programma werkt niet of kan niet gestart worden.</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan de werking van de source code foutloos en zonder hapering uitleggen.</td>
+<td style="text-align:left">Ik moet soms (niet hindelijk) nadenken over de source code van pagina.</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij het uitlegen van de source code.</td>
+<td style="text-align:left">Ik kan de source code niet uitleggen.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</main-content>
+    
+
+</main>
+    <footer class="wzi47stss"><div class="cc">
+    <picture><source type="image/webp" srcset="/lucy/_img/iBwJRm3wB5-88.webp 88w"><img loading="lazy" decoding="async" src="/lucy/_img/iBwJRm3wB5-88.jpeg" alt="logo deltion" width="88" height="31"></picture>
+</div>
+<div class="copy">
+    <p><span>2023</span> © Deltion ICT - Software Development<br>
+            Dit werk valt onder een <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                Naamsvermelding - NietCommercieel 4.0 internationaal-licentie</a>.
+        </p>
+</div>
+
+</footer>
+    <script type="module" defer="">if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }</script>
+
+
+</body>
+</html>

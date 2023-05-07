@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"oo-projects",
-	"coursetitle":"OO projects",
-	"permalink":"/subjects/oo-projects/{{ title | slugify }}/{{ page.index }}"
-}

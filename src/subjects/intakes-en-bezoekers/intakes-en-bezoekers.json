@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"intakes-en-bezoekers",
-	"coursetitle":"Intakes en bezoekers",
-	"permalink":"/subjects/intakes-en-bezoekers/{{ title | slugify }}/{{ page.index }}"
-}

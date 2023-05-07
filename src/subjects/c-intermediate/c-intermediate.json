@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"c-intermediate",
-	"coursetitle":"C# Intermediate",
-	"permalink":"/subjects/c-intermediate/{{ title | slugify }}/{{ page.index }}"
-}

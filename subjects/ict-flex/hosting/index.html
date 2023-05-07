@@ -1,0 +1,1336 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy | Leeromgeving Software development</title>
+    <link rel="shortcut icon" href="/lucy/_system/favicon.ico" sizes="any"><!-- 32×32 -->
+    <link rel="icon" href="/lucy/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/lucy/_system/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="manifest" href="/lucy/manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+    
+    
+    
+    <style>.wv0jwq1on{list-style-type:none}.wv0jwq1on a{text-decoration:none}.wv0jwq1on li{width:90%;padding:2px 0px 2px 8px;border-radius:8px;margin:0 0 0.5rem 0}.wv0jwq1on li.selected{background-color:var(--c-brand);color:#fff}.wv0jwq1on li.notselected{background-color:var(--c-header-bg)}@media only screen and (max-width:600px){.wv0jwq1on li{width:100%}}
+.webcftrhj{display:flex;justify-content:flex-start}.webcftrhj div.sidebar{flex:0 0 300px}.webcftrhj div.sidebar ul{margin:0 0 1rem 0}.webcftrhj div.content{flex:1 0 0;max-width:calc(80vw - 300px)}@media only screen and (max-width:600px){.webcftrhj{flex-direction:column}.webcftrhj div.content{flex:1 0 0;max-width:80vw}}
+.w3ogpr5jr{margin:0 0 2rem 0}.w3ogpr5jr div.category{border-bottom:1px solid var(--c-brand);font-weight:bold}.w3ogpr5jr div.category a{text-decoration:none}.w3ogpr5jr div.category p{margin:0 0 0 0}.w3ogpr5jr div.authors{text-align:right;font-style:italic;font-size:0.9rem}.w3ogpr5jr div.authors p{margin:0 0 0 0}
+.wh61vald5{margin-right:30px}.wh61vald5:last-child{margin-right:0px}.wh61vald5 .notselected{color:var(--c-brand);padding:8px 0px 8px 8px;border-radius:4px;text-decoration:none}.wh61vald5 .selected{background-color:var(--c-brand);color:var(--c-bg);padding:8px;border-radius:4px;text-decoration:none}
+.w4go7t2fx{display:flex;flex-direction:row;justify-content:space-between;width:80%;margin:8px auto 0 auto}.w4go7t2fx div.links{display:block;text-align:right}@media only screen and (max-width:400px){.w4go7t2fx{flex-direction:column}.w4go7t2fx div.links{text-align:center}}
+.wq89ttfva{padding-top:1rem;padding-bottom:1rem;background-color:var(--c-header-bg);box-shadow:var(--c-box-shadow)}
+.w9s7xnshy{display:flex;flex-direction:column;width:80%;margin:1rem auto 2rem auto;flex:1 0 auto}
+.wzi47stss{display:flex;justify-content:start;flex-direction:row;background-color:var(--c-header-bg);padding:1rem;border-radius:8px;width:80%;margin:0 auto 2rem auto}.wzi47stss img{width:auto}.wzi47stss div.cc{padding-top:0.4rem;margin-right:1rem}.wzi47stss div.copy p{line-height:1.3rem}@media only screen and (max-width:600px){.wzi47stss{flex-direction:column}}
+:root {
+    scroll-behavior: smooth;
+    --c-green: #637a32;
+    --c-darkgreen: #35460d;
+    --c-orange: #f48220;
+    --c-blue: #45438a;
+    --c-yellow: #eae27e;
+    --c-purple: #7188ec;
+    --c-pink: #f8a6b1;
+    --c-red: #9b0011;
+    --c-grey: #bbb3a6;
+    --c-brown: #8c631f;
+    --c-black: #2e2e31;
+    --c-brand: #25255b;
+    --c-brand-orange: #f48220;
+    --c-white: #deeef3;
+    --c-code: rgb(232, 241, 255);
+    --c-bg: #ededed;
+    --c-header-bg: #e0e0e0;
+    --fontfamily: 'Helvetica Neue', 'Arial', sans-serif;
+    --codefont: 'Azeret Mono', monospace;
+    --lineheight: 1.8rem;
+    --fontsize: 16px;
+    --c-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --c-box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* .brown {
+    background-color: #8c631f;
+}
+.red {
+    background-color: #9b0011;
+} */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: var(--fontsize);
+    color: var(--c-brand);
+    line-height: var(--lineheight);
+    background-color: var(--c-bg);
+}
+
+ul,
+ol {
+    margin-left: 1rem;
+}
+
+a {
+    /* text-decoration: none; */
+    color: var(--c-brand);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: var(--c-text-light-3);
+    margin-bottom: 1rem;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+th {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+blockquote {
+    background-color: #fff;
+    border: 1px solid var(--c-brand);
+    border-left: 5px solid var(--c-brand);
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: var(--c-box-shadow);
+}
+
+/* Video */
+.video-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+}
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: var(--c-brand);
+}
+
+h1 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+h4,
+h5 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    display: inline-block;
+
+}
+
+
+h5 {
+    border: none;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+ul {
+    margin: 0 0 1rem 1rem;
+}
+/**
+ * One Light theme for prism.js
+ * Based on Atom's One Light theme: https://github.com/atom/atom/tree/master/packages/one-light-syntax
+ */
+
+/**
+ * One Light colours (accurate as of commit eb064bf on 19 Feb 2021)
+ * From colors.less
+ * --mono-1: hsl(230, 8%, 24%);
+ * --mono-2: hsl(230, 6%, 44%);
+ * --mono-3: hsl(230, 4%, 64%)
+ * --hue-1: hsl(198, 99%, 37%);
+ * --hue-2: hsl(221, 87%, 60%);
+ * --hue-3: hsl(301, 63%, 40%);
+ * --hue-4: hsl(119, 34%, 47%);
+ * --hue-5: hsl(5, 74%, 59%);
+ * --hue-5-2: hsl(344, 84%, 43%);
+ * --hue-6: hsl(35, 99%, 36%);
+ * --hue-6-2: hsl(35, 99%, 40%);
+ * --syntax-fg: hsl(230, 8%, 24%);
+ * --syntax-bg: hsl(230, 1%, 98%);
+ * --syntax-gutter: hsl(230, 1%, 62%);
+ * --syntax-guide: hsla(230, 8%, 24%, 0.2);
+ * --syntax-accent: hsl(230, 100%, 66%);
+ * From syntax-variables.less
+ * --syntax-selection-color: hsl(230, 1%, 90%);
+ * --syntax-gutter-background-color-selected: hsl(230, 1%, 90%);
+ * --syntax-cursor-line: hsla(230, 8%, 24%, 0.05);
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     background-color: var(--c-code);
+     color: hsl(230, 8%, 24%);
+     font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+     direction: ltr;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     line-height: 1.5;
+     -moz-tab-size: 2;
+     -o-tab-size: 2;
+     tab-size: 2;
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+     overflow-x:scroll;
+     overflow-y:scroll;
+ }
+ 
+ /* Selection */
+ code[class*="language-"]::-moz-selection,
+ code[class*="language-"] *::-moz-selection,
+ pre[class*="language-"] *::-moz-selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ code[class*="language-"]::selection,
+ code[class*="language-"] *::selection,
+ pre[class*="language-"] *::selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: 0.5em 0;
+     border-radius: 0.3em;
+     box-shadow:var(--c-box-shadow);
+     overflow: auto;
+ 
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+     padding: 0.2em 0.3em;
+     border-radius: 0.3em;
+     white-space: normal;
+ }
+ 
+ .token.comment,
+ .token.prolog,
+ .token.cdata {
+     color: hsl(0, 0%, 56%);
+ }
+ 
+ .token.doctype,
+ .token.punctuation,
+ .token.entity {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .token.attr-name,
+ .token.class-name,
+ .token.boolean,
+ .token.constant,
+ .token.number,
+ .token.atrule {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .token.keyword {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .token.property,
+ .token.tag,
+ .token.symbol,
+ .token.deleted,
+ .token.important {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .token.selector,
+ .token.string,
+ .token.char,
+ .token.builtin,
+ .token.inserted,
+ .token.regex,
+ .token.attr-value,
+ .token.attr-value > .token.punctuation {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .token.variable,
+ .token.operator,
+ .token.function {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .token.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ /* HTML overrides */
+ .token.attr-value > .token.punctuation.attr-equals,
+ .token.special-attr > .token.attr-value > .token.value.css {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* CSS overrides */
+ .language-css .token.selector {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .language-css .token.property {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-css .token.function,
+ .language-css .token.url > .token.function {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-css .token.url > .token.string.url {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-css .token.important,
+ .language-css .token.atrule .token.rule {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* JS overrides */
+ .language-javascript .token.operator {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-javascript .token.template-string > .token.interpolation > .token.interpolation-punctuation.punctuation {
+     color: hsl(344, 84%, 43%);
+ }
+ 
+ /* JSON overrides */
+ .language-json .token.operator {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-json .token.null.keyword {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ /* MD overrides */
+ .language-markdown .token.url,
+ .language-markdown .token.url > .token.operator,
+ .language-markdown .token.url-reference.url > .token.string {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-markdown .token.url > .token.content {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .language-markdown .token.url > .token.url,
+ .language-markdown .token.url-reference.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-markdown .token.blockquote.punctuation,
+ .language-markdown .token.hr.punctuation {
+     color: hsl(230, 4%, 64%);
+     font-style: italic;
+ }
+ 
+ .language-markdown .token.code-snippet {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-markdown .token.bold .token.content {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .language-markdown .token.italic .token.content {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-markdown .token.strike .token.content,
+ .language-markdown .token.strike .token.punctuation,
+ .language-markdown .token.list.punctuation,
+ .language-markdown .token.title.important > .token.punctuation {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ /* General */
+ .token.bold {
+     font-weight: bold;
+ }
+ 
+ .token.comment,
+ .token.italic {
+     font-style: italic;
+ }
+ 
+ .token.entity {
+     cursor: help;
+ }
+ 
+ .token.namespace {
+     opacity: 0.8;
+ }
+ 
+ /* Plugin overrides */
+ /* Selectors should have higher specificity than those in the plugins' default stylesheets */
+ 
+ /* Show Invisibles plugin overrides */
+ .token.token.tab:not(:empty):before,
+ .token.token.cr:before,
+ .token.token.lf:before,
+ .token.token.space:before {
+     color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Toolbar plugin overrides */
+ /* Space out all buttons and move them away from the right edge of the code block */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+     margin-right: 0.4em;
+ }
+ 
+ /* Styling the buttons */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 6%, 44%);
+     padding: 0.1em 0.4em;
+     border-radius: 0.3em;
+ }
+ 
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+     background: hsl(230, 1%, 78%); /* custom: darken(--syntax-bg, 20%) */
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* Line Highlight plugin overrides */
+ /* The highlighted line itself */
+ .line-highlight.line-highlight {
+     background: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Default line numbers in Line Highlight plugin */
+ .line-highlight.line-highlight:before,
+ .line-highlight.line-highlight[data-end]:after {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 8%, 24%);
+     padding: 0.1em 0.6em;
+     border-radius: 0.3em;
+     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); /* same as Toolbar plugin default */
+ }
+ 
+ /* Hovering over a linkable line number (in the gutter area) */
+ /* Requires Line Numbers plugin as well */
+ pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows > span:hover:before {
+     background-color: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Line Numbers and Command Line plugins overrides */
+ /* Line separating gutter from coding area */
+ .line-numbers.line-numbers .line-numbers-rows,
+ .command-line .command-line-prompt {
+     border-right-color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Stuff in the gutter */
+ .line-numbers .line-numbers-rows > span:before,
+ .command-line .command-line-prompt > span:before {
+     color: hsl(230, 1%, 62%);
+ }
+ 
+ /* Match Braces plugin overrides */
+ /* Note: Outline colour is inherited from the braces */
+ .rainbow-braces .token.token.punctuation.brace-level-1,
+ .rainbow-braces .token.token.punctuation.brace-level-5,
+ .rainbow-braces .token.token.punctuation.brace-level-9 {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-2,
+ .rainbow-braces .token.token.punctuation.brace-level-6,
+ .rainbow-braces .token.token.punctuation.brace-level-10 {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-3,
+ .rainbow-braces .token.token.punctuation.brace-level-7,
+ .rainbow-braces .token.token.punctuation.brace-level-11 {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-4,
+ .rainbow-braces .token.token.punctuation.brace-level-8,
+ .rainbow-braces .token.token.punctuation.brace-level-12 {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* Diff Highlight plugin overrides */
+ /* Taken from https://github.com/atom/github/blob/master/styles/variables.less */
+ pre.diff-highlight > code .token.token.deleted:not(.prefix),
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) {
+     background-color: hsla(353, 100%, 66%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::-moz-selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix),
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) {
+     background-color: hsla(137, 100%, 55%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::-moz-selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ /* Previewers plugin overrides */
+ /* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-light-ui */
+ /* Border around popup */
+ .prism-previewer.prism-previewer:before,
+ .prism-previewer-gradient.prism-previewer-gradient div {
+     border-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Angle and time should remain as circles and are hence not included */
+ .prism-previewer-color.prism-previewer-color:before,
+ .prism-previewer-gradient.prism-previewer-gradient div,
+ .prism-previewer-easing.prism-previewer-easing:before {
+     border-radius: 0.3em;
+ }
+ 
+ /* Triangles pointing to the code */
+ .prism-previewer.prism-previewer:after {
+     border-top-color: hsl(0, 0, 95%);
+ }
+ 
+ .prism-previewer-flipped.prism-previewer-flipped.after {
+     border-bottom-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Background colour within the popup */
+ .prism-previewer-angle.prism-previewer-angle:before,
+ .prism-previewer-time.prism-previewer-time:before,
+ .prism-previewer-easing.prism-previewer-easing {
+     background: hsl(0, 0%, 100%);
+ }
+ 
+ /* For angle, this is the positive area (eg. 90deg will display one quadrant in this colour) */
+ /* For time, this is the alternate colour */
+ .prism-previewer-angle.prism-previewer-angle circle,
+ .prism-previewer-time.prism-previewer-time circle {
+     stroke: hsl(230, 8%, 24%);
+     stroke-opacity: 1;
+ }
+ 
+ /* Stroke colours of the handle, direction point, and vector itself */
+ .prism-previewer-easing.prism-previewer-easing circle,
+ .prism-previewer-easing.prism-previewer-easing path,
+ .prism-previewer-easing.prism-previewer-easing line {
+     stroke: hsl(230, 8%, 24%);
+ }
+ 
+ /* Fill colour of the handle */
+ .prism-previewer-easing.prism-previewer-easing circle {
+     fill: transparent;
+ }
+pre {
+    white-space: pre;
+    overflow: auto;
+    background-color: #ffffff;
+    border: 1px solid var(--c-text);
+    padding: 5px;
+}
+
+code {
+    border-radius: 4px;
+    background-color:var(--c-code);
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+}
+div.html {
+    background-color: var(--c-header-bg);
+    padding:16px;
+    border-radius: 4px;
+}
+
+div.html table td, div.html table th {
+    border:1px solid var(--c-text);
+    padding: 4px;
+}
+div.html table {
+    border-collapse:collapse;
+}</style>
+</head>
+
+<body>
+    
+    <header class="wq89ttfva">
+        <nav class="w4go7t2fx"><a href="/lucy/">
+    <div>
+                <img loading="lazy" decoding="async" src="/lucy/_img/B36NADJHz0-120.svg" alt="logo deltion" width="120" height="41">
+            </div>
+</a>
+<div class="links">
+    <div>
+                <nav-item url="/" title="Modules" selected="selected" class="wh61vald5"><a href="/lucy/" class="selected">Modules</a>
+
+</nav-item>
+<nav-item url="/authors/" title="Auteurs" selected="notselected" class="wh61vald5"><a href="/lucy/authors/" class="notselected">Auteurs</a>
+
+</nav-item>
+            </div>
+</div>
+
+</nav>
+    
+
+</header>
+    <main class="w9s7xnshy">
+        <main-title ref="/subjects/ict-flex/introductie/" class="w3ogpr5jr"><div class="category">
+        <a href="/lucy/subjects/ict-flex/introductie/"><p slot="category">ICT Flex</p></a>
+    </div>
+    <div class="authors">
+        <span slot="authors">Jan Jaap Siewers, Jeroen Heuvelman, André Dalmolen</span> |
+        <span slot="date">Mar 13, 2023</span>
+    </div>
+    <div class="title">
+        <h1><div slot="title">Hosting</div></h1>
+    </div>
+
+</main-title>
+<main-content class="webcftrhj"><div class="sidebar">
+    <ul>
+        <list-link url="/subjects/ict-flex/introductie/" page="/subjects/ict-flex/hosting/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/introductie/"><li class="notselected">Introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/database-introductie/" page="/subjects/ict-flex/hosting/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/database-introductie/"><li class="notselected">Database introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/hosting/" page="/subjects/ict-flex/hosting/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/hosting/"><li class="selected">Hosting</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/html-en-css/" page="/subjects/ict-flex/hosting/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/html-en-css/"><li class="notselected">HTML en CSS</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/javascript/" page="/subjects/ict-flex/hosting/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/javascript/"><li class="notselected">Javascript</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/ken-jezelf/" page="/subjects/ict-flex/hosting/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/ken-jezelf/"><li class="notselected">Ken Jezelf</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/beginnen-met-php/" page="/subjects/ict-flex/hosting/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/beginnen-met-php/"><li class="notselected">Beginnen met PHP</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/programmeren-basis/" page="/subjects/ict-flex/hosting/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/programmeren-basis/"><li class="notselected">Programmeren basis</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/webpagina/" page="/subjects/ict-flex/hosting/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/webpagina/"><li class="notselected">Webpagina</li></a>
+
+</list-link>
+    </ul>
+</div>
+<div class="content">
+    <blockquote>
+<h4>Voorkennis</h4>
+<ul>
+<li>Je hebt je docentenopleiding afgerond</li>
+<li>Je kunt werken met een computer</li>
+</ul>
+</blockquote>
+<blockquote>
+<h4>Dit ga je leren</h4>
+<ul>
+<li>Je gaat aan de hand van een template een nieuwe opdracht maken voor een module</li>
+<li>Markdown: Je maakt gebruik van markdown om de opdracht vorm te geven</li>
+<li>Testen: Je test de nieuwe opdracht in een lokale omgeving</li>
+<li>Indienen van een pull-request</li>
+</ul>
+</blockquote>
+<h2>Introductie</h2>
+<p>In deze opdracht leer je de technieken die nodig zijn om een webpagina
+op het internet aan een gebruiker te tonen. Je bent waarschijnlijk
+bekend met een webbrowser en een webserver. Maar weet je ook wat deze
+doen? Naast webbrowsers en webservers zijn er nog meer technieken nodig
+om een webpagina aan een gebruiker te tonen. Ken je de volgende termen?</p>
+<ul>
+<li>Backend</li>
+<li>Frontend</li>
+<li>CSS (Cascading stylesheet)</li>
+<li>Database server</li>
+<li>Firewall</li>
+<li>HTML (HyperText Markup Language)</li>
+<li>HTTP (HyperText Transfer Protocol)</li>
+<li>HTTPS (HyperText Transfer Protocol Secure)</li>
+<li>JS (Javascript)</li>
+<li>JSON (javascript Object Notation)</li>
+<li>PHP (Php: Hypertext Preprocessor)</li>
+<li>Storage server</li>
+<li>SQL (Structured Query Language)</li>
+</ul>
+<p>Deze opdracht introduceert je met deze technieken en je gaat deze ook
+gebruiken.</p>
+<h2>Backlog</h2>
+<ul>
+<li>
+<p>Als web developer moet ik weten welke technieken ervoor zorgen dat
+de gebruiker een webpagina kan bekijken.</p>
+</li>
+<li>
+<p>Als web developer moet ik weten welke functies de laptop, desktop,
+smart phone of tablet heeft bij het bekijken van een webpagina zodat
+ik eventuele problemen kan onderzoeken en oplossen.</p>
+</li>
+<li>
+<p>Als web developer moet ik weten welke functie een webserver heeft
+bij het bekijken van een webpagina zodat ik eventuele problemen kan
+onderzoeken en oplossen.</p>
+</li>
+<li>
+<p>Als web developer moet ik weten welke functie een database server
+heeft bij het bekijken van een webpagina zodat ik eventuele
+problemen kan onderzoeken en oplossen.</p>
+</li>
+</ul>
+<h2>Het Web</h2>
+<h4>Kennismaking</h4>
+<p>We beginnen ons verhaal met Bob. Bob wil graag weten welke docenten
+werkzaam zijn bij de ict-flex opleiding. Hij weet dat hij daarvoor op de
+website van ict-flex moet zijn. Gelukkig is Bob een man van de huidige
+tijd en heeft hij een laptop waarmee hij het web op kan.</p>
+<p><img src="https://static.edutorial.nl/lucy/hosting/hetweb.png" alt="Het Web"></p>
+<h4>De laptop</h4>
+<p>Als eerste zet Bob zijn laptop aan waardoor het operating system start.
+Bob heeft ooit de keuze gemaakt voor Windows, MacOS of Linux. Voor de
+rest van dit verhaal maakt het niet uit welke OS hij gebruikt.</p>
+<p>Om het internet op te kunnen heeft de laptop van Bob een uniek adres op
+het internet nodig. Dit unieke adres noemen we het ip adres. Elke
+systeem op het internet heeft een eigen uniek ip adres. Bob kan dit ip
+adres handmatig instellen maar het is waarschijnlijker dat Bob gebruikt
+maakt van DHCP(1). DHCP is een netwerkprotocol waarbij devices op het
+netwerk automagisch een ip adres krijgen.</p>
+<p>Bij het starten meldt de laptop van Bob zich op het netwerk en vraagt
+aan een DHCP server om een ip adres. De DHCP server zal het verzoek
+beoordelen en na goedkeuring een ip adres teruggeven. Als Bob zijn
+laptop morgen weer aanzet, dan zal DHCP proberen hetzelfde ip adres
+terug te geven. Als Bob zijn laptop nooit meer uitzet, dan zal zijn
+laptop op geregelde tijden aan de DHCP server vragen of het ip adres nog
+gebruikt kan worden. Afhankelijk van het antwoord van de DHCP server zal
+de laptop hetzelfde ip adres blijven gebruiken of een ander ip adres
+krijgen. Het is dus mogelijk dat de laptop van Bob gedurende de dag een
+ander ip adres krijgt.</p>
+<p>Nadat het ip adres is ingesteld start de firewall. Zonder extra
+voorzorgsmaatregelen kan ieder systeem contact proberen te maken met de
+laptop van Bob. Ook kan elke programma dat gestart wordt contact opnemen
+met systemen op het internet. Om dit ongewenst contact tegen te gaan
+heeft het operating system een firewall. De firewall beveiligt het
+netwerk door al het netwerkverkeer van en naar de laptop van Bob te
+controleren. Tijdens deze controle bepaalt de firewall of het verkeer
+toegestaan dan wel verboden is. Niet toegestaan verkeer wordt
+geblokkeerd, terwijl toegestaan verkeer doorgelaten wordt.</p>
+<p>Nu is de laptop van Bob klaar om het internet op te gaan en kan Bob
+inloggen.</p>
+<h2>De webbrowser</h2>
+<p>Nadat Bob ingelogd is in zijn operating system start hij zijn
+webbrowser.</p>
+<p>&quot;Een browser is een computerprogramma waarmee het mogelijk is om over
+het wereldwijde web te surfen, dat wil zeggen websites op het internet
+te bekijken. Webbrowsers zorgen ervoor dat webpagina’s gedownload kunnen
+worden van het web en zetten de broncode om naar een grafische weergave
+op het scherm.&quot;</p>
+<p>Bob maakt misschien gebruik van de standaard browser van Windows,
+namelijk Edge. Hij kan ook een extra browser geïnstaleerd hebben zoals
+Chrome, Firefox, Chromium , Safari of Opera.</p>
+<p>Voor Bob maakt het niet uit welke browser hij gebruikt. Ze laten
+allemaal de inhoud van een webpagina zien.</p>
+<p>Voor de ontwikkelaar van een webpagina is de keuze van een webbrowser
+wel belangrijk. Hoewel ze allemaal de inhoud laten zien, doen ze dat
+niet allemaal op dezelfde manier. Elke browser heeft zijn eigen manier
+om een webpagina te tonen. Dit houdt in dat een webpagina er in
+verschillende browsers verschillend uit kan zien.</p>
+<h2>URL</h2>
+<p>In de browser typt Bob de URL van de ict-flex website:
+<a href="https://ict-flex.nl/over-ons">https://ict-flex.nl/over-ons</a></p>
+<p>&quot;Een URL is niets meer dan een gestructureerde naam die verwijst naar
+een stuk data. Voorbeelden hiervan zijn het unieke adres waarmee de
+locatie van een webpagina op internet wordt aangegeven...&quot;</p>
+<p>De browser zal de url opsplitsen in verschillende elementen en deze
+gebruiken in zijn communicatie met de webserver. De url
+<a href="https://ict-flex.nl/over-ons">https://ict-flex.nl/over-ons</a> bevat de volgende informatie voor de
+webbrowser (en het operating system).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Element</th>
+<th style="text-align:left">Type</th>
+<th style="text-align:left">Uitleg</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">https</td>
+<td style="text-align:left">Protocol</td>
+<td style="text-align:left">Manier waarop browser en server met elkaar communiceren</td>
+</tr>
+<tr>
+<td style="text-align:left">ict-flex.nl</td>
+<td style="text-align:left">Autoriteit</td>
+<td style="text-align:left">De naam van de webserver waar verbinding mee gemaakt moet worden</td>
+</tr>
+<tr>
+<td style="text-align:left">over-ons</td>
+<td style="text-align:left">Resource</td>
+<td style="text-align:left">De gegevens die opgevraagd worden</td>
+</tr>
+</tbody>
+</table>
+<h4>Protocol</h4>
+<p>&quot;A network protocol is an established set of rules that determine how
+data is transmitted between different devices in the same network.
+Essentially, it allows connected devices to communicate with each other,
+regardless of any differences in their internal processes, structure or
+design.&quot;</p>
+<p>Een network protocol is te vergelijken met een taal. Zodra mensen
+dezelfde taal spreken kunnen zij met elkaar praten. Computers kunnen met
+elkaar communiceren als ze dezelfde protocol(len) gebruiken.</p>
+<p>Voor Bob is het handig als zowel zijn browser als de webserver dezelfde
+protocollen spreken. Gelukkig zijn deze protocollen aanwezig: HTTP(2)
+en HTTPS(3).</p>
+<h4>Autoriteit</h4>
+<p>De autoriteit in de url bevat de informatie over de server waar de
+webpagina staat. De autoriteit bestaat uit de volgende deelelementen:</p>
+<ul>
+<li>Domeinnaam</li>
+<li>Subdomein</li>
+<li>Portnummer</li>
+<li>Usernaam en Wachtwoord</li>
+</ul>
+<h4>Domeinnaam</h4>
+<p>&quot;Een domeinnaam is een unieke naam op internet.&quot;
+&quot;Een domeinnaam of domein is de naam van een website en een deel van de
+URL die bezoekers gebruiken om een website te bezoeken.&quot;
+Voorbeelden van domeinen zijn google.nl, google.com, google.co.uk,
+deltion.nl, ict-flex.nl.</p>
+<h4>Subdomein</h4>
+<p>Voor de domeinnaam staat soms een subdomein. Het meest gebruikt
+subdomein is waarschijnlijk www (4). Met een subdomein kun je een
+website opdelen in verschillende onderdelen. Zo laat www.google.nl de
+zoekfunctie van Google zien. maps.google.nl laat je de kaartfunctie van
+Google zien. translate.google.nl brengt je naar de vertaalfunctie van
+google.
+www.deltion.nl is de standaard website van het Deltion College.
+rapid.deltion.nl is een subdomein waar je de RAPiD webapplicatie kunt
+vinden.</p>
+<h4>Poortnummer</h4>
+<p>Met het poortnummer geef je aan met welk proces op de server contact
+moet worden gezocht. HTTP verkeer gaat over poort 80. Deze hoef je ook
+niet op te geven. HTTPS gaat over poort 443 en ook deze hoef je niet op
+te geven.</p>
+<p>Alleen in uitzonderlijke gevallen zul je tegenkomen dat een website op
+een andere poort beschikbaar is. Je ziet dan staan dat je een
+poortnummer moet opgeven in de url. Het poortnummer komt dan achter de
+domeinnaam in de url.</p>
+<h4>Usernaam en wachtwoord</h4>
+<p>Als laatste kun je ook een usernaam en wachtwoord in de autoriteit
+opnemen. Deze usernaam en wachtwoord werd gebruikt om direct op een
+website in te loggen. Deze manier van inloggen wordt tegenwoordig niet
+meer gebruikt omdat het niet veilig is.</p>
+<h4>Complete autoriteit</h4>
+<p>Een uitgebreide autoriteit ziet er dan bijvoorbeeld als volgt uit:
+<a href="https://peter:welkom01@www.petervg.nl:8080">https://peter:welkom01@www.petervg.nl:8080</a></p>
+<h4>Taak : Een eigen domeinnaam</h4>
+<p>Hou het netjes en professioneel!!</p>
+<ol>
+<li>
+<p>Bedenk drie domeinnamen Hou de namen netjes en professioneel!!</p>
+</li>
+<li>
+<p>Controleer of de domeinnamen nog vrij zijn Gebruik daarvoor websites
+van <a href="https://www.sidn.nl">https://www.sidn.nl</a> of <a href="who.is" class="uri">who.is</a></p>
+</li>
+<li>
+<p>Zijn de door jouw gekozen domeinen nog vrij?</p>
+</li>
+</ol>
+<h4>Taak : Bestaande domein controleren</h4>
+<p>Gebruik <a href="https://who.is">https://who.is</a> en <a href="https://sidn.nl">https://sidn.nl</a> om de volgende vragen te beantwoorden.</p>
+<ol>
+<li>
+<p>Beantwoord de volgende vragen over het deltion.nl domein</p>
+<ul>
+<li>
+<p>Sinds wanneer is het deltion.nl domein actief?</p>
+</li>
+<li>
+<p>Bij welk bedrijf is het domein geregistreerd?</p>
+</li>
+<li>
+<p>Wie is het contactpersoon binnen Deltion voor het Deltion.nl
+domein?</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Beantwoord de volgende vragen over het microsoft.nl domein</p>
+<ul>
+<li>
+<p>Sinds wanneer is het microsoft.nl domein actief?</p>
+</li>
+<li>
+<p>Bij welk bedrijf is het domein geregistreerd?</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Beantwoord de volgende vragen over het youtube.com domein</p>
+<ul>
+<li>
+<p>Sinds wanneer is het youtube.com domein actief?</p>
+</li>
+<li>
+<p>Bij welk bedrijf is het domein geregistreerd?</p>
+</li>
+</ul>
+</li>
+</ol>
+<h4>Resource</h4>
+<p>De resource geeft aan welke gegevens er opgevraagd worden. De resource
+is niet verplicht. Als de resource niet opgegeven is zal een browser
+automatisch ontvangen van de webserver. Dit is echter een instelling van
+de webserver en kan door de beheerder aangepast worden.</p>
+<p>Bob heeft wel een resource opgegeven. Hij wil namelijk de over-ons
+pagina zien.</p>
+<h4>Communicatie</h4>
+<p>De laptop van Bob maakt nu contact met de server ict-flex.nl. Via
+DNS(5) wordt de naam ict-flex.nl omgezet naar het unieke ip adres van
+de webserver. De webbrowser vraagt daarna via het https protocol (op
+poort 443) om de over-ons pagina op de webserver.</p>
+<h2>Webserver</h2>
+<p>Via het internet en het web komt het verzoek van Bob binnen bij de
+webserver.</p>
+<p>&quot;De term webserver kan verwijzen naar zowel een softwareprogramma
+waarmee websites via het internet toegankelijk gemaakt kunnen worden,
+als het fysieke computersysteem dat de hiervoor benodigde systeembronnen
+(hardware) levert en meestal in een serverkast in een datacenter wordt
+geplaatst.&quot;</p>
+<p>&quot;Een webserver is een computer die is gekoppeld aan het internet. Op
+deze computer bevinden zich bestanden, afbeeldingen of webpaginas die
+door derden via het internet geraadpleegd kunnen worden.&quot;</p>
+<p>&quot;Webserver-software zorgt primair voor de afhandeling van
+HTTP-verzoeken, oftewel de communicatie tussen server en client bij de
+overdracht van gegevens en bestanden zoals webpagina’s en afbeeldingen.
+Moderne webservers beschikken over de mogelijkheid om meerdere websites
+vanaf één IP-adres aan te bieden (virtual hosting), en kunnen naast het
+overbrengen van statische bestanden (zoals afbeeldingen en JavaScript)
+ook dynamische webpagina’s genereren, direct met behulp van een module
+of indirect als proxy server naar andere software, zoals een interpreter
+of database.&quot;</p>
+<p>De bekendste webserver software zijn:</p>
+<ul>
+<li>
+<p>Apache <a href="https://httpd.apache.org/">https://httpd.apache.org/</a></p>
+</li>
+<li>
+<p>IIS <a href="https://www.iis.net/">https://www.iis.net/</a></p>
+</li>
+<li>
+<p>Nginx <a href="https://www.nginx.com/">https://www.nginx.com/</a></p>
+</li>
+</ul>
+<p>Zoals we weten wil Bob de over-ons pagina zien. De server zoekt nu naar
+de over-ons pagina.</p>
+<h4>Storage server</h4>
+<p>In een “echt” datacenter staan de html bestanden niet op de webserver
+maar op een storage server. De webserver zal dus op de storage server
+zoeken naar de over-ons pagina. De communicatie tussen de webserver en
+de storage server gaat dmv. networkprotocollen zoals NFS(6), CIFS(7),
+of SAN(8).</p>
+<p>NFS en CIFS worden ook wel NAS(9) genoemd. Een bekende leverancier van
+NAS systemen voor thuisgebruik is Synology
+(<a href="https://www.synology.com/nl-nl">https://www.synology.com/nl-nl</a>)</p>
+<h4>PHP</h4>
+<p>De webserver zal de inhoud van de over-ons pagina controleren. Als het
+bestand PHP code bevat, dan zal de webserver de PHP code uitvoeren. Door
+het uitvoeren van deze code zullen er delen van de webpagina met HTML
+code gevuld worden. PHP is een zogenaamde backend taal waarmee
+webpagina’s dynamisch gevuld worden met gegevens. Het uitvoeren van PHP
+gebeurt altijd op de webserver.</p>
+<h4>Database en SQL</h4>
+<p>In veel gevallen staat de informatie die aan de webpagina toegevoegd
+wordt in een database. PHP heeft daarom libraries waarmee verbinding
+gemaakt kan worden met de database server. Dmv. de SQL-taal(10) kan de
+PHP code informatie uit de database halen. Deze informatie wordt dan
+door de PHP code verwerkt en uiteindelijk aan de webpagina toegevoegd.</p>
+<p>Bekende database software zijn:</p>
+<ul>
+<li>
+<p>MySQL <a href="https://www.mysql.com/">https://www.mysql.com/</a></p>
+</li>
+<li>
+<p>MariaDB <a href="https://mariadb.org/">https://mariadb.org/</a></p>
+</li>
+<li>
+<p>Oracle DB <a href="https://www.oracle.com/nl/database/">https://www.oracle.com/nl/database/</a></p>
+</li>
+<li>
+<p>SQL server
+<a href="https://www.microsoft.com/nl-nl/sql-server/sql-server-downloads">https://www.microsoft.com/nl-nl/sql-server/sql-server-downloads</a></p>
+</li>
+<li>
+<p>PostgreSQL <a href="https://www.postgresql.org/download">https://www.postgresql.org/download</a></p>
+</li>
+<li>
+<p>SQLite <a href="https://www.sqlite.org/index.html">https://www.sqlite.org/index.html</a></p>
+</li>
+</ul>
+<h4>External services</h4>
+<p>In sommige gevallen staat de benodigde informatie niet op de eigen
+servers van een bedrijf maar op servers van andere bedrijven. Denk
+bijvoorbeeld aan weer-, verkeers- en beursinformatie. Deze informatie is
+niet via SQL op te vragen omdat de ict-flex server geen verbinding heeft
+met de database server van het externe bedrijf.</p>
+<p>Via een API(11) call kan deze informatie toch van een externe service
+opgevraagd worden. &quot;Een API maakt communicatie en het uitwisselen van
+informatie mogelijk tussen verschillende (software) systemen.&quot;</p>
+<p>&quot;Een API (voluit: application programming interface) is een basis waarop
+computerprogramma’s met elkaar kunnen communiceren. Wanneer een
+computerprogramma een ingang en een set afspraken aanbiedt kan andere
+software deze gebruiken om informatie en instructies met dit programma
+uit te wisselen.&quot;</p>
+<p>Een API levert gegevens meestal terug in JSON (12) formaat maar ook
+XML(13) is gangbaar.</p>
+<p>&quot;[JSON] is een standaard om informatie gestructureerd op te slaan en
+uit te wisselen, vergelijkbaar met XML.&quot;</p>
+<p>De PHP code kan deze JSON of XML gegevens verwerken en in de webpagina
+plaatsen.</p>
+<h4>Communicatie</h4>
+<p>Zodra de webserver klaar is het met maken van de over-ons pagina zal het
+deze pagina via het overeengekomen protocol terug sturen naar de client.</p>
+<h2>Browser</h2>
+<p>De browser ontvangt de over-ons pagina van de webserver.</p>
+<h4>HMTL</h4>
+<p>De webpagina is geschreven in de HTML taal. Deze taal vertelt de browser
+hoe de webpagina is opgebouwd. Waar moet tekst komen te staan. Waar komt
+een plaatje. De locatie van het menu en de opties in het menu worden in
+HTML bepaald.</p>
+<h4>CSS</h4>
+<p>CSS bepaald de opmaak van de webpagina. Welke achtergrond kleur heeft de
+website. In welk font moet de pagina getoond worden.</p>
+<h4>JavaScript</h4>
+<p>De browser controleert of de ontvangen pagina ook JavaScript code bevat.
+Eventuele JavaScript code wordt door de browser uitgevoerd. Door het
+uitvoeren van JavaScript krijgt de over-ons pagina zijn uiteindelijke
+inhoud en opmaak.</p>
+<p>Met JavaScript wordt vaak de DOM(14) aangepast.</p>
+<p>&quot;Het DOM (Document Object Model) is een representatie van elk element op
+een pagina in een boomstructuur. De browser gebruikt het DOM om elk
+element op een pagina te tonen. Het bevat zowel de elementen als de
+inhoud van een element.&quot;</p>
+<p>De over-ons pagina wordt nu op het scherm van Bob getoond.</p>
+<h4>Bob</h4>
+<p>Bob kan nu eindelijk lezen wie er allemaal bij de ict-flex opleiding
+werken.</p>
+<p>Wanneer Bob op een nieuwe link op de pagina klikt, dan wordt de volgende
+pagina weer volgens bovenstaande verhaal opgehaald.</p>
+<h2>Opgave</h2>
+<p>Je weet nu hoe het web werkt. Het is daarom tijd dat je er ook gebruik
+van maakt. Doel van deze opgave is dat je een domein op het internet
+krijgt. Je kunt deze website gebruiken om je kennis en kunde aan de
+wereld te tonen op een zogenaamde portfolio site. Deze portfolio kun je
+gebruiken tijdens het solliciteren naar een BPV(stage)-plek of een baan.</p>
+<h3>Taak : Eigen domein op het internet</h3>
+<ol>
+<li>
+<p>Bedenk een persoonlijke domeinnaam.</p>
+<ul>
+<li>
+<p>Bedenk een domainnaam die bij je past</p>
+</li>
+<li>
+<p>Kies een domainnaam die netjes is en maatschappelijk
+geaccepteerd.<br>
+Bedenk je goed dat je dit domain gebruikt om te solliciteren.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Registreer je domein bij Studenten Webhost
+(<a href="https://studentenwebhost.nl/product/vergelijk">https://studentenwebhost.nl/product/vergelijk</a>). Kies voor de
+Premium Developer optie.</p>
+</li>
+<li>
+<p>Bij de docent kun je een kortingscode krijgen.</p>
+</li>
+</ol>
+<h4>Taak : Inhoud</h4>
+<ol>
+<li>Vul de website met informatie over jezelf</li>
+</ol>
+<h2>Afronding</h2>
+<ul>
+<li>
+<p>Gebruik de rubric om te controleren of jij een voldoende of goed
+haalt voor deze opdracht. Overleg met studenten of docenten als je
+hieraan twijfelt.</p>
+</li>
+<li>
+<p>Bereid je voor op een gesprek met een docent.</p>
+<ol>
+<li>
+<p>Weet hoe je domein heet</p>
+</li>
+<li>
+<p>Weet hoe je het domein hebt aangevraagd</p>
+</li>
+<li>
+<p>Weet hoe je data op het domein hebt gezet</p>
+</li>
+<li>
+<p>Kijk goed naar de rubric!</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Laat aan een docent zien dat je domein online is</p>
+</li>
+</ul>
+<h2>Rubric Hosting</h2>
+<h4>Kennis over het web</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"><em>G</em></th>
+<th style="text-align:left"><em>V</em></th>
+<th style="text-align:left"><em>M</em></th>
+<th style="text-align:left"><em>O</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ik kan de functie van een webbrowser uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan de functie van een webserver uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wat het HTTP protocol doet</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wat het HTTPS protocol doet</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen waar Javascript gebruikt wordt op het web</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen waar PHP gebruikt wordt op het web</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wat de functie van HTML is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wat de functie van CSS is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wat de functie van SQL is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4>Eigen domein</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"><em>G</em></th>
+<th style="text-align:left"><em>V</em></th>
+<th style="text-align:left"><em>M</em></th>
+<th style="text-align:left"><em>O</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ik kan mijn persoonlijke domein laten zien</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen hoe ik mijn website gevuld heb</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan laten zien dat ik gegevens op de website kan wijzigen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4>Voetnoten</h4>
+<p>[1] DHCP - Dynamic Host Configuration Protocol<br>
+[2] HTTP - HyperText Transfer Protocol<br>
+[3] HTTPS - HyperText Transfer Protocol Secure<br>
+[4] www - world wide web<br>
+[5] DNS - Domain Name System<br>
+[6] NFS - Network File System<br>
+[7] CIFS - Common Internet File System<br>
+[8] SAN - Storage Area Network<br>
+[9] NAS - Network Attached Storage<br>
+[10] SQL - Structured Query Language<br>
+[11] API - Application programming interface<br>
+[12] JSON - JavaScript Object Notation<br>
+[13] XML - Extensible Markup Language<br>
+[14] DOM - Document Object Model</p>
+
+</div>
+
+</main-content>
+    
+
+</main>
+    <footer class="wzi47stss"><div class="cc">
+    <picture><source type="image/webp" srcset="/lucy/_img/iBwJRm3wB5-88.webp 88w"><img loading="lazy" decoding="async" src="/lucy/_img/iBwJRm3wB5-88.jpeg" alt="logo deltion" width="88" height="31"></picture>
+</div>
+<div class="copy">
+    <p><span>2023</span> © Deltion ICT - Software Development<br>
+            Dit werk valt onder een <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                Naamsvermelding - NietCommercieel 4.0 internationaal-licentie</a>.
+        </p>
+</div>
+
+</footer>
+    <script type="module" defer="">if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }</script>
+
+
+</body>
+</html>

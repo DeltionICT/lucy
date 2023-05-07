@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"c",
-	"coursetitle":"C#",
-	"permalink":"/subjects/c/{{ title | slugify }}/{{ page.index }}"
-}

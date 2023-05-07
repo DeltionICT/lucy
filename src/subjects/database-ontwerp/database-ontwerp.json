@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"database-ontwerp",
-	"coursetitle":"Database ontwerp",
-	"permalink":"/subjects/database-ontwerp/{{ title | slugify }}/{{ page.index }}"
-}

@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"vue-npm",
-	"coursetitle":"Vue-(npm)",
-	"permalink":"/subjects/vue-npm/{{ title | slugify }}/{{ page.index }}"
-}

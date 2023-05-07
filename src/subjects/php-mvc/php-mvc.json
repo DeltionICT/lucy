@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"php-mvc",
-	"coursetitle":"PHP MVC",
-	"permalink":"/subjects/php-mvc/{{ title | slugify }}/{{ page.index }}"
-}

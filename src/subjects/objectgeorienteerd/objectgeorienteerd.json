@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"objectgeorienteerd",
-	"coursetitle":"ObjectgeOriënteerd Programmeren",
-	"permalink":"/subjects/objectgeorienteerd/{{ title | slugify }}/{{ page.index }}"
-}

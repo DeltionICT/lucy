@@ -1,0 +1,1768 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy | Leeromgeving Software development</title>
+    <link rel="shortcut icon" href="/lucy/_system/favicon.ico" sizes="any"><!-- 32×32 -->
+    <link rel="icon" href="/lucy/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/lucy/_system/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="manifest" href="/lucy/manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+    
+    
+    
+    <style>.wv0jwq1on{list-style-type:none}.wv0jwq1on a{text-decoration:none}.wv0jwq1on li{width:90%;padding:2px 0px 2px 8px;border-radius:8px;margin:0 0 0.5rem 0}.wv0jwq1on li.selected{background-color:var(--c-brand);color:#fff}.wv0jwq1on li.notselected{background-color:var(--c-header-bg)}@media only screen and (max-width:600px){.wv0jwq1on li{width:100%}}
+.webcftrhj{display:flex;justify-content:flex-start}.webcftrhj div.sidebar{flex:0 0 300px}.webcftrhj div.sidebar ul{margin:0 0 1rem 0}.webcftrhj div.content{flex:1 0 0;max-width:calc(80vw - 300px)}@media only screen and (max-width:600px){.webcftrhj{flex-direction:column}.webcftrhj div.content{flex:1 0 0;max-width:80vw}}
+.w3ogpr5jr{margin:0 0 2rem 0}.w3ogpr5jr div.category{border-bottom:1px solid var(--c-brand);font-weight:bold}.w3ogpr5jr div.category a{text-decoration:none}.w3ogpr5jr div.category p{margin:0 0 0 0}.w3ogpr5jr div.authors{text-align:right;font-style:italic;font-size:0.9rem}.w3ogpr5jr div.authors p{margin:0 0 0 0}
+.wh61vald5{margin-right:30px}.wh61vald5:last-child{margin-right:0px}.wh61vald5 .notselected{color:var(--c-brand);padding:8px 0px 8px 8px;border-radius:4px;text-decoration:none}.wh61vald5 .selected{background-color:var(--c-brand);color:var(--c-bg);padding:8px;border-radius:4px;text-decoration:none}
+.w4go7t2fx{display:flex;flex-direction:row;justify-content:space-between;width:80%;margin:8px auto 0 auto}.w4go7t2fx div.links{display:block;text-align:right}@media only screen and (max-width:400px){.w4go7t2fx{flex-direction:column}.w4go7t2fx div.links{text-align:center}}
+.wq89ttfva{padding-top:1rem;padding-bottom:1rem;background-color:var(--c-header-bg);box-shadow:var(--c-box-shadow)}
+.w9s7xnshy{display:flex;flex-direction:column;width:80%;margin:1rem auto 2rem auto;flex:1 0 auto}
+.wzi47stss{display:flex;justify-content:start;flex-direction:row;background-color:var(--c-header-bg);padding:1rem;border-radius:8px;width:80%;margin:0 auto 2rem auto}.wzi47stss img{width:auto}.wzi47stss div.cc{padding-top:0.4rem;margin-right:1rem}.wzi47stss div.copy p{line-height:1.3rem}@media only screen and (max-width:600px){.wzi47stss{flex-direction:column}}
+:root {
+    scroll-behavior: smooth;
+    --c-green: #637a32;
+    --c-darkgreen: #35460d;
+    --c-orange: #f48220;
+    --c-blue: #45438a;
+    --c-yellow: #eae27e;
+    --c-purple: #7188ec;
+    --c-pink: #f8a6b1;
+    --c-red: #9b0011;
+    --c-grey: #bbb3a6;
+    --c-brown: #8c631f;
+    --c-black: #2e2e31;
+    --c-brand: #25255b;
+    --c-brand-orange: #f48220;
+    --c-white: #deeef3;
+    --c-code: rgb(232, 241, 255);
+    --c-bg: #ededed;
+    --c-header-bg: #e0e0e0;
+    --fontfamily: 'Helvetica Neue', 'Arial', sans-serif;
+    --codefont: 'Azeret Mono', monospace;
+    --lineheight: 1.8rem;
+    --fontsize: 16px;
+    --c-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --c-box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* .brown {
+    background-color: #8c631f;
+}
+.red {
+    background-color: #9b0011;
+} */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: var(--fontsize);
+    color: var(--c-brand);
+    line-height: var(--lineheight);
+    background-color: var(--c-bg);
+}
+
+ul,
+ol {
+    margin-left: 1rem;
+}
+
+a {
+    /* text-decoration: none; */
+    color: var(--c-brand);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: var(--c-text-light-3);
+    margin-bottom: 1rem;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+th {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+blockquote {
+    background-color: #fff;
+    border: 1px solid var(--c-brand);
+    border-left: 5px solid var(--c-brand);
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: var(--c-box-shadow);
+}
+
+/* Video */
+.video-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+}
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: var(--c-brand);
+}
+
+h1 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+h4,
+h5 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    display: inline-block;
+
+}
+
+
+h5 {
+    border: none;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+ul {
+    margin: 0 0 1rem 1rem;
+}
+/**
+ * One Light theme for prism.js
+ * Based on Atom's One Light theme: https://github.com/atom/atom/tree/master/packages/one-light-syntax
+ */
+
+/**
+ * One Light colours (accurate as of commit eb064bf on 19 Feb 2021)
+ * From colors.less
+ * --mono-1: hsl(230, 8%, 24%);
+ * --mono-2: hsl(230, 6%, 44%);
+ * --mono-3: hsl(230, 4%, 64%)
+ * --hue-1: hsl(198, 99%, 37%);
+ * --hue-2: hsl(221, 87%, 60%);
+ * --hue-3: hsl(301, 63%, 40%);
+ * --hue-4: hsl(119, 34%, 47%);
+ * --hue-5: hsl(5, 74%, 59%);
+ * --hue-5-2: hsl(344, 84%, 43%);
+ * --hue-6: hsl(35, 99%, 36%);
+ * --hue-6-2: hsl(35, 99%, 40%);
+ * --syntax-fg: hsl(230, 8%, 24%);
+ * --syntax-bg: hsl(230, 1%, 98%);
+ * --syntax-gutter: hsl(230, 1%, 62%);
+ * --syntax-guide: hsla(230, 8%, 24%, 0.2);
+ * --syntax-accent: hsl(230, 100%, 66%);
+ * From syntax-variables.less
+ * --syntax-selection-color: hsl(230, 1%, 90%);
+ * --syntax-gutter-background-color-selected: hsl(230, 1%, 90%);
+ * --syntax-cursor-line: hsla(230, 8%, 24%, 0.05);
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     background-color: var(--c-code);
+     color: hsl(230, 8%, 24%);
+     font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+     direction: ltr;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     line-height: 1.5;
+     -moz-tab-size: 2;
+     -o-tab-size: 2;
+     tab-size: 2;
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+     overflow-x:scroll;
+     overflow-y:scroll;
+ }
+ 
+ /* Selection */
+ code[class*="language-"]::-moz-selection,
+ code[class*="language-"] *::-moz-selection,
+ pre[class*="language-"] *::-moz-selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ code[class*="language-"]::selection,
+ code[class*="language-"] *::selection,
+ pre[class*="language-"] *::selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: 0.5em 0;
+     border-radius: 0.3em;
+     box-shadow:var(--c-box-shadow);
+     overflow: auto;
+ 
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+     padding: 0.2em 0.3em;
+     border-radius: 0.3em;
+     white-space: normal;
+ }
+ 
+ .token.comment,
+ .token.prolog,
+ .token.cdata {
+     color: hsl(0, 0%, 56%);
+ }
+ 
+ .token.doctype,
+ .token.punctuation,
+ .token.entity {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .token.attr-name,
+ .token.class-name,
+ .token.boolean,
+ .token.constant,
+ .token.number,
+ .token.atrule {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .token.keyword {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .token.property,
+ .token.tag,
+ .token.symbol,
+ .token.deleted,
+ .token.important {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .token.selector,
+ .token.string,
+ .token.char,
+ .token.builtin,
+ .token.inserted,
+ .token.regex,
+ .token.attr-value,
+ .token.attr-value > .token.punctuation {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .token.variable,
+ .token.operator,
+ .token.function {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .token.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ /* HTML overrides */
+ .token.attr-value > .token.punctuation.attr-equals,
+ .token.special-attr > .token.attr-value > .token.value.css {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* CSS overrides */
+ .language-css .token.selector {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .language-css .token.property {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-css .token.function,
+ .language-css .token.url > .token.function {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-css .token.url > .token.string.url {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-css .token.important,
+ .language-css .token.atrule .token.rule {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* JS overrides */
+ .language-javascript .token.operator {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-javascript .token.template-string > .token.interpolation > .token.interpolation-punctuation.punctuation {
+     color: hsl(344, 84%, 43%);
+ }
+ 
+ /* JSON overrides */
+ .language-json .token.operator {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-json .token.null.keyword {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ /* MD overrides */
+ .language-markdown .token.url,
+ .language-markdown .token.url > .token.operator,
+ .language-markdown .token.url-reference.url > .token.string {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-markdown .token.url > .token.content {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .language-markdown .token.url > .token.url,
+ .language-markdown .token.url-reference.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-markdown .token.blockquote.punctuation,
+ .language-markdown .token.hr.punctuation {
+     color: hsl(230, 4%, 64%);
+     font-style: italic;
+ }
+ 
+ .language-markdown .token.code-snippet {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-markdown .token.bold .token.content {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .language-markdown .token.italic .token.content {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-markdown .token.strike .token.content,
+ .language-markdown .token.strike .token.punctuation,
+ .language-markdown .token.list.punctuation,
+ .language-markdown .token.title.important > .token.punctuation {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ /* General */
+ .token.bold {
+     font-weight: bold;
+ }
+ 
+ .token.comment,
+ .token.italic {
+     font-style: italic;
+ }
+ 
+ .token.entity {
+     cursor: help;
+ }
+ 
+ .token.namespace {
+     opacity: 0.8;
+ }
+ 
+ /* Plugin overrides */
+ /* Selectors should have higher specificity than those in the plugins' default stylesheets */
+ 
+ /* Show Invisibles plugin overrides */
+ .token.token.tab:not(:empty):before,
+ .token.token.cr:before,
+ .token.token.lf:before,
+ .token.token.space:before {
+     color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Toolbar plugin overrides */
+ /* Space out all buttons and move them away from the right edge of the code block */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+     margin-right: 0.4em;
+ }
+ 
+ /* Styling the buttons */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 6%, 44%);
+     padding: 0.1em 0.4em;
+     border-radius: 0.3em;
+ }
+ 
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+     background: hsl(230, 1%, 78%); /* custom: darken(--syntax-bg, 20%) */
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* Line Highlight plugin overrides */
+ /* The highlighted line itself */
+ .line-highlight.line-highlight {
+     background: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Default line numbers in Line Highlight plugin */
+ .line-highlight.line-highlight:before,
+ .line-highlight.line-highlight[data-end]:after {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 8%, 24%);
+     padding: 0.1em 0.6em;
+     border-radius: 0.3em;
+     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); /* same as Toolbar plugin default */
+ }
+ 
+ /* Hovering over a linkable line number (in the gutter area) */
+ /* Requires Line Numbers plugin as well */
+ pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows > span:hover:before {
+     background-color: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Line Numbers and Command Line plugins overrides */
+ /* Line separating gutter from coding area */
+ .line-numbers.line-numbers .line-numbers-rows,
+ .command-line .command-line-prompt {
+     border-right-color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Stuff in the gutter */
+ .line-numbers .line-numbers-rows > span:before,
+ .command-line .command-line-prompt > span:before {
+     color: hsl(230, 1%, 62%);
+ }
+ 
+ /* Match Braces plugin overrides */
+ /* Note: Outline colour is inherited from the braces */
+ .rainbow-braces .token.token.punctuation.brace-level-1,
+ .rainbow-braces .token.token.punctuation.brace-level-5,
+ .rainbow-braces .token.token.punctuation.brace-level-9 {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-2,
+ .rainbow-braces .token.token.punctuation.brace-level-6,
+ .rainbow-braces .token.token.punctuation.brace-level-10 {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-3,
+ .rainbow-braces .token.token.punctuation.brace-level-7,
+ .rainbow-braces .token.token.punctuation.brace-level-11 {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-4,
+ .rainbow-braces .token.token.punctuation.brace-level-8,
+ .rainbow-braces .token.token.punctuation.brace-level-12 {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* Diff Highlight plugin overrides */
+ /* Taken from https://github.com/atom/github/blob/master/styles/variables.less */
+ pre.diff-highlight > code .token.token.deleted:not(.prefix),
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) {
+     background-color: hsla(353, 100%, 66%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::-moz-selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix),
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) {
+     background-color: hsla(137, 100%, 55%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::-moz-selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ /* Previewers plugin overrides */
+ /* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-light-ui */
+ /* Border around popup */
+ .prism-previewer.prism-previewer:before,
+ .prism-previewer-gradient.prism-previewer-gradient div {
+     border-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Angle and time should remain as circles and are hence not included */
+ .prism-previewer-color.prism-previewer-color:before,
+ .prism-previewer-gradient.prism-previewer-gradient div,
+ .prism-previewer-easing.prism-previewer-easing:before {
+     border-radius: 0.3em;
+ }
+ 
+ /* Triangles pointing to the code */
+ .prism-previewer.prism-previewer:after {
+     border-top-color: hsl(0, 0, 95%);
+ }
+ 
+ .prism-previewer-flipped.prism-previewer-flipped.after {
+     border-bottom-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Background colour within the popup */
+ .prism-previewer-angle.prism-previewer-angle:before,
+ .prism-previewer-time.prism-previewer-time:before,
+ .prism-previewer-easing.prism-previewer-easing {
+     background: hsl(0, 0%, 100%);
+ }
+ 
+ /* For angle, this is the positive area (eg. 90deg will display one quadrant in this colour) */
+ /* For time, this is the alternate colour */
+ .prism-previewer-angle.prism-previewer-angle circle,
+ .prism-previewer-time.prism-previewer-time circle {
+     stroke: hsl(230, 8%, 24%);
+     stroke-opacity: 1;
+ }
+ 
+ /* Stroke colours of the handle, direction point, and vector itself */
+ .prism-previewer-easing.prism-previewer-easing circle,
+ .prism-previewer-easing.prism-previewer-easing path,
+ .prism-previewer-easing.prism-previewer-easing line {
+     stroke: hsl(230, 8%, 24%);
+ }
+ 
+ /* Fill colour of the handle */
+ .prism-previewer-easing.prism-previewer-easing circle {
+     fill: transparent;
+ }
+pre {
+    white-space: pre;
+    overflow: auto;
+    background-color: #ffffff;
+    border: 1px solid var(--c-text);
+    padding: 5px;
+}
+
+code {
+    border-radius: 4px;
+    background-color:var(--c-code);
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+}
+div.html {
+    background-color: var(--c-header-bg);
+    padding:16px;
+    border-radius: 4px;
+}
+
+div.html table td, div.html table th {
+    border:1px solid var(--c-text);
+    padding: 4px;
+}
+div.html table {
+    border-collapse:collapse;
+}</style>
+</head>
+
+<body>
+    
+    <header class="wq89ttfva">
+        <nav class="w4go7t2fx"><a href="/lucy/">
+    <div>
+                <img loading="lazy" decoding="async" src="/lucy/_img/B36NADJHz0-120.svg" alt="logo deltion" width="120" height="41">
+            </div>
+</a>
+<div class="links">
+    <div>
+                <nav-item url="/" title="Modules" selected="selected" class="wh61vald5"><a href="/lucy/" class="selected">Modules</a>
+
+</nav-item>
+<nav-item url="/authors/" title="Auteurs" selected="notselected" class="wh61vald5"><a href="/lucy/authors/" class="notselected">Auteurs</a>
+
+</nav-item>
+            </div>
+</div>
+
+</nav>
+    
+
+</header>
+    <main class="w9s7xnshy">
+        <main-title ref="/subjects/ict-flex/introductie/" class="w3ogpr5jr"><div class="category">
+        <a href="/lucy/subjects/ict-flex/introductie/"><p slot="category">ICT Flex</p></a>
+    </div>
+    <div class="authors">
+        <span slot="authors">Jan Jaap Siewers, Jeroen Heuvelman, André Dalmolen</span> |
+        <span slot="date">Mar 13, 2023</span>
+    </div>
+    <div class="title">
+        <h1><div slot="title">Programmeren basis</div></h1>
+    </div>
+
+</main-title>
+<main-content class="webcftrhj"><div class="sidebar">
+    <ul>
+        <list-link url="/subjects/ict-flex/introductie/" page="/subjects/ict-flex/programmeren-basis/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/introductie/"><li class="notselected">Introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/database-introductie/" page="/subjects/ict-flex/programmeren-basis/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/database-introductie/"><li class="notselected">Database introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/hosting/" page="/subjects/ict-flex/programmeren-basis/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/hosting/"><li class="notselected">Hosting</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/html-en-css/" page="/subjects/ict-flex/programmeren-basis/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/html-en-css/"><li class="notselected">HTML en CSS</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/javascript/" page="/subjects/ict-flex/programmeren-basis/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/javascript/"><li class="notselected">Javascript</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/ken-jezelf/" page="/subjects/ict-flex/programmeren-basis/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/ken-jezelf/"><li class="notselected">Ken Jezelf</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/beginnen-met-php/" page="/subjects/ict-flex/programmeren-basis/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/beginnen-met-php/"><li class="notselected">Beginnen met PHP</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/programmeren-basis/" page="/subjects/ict-flex/programmeren-basis/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/programmeren-basis/"><li class="selected">Programmeren basis</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/webpagina/" page="/subjects/ict-flex/programmeren-basis/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/webpagina/"><li class="notselected">Webpagina</li></a>
+
+</list-link>
+    </ul>
+</div>
+<div class="content">
+    <blockquote>
+<h4>Voorkennis</h4>
+<ul>
+<li>Je hebt nog geen kennis van programmeren</li>
+<li>Je kunt werken met een computer</li>
+</ul>
+</blockquote>
+<blockquote>
+<h4>Dit ga je leren</h4>
+<ul>
+<li>Je gaat de de basisstructuren van
+programmeertalen leren kennen zodat je code kan schrijven.</li>
+<li>Je gaat de de basisstructuren van
+programmeertalen leren kennen zodat je code van andere developers kan
+lezen.</li>
+<li>Je gaat de basisstructuren van programmeertalen leren kennen zodat je code op het internet kan beoordelen
+op efficiëntie en veiligheid.</li>
+</ul>
+</blockquote>
+<h2>Introductie</h2>
+<p>Programmeren is het schrijven van code zodat computers bepaalde taken
+uitvoeren. Deze taken zijn bijvoorbeeld:</p>
+<ul>
+<li>het opslaan van een document;</li>
+<li>het sorteren van een lijstje met namen;</li>
+<li>het uitvoeren van een berekening;</li>
+<li>het printen van een document;</li>
+<li>het afspelen van muziek;</li>
+<li>het streamen van een film;</li>
+<li>het uitvoeren van een pinbetaling;</li>
+<li>het bijhouden van een uitslag in een game;</li>
+<li>het opbouwen van een scenery in een game;</li>
+<li>etc.</li>
+</ul>
+<p>Om deze taken uit te voeren is een programma nodig. [^1] Het streamen
+van een film doe je bijvoorbeeld met de YouTube of NetFlix app. Deze
+bedrijven hebben daarvoor een app ontwikkeld waarmee je de gewenste
+functionaliteit daadwerkelijk kunt gebruiken.</p>
+<p>Voor het schrijven van een app gebruik je een programmeertaal. Door de
+jaren heen zijn er veel programmeertalen ontwikkeld. Sommige talen zijn
+generiek en kun je voor veel situaties gebruiken, andere talen zijn heel
+specifiek en gebruik je alleen in hele specifieke situaties. De taal C
+is bijvoorbeeld een generieke taal waarmee je alle gewenste apps kunt
+schrijven. De taal APL is daarentegen een hele specifieke taal waarmee
+je alleen wiskundige apps schrijft.</p>
+<p>Een mooi overzicht van programmeertalen vind je op
+<a href="https://en.wikipedia.org/wiki/List_of_programming_languages">https://en.wikipedia.org/wiki/List_of_programming_languages</a>. Schrik
+niet van de lengte van de lijst. Sommige talen worden tegenwoordig niet
+meer gebruikt, terwijl andere programmeertalen nog steeds populair zijn.
+De populariteit van programeertalen verandert per jaar.</p>
+<p>Talen die nu populair zijn, waren dat een paar jaar geleden niet.
+&quot;Python is met 30,44% verreweg de meest populaire taal wereldwijd, zo
+blijkt uit de <a href="https://pypl.github.io/PYPL.html">PYPL index</a>. Java (16,76%) en JavaScript (8,44%) volgen op
+gepaste afstand.&quot;</p>
+<p>Als software developer zul jij je moeten instellen op deze veranderende
+populariteit. Als software developer ben jij nooit uitgeleerd. Jij zult
+je elke dag moeten verdiepen in nieuwe technieken en nieuwe talen.</p>
+<p>Let Op: De programma’s in deze opdracht worden op de commando regel
+(cli) uitgevoerd. Je hoeft deze programma’s niet via de browser op
+te starten.</p>
+<h2>Vakdocenten</h2>
+<ul>
+<li>Peter van Gemert - PGT - pgemert@deltion.nl</li>
+<li>Andre Dalmolen - ADN - adalmolen@deltion.nl</li>
+<li>Jeroen Heuvelman - JHN - jheuvelman@deltion.nl</li>
+<li>Jan Jaap Siewers - JJS - jsiewers@deltion.nl</li>
+</ul>
+<h2>Backlog</h2>
+<ul>
+<li>
+<p>Als software developer wil ik de basisstructuren van
+programmeertalen kennen zodat ik code kan schrijven.</p>
+</li>
+<li>
+<p>Als software developer wil ik de basisstructuren van
+programmeertalen kennen zodat ik code van andere developers kan
+lezen.</p>
+</li>
+<li>
+<p>Als software developer wil ik de basisstructuren van
+programmeertalen kennen zodat ik code op het internet kan beoordelen
+op efficiëntie en veiligheid.</p>
+</li>
+</ul>
+<h2>Basiselementen</h2>
+<p>De meeste talen hebben een aantal overeenkomsten. Dit zijn bijvoorbeeld
+de basiselementen. Het goed leren van deze basiselementen is
+noodzakelijk om een goede software developer te worden.</p>
+<p>Om de basiselementen goed te leren gebruik je het liefste een echte
+programmeertaal. Wij gebruiken in deze opdracht de PHP taal om de
+basiselementen te leren. Je kunt PHP aparte installeren maar ook als
+onderdeel van XAMPP . Als het goed is heb je zowel PHP als XAMPP
+geïnstalleerd in de opdracht-Ontwikkelomgeving. Mocht je PHP nog niet
+geïnstalleerd hebben, installeer deze dan voordat je verder gaat met
+deze opdracht.</p>
+<p>De volgende basiselementen worden in de komende pagina’s behandeld.</p>
+<ul>
+<li>
+<p><code>echo</code> of <code>print</code></p>
+</li>
+<li>
+<p>variabelen</p>
+</li>
+<li>
+<p>user invoer</p>
+</li>
+<li>
+<p><code>while</code></p>
+</li>
+<li>
+<p><code>if</code></p>
+</li>
+<li>
+<p><code>for</code></p>
+</li>
+<li>
+<p><code>function</code></p>
+</li>
+</ul>
+<h2>Echo</h2>
+<p>Het eerste statement dat jij leert is het <code>echo</code> statement. Met dit
+statement zet je tekst op het scherm van de gebruiker. Sommige talen
+kennen geen <code>echo</code> maar hebben in plaats daarvan het <code>print</code> statement.
+Er zijn zelfs talen die beide statements ondersteunen.</p>
+<p>Let Op: De programma’s in deze opdracht worden op de commando regel
+(cli[^3]) uitgevoerd. Je hoeft deze programma’s niet via de browser op
+te starten.</p>
+<p>In listing <a href="#HelloWorld01" data-reference-type="ref" data-reference="HelloWorld01">[HelloWorld01]</a> zie je het echo
+statement van PHP. Dit simpele programmaatje zet de tekst Hello World op
+jouw beeldscherm.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"Hello World\n"</span><span class="token punctuation">;</span><br><br><span class="token delimiter important">?></span></span></code></pre>
+<p>In de volgende taak ga je het programma van listing
+<a href="#HelloWorld01" data-reference-type="ref" data-reference="HelloWorld01">[HelloWorld01]</a> uitvoeren.</p>
+<h4>Taak : Schrijf jouw eigen HelloWorld programma</h4>
+<ol>
+<li>
+<p>Maak in jouw user folder een folder met de naam .</p>
+</li>
+<li>
+<p>Plaats deze folder onder git controle met <code>git init</code>.</p>
+</li>
+<li>
+<p>Plaats met een code editor de code van listing
+<a href="#HelloWorld01" data-reference-type="ref" data-reference="HelloWorld01">[HelloWorld01]</a> in het bestand .</p>
+</li>
+<li>
+<p>Plaats onder <code>git</code> controle dmv <code>git add</code> en <code>git commit</code>.
+Controleer met <code>git log</code> of dit goed is gegaan.</p>
+</li>
+<li>
+<p>Open een command prompt aka. of cmd of powershell en navigeer naar
+de folder;</p>
+</li>
+<li>
+<p>Voer uit met het volgende commando:<br>
+<code>c:\...\&gt; php HelloWorld.php</code><br>
+<strong>Let op</strong>: Start HelloWorld.php niet via de browser maar via de
+cli.</p>
+</li>
+<li>
+<p>Werkt het programma? Pas het programma aan zodat het wel werkt en
+commit in <code>Git</code>.</p>
+</li>
+<li>
+<p>Probeer voor je zelf te verklaren wat er in gebeurt.</p>
+</li>
+<li>
+<p>Overleg met jouw teamleden hoe werkt.</p>
+</li>
+</ol>
+<p>In listing <a href="#HelloWorld02" data-reference-type="ref" data-reference="HelloWorld02">[HelloWorld02]</a> voeren we meerdere echo
+statements uit. Wat denk je dat het resultaat is?</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"Hello World\n"</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"Hello World\n"</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"Hello World\n"</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"Hello World\n"</span><span class="token punctuation">;</span><br><br><span class="token delimiter important">?></span></span></code></pre>
+<p>In de volgende taak voer je de code van listing
+<a href="#HelloWorld02" data-reference-type="ref" data-reference="HelloWorld02">[HelloWorld02]</a> uit.</p>
+<h4>Taak : Pas HelloWorld aan</h4>
+<ol>
+<li>
+<p>Pas met een code editor aan zodat het overeenkomt met de code in
+<a href="#HelloWorld02" data-reference-type="ref" data-reference="HelloWorld02">[HelloWorld02]</a>.</p>
+</li>
+<li>
+<p>Voer het bestand uit.</p>
+</li>
+<li>
+<p>Wat is het verschil met de vorige keer dat je uitvoerde?</p>
+</li>
+<li>
+<p>Commit het in <code>Git</code>.</p>
+</li>
+</ol>
+<h2>Variabelen</h2>
+<p>&quot;Een variabele wordt gebruikt om dingen op te slaan. Een goed voorbeeld
+is een score in een spel. In je spel wil je uiteindelijk zien wat je
+score is. Die score moet je bijhouden. De score slaan we op in een
+‘variabele’. We noemen het een variabele omdat de waarde variabel is, de
+waarde kan veranderen. Als je een punt scoort verandert je score met 1
+punt.</p>
+<h4>Taak : Pas HelloWorld opnieuw aan</h4>
+<ol>
+<li>
+<p>pas met een code editor het aan zodat elke regel <code>Hello World!</code> laat
+zien; dus met een uitroepteken achter World;</p>
+</li>
+<li>
+<p>voer opnieuw uit en controleer de uitvoer;</p>
+</li>
+<li>
+<p>commit <code>HelloWorld.php</code> in <code>Git</code>;</p>
+</li>
+</ol>
+<p>Omdat de tekst vijf keer in het programma stond, moest de tekst vijf
+keer aangepast worden. Het was waarschijnlijk vervelend om vijf keer een
+uitroepteken in de tekst te moeten zetten.</p>
+<p>Door een variabele te gebruiken wordt het makkelijker om de tekst in dit
+programma aan te passen.</p>
+<p>In listing <a href="#HelloWorld03" data-reference-type="ref" data-reference="HelloWorld03">[HelloWorld03]</a> gebruiken we een
+variabele om de tekst maar één keer in de code te schrijven.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token variable">$tekst</span><span class="token operator">=</span><span class="token string double-quoted-string">"Hello World!\n"</span><span class="token punctuation">;</span><br><br><span class="token keyword">echo</span> <span class="token variable">$tekst</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token variable">$tekst</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token variable">$tekst</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token variable">$tekst</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token variable">$tekst</span><span class="token punctuation">;</span><br> <br><span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak : Pas HelloWorld aan met variabelen</h4>
+<p>In deze taak voer je de code van listing <a href="#HelloWorld03" data-reference-type="ref" data-reference="HelloWorld03">[HelloWorld03]</a> uit.</p>
+<ol>
+<li>
+<p>pas aan volgens listing
+<a href="#HelloWorld03" data-reference-type="ref" data-reference="HelloWorld03">[HelloWorld03]</a>;</p>
+</li>
+<li>
+<p>run ;</p>
+</li>
+<li>
+<p><code>commit</code> in <code>Git</code>;</p>
+</li>
+<li>
+<p>pas de inhoud van de <code>tekst</code>-variabele aan door een komma te
+plaatsen tussen Hello en World zoals hieronder weergegeven:<br>
+<code>$tekst=&quot;Hello,World!&quot;</code>;</p>
+</li>
+<li>
+<p>voer uit;</p>
+</li>
+<li>
+<p>hebben alle regels in de uitvoer een komma tussen Hello en World?</p>
+</li>
+<li>
+<p><code>commit</code> <code>HelloWorld.php</code> in <code>Git</code>;</p>
+</li>
+<li>
+<p>probeer voor jezelf te verwoorden wat er in <code>HelloWorld.php</code>
+gebeurt;</p>
+</li>
+</ol>
+<h4>Taak : Wijzig HelloWorld met eigen ideeën</h4>
+<p>Nu je weet hoe werkt, kun je zelf wijzigigen aanbrengen in het programma en testen wat de
+resultaten zijn van jouw wijzigingen.</p>
+<ol>
+<li>
+<p>pas aan door</p>
+<ul>
+<li>
+<p>de variabele-inhoud naar eigen inzicht te wijzigen;</p>
+</li>
+<li>
+<p>variabelen en <code>echo</code>-regels naar eigen inzicht toe te voegen;</p>
+</li>
+<li>
+<p>commit je wijzigingen in <code>Git</code>;</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2>Rekenen met variabelen</h2>
+<p>Getallen en waarden worden vaak in variabelen opgeslagen. Meestal moet
+je met deze waarden berekeningen uitvoeren, zoals een totaal of het
+gemiddelde bepalen.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><span class="token variable">$getal1</span><span class="token operator">=</span><span class="token number">15</span><span class="token punctuation">;</span><br><span class="token variable">$getal2</span><span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">;</span><br><br><span class="token variable">$som</span><span class="token operator">=</span><span class="token variable">$getal1</span> <span class="token operator">+</span> <span class="token variable">$getal2</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"<span class="token interpolation"><span class="token variable">$getal1</span></span> + <span class="token interpolation"><span class="token variable">$getal2</span></span> = "</span><span class="token operator">.</span><span class="token variable">$som</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br><br><span class="token variable">$verschil</span><span class="token operator">=</span><span class="token variable">$getal1</span> <span class="token operator">-</span> <span class="token variable">$getal2</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"<span class="token interpolation"><span class="token variable">$getal1</span></span> - <span class="token interpolation"><span class="token variable">$getal2</span></span> = "</span><span class="token operator">.</span><span class="token variable">$verschil</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br><br><span class="token variable">$product</span><span class="token operator">=</span><span class="token variable">$getal1</span> <span class="token operator">*</span> <span class="token variable">$getal2</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"<span class="token interpolation"><span class="token variable">$getal1</span></span> * <span class="token interpolation"><span class="token variable">$getal2</span></span> = "</span><span class="token operator">.</span><span class="token variable">$product</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br><br><span class="token variable">$quotient</span><span class="token operator">=</span><span class="token variable">$getal1</span> <span class="token operator">/</span> <span class="token variable">$getal2</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"<span class="token interpolation"><span class="token variable">$getal1</span></span> / <span class="token interpolation"><span class="token variable">$getal2</span></span> = "</span><span class="token operator">.</span><span class="token variable">$quotient</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br><br><span class="token variable">$rest</span><span class="token operator">=</span><span class="token variable">$getal1</span> <span class="token operator">%</span> <span class="token variable">$getal2</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"<span class="token interpolation"><span class="token variable">$getal1</span></span> % <span class="token interpolation"><span class="token variable">$getal2</span></span> = "</span><span class="token operator">.</span><span class="token variable">$rest</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br><span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak : Rekenen in PHP</h4>
+<p>In deze taak maak je kennis met het rekenen in PHP.</p>
+<ol>
+<li>
+<p>Maak het bestand met de inhoud van listing
+<a href="#reken01" data-reference-type="ref" data-reference="reken01">[reken01]</a>;</p>
+</li>
+<li>
+<p>Voer uit en controleer de uitvoer;</p>
+</li>
+<li>
+<p>Commit in <code>Git</code>;</p>
+</li>
+<li>
+<p>Pas de getallen in <code>$getal1</code> en <code>$getal2</code> aan en voer opnieuw uit;</p>
+</li>
+<li>
+<p>Klopt de uitvoer van ?</p>
+</li>
+<li>
+<p><code>Commit</code>!!</p>
+</li>
+</ol>
+<h2>Userinvoer</h2>
+<p>Op dit moment werken onze programma’s met vaste gegevens. Deze gegevens
+staan in de source code van het programma en daar worden dan bewerkingen
+op gedaan. Tot nu toe kunnen onze programma’s nog niet werken met
+gegevens van verschillende gebruikers.</p>
+<p>Om een programma met andere gegevens te laten werken moet de source code
+van het programma aangepast worden. Dit is natuurlijk onhandig voor
+gebruikers die niet kunnen programmeren. Ook wordt de kans op fouten
+groter als een gebruiker steeds de source code moet aanpassen.</p>
+<p>Het programma is bijvoorbeeld niet bruikbaar voor iemand die niet jouw
+leeftijd heeft. Als ik bijvoorbeeld 30 jaar ouder ben dan jij, dan
+kloppen de berekende jaren. We hebben een manier nodig om gegevens van
+een gebruiker te vragen en deze in het programma te gebruiken. Voor PHP
+is dit het <code>readline</code> commando.</p>
+<p>Door middel van het <code>readline</code> commando kun jij informatie aan de
+gebruiker gevraagd via het toetsenbord.</p>
+<p>In listing <a href="#invoer01" data-reference-type="ref" data-reference="invoer01">[invoer01]</a> vragen we de gebruiker om een
+woord. Dit woord slaan we op in de variabele invoer. We gebruiker deze
+variabele om het woord later op het beeldscherm te tonen.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token variable">$invoer</span> <span class="token operator">=</span> <span class="token function">readline</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"Geef een woord : "</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"Jij gaf het volgende woord: <span class="token interpolation"><span class="token variable">$invoer</span></span>"</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br><span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak : Vraag invoer van een gebruiker</h4>
+<ol>
+<li>
+<p>Maak het bestand en plaats daarin de code van listing
+<a href="#invoer01" data-reference-type="ref" data-reference="invoer01">[invoer01]</a>;</p>
+</li>
+<li>
+<p>Voer meerdere keren uit en kijk wat er gebeurt;</p>
+</li>
+</ol>
+<h2>While lus</h2>
+<p>’A While Loop is used to repeat a specific block of code an unknown
+number of times, until a condition is met.’</p>
+<p>In listing <a href="#whilelus01" data-reference-type="ref" data-reference="whilelus01">[whilelus01]</a> gebruiken we een while lus
+om 10 maal een regel met tekst te tonen.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br>  <span class="token variable">$teller</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span><br>  <span class="token variable">$maximum</span><span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span><br><br>  <span class="token keyword">echo</span> <span class="token string double-quoted-string">"Teller is voor de while lus "</span><span class="token operator">.</span><span class="token variable">$teller</span><span class="token operator">.</span><span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br><br>  <span class="token keyword">while</span> <span class="token punctuation">(</span> <span class="token variable">$teller</span> <span class="token operator">&lt;=</span> <span class="token variable">$maximum</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br>     <span class="token keyword">echo</span> <span class="token string double-quoted-string">"Teller is nu "</span><span class="token operator">.</span><span class="token variable">$teller</span><span class="token operator">.</span><span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br>     <span class="token variable">$teller</span><span class="token operator">++</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><br>  <span class="token keyword">echo</span> <span class="token string double-quoted-string">"Teller is na de while lus "</span><span class="token operator">.</span><span class="token variable">$teller</span><span class="token operator">.</span><span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br><br><span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak : Je eerste while lus</h4>
+<ol>
+<li>
+<p>Plaats de code van listing
+<a href="#whilelus01" data-reference-type="ref" data-reference="whilelus01">[whilelus01]</a> in het bestand .</p>
+</li>
+<li>
+<p>Run .</p>
+</li>
+<li>
+<p><code>commit</code> in git.</p>
+</li>
+<li>
+<p>Pas aan zodat hij stopt zodra teller 15 is.</p>
+</li>
+<li>
+<p>Run .</p>
+</li>
+<li>
+<p><code>commit</code> in git.</p>
+</li>
+<li>
+<p>Pas aan zodat hij begint bij 8.</p>
+</li>
+<li>
+<p>Run .</p>
+</li>
+<li>
+<p><code>commit</code> in git.</p>
+</li>
+<li>
+<p>Wat gebeurt er als je $teller groter maakt dan $maximum? test dit.</p>
+</li>
+</ol>
+<p>Kijk nog eens naar de code in listing
+<a href="#HelloWorld03" data-reference-type="ref" data-reference="HelloWorld03">[HelloWorld03]</a> op pagina . In die code
+hebben we 5 maal dezelfde regel staan. Door middel van een <code>while</code>-lus
+kunnen we deze code ook met een lus schrijven.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token variable">$teller</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span><br><span class="token variable">$maximum</span><span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span><br><span class="token variable">$tekst</span><span class="token operator">=</span><span class="token string double-quoted-string">"Hello, World!\n"</span><span class="token punctuation">;</span><br><br><span class="token keyword">while</span> <span class="token punctuation">(</span> <span class="token variable">$teller</span> <span class="token operator">&lt;=</span> <span class="token variable">$maximum</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">echo</span> <span class="token variable">$tekst</span><span class="token punctuation">;</span><br><br>    <span class="token variable">$teller</span><span class="token operator">++</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak : HelloWorld in een lus</h4>
+<ol>
+<li>
+<p>Pas aan met de code van
+<a href="#whilelus02" data-reference-type="ref" data-reference="whilelus02">[whilelus02]</a>.</p>
+</li>
+<li>
+<p>Voer uit en verklaar de uitvoer.</p>
+</li>
+<li>
+<p><code>commit</code> in git.</p>
+</li>
+<li>
+<p>Pas de waarden voor <code>$teller</code> en <code>$maximum</code> aan en controleer wat
+jouw wijzigingen met de uitvoer van het programma doen.</p>
+</li>
+<li>
+<p><code>Commit</code> in git na iedere wijziging.</p>
+</li>
+</ol>
+<p>We hebben het <code>readline</code> commando al gezien. Gecombineerd met een while
+lus kunnen we nu een programma schrijven dat pas stopt als een gebruiker
+dat wil.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token variable">$stop</span> <span class="token operator">=</span> <span class="token string double-quoted-string">"nee"</span><span class="token punctuation">;</span><br><span class="token variable">$teller</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><br><br><span class="token keyword">while</span> <span class="token punctuation">(</span> <span class="token variable">$stop</span> <span class="token operator">==</span> <span class="token string double-quoted-string">"nee"</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br><br>        <span class="token keyword">echo</span> <span class="token string double-quoted-string">"Dit is run <span class="token interpolation"><span class="token variable">$teller</span></span>\n"</span><span class="token punctuation">;</span><br><br>        <span class="token variable">$stop</span> <span class="token operator">=</span> <span class="token function">readline</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"Wil je stoppen [ja/nee] : "</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token variable">$teller</span><span class="token operator">++</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><br><span class="token delimiter important">?></span></span></code></pre>
+<p>####Taak : Lus met userinvoer</p>
+<ol>
+<li>
+<p>maak het bestand en plaats de code van listing
+<a href="#userstop01" data-reference-type="ref" data-reference="userstop01">[userstop01]</a> in dit bestand;</p>
+</li>
+<li>
+<p>voer het programma uit;</p>
+</li>
+<li>
+<p><code>commit</code>!!</p>
+</li>
+</ol>
+<h2>For lus</h2>
+<p>’A for loop is a repetition control structure that allows you to
+efficiently write a loop that needs to execute a specific number of
+times.’</p>
+<p>Kijk nog eens naar de code van listing van
+<a href="#whilelus01" data-reference-type="ref" data-reference="whilelus01">[whilelus01]</a> op pagina . We kunnen deze
+<code>while</code>-lus ook herschrijven in een <code>for</code>-lus.</p>
+<p>De herschreven code ziet er alsvolgt uit:</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token variable">$begin</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span><br><span class="token variable">$maximum</span><span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span><br><span class="token variable">$tekst</span><span class="token operator">=</span><span class="token string double-quoted-string">"Hello, World!\n"</span><span class="token punctuation">;</span><br><br><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token variable">$teller</span><span class="token operator">=</span><span class="token variable">$begin</span><span class="token punctuation">;</span><span class="token variable">$teller</span><span class="token operator">&lt;=</span><span class="token variable">$maximum</span><span class="token punctuation">;</span><span class="token variable">$teller</span><span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">echo</span> <span class="token variable">$tekst</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak : Je eerste for lus</h4>
+<ol>
+<li>
+<p>Plaats de code van listing
+<a href="#forlus01" data-reference-type="ref" data-reference="forlus01">[forlus01]</a> in het bestand ;</p>
+</li>
+<li>
+<p>voer uit;</p>
+</li>
+<li>
+<p>verklaar samen de uitvoer van ;</p>
+</li>
+<li>
+<p>pas de waarden in aan en kijk wat het effect is;</p>
+</li>
+<li>
+<p><code>commit</code> in git;</p>
+</li>
+</ol>
+<h2>Verschil tussen For en While</h2>
+<p>Het belangrijke verschil tussen een <code>while</code> en <code>for</code> lus is dat een
+<code>for</code> lus een zogenaamde tellende lus is. Je gebruikt een <code>for</code> lus voor
+code blokken die je een aantal keren wilt herhalen waarbij aantal een
+getal is. Dit aantal is bekend of kan berekend worden aan het begin van
+de for-lus.</p>
+<p>Een <code>while</code> lus is een lus die uitgevoerd wordt zolang een bepaalde
+conditie waar is. Deze conditie kan een getal zijn maar dat hoeft niet.
+Het is meestal van te voren niet bekend hoe vaak een <code>while</code>-lus
+uitgevoerd zal worden. While condities kunnen ook zijn:</p>
+<ul>
+<li>Bevat een variabele een bepaald woord.</li>
+<li>Bevat variabeleA een waarde groter dan variabeleB.</li>
+<li>Bevat variabeleC dezelfde waarde dan variabaleD.</li>
+<li>Voor elke regel in een bestand.</li>
+<li>Voor elke packet ontvangen van het netwerk.</li>
+<li>Zolang de ingelezen getallen opgeteld niet groter zijn dan 1024.</li>
+<li>enzovoort.</li>
+</ul>
+<p>Door <code>readline</code> te gebruiken kun je van een gebruiker invoer vragen en
+daarmee rekenen.</p>
+<p>In listint <a href="#tafel01" data-reference-type="ref" data-reference="tafel01">[tafel01]</a> vragen we de gebruiker om een
+gewenste tafel. Daarna laten we de gewenste tafel zien.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token variable">$tafel</span><span class="token operator">=</span><span class="token function">readline</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"Welke tafel wil je zien? "</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token variable">$begin</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span><br><span class="token variable">$eind</span><span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"\n\nTafel van <span class="token interpolation"><span class="token variable">$tafel</span></span>:\n"</span><span class="token punctuation">;</span><br><br><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token variable">$teller</span><span class="token operator">=</span><span class="token variable">$begin</span><span class="token punctuation">;</span><span class="token variable">$teller</span><span class="token operator">&lt;=</span><span class="token variable">$eind</span><span class="token punctuation">;</span><span class="token variable">$teller</span><span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>	product<span class="token operator">=</span><span class="token variable">$teller</span><span class="token operator">*</span><span class="token variable">$tafel</span><span class="token punctuation">;</span><br>	<span class="token keyword">echo</span> <span class="token variable">$teller</span><span class="token operator">.</span><span class="token string double-quoted-string">" x "</span><span class="token operator">.</span><span class="token variable">$tafel</span><span class="token operator">.</span><span class="token string double-quoted-string">" = "</span><span class="token operator">.</span><span class="token variable">$product</span><span class="token operator">.</span><span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><br><span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak : Tafel</h4>
+<ol>
+<li>
+<p>plaats de code van listing
+<a href="#tafel01" data-reference-type="ref" data-reference="tafel01">[tafel01]</a> in het bestand ;</p>
+</li>
+<li>
+<p>run enkele keren met verschillende invoer;</p>
+</li>
+<li>
+<p><code>commit</code> in git;</p>
+</li>
+</ol>
+<h2>If statement</h2>
+<p>&quot;The ability to control the flow of your program, letting it make
+decisions on what code to execute, is valuable to the programmer. The if
+statement allows you to control if a program enters a section of code or
+not based on whether a given condition is true or false. One of the
+important functions of the if statement is that it allows the program to
+select an action based upon the user’s input. For example, by using an
+if statement to check a user-entered password, your program can decide
+whether a user is allowed access to the program.&quot;</p>
+<p>Met het <code>if</code> statement worden beslissingen in programma’s genomen.
+Afhankelijk van een situatie wordt er wel of geen code uitgevoerd.</p>
+<p>In listing <a href="#ifkeuze01" data-reference-type="ref" data-reference="ifkeuze01">[ifkeuze01]</a> vragen we de gebruiker om
+zijn leeftijd. Afhankelijk van zijn leeftijd geven we verschillende
+uitvoer.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token variable">$naam</span> <span class="token operator">=</span> <span class="token function">readline</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"Geef jouw naam : "</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token variable">$leeftijd</span> <span class="token operator">=</span> <span class="token function">readline</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"Geef jouw leeftijd : "</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"Hallo <span class="token interpolation"><span class="token variable">$naam</span></span> \n"</span><span class="token punctuation">;</span><br><br><span class="token keyword">if</span> <span class="token punctuation">(</span> <span class="token variable">$leeftijd</span> <span class="token operator">&lt;</span> <span class="token number">22</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token keyword">echo</span> <span class="token string double-quoted-string">"Jij bent jonger dan 22 jaar.\n"</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token keyword">if</span> <span class="token punctuation">(</span> <span class="token variable">$leeftijd</span> <span class="token operator">></span> <span class="token number">22</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token keyword">echo</span> <span class="token string double-quoted-string">"Jij bent ouder dan 22 jaar.\n"</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token keyword">if</span> <span class="token punctuation">(</span> <span class="token variable">$leeftijd</span> <span class="token operator">==</span> <span class="token number">22</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token keyword">echo</span> <span class="token string double-quoted-string">"Jij bent precies 22 jaar.\n"</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></span></code></pre>
+<h4>Taak</h4>
+<ol>
+<li>
+<p>maak het bestand en plaats daarin de code uit listing
+<a href="#ifkeuze01" data-reference-type="ref" data-reference="ifkeuze01">[ifkeuze01]</a>;</p>
+</li>
+<li>
+<p>voer het programma meerdere keren uit en voer steeds andere waarden
+in;</p>
+</li>
+<li>
+<p>pas het programma aan zodat het controleert of jij jonger dan, ouder
+dan of precies 25 jaar oud bent;</p>
+</li>
+<li>
+<p>pas het programma aan zodat het controleert of jij jonger dan, ouder
+dan of precies 21 jaar oud bent;</p>
+</li>
+<li>
+<p>heb jij bij de vorige stap drie maal het getal 21 in de code
+geplaatst? Zorg ervoor dmv. variabelen voor dat het getal 21 maar
+éénmaal in de code staat;</p>
+</li>
+<li>
+<p><code>commit</code> jouw wijzigingen in git;</p>
+</li>
+</ol>
+<h2>Functie</h2>
+<p>’A function is a block of organized, reusable code that is used to
+perform a single, related action. Functions provide better modularity
+for your application and a high degree of code reusing.’</p>
+<p>Een functie in een programma geeft ons de mogelijkheid om dezelfde code
+op meerdere plaatsen uit te voeren zonder die code steeds te herhalen.
+Een functie is een gedefinieerde procedure die je vanaf verschillende
+locaties in jouw programma aanroept.</p>
+<p>Hoewel de functionaliteit van een functie in veel talen voorkomt, hebben
+verschillende talen andere namen bedacht voor een functie. Zo betekenen
+method, sub-routine, procedure hetzelfde als functie.</p>
+<p>In listing <a href="#functie01" data-reference-type="ref" data-reference="functie01">[functie01]</a> maken we een functie <code>func</code>.
+Deze functie roepen we op verschillende plaatsen aan.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token keyword">function</span> <span class="token function-definition function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>   <span class="token keyword">echo</span> <span class="token string double-quoted-string">"+ Deze regel is in func() uitgevoerd.\n"</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"-- Deze code is voor func() uitgevoerd.\n"</span><span class="token punctuation">;</span><br><br><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"== Deze regel is tussen twee func() uitgevoerd.\n"</span><span class="token punctuation">;</span><br><br><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"-- Deze regel is na func() uitgevoerd.\n"</span><span class="token punctuation">;</span><br><br><span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak : Je eerste functie</h4>
+<ol>
+<li>
+<p>Maak het bestand en neem daarin de code van listing
+<a href="#functie01" data-reference-type="ref" data-reference="functie01">[functie01]</a> over.</p>
+</li>
+<li>
+<p>Voer het programma uit.</p>
+</li>
+<li>
+<p><code>Commit</code> in git.</p>
+</li>
+<li>
+<p>Onderzoek hoe het programma werkt.</p>
+</li>
+</ol>
+<p>Een functie kan ook aangeroepen worden vanuit één van de basiselementen,
+<code>while</code>, <code>for</code> en <code>if</code>.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><br><span class="token keyword">function</span> <span class="token function-definition function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token keyword">echo</span> <span class="token string double-quoted-string">"+ Deze code is in func() uitgevoerd.\n"</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"- Deze code is voor de for-lus uitgevoerd.\n"</span><span class="token punctuation">;</span><br><br><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token variable">$counter</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span><span class="token variable">$counter</span><span class="token operator">&lt;=</span><span class="token number">3</span><span class="token punctuation">;</span><span class="token variable">$counter</span><span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token keyword">echo</span> <span class="token string double-quoted-string">"= Deze code is in de for-lus\n"</span><span class="token punctuation">;</span><br>        <span class="token keyword">echo</span> <span class="token string double-quoted-string">"  maar voor func() uitgevoerd.\n"</span><span class="token punctuation">;</span><br>        <span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token keyword">echo</span> <span class="token string double-quoted-string">"= Deze code is in de for-lus\n"</span><span class="token punctuation">;</span><br>        <span class="token keyword">echo</span> <span class="token string double-quoted-string">"  maar na func() uitgevoerd.\n"</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><br><span class="token keyword">echo</span> <span class="token string double-quoted-string">"- Deze code is na de for-lus uitgevoerd.\n"</span><span class="token punctuation">;</span><br><br><span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak : Een functieaanroep in een basiselement</h4>
+<ol>
+<li>
+<p>Sla de listing van <a href="#functiefor01" data-reference-type="ref" data-reference="functiefor01">[functiefor01]</a> op in het bestand .</p>
+</li>
+<li>
+<p>Voer uit.</p>
+</li>
+<li>
+<p><code>commit</code>.</p>
+</li>
+<li>
+<p>Bespreek met teamleden hoe het programma werkt.</p>
+</li>
+</ol>
+<h2>Arrays</h2>
+<p>Bij de meeste programmeertalen is het mogelijk om array’s gebruikt. Om
+goed te kunnen programmeren is het dus belangrijk om te weten wat een
+array is en hoe je deze kunt gebruiken. Een array kun je eigenlijk zien
+als een variabele die meerdere waardes kan bevatten, een lijst van
+waardes. Deze variabele bestaat dan uit meerdere rijen (entries) die
+allemaal een waarde hebben. Het declareren/aanmaken van een array gaat
+bijna hetzelfde als het declareren van een variabele. Bijvoorbeeld:</p>
+<pre class="language-php"><code class="language-php"><span class="token variable">$weekdagen</span> <span class="token operator">=</span> <span class="token keyword">array</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Zondag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Maandag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Dinsdag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Woensdag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Donderdag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Vrijdag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Zaterdag'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Elke waarde in de array heeft een nummer, de zogenaamde index. Het
+eerste item in een array heeft nummer 0, het tweede nummer 1, enz. Om
+uit bovenstaande array de zondag op het scherm te tonen kan het volgende
+commando gebruikt worden.</p>
+<pre class="language-php"><code class="language-php"><span class="token keyword">echo</span> <span class="token variable">$weekdagen</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span></code></pre>
+<p>Om uit bovenstaande array de Zaterdag op het scherm te tonen kan het
+volgende commando gebruikt worden:</p>
+<pre class="language-php"><code class="language-php"><span class="token keyword">echo</span> <span class="token variable">$weekdagen</span><span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">;</span></code></pre>
+<p>Er zijn verschillende methodes die gebruikt kunnen worden om met arrays
+te werken. Zo is het bijvoorbeeld mogelijk om arrays te sorteren, items
+aan een array toe te voegen of te verwijderen. Bestudeer de
+mogelijkheden van arrays op de volgende pagina:
+<a href="https://www.w3schools.com/php/php_ref_array.asp">https://www.w3schools.com/php/php_ref_array.asp</a>.</p>
+<h2>Verdiepen in programmeren</h2>
+<p>In dit hoofdstuk heb je kennis gemaakt met programmeren. Zoals je wel
+zult begrijpen is dit alleen maar een basis. De komende weken, maanden
+en jaren zul je nog veel meer leren over programmeren en coderen.</p>
+<h4>Taak : Verdiepen in programmeren</h4>
+<ol>
+<li>
+<p>Navigeer naar<br>
+<a href="https://www.codecademy.com/learn/learn-how-to-code">https://www.codecademy.com/learn/learn-how-to-code</a></p>
+</li>
+<li>
+<p>Start de gratis ’Learn How to Code’ cursus.</p>
+</li>
+<li>
+<p>Pas de kennis die je in deze cursus op doet toe in jouw eigen
+programma’s.</p>
+</li>
+</ol>
+<h2>Eindtaak : Een Quiz</h2>
+<p>Laten we eens kijken of jij het geleerde in praktijk kunt brengen door
+het programmeren van een quiz programma.</p>
+<ol>
+<li>
+<p>Maak het programma dat voldoet aan de volgende requirements:</p>
+<ul>
+<li>
+<p>Het programma kiest een willekeurig getal tussen de 1 en 100;</p>
+<ul>
+<li>De volgende PHP-code genereert een willekeurig getal tussen
+1 en 100 en slaat deze op in de variabele $random;<br>
+<code> $random = rand(1,100) </code></li>
+</ul>
+</li>
+<li>
+<p>De gebruiker wordt gevraagd dit willekeurige getal te raden;</p>
+</li>
+<li>
+<p>Als gebruiker een verkeerd antwoord geeft, dan mag gebruiker
+nogmaals raden;</p>
+</li>
+<li>
+<p>Als de gebruiker een verkeerd antwoord geeft, dan geeft het
+programma aan of het antwoord hoger of lager is dan het
+willekeurige getal;</p>
+</li>
+<li>
+<p>Het programma stop als de gebruiker het juiste getal geraden
+heeft;</p>
+</li>
+<li>
+<p>Als gebruiker het juiste getal geraden heeft, dan geeft het
+programma aan in hoeveel beurten de gebruiker het juiste getal
+geraden heeft;</p>
+</li>
+<li>
+<p>Het programma stopt als de gebruiker een getal kleiner dan 1
+geeft;</p>
+</li>
+<li>
+<p>Het programma stopt als de gebruiker een getal groter dan 100
+geeft;</p>
+</li>
+<li>
+<p>Het programma stopt als de gebruiker het woord stop typt.</p>
+</li>
+<li>
+<p>De programma-uitvoer is logisch en duidelijk.</p>
+</li>
+<li>
+<p>De programma-code is makkelijk leesbaar en gedocumenteerd.</p>
+</li>
+<li>
+<p>De programma-code is onderhoudsvrienlijke.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Test je programma en controleer of alle gevraagde requirements erin
+zitten.</p>
+</li>
+<li>
+<p><code>Push</code> naar GitHub.</p>
+</li>
+</ol>
+<h2>Afronding</h2>
+<ol>
+<li>
+<p>Bekijk of jouw werk volgens de rubric een voldoende of goed
+scoort.<br>
+Overleg met een klasgenoot of één van de docenten als je twijfelt of
+jouw werk een voldoende of goed haalt.</p>
+</li>
+<li>
+<p>Bespreek een review moment bij een van de docenten.</p>
+</li>
+<li>
+<p>Deel de code die je met de docenten wilt bespreken via GitHub.</p>
+</li>
+<li>
+<p>Bereid goed je voor op het review moment:</p>
+<ul>
+<li>
+<p>Ken jouw code goed. Weet hoe jouw programma in elkaar zit. Weet
+waar de functionliteiten gecodeerd zijn.</p>
+<ul>
+<li>
+<p>Wij docenten gaan ervan uit dat je zonder hapering je eigen
+code kunt uitleggen.</p>
+</li>
+<li>
+<p>Wij docenten gaan ervan uit dat je zonder aarzeling een
+wijziging kunt doorvoeren in jouw programma.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Verwacht vragen over jouw code en de keuzes die je gemaakt hebt.
+Een antwoord in de trant van &quot;Ja, dat weet ik eigenlijk niet.&quot;
+is iets dat wij niet graag horen.</p>
+</li>
+<li>
+<p>Leer de theorie uit je hoofd;</p>
+<ul>
+<li>
+<p>Wij docenten gaan ervan uit dat je zonder hapering de
+gevraagde theorie kunt uitleggen;</p>
+</li>
+<li>
+<p>Wij docenten gaan ervan uit dat je zonder hapering vragen
+over de theorie kunt beantwoorden;</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Na goedkeuring door een docent:</p>
+<ul>
+<li>
+<p>Plaats de code van je programma’s in een word document.</p>
+</li>
+<li>
+<p>Upload het document in Cumlaude.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2>Rubric Programmeerbasis</h2>
+<h4>Opdrachten</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>M</em></td>
+<td style="text-align:left"><em>O</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb de voorbeeldcodes overgenomen, en de bijbehorende taken uitgevoerd</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb git gebruikt tijdens deze opdracht</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb de code die ik wil bespreken met de docenten gedeeld via GitHub</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4>Kennis</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>M</em></td>
+<td style="text-align:left"><em>O</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het <code>echo</code> statement uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het <code>print</code> statement uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het begrip <strong>variabele</strong> uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het begrip <strong>array</strong> uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het <code>readline</code> statement uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het <code>while</code> statement uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het <code>if</code> statement uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het <code>for</code> statement uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het begrip <strong>function</strong> uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h3>Programmeertalen</h3>
+<p>Welke programmeertalen ken jij naast PHP, Javascript, Html en Css?</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>O</em></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan meer dan 10 programmeertalen noemen</td>
+<td style="text-align:left">Ik kan meer dan 5 programmeertalen noemen</td>
+<td style="text-align:left">Ik kan geen programmeertalen noemen</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4>Codereview</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>M</em></td>
+<td style="text-align:left"><em>O</em></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Kun jij de werking van het programma uitleggen?</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan werking van broncode foutloos en zonder hapering uitleggen</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken voordat ik broncode kan uitleggen</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken voordat ik broncode kan uitleggen</td>
+<td style="text-align:left">Ik kan broncode niet uitleggen <strong>of</strong> het programma werkt niet (foutloos)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan laten zien dat het programma variabelen gebruikt</td>
+<td style="text-align:left">Ik kan met enige happeringen laten zien dat het programma variabelen gebruikt</td>
+<td style="text-align:left">Ik kan met enige hulp laten zien dat het programma variabelen gebruikt</td>
+<td style="text-align:left">Ik kan niet laten zien dat het programma variabelen gebruikt <strong>of</strong> het programma werkt niet (foutloos)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan, wanneer gevraagd, zonder aarzeling een wijziging doorvoeren in mijn programma</td>
+<td style="text-align:left">Ik kan, wanneer gevraagd, na enige nadenken een wijziging doorvoeren in mijn programma</td>
+<td style="text-align:left">Ik kan, wanneer gevraagd, na lang nadenken een wijziging doorvoeren in mijn programma</td>
+<td style="text-align:left">Ik kan, wanneer gevraagd, geen wijziging doorvoeren in mijn programma</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4>Quiz.php /</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>M</em></td>
+<td style="text-align:left"><em>O</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Mijn programma kiest een willekeurig getal</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Mijn programma stopt wanneer getal geraden is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Mijn programma stopt bij invoer kleiner dan 1</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Mijn programma stopt bij invoer groter dan 100</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Mijn programma stopt bij invoer van het woord <em>stop</em></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Mijn programma geeft aan in hoeveel beurten het getal geraden is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bij een fout antwoord geeft mijn programma aan of het antwoord hoger of lager is dan het willekeurige getal</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Mijn programma is gebruikersvriendelijk</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Mijn programma is uitvoerig gedocumenteerd</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<p>[^1]: Andere namen voor programma zijn app, applicatie, tool</p>
+<p>[^2]: Command line interface</p>
+<p>[^3]: Command line interface</p>
+
+</div>
+
+</main-content>
+    
+
+</main>
+    <footer class="wzi47stss"><div class="cc">
+    <picture><source type="image/webp" srcset="/lucy/_img/iBwJRm3wB5-88.webp 88w"><img loading="lazy" decoding="async" src="/lucy/_img/iBwJRm3wB5-88.jpeg" alt="logo deltion" width="88" height="31"></picture>
+</div>
+<div class="copy">
+    <p><span>2023</span> © Deltion ICT - Software Development<br>
+            Dit werk valt onder een <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                Naamsvermelding - NietCommercieel 4.0 internationaal-licentie</a>.
+        </p>
+</div>
+
+</footer>
+    <script type="module" defer="">if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }</script>
+
+
+</body>
+</html>

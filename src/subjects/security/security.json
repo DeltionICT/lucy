@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"security",
-	"coursetitle":"Security",
-	"permalink":"/subjects/security/{{ title | slugify }}/{{ page.index }}"
-}

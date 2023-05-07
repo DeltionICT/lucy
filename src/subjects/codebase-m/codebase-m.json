@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"codebase-m",
-	"coursetitle":"Codebase M",
-	"permalink":"/subjects/codebase-m/{{ title | slugify }}/{{ page.index }}"
-}

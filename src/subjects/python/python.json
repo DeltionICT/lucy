@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"python",
-	"coursetitle":"Python",
-	"permalink":"/subjects/python/{{ title | slugify }}/{{ page.index }}"
-}

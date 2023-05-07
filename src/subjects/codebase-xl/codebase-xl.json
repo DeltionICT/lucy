@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"codebase-xl",
-	"coursetitle":"Codebase eXpert",
-	"permalink":"/subjects/codebase-xl/{{ title | slugify }}/{{ page.index }}"
-}

@@ -1,0 +1,1815 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy | Leeromgeving Software development</title>
+    <link rel="shortcut icon" href="/lucy/_system/favicon.ico" sizes="any"><!-- 32×32 -->
+    <link rel="icon" href="/lucy/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/lucy/_system/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="manifest" href="/lucy/manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+    
+    
+    
+    <style>.wv0jwq1on{list-style-type:none}.wv0jwq1on a{text-decoration:none}.wv0jwq1on li{width:90%;padding:2px 0px 2px 8px;border-radius:8px;margin:0 0 0.5rem 0}.wv0jwq1on li.selected{background-color:var(--c-brand);color:#fff}.wv0jwq1on li.notselected{background-color:var(--c-header-bg)}@media only screen and (max-width:600px){.wv0jwq1on li{width:100%}}
+.webcftrhj{display:flex;justify-content:flex-start}.webcftrhj div.sidebar{flex:0 0 300px}.webcftrhj div.sidebar ul{margin:0 0 1rem 0}.webcftrhj div.content{flex:1 0 0;max-width:calc(80vw - 300px)}@media only screen and (max-width:600px){.webcftrhj{flex-direction:column}.webcftrhj div.content{flex:1 0 0;max-width:80vw}}
+.w3ogpr5jr{margin:0 0 2rem 0}.w3ogpr5jr div.category{border-bottom:1px solid var(--c-brand);font-weight:bold}.w3ogpr5jr div.category a{text-decoration:none}.w3ogpr5jr div.category p{margin:0 0 0 0}.w3ogpr5jr div.authors{text-align:right;font-style:italic;font-size:0.9rem}.w3ogpr5jr div.authors p{margin:0 0 0 0}
+.wh61vald5{margin-right:30px}.wh61vald5:last-child{margin-right:0px}.wh61vald5 .notselected{color:var(--c-brand);padding:8px 0px 8px 8px;border-radius:4px;text-decoration:none}.wh61vald5 .selected{background-color:var(--c-brand);color:var(--c-bg);padding:8px;border-radius:4px;text-decoration:none}
+.w4go7t2fx{display:flex;flex-direction:row;justify-content:space-between;width:80%;margin:8px auto 0 auto}.w4go7t2fx div.links{display:block;text-align:right}@media only screen and (max-width:400px){.w4go7t2fx{flex-direction:column}.w4go7t2fx div.links{text-align:center}}
+.wq89ttfva{padding-top:1rem;padding-bottom:1rem;background-color:var(--c-header-bg);box-shadow:var(--c-box-shadow)}
+.w9s7xnshy{display:flex;flex-direction:column;width:80%;margin:1rem auto 2rem auto;flex:1 0 auto}
+.wzi47stss{display:flex;justify-content:start;flex-direction:row;background-color:var(--c-header-bg);padding:1rem;border-radius:8px;width:80%;margin:0 auto 2rem auto}.wzi47stss img{width:auto}.wzi47stss div.cc{padding-top:0.4rem;margin-right:1rem}.wzi47stss div.copy p{line-height:1.3rem}@media only screen and (max-width:600px){.wzi47stss{flex-direction:column}}
+:root {
+    scroll-behavior: smooth;
+    --c-green: #637a32;
+    --c-darkgreen: #35460d;
+    --c-orange: #f48220;
+    --c-blue: #45438a;
+    --c-yellow: #eae27e;
+    --c-purple: #7188ec;
+    --c-pink: #f8a6b1;
+    --c-red: #9b0011;
+    --c-grey: #bbb3a6;
+    --c-brown: #8c631f;
+    --c-black: #2e2e31;
+    --c-brand: #25255b;
+    --c-brand-orange: #f48220;
+    --c-white: #deeef3;
+    --c-code: rgb(232, 241, 255);
+    --c-bg: #ededed;
+    --c-header-bg: #e0e0e0;
+    --fontfamily: 'Helvetica Neue', 'Arial', sans-serif;
+    --codefont: 'Azeret Mono', monospace;
+    --lineheight: 1.8rem;
+    --fontsize: 16px;
+    --c-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --c-box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* .brown {
+    background-color: #8c631f;
+}
+.red {
+    background-color: #9b0011;
+} */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: var(--fontsize);
+    color: var(--c-brand);
+    line-height: var(--lineheight);
+    background-color: var(--c-bg);
+}
+
+ul,
+ol {
+    margin-left: 1rem;
+}
+
+a {
+    /* text-decoration: none; */
+    color: var(--c-brand);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: var(--c-text-light-3);
+    margin-bottom: 1rem;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+th {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+blockquote {
+    background-color: #fff;
+    border: 1px solid var(--c-brand);
+    border-left: 5px solid var(--c-brand);
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: var(--c-box-shadow);
+}
+
+/* Video */
+.video-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+}
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: var(--c-brand);
+}
+
+h1 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+h4,
+h5 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    display: inline-block;
+
+}
+
+
+h5 {
+    border: none;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+ul {
+    margin: 0 0 1rem 1rem;
+}
+/**
+ * One Light theme for prism.js
+ * Based on Atom's One Light theme: https://github.com/atom/atom/tree/master/packages/one-light-syntax
+ */
+
+/**
+ * One Light colours (accurate as of commit eb064bf on 19 Feb 2021)
+ * From colors.less
+ * --mono-1: hsl(230, 8%, 24%);
+ * --mono-2: hsl(230, 6%, 44%);
+ * --mono-3: hsl(230, 4%, 64%)
+ * --hue-1: hsl(198, 99%, 37%);
+ * --hue-2: hsl(221, 87%, 60%);
+ * --hue-3: hsl(301, 63%, 40%);
+ * --hue-4: hsl(119, 34%, 47%);
+ * --hue-5: hsl(5, 74%, 59%);
+ * --hue-5-2: hsl(344, 84%, 43%);
+ * --hue-6: hsl(35, 99%, 36%);
+ * --hue-6-2: hsl(35, 99%, 40%);
+ * --syntax-fg: hsl(230, 8%, 24%);
+ * --syntax-bg: hsl(230, 1%, 98%);
+ * --syntax-gutter: hsl(230, 1%, 62%);
+ * --syntax-guide: hsla(230, 8%, 24%, 0.2);
+ * --syntax-accent: hsl(230, 100%, 66%);
+ * From syntax-variables.less
+ * --syntax-selection-color: hsl(230, 1%, 90%);
+ * --syntax-gutter-background-color-selected: hsl(230, 1%, 90%);
+ * --syntax-cursor-line: hsla(230, 8%, 24%, 0.05);
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     background-color: var(--c-code);
+     color: hsl(230, 8%, 24%);
+     font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+     direction: ltr;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     line-height: 1.5;
+     -moz-tab-size: 2;
+     -o-tab-size: 2;
+     tab-size: 2;
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+     overflow-x:scroll;
+     overflow-y:scroll;
+ }
+ 
+ /* Selection */
+ code[class*="language-"]::-moz-selection,
+ code[class*="language-"] *::-moz-selection,
+ pre[class*="language-"] *::-moz-selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ code[class*="language-"]::selection,
+ code[class*="language-"] *::selection,
+ pre[class*="language-"] *::selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: 0.5em 0;
+     border-radius: 0.3em;
+     box-shadow:var(--c-box-shadow);
+     overflow: auto;
+ 
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+     padding: 0.2em 0.3em;
+     border-radius: 0.3em;
+     white-space: normal;
+ }
+ 
+ .token.comment,
+ .token.prolog,
+ .token.cdata {
+     color: hsl(0, 0%, 56%);
+ }
+ 
+ .token.doctype,
+ .token.punctuation,
+ .token.entity {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .token.attr-name,
+ .token.class-name,
+ .token.boolean,
+ .token.constant,
+ .token.number,
+ .token.atrule {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .token.keyword {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .token.property,
+ .token.tag,
+ .token.symbol,
+ .token.deleted,
+ .token.important {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .token.selector,
+ .token.string,
+ .token.char,
+ .token.builtin,
+ .token.inserted,
+ .token.regex,
+ .token.attr-value,
+ .token.attr-value > .token.punctuation {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .token.variable,
+ .token.operator,
+ .token.function {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .token.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ /* HTML overrides */
+ .token.attr-value > .token.punctuation.attr-equals,
+ .token.special-attr > .token.attr-value > .token.value.css {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* CSS overrides */
+ .language-css .token.selector {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .language-css .token.property {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-css .token.function,
+ .language-css .token.url > .token.function {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-css .token.url > .token.string.url {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-css .token.important,
+ .language-css .token.atrule .token.rule {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* JS overrides */
+ .language-javascript .token.operator {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-javascript .token.template-string > .token.interpolation > .token.interpolation-punctuation.punctuation {
+     color: hsl(344, 84%, 43%);
+ }
+ 
+ /* JSON overrides */
+ .language-json .token.operator {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-json .token.null.keyword {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ /* MD overrides */
+ .language-markdown .token.url,
+ .language-markdown .token.url > .token.operator,
+ .language-markdown .token.url-reference.url > .token.string {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-markdown .token.url > .token.content {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .language-markdown .token.url > .token.url,
+ .language-markdown .token.url-reference.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-markdown .token.blockquote.punctuation,
+ .language-markdown .token.hr.punctuation {
+     color: hsl(230, 4%, 64%);
+     font-style: italic;
+ }
+ 
+ .language-markdown .token.code-snippet {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-markdown .token.bold .token.content {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .language-markdown .token.italic .token.content {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-markdown .token.strike .token.content,
+ .language-markdown .token.strike .token.punctuation,
+ .language-markdown .token.list.punctuation,
+ .language-markdown .token.title.important > .token.punctuation {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ /* General */
+ .token.bold {
+     font-weight: bold;
+ }
+ 
+ .token.comment,
+ .token.italic {
+     font-style: italic;
+ }
+ 
+ .token.entity {
+     cursor: help;
+ }
+ 
+ .token.namespace {
+     opacity: 0.8;
+ }
+ 
+ /* Plugin overrides */
+ /* Selectors should have higher specificity than those in the plugins' default stylesheets */
+ 
+ /* Show Invisibles plugin overrides */
+ .token.token.tab:not(:empty):before,
+ .token.token.cr:before,
+ .token.token.lf:before,
+ .token.token.space:before {
+     color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Toolbar plugin overrides */
+ /* Space out all buttons and move them away from the right edge of the code block */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+     margin-right: 0.4em;
+ }
+ 
+ /* Styling the buttons */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 6%, 44%);
+     padding: 0.1em 0.4em;
+     border-radius: 0.3em;
+ }
+ 
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+     background: hsl(230, 1%, 78%); /* custom: darken(--syntax-bg, 20%) */
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* Line Highlight plugin overrides */
+ /* The highlighted line itself */
+ .line-highlight.line-highlight {
+     background: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Default line numbers in Line Highlight plugin */
+ .line-highlight.line-highlight:before,
+ .line-highlight.line-highlight[data-end]:after {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 8%, 24%);
+     padding: 0.1em 0.6em;
+     border-radius: 0.3em;
+     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); /* same as Toolbar plugin default */
+ }
+ 
+ /* Hovering over a linkable line number (in the gutter area) */
+ /* Requires Line Numbers plugin as well */
+ pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows > span:hover:before {
+     background-color: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Line Numbers and Command Line plugins overrides */
+ /* Line separating gutter from coding area */
+ .line-numbers.line-numbers .line-numbers-rows,
+ .command-line .command-line-prompt {
+     border-right-color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Stuff in the gutter */
+ .line-numbers .line-numbers-rows > span:before,
+ .command-line .command-line-prompt > span:before {
+     color: hsl(230, 1%, 62%);
+ }
+ 
+ /* Match Braces plugin overrides */
+ /* Note: Outline colour is inherited from the braces */
+ .rainbow-braces .token.token.punctuation.brace-level-1,
+ .rainbow-braces .token.token.punctuation.brace-level-5,
+ .rainbow-braces .token.token.punctuation.brace-level-9 {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-2,
+ .rainbow-braces .token.token.punctuation.brace-level-6,
+ .rainbow-braces .token.token.punctuation.brace-level-10 {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-3,
+ .rainbow-braces .token.token.punctuation.brace-level-7,
+ .rainbow-braces .token.token.punctuation.brace-level-11 {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-4,
+ .rainbow-braces .token.token.punctuation.brace-level-8,
+ .rainbow-braces .token.token.punctuation.brace-level-12 {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* Diff Highlight plugin overrides */
+ /* Taken from https://github.com/atom/github/blob/master/styles/variables.less */
+ pre.diff-highlight > code .token.token.deleted:not(.prefix),
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) {
+     background-color: hsla(353, 100%, 66%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::-moz-selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix),
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) {
+     background-color: hsla(137, 100%, 55%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::-moz-selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ /* Previewers plugin overrides */
+ /* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-light-ui */
+ /* Border around popup */
+ .prism-previewer.prism-previewer:before,
+ .prism-previewer-gradient.prism-previewer-gradient div {
+     border-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Angle and time should remain as circles and are hence not included */
+ .prism-previewer-color.prism-previewer-color:before,
+ .prism-previewer-gradient.prism-previewer-gradient div,
+ .prism-previewer-easing.prism-previewer-easing:before {
+     border-radius: 0.3em;
+ }
+ 
+ /* Triangles pointing to the code */
+ .prism-previewer.prism-previewer:after {
+     border-top-color: hsl(0, 0, 95%);
+ }
+ 
+ .prism-previewer-flipped.prism-previewer-flipped.after {
+     border-bottom-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Background colour within the popup */
+ .prism-previewer-angle.prism-previewer-angle:before,
+ .prism-previewer-time.prism-previewer-time:before,
+ .prism-previewer-easing.prism-previewer-easing {
+     background: hsl(0, 0%, 100%);
+ }
+ 
+ /* For angle, this is the positive area (eg. 90deg will display one quadrant in this colour) */
+ /* For time, this is the alternate colour */
+ .prism-previewer-angle.prism-previewer-angle circle,
+ .prism-previewer-time.prism-previewer-time circle {
+     stroke: hsl(230, 8%, 24%);
+     stroke-opacity: 1;
+ }
+ 
+ /* Stroke colours of the handle, direction point, and vector itself */
+ .prism-previewer-easing.prism-previewer-easing circle,
+ .prism-previewer-easing.prism-previewer-easing path,
+ .prism-previewer-easing.prism-previewer-easing line {
+     stroke: hsl(230, 8%, 24%);
+ }
+ 
+ /* Fill colour of the handle */
+ .prism-previewer-easing.prism-previewer-easing circle {
+     fill: transparent;
+ }
+pre {
+    white-space: pre;
+    overflow: auto;
+    background-color: #ffffff;
+    border: 1px solid var(--c-text);
+    padding: 5px;
+}
+
+code {
+    border-radius: 4px;
+    background-color:var(--c-code);
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+}
+div.html {
+    background-color: var(--c-header-bg);
+    padding:16px;
+    border-radius: 4px;
+}
+
+div.html table td, div.html table th {
+    border:1px solid var(--c-text);
+    padding: 4px;
+}
+div.html table {
+    border-collapse:collapse;
+}</style>
+</head>
+
+<body>
+    
+    <header class="wq89ttfva">
+        <nav class="w4go7t2fx"><a href="/lucy/">
+    <div>
+                <img loading="lazy" decoding="async" src="/lucy/_img/B36NADJHz0-120.svg" alt="logo deltion" width="120" height="41">
+            </div>
+</a>
+<div class="links">
+    <div>
+                <nav-item url="/" title="Modules" selected="selected" class="wh61vald5"><a href="/lucy/" class="selected">Modules</a>
+
+</nav-item>
+<nav-item url="/authors/" title="Auteurs" selected="notselected" class="wh61vald5"><a href="/lucy/authors/" class="notselected">Auteurs</a>
+
+</nav-item>
+            </div>
+</div>
+
+</nav>
+    
+
+</header>
+    <main class="w9s7xnshy">
+        <main-title ref="/subjects/ict-flex/introductie/" class="w3ogpr5jr"><div class="category">
+        <a href="/lucy/subjects/ict-flex/introductie/"><p slot="category">ICT Flex</p></a>
+    </div>
+    <div class="authors">
+        <span slot="authors">Jan Jaap Siewers, Jeroen Heuvelman, André Dalmolen</span> |
+        <span slot="date">Mar 14, 2023</span>
+    </div>
+    <div class="title">
+        <h1><div slot="title">HTML en CSS</div></h1>
+    </div>
+
+</main-title>
+<main-content class="webcftrhj"><div class="sidebar">
+    <ul>
+        <list-link url="/subjects/ict-flex/introductie/" page="/subjects/ict-flex/html-en-css/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/introductie/"><li class="notselected">Introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/database-introductie/" page="/subjects/ict-flex/html-en-css/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/database-introductie/"><li class="notselected">Database introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/hosting/" page="/subjects/ict-flex/html-en-css/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/hosting/"><li class="notselected">Hosting</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/html-en-css/" page="/subjects/ict-flex/html-en-css/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/html-en-css/"><li class="selected">HTML en CSS</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/javascript/" page="/subjects/ict-flex/html-en-css/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/javascript/"><li class="notselected">Javascript</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/ken-jezelf/" page="/subjects/ict-flex/html-en-css/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/ken-jezelf/"><li class="notselected">Ken Jezelf</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/beginnen-met-php/" page="/subjects/ict-flex/html-en-css/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/beginnen-met-php/"><li class="notselected">Beginnen met PHP</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/programmeren-basis/" page="/subjects/ict-flex/html-en-css/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/programmeren-basis/"><li class="notselected">Programmeren basis</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/webpagina/" page="/subjects/ict-flex/html-en-css/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/webpagina/"><li class="notselected">Webpagina</li></a>
+
+</list-link>
+    </ul>
+</div>
+<div class="content">
+    <blockquote>
+<h4>Voorkennis</h4>
+<ul>
+<li>Je heb de opdracht webpagina afgerond</li>
+<li>Je hebt basiskennis over basisstructuren van HTML en CSS</li>
+</ul>
+</blockquote>
+<blockquote>
+<h4>Dit ga je leren</h4>
+<ul>
+<li>Je je kennis over HTML/CSS verder uitbreiden</li>
+<li>Je gaat leren hoe je je HTML/CSS kennis kan toepassen in de praktijk</li>
+<li>Je gaat leren code van anderen te lezen, te begrijpen en aan te passen</li>
+<li>Je gaat leren 'clean' code te schrijven</li>
+</ul>
+</blockquote>
+<h2>Introductie</h2>
+<p>In eerdere projecten hebben we kennis gemaakt met de basisstructuren van
+HTML en CSS. In deze opdracht gaan we onze kennis van HTML/CSS verder
+uitbreiden.</p>
+<h2>Backlog</h2>
+<ul>
+<li>Als webdeveloper wil ik mijn kennis over HTML en CSS vergroten,
+zodat ik mooie websites kan bouwen;</li>
+<li>Als student moet ik brede kennis van HTML en CSS hebben zodat ik
+mijn examen (proeve van bekwaamheid, PVB) kan halen;</li>
+<li>Als student wil ik opdrachten maken met HTML en CSS zodat ik kan
+leren hoe ik HTML en CSS in de praktijk kan toepassen;</li>
+<li>Als webdeveloper wil ik HTML en CSS kunnen lezen en begrijpen, zodat
+ik code van anderen kan beoordelen op bruikbaarheid in eigen
+projecten;</li>
+<li>Als webdeveloper moet ik clean code schrijven zodat collega’s mijn
+code makkelijker kunnen begrijpen en onderhouden;</li>
+</ul>
+<h2>Basis HTML-elementen</h2>
+<p>Om mooie en functionele HTML-pagina’s te kunnen maken is het belangrijk
+om de basiselementen van HTML goed te begrijpen. In vorige projecten heb
+je al geoefend met HTML en CSS. Deze opdracht gaat hiermee verder. Het
+doel van deze opdracht is dat je steeds meer komt te weten over HTML en
+CSS zodat je dit kunt toepassen in de webpagina’s of webapplicaties die
+je gaat ontwikkelen.</p>
+<p>De volgende onderdelen worden in de komende pagina’s behandeld.</p>
+<ul>
+<li>Tabellen</li>
+<li>Formulieren</li>
+<li><code>Div</code>’s</li>
+<li><code>id</code> of <code>class</code></li>
+<li>Elementen selecteren</li>
+<li><code>Float</code> en <code>clear</code></li>
+</ul>
+<h2>Tabellen</h2>
+<p>We beginnen met het behandelen van de techniek van HTML-tabellen.
+Vroeger werd deze techniek ook gebruikt om de lay-out van een
+HTML-pagina te bepalen, maar door de komst van nieuwe web-technieken
+wordt dit tegenwoordig niet meer geaccepteerd. Voor de lay-out van een
+HTML-pagina gebruiken we Div’s en CSS, deze worden verderop in deze
+opdracht behandeld. Met Div’s en CSS kunnen we namelijk de webpagina’s
+die we maken gestructureerd en flexibel opbouwen en deze ook geschikt
+maken voor desktop en mobiele apparaten.</p>
+<p>Tabellen kunnen in HTML gebruikt worden om data overzichtelijk weer te
+geven. Om een tabel met HTML te maken gebruiken we de <code>&lt;table&gt;</code> tag.
+Tabellen worden in HTML opgebouwd in rijen en kolommen en een tabel mag
+opgesplitst worden in drie secties: een koptekst <code>(header)</code>, een
+voettekst <code>(footer)</code> en de tabel zelf <code>(body)</code>. De basis van een
+HTML-tabel is dus als volgt:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">></span></span>.............<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">></span></span>.............<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tfoot</span><span class="token punctuation">></span></span>.............<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tfoot</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span></code></pre>
+<p>Om een tabel met HTML te maken gebruiken we de volgende tags:</p>
+<ul>
+<li>
+<p><code>&lt;table&gt;</code> - Hiermee kunnen we een nieuwe tabel maken.</p>
+</li>
+<li>
+<p><code>&lt;tr&gt;</code> - Hiermee kunnen we een nieuwe rij beginnen.</p>
+</li>
+<li>
+<p><code>&lt;td&gt;</code> - Hiermee maken we een nieuwe datacel (kolom) in de tabel.</p>
+</li>
+<li>
+<p><code>&lt;th&gt;</code> - Deze is hetzelfde als <code>&lt;td&gt;</code>, maar wordt gebruikt voor een
+titelveld.</p>
+</li>
+<li>
+<p><code>colspan</code> - Met het colspan attribuut kunnen we aangeven hoeveel
+kolommen een element breed is. Colspan voegt dus kolommen samen.</p>
+</li>
+<li>
+<p><code>rowspan</code> - Met het rowspan attribuut kunnen we aangeven hoeveel
+rijen een element breed is. Rowspan voegt dus rijen samen.</p>
+</li>
+</ul>
+<p>Op de website <a href="https://www.w3schools.com/html/html_tables.asp">https://www.w3schools.com/html/html_tables.asp</a>  kun je
+meer informatie vinden over tabellen en het gebruik hiervan. Zoek dit
+uit.</p>
+<h4>Taak 1 : Maak een tabel</h4>
+<ol>
+<li>
+<p>Gebruik je favoriete editor en neem de tabel van listing
+<a href="#opdracht01table" data-reference-type="ref" data-reference="opdracht01table">[opdracht01table]</a> over. Plaats
+deze in een bestand op een logische plek in je htdocs folder.</p>
+</li>
+<li>
+<p>Start de webpagina en kijk naar het resultaat.</p>
+</li>
+<li>
+<p>Pas de tabel aan en maak zes rijen en drie kolommen. Zet daarin jouw
+eigen top vijf van mooiste auto’s.</p>
+</li>
+<li>
+<p>Pas de tabel aan, zodat je kunt klikken op de naam van de auto,
+zodra je erop klikt word je doorgestuurd naar de webpagina van het
+desbetreffende automerk.</p>
+</li>
+<li>
+<p>Maak in elke rij een vierde kolom aan. Plaats in deze kolom een foto
+van de desbetreffende auto. (Gebruik google voor het vinden van de
+juiste foto, denk aan het auteursrecht). Zorg ervoor dat het formaat
+van elke foto die je gebruikt hetzelfde is.</p>
+</li>
+<li>
+<p>Commit en push!</p>
+</li>
+</ol>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span><span class="token punctuation">></span></span><br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">></span></span><br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>Merk<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>Model<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>Type<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">></span></span><br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>Rij 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Kolom 1 - Rij 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Kolom 2 - Rij 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>Rij 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Kolom 1 - Rij 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Kolom 2 - Rij 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">></span></span><br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tfoot</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">colspan</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Een voorbeeld tabel<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tfoot</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span></code></pre>
+<h2>Formulieren</h2>
+<p>Vaak wordt er op websites gebruik gemaakt van formulieren. Denk
+bijvoorbeeld aan contact- of bestelformulieren. Deze formulieren kunnen
+bezoeker op de webpagina invullen, waarna de ingevulde gegevens
+opgeslagen worden in een database of per mail verstuurd worden.</p>
+<h4>Taak 2a : Beginnen met formulieren</h4>
+<h4>Onderzoek</h4>
+<p>Zoek uit wat de functie van de volgende tags is. Gebruik indien nodig
+het internet of de kennis van een medestudent of docent.</p>
+<ul>
+<li>
+<p>Form</p>
+</li>
+<li>
+<p>Label</p>
+</li>
+<li>
+<p>Placeholder</p>
+</li>
+<li>
+<p>Input type tekst</p>
+</li>
+<li>
+<p>Input type radio</p>
+</li>
+<li>
+<p>Input type checkbox</p>
+</li>
+<li>
+<p>Textarea</p>
+</li>
+<li>
+<p>Input type submit</p>
+</li>
+<li>
+<p>Input type reset</p>
+</li>
+</ul>
+<h4>Gebruik kennis</h4>
+<ul>
+<li>
+<p>Maak een nieuwe HTML-pagina in je htdocs folder en voeg hieraan het
+formulier uit listing <a href="#form01" data-reference-type="ref" data-reference="form01">[form01]</a> toe.</p>
+</li>
+<li>
+<p>Pas de code aan, zodat bij de form action je eigen e-mailadres staat
+in plaats van
+<a href="student@st.deltion.nl" class="uri">student@st.deltion.nl</a></p>
+</li>
+<li>
+<p>Sla het bestand op en open de pagina in de browser.</p>
+</li>
+<li>
+<p>Wat gebeurt er als je op de “submit” button klikt?</p>
+</li>
+</ul>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mailto:student@st.deltion.nl<span class="token punctuation">"</span></span> <br>	<span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>post<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fname<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Voornaam:<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><br><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fname<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fname<span class="token punctuation">"</span></span> <br>		<span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Voornaam<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><br><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lname<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Achternaam:<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><br><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lname<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lname<span class="token punctuation">"</span></span> <br>		<span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>achternaam<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><br><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Submit<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+<ul>
+<li>
+<p>Breidt het formulier uit met de volgende drie velden: Adres,
+Postcode en Plaats.</p>
+</li>
+<li>
+<p>Open het formulier in de browser en controleer of het werkt.</p>
+</li>
+<li>
+<p>Zijn de aanpassingen goed doorgevoerd en ben jij tevreden? Commit en
+push deze dan in GIT.</p>
+</li>
+</ul>
+<p>Formulieren in html zijn uitgebreid en er zijn veel opties die we kunnen
+gebruiken. Om deze opties te ontdekken gaan we onderstaande opdrachten
+uitvoeren. Maak gebruik het internet wanneer je tags tegenkomt die je
+nog niet kent.</p>
+<h4>Taak 2b : Verder met formulieren</h4>
+<p>Open met je favoriete editor het formulier uit de vorige taak en breidt dit formulier uit door
+onderstaande opdrachten uit te voeren:</p>
+<ul>
+<li>
+<p>Maak een nieuw veld en geef deze de naam “geboortedatum”, gebruik
+hiervoor de tag <code>input type=”date”</code>.</p>
+</li>
+<li>
+<p>Maak een nieuw veld en geef deze de naam “E-mailadres”, gebruik
+hiervoor de tag <code>input type=”email”</code>.</p>
+</li>
+<li>
+<p>Maak een nieuw veld aan en geef deze de naam “geslacht”, gebruik
+hiervoor de tag <code>input type=”radio”</code></p>
+</li>
+<li>
+<p>Maak een nieuw veld aan en geef deze de naam “opmerking”, gebruik
+hiervoor de tag <code>textarea</code></p>
+</li>
+<li>
+<p>Maak een nieuw veld aan en geef deze de naam “inschrijven voor de
+nieuwsbrief”. Gebruik hiervoor de tag input <code>type=”checkbox”</code></p>
+</li>
+<li>
+<p>Onderzoek wat de mogelijkheden zijn van de tag <code>required</code>, en maak
+met deze tag alle velden verplicht voor invoer</p>
+</li>
+<li>
+<p>Onderzoek wat de mogelijkheden zijn van de tag <code>maxlength</code> en
+gebruik deze tag op de volgende velden:</p>
+<ul>
+<li>
+<p>maxlength voornaam, achternaam en plaatst is 100</p>
+</li>
+<li>
+<p>maxlength postcode is 6</p>
+</li>
+<li>
+<p>maxlength opmerking is 400</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Zorg ervoor dat het formulier gebruikersvriendelijk is en dat het er
+qua vormgeving goed uitziet (gebruik css). Controleer de invoer. Ben
+je tevreden? Commit en push de wijzigingen dan in Git!</p>
+</li>
+</ul>
+<h2>Div</h2>
+<p>Een div is een HTML-element die we kunnen gebruiken om delen van een
+webpagina in te sluiten zoals bijvoorbeeld een navigatiemenu, een
+paragraaf of een nieuwsbalk. Met div’s kunnen we dus onderdelen op de
+webpagina op een bepaalde positie plaatsen. Het op de juiste manier
+gebruik maken van div’s maakt dat de website flexibel en logisch
+opgebouwd is.</p>
+<p>Div is een afkorting van division. Het positioneren en opmaken van div’s
+gebeurt met CSS. Een div kunnen we bijvoorbeeld een hoogte, breedte of
+een kleur meegeven. Meer informatie over het gebruik van div’s kun je
+vinden op: <a href="https://www.w3schools.com/tags/tag_div.ASP">https://www.w3schools.com/tags/tag_div.ASP</a></p>
+<p>Bestudeer deze pagina en zoek uit wat de mogelijkheden zijn om div’s te
+gebruiken.</p>
+<h2>id of class?</h2>
+<p>Net zoals aan andere elementen op je pagina kun je aan het div een id of
+een class meegeven. Als webdeveloper is het belangrijk om te weten wat
+het verschil tussen een id en een class is. Wanneer we een element
+identificeren met het attribuut <code>id=</code> dan maken we hiervan een uniek
+element. We mogen geen twee elementen met hetzelfde id benoemen. Doordat
+we het element uniek gemaakt hebben, kunnen we hieraan een bepaalde
+opmaak toekennen.<br>
+Bijvoorbeeld:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>logo<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>  </code></pre>
+<p>Wanneer we meerdere elementen dezelfde opmaak willen geven dan krijgen
+ze allemaal dezelfde class.<br>
+Bijvoorbeeld:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>logo<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>rood<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>contentHeader<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>rood<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<h2>Elementen selecteren</h2>
+<p>Met CSS-commando’s kunnen we HTML-elementen selecteren om er vervolgens
+stijlen aan toe te wijzen. Om een uniek element te selecteren gebruiken
+we in CSS de id van het element. Wanneer we dus in het vorige voorbeeld
+het element <code>&lt;div id=”logo”&gt;</code> willen selecteren dan kunnen we dat in CSS
+doen met een <code>#</code>.<br>
+Bijvoorbeeld:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">#logo</span><span class="token punctuation">{</span><br>    <span class="token property">width</span><span class="token punctuation">:</span>250px<span class="token punctuation">;</span><br>    <span class="token punctuation">}</span></code></pre>
+<p>Het kan ook voorkomen dat we meerdere elementen dezelfde opmaak willen
+geven. Hiervoor kunnen we de class gebruiken classes kunnen we in CSS
+selecteren met een . (punt). Als we bijvoorbeeld alle elementen die de
+<code>class=”rood”</code> hebben willen voorzien van een rode tekst dan kunnen we
+dat in CSS als volgt doen:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.rood</span><span class="token punctuation">{</span><br>    <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span><br>    <span class="token punctuation">}</span></code></pre>
+<p>Meer informatie hierover kun je vinden op:
+<a href="https://www.w3schools.com/css/css_selectors.asp">https://www.w3schools.com/css/css_selectors.asp</a>  Bestudeer deze
+pagina.</p>
+<h2>Float en clear</h2>
+<p>Met de eigenschap van float kunnen we bepalen of een element op de
+pagina zwevend weergegeven moet worden. We kunnen met deze eigenschap
+bijvoorbeeld een aantal div’s naast elkaar plaatsen. Ook is het met deze
+eigenschap mogelijk om teksten rondom afbeeldingen te laten lopen. De
+float eigenschap kan toegepast worden in CSS. Wanneer we bijvoorbeeld de
+gemaakte div met het id logo aan de linkerkant willen laten zweven dan
+kunnen we dat in CSS als volgt doen:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">#logo</span><span class="token punctuation">{</span><br>    <span class="token property">float</span><span class="token punctuation">:</span>left<span class="token punctuation">;</span><br>    <span class="token punctuation">}</span></code></pre>
+<p>De clear eigenschap wordt vaak in combinatie met de float eigenschap
+gebruikt. Deze eigenschap bepaald aan welke kant van het element geen
+float element mag staan. Wanneer we dus het clear element gebruiken dan
+wordt het volgende element onder het bovengenoemde float element
+geplaatst. De beste manier om dit goed te begrijpen en toe te passen is
+door er mee te oefenen.</p>
+<p>Dit kun je doen op de volgende webpagina’s:</p>
+<ul>
+<li>
+<p><a href="http://websitesmetstijl.nl/naslag/css-float.html">http://websitesmetstijl.nl/naslag/css-float.html</a></p>
+</li>
+<li>
+<p><a href="https://www.w3schools.com/cssref/pr_class_float.asp">https://www.w3schools.com/cssref/pr_class_float.asp</a> (</p>
+</li>
+</ul>
+<p>Bestudeer de mogelijkheden van float en clear. Zorg ervoor dat je deze
+begrijpt en kunt toepassen. Tijdens de code review moet je dit kunnen
+uitleggen.</p>
+<h4>Taak 3 : Display en positionering</h4>
+<p>Om goed te weten wat de mogelijkheden van html en CSS zijn is het
+belangrijk om display en positionering goed te begrijpen, zodat je weet
+wat de technische mogelijkheden hiervan zijn. Het helpt je ook om op een
+creatieve manier mooie websites te bouwen. Volg de cursus display en
+positioning van codecademy op:
+<a href="https://www.codecademy.com/learn/learn-css/modules/learn-css-display-positioning">https://www.codecademy.com/learn/learn-css/modules/learn-css-display-positioning</a></p>
+<h2>Responsive webdesign</h2>
+<p>Responsive webdesign is een vorm van ontwerpen en bouwen van websites
+waarbij rekening gehouden wordt met verschillende soorten devices.
+Tijdens het ontwerpen en bouwen van de website wordt er dus rekening mee
+gehouden dat de website goed zichtbaar is op zowel desktops, laptops,
+tablets en smartphones. Het is natuurlijk mogelijk om voor elk device
+een andere website te bouwen, maar met responsive webdesign bouwen we
+één website waarvan de vormgeving zich aanpast naar de grootte van het
+scherm en de mogelijkheden van de browser die de bezoeker gebruikt. De
+grootte van het scherm wordt bij responsive webdesign ook wel de
+viewport genoemd.</p>
+<p>Meer informatie over responsive webdesign en viewport kun je vinden op:
+<a href="https://www.w3schools.com/html/html_responsive.asp">https://www.w3schools.com/html/html_responsive.asp</a></p>
+<h2>CSS - Flexbox techniek</h2>
+<p>Met de CSS flexbox techniek is het mogelijk om snel en gemakkelijk de
+lay-out van blokken op je website te regelen. Bij het gebruik van deze
+techniek maakt het niet uit hoe breed de blokken zijn. Deze techniek
+zorgt ervoor dat de blokken automatisch op de meest logische en
+efficiënte manier gebruik maken van de beschikbare ruimte.</p>
+<h4>Taak 4a : Bestudeer de CSS-flexbox techniek</h4>
+<p>Bestudeer de css-flexbox techniek op onderstaande websites. Oefen ermee
+en zorg dat je deze manier begrijpt, zelf kunt toepassen en ook kunt
+uitleggen tijdens de code review.</p>
+<ul>
+<li>
+<p><a href="https://netspecialist.nl/html-en-css/486-de-flexbox-technologie">https://netspecialist.nl/html-en-css/486-de-flexbox-technologie</a></p>
+</li>
+<li>
+<p><a href="https://www.w3schools.com/css/css3_flexbox.asp">https://www.w3schools.com/css/css3_flexbox.asp</a></p>
+</li>
+</ul>
+<h3>Taak 4b : Flexbox Froggy</h3>
+<p>In deze taak maak je alle opgaven van Flexbox Froggy. Via deze leuke
+game leer je namelijk de verschillende structuren die je met flexboxes
+kan opzetten, en daar heb je later veel aan!</p>
+<ul>
+<li>Maak alle opdrachten binnen de Flexbox Froggy game op:
+<a href="https://flexboxfroggy.com/">https://flexboxfroggy.com/</a></li>
+</ul>
+<h2>Clean code</h2>
+<p>Wanneer je code schrijft dan ga je hierop regelmatig aanpassingen of
+wijzigingen doorvoeren. Het is daarom belangrijk dat je code logisch in
+elkaar zit, zodat je deze makkelijk kunt lezen en begrijpen (clean
+code).</p>
+<p>Je kunt je natuurlijk afvragen wat het nut van clean code is. Als het
+maar werkt, hoe de code eruitziet maakt toch niet uit? Toch is het wel
+belangrijk om de code clean te schrijven. Als je in een team met
+meerdere software developers aan een project werkt, dan werkt vaak
+iedereen op zijn eigen manier. Je ziet dan vaak in de code meerdere
+stijlen van verschillende programmeurs door elkaar. Hierdoor is het
+lastig om fouten in de code te vinden of wijzigingen in de code aan te
+brengen. Clean code is dus code waarin je de stijl van de verschillende
+programmeurs niet ziet. In het team zijn dan namelijk afspraken gemaakt
+over de stijl van de code.</p>
+<p>In de projecten die je in de toekomst als team gaat uitvoeren is het dus
+belangrijk om hierover afspraken te maken en elkaar ook op deze
+afspraken te controleren en te houden.</p>
+<p>Afspraken die programmeurs hierover maken wordt vaak vastgelegd in een
+document. We noemen deze afspraken ook wel code conventions. Zo worden
+er bijvoorbeeld afspraken gemaakt over:</p>
+<ul>
+<li>
+<p>Naamgeving van variabelen;</p>
+</li>
+<li>
+<p>Naamgeving van bestanden;</p>
+</li>
+<li>
+<p>Naamgeving van Functies en Procedures;</p>
+</li>
+<li>
+<p>Gebruik van tabs of spaties bij inspringen;</p>
+</li>
+<li>
+<p>Aantal tabs of spaties bij inspringen;</p>
+</li>
+<li>
+<p>Afspraken over de plek van verschillende bestanden.</p>
+</li>
+</ul>
+<p>Bovenstaand zijn een aantal voorbeelden, maar er valt veel meer te
+zeggen over clean code. Wanneer we gaan zoeken op
+<a href="bol.com" class="uri">bol.com</a> dan zien we dat er zelfs
+complete boeken over dit onderwerp geschreven zijn. Meer informatie over
+clean HTML- en CSS-code kun je vinden op:
+<a href="https://www.w3schools.com/html/html5_syntax.asp">https://www.w3schools.com/html/html5_syntax.asp</a> . Bestudeer deze
+pagina en zorg ervoor dat de projecten die je in de toekomst gaat maken
+in clean code geschreven zijn.</p>
+<p>Een ander interessant artikel over clean code kun je vinden op:
+<a href="https://x-team.com/blog/principles-clean-code">https://x-team.com/blog/principles-clean-code</a> .</p>
+<h4>Taak 5 : The next Google</h4>
+<p>In deze taak gaan we de homepagina van Google nabouwen.</p>
+<h4>Opdracht:</h4>
+<ul>
+<li>
+<p>Bouw de homepagina van Google na. De zoekbalk hoeft niet te werken.</p>
+</li>
+<li>
+<p>Steel geen code van Google, maar schrijf alles zelf.</p>
+</li>
+<li>
+<p>Schrijf clean code.</p>
+</li>
+<li>
+<p>Ben je klaar, commit en push!</p>
+</li>
+</ul>
+<h2>Webpagina layout en design</h2>
+<h4>Standaard layout</h4>
+<p>De meeste webdesigners zijn in de loop van de jaren websites gaan
+ontwerpen volgens vaste patronen:</p>
+<ul>
+<li>
+<p>Banner en navigatie aan de bovenkant.</p>
+</li>
+<li>
+<p>Een paar artikelen die de content vormen.</p>
+</li>
+<li>
+<p>Een kolom aan de rechterkant voor reclame of nieuws.</p>
+</li>
+<li>
+<p>Een voettekst aan de onderkant met bedrijfsinformatie.</p>
+</li>
+</ul>
+<p>In veel gevallen ziet het er dan in grote lijnen uit als in onderstaande figuur</p>
+<img src="https://static.edutorial.nl/lucy/htmlcss/opdracht-layout-webpagina.jpg" alt="Standaard webpagina layout" style="width:60%;">
+<p>Als webdesigner/webdeveloper/programmeur ben je natuurlijk vrij om je
+eigen ontwerp te maken en hierin je eigen creativiteit te gebruiken.</p>
+<p>In deze opdracht gaan we een basis neerzetten met HTML/CSS waarin we
+bovenstaande structuur proberen aan te houden. We gebruiken hiervoor de
+volgende HTML-elementen:</p>
+<ul>
+<li>
+<p><code>&lt;nav&gt;</code></p>
+</li>
+<li>
+<p><code>&lt;main&gt;</code></p>
+</li>
+<li>
+<p><code>&lt;section&gt;</code></p>
+</li>
+<li>
+<p><code>&lt;div&gt;</code></p>
+</li>
+<li>
+<p><code>&lt;footer&gt;</code></p>
+</li>
+</ul>
+<h4>Taak 6 : Layout</h4>
+<ol>
+<li>
+<p>Bestudeer bovengenoemde HTML-elementen op:
+<a href="https://www.w3schools.com/html/html_layout.asp">https://www.w3schools.com/html/html_layout.asp</a></p>
+</li>
+<li>
+<p>Maak de layout zoals hierboven afgebeeld is na met HTML en CSS. Wees
+hierin creatief, bedenk zelf de kleuren, achtergronden en plaats een
+eigen logo (Denk aan het auteursrecht).</p>
+</li>
+<li>
+<p>Vergeet niet de add en commit in Git niet.</p>
+</li>
+</ol>
+<h2>Navigatie</h2>
+<p>In het vorige project heb je al kennis gemaakt met de volgende HTML-tags</p>
+<ul>
+<li>
+<p><code>&lt;ul&gt;</code></p>
+</li>
+<li>
+<p><code>&lt;ol&gt;</code></p>
+</li>
+<li>
+<p><code>&lt;li&gt;</code></p>
+</li>
+<li>
+<p><code>&lt;a&gt;</code></p>
+</li>
+</ul>
+<p>Hiermee kunnen lijsten en links gemaakt worden. Deze HTML-tags worden
+ook gebruikt om navigatie menu’s te maken.</p>
+<h4>Taak 7 : Website met navigatie</h4>
+<ol>
+<li>
+<p>Bestudeer bovengenoemde HTML-tags op:
+<a href="https://www.w3schools.com/css/css_navbar.asp">https://www.w3schools.com/css/css_navbar.asp</a></p>
+</li>
+<li>
+<p>Gebruik de code van de gemaakte website uit taak 6 en breid deze uit
+door onderstaande opties toe te voegen.</p>
+</li>
+<li>
+<p>Maak een website over een onderwerp naar eigen keuze. Denk
+bijvoorbeeld een website over je favoriete sport, je hobby, je
+studie, of iets dergelijks. Zorg ervoor dat de website minimaal de
+volgende onderdelen bevat</p>
+<ul>
+<li>
+<p>Een nette lay-out.</p>
+</li>
+<li>
+<p>Een navigatiestructuur met minimaal 5 pagina’s.</p>
+</li>
+<li>
+<p>De website bevat minimaal één tabel.</p>
+</li>
+<li>
+<p>De website bevat een contactformulier.</p>
+</li>
+<li>
+<p>De website bevat teksten, foto’s en linkjes naar andere
+pagina’s.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Zorg voor clean code, maak logisch gebruik van Div’s, id’s en
+classes.</p>
+</li>
+<li>
+<p>Laat in deze opdracht zien dat je de genoemde onderdelen uit deze
+opdracht beheerst door de geleerde technieken toe te passen.</p>
+</li>
+<li>
+<p>Test je website in verschillende browsers en check of alle linkjes
+goed werken.</p>
+</li>
+<li>
+<p>Tijdens de code review moet je kunnen uitleggen hoe de code werkt en
+waarom je voor bepaalde oplossingen gekozen hebt.</p>
+</li>
+<li>
+<p>Vergeet de add en commit in Git niet.</p>
+</li>
+</ol>
+<h2>Responsive webdesign frameworks</h2>
+<p>In dit project hebben je meer geleerd over HTML en CSS. Ook hebben we
+gekeken naar responsive webdesign.</p>
+<p>We hebben dit gedaan door vanaf scratch te beginnen met het bouwen van
+de webpagina. Er zijn ook zogenaamde frameworks die het makkelijk maken
+om responsive websites te ontwikkelen. Deze frameworks bevatten een
+groot aantal gereedschappen en bibliotheken met code die we kunnen
+gebruiken. Door gebruik te maken van een framework is het mogelijk om
+sneller en makkelijker een responsive website te ontwikkelen. Een veel
+gebruikt framework voor responsive webdesign is bootstrap.</p>
+<p>Tijdens dit project gaan we daar nog niet mee werken, maar het is wel
+belangrijk om te weten dat er frameworks zijn en wat de mogelijkheden
+hiervan zijn.</p>
+<p>In de toekomst als software developer zul je namelijk vaak gebruik maken
+van frameworks. Meer informatie over het bootstrap framework kun je o.a.
+vinden op:</p>
+<ul>
+<li>
+<p><a href="https://www.w3schools.com/bootstrap5/">https://www.w3schools.com/bootstrap5/</a></p>
+</li>
+<li>
+<p><a href="https://getbootstrap.com/">https://getbootstrap.com/</a></p>
+</li>
+</ul>
+<h2>Afronding</h2>
+<ul>
+<li>
+<p>Controleer met de rubric of je een voldoende of goed haalt voor de
+opdracht.</p>
+</li>
+<li>
+<p>Bespreek een reviewmoment bij een docent.</p>
+</li>
+<li>
+<p>Deel de code van de opdracht via GitHub met de docenten.</p>
+<ul>
+<li>
+<p>Push de code naar een repository op GitHub.</p>
+</li>
+<li>
+<p>Deel de repository met de docenten</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Bereid je voor op het reviewmoment.</p>
+</li>
+<li>
+<p>Na goedkeuring van een docent:</p>
+<ol>
+<li>
+<p>Plaats de code van elke taak in een word document.</p>
+</li>
+<li>
+<p>Upload word documenten in Cumlaude.</p>
+</li>
+</ol>
+</li>
+</ul>
+<h2>Planning</h2>
+<p>Je kunt onderstaande sjabloon gebruiken voor jouw eigen planning. Neem
+onderstaande sjabloon daarvoor over in jouw favoriete planningtool en
+voeg waar gewenst eigen regels toe. Zet de verschillende acties daarna
+op de juiste data in jouw agenda.</p>
+<p>PS: Je kunt taken niet altijd na elkaar te plannen. Je zult taken ook
+moeten laten overlappen. Dit geldt ook voor taken in de verschillende
+opdrachten.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Actie</strong></th>
+<th style="text-align:left"><strong>Datumstart</strong></th>
+<th style="text-align:left"><strong>Datumklaar</strong></th>
+<th style="text-align:left"><strong>Klaar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Bestudeer tabellen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak taak 1 - een tabel</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer formulieren</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak taak 2a en 2b - formulieren</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer Divs</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer IDs en Classes</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer Elementen selecteren</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer Float en Clear</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak taak 3 - codecademy</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer Responsive design</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer CSS Flexbox</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak taak 4b - flexbox froggy game</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer Clean code</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak taak 5 - the next Google</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer Webpagina layout en design</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak taak 6 en 7 - website met navigatie</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer Responsive webdesign frameworks</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Afronding</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2>Rubric Html/Css</h2>
+<h4>Taak 1 - tabellen</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Werking</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">De HTML-pagina laadt foutloos</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">De HTML-pagina werkt niet</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Layout</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Alle rijen en kolommen staan goed</td>
+<td style="text-align:left">De meeste rijen en kolommen staan goed</td>
+<td style="text-align:left">De meeste rijen en kolommen staan niet goed</td>
+<td style="text-align:left">De rijen en kolommen staan niet goed</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Code review</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan de werking van de source code foutloos en zonder hapering uitleggen</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken over werking van source code</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij uitleg van werking van source code pagina</td>
+<td style="text-align:left">Ik kan source code niet uitleggen</td>
+</tr>
+</tbody>
+</table>
+<h4>Taak 2 - Formulieren</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Werking</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">De HTML is correct en het formulier is juist gemaakt. Alle velden zijn correct</td>
+<td style="text-align:left">De HTML is correct en het formulier is juist gemaakt. Bijna alle velden zijn correct</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">De HTML-pagina werkt niet</td>
+</tr>
+<tr>
+<td style="text-align:left">Code review</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan de werking van de source code foutloos en zonder hapering uitleggen</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken over werking van source code</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij uitleg van werking van source code pagina</td>
+<td style="text-align:left">Ik kan source code niet uitleggen</td>
+</tr>
+</tbody>
+</table>
+<h4>Taak 5 - the next Google</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>werking</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">De website werkt foutloos en voldoet aan alle genoemde eisen en gebruikte HTML en CSS bevat geen fouten.</td>
+<td style="text-align:left">De website werkt foutloos en voldoet aan alle genoemde eisen en gebruikte HTML en CSS bevat bijna geen fouten</td>
+<td style="text-align:left">De website werkt maar geeft fouten tijdens het uitvoeren</td>
+<td style="text-align:left">De website werkt niet</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Code review</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan de werking van de source code foutloos en zonder hapering uitleggen</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken over werking van source code</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij uitleg van werking van source code pagina</td>
+<td style="text-align:left">Ik kan source code niet uitleggen</td>
+</tr>
+</tbody>
+</table>
+<h4>Taak 6 en 7 - website met navigatie</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>werking</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">De website werkt foutloos en voldoet aan alle genoemde eisen en gebruikte HTML en CSS bevat geen fouten.</td>
+<td style="text-align:left">De website werkt foutloos en voldoet aan alle genoemde eisen en gebruikte HTML en CSS bevat bijna geen fouten</td>
+<td style="text-align:left">De website werkt maar geeft fouten tijdens het uitvoeren</td>
+<td style="text-align:left">De website werkt niet</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Code review</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan de werking van de source code foutloos en zonder hapering uitleggen</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken over werking van source code</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij uitleg van werking van source code pagina</td>
+<td style="text-align:left">Ik kan source code niet uitleggen</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Onderzoek / opleveringsgesprek</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het verschil tussen een id en een class uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">Ik kan het verschil tussen een id en een class niet uitleggen</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wat de CSS flexbox techniek is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">Ik kan niet uitleggen wat de CSS flexbox techniek is</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wat responsive webdesign is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">Ik kan niet uitleggen wat responsive webdesign is</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wat clean code is, en wat hiervan het nut is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">Ik kan niet uitleggen wat clean code is, en wat hiervan het nut is</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wat een framework is en wat het nut van een framework is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">Ik kan niet uitleggen wat een framework is en wat het nut van een framework is</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan bootstrap duiden als functionaliteit</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">Ik kan bootstrap niet duiden als functionaliteit</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</main-content>
+    
+
+</main>
+    <footer class="wzi47stss"><div class="cc">
+    <picture><source type="image/webp" srcset="/lucy/_img/iBwJRm3wB5-88.webp 88w"><img loading="lazy" decoding="async" src="/lucy/_img/iBwJRm3wB5-88.jpeg" alt="logo deltion" width="88" height="31"></picture>
+</div>
+<div class="copy">
+    <p><span>2023</span> © Deltion ICT - Software Development<br>
+            Dit werk valt onder een <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                Naamsvermelding - NietCommercieel 4.0 internationaal-licentie</a>.
+        </p>
+</div>
+
+</footer>
+    <script type="module" defer="">if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }</script>
+
+
+</body>
+</html>

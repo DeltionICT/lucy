@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"orientatie-blockchain",
-	"coursetitle":"Oriëntatie Blockchain",
-	"permalink":"/subjects/orientatie-blockchain/{{ title | slugify }}/{{ page.index }}"
-}

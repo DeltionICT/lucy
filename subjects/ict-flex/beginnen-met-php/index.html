@@ -1,0 +1,1537 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy | Leeromgeving Software development</title>
+    <link rel="shortcut icon" href="/lucy/_system/favicon.ico" sizes="any"><!-- 32×32 -->
+    <link rel="icon" href="/lucy/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/lucy/_system/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="manifest" href="/lucy/manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+    
+    
+    
+    <style>.wv0jwq1on{list-style-type:none}.wv0jwq1on a{text-decoration:none}.wv0jwq1on li{width:90%;padding:2px 0px 2px 8px;border-radius:8px;margin:0 0 0.5rem 0}.wv0jwq1on li.selected{background-color:var(--c-brand);color:#fff}.wv0jwq1on li.notselected{background-color:var(--c-header-bg)}@media only screen and (max-width:600px){.wv0jwq1on li{width:100%}}
+.webcftrhj{display:flex;justify-content:flex-start}.webcftrhj div.sidebar{flex:0 0 300px}.webcftrhj div.sidebar ul{margin:0 0 1rem 0}.webcftrhj div.content{flex:1 0 0;max-width:calc(80vw - 300px)}@media only screen and (max-width:600px){.webcftrhj{flex-direction:column}.webcftrhj div.content{flex:1 0 0;max-width:80vw}}
+.w3ogpr5jr{margin:0 0 2rem 0}.w3ogpr5jr div.category{border-bottom:1px solid var(--c-brand);font-weight:bold}.w3ogpr5jr div.category a{text-decoration:none}.w3ogpr5jr div.category p{margin:0 0 0 0}.w3ogpr5jr div.authors{text-align:right;font-style:italic;font-size:0.9rem}.w3ogpr5jr div.authors p{margin:0 0 0 0}
+.wh61vald5{margin-right:30px}.wh61vald5:last-child{margin-right:0px}.wh61vald5 .notselected{color:var(--c-brand);padding:8px 0px 8px 8px;border-radius:4px;text-decoration:none}.wh61vald5 .selected{background-color:var(--c-brand);color:var(--c-bg);padding:8px;border-radius:4px;text-decoration:none}
+.w4go7t2fx{display:flex;flex-direction:row;justify-content:space-between;width:80%;margin:8px auto 0 auto}.w4go7t2fx div.links{display:block;text-align:right}@media only screen and (max-width:400px){.w4go7t2fx{flex-direction:column}.w4go7t2fx div.links{text-align:center}}
+.wq89ttfva{padding-top:1rem;padding-bottom:1rem;background-color:var(--c-header-bg);box-shadow:var(--c-box-shadow)}
+.w9s7xnshy{display:flex;flex-direction:column;width:80%;margin:1rem auto 2rem auto;flex:1 0 auto}
+.wzi47stss{display:flex;justify-content:start;flex-direction:row;background-color:var(--c-header-bg);padding:1rem;border-radius:8px;width:80%;margin:0 auto 2rem auto}.wzi47stss img{width:auto}.wzi47stss div.cc{padding-top:0.4rem;margin-right:1rem}.wzi47stss div.copy p{line-height:1.3rem}@media only screen and (max-width:600px){.wzi47stss{flex-direction:column}}
+:root {
+    scroll-behavior: smooth;
+    --c-green: #637a32;
+    --c-darkgreen: #35460d;
+    --c-orange: #f48220;
+    --c-blue: #45438a;
+    --c-yellow: #eae27e;
+    --c-purple: #7188ec;
+    --c-pink: #f8a6b1;
+    --c-red: #9b0011;
+    --c-grey: #bbb3a6;
+    --c-brown: #8c631f;
+    --c-black: #2e2e31;
+    --c-brand: #25255b;
+    --c-brand-orange: #f48220;
+    --c-white: #deeef3;
+    --c-code: rgb(232, 241, 255);
+    --c-bg: #ededed;
+    --c-header-bg: #e0e0e0;
+    --fontfamily: 'Helvetica Neue', 'Arial', sans-serif;
+    --codefont: 'Azeret Mono', monospace;
+    --lineheight: 1.8rem;
+    --fontsize: 16px;
+    --c-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --c-box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* .brown {
+    background-color: #8c631f;
+}
+.red {
+    background-color: #9b0011;
+} */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: var(--fontsize);
+    color: var(--c-brand);
+    line-height: var(--lineheight);
+    background-color: var(--c-bg);
+}
+
+ul,
+ol {
+    margin-left: 1rem;
+}
+
+a {
+    /* text-decoration: none; */
+    color: var(--c-brand);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: var(--c-text-light-3);
+    margin-bottom: 1rem;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+th {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+blockquote {
+    background-color: #fff;
+    border: 1px solid var(--c-brand);
+    border-left: 5px solid var(--c-brand);
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: var(--c-box-shadow);
+}
+
+/* Video */
+.video-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+}
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: var(--c-brand);
+}
+
+h1 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+h4,
+h5 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    display: inline-block;
+
+}
+
+
+h5 {
+    border: none;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+ul {
+    margin: 0 0 1rem 1rem;
+}
+/**
+ * One Light theme for prism.js
+ * Based on Atom's One Light theme: https://github.com/atom/atom/tree/master/packages/one-light-syntax
+ */
+
+/**
+ * One Light colours (accurate as of commit eb064bf on 19 Feb 2021)
+ * From colors.less
+ * --mono-1: hsl(230, 8%, 24%);
+ * --mono-2: hsl(230, 6%, 44%);
+ * --mono-3: hsl(230, 4%, 64%)
+ * --hue-1: hsl(198, 99%, 37%);
+ * --hue-2: hsl(221, 87%, 60%);
+ * --hue-3: hsl(301, 63%, 40%);
+ * --hue-4: hsl(119, 34%, 47%);
+ * --hue-5: hsl(5, 74%, 59%);
+ * --hue-5-2: hsl(344, 84%, 43%);
+ * --hue-6: hsl(35, 99%, 36%);
+ * --hue-6-2: hsl(35, 99%, 40%);
+ * --syntax-fg: hsl(230, 8%, 24%);
+ * --syntax-bg: hsl(230, 1%, 98%);
+ * --syntax-gutter: hsl(230, 1%, 62%);
+ * --syntax-guide: hsla(230, 8%, 24%, 0.2);
+ * --syntax-accent: hsl(230, 100%, 66%);
+ * From syntax-variables.less
+ * --syntax-selection-color: hsl(230, 1%, 90%);
+ * --syntax-gutter-background-color-selected: hsl(230, 1%, 90%);
+ * --syntax-cursor-line: hsla(230, 8%, 24%, 0.05);
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     background-color: var(--c-code);
+     color: hsl(230, 8%, 24%);
+     font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+     direction: ltr;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     line-height: 1.5;
+     -moz-tab-size: 2;
+     -o-tab-size: 2;
+     tab-size: 2;
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+     overflow-x:scroll;
+     overflow-y:scroll;
+ }
+ 
+ /* Selection */
+ code[class*="language-"]::-moz-selection,
+ code[class*="language-"] *::-moz-selection,
+ pre[class*="language-"] *::-moz-selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ code[class*="language-"]::selection,
+ code[class*="language-"] *::selection,
+ pre[class*="language-"] *::selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: 0.5em 0;
+     border-radius: 0.3em;
+     box-shadow:var(--c-box-shadow);
+     overflow: auto;
+ 
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+     padding: 0.2em 0.3em;
+     border-radius: 0.3em;
+     white-space: normal;
+ }
+ 
+ .token.comment,
+ .token.prolog,
+ .token.cdata {
+     color: hsl(0, 0%, 56%);
+ }
+ 
+ .token.doctype,
+ .token.punctuation,
+ .token.entity {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .token.attr-name,
+ .token.class-name,
+ .token.boolean,
+ .token.constant,
+ .token.number,
+ .token.atrule {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .token.keyword {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .token.property,
+ .token.tag,
+ .token.symbol,
+ .token.deleted,
+ .token.important {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .token.selector,
+ .token.string,
+ .token.char,
+ .token.builtin,
+ .token.inserted,
+ .token.regex,
+ .token.attr-value,
+ .token.attr-value > .token.punctuation {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .token.variable,
+ .token.operator,
+ .token.function {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .token.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ /* HTML overrides */
+ .token.attr-value > .token.punctuation.attr-equals,
+ .token.special-attr > .token.attr-value > .token.value.css {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* CSS overrides */
+ .language-css .token.selector {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .language-css .token.property {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-css .token.function,
+ .language-css .token.url > .token.function {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-css .token.url > .token.string.url {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-css .token.important,
+ .language-css .token.atrule .token.rule {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* JS overrides */
+ .language-javascript .token.operator {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-javascript .token.template-string > .token.interpolation > .token.interpolation-punctuation.punctuation {
+     color: hsl(344, 84%, 43%);
+ }
+ 
+ /* JSON overrides */
+ .language-json .token.operator {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-json .token.null.keyword {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ /* MD overrides */
+ .language-markdown .token.url,
+ .language-markdown .token.url > .token.operator,
+ .language-markdown .token.url-reference.url > .token.string {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-markdown .token.url > .token.content {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .language-markdown .token.url > .token.url,
+ .language-markdown .token.url-reference.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-markdown .token.blockquote.punctuation,
+ .language-markdown .token.hr.punctuation {
+     color: hsl(230, 4%, 64%);
+     font-style: italic;
+ }
+ 
+ .language-markdown .token.code-snippet {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-markdown .token.bold .token.content {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .language-markdown .token.italic .token.content {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-markdown .token.strike .token.content,
+ .language-markdown .token.strike .token.punctuation,
+ .language-markdown .token.list.punctuation,
+ .language-markdown .token.title.important > .token.punctuation {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ /* General */
+ .token.bold {
+     font-weight: bold;
+ }
+ 
+ .token.comment,
+ .token.italic {
+     font-style: italic;
+ }
+ 
+ .token.entity {
+     cursor: help;
+ }
+ 
+ .token.namespace {
+     opacity: 0.8;
+ }
+ 
+ /* Plugin overrides */
+ /* Selectors should have higher specificity than those in the plugins' default stylesheets */
+ 
+ /* Show Invisibles plugin overrides */
+ .token.token.tab:not(:empty):before,
+ .token.token.cr:before,
+ .token.token.lf:before,
+ .token.token.space:before {
+     color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Toolbar plugin overrides */
+ /* Space out all buttons and move them away from the right edge of the code block */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+     margin-right: 0.4em;
+ }
+ 
+ /* Styling the buttons */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 6%, 44%);
+     padding: 0.1em 0.4em;
+     border-radius: 0.3em;
+ }
+ 
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+     background: hsl(230, 1%, 78%); /* custom: darken(--syntax-bg, 20%) */
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* Line Highlight plugin overrides */
+ /* The highlighted line itself */
+ .line-highlight.line-highlight {
+     background: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Default line numbers in Line Highlight plugin */
+ .line-highlight.line-highlight:before,
+ .line-highlight.line-highlight[data-end]:after {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 8%, 24%);
+     padding: 0.1em 0.6em;
+     border-radius: 0.3em;
+     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); /* same as Toolbar plugin default */
+ }
+ 
+ /* Hovering over a linkable line number (in the gutter area) */
+ /* Requires Line Numbers plugin as well */
+ pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows > span:hover:before {
+     background-color: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Line Numbers and Command Line plugins overrides */
+ /* Line separating gutter from coding area */
+ .line-numbers.line-numbers .line-numbers-rows,
+ .command-line .command-line-prompt {
+     border-right-color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Stuff in the gutter */
+ .line-numbers .line-numbers-rows > span:before,
+ .command-line .command-line-prompt > span:before {
+     color: hsl(230, 1%, 62%);
+ }
+ 
+ /* Match Braces plugin overrides */
+ /* Note: Outline colour is inherited from the braces */
+ .rainbow-braces .token.token.punctuation.brace-level-1,
+ .rainbow-braces .token.token.punctuation.brace-level-5,
+ .rainbow-braces .token.token.punctuation.brace-level-9 {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-2,
+ .rainbow-braces .token.token.punctuation.brace-level-6,
+ .rainbow-braces .token.token.punctuation.brace-level-10 {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-3,
+ .rainbow-braces .token.token.punctuation.brace-level-7,
+ .rainbow-braces .token.token.punctuation.brace-level-11 {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-4,
+ .rainbow-braces .token.token.punctuation.brace-level-8,
+ .rainbow-braces .token.token.punctuation.brace-level-12 {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* Diff Highlight plugin overrides */
+ /* Taken from https://github.com/atom/github/blob/master/styles/variables.less */
+ pre.diff-highlight > code .token.token.deleted:not(.prefix),
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) {
+     background-color: hsla(353, 100%, 66%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::-moz-selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix),
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) {
+     background-color: hsla(137, 100%, 55%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::-moz-selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ /* Previewers plugin overrides */
+ /* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-light-ui */
+ /* Border around popup */
+ .prism-previewer.prism-previewer:before,
+ .prism-previewer-gradient.prism-previewer-gradient div {
+     border-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Angle and time should remain as circles and are hence not included */
+ .prism-previewer-color.prism-previewer-color:before,
+ .prism-previewer-gradient.prism-previewer-gradient div,
+ .prism-previewer-easing.prism-previewer-easing:before {
+     border-radius: 0.3em;
+ }
+ 
+ /* Triangles pointing to the code */
+ .prism-previewer.prism-previewer:after {
+     border-top-color: hsl(0, 0, 95%);
+ }
+ 
+ .prism-previewer-flipped.prism-previewer-flipped.after {
+     border-bottom-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Background colour within the popup */
+ .prism-previewer-angle.prism-previewer-angle:before,
+ .prism-previewer-time.prism-previewer-time:before,
+ .prism-previewer-easing.prism-previewer-easing {
+     background: hsl(0, 0%, 100%);
+ }
+ 
+ /* For angle, this is the positive area (eg. 90deg will display one quadrant in this colour) */
+ /* For time, this is the alternate colour */
+ .prism-previewer-angle.prism-previewer-angle circle,
+ .prism-previewer-time.prism-previewer-time circle {
+     stroke: hsl(230, 8%, 24%);
+     stroke-opacity: 1;
+ }
+ 
+ /* Stroke colours of the handle, direction point, and vector itself */
+ .prism-previewer-easing.prism-previewer-easing circle,
+ .prism-previewer-easing.prism-previewer-easing path,
+ .prism-previewer-easing.prism-previewer-easing line {
+     stroke: hsl(230, 8%, 24%);
+ }
+ 
+ /* Fill colour of the handle */
+ .prism-previewer-easing.prism-previewer-easing circle {
+     fill: transparent;
+ }
+pre {
+    white-space: pre;
+    overflow: auto;
+    background-color: #ffffff;
+    border: 1px solid var(--c-text);
+    padding: 5px;
+}
+
+code {
+    border-radius: 4px;
+    background-color:var(--c-code);
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+}
+div.html {
+    background-color: var(--c-header-bg);
+    padding:16px;
+    border-radius: 4px;
+}
+
+div.html table td, div.html table th {
+    border:1px solid var(--c-text);
+    padding: 4px;
+}
+div.html table {
+    border-collapse:collapse;
+}</style>
+</head>
+
+<body>
+    
+    <header class="wq89ttfva">
+        <nav class="w4go7t2fx"><a href="/lucy/">
+    <div>
+                <img loading="lazy" decoding="async" src="/lucy/_img/B36NADJHz0-120.svg" alt="logo deltion" width="120" height="41">
+            </div>
+</a>
+<div class="links">
+    <div>
+                <nav-item url="/" title="Modules" selected="selected" class="wh61vald5"><a href="/lucy/" class="selected">Modules</a>
+
+</nav-item>
+<nav-item url="/authors/" title="Auteurs" selected="notselected" class="wh61vald5"><a href="/lucy/authors/" class="notselected">Auteurs</a>
+
+</nav-item>
+            </div>
+</div>
+
+</nav>
+    
+
+</header>
+    <main class="w9s7xnshy">
+        <main-title ref="/subjects/ict-flex/introductie/" class="w3ogpr5jr"><div class="category">
+        <a href="/lucy/subjects/ict-flex/introductie/"><p slot="category">ICT Flex</p></a>
+    </div>
+    <div class="authors">
+        <span slot="authors">Jan Jaap Siewers, Jeroen Heuvelman, André Dalmolen</span> |
+        <span slot="date">Mar 14, 2023</span>
+    </div>
+    <div class="title">
+        <h1><div slot="title">Beginnen met PHP</div></h1>
+    </div>
+
+</main-title>
+<main-content class="webcftrhj"><div class="sidebar">
+    <ul>
+        <list-link url="/subjects/ict-flex/introductie/" page="/subjects/ict-flex/beginnen-met-php/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/introductie/"><li class="notselected">Introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/database-introductie/" page="/subjects/ict-flex/beginnen-met-php/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/database-introductie/"><li class="notselected">Database introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/hosting/" page="/subjects/ict-flex/beginnen-met-php/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/hosting/"><li class="notselected">Hosting</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/html-en-css/" page="/subjects/ict-flex/beginnen-met-php/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/html-en-css/"><li class="notselected">HTML en CSS</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/javascript/" page="/subjects/ict-flex/beginnen-met-php/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/javascript/"><li class="notselected">Javascript</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/ken-jezelf/" page="/subjects/ict-flex/beginnen-met-php/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/ken-jezelf/"><li class="notselected">Ken Jezelf</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/beginnen-met-php/" page="/subjects/ict-flex/beginnen-met-php/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/beginnen-met-php/"><li class="selected">Beginnen met PHP</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/programmeren-basis/" page="/subjects/ict-flex/beginnen-met-php/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/programmeren-basis/"><li class="notselected">Programmeren basis</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/webpagina/" page="/subjects/ict-flex/beginnen-met-php/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/webpagina/"><li class="notselected">Webpagina</li></a>
+
+</list-link>
+    </ul>
+</div>
+<div class="content">
+    <blockquote>
+<h4>Voorkennis</h4>
+<ul>
+<li>Je hebt de opdracht basis programmeren met succes afgerond</li>
+</ul>
+</blockquote>
+<blockquote>
+<h4>Dit ga je leren</h4>
+<ul>
+<li>Het verschil tussen client en serverside programmeren</li>
+<li>Applicaties leren bouwen met PHP</li>
+<li>Code van anderen leren begrijpen en aanpassen in PHP</li>
+<li>Het maken van onderhoudbare code</li>
+</ul>
+</blockquote>
+<h1>Introductie</h1>
+<p>In eerdere projecten hebben we kennis gemaakt met de basisstructuren
+programmeren. In deze opdracht gaan we onze kennis van PHP verder
+uitbreiden.</p>
+<h2>Vakdocenten</h2>
+<ul>
+<li>Jeroen Heuvelman - JHN - jheuvelman@deltion.nl</li>
+<li>Andre Dalmolen - ADN - adalmolen@deltion.nl</li>
+<li>Peter van Gemert - PGT - pgemert@deltion.nl</li>
+<li>Jan Jaap Siewers - JJS - jsiewers@deltion.nl</li>
+</ul>
+<h1>Backlog</h1>
+<ul>
+<li>
+<p>Als webdeveloper wil ik weten wat het verschil is tussen server- en
+clientside programmeren.</p>
+</li>
+<li>
+<p>Als webdeveloper wil ik mijn kennis over PHP vergroten, zodat ik
+mooie en functionele websites en webapplicaties kan bouwen</p>
+</li>
+<li>
+<p>Als student moet ik brede kennis van PHP hebben zodat ik mijn examen
+kan halen.</p>
+</li>
+<li>
+<p>Als student wil ik opdrachten maken met PHP zodat ik kan leren hoe
+ik PHP in de praktijk kan toepassen.</p>
+</li>
+<li>
+<p>Als webdeveloper wil ik PHP kunnen lezen en begrijpen, zodat ik code
+van anderen kan beoordelen op bruikbaarheid in eigen projecten.</p>
+</li>
+<li>
+<p>Als webdeveloper moet ik clean code schrijven zodat collega’s mijn
+code makkelijker kunnen begrijpen en onderhouden.</p>
+</li>
+</ul>
+<h2>Wat is PHP?</h2>
+<p>PHP is een server-side scripting taal die veel gebruikt wordt om
+websites en webapplicaties te programmeren. PHP-code kan binnen
+HTML-code geplaatst worden, waarbij de HTML-code op de cliënt en de
+PHP-code op de server uitgevoerd wordt. Om dit beter te begrijpen is het
+belangrijk om het client-server model te kennen en te begrijpen.</p>
+<h2>Client-server model</h2>
+<p>Het client-server model is een model waarbij twee computers, een cliënt
+en een server samenwerken om een programma of een website uit te voeren.
+De cliënt doet een aanvraag (request) bij de server en de server geeft
+vervolgens de gevraagde informatie terug aan de cliënt (response). Denk
+bijvoorbeeld aan internetbankieren, de cliënt vraag bijvoorbeeld het
+saldo van de bankrekening op. De server verwerkt deze vraag en geeft het
+saldo terug aan de cliënt. Een korte uitleg over het client-server model
+kun je vinden op: <a href="https://www.youtube.com/watch?v=SwLdKeC8scE">https://www.youtube.com/watch?v=SwLdKeC8scE</a></p>
+<p>PHP-code kan binnen HTML-code geplaatst worden. De PHP-code dient dan
+binnen de volgende tags geplaatst te worden:</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span> <span class="token operator">...</span><span class="token operator">...</span> <span class="token delimiter important">?></span></span></code></pre>
+<h4>Taak 1 – PHP-introductie</h4>
+<h4>Voorbereiding</h4>
+<ul>
+<li>
+<p>Maak in je /htdocs folder een nieuwe folder aan voor deze opdracht.</p>
+</li>
+<li>
+<p>Zorg voor versiecontrole op deze folder.</p>
+</li>
+<li>
+<p>Plaats een in deze folder en gebruik je favoriete editor om
+onderstaande code
+(listing <a href="#phpinfo" data-reference-type="ref" data-reference="phpinfo">[phpinfo]</a>) in dit bestand te plaatsen.</p>
+</li>
+<li>
+<p>Commit</p>
+</li>
+<li>
+<p>Start de webpagina op en kijk wat er gebeurt</p>
+</li>
+</ul>
+<pre class="language-php"><code class="language-php"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>    <span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br>        <span class="token function">phpinfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token delimiter important">?></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span>  </code></pre>
+<p>De <code>phpinfo()</code>-functie is een standaard PHP-functie die de PHP
+instellingen weergeeft op de webpagina.</p>
+<p>De standaard aanroep van deze functie geeft alle informatie weer in de
+browser. Als je een lege pagina of een foutmelding krijgt, dan is het
+mogelijk dat je een typefout gemaakt hebt. Probeer dan de fout op te
+sporen en zorg ervoor dat de pagina werkt. Het is met deze functie ook
+mogelijk om een deel van de informatie op te halen. Dit kan door de
+functie aan te roepen met een extra parameter. Om bijvoorbeeld alleen de
+licentie informatie van PHP op te vragen kan dezelfde functie gebruikt
+worden met de parameter <code>INFO-LICENSE</code>. De aanroep wordt dan als volgt:</p>
+<pre class="language-php"><code class="language-php"><span class="token function">phpinfo</span><span class="token punctuation">(</span><span class="token constant">INFO_LICENSE</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Er zijn meer parameters die je kunt meesturen. Meer hierover kun je
+vinden op de volgende website:
+<a href="https://doc.bccnsoft.com/docs/php-docs-7-en/function.phpinfo.html">https://doc.bccnsoft.com/docs/php-docs-7-en/function.phpinfo.html</a>.</p>
+<p>De functie die we in dit voorbeeld gebruikt hebben is een ingebouwde
+functie van PHP. PHP heeft meerdere ingebouwde functies zoals:
+<code>gettype</code>, <code>print_r</code>, <code>var_dump</code>, enz. Het is ook mogelijk om als PHP
+programmeur zelf functies te schrijven. Het zelf schrijven van functies
+komt verderop in deze opdracht aan de orde.</p>
+<h2>Formulier afhandeling</h2>
+<p>Formulieren worden vaak gebruikt op websites en in webapplicaties. Denk
+bijvoorbeeld aan contact- of bestelformulieren. Bezoekers kunnen deze
+formulieren invullen en vervolgens worden de ingevulde gegevens bewaard
+in een database of er wordt een mail gestuurd. De basis van
+HTML-formulieren is inmiddels behandeld in een vorige opdracht. In deze
+opdracht gaan we kijken hoe we ingevulde html-formulieren op de server
+kunnen verwerken met PHP.</p>
+<h4>Taak 2 - formulieren</h4>
+<ul>
+<li>
+<p>Maak in je /htdocs folder een nieuwe folder aan voor deze opdracht.</p>
+</li>
+<li>
+<p>Zorg voor versiecontrole op deze folder.</p>
+</li>
+<li>
+<p>Plaats een index.php in deze folder en gebruik je favoriete editor
+om onderstaande code in dit bestand te plaatsen.</p>
+</li>
+<li>
+<p>Commit en push.</p>
+</li>
+<li>
+<p>Start de webpagina en kijk wat er gebeurt.</p>
+</li>
+<li>
+<p>Bestudeer de code. Wanneer er stukken code zijn die je niet
+begrijpt, zoek deze dan op of vraag een docent om hulp.</p>
+</li>
+<li>
+<p>Breidt de code uit door de volgende talen en vertalingen toe te
+voegen: Frans, Spaans en Italiaans.</p>
+</li>
+<li>
+<p>Voeg bij de landkeuze de optie “Maak uw keuze” toe. Deze wordt
+standaard geactiveerd bij het starten van de pagina. Zorg ervoor dat
+de bezoeker een melding krijgt wanneer hij het formulier wil
+versturen zonder dat hij een taalkeuze gemaakt heeft.</p>
+</li>
+<li>
+<p>Zorg ervoor dat na het versturen van het formulier de juiste
+taalkeuze geselecteerd blijft in de selectbox.</p>
+</li>
+<li>
+<p>Bestudeer hoe het switch statement werkt. Dat kan bijvoorbeeld op de
+volgende pagina: <a href="https://www.w3schools.com/php/php_switch.asp">https://www.w3schools.com/php/php_switch.asp</a></p>
+</li>
+<li>
+<p>Pas de code aan en vervang het if-statement door een
+switch-statement.</p>
+</li>
+<li>
+<p>Zoek uit wat het verschil is tussen <code>&lt;form method=”post”...</code> en
+<code>&lt;form method=”get”...</code> Tijdens de code review moet je dit kunnen
+uitleggen.</p>
+</li>
+<li>
+<p>Test je gemaakte programma. Ben je tevreden? Commit en push de
+wijzigingen dan in GIT!</p>
+</li>
+</ul>
+<pre class="language-php"><code class="language-php"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>PHP opdracht - vertaler<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>post<span class="token punctuation">"</span></span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	Naam: <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>naam<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Uw naam<span class="token punctuation">"</span></span> <span class="token attr-name">required</span> <span class="token punctuation">/></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span> <span class="token punctuation">/></span></span><br>	Land:<br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>land<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>NL<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Nederland<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>DE<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Duitsland<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>EN<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Engeland<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span> <span class="token punctuation">/></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>gegevens versturen<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span><br><br>	<span class="token php language-php"><span class="token delimiter important">&lt;?php</span> <br>	<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">isset</span><span class="token punctuation">(</span><span class="token variable">$_POST</span><span class="token punctuation">[</span><span class="token string double-quoted-string">"submit"</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>		<span class="token variable">$naam</span> <span class="token operator">=</span> <span class="token variable">$_POST</span><span class="token punctuation">[</span><span class="token string double-quoted-string">"naam"</span><span class="token punctuation">]</span><span class="token punctuation">;</span><br>		<span class="token variable">$land</span> <span class="token operator">=</span> <span class="token variable">$_POST</span><span class="token punctuation">[</span><span class="token string double-quoted-string">"land"</span><span class="token punctuation">]</span><span class="token punctuation">;</span><br>		<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token variable">$land</span><span class="token operator">==</span><span class="token string single-quoted-string">'NL'</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>			<span class="token keyword">echo</span> <span class="token string single-quoted-string">'Goedemorgen '</span><span class="token operator">.</span><span class="token variable">$naam</span><span class="token punctuation">;</span><br>		<span class="token punctuation">}</span><br>		<span class="token keyword">elseif</span><span class="token punctuation">(</span><span class="token variable">$land</span><span class="token operator">==</span><span class="token string single-quoted-string">'DE'</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>			<span class="token keyword">echo</span> <span class="token string single-quoted-string">'Guten Morgen '</span><span class="token operator">.</span><span class="token variable">$naam</span><span class="token punctuation">;</span><br>		<span class="token punctuation">}</span><br>		<span class="token keyword">elseif</span><span class="token punctuation">(</span><span class="token variable">$land</span><span class="token operator">==</span><span class="token string single-quoted-string">'EN'</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>			<span class="token keyword">echo</span> <span class="token string single-quoted-string">'Good morning '</span><span class="token operator">.</span><span class="token variable">$naam</span><span class="token punctuation">;</span><br>		<span class="token punctuation">}</span><br>	<span class="token punctuation">}</span><br>	<span class="token delimiter important">?></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span><br>	</code></pre>
+<h2>Clean code</h2>
+<p>Wanneer je code schrijft dan ga je hierop regelmatig aanpassingen of
+wijzigingen doorvoeren. Het is daarom belangrijk dat je code logisch in
+elkaar zit, zodat je deze makkelijk kunt lezen en begrijpen (clean
+code).</p>
+<p>Je kunt je natuurlijk afvragen wat het nut van clean code is. Als het
+maar werkt, hoe de code eruitziet maakt toch niet uit? Toch is het wel
+belangrijk om de code clean te schrijven. Als je in een team met
+meerdere software developers aan een project werkt, dan werkt vaak
+iedereen op zijn eigen manier. Je ziet dan vaak in de code meerdere
+stijlen van verschillende programmeurs door elkaar. Hierdoor is het
+lastig om fouten in de code te vinden of wijzigingen in de code aan te
+brengen. Clean code is dus code waarin je de stijl van de verschillende
+programmeurs niet ziet. In het team zijn dan namelijk afspraken gemaakt
+over de stijl van de code.</p>
+<p>In de projecten die je in de toekomst als team gaat uitvoeren is het dus
+belangrijk om hierover afspraken te maken en elkaar ook op deze
+afspraken te controleren en te houden.</p>
+<p>Afspraken die programmeurs hierover maken wordt vaak vastgelegd in een
+document. We noemen deze afspraken ook wel code conventions. Zo worden
+er bijvoorbeeld afspraken gemaakt over:</p>
+<ul>
+<li>
+<p>Naamgeving van variabelen;</p>
+</li>
+<li>
+<p>Naamgeving van bestanden;</p>
+</li>
+<li>
+<p>Naamgeving van Functies en Procedures;</p>
+</li>
+<li>
+<p>Gebruik van tabs of spaties bij inspringen;</p>
+</li>
+<li>
+<p>Aantal tabs of spaties bij inspringen;</p>
+</li>
+<li>
+<p>Afspraken over de plek van verschillende bestanden.</p>
+</li>
+</ul>
+<p>Bovenstaand zijn een aantal voorbeelden, maar er valt veel meer te
+zeggen over clean code. Wanneer we gaan zoeken op
+<a href="bol.com" class="uri">bol.com</a> dan zien we dat er zelfs
+complete boeken over dit onderwerp geschreven zijn. Meer informatie over
+clean HTML- en CSS-code kun je vinden op:
+<a href="https://www.w3schools.com/html/html5_syntax.asp">https://www.w3schools.com/html/html5_syntax.asp</a> (). Bestudeer deze
+pagina en zorg ervoor dat de projecten die je in de toekomst gaat maken
+in clean code geschreven zijn.</p>
+<p>Een ander interessant artikel over clean code kun je vinden op:
+<a href="https://x-team.com/blog/principles-clean-code">https://x-team.com/blog/principles-clean-code</a> ().</p>
+<h2>Functies</h2>
+<p>Soms heb je stukjes code nodig die op meerdere plekken op je website of
+in je programma gebruikt moeten worden. Denk bijvoorbeeld aan het
+berekenen van een Btw-bedrag in een webshop. Je kan deze code dan op
+verschillende plekken in je programma plaatsen, maar wanneer je dan wat
+wilt aanpassen in dit stukje code, dan dien je dat op verschillende
+plekken in je programma te doen. De kans dat je een fout maakt is dan
+erg groot.</p>
+<p>Om dit te voorkomen kun je gebruik maken van functies. Functies zijn
+stukjes code die buiten de rest van het script geschreven worden. De
+code in een functie wordt alleen aangeroepen wanneer jij daar expliciet
+om vraagt.</p>
+<p>Functies kunnen op verschillende manier gebruikt worden. De simpelste
+manier is een functie die iets uitvoert. Hierbij kun je bijvoorbeeld
+denken aan een functie die een melding op het scherm toont. Deze functie
+kan er dan als volgt uit zien:</p>
+<h2>Functie zonder parameter</h2>
+<pre class="language-php"><code class="language-php"><span class="token keyword">function</span> <span class="token function-definition function">showMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>    <span class="token keyword">echo</span> <span class="token string single-quoted-string">'Het formulier is niet juist ingevuld...'</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>Om deze functie aan te roepen kan de volgende code gebruikt worden:</p>
+<pre class="language-php"><code class="language-php"><span class="token function">showMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h2>Functie met parameter</h2>
+<p>Een andere manier is een functie die aangeroepen kan worden met een
+parameter. Deze parameter wordt vervolgens in de functie gebruikt. Een
+voorbeeld hiervan is:</p>
+<pre class="language-php"><code class="language-php"><span class="token keyword">function</span> <span class="token function-definition function">showMessage</span><span class="token punctuation">(</span><span class="token variable">$msg</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>    <span class="token keyword">echo</span> <span class="token variable">$msg</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span>    </code></pre>
+<p>Deze functie kan aangeroepen worden door de parameter msg mee te sturen.
+Het voordeel van deze functie is dus dat je hem meerdere keren kunt
+gebruiken om verschillende teksten op het scherm af te drukken.</p>
+<p>De aanroep van deze functie kan bijvoorbeeld als volgt zijn:</p>
+<pre class="language-php"><code class="language-php"><span class="token function">showMessage</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Uw gegevens zijn niet correct ingevoerd...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>of</p>
+<pre class="language-php"><code class="language-php"><span class="token function">showMessage</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Uw postcode is niet bij ons bekend...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h2>Functie met returnwaarde</h2>
+<p>Een derde manier van het gebruik van functies is een functie die
+aangeroepen wordt met één of meerdere parameters en die vervolgens iets
+terug geeft. Een voorbeeld hiervan is bijvoorbeeld een functie die het
+btw-bedrag uitrekent over een bepaald bedrag. Deze functie kan er als
+volgt uitzien:</p>
+<pre class="language-php"><code class="language-php"><span class="token keyword">function</span> <span class="token function-definition function">berekenBtw</span><span class="token punctuation">(</span><span class="token variable">$bedragExBtw</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>    <span class="token variable">$btwbedrag</span> <span class="token operator">=</span> <span class="token variable">$btwBedragExBtw</span>  <span class="token operator">*</span> <span class="token number">0.21</span><span class="token punctuation">;</span><br>    <span class="token keyword">return</span> <span class="token variable">$btwBedrag</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>Als we deze functie bestuderen dan zien we dat functie wordt aangeroepen
+met de parameter bedragExBtw. De functie geeft vervolgens het btwBedrag
+terug (<code>return</code>). Wanneer we met deze functie het btw-bedrag van € 100,-
+willen uitrekenen dan dienen we deze functie als volgt aan te roepen:</p>
+<pre class="language-php"><code class="language-php"><span class="token variable">$btwEindBedrag</span> <span class="token operator">=</span> <span class="token function">berekenBtw</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span> </code></pre>
+<p>De functie geeft vervolgens de uitkomst terug en zal in dit geval € 21,-
+returnen. Dus de variable btwEindBedrag zal in dit geval de waarde van
+21 krijgen.</p>
+<p>Op de website <a href="https://www.w3schools.com/php/php_functions.asp">https://www.w3schools.com/php/php_functions.asp</a> () kun
+je meer informatie vinden over het gebruik van functies in PHP. Zoek dit
+uit.</p>
+<h2>Date/time functies</h2>
+<p>In applicaties wordt vaak gebruik gemaakt van datum en tijd. Denk
+bijvoorbeeld aan het invoeren van een geboortedatum, afleverdatum of
+factuurdatum. Om datum en tijd te gebruiken in een applicatie kunnen we
+het date-object gebruiken. Met het date-object kunnen we bijvoorbeeld de
+actuele datum en tijd opvragen of het aantal dagen tussen twee datums
+berekenen. Om bijvoorbeeld de huidige datum en tijd op te vragen en op
+het scherm te tonen kunnen we het volgende commando gebruiken:</p>
+<pre class="language-php"><code class="language-php"><span class="token variable">$datum</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">DateTime</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"now"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token keyword">echo</span> <span class="token variable">$datum</span><span class="token operator">-></span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Y-m-d H:i:s'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Meer informatie over datum en tijd functies kun je vinden op:
+<a href="https://www.w3schools.com/php/php_ref_date.asp">https://www.w3schools.com/php/php_ref_date.asp</a> (). Bestudeer deze
+pagina.</p>
+<h2>Arrays</h2>
+<p>Bij de meeste programmeertalen is het mogelijk om array’s gebruikt. Om
+goed te kunnen programmeren is het dus belangrijk om te weten wat een
+array is en hoe je deze kunt gebruiken. Een array kun je eigenlijk zien
+als een variabele die meerdere waardes kan bevatten, een lijst van
+waardes. Deze variabele bestaat dan uit meerdere rijen (entries) die
+allemaal een waarde hebben. Het declareren/aanmaken van een array gaat
+bijna hetzelfde als het declareren van een variabele. Bijvoorbeeld:</p>
+<pre class="language-php"><code class="language-php"><span class="token variable">$weekdagen</span> <span class="token operator">=</span> <span class="token keyword">array</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Zondag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Maandag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Dinsdag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Woensdag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Donderdag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Vrijdag'</span><span class="token punctuation">,</span><span class="token string single-quoted-string">'Zaterdag'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Elke waarde in de array heeft een nummer, de zogenaamde index. Het
+eerste item in een array heeft nummer 0, het tweede nummer 1, enz. Om
+uit bovenstaande array de zondag op het scherm te tonen kan het volgende
+commando gebruikt worden.</p>
+<pre class="language-php"><code class="language-php"><span class="token keyword">echo</span> <span class="token variable">$weekdagen</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span></code></pre>
+<p>Om uit bovenstaande array de Zaterdag op het scherm te tonen kan het
+volgende commando gebruikt worden:</p>
+<pre class="language-php"><code class="language-php"><span class="token keyword">echo</span> <span class="token variable">$weekdagen</span><span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">;</span></code></pre>
+<p>Er zijn verschillende methodes die gebruikt kunnen worden om met arrays
+te werken. Zo is het bijvoorbeeld mogelijk om arrays te sorteren, items
+aan een array toe te voegen of te verwijderen. Bestudeer de
+mogelijkheden van arrays op de volgende pagina:
+<a href="https://www.w3schools.com/php/php_ref_array.asp">https://www.w3schools.com/php/php_ref_array.asp</a> ().</p>
+<h2>Opdrachten</h2>
+<h4>Opdracht 1 : formulier pizza’s bestellen</h4>
+<p>Maak een pizza bestelformulier voor pizzeria &quot;Pizza di mama&quot;. Het
+formulier dient de volgende invoer velden te bevatten:</p>
+<ul>
+<li>
+<p>Naam</p>
+</li>
+<li>
+<p>Adres</p>
+</li>
+<li>
+<p>Postcode</p>
+</li>
+<li>
+<p>Plaats</p>
+</li>
+<li>
+<p>Besteldatum</p>
+</li>
+<li>
+<p>Bezorgen of afhalen (keuze)</p>
+</li>
+</ul>
+<p>Op het formulier kunnen de volgende pizza’s besteld worden:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Soort</th>
+<th style="text-align:left">Prijs per stuk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Pizza Margherita</td>
+<td style="text-align:left">12,50</td>
+</tr>
+<tr>
+<td style="text-align:left">Pizza Funghi</td>
+<td style="text-align:left">12,50</td>
+</tr>
+<tr>
+<td style="text-align:left">Pizza Marina</td>
+<td style="text-align:left">13,95</td>
+</tr>
+<tr>
+<td style="text-align:left">Pizza Hawai</td>
+<td style="text-align:left">11,50</td>
+</tr>
+<tr>
+<td style="text-align:left">Pizza Quattro Formaggi</td>
+<td style="text-align:left">14,50</td>
+</tr>
+</tbody>
+</table>
+<p>Na invullen van het formulier worden de ingevulde gegevens met PHP
+verwerkt en op het scherm getoond. De volgende gegevens dienen getoond
+te worden:</p>
+<ul>
+<li>
+<p>Naam, adres, postcode, plaats</p>
+</li>
+<li>
+<p>Besteldatum en besteldag.</p>
+</li>
+<li>
+<p>De bestelde pizza’s met aantal en prijs.</p>
+</li>
+<li>
+<p>Totaalprijs van de bestelde pizza’s.</p>
+</li>
+<li>
+<p>Bezorgkosten bedragen € 5,- per bestelling, wanneer de bezoeker
+kiest voor afhalen worden natuurlijk geen bezorgkosten berekend.</p>
+</li>
+<li>
+<p>Op maandag is “pizza actie dag”, dan kosten alle pizza’s € 7,50 per
+stuk. Bereken aan de hand van de datum of de bestelling op maandag
+is en verwerk deze korting in het besteloverzicht.</p>
+</li>
+<li>
+<p>Op vrijdag is het “pizza start weekend dag”, elke bestelling met een
+totaalprijs boven de € 20,- krijgt dan 15% korting. Bereken aan de
+hand van de datum of de bestelling op vrijdag is en verwerk deze
+korting in het besteloverzicht.</p>
+</li>
+</ul>
+<p>Maak deze opdracht met HTML, CSS en PHP. Je mag ook JavaScript
+gebruiken. Pas de kennis toe die je tot nu toe geleerd hebt. Wees
+creatief en verras ons. Controleer de invoervelden op juiste data, test
+je formulier goed en laat het eventueel testen door een docent of een
+klasgenoot. Zorg voor clean code, gebruik functies om de korting en de
+bezorgkosten te berekenen. Alles getest en ben je tevreden? Commit en
+push!</p>
+<h4>Opdracht 2 : rente berekenen</h4>
+<p>Maak een formulier dat er minimaal zo uitziet als hieronder weergegeven:</p>
+<img src="https://static.edutorial.nl/lucy/php/opdracht8.jpg" alt="Opdracht 8 formulier" style="width:20%;">  
+<br>
+Als op de knop "Bereken" wordt gedrukt, moet het volgende gebeuren:
+<ul>
+<li>
+<p>Controleer de velden op de juiste invoer, bedrag en rentepercentage
+mogen niet leeg zijn en moeten numerieke waardes bevatten. De
+radiobutton moet aangeklikt zijn. Wanneer niet alle velden juist
+ingevoerd zijn moet dit op het scherm verschijnen.</p>
+</li>
+<li>
+<p>Als aan bovengenoemde voorwaarden is voldaan, wordt de gemaakte
+keuze berekend en op het scherm getoond zoals hieronder. De formule
+voor berekening van het eindbedrag is:
+$nwbedrag = bedrag \times  ( 1 + \frac{rente}{100} )$</p>
+</li>
+<li>
+<p>Zorg voor clean- en logische code.</p>
+</li>
+</ul>
+<h4>Uitvoer Eindbedrag na 10 jaar</h4>
+<br>
+<img src="https://static.edutorial.nl/lucy/php/opdracht8-voorbeeld1.jpg" alt="Opdracht 8 uitvoer : Eindbedrag na 10 jaar" style="width:20%;">  
+<br>
+<h4>Uitvoer Eindbedrag verdubbeld</h4>
+<br>
+<img src="https://static.edutorial.nl/lucy/php/opdracht8-voorbeeld2.jpg" alt="Opdracht 8 uitvoer : Eindbedrag verdubbeld" style="width:20%;">  
+<br>
+<h2>Afronding</h2>
+<ul>
+<li>
+<p>Beoordeel met de rubric of jij een voldoende of goed haalt voor deze
+opdract.</p>
+</li>
+<li>
+<p>Deel de code van de verschillende taken via GitHub met de docenten.
+Gebruik hiervoor één repository waar alle code in staat.</p>
+</li>
+<li>
+<p>Bespreek een reviewmoment bij een docent.</p>
+</li>
+<li>
+<p>Bereid je voor op het reviewmoment:</p>
+<ol>
+<li>
+<p>Ken jouw code.</p>
+</li>
+<li>
+<p>Weet waar de functionaliteit van jouw programma’s gecodeerd is.</p>
+</li>
+<li>
+<p>Weet hoe jouw programma’s werken.</p>
+</li>
+<li>
+<p>Verwacht vragen om de code aan te passen.</p>
+</li>
+<li>
+<p>Verwacht vragen om de code uit te leggen.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Na goedkeuring:</p>
+<ol>
+<li>
+<p>Plaats de code in afzonderlijke word documenten. Geen
+schermafdrukken maar de daadwerkelijke tekts.</p>
+</li>
+<li>
+<p>Upload de word documenten in Cumlaude.</p>
+</li>
+</ol>
+</li>
+</ul>
+<h2>Planning PHP</h2>
+<p>Je kunt onderstaande sjabloon gebruiken voor jouw eigen planning. Neem
+onderstaande sjabloon daarvoor over in jouw favoriete planningtool en
+voeg waar gewenst eigen regels toe. Zet de verschillende acties daarna
+op de juiste data in jouw agenda.</p>
+<p>PS: Je kunt taken niet altijd na elkaar te plannen. Je zult taken ook
+moeten laten overlappen. Dit geldt ook voor taken in de verschillende
+opdrachten.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Actie</strong></th>
+<th style="text-align:left"><strong>Datumstart</strong></th>
+<th style="text-align:left"><strong>Datumklaar</strong></th>
+<th style="text-align:left"><strong>Klaar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Bestudeer PHP</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer formulier afhandeling</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer clean code</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer functies</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer date/time functies</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer arrays</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak opdracht 1 - formulier pizza’s bestellen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak opdracht 2 - rente berekenen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Maak 7 opdrachen naar eigen keuze uit de opdrachtenbase</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Oplevering</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2>Rubric PHP</h2>
+<h4>Opdracht</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>M</em></td>
+<td style="text-align:left"><em>O</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb de voorbeeldcodes overgenomen, en de bijbehorende taken uitgevoerd</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb git gebruikt tijdens deze opdracht</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb de code die ik wil bespreken met de docenten gedeeld via GitHub</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4>Opdracht 1 : Pizza’s bestellen</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Werking</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Het formulier werkt foutloos. Alle velden worden gecontroleerd op invoer en het resultaat wordt goed getoond op het scherm</td>
+<td style="text-align:left">Het formulier werkt foutloos. Bijna alle velden worden gecontroleerd op invoer en het resultaat wordt goed getoond op het scherm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">Het formulier werkt niet.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Code review</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan werking van source code foutloos en zonder hapering uitleggen</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken voordat ik broncode kan uitleggen</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken voordat ik de broncode kan uitleggen</td>
+<td style="text-align:left">Ik kan de broncode niet uitleggen of het programma werkt niet (foutloos)</td>
+</tr>
+</tbody>
+</table>
+<h4>Opdracht 2 : Rente berekenen</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Werking</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Het formulier werkt foutloos. Alle velden worden gecontroleerd op invoer en het resultaat wordt goed getoond op het scherm</td>
+<td style="text-align:left">Het formulier werkt foutloos. Bijna alle velden worden gecontroleerd op invoer en het resultaat wordt goed getoond op het scherm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">Het formulier werkt niet.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Code review</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan werking van source code foutloos en zonder hapering uitleggen</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken voordat ik broncode kan uitleggen</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken voordat ik de broncode kan uitleggen</td>
+<td style="text-align:left">Ik kan de broncode niet uitleggen of het programma werkt niet (foutloos)</td>
+</tr>
+</tbody>
+</table>
+<h4>Opleveringsgesprek</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Kennis</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>Goed</em></td>
+<td style="text-align:left"><em>Voldoende</em></td>
+<td style="text-align:left"><em>Matig</em></td>
+<td style="text-align:left"><em>Onvoldoende</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het client-server model begrijpelijk en zonder haperingen uitleggen.</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken over de uitleg van het client-server model</td>
+<td style="text-align:left">Ik veel nadenken of antwoorden opzoeken bij het uitleggen van het client-server model</td>
+<td style="text-align:left">Ik kan het client-servermodel niet uitleggen.</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan begrijpelijk en zonder haperingen uitleggen wat clean code is, en wat hiervan het nut is.</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken over de uitleg van clean code</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij het uitleggen van clean code.</td>
+<td style="text-align:left">Ik kan niet uitleggen wat clean code is, en wat hiervan het nut is.</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan begrijpelijk en zonder hapering uitleggen wat een array is.</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken over de uitleg van een array</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij de uitleg van een array</td>
+<td style="text-align:left">Ik kan niet uitleggen wat een array is.</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan begrijpelijk en zonder hapering uitleggen wat het verschil tussen een while- en een for lus is.</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken bij de uitleg van het verschil tussen een while-en een for lus</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij de uitleg van het verschil tussen een while- en een for lus</td>
+<td style="text-align:left">Ik kan het verschil tussen een while- en een for lus niet uitleggen.</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan begrijpelijk en zonder hapering uitleggen wat het verschil tussen een if-en een switch statement is.</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken bij de uitleg van het verschil tussen een if-en een switch statement</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij de uitleg van het verschil tussen een if- en een switch statement</td>
+<td style="text-align:left">Ik kan het verschil tussen een if- en een switch statement niet uitleggen.</td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan begrijpelijk en zonder hapering uitleggen wat het verschil tussen een post en een get is</td>
+<td style="text-align:left">Ik moet soms (niet hinderlijk) nadenken bij de uitleg van het verschil tussen een post en een get</td>
+<td style="text-align:left">Ik moet veel nadenken of antwoorden opzoeken bij de uitleg van het verschil tussen een post en een get</td>
+<td style="text-align:left">Ik kan het verschil tussen een post en een get niet uitleggen.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</main-content>
+    
+
+</main>
+    <footer class="wzi47stss"><div class="cc">
+    <picture><source type="image/webp" srcset="/lucy/_img/iBwJRm3wB5-88.webp 88w"><img loading="lazy" decoding="async" src="/lucy/_img/iBwJRm3wB5-88.jpeg" alt="logo deltion" width="88" height="31"></picture>
+</div>
+<div class="copy">
+    <p><span>2023</span> © Deltion ICT - Software Development<br>
+            Dit werk valt onder een <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                Naamsvermelding - NietCommercieel 4.0 internationaal-licentie</a>.
+        </p>
+</div>
+
+</footer>
+    <script type="module" defer="">if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }</script>
+
+
+</body>
+</html>

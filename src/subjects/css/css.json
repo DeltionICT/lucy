@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"css",
-	"coursetitle":"CSS",
-	"permalink":"/subjects/css/{{ title | slugify }}/{{ page.index }}"
-}

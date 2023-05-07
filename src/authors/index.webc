@@ -1,5 +1,0 @@
----
-layout: layout.webc
----
-
-<list-link webc:for="(k, item) in authors" :url="'/authors/' + slugify(item.name) + '/'" @html="item.name"></list-link>
