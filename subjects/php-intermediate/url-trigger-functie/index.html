@@ -700,6 +700,9 @@ div.html table {
 <list-link url="/subjects/php-intermediate/bootstrap-function/" page="/subjects/php-intermediate/url-trigger-functie/" class="wv0jwq1on"><a href="/lucy/subjects/php-intermediate/bootstrap-function/"><li class="notselected">Bootstrap-function</li></a>
 
 </list-link>
+<list-link url="/subjects/php-intermediate/simpele-url-trigger-functie/" page="/subjects/php-intermediate/url-trigger-functie/" class="wv0jwq1on"><a href="/lucy/subjects/php-intermediate/simpele-url-trigger-functie/"><li class="notselected">simpele URL-trigger functie</li></a>
+
+</list-link>
 <list-link url="/subjects/php-intermediate/url-trigger-functie/" page="/subjects/php-intermediate/url-trigger-functie/" class="wv0jwq1on"><a href="/lucy/subjects/php-intermediate/url-trigger-functie/"><li class="selected">URL-trigger functie</li></a>
 
 </list-link>
@@ -742,27 +745,32 @@ div.html table {
 <p>Maak PHP-files aan in de 'content' map waarin de functie en de bestandsnaam EXACT hetzelfde zijn.</p>
 </li>
 <li>
-<p>De naam van het PHP-contentbestand en de naam van de functie zijn het zelfde.<br>
-Door dit te doen kan je door een GET-waarde (key: controller) gebruiken om een PHP-file in te lezen<br>
-en daarna de functie in die PHP-file (met dezelfde naam) aan te roepen.<br></p>
-<p>Elk functie geeft ALTIJD een return. De return van een content-functie is altijd een stuk HTML waarin informatie wordt getoond.
+<p>De naam van het PHP-contentbestand en de naam van de functie zijn hetzelfde.<br>
+Door dit te doen kan je door een GET-waarde (key: controller) gebruiken om een PHP-file (met dezelfde naam)
+in te lezen<br></p>
+<p>Elk content-file bevat ALTIJD een functie die een return teruggeeft.
+De return van een content-functie is altijd een stuk HTML waarin gewenste informatie wordt getoond.
+Dit kan tekst, afbeeldingen, tabellen, lijsten en formulieren zijn, of een combinatie daarvan.<br></p>
+<p>Het content-bestand bevat ALTIJD een FUNCTIE die een return geeft met het daarin de gewenste informatie die opgebouwd.
+is opgebouwd met HTML en PHP-code.
 Dit kan tekst, afbeeldingen, tabellen, lijsten en formulieren zijn, of een combinatie daarvan.<br></p>
 </li>
 <li>
-<p>Laat de functies in content-map files in ieder geval een titel als inhoud teruggeven bijvoorbeeld <br>
-voor de <code>content/home.php</code> file bevat een functie met de naam <code>home( )</code> die het volgende zou kunnen teruggeven: <br></p>
+<p>Laat de FUNCTIEs in content-files in ieder geval een titel als inhoud teruggeven. <br>
+Voor de home-content in het bestand de <code>content/home.php</code> bevat heeft dus een functie home(), eenvoudige content en eventueel wat logica teruggeven, bijvoorbeeld: <br>
+waarin bijvoorbeeld deze eenvoudige code kan staan;</p>
 </li>
 </ol>
-<pre class="language-php"><code class="language-php">    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token string single-quoted-string">'&lt;h1>Home&lt;/h1>'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<pre class="language-php"><code class="language-php">    <span class="token keyword">return</span> <span class="token string single-quoted-string">'&lt;h1>Home&lt;/h1>'</span><span class="token punctuation">;</span></code></pre>
 <ol start="5">
-<li>Zet in de index-file ankers die verwijzen naar de index-file, maar voeg een query-string toe.</li>
+<li>Plaats in de index-file ankers die verwijzen naar de index-file, maar voeg een query-string toe.</li>
 </ol>
 <pre class="language-php"><code class="language-php"><br><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br>   <span class="token comment">// alle php-logica komt hier!</span><br><span class="token delimiter important">?></span></span><br><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>index.php?controller=home<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>home<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span> | <br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>index.php?controller=bla<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>bla<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span><span class="token punctuation">></span></span><br>      <span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br>         <span class="token comment">// gerenderde output komt hier!</span><br>      <span class="token delimiter important">?></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
 <p>Probeer het volgende te realiseren:</p>
 <ul>
 <li>PHP logica boven in</li>
-<li>Alle PHP logica in functies te stoppen</li>
-<li>Plaats alle functies in een eigen php-file en include deze (wanneer nodig)
+<li>Alle PHP logica in functies te plaatsen</li>
+<li>Zet elke functie in een eigen php-file en include deze (wanneer nodig)
 <br><br></li>
 </ul>
 <ol start="6">
@@ -774,8 +782,7 @@ voor de <code>content/home.php</code> file bevat een functie met de naam <code>h
 </ul>
 </li>
 <li>
-<p>Voer de logica uit voor de html-tag, maar toon de opgevraagde content wel in de article tag.
-Gebruik bijvoorbeeld een functie zoals 'file_get_contents'.</p>
+<p>Voer de logica uit voor de HTML-tag, maar toon de opgevraagde content wel in de article-tag.</p>
 </li>
 <li>
 <p>Controleer of de juiste content wordt getoond.</p>
@@ -799,19 +806,18 @@ Gebruik bijvoorbeeld een functie zoals 'file_get_contents'.</p>
 <li>http://localhost/website04/index.php?content=gallery</li>
 </ul>
 <ol start="12">
-<li>Maak het opvragen van content menu-items aan in de HTML body-tag, wardoor de applicatie gebruikersvriendelijker wordt.</li>
+<li>Maak het opvragen van content menu-items aan in de HTML body-tag, waardoor de applicatie gebruikersvriendelijker wordt.</li>
 </ol>
 <p>Tips:</p>
 <ul>
 <li>Controleer of de PHP-bestanden bestaan voordat je ze include met bijvoorbeeld de functie: <code>file_exist()</code>.</li>
-<li>Uiteraard</li>
 </ul>
 <h2>Resultaat</h2>
 <ul>
-<li>Een werkend menu, dat content ophaalt uit een specifiek bestand en de functie aanroept die daar in staat.</li>
+<li>Een werkend menu, dat content ophaalt uit een specifiek bestand EN de functie aanroept die daar in staat.</li>
 <li>Heldere en duidelijke folderstructuur voor content en core-bestanden die de applicatie laten werken.</li>
-<li>Een Layout, geen herhalingen van de complete html-structuur, zoals <html>, <head> en <article>.</article></head></html></li>
-<li>Bij benadering van de website voor de eerste keer wordt een 'hompage' getoond.</li>
+<li>Eén Layout, geen herhalingen van de complete html-structuur, zoals <html>, <head> en <article>.</article></head></html></li>
+<li>Bij benadering van de website voor de eerste keer wordt een 'homepage' getoond.</li>
 </ul>
 <h2>Evaluatie</h2>
 <p>Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
