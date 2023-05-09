@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <script webc:keep">
+    <script webc:keep>
         if ("serviceWorker" in navigator) {
             navigator.serviceWorker.register('/lucy/sw.js');
         }

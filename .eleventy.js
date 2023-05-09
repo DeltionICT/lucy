@@ -177,9 +177,11 @@ module.exports = function(eleventyConfig) {
         return authornames.join(', ')
 	});
 
-    eleventyConfig.addFilter("cssmin", function(code) {
-        return new CleanCSS({}).minify(code).styles;
-    });
+    // eleventyConfig.addFilter("cssmin", function(code) {
+    //     return new CleanCSS({}).minify(code).styles;
+    // });
+
+    //eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
 
     eleventyConfig.addFilter("pepperoni", function(color) {
         return `/_assets/${color}_pepper.svg`;

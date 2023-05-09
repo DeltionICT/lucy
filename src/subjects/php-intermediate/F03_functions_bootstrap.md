@@ -28,7 +28,7 @@ Je gaat PHP onderverdelen in twee categorieën:
       Deze PHP-functies staatn in PHP-files in de map 'content'. <br>
       De volgende opdracht gaat hiermee aan de slag.<br>
 <br><br>
-1. Maak mappen en files aan die lijkt op de onderstaande structiir:
+1. Maak mappen en files aan die lijkt op de onderstaande structuur:
 ```shell
 website03
  |-- css

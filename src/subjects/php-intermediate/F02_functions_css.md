@@ -19,20 +19,22 @@ technology: php
 
 
 ## Opdracht
-Je gaat een CSS-link tags automatisch generen met PHP op basis van de namewn van alle CSS-files in de CSS-map [ww3 link-tag](https://www.w3schools.com/Tags/tag_link.asp)
-Je mag de css-files bepalen.  
-
+Genereer de links naar css-bestanden in de `<head>` van de html-code met PHP:
+* Je laat php een map scannen met css-bestanden
+* Met de bestandsnamen maak je [links naar de css-bestanden](https://www.w3schools.com/Tags/tag_link.asp)
+* Je geeft de links weer in de `<head>` van de html-code.
 
 1. Maak een map 'css' met daarin enkele css-files (extensie .css).
-2. Maak een index-pagina met daarin een functie waarin de paden van alle complete css-files in de map 'css' worden verzameld in een array.<br>
-Bijvoorbeeld met [scandir](https://www.php.net/manual/en/function.scandir.php) of [glob](https://www.php.net/manual/en/function.glob.php).
-3. Maak in diezefde functie een lus waarbij de array met css-paden wordt doorlopen
-4. Combineer (render) de paden met html-tag, zodat de correcte link-tags worden opgebouwd. 
-5. Geef de complete html-code terug uit de functie
-    * alle link-tags
-    * inclusief de benodigde attributes van de link-tags
-    * een attribute 'href' met het pad naar de een css-file
-6. Roep de functie aan en toon en plaats het resultaat in de head-tag.
+2. Maak een index-pagina met daarin een functie waarin de complete paden naar alle css-files in de map 'css' worden verzameld in een array.<br>
+  Bijvoorbeeld met [scandir](https://www.php.net/manual/en/function.scandir.php) of [glob](https://www.php.net/manual/en/function.glob.php).
+  1. Maak een lus waarbij de array met css-paden wordt doorlopen
+  2. Combineer de paden met html-code, zodat de correcte link-tags worden opgebouwd (renderen). 
+  3. Geef de complete html-code terug uit de functie
+      * alle link-tags bestaande uit:
+        * de link-tag
+        * een attribuut 'rel' met de waarde 'stylesheet'
+        * een attribute 'href' met het pad naar de css-file
+  4. Roep de functie aan in de head-tag zodat de links op die plek worden getoond.
 
 
 ## Uitleg
