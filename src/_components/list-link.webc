@@ -1,8 +1,7 @@
-
 <script webc:type="js">
-let selected = (href == page) ? "selected" : "notselected";
+    let selected = (url == page) ? "selected" : "notselected";
 
- `<a href="${href}"><li class="${selected}"><slot></slot></li></a>`
+    `<a href="${url}"><li class="${selected}"><slot></slot></li></a>`
 </script>
 
 <style webc:scoped>
@@ -15,18 +14,25 @@ let selected = (href == page) ? "selected" : "notselected";
     }
 
     li {
-        width:90%;
-        padding:2px 0px 2px 8px;
+        width: 90%;
+        padding: 2px 0px 2px 8px;
         border-radius: 8px;
         margin: 0 0 0.5rem 0;
     }
+
     li.selected {
-        background-color:var(--c-brand);
+        background-color: var(--c-brand);
         color: #fff;
     }
 
     li.notselected {
-        background-color:var(--c-header-bg);
+        background-color: var(--c-header-bg);
     }
 
+    @media only screen and (max-width: 600px) {
+        li {
+            width: 100%;
+        }
+
+    }
 </style>
