@@ -1,5 +1,5 @@
 ---
-title: URL-trigger functie
+title: simpele URL-trigger functie
 key: 2551
 difficulty: medium
 date: 2023-03-24
@@ -14,6 +14,7 @@ technology: ide, html, css
 > * Structuur-> eerst logica, daarna weergave.
 
 > #### Dit ga je leren
+> * Opstapje naar de volgende opdracht
 > * Content laden op basis van een query-string in de url
 
 {{ '/_assets/php_intermediate/functions.png' | image: 'image functions', 10 }}
@@ -48,20 +49,20 @@ website04
 ```
 
 3. Maak PHP-files aan in de 'content' map waarin de functie en de bestandsnaam EXACT hetzelfde zijn.
-4. De naam van het PHP-contentbestand en de naam van de functie zijn het zelfde.<br>
-   Door dit te doen kan je door een GET-waarde (key: controller) gebruiken om een PHP-file in te lezen<br>
-   en daarna de functie in die PHP-file (met dezelfde naam) aan te roepen.<br>
-   
-   Elk functie geeft ALTIJD een return. De return van een content-functie is altijd een stuk HTML waarin informatie wordt getoond. 
-   Dit kan tekst, afbeeldingen, tabellen, lijsten en formulieren zijn, of een combinatie daarvan.<br> 
+   4. De naam van het PHP-contentbestand en de naam van de functie zijn hetzelfde.<br>
+      Door dit te doen kan je door een GET-waarde (key: controller) gebruiken om een PHP-file (met dezelfde naam)
+      in te lezen<br>
+
+      Het content-bestand bevat HTML en PHP-code waarmee de gewenste informatie wordt opgebouwd. 
+      Dit kan tekst, afbeeldingen, tabellen, lijsten en formulieren zijn, of een combinatie daarvan.<br> 
 
 4. Laat de functies in content-map files in ieder geval een titel als inhoud teruggeven bijvoorbeeld <br>
-   voor de `content/home.php` file bevat een functie met de naam `home( )` die het volgende zou kunnen teruggeven: <br>
+   voor de `content/home.php` file bevat eenvoudige content en eventueel wat logica teruggeven, bijvoorbeeld: <br>
 ```php
-    return ('<h1>Home</h1>');
+    echo '<h1>Home</h1>';
 ```
 
-5. Zet in de index-file ankers die verwijzen naar de index-file, maar voeg een query-string toe.  
+5. Plaats in de index-file ankers die verwijzen naar de index-file, maar voeg een query-string toe.  
 
 ```php
 
@@ -83,14 +84,13 @@ website04
 ```
 Probeer het volgende te realiseren:
 * PHP logica boven in
-* Alle PHP logica in functies te stoppen
-* Plaats alle functies in een eigen php-file en include deze (wanneer nodig)
+* Alle PHP logica in functies te plaatsen
+* Zet elke functie in een eigen php-file en include deze (wanneer nodig)
 <br><br>
 6. Gebruik de `$_GET` superglobal om de bestanden in de map content in te voegen in `index.php` (file-inclusion).
    * Let op! Als er geen query-string is in de url (1e maal site bezoeken; get-controller is empty), wat doe je dan?!
    * Het invoegen van externe bestanden is onveilig. Waar om eigenlijk? [Maak je code veiliger door gebruik te maken van een whitelist](https://medium.com/purple-team/exploiting-local-file-inclusion-vulnerabilities-37a66702c17b).
-7. Voer de logica uit voor de html-tag, maar toon de opgevraagde content wel in de article tag.
-   Gebruik bijvoorbeeld een functie zoals 'file_get_contents'.
+7. Voer de logica uit voor de HTML-tag, maar toon de opgevraagde content wel in de article-tag.
 
 8. Controleer of de juiste content wordt getoond.
 
@@ -126,13 +126,12 @@ Mooi als dit werkt, maar er zijn geen functies gebruikt.
 
 Tips:
 * Controleer of de PHP-bestanden bestaan voordat je ze include met bijvoorbeeld de functie: `file_exist()`.
-* Uiteraard 
 
 ## Resultaat
-* Een werkend menu, dat content ophaalt uit een specifiek bestand en de functie aanroept die daar in staat.
+* Een werkend menu, dat content ophaalt uit een specifiek bestand.
 * Heldere en duidelijke folderstructuur voor content en core-bestanden die de applicatie laten werken.
-* Een Layout, geen herhalingen van de complete html-structuur, zoals <html>, <head> en <article>.
-* Bij benadering van de website voor de eerste keer wordt een 'hompage' getoond.
+* Eén Layout, geen herhalingen van de complete html-structuur, zoals <html>, <head> en <article>.
+* Bij benadering van de website voor de eerste keer wordt een 'homepage' getoond.
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
