@@ -651,7 +651,11 @@ div.html table {
 </head>
 
 <body>
-    
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }
+    </script>
     <header class="wq89ttfva">
         <nav class="w4go7t2fx"><a href="/lucy/">
     <div>
@@ -790,9 +794,7 @@ hij deze leeftijd op het scherm.</p>
 </div>
 
 </footer>
-    <script type="module" defer="">if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register('/lucy/sw.js');
-        }</script>
+    <script type="module" defer=""></script>
 
 
 </body>

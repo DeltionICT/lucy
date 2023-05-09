@@ -651,7 +651,11 @@ div.html table {
 </head>
 
 <body>
-    
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }
+    </script>
     <header class="wq89ttfva">
         <nav class="w4go7t2fx"><a href="/lucy/">
     <div>
@@ -740,7 +744,7 @@ De volgende opdracht gaat hiermee aan de slag.<br>
 <br><br></li>
 </ul>
 <ol>
-<li>Maak mappen en files aan die lijkt op de onderstaande structiir:</li>
+<li>Maak mappen en files aan die lijkt op de onderstaande structuur:</li>
 </ol>
 <pre class="language-shell"><code class="language-shell">website03<br> <span class="token operator">|</span>-- css<br>     <span class="token operator">|</span>-- gallery.css<br>     <span class="token operator">|</span>-- layout.css<br>     <span class="token operator">|</span>-- navbar.css<br> <span class="token operator">|</span>-- core<br>     <span class="token operator">|</span>-- css.php        // <span class="token function">file</span> met functie uit eerdere opdracht<br>     <span class="token operator">|</span>-- navbar.php<br>     <span class="token operator">|</span>-- bla.php<br> <span class="token operator">|</span>-- content<br>     <span class="token operator">|</span>-- home.php<br>     <span class="token operator">|</span>-- gallery.php    // <span class="token function">file</span> met functie uit eerdere opdracht<br>     <span class="token operator">|</span>-- articles.php<br>     <span class="token operator">|</span>-- bla.php<br> <span class="token operator">|</span>-- index.php</code></pre>
 <ol start="2">
@@ -794,9 +798,7 @@ Alle ander PHP-functies in de core-folder zijn daarna allemaal aan te roepen in 
 </div>
 
 </footer>
-    <script type="module" defer="">if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register('/lucy/sw.js');
-        }</script>
+    <script type="module" defer=""></script>
 
 
 </body>

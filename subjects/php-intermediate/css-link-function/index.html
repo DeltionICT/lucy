@@ -651,7 +651,11 @@ div.html table {
 </head>
 
 <body>
-    
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }
+    </script>
     <header class="wq89ttfva">
         <nav class="w4go7t2fx"><a href="/lucy/">
     <div>
@@ -728,22 +732,30 @@ div.html table {
 </blockquote>
 <img src="/lucy/_assets/basis/functions.png" alt="functions" style="width:10%;">
 <h2>Opdracht</h2>
-<p>Je gaat een CSS-link tags automatisch generen met PHP op basis van de namewn van alle CSS-files in de CSS-map <a href="https://www.w3schools.com/Tags/tag_link.asp">ww3 link-tag</a>
-Je mag de css-files bepalen.</p>
+<p>Genereer de links naar css-bestanden in de <code>&lt;head&gt;</code> van de html-code met PHP:</p>
+<ul>
+<li>Je laat php een map scannen met css-bestanden</li>
+<li>Met de bestandsnamen maak je <a href="https://www.w3schools.com/Tags/tag_link.asp">links naar de css-bestanden</a></li>
+<li>Je geeft de links weer in de <code>&lt;head&gt;</code> van de html-code.</li>
+</ul>
 <ol>
 <li>Maak een map 'css' met daarin enkele css-files (extensie .css).</li>
-<li>Maak een index-pagina met daarin een functie waarin de paden van alle complete css-files in de map 'css' worden verzameld in een array.<br>
+<li>Maak een index-pagina met daarin een functie waarin de complete paden naar alle css-files in de map 'css' worden verzameld in een array.<br>
 Bijvoorbeeld met <a href="https://www.php.net/manual/en/function.scandir.php">scandir</a> of <a href="https://www.php.net/manual/en/function.glob.php">glob</a>.</li>
-<li>Maak in diezefde functie een lus waarbij de array met css-paden wordt doorlopen</li>
-<li>Combineer (render) de paden met html-tag, zodat de correcte link-tags worden opgebouwd.</li>
+<li>Maak een lus waarbij de array met css-paden wordt doorlopen</li>
+<li>Combineer de paden met html-code, zodat de correcte link-tags worden opgebouwd (renderen).</li>
 <li>Geef de complete html-code terug uit de functie
 <ul>
-<li>alle link-tags</li>
-<li>inclusief de benodigde attributes van de link-tags</li>
-<li>een attribute 'href' met het pad naar de een css-file</li>
+<li>alle link-tags bestaande uit:
+<ul>
+<li>de link-tag</li>
+<li>een attribuut 'rel' met de waarde 'stylesheet'</li>
+<li>een attribute 'href' met het pad naar de css-file</li>
 </ul>
 </li>
-<li>Roep de functie aan en toon en plaats het resultaat in de head-tag.</li>
+</ul>
+</li>
+<li>Roep de functie aan in de head-tag zodat de links op die plek worden getoond.</li>
 </ol>
 <h2>Uitleg</h2>
 <p>Signatuur van de functie:</p>
@@ -775,9 +787,7 @@ Bijvoorbeeld met <a href="https://www.php.net/manual/en/function.scandir.php">sc
 </div>
 
 </footer>
-    <script type="module" defer="">if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register('/lucy/sw.js');
-        }</script>
+    <script type="module" defer=""></script>
 
 
 </body>
