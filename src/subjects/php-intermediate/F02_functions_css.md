@@ -56,7 +56,7 @@ Signatuur van de functie:
       return $html;
    }
 
-   $css = function cssLinks("/map/afbeeldingen/")
+   $css = function cssLinks("css/")
  
  <html> 
    <head>

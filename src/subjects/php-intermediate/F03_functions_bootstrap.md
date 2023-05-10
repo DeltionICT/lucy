@@ -19,7 +19,8 @@ technology: php
 
 
 ## Opdracht
-Je gaat PHP onderverdelen in twee categorieën: 
+Je gaat eem PHP-applicatie opbouwen uit verschillende onderdelen:
+* Je maakt gebruik van 
    * PHP-functies in kern PHP-files inlezen in de index-file ([include]( https://www.w3schools.com/php/php_includes.asp) / include_once)<br>  
       Dit zijn de PHP-files die altijd nodig zijn om de web-applicatie te kunnen laten werken.<br>
       en zijn geplaatst in de 'core'-folder.<br>
