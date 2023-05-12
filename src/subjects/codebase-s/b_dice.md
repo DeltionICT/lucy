@@ -10,7 +10,7 @@ author: rkerssies
 
 
 
-<img src="{{ '/_assets/basis/basics.png'  }}" style="width:10%;">
+{{ '/_assets/basis/basics.png' | image:"basics", 10  }}
 
 > #### Voorkennis
 > Programmeertaal: naar keuze
@@ -27,5 +27,5 @@ author: rkerssies
 > * invoer mogelijkheid voor de lente (cm) en gewicht (kg)
 > * tonen van de berekende BMI-waarde en de uitkomst daarvan.
 
-<img src="{{ '/_assets/basis/dice_zijde_2.png'  }}" style="width:12%;">
-<img src="{{ '/_assets/basis/dice_zijde_6.png'  }}" style="width:12%;">
+{{ '/_assets/basis/dice_zijde_2.png' | image:"dobbelsteen 2", 10 }}
+{{ '/_assets/basis/dice_zijde_6.png' | image:"dobeelsteen 6", 10 }}
