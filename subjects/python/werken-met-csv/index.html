@@ -683,34 +683,34 @@ div.html table {
     </div>
     <div class="authors">
         <span slot="authors">Jan Jaap Siewers</span> |
-        <span slot="date">Apr 17, 2023</span>
+        <span slot="date">May 12, 2023</span>
     </div>
     <div class="title">
-        <h1><div slot="title">Cryptografie</div></h1>
+        <h1><div slot="title">Werken met CSV</div></h1>
     </div>
 
 </main-title>
 <main-content class="webcftrhj"><div class="sidebar">
     <ul>
-        <list-link url="/subjects/python/introductie/" page="/subjects/python/cryptografie/" class="wv0jwq1on"><a href="/lucy/subjects/python/introductie/"><li class="notselected">Introductie</li></a>
+        <list-link url="/subjects/python/introductie/" page="/subjects/python/werken-met-csv/" class="wv0jwq1on"><a href="/lucy/subjects/python/introductie/"><li class="notselected">Introductie</li></a>
 
 </list-link>
-<list-link url="/subjects/python/pijlen-tekenen/" page="/subjects/python/cryptografie/" class="wv0jwq1on"><a href="/lucy/subjects/python/pijlen-tekenen/"><li class="notselected">Pijlen tekenen</li></a>
+<list-link url="/subjects/python/pijlen-tekenen/" page="/subjects/python/werken-met-csv/" class="wv0jwq1on"><a href="/lucy/subjects/python/pijlen-tekenen/"><li class="notselected">Pijlen tekenen</li></a>
 
 </list-link>
-<list-link url="/subjects/python/p-e-m-d-a-s/" page="/subjects/python/cryptografie/" class="wv0jwq1on"><a href="/lucy/subjects/python/p-e-m-d-a-s/"><li class="notselected">P.E.M.D.A.S</li></a>
+<list-link url="/subjects/python/p-e-m-d-a-s/" page="/subjects/python/werken-met-csv/" class="wv0jwq1on"><a href="/lucy/subjects/python/p-e-m-d-a-s/"><li class="notselected">P.E.M.D.A.S</li></a>
 
 </list-link>
-<list-link url="/subjects/python/american-party/" page="/subjects/python/cryptografie/" class="wv0jwq1on"><a href="/lucy/subjects/python/american-party/"><li class="notselected">American Party</li></a>
+<list-link url="/subjects/python/american-party/" page="/subjects/python/werken-met-csv/" class="wv0jwq1on"><a href="/lucy/subjects/python/american-party/"><li class="notselected">American Party</li></a>
 
 </list-link>
-<list-link url="/subjects/python/volume-berekenen/" page="/subjects/python/cryptografie/" class="wv0jwq1on"><a href="/lucy/subjects/python/volume-berekenen/"><li class="notselected">Volume Berekenen</li></a>
+<list-link url="/subjects/python/volume-berekenen/" page="/subjects/python/werken-met-csv/" class="wv0jwq1on"><a href="/lucy/subjects/python/volume-berekenen/"><li class="notselected">Volume Berekenen</li></a>
 
 </list-link>
-<list-link url="/subjects/python/cryptografie/" page="/subjects/python/cryptografie/" class="wv0jwq1on"><a href="/lucy/subjects/python/cryptografie/"><li class="selected">Cryptografie</li></a>
+<list-link url="/subjects/python/cryptografie/" page="/subjects/python/werken-met-csv/" class="wv0jwq1on"><a href="/lucy/subjects/python/cryptografie/"><li class="notselected">Cryptografie</li></a>
 
 </list-link>
-<list-link url="/subjects/python/werken-met-csv/" page="/subjects/python/cryptografie/" class="wv0jwq1on"><a href="/lucy/subjects/python/werken-met-csv/"><li class="notselected">Werken met CSV</li></a>
+<list-link url="/subjects/python/werken-met-csv/" page="/subjects/python/werken-met-csv/" class="wv0jwq1on"><a href="/lucy/subjects/python/werken-met-csv/"><li class="selected">Werken met CSV</li></a>
 
 </list-link>
     </ul>
@@ -725,27 +725,29 @@ div.html table {
 <blockquote>
 <h4>Dit ga je leren</h4>
 <ul>
-<li>Toepassen van ord() en char() functies</li>
-<li>Toepassen van de input-functie</li>
+<li>Zelf en module maken</li>
+<li>Toepassen zelfgemaakte modules</li>
 </ul>
 </blockquote>
 <h2>Opdracht</h2>
-<p>In deze opdracht ga je werken met cryptografie</p>
+<p>Maak op basis van onderstaande csv-gegevens een applicatie die het volgende doet:</p>
 <ul>
-<li>Je gaat een methode gebruiken waarmee je de invoer van een tekst kunt encrypten en decrypten.</li>
-<li>Voor de encryptie verschuif je een letter 5 plaatsen in het alfabet. De letter 'a' wordt dus 'f'. De letter 'z' wordt dan 'e'.</li>
+<li>Voorzie alle namen van hoofdletters (met python)</li>
+<li>Verwijder onnodige spaties (met python)</li>
+<li>Geef de gebruiker de keuze welke kolommen moeten worden weergegeven</li>
+<li>Geef de mogelijkheid om te filteren op een bepaalde kolom
+<ul>
+<li>Bijv. alleen mensen uit Dronten weergeven of</li>
+<li>Alleen mensen waarvan de achternaam met de letter 'A' begint weergeven</li>
 </ul>
-<p>Maak bij deze opdracht gebruik van het feit dat letters worden opgeslagen als codes!
-Met <code>ord('A')</code> kun je een code opvragen en met <code>chr(97)</code> kun je een letter opvragen.
-Met de codes kun je veel makkelijker rekenen!</p>
-<p>Invoer:</p>
-<pre class="language-csv"><code class="language-csv"><span class="token value">Geef de tekst die je wilt encrypten..  </span><br><span class="token value">Deze zin wil ik gaan encrypten</span><span class="token punctuation">,</span><span class="token value"> dat lijkt me leuk</span></code></pre>
-<p>Output:</p>
-<pre class="language-csv"><code class="language-csv"><span class="token value">Ijej ens bnq np lffs jshwduyjs</span><span class="token punctuation">,</span><span class="token value"> ify qnopy rj qjzp</span></code></pre>
+</li>
+</ul>
+<h4>Gegevens</h4>
+<pre class="language-csv"><code class="language-csv"><span class="token value">Jan</span><span class="token punctuation">,</span><span class="token value">van der</span><span class="token punctuation">,</span><span class="token value">vliet</span><span class="token punctuation">,</span><span class="token value"> zandlaan</span><span class="token punctuation">,</span><span class="token value"> 13</span><span class="token punctuation">,</span><span class="token value"> 4930 FJ</span><span class="token punctuation">,</span><span class="token value"> Harsen</span><br><span class="token value">Kees</span><span class="token punctuation">,</span><span class="token punctuation">,</span><span class="token value">Marijnissen</span><span class="token punctuation">,</span><span class="token value"> Perenboomweg 21</span><span class="token punctuation">,</span><span class="token value"> 3999 GG</span><span class="token punctuation">,</span><span class="token value"> Plaaggeest</span><br><span class="token value">GRIET</span><span class="token punctuation">,</span><span class="token value">van der</span><span class="token punctuation">,</span><span class="token value">Pol</span><span class="token punctuation">,</span><span class="token value"> Harlekijnplein 33</span><span class="token punctuation">,</span><span class="token value"> 4952 DN</span><span class="token punctuation">,</span><span class="token value"> Den haag</span><br><span class="token value">Tara</span><span class="token punctuation">,</span><span class="token punctuation">,</span><span class="token value">weeslanden</span><span class="token punctuation">,</span><span class="token value"> Kreakenmolenweg 3</span><span class="token punctuation">,</span><span class="token value"> 3900 DG</span><span class="token punctuation">,</span><span class="token value"> Muizegat</span><br><span class="token value">clarijn</span><span class="token punctuation">,</span><span class="token punctuation">,</span><span class="token value">Ommezwaai</span><span class="token punctuation">,</span><span class="token value"> Melemoor 20</span><span class="token punctuation">,</span><span class="token value"> 4992 DS</span><span class="token punctuation">,</span><span class="token value"> Haperen</span><br><span class="token value">Piet</span><span class="token punctuation">,</span><span class="token value">De</span><span class="token punctuation">,</span><span class="token value">Vries</span><span class="token punctuation">,</span><span class="token value"> Stelsprong 10</span><span class="token punctuation">,</span><span class="token value"> 4930 DF</span><span class="token punctuation">,</span><span class="token value"> Harsen</span><br><span class="token value">Jan jaap</span><span class="token punctuation">,</span><span class="token punctuation">,</span><span class="token value">Siewers</span><span class="token punctuation">,</span><span class="token value"> De kaapstander 20</span><span class="token punctuation">,</span><span class="token value"> 8251 LH</span><span class="token punctuation">,</span><span class="token value"> Dronten</span></code></pre>
 <h2>Resultaat</h2>
 <ul>
-<li>Een python-bestand met werkende code.</li>
-<li>Push en submit je code naar github</li>
+<li>Een module mijncsv.py waarin de functies zijn opgeslagen</li>
+<li>Een bestand main.py waarin functies worden aangeroepen en de code wordt uitgevoerd.</li>
 </ul>
 
 </div>
