@@ -1,0 +1,6 @@
+{
+    "layout":"assignment.webc",
+    "tags":"js-advanced",
+    "coursetitle":"JS Advanced",
+    "permalink":"/subjects/js-advanced/{{ title | slugify }}/{{ page.index }}"
+}

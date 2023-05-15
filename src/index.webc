@@ -20,8 +20,8 @@ layout: layout.webc
         <p slot="title">Basis webdevelopment</p>
         <p slot="techs">
             <tech color="orange" title="HTML-CSS"></tech>
-            <tech color="green" title="Javascript basis"></tech>
-            <tech color="green" title="CSP 1"></tech>
+            <tech color="green" title="JS Basis"></tech>
+            <tech color="green" title="JS Intermediate"></tech>
             <tech color="yellow" title="User interfaces design"></tech>
             <tech color="blue" title="PHP Intermediate"></tech>
         </p>
@@ -36,17 +36,18 @@ layout: layout.webc
     <module>
         <p slot="title">Frontend development</p>
         <p slot="techs">
-            <tech color="green" title="Javascript Vue"></tech>
+            <tech color="green" title="JS Frameworks"></tech>
             <tech color="green" title="Webcomponents"></tech>
             <tech color="yellow" title="User experience design"></tech>
         </p>
     </module>
     <module>
-        <p slot="title">Frameworks (MVC) en API</p>
+        <p slot="title">Frameworks en API</p>
         <p slot="techs">
+            <tech color="green" title="JS Advanced"></tech>
             <tech color="blue" title="PHP MVC"></tech>
             <tech color="blue" title="C# MVC"></tech>
-            <tech color="green" title="JS MVC"></tech>
+            <tech color="green" title="NodeJS"></tech>
         </p>
     </module>
     <module>

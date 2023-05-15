@@ -1,0 +1,6 @@
+{
+    "layout":"assignment.webc",
+    "tags":"js-frameworks",
+    "coursetitle":"JS Frameworks",
+    "permalink":"/subjects/js-frameworks/{{ title | slugify }}/{{ page.index }}"
+}

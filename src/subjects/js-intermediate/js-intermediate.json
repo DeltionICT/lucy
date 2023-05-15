@@ -1,0 +1,6 @@
+{
+    "layout":"assignment.webc",
+    "tags":"js-intermediate",
+    "coursetitle":"JS Intermediate",
+    "permalink":"/subjects/js-intermediate/{{ title | slugify }}/{{ page.index }}"
+}

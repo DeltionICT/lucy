@@ -1,0 +1,6 @@
+{
+    "layout":"assignment.webc",
+    "tags":"js-basis",
+    "coursetitle":"JS Basis",
+    "permalink":"/subjects/js-basis/{{ title | slugify }}/{{ page.index }}"
+}
