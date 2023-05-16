@@ -19,5 +19,5 @@ Ook wordt is er een onderwerp besteed aan:
 * geautomatiseerd Testing (testen samen met acceptatie-tests vallen onder een werkproces in het KD !)<br>
 * een API maken, zo leer je wat een API-server zoals doet en wat je van een API mag verwachten.
 <br><br>
-
+test
 {{ '/_assets/api/schema_mvc-process.png' | image: 'newbie', 80 }}
