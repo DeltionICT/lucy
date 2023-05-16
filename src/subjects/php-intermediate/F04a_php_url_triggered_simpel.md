@@ -105,16 +105,11 @@ Mooi als dit werkt, maar er zijn geen functies gebruikt.
    if( empty($_GET['controller'])) { 
        $_GET['controller'] = 'home';
    }
-
-    include( 'content/'.$_GET['controller'].'.php' );
-
-    $function = $_GET['controller']; 
-    $render = $function();      // index.php?controller=bla  ===>>  $_GET['controller ] = 'bla'   ===>>   bla()
 ?>
 
 <html>
    <article>
-        <?php echo $render; ?>
+        <?php include( 'content/'.$_GET['controller'].'.php' ); ?>
    </article>
 </html>
 ```
