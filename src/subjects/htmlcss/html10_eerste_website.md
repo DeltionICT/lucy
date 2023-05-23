@@ -7,12 +7,14 @@ author: jsiewers, rkerssies
 technology: html
 ---
 
-
 > #### Voorkennis
 > * Basis HTML kennis 
 
 > #### Doelen
 > * Leer html-kennis te combineren en toe te passen in een eerste website
+
+{{ '/_assets/_icons/html5-logo.png' | image: 'HTML5 Logo', 8 }}
+{{ '/_assets/_icons/css3-logo.png' | image: 'CSS3 Logo', 8 }}
 
 ## Opdracht
 * Zet een website op waarin een duidelijke layout is toegepast [layout](https://www.w3schools.com/html/html_layout.asp)
