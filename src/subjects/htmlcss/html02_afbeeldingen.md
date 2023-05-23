@@ -10,17 +10,13 @@ technology: html
 
 
 > #### Voorkennis
-> Basis HTML
-> #### Doelen
-> Je leert hoe je afbeeldingen op maat maakt in de juiste verhoudingen
-> Je leert hoe je compressie toepast op afbeeldingen
-> Je leert hoe je een website bouwt met afbeeldingen, links en andere html-elementen
+> * Basis HTML
 
-## Resultaat
-* Een webpagina gemaakt met HTML die zo goed mogelijk overeenkomt met het bijgeleverde ontwerp.  
-* De afbeeldingen van de website zijn op de juiste manier uitgesneden 
-* De afbeeldingen zijn bewaard met de meest gunstige compressie-instellingen
-* De afbeeldingen zijn bewaard in het juiste bestands-formaat.
+> #### Doelen
+> * Je leert hoe je afbeeldingen op maat maakt in de juiste verhoudingen
+> * Je leert hoe je compressie toepast op afbeeldingen
+> * Je leert hoe je een website bouwt met afbeeldingen, links en andere html-elementen
+
 
 ## Opdracht
 * Maak van onderstaand ontwerp een website
@@ -36,4 +32,12 @@ technology: html
 ![Ontwerp webpagina](https://static.edutorial.nl/html/over_ons@0.5x.png)
 
 
+> ##### Op te leveren
+> * Een webpagina gemaakt met HTML die zo goed mogelijk overeenkomt met het bijgeleverde ontwerp.
+> * De afbeeldingen van de website zijn op de juiste manier uitgesneden
+> * De afbeeldingen zijn bewaard met de meest gunstige compressie-instellingen
+> * De afbeeldingen zijn bewaard in het juiste bestands-formaat.
 
+## Evaluatie
+Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

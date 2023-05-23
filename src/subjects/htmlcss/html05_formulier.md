@@ -10,13 +10,20 @@ technology: html
 
 
 > #### Voorkennis
-> Basis HTML kennis over formulieren
+> * Basis HTML kennis over formulieren
+
 > #### Doelen
 > Leer een formulier te maken met html
 
+
+## Opdracht
+* Maak een formulier met daarin meerdere soorten invoer
+* Geef elk invoerveld een bijpassend label door gebruik te maken van de [label-tag](https://www.w3schools.com/tags/tag_label.asp) 
+* Lijn alle invoervelden netjes uit door gebruik van CSS in een externe css-file in een sub-map door gebruik te maken van de  [link-tag](https://www.w3schools.com/tags/tag_link.asp)
+
+
 ## Resultaat
 Een formulier gemaakt in HTML zoals in onderstaand voorbeeld
-
 
 <div class="html">
     <h1>Basic HTML Form</h1>
@@ -146,10 +153,17 @@ Een formulier gemaakt in HTML zoals in onderstaand voorbeeld
             </p>
         </fieldset>
         <p>
-            <input   type="submit" />
+            <input type="submit" value="Nu inleveren"/>
         </p>
     </form>
 </div>
 
 ## Uitleg 
 [Uitleg over het maken van formulieren vind je hier](https://www.edutorial.nl/html/formulieren/#formulieren)
+
+> ##### Op te leveren
+> * Een webpagina met een formulier met verschillende invoer-types en bijpassende labels.
+
+## Evaluatie
+Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
