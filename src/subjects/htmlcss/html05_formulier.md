@@ -7,14 +7,14 @@ author: jsiewers
 technology: html
 ---
 
-
-
 > #### Voorkennis
 > * Basis HTML kennis over formulieren
 
 > #### Doelen
 > Leer een formulier te maken met html
 
+{{ '/_assets/_icons/html5-logo.png' | image: 'HTML5 Logo', 8 }}
+{{ '/_assets/_icons/css3-logo.png' | image: 'CSS3 Logo', 8 }}
 
 ## Opdracht
 * Maak een formulier met daarin meerdere soorten invoer

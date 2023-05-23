@@ -7,8 +7,6 @@ author: jsiewers
 technology: html
 ---
 
-
-
 > #### Voorkennis
 > * Basis HTML
 
@@ -17,6 +15,8 @@ technology: html
 > * Je leert hoe je compressie toepast op afbeeldingen
 > * Je leert hoe je een website bouwt met afbeeldingen, links en andere html-elementen
 
+{{ '/_assets/_icons/html5-logo.png' | image: 'HTML5 Logo', 8 }}
+{{ '/_assets/_icons/css3-logo.png' | image: 'CSS3 Logo', 8 }}
 
 ## Opdracht
 * Maak van onderstaand ontwerp een website
