@@ -7,13 +7,13 @@ date: 2023-05-25
 <img src="/_assets/pseudocode/pseudocode_2.png" alt="Pseudocode" style="float: right;width: 192px;padding-left: 5px;padding-top: 55px;padding-right: 10px;"></img>
 
 > #### Omschrijving
-> Pseudocode is een manier om een algoritme of een stukje code te beschrijven in een informele programmeertaal. Het is geen echte programmeertaal, maar eerder een gestructureerde manier om je gedachten en logica op te schrijven zonder je zorgen te maken over de specifieke syntaxis van een bepaalde programmeertaal. 
+> Pseudocode is een manier om een algoritme of een stukje code te beschrijven in een informele programmeertaal. Het is geen echte programmeertaal, maar eerder een gestructureerde manier om je gedachten en logica op te schrijven (met pen en papier!) zonder je zorgen te maken over de specifieke syntaxis van een bepaalde programmeertaal. 
 >Het nut van pseudocode is dat het helpt om problemen op te lossen en algoritmes te ontwerpen zonder je te beperken tot een specifieke programmeertaal. Het stelt je in staat om je gedachten te organiseren en de logische stappen van een algoritme te structureren voordat je begint met coderen. Pseudocode is vaak eenvoudiger te begrijpen dan complexe programmeercode, vooral voor beginners.
 
 
 
 > #### Voordelen
-> Pseudocode is een manier om een algoritme of een stukje code te beschrijven in een informele programmeertaal. Het is geen echte programmeertaal, maar eerder een gestructureerde manier om je gedachten en logica op te schrijven zonder je zorgen te maken over de specifieke syntaxis van een bepaalde programmeertaal.
+> Pseudocode is een manier om een algoritme of een stukje code te beschrijven in een informele programmeertaal. Het is geen echte programmeertaal, maar eerder een gestructureerde manier om je gedachten en logica op te schrijven (met pen en papier!) zonder je zorgen te maken over de specifieke syntaxis van een bepaalde programmeertaal.
 > Het nut van pseudocode is dat het helpt om problemen op te lossen en algoritmes te ontwerpen zonder je te beperken tot een specifieke programmeertaal. Het stelt je in staat om je gedachten te organiseren en de logische stappen van een algoritme te structureren voordat je begint met coderen. Pseudocode is vaak eenvoudiger te begrijpen dan complexe programmeercode, vooral voor beginners.
 > Het gebruik van pseudocode heeft verschillende voordelen:
 > 1. Duidelijkheid: Pseudocode maakt gebruik van natuurlijke taal en eenvoudige structuurelementen, waardoor het gemakkelijker te begrijpen is dan complexe code in een programmeertaal.
