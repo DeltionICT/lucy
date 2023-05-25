@@ -177,5 +177,9 @@
 	{
       "key": "content",
       "name": "Content beheren in een CMS"
+    },
+	{
+      "key": "psuedocode",
+      "name": "Eerst denken en dan doen"
     }
   ]

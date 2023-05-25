@@ -77,6 +77,7 @@ layout: layout.webc
             <tech color="red" title="Hosting"></tech>
             <tech color="red" title="Security"></tech>
             <tech color="red" title="SEO"></tech>
+            <tech color="red" title="Pseudocode"></tech>
             <tech color="grey" title="Intakes en bezoekers"></tech>
         </p>
     </module>
