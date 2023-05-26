@@ -9,9 +9,9 @@
 
 <style webc:scoped>
     :host {
-        flex: 0 0 245px;
+        flex: 0 0 315px;
         /* explanation below */
-        height: 245px;
+        /* height: 245px; */
         border: 1px solid var(--c-brand);
         border-radius: 8px;
         box-shadow: var(--c-box-shadow);
@@ -21,7 +21,7 @@
 
     div.title {
         font-weight: bold;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         color: var(--c-white);
         background-color: var(--c-brand);
         height: 30px;
@@ -31,6 +31,6 @@
     }
 
     div.techs {
-        padding: 0px 8px 8px 8px;
+        padding: 5px 8px 8px 8px;
     }
 </style>
