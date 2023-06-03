@@ -683,31 +683,31 @@ div.html table {
     </div>
     <div class="authors">
         <span slot="authors">Chris Stegeman</span> |
-        <span slot="date">Jan 31, 2023</span>
+        <span slot="date">Jun 2, 2023</span>
     </div>
     <div class="title">
-        <h1><div slot="title">js32 | JSON AJAX</div></h1>
+        <h1><div slot="title">js34 | WeatherAPI</div></h1>
     </div>
 
 </main-title>
 <main-content class="webcftrhj"><div class="sidebar">
     <ul>
-        <list-link url="/subjects/js-intermediate/introductie/" page="/subjects/js-intermediate/js32-json-ajax/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/introductie/"><li class="notselected">Introductie</li></a>
+        <list-link url="/subjects/js-intermediate/introductie/" page="/subjects/js-intermediate/js34-weatherapi/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/introductie/"><li class="notselected">Introductie</li></a>
 
 </list-link>
-<list-link url="/subjects/js-intermediate/js32-json-ajax/" page="/subjects/js-intermediate/js32-json-ajax/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js32-json-ajax/"><li class="selected">js32 | JSON AJAX</li></a>
+<list-link url="/subjects/js-intermediate/js32-json-ajax/" page="/subjects/js-intermediate/js34-weatherapi/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js32-json-ajax/"><li class="notselected">js32 | JSON AJAX</li></a>
 
 </list-link>
-<list-link url="/subjects/js-intermediate/js34-weatherapi/" page="/subjects/js-intermediate/js32-json-ajax/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js34-weatherapi/"><li class="notselected">js34 | WeatherAPI</li></a>
+<list-link url="/subjects/js-intermediate/js34-weatherapi/" page="/subjects/js-intermediate/js34-weatherapi/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js34-weatherapi/"><li class="selected">js34 | WeatherAPI</li></a>
 
 </list-link>
-<list-link url="/subjects/js-intermediate/js40-colorgame/" page="/subjects/js-intermediate/js32-json-ajax/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js40-colorgame/"><li class="notselected">js40 | colorgame</li></a>
+<list-link url="/subjects/js-intermediate/js40-colorgame/" page="/subjects/js-intermediate/js34-weatherapi/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js40-colorgame/"><li class="notselected">js40 | colorgame</li></a>
 
 </list-link>
-<list-link url="/subjects/js-intermediate/js41-movegame/" page="/subjects/js-intermediate/js32-json-ajax/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js41-movegame/"><li class="notselected">js41 | Movegame</li></a>
+<list-link url="/subjects/js-intermediate/js41-movegame/" page="/subjects/js-intermediate/js34-weatherapi/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js41-movegame/"><li class="notselected">js41 | Movegame</li></a>
 
 </list-link>
-<list-link url="/subjects/js-intermediate/js74-vue3-cdn-base/" page="/subjects/js-intermediate/js32-json-ajax/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js74-vue3-cdn-base/"><li class="notselected">js74 | vue3 cdn base</li></a>
+<list-link url="/subjects/js-intermediate/js74-vue3-cdn-base/" page="/subjects/js-intermediate/js34-weatherapi/" class="wv0jwq1on"><a href="/lucy/subjects/js-intermediate/js74-vue3-cdn-base/"><li class="notselected">js74 | vue3 cdn base</li></a>
 
 </list-link>
     </ul>
@@ -716,7 +716,7 @@ div.html table {
     <blockquote>
 <h4>Voorkennis:</h4>
 <ul>
-<li>JS basis, JSON</li>
+<li>JS basis, JSON, AJAX</li>
 </ul>
 </blockquote>
 <blockquote>
@@ -724,23 +724,71 @@ div.html table {
 <ul>
 <li>Op halen van JSON informatie (via AJAX) uit API</li>
 <li>JSON data weergeven in HTML</li>
+<li>Maken van een weersite voor een willekeurige plaats met actuele weersinformatie</li>
 </ul>
 </blockquote>
 <h3>Beschrijving</h3>
-<p>Een API kan in de Backend informatie uit een database ophalen en die terugegeven in JSON formaat.
-Met Javascript kun je met AJAX die in JSON inladen en weergeven in HTML.<br>
-Bekijk in <a href="https://std.stegion.nl/cs_codebase/js32_json_ajax">deze website</a> 4 verschillende methoden om
-zo'n AJAX request aan te maken.<br></p>
+<p>In opdracht <a href="../js32-json-ajax">js32 JSON AJAX</a>, heb je geleerd hoe je bijvoorbeeld met Axios een AJAX request op een API kan doen.
+Voor deze opdracht betekent dat in andere woorden: hoe je uit een bestaande Weather-API, weer-informatie (in JSON formaat) kan ophalen met een Javascript-AJAX request. Voor zo'n request kun je gebruik maken van de Javascript library Axios.<br>
+Met <a href="https://openweathermap.org/api">deze gratis API</a> kun je weergegevens van over de hele wereld ophalen.<br>
+Met Javascript kun je die JSON data omzetten naar een website die weergegegvens van bijvooreeld, jouw woonplaats weergeeft.</p>
 <h3>opdracht</h3>
 <ul>
-<li>Bekijk in ieder geval punt 4) JSON laden via Axios
+<li>Open de <a href="https://openweathermap.org/api">openweathermap</a> API
 <ul>
-<li>Bekijk de broncode, neem deze over op je eigen site en kijk of het werkt</li>
-<li>Maak onderstaande tabel op met de verschillende bieren</li>
+<li>klik op de homepage in de eerste zin op <i>sign up<i></i></i></li>
+<li>of ga via het menu naar <i>sign in</i> en <i> create an account</i></li>
+</ul>
+</li>
+<li>Open het menu &quot;API&quot; en zoek naar &quot;5 Day / 3 Hour Forecast&quot;
+<ul>
+<li>Bekijk de &quot;API DOC&quot; en zoek naar de &quot;API call&quot;.</li>
+<li>Daar staat nu:  api.openweathermap.org/data/2.5/forecast?lat={lat}&amp;lon={lon}&amp;appid={API key}<br>Dit is de url van de API die de weer-data teruggeeft
+<ul>
+<li>de <i>lat</i> en <i>lon</i> zijn de cooordinaten van de plek op de wereld waar je het weer van wilt ophalen</li>
+<li>voor het Deltion college is dat: latitude: 52.51 en longitude: 6.08 (kan nauwkeuriger..)
+<ul>
+<li>vul deze waarden in, i.p.v. {lat} en {lon}</li>
+<li>of zoek deze waarden op van je eigen woonplaats!</li>
+</ul>
+</li>
+<li>vul i.p.v. {API key}, de API-key in die je na de <i>sign-up</i>, via de mail hebt gekregen</li>
+<li>plak de url in je browser en je ziet:
+<ul>
+<li>een nette JSON-boom (als je een JSON-viewer extentie voor je browser hebt geïnstalleerd )</li>
+<li>een grote lap tekst (=JSON). Installeer dan een JSON-view extentie voor je browser, bijv. &quot;JSONvue&quot; voor Chrome</li>
+<li><a href="/lucy/_assets/js_intermediate/json_weather.png">Klik hier</a> om een deel daarvan weer te geven op een ander tabblad
+<br>
+<br>
+<img src="/lucy/_assets/js_intermediate/weerdata.png" alt="weerdata" style="width:800px"></li>
 </ul>
 </li>
 </ul>
-<img src="/lucy/_assets/js_intermediate/biertabel.png" alt="biertabel" style="width:800px">
+</li>
+</ul>
+</li>
+<li>Maak een webpagina van het weer zoals hierboven is weergegeven.
+<ul>
+<li>maak daarvoor een nieuwe HTML-pagina</li>
+<li>haal de API m.b.v. Axios naar binnen</li>
+<li>sla de opgehaalde JSON in een variabel &quot;weather&quot; en geef die weer in een console.log(), zodat je door de boom kunt heen klikken</li>
+<li>je kunt de verschillende waarden nu zo uit de json halen:
+<ul>
+<li>weather.cnt =&gt; levert het getal 40 op (het aantal weergegegevens: 5 dagen x 8 metingen per dag)</li>
+<li>weather.list.dt =&gt; is een datum-getal. Zoek via Google op hoe je deze met JS in een leesbare datum kunt omzetten</li>
+<li>weather.list.main.temp =&gt; is de temperatuur in Kelvin. Trek daar standaard 273 vanaf en je hebt de temperatuur in graden</li>
+<li>weather.list.main.pressure =&gt; is de luchtdruk in hPa</li>
+<li>weather.list.main.humidity =&gt; is de vochtigheid in %</li>
+<li>weather.list.weather.description =&gt; levert een tekst die het weer beschrijft</li>
+<li>weather.list.weather.icon =&gt; is de naam van een icon van het weer. Deze icons staan ook op de site van de openweathermap!</li>
+<li>weather.list.wind. =&gt; levert windinformatie: snelheid en richting. Zorg dat je met een pijltje de goede windrichting aangeeft..!</li>
+<li>weather.list.dt_txt =&gt; levert een tekst op met datum en tijd van deze weer-gegevens</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- api.openweathermap.org/data/2.5/forecast?lat=52.51&lon=6.08&appid=d3abfc6e9b37aaee666987de44319f93-->
 </div>
 
 </main-content>
