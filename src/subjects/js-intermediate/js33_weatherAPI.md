@@ -1,5 +1,5 @@
 ---
-title: js34 | WeatherAPI
+title: js33 | WeatherAPI
 difficulty: medium #basic | medium | expert
 date: 2023-06-02
 author: cstegeman
