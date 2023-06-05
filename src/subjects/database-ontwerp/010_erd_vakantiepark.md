@@ -1,7 +1,5 @@
 ---
 title: ERD Vakantiepark
-key: 1420
-difficulty: expert
 date: 2022-11-10
 author: jsiewers
 technology: dbo
@@ -16,8 +14,8 @@ technology: dbo
 > * Een databaseserver installeren, tabellen aanmaken en permissies instellen
 
 
-## Resultaat
-Lever het ERD dat hoort bij onderstaande casus.
+## Opdracht
+Maak het ERD dat hoort bij onderstaande casus.
 
 ## Casus
 Voor een vakantiepark moet een applicatie worden gemaakt voor het verhuren van vakantiebungalows.  
@@ -78,3 +76,6 @@ Voorzieningen zijn niet afhankelijk van het type bungalow. De ene bungalow van h
     </tr>  
 </table>
 </div>
+
+## Resultaat
+Een entiteit relatiediagram in .pdf of .png formaat

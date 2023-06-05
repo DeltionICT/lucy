@@ -8,8 +8,6 @@ author: kstarreveld
 ---
 
 
-
-
 > #### Voorkennis:  
 > * Basis Javascript 
 > * info hoe je kunt opstarten is te vinden op [React Native site](https://reactnative.dev/docs/getting-started) onder het kopje The Basics.
