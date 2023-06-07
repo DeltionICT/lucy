@@ -1,5 +1,5 @@
 ---
-title: js33 | WeatherAPI
+title: js33 | Weather API
 difficulty: medium #basic | medium | expert
 date: 2023-06-02
 author: cstegeman
@@ -9,7 +9,7 @@ author: cstegeman
 > * JS basis, JSON, AJAX
 
 > #### Doelen:  
-> * Op halen van JSON informatie (via AJAX) uit API
+> * Ophalen van JSON informatie (via AJAX) uit API
 > * JSON data weergeven in HTML
 > * Maken van een weersite voor een willekeurige plaats met actuele weersinformatie
 
