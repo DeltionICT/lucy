@@ -9,7 +9,8 @@ technology: js
 
 
 > #### Voorkennis:  
-> * JSON (zie eventueel op deze site: 
+> * JSON (zie eventueel op deze site: [js20 JSON](../../js-basis/js20-json/))
+> * JSON &amp; AJAX (zie eventueel op deze site: [js32 JSON AJAX](../../js-intermediate/js32-json-ajax/))
 > * De opdracht [js 70 base VUE3 via CDN](../js70-vue3-cdn-base/))
 
 > #### Doelen:  
