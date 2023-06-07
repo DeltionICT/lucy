@@ -765,7 +765,18 @@ div.html table {
 <h2>Opdracht</h2>
 <p>Maak een formulier met een selectbox. In de selectbox kun je een kleur kiezen. Als je het formulier hebt verstuurd zie je een pagina waarvan de achtergrondkleur overeenkomt met de kleur die je had gekozen.</p>
 <h2>Try it!</h2>
-<pre class="language-php"><code class="language-php"><span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string double-quoted-string">"html"</span><span class="token operator">></span><br>    <span class="token operator">&lt;</span>form action<span class="token operator">=</span><span class="token string double-quoted-string">"https://static.edutorial.nl/php/color_background.php"</span> method<span class="token operator">=</span><span class="token string double-quoted-string">"post"</span><span class="token operator">></span><br>        <span class="token operator">&lt;</span>label <span class="token keyword">for</span><span class="token operator">=</span><span class="token string double-quoted-string">"kleur"</span><span class="token operator">></span>Kies een kleur<span class="token operator">&lt;</span><span class="token operator">/</span>label<span class="token operator">></span><br>        <span class="token operator">&lt;</span>select name<span class="token operator">=</span><span class="token string double-quoted-string">"kleur"</span><span class="token operator">></span><br>            <span class="token operator">&lt;</span>option<span class="token operator">></span>red<span class="token operator">&lt;</span><span class="token operator">/</span>option<span class="token operator">></span><br>            <span class="token operator">&lt;</span>option<span class="token operator">></span>blue<span class="token operator">&lt;</span><span class="token operator">/</span>option<span class="token operator">></span><br>            <span class="token operator">&lt;</span>option<span class="token operator">></span>yellow<span class="token operator">&lt;</span><span class="token operator">/</span>option<span class="token operator">></span><br>            <span class="token operator">&lt;</span>option<span class="token operator">></span>pink<span class="token operator">&lt;</span><span class="token operator">/</span>option<span class="token operator">></span><br>        <span class="token operator">&lt;</span><span class="token operator">/</span>select<span class="token operator">></span><br>        <span class="token operator">&lt;</span>input type<span class="token operator">=</span><span class="token string double-quoted-string">"submit"</span><span class="token operator">></span><br>    <span class="token operator">&lt;</span><span class="token operator">/</span>form<span class="token operator">></span><br><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span></code></pre>
+<div class="html">
+    <form action="https://static.edutorial.nl/php/color_background.php" method="post">
+        <label for="kleur">Kies een kleur</label>
+        <select name="kleur">
+            <option>red</option>
+            <option>blue</option>
+            <option>yellow</option>
+            <option>pink</option>
+        </select>
+        <input type="submit">
+    </form>
+</div>
 
 </div>
 
