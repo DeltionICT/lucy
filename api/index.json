@@ -1,0 +1,1473 @@
+[
+    { 
+        "url":"/lucy/subjects/scrum/projectmanagement/",
+        "title":"Projectmanagement",
+        "author":"rkerssies",
+        "date":"Wed Feb 10 2021 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/hosting/webservices-local-domainnames/",
+        "title":"Webservices | Local domainnames",
+        "author":"rkerssies",
+        "date":"Fri Feb 11 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml/ontwerpen-wireframes/",
+        "title":"Ontwerpen | Wireframes",
+        "author":"rkerssies",
+        "date":"Sat Feb 12 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml/ontwerpen-mockups/",
+        "title":"Ontwerpen | Mockups",
+        "author":"rkerssies",
+        "date":"Sun Feb 13 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml/ontwerpen-activiteitendiagram/",
+        "title":"Ontwerpen | ActiviteitenDiagram",
+        "author":"rkerssies",
+        "date":"Mon Feb 14 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml/ontwerpen-classdiagram/",
+        "title":"Ontwerpen | ClassDiagram",
+        "author":"rkerssies",
+        "date":"Tue Feb 15 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml/ontwerpen-sequencediagram/",
+        "title":"Ontwerpen | SequenceDiagram",
+        "author":"rkerssies",
+        "date":"Wed Feb 16 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml/ontwerpen-entiteit-relatie-diagram-erd/",
+        "title":"Ontwerpen | Entiteit Relatie Diagram (ERD)",
+        "author":"rkerssies",
+        "date":"Wed Feb 16 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/beer-casus/",
+        "title":"Beer-casus",
+        "author":"rkerssies, cstegeman",
+        "date":"Tue Mar 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/zwabbertje-casus/",
+        "title":"Zwabbertje-casus",
+        "author":"rkerssies",
+        "date":"Tue Mar 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/simpele-login/",
+        "title":"Simpele login",
+        "author":"jsiewers",
+        "date":"Sat Oct 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/sessie-login/",
+        "title":"Sessie login",
+        "author":"jsiewers",
+        "date":"Mon Oct 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-ontwerp/erd-vakantiepark/",
+        "title":"ERD Vakantiepark",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/csv-importeren/",
+        "title":"CSV Importeren",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/queries-bedrijfscursussen/",
+        "title":"Queries bedrijfscursussen",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/loops/",
+        "title":"Loops",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/autoformulier/",
+        "title":"Autoformulier",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/database-login/",
+        "title":"Database login",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/functions-in-php/",
+        "title":"Functions in PHP",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/project-farout/",
+        "title":"Project FarOut",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/proj-handig-joh/",
+        "title":"PROJ Handig Joh",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/proj-kraeken/",
+        "title":"PROJ Kraeken",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/project-stembus/",
+        "title":"Project Stembus",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/database-basic-queries/",
+        "title":"Database basic queries",
+        "author":"rkerssies",
+        "date":"Fri Nov 11 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/timmerbedrijf/",
+        "title":"Timmerbedrijf",
+        "author":"jsiewers",
+        "date":"Sun Nov 20 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/pizza/",
+        "title":"Pizza",
+        "author":"jsiewers",
+        "date":"Sun Nov 20 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/eigen-casus/",
+        "title":"Eigen Casus",
+        "author":"rkerssies",
+        "date":"Mon Dec 12 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/digitale-nummers/",
+        "title":"Digitale nummers",
+        "author":"jsiewers",
+        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/queries-reisbureau/",
+        "title":"Queries reisbureau",
+        "author":"jsiewers",
+        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/database-introductie/",
+        "title":"Database introductie",
+        "author":"jsiewers, adalmolen, jheuvelman, pvangemert",
+        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/ken-jezelf/",
+        "title":"Ken Jezelf",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/intakes-en-bezoekers/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-intermediate/js69-vue3-cdn-base/",
+        "title":"js69 | vue3 cdn base",
+        "author":"cstegeman",
+        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/mvc-projects/project-nog-vullen/",
+        "title":"project &lt;nog vullen&gt;",
+        "author":"jsiewers",
+        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/oo-projects/mrwheely-s-occasions/",
+        "title":"MrWheely&#39;s occasions",
+        "author":"jsiewers",
+        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/oo-projects/el-credito-bank-app/",
+        "title":"El Credito Bank-app",
+        "author":"jsiewers",
+        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/array-met-getallen/",
+        "title":"Array met getallen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/bmi/",
+        "title":"BMI",
+        "author":"rkerssies",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/boodschappenlijst/",
+        "title":"Boodschappenlijst",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/breuken/",
+        "title":"Breuken",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/xml-to-json/",
+        "title":"XML to JSON",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/decimale-combinaties/",
+        "title":"Decimale combinaties",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/elementen-tellen/",
+        "title":"Elementen tellen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/elfproef/",
+        "title":"Elfproef",
+        "author":"kstarreveld",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/faculteit/",
+        "title":"Faculteit",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/grootste-getal/",
+        "title":"Grootste getal",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/hoeveel-dagen/",
+        "title":"Hoeveel dagen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/kleinste-getal/",
+        "title":"Kleinste getal",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/klok/",
+        "title":"Klok",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/lotto/",
+        "title":"Lotto",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/mini-maxi/",
+        "title":"Mini Maxi",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/combinaties/",
+        "title":"Combinaties",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/letter-a/",
+        "title":"Letter A",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/diamant-tekenen/",
+        "title":"Diamant tekenen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/patroon-tekenen-2/",
+        "title":"Patroon tekenen 2",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/echte-pyramide/",
+        "title":"Echte pyramide",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/pyramide/",
+        "title":"Pyramide",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/raad-het-woord/",
+        "title":"Raad het woord",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/raad-het-getal/",
+        "title":"Raad het getal",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/schoenverkoper/",
+        "title":"Schoenverkoper",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/tijd-naar-tekst/",
+        "title":"Tijd naar tekst",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/urenregistratie/",
+        "title":"Urenregistratie",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/verbruik-auto/",
+        "title":"Verbruik auto",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/vermoeden-van-collatz/",
+        "title":"Vermoeden van Collatz",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/zuurstof/",
+        "title":"Zuurstof",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/array/",
+        "title":"Array",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/cirkel/",
+        "title":"Cirkel",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/deelbaar/",
+        "title":"Deelbaar",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/dobbelsteen/",
+        "title":"Dobbelsteen",
+        "author":"rkerssies",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/geheimschrijver/",
+        "title":"Geheimschrijver",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/getallenreeks/",
+        "title":"Getallenreeks",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/hoofdletters/",
+        "title":"Hoofdletters",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/leeftijd/",
+        "title":"Leeftijd",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/leeftijdgrenzen/",
+        "title":"Leeftijdgrenzen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/mail-to-username/",
+        "title":"Mail to username",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/mijn-info/",
+        "title":"Mijn info",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/muntje-gooien/",
+        "title":"Muntje gooien",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/namenlijst/",
+        "title":"Namenlijst",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/oneven-getal/",
+        "title":"Oneven getal",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/knikkers/",
+        "title":"Knikkers",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/leeftijdchecker/",
+        "title":"Leeftijdchecker",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/oppervlakte-berekenen/",
+        "title":"Oppervlakte berekenen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/patroon-tekenen/",
+        "title":"Patroon tekenen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/variabelen-weergeven/",
+        "title":"Variabelen weergeven",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/tafels/",
+        "title":"Tafels",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/user-repeat/",
+        "title":"User repeat",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/wie-is-de-winnaar/",
+        "title":"Wie is de winnaar",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/witregel/",
+        "title":"Witregel",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/afstanden/",
+        "title":"Afstanden",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/mogelijke-opties/",
+        "title":"Mogelijke opties",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/brackets/",
+        "title":"Brackets",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/fizz-buzz/",
+        "title":"Fizz Buzz",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/kassa-systeem/",
+        "title":"Kassa systeem",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/poll/",
+        "title":"Poll",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/romeinse-getallen/",
+        "title":"Romeinse getallen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/schaakbord/",
+        "title":"Schaakbord",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/steen-papier-schaar/",
+        "title":"Steen papier schaar",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/tekst-doorlopen/",
+        "title":"Tekst doorlopen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/weather-app/",
+        "title":"Weather App",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/mvc-basics-in-php/",
+        "title":"MVC-basics in PHP",
+        "author":"rkerssies",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-mvc/mvc-framework-c-sharp/",
+        "title":"MVC-Framework C sharp",
+        "author":"rkerssies",
+        "date":"Tue Jan 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/mvc-bezoekers/",
+        "title":"MVC - Bezoekers",
+        "author":"rkerssies",
+        "date":"Tue Jan 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/mvc-beheer-van-gebruikers/",
+        "title":"MVC - Beheer van gebruikers",
+        "author":"rkerssies",
+        "date":"Tue Jan 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/mvc-middleware-and-services/",
+        "title":"MVC - MiddleWare &amp; Services",
+        "author":"rkerssies",
+        "date":"Tue Jan 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/mvc-administratie-van-gebruikers/",
+        "title":"MVC - Administratie van gebruikers",
+        "author":"rkerssies",
+        "date":"Tue Jan 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/featuretesting/",
+        "title":"FeatureTesting",
+        "author":"rkerssies",
+        "date":"Wed Jan 04 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-mvc/api-c/",
+        "title":"API C#",
+        "author":"kstarreveld",
+        "date":"Thu Jan 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-voor-webdevelopment/",
+        "title":"Ontwikkelomgeving voor webdevelopment",
+        "author":"jsiewers",
+        "date":"Thu Jan 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/api-server-php/",
+        "title":"API-server PHP",
+        "author":"rkerssies",
+        "date":"Thu Jan 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/api-rbac-php/",
+        "title":"API-rbac PHP",
+        "author":"rkerssies",
+        "date":"Sat Jan 07 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/html-css/html-eerste-website/",
+        "title":"HTML Eerste website",
+        "author":"jsiewers, rkerssies",
+        "date":"Mon Jan 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/api/index.json",
+        "title":"api",
+        "author":"jsiewers",
+        "date":"Tue Jan 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/html-css/html-tekst-en-links/",
+        "title":"HTML tekst en links",
+        "author":"rkerssies",
+        "date":"Tue Jan 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/html-css/html-afbeeldingen/",
+        "title":"HTML Afbeeldingen",
+        "author":"jsiewers",
+        "date":"Tue Jan 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/html-css/html-tabellen/",
+        "title":"HTML Tabellen",
+        "author":"jsiewers",
+        "date":"Tue Jan 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/html-css/html-formulier/",
+        "title":"HTML Formulier",
+        "author":"jsiewers",
+        "date":"Tue Jan 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-voor-python/",
+        "title":"Ontwikkelomgeving voor Python",
+        "author":"jsiewers",
+        "date":"Wed Jan 11 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-c/",
+        "title":"Ontwikkelomgeving C#",
+        "author":"kstarreveld",
+        "date":"Thu Jan 12 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/git-en-github/een-statische-website-hosten/",
+        "title":"Een statische website hosten",
+        "author":"jsiewers",
+        "date":"Sat Jan 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/hosting/een-statische-website-hosten/",
+        "title":"Een statische website hosten",
+        "author":"jsiewers",
+        "date":"Sat Jan 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-voor-api-s/",
+        "title":"Ontwikkelomgeving voor API&#39;s",
+        "author":"rkerssies",
+        "date":"Sat Jan 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/js10-input-value/",
+        "title":"js10 | Input value",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/js11-monkey-shuffle/",
+        "title":"js11 | Monkey Shuffle",
+        "author":"jsiewers",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/js14-array/",
+        "title":"js14 | Array",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/js17-stopwatch/",
+        "title":"js17 | stopwatch",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/css17-stopwatch/",
+        "title":"css17 | stopwatch",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/js20-json/",
+        "title":"js20 | JSON",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/js22-tafels/",
+        "title":"js22 | Tafels",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/js27-form-validate-a/",
+        "title":"js27 | form validate A",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-frameworks/js70-vue3-cdn-base/",
+        "title":"js70 | vue3 cdn base",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-frameworks/js72-vue3-cdn-api/",
+        "title":"js72 | vue3 cdn API",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-intermediate/js32-json-ajax/",
+        "title":"js32 | JSON AJAX",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-intermediate/js40-colorgame/",
+        "title":"js40 | colorgame",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/git-en-github/git-like-a-pro/",
+        "title":"Git like a Pro",
+        "author":"jsiewers",
+        "date":"Fri Feb 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/git-en-github/git-basis/",
+        "title":"Git Basis",
+        "author":"jsiewers",
+        "date":"Fri Feb 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/app-development/app1-rn-helloworld/",
+        "title":"app1 | RN-HelloWorld",
+        "author":"kstarreveld",
+        "date":"Thu Feb 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/app-development/app1b-rn-calculator/",
+        "title":"app1b | RN-Calculator",
+        "author":"kstarreveld",
+        "date":"Thu Feb 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/app-development/app2-rn-lists-and-beer/",
+        "title":"app2 | RN-Lists and Beer",
+        "author":"kstarreveld",
+        "date":"Thu Feb 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/app-development/app3-rn-geolocation/",
+        "title":"app3 | RN-GeoLocation",
+        "author":"kstarreveld",
+        "date":"Thu Feb 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/security/sec-sec-1-caesar-cipher/",
+        "title":"sec | Sec 1-Caesar Cipher",
+        "author":"kstarreveld",
+        "date":"Thu Feb 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/security/sec-sec-2-vigenere-cipher/",
+        "title":"sec | Sec 2-Vigenere Cipher",
+        "author":"kstarreveld",
+        "date":"Thu Feb 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/user-experience-design/user-experience-iconografie/",
+        "title":"User Experience | Iconografie",
+        "author":"kscheening",
+        "date":"Wed Feb 22 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/user-experience-design/user-experience-kleurtheorie/",
+        "title":"User Experience | Kleurtheorie",
+        "author":"kscheening",
+        "date":"Wed Feb 22 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/user-experience-design/user-experience-typografie/",
+        "title":"User Experience | Typografie",
+        "author":"kscheening",
+        "date":"Wed Feb 22 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/user-experience-design/user-experience-whitespace/",
+        "title":"User Experience | Whitespace",
+        "author":"kscheening",
+        "date":"Wed Feb 22 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-voor-nodejs/",
+        "title":"Ontwikkelomgeving voor NodeJS",
+        "author":"jsiewers",
+        "date":"Sun Mar 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-intermediate/js41-movegame/",
+        "title":"js41 | Movegame",
+        "author":"cstegeman",
+        "date":"Tue Mar 07 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/hosting/",
+        "title":"Hosting",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Mon Mar 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/programmeren-basis/",
+        "title":"Programmeren basis",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Mon Mar 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/webpagina/",
+        "title":"Webpagina",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Mon Mar 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/html-en-css/",
+        "title":"HTML en CSS",
+        "author":"jsiewers, jheuvelman, adalmolen, pvangemert",
+        "date":"Tue Mar 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/javascript/",
+        "title":"Javascript",
+        "author":"jsiewers, jheuvelman, adalmolen, pvangemert",
+        "date":"Tue Mar 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/beginnen-met-php/",
+        "title":"Beginnen met PHP",
+        "author":"jsiewers, pvangemert, jheuvelman, adalmolen",
+        "date":"Tue Mar 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-intermediate/asp-net-c-verdieping/",
+        "title":"ASP.net C# Verdieping",
+        "author":"kscheening",
+        "date":"Tue Mar 21 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-mvc/unity-3d-programming-c-verdieping/",
+        "title":"Unity 3D programming C# Verdieping",
+        "author":"kscheening",
+        "date":"Tue Mar 21 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-objectoriented/c-oop-verdieping/",
+        "title":"C# OOP Verdieping",
+        "author":"kscheening",
+        "date":"Tue Mar 21 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/devops/devops-project-opzetten/",
+        "title":"DevOps Project opzetten",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/devops/devops-product-backlog/",
+        "title":"DevOps Product-BackLog",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/devops/devops-sprints/",
+        "title":"DevOps Sprints",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/devops/devops-sprints-voortgang/",
+        "title":"DevOps Sprints-voortgang",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/gebruik-van-parameters/",
+        "title":"Gebruik van parameters",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/een-class-maken/",
+        "title":"Een &#39;class&#39; maken",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/private-and-public/",
+        "title":"Private &amp; Public",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/de-constructor/",
+        "title":"De constructor",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/classes-overerven/",
+        "title":"Classes overerven",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/gebruik-van-use-en-namespaces/",
+        "title":"Gebruik van Use en Namespaces",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/php-een-autoloader-toepassen/",
+        "title":"(PHP) een autoloader toepassen",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-intermediate/image-gallery-function/",
+        "title":"Image-gallery function",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-intermediate/css-link-function/",
+        "title":"CSS-link function",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-intermediate/bootstrap-function/",
+        "title":"Bootstrap-function",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-intermediate/simpele-url-trigger-functie/",
+        "title":"simpele URL-trigger functie",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-intermediate/url-trigger-functie/",
+        "title":"URL-trigger functie",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-intermediate/basic-api/",
+        "title":"Basic API",
+        "author":"rkerssies",
+        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/eindopdracht-php/",
+        "title":"eindopdracht PHP",
+        "author":"rkerssies",
+        "date":"Sat Mar 25 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/eindopdracht-c/",
+        "title":"eindopdracht C#",
+        "author":"kscheening",
+        "date":"Sat Mar 25 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/intakes-en-bezoekers/meelopen-sd/",
+        "title":"Meelopen SD",
+        "author":"rkerssies",
+        "date":"Sat Apr 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/intakes-en-bezoekers/intake-bij-sd/",
+        "title":"Intake bij SD",
+        "author":"rkerssies",
+        "date":"Sun Apr 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/intakes-en-bezoekers/intake-it-expert-and-all-round/",
+        "title":"Intake IT-expert &amp; All-round",
+        "author":"rkerssies",
+        "date":"Mon Apr 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Sun Apr 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Sun Apr 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Sun Apr 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-intermediate/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-mvc/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-objectoriented/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/css/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-ontwerp/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/git-en-github/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/hosting/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ontwikkelomgeving/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/orientatie-blockchain/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-intermediate/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/security/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/user-experience-design/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/user-interfaces-design/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/verdieping-software/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/vue-cdn/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/vue-npm/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/webcomponents/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/html-css/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Tue Apr 11 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/kleurkiezer/",
+        "title":"Kleurkiezer",
+        "author":"jsiewers",
+        "date":"Tue Apr 11 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/mvc-projects/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Thu Apr 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/oo-projects/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Thu Apr 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/pijlen-tekenen/",
+        "title":"Pijlen tekenen",
+        "author":"jsiewers",
+        "date":"Mon Apr 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/p-e-m-d-a-s/",
+        "title":"P.E.M.D.A.S",
+        "author":"jsiewers",
+        "date":"Mon Apr 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/american-party/",
+        "title":"American Party",
+        "author":"jsiewers",
+        "date":"Mon Apr 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/volume-berekenen/",
+        "title":"Volume Berekenen",
+        "author":"jsiewers",
+        "date":"Mon Apr 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/cryptografie/",
+        "title":"Cryptografie",
+        "author":"jsiewers",
+        "date":"Mon Apr 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/app-development/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/devops/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-van-microcontrollers/introductie/",
+        "title":"Introductie",
+        "author":"adalmolen",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-van-microcontrollers/mc1-basiskennis-programmeren/",
+        "title":"MC1 | Basiskennis programmeren",
+        "author":"adalmolen",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-van-microcontrollers/mc2-eerste-programma/",
+        "title":"MC2 | Eerste programma",
+        "author":"adalmolen",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-van-microcontrollers/mc3-oefening-baart-kunst/",
+        "title":"MC3 | Oefening baart kunst",
+        "author":"adalmolen",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-van-microcontrollers/mc4-voorbereiding-examen/",
+        "title":"MC4 | Voorbereiding examen",
+        "author":"adalmolen",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/scrum/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/seo/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/werken-met-csv/",
+        "title":"Werken met CSV",
+        "author":"jsiewers",
+        "date":"Fri May 12 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-advanced/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-frameworks/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-intermediate/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/nodejs/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers",
+        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-voor-webdevelopment-met-docker/",
+        "title":"Ontwikkelomgeving voor webdevelopment met docker",
+        "author":"jheuvelman",
+        "date":"Wed May 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/pseudocode/introductie/",
+        "title":"Introductie",
+        "author":"adalmolen",
+        "date":"Thu May 25 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/pseudocode/pc01-basis-opdrachten-pseudocode/",
+        "title":"PC01 | Basis opdrachten Pseudocode",
+        "author":"adalmolen",
+        "date":"Thu May 25 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/pseudocode/pc02-medior-opdrachten-pseudocode/",
+        "title":"PC02 | Medior opdrachten Pseudocode",
+        "author":"adalmolen",
+        "date":"Thu May 25 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/pseudocode/pc03-gevorderde-opdrachten-pseudocode/",
+        "title":"PC03 | Gevorderde opdrachten Pseudocode",
+        "author":"adalmolen",
+        "date":"Thu May 25 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/pseudocode/pc04-bonus-opdracht-pseudocode-expert/",
+        "title":"PC04 | Bonus opdracht Pseudocode (Expert!)",
+        "author":"adalmolen",
+        "date":"Thu May 25 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-intermediate/js33-weather-api/",
+        "title":"js33 | Weather API",
+        "author":"cstegeman",
+        "date":"Fri Jun 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-intermediate/js34-country-api/",
+        "title":"js34 | Country API",
+        "author":"cstegeman",
+        "date":"Fri Jun 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-ontwerp/erd-bloemenwinkel/",
+        "title":"ERD Bloemenwinkel",
+        "author":"jsiewers",
+        "date":"Mon Jun 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-ontwerp/erd-apotheek/",
+        "title":"ERD Apotheek",
+        "author":"jsiewers",
+        "date":"Mon Jun 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-ontwerp/erd-ziekenhuis/",
+        "title":"ERD Ziekenhuis",
+        "author":"jsiewers",
+        "date":"Mon Jun 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/intakes-en-bezoekers/vmbo-keuzedeel-ao/",
+        "title":"vmbo-keuzedeel AO",
+        "author":"rkerssies",
+        "date":"Mon Jun 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/python-imageconverter/",
+        "title":"Python Imageconverter",
+        "author":"jsiewers",
+        "date":"Thu Jun 08 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/python-ontwerp/",
+        "title":"Python Ontwerp",
+        "author":"jsiewers",
+        "date":"Thu Jun 08 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    }
+
+]
