@@ -55,12 +55,10 @@ Signatuur van de functie:
       
       return $html;
    }
-
-   $result = function showPictures("/map/afbeeldingen/")
  
  <html> 
    <body>
-       <?php echo $result; ?>
+       <?php echo showPictures("/map/afbeeldingen/"); ?>
    </body> 
 </html>
 ```
