@@ -33,4 +33,4 @@ Een php-applicatie in Laravel op github.com
 
 
 ## Uitleg
-https://www.edutorial.nl/laravel/installatie/
+[https://www.edutorial.nl/laravel/installatie/](https://www.edutorial.nl/laravel/installatie/)
