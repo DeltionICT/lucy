@@ -1474,6 +1474,12 @@
         "title":"Starten met Laravel",
         "author":"jsiewers",
         "date":"Tue Jun 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/oo-projects/authenticatie-met-laravel/",
+        "title":"Authenticatie met Laravel",
+        "author":"jsiewers",
+        "date":"Tue Jun 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
