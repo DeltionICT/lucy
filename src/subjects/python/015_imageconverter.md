@@ -41,3 +41,6 @@ Bekijk onderstaand stroomschema en maak de applicatie in python.
 * Uitleg over projecten en stroomschema's vind je op [https://www.edutorial.nl/python/projectopdrachten/](https://www.edutorial.nl/python/projectopdrachten/)
 * Uitleg over [stroomschema's](https://static.edutorial.nl/python/activiteiten_diagram.docx)
 * Uitleg over [PIL (python image library) op PyPi](https://pypi.org/project/Pillow/)
+
+## Evaluatie en beoordeling
+[Download hier](https://static.edutorial.nl/python/python_beoordeling_imageconverter.xlsx) het beoordelingsformulier
