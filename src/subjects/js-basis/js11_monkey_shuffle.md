@@ -20,9 +20,12 @@ Monkey Shuffle is een webpagina met 9 plaatjes van apen. Door op een knop te kli
 * Zorg ervoor dat de 9 afbeeldingen in rijen van 3 onder elkaar in je browser worden getoond.
     * Dit doe je bijvoorbeeld met een `div` met een breedte van maximaal 1000px. Er kunnen dan maar 3 plaatjes naast elkaar in de `div`.
 
+
 ### Uitleg
 [Hier vind je uitleg over de uitwerking van de opdracht](https://www.edutorial.nl/javascript/javascript-arrays/)
 
 ## Resultaat
 * Een html-pagina met 9 afbeeldingen in rijen van 3 onder elkaar en een knop
 * Plaatjes worden gehusseld als er op de knop wordt geklikt.
+
+![Monkey Shuffle](https://static.edutorial.nl/js/monkey_shuffle.png)
