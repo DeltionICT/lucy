@@ -1,5 +1,5 @@
 ---
-title: Authenticatie met Laravel
+title: Breeze
 date: 2023-06-13
 author: jsiewers
 ---
@@ -28,4 +28,4 @@ author: jsiewers
 
 
 ## Uitleg
-[Laravel uitleg op edutorial.nl](http://localhost:8080/laravel/introductie/)
+[Laravel uitleg op edutorial.nl](http://www.edutorial.nl/laravel/introductie/)

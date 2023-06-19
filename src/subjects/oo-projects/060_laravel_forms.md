@@ -1,6 +1,5 @@
 ---
-title: CRUD acties met Laravel
-date: 2023-06-19
+title: Restaurant
 author: jsiewers
 ---
 
@@ -24,14 +23,16 @@ author: jsiewers
 
 ##  Opdracht
 * Maak een database aan in MySQL met `create database .....`
-* Maak in Laravel een migration om een tabel `producten` toe te voegen
-* Maak een model en een controller voor producten
-* Maak velden aan voor `id, omschrijving en prijs`
-* Maak een formulier zodat alleen `ingelogde gebruikers` producten kunnen toevoegen
-* Maak een pagina waarop een bezoeker `alle producten` kan weergeven
+* Maak in Laravel een migration om een tabel `menu_items` toe te voegen
+* Maak een model en een controller voor menu_items
+* Maak velden aan voor `id, name en category_id`
+* Maak een formulier zodat alleen `ingelogde gebruikers` menu_items kunnen toevoegen
+* Maak een pagina waarop een bezoeker `alle menu_items` kan weergeven
 
 ## Resultaat
 * Een php-applicatie in Laravel op github.com
 
 
 ## Uitleg
+* Bekijk de uitleg op [Edutorial](http://www.edutorial.nl/laravel/introductie/)
+* [YouTube tutorial](https://www.youtube.com/watch?v=MYyJ4PuL4pY&t=14354s)
