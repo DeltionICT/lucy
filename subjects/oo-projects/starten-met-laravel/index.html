@@ -726,6 +726,9 @@ div.html table {
 <list-link url="/subjects/oo-projects/starten-met-laravel/" page="/subjects/oo-projects/starten-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/oo-projects/starten-met-laravel/"><li class="selected">Starten met Laravel</li></a>
 
 </list-link>
+<list-link url="/subjects/oo-projects/databases-met-laravel/" page="/subjects/oo-projects/starten-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/oo-projects/databases-met-laravel/"><li class="notselected">Databases met Laravel</li></a>
+
+</list-link>
 <list-link url="/subjects/oo-projects/breeze/" page="/subjects/oo-projects/starten-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/oo-projects/breeze/"><li class="notselected">Breeze</li></a>
 
 </list-link>
@@ -745,33 +748,41 @@ div.html table {
 <h4>Dit ga je leren</h4>
 <ul>
 <li>Je gaat een eerste project maken met laravel</li>
-<li>Je leert werken met routes, controllers en models in laravel</li>
+<li>Je leert werken met routes en views in laravel</li>
 </ul>
 </blockquote>
 <h2>Beginsituatie</h2>
 <ul>
-<li>Kloon de <a href="https://github.com/siewers32/restaurant">laravel-applicatie</a> met <code>git clone</code> vanaf github.com</li>
-<li>Deze applicatie is gemaakt met Laravel 10 en uitgebreid met een aantal migrations. Met <code>php artisan migrate:fresh --seed</code> wordt de database-structuur aangemaakt en worden de tabellen gevuld met data.</li>
-<li>Er zijn 2 tabellen:
-<ul>
-<li>menu_items (milk, cheese, potatoes etc.)</li>
-<li>categorieën (vegetables, fruit etc.)</li>
-</ul>
-</li>
+<li>Installeer composer</li>
+<li>Installeer een laravel project met <code>composer create-project laravel/laravel mijnproject</code></li>
+<li>Start de webserver met <code>php artisan serve</code></li>
 </ul>
 <h2>Opdracht</h2>
 <ul>
-<li>Maak een overzicht van dingen die je kunt eten en drinken (MenuItems) in laravel.</li>
-<li>Hernoem het .env-example bestand naar .env</li>
-<li>Pas de gegevens aan naar jouw situatie</li>
-<li>Maak een route aan in <code>web.php</code></li>
-<li>Maak een view aan in <code>resources/views</code> waarmee alle menu-items worden weergegeven zoals in onderstaand voorbeeld</li>
+<li>Maak een website over een willekeurig onderwerp (portfolio, apen, tandpasta etc.)</li>
+<li>Er zijn minimaal 3 pagina's</li>
+<li>Je maakt een basis-layout met <code>Blade</code> met minimaal een <code>@section('content')</code> en een <code>@section('navigatie')</code>.</li>
+<li>Met <code>@extends('layout')</code> breidt je de overige pagina's uit met eigen content.</li>
+<li>In de navigatiebalk heeft de huidige pagina andere opmaak</li>
 </ul>
-<p><img src="https://static.edutorial.nl/laravel/all_you_can_eat.png" alt="All you can eat and drink"></p>
+<div class="html">
+    <div style="width:80%;margin:auto;background-color:lightyellow;border-radius:8px;padding:8px;">
+        <nav>
+            <a href="#" style="padding:4px;display:inline-block;background-color:yellow">Home</a>
+            <a href="#" style="padding:4px;display:inline-block;background-color:lightgreen">Over ons</a>
+            <a href="#" style="padding:4px;display:inline-block;background-color:yellow">Contact</a>
+            <a href="#" style="padding:4px;display:inline-block;background-color:yellow">Produkten</a>
+        </nav>
+        <main>
+            <h1>Over ons</h1>
+            <p>Vivamus massa nunc, pharetra sed laoreet eu, iaculis ut tortor. Fusce molestie, metus ut condimentum consectetur, sem mi luctus mi, vitae mattis eros ipsum sodales lorem. Proin mattis malesuada libero, in gravida elit posuere in. Praesent viverra viverra libero, ac convallis lorem congue vitae. Nam malesuada efficitur libero in tincidunt. </p>
+        </main>
+    </div>
+</div>
 <h2>Resultaat</h2>
 <p>Een php-applicatie in Laravel op github.com</p>
 <h2>Uitleg</h2>
-<p><a href="https://www.edutorial.nl/laravel/installatie/">https://www.edutorial.nl/laravel/installatie/</a></p>
+<p><a href="http://localhost:8080/laravel/views/">http://localhost:8080/laravel/views/</a></p>
 
 </div>
 
