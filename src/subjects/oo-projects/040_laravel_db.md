@@ -1,5 +1,5 @@
 ---
-title: Starten met Laravel
+title: Databases met Laravel
 date: 2023-06-13
 author: jsiewers
 ---
