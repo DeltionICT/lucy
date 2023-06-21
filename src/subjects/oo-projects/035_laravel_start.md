@@ -43,4 +43,4 @@ Een php-applicatie in Laravel op github.com
 
 
 ## Uitleg
-[http://localhost:8080/laravel/views/](http://localhost:8080/laravel/views/)
+[https://www.edutorial.nl/laravel/views/](https://www.edutorial.nl/laravel/views/)
