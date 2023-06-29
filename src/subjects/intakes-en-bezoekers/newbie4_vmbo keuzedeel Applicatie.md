@@ -71,10 +71,10 @@ in samenwerking met Deltion en jouw opleiding. Hier vind je het programma voor ~
     
 ## Plannen en organiseren van een website
 5. Zoals overal, wil de opdrachtgever van een applicatie ook graag weten wat hij precies gaat krijgen, wanneer het product wordt opgeleverd en 
-   en wat dat gaat kosten. Goed plannen en de voortgang in de gaten houden is daarbij erg belangrijk.<br> 
+   wat dat gaat kosten. Goed plannen en de voortgang in de gaten houden is daarbij erg belangrijk.<br> 
 
   ###### stappen:
-  * Werk een design om een website te maken die de tenminste volgende indeling heeft;
+  * Werk een design om een website te maken die de tenminste volgende indeling heeft;<br>
     {{ '/_assets/intakes-en-bezoekers/html-layout_opdracht.png' | image: 'Brackets', 40 }}<br>
   * Maak een lijst alle taken die jij moet uitvoeren in relatie met onderdelen die jij ook kan zien in het design.
   * Voor elke taak schat jij zo goed mogelijk de tijd in om die taak uit te voeren.
