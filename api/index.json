@@ -720,8 +720,8 @@
         "date":"Sat Jan 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-voor-api-s/",
-        "title":"Ontwikkelomgeving voor API&#39;s",
+        "url":"/lucy/subjects/ontwikkelomgeving/tools-voor-api-ontwikkeling/",
+        "title":"Tools voor API-ontwikkeling",
         "author":"rkerssies",
         "date":"Sat Jan 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -1386,8 +1386,8 @@
         "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-voor-webdevelopment-met-docker/",
-        "title":"Ontwikkelomgeving voor webdevelopment met docker",
+        "url":"/lucy/subjects/ontwikkelomgeving/webdevelopment-met-docker/",
+        "title":"webdevelopment met Docker",
         "author":"jheuvelman",
         "date":"Wed May 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -1488,8 +1488,8 @@
         "date":"Tue Jun 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-met-git-desktop/",
-        "title":"Ontwikkelomgeving met Git-Desktop",
+        "url":"/lucy/subjects/ontwikkelomgeving/git-desktop/",
+        "title":"Git-Desktop",
         "author":"rkerssies",
         "date":"Thu Jun 29 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
