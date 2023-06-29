@@ -1,5 +1,5 @@
 ---
-title: Ontwikkelomgeving met Docker-Sesktop
+title: Ontwikkelomgeving met Docker-Desktop
 difficulty: basic
 date: 2023-06-29
 author: rkerssies
