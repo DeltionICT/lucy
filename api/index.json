@@ -798,14 +798,14 @@
         "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/git-en-github/git-like-a-pro/",
-        "title":"Git like a Pro",
+        "url":"/lucy/subjects/git-en-github/git-basis/",
+        "title":"Git Basis",
         "author":"jsiewers",
         "date":"Fri Feb 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/git-en-github/git-basis/",
-        "title":"Git Basis",
+        "url":"/lucy/subjects/git-en-github/git-like-a-pro/",
+        "title":"Git like a Pro",
         "author":"jsiewers",
         "date":"Fri Feb 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -1488,7 +1488,7 @@
         "date":"Tue Jun 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ontwikkelomgeving/git-desktop/",
+        "url":"/lucy/subjects/git-en-github/git-desktop/",
         "title":"Git-Desktop",
         "author":"rkerssies",
         "date":"Thu Jun 29 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
