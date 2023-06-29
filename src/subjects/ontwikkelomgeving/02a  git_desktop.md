@@ -1,5 +1,5 @@
 ---
-title: Ontwikkelomgeving met Git-Desktop
+title: Git-Desktop
 difficulty: basic
 date: 2023-06-29
 author: rkerssies

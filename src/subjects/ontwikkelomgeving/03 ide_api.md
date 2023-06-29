@@ -1,5 +1,5 @@
 ---
-title: Ontwikkelomgeving voor API's
+title: Tools voor API-ontwikkeling
 key: 2103
 difficulty: medium
 date: 2023-01-14

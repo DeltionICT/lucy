@@ -1,5 +1,5 @@
 ---
-title: Ontwikkelomgeving voor webdevelopment met docker
+title: webdevelopment met Docker
 key: 2105
 difficulty: basic
 date: 2023-05-17
