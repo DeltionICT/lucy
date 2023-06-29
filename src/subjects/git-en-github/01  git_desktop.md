@@ -40,7 +40,7 @@ Een collega-programmeur kan het laatste codeerwerk van alle andere collega's met
 Dit werkt stukken beter dan elkaar emails of chats sturen met code-bestanden. Door een klein foutje zouden er 
 bestanden met dagen werk verloren kunnen gaan. Git voorkomt dit.<br>  
 
-{{ '/_assets/omgevingen/gitdesktop schema.png' | image: 'git-desktop', 60 }}
+{{ '/_assets/git/gitdesktop schema.png' | image: 'git-desktop', 60 }}
 <br>
 
 

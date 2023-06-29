@@ -66,7 +66,7 @@ in samenwerking met Deltion en jouw opleiding. Hier vind je het programma voor ~
     later diezelfde code met een 'pull' weer lokaal halen, ook in stapjes.
     *Volg de volgende video voor [Git-beginners]({{ 'https://www.youtube.com/watch?v=2ReR1YJrNOM' | url }}) (engels) om het idee helder te krijgen.
     * Een basis manier om Git te gebruiken is met GitDesktop.
-    * Volg de basis les [GitDesktop ]({{ 'https://deltionict.github.io/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-met-docker-desktop/' | url }})-gebruik en pas dit zelf toe.
+    * Volg de basis les [GitDesktop ]({{ 'https://deltionict.github.io/lucy/subjects/git-en-github/git-desktop/' | url }})-gebruik en pas dit zelf toe.
     * Voor verdieping, kijk eventueel ook de 'how to use' [Git]({{ 'https://www.youtube.com/watch?v=USjZcfj8yxE' | url }}) (engels)
 
     
