@@ -12,11 +12,10 @@ technology: git, ide, php, js, python, csharp, css, html
 > * Bestandsbeheer van project bestanden met code
 
 > ##### Doelen
-> Basis ontwikkelomgeving met Docker-desktop
-> Ervaringen op doen met de Github Online
-> Maken van een eerste Git-repository
-> Eerste code committen en pushen.
-> * ... en nog veel meer
+> * Basis ontwikkelomgeving met Docker-desktop
+> * Ervaringen op doen met de Github Online
+> * Maken van een eerste Git-repository
+> * Eerste code committen en pushen.
 
 {{ '/_assets/_icons/git-desktop icon.png' | image: 'git-desktop', 8 }}
 
