@@ -4,7 +4,7 @@ author: jsiewers
 date: 2023-04-10
 ---
 
-## MVC-frameworks
+# MVC-frameworks
 Om projecten toegankelijker te maken en later onderhoud te makkelijker te maken zijn er in de loop van de jaren 'best-practices' ontstaan.<br>
 Eén van de meest wijd verspreide en toegepaste 'best-practice' is het gebruik van de MVC-methodiek.<br>
 Hoewel hiervan ook veel verschillende manieren van uitvoering zijn, is het voor programmeurs die bekend zijn met MVC eenvoudiger mee te werken in een nieuw project-team 

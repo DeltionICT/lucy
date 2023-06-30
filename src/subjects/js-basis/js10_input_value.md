@@ -11,7 +11,7 @@ technology: js
 
 
 > #### Voorkennis:  
-> * Javascript unctions 
+> * Javascript functions 
 > * input tag
 
 
@@ -20,7 +20,7 @@ technology: js
 > * leren hoe je teksten aan elkaar plakt 
 > * leren hoe je getallen optelt
 
-### opdracht
+### Opdracht
 * Maak een pagina waar 4 input-boxen op liggen (afbeelding links-onder). 
     * layout:
         * output div met kader
@@ -30,6 +30,8 @@ technology: js
     * moet de tekst uit de inputs gelezen worden en de Output beschreven worden
     * let op: de leeftijd wordt niet getoond, maar de optelling van de 2 getallen 
 
+
+
 <div style="display:flex; column-gap:20px; max-width:500px; margin-top:20px;">
     <div style="flex:4">
         <img src="{{ '/_assets/frontend/js10_afb1.png'  }}">
@@ -38,3 +40,7 @@ technology: js
         <img src="{{ '/_assets/frontend/js10_afb2.png'  }}">
     </div>
 </div>
+
+
+## Beoordeling
+[Beoordelingsformulier](https://static.edutorial.nl/js/beoordeling_js10_input_value.xlsx)

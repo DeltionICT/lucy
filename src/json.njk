@@ -1,0 +1,15 @@
+---
+layout: json.njk
+title: api
+date: 2023-01-10
+permalink: "/api/index.json"
+author: jsiewers
+---
+{% set labels = "title, author, date" %}
+{% for p in collections.all | getOnlyPosts(labels) %}    { 
+        "url":"{{ p.url | url }}",
+        "title":"{{ p.data.title }}",
+        "author":"{{ p.data.author }}",
+        "date":"{{ p.data.date }}"
+    }{% if loop.last %}{%- else -%},{% endif %}
+{% endfor %}

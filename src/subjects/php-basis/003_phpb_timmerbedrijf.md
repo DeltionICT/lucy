@@ -25,7 +25,6 @@ technology: html, php
 * De applicatie toont het aantal m2 uit en het toont de berekende prijs.
 * Een test voor het programma, zodat je zeker weet dat de juiste bedragen worden gefactureerd.
 
-```php
 <div class="html">
 
 <div>
@@ -77,7 +76,6 @@ technology: html, php
   <input type="submit" value="bestellen!">
 </div>
 </div>
-```
 
 ## Op te leveren
 * een applicatie die de kosten berekend op basis van de maat tafelblad en het soort hout  

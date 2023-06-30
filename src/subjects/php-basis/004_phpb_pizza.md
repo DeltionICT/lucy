@@ -21,7 +21,8 @@ technology: html, php
 ## Voor pizza-ninja's....
 * Zorg ervoor dat je meerdere pizza's tegelijk kunt bestellen
 * Per pizza kun je extra's bijbestellen
-```php
+
+
 <div class="html">
 <div>
   <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/pizzas/spianata_piccante.jpg">
@@ -66,7 +67,6 @@ technology: html, php
   <input type="submit" value="bestellen!">
 </div>
 </div>
-```
 
 ## Testen
 Een pizza Tirato met extra kaas en bezorgkosten toont het volgende op het scherm:

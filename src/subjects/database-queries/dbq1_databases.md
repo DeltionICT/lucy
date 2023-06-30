@@ -1,6 +1,6 @@
 ---
 key: 2423
-title: DBQ Database basic queries
+title: Database basic queries
 difficulty: medium
 date: 2022-11-11
 technology: dbq

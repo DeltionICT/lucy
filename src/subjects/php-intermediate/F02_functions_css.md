@@ -47,7 +47,7 @@ Signatuur van de functie:
    * @param array $path
    * @return string
    * 
-   * /
+   */
    function cssLinks($path) {
 
       // code om alle css-files in $path toe te voegen aan een array
@@ -55,14 +55,14 @@ Signatuur van de functie:
       
       return $html;
    }
+?>
 
-   $css = function cssLinks("css/")
- 
  <html> 
    <head>
-       <?php echo $css; ?>
+       <?php echo cssLinks("css"); ?>
    </head> 
 </html>
+
 ```
 
 Output resulaat zichtbaar in de browser:

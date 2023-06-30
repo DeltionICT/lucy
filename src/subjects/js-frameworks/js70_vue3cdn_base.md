@@ -8,7 +8,8 @@ technology: js
 
 > #### Voorkennis:  
 > * JS basics
-> * JSON (zie eventueel op deze site: [JSON](../js20-or-json/))
+> * JSON (zie eventueel op deze site: [js20 JSON](../../js-basis/js20-json/))
+> * JSON &amp; AJAX (zie eventueel op deze site: [js32 JSON AJAX](../../js-intermediate/js32-json-ajax/))
 
 > #### Doelen:  
 > * opzetten basis VUE3 via CDN

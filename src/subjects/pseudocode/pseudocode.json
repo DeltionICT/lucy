@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"pseudocode",
+	"coursetitle":"Pseudocode",
+	"permalink":"/subjects/pseudocode/{{ title | slugify }}/{{ page.index }}"
+}
