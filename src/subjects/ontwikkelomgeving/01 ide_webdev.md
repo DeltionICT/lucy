@@ -8,8 +8,6 @@ technology: ide, php, html, css
 ---
 
 
-
-
 > #### Leerdoelen
 > Ontwikkelomgeving opzetten voor webontwikkeling
 
