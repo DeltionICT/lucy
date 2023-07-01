@@ -1,5 +1,4 @@
 ---
-key: 2423
 title: Database basic queries
 difficulty: medium
 date: 2022-11-11
@@ -7,10 +6,7 @@ technology: dbq
 author: rkerssies
 ---
 
-
-
-
-<img src="{{ '/_assets/api/database.png'  }}" style="width:10%;">
+{{ '/_assets/api/database.png' | image: 'db-queries', 10 }}
 
 > ##### Voorkennis
 > * programmeer-basics, git
@@ -33,7 +29,7 @@ author: rkerssies
 <hr>
 
 1. Maak een database aan voor een test-database, bijv.: `tryout_db` met det tabel `users`
-   * Als XAMPP is geïnstalleerd kan je een web-beheertool benaderen via http://localhost/phpmyadmin<br>
+   * Als XAMPP is geïnstalleerd kan je een web-beheertool benaderen via http://localhost/phpmyadmin <br>
      NB: de service MySQL / MariaDB moet wel aan staan
 <br><br>
 

@@ -1,5 +1,5 @@
 ---
-title: Ontwikkelomgeving voor webdevelopment
+title: Ontwikkelomgeving Webdevelopement
 key: 2104
 difficulty: basic
 date: 2023-01-05

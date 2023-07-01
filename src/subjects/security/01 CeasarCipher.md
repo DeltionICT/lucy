@@ -1,14 +1,10 @@
 ---
-key: 2426
-title: sec | Sec 1-Caesar Cipher
+title: Caesar Cipher
 difficulty: basic #basic | medium | expert
 date: 2023-02-09
 technology: all
 author: kstarreveld
 ---
-
-
-
 
 > #### Voorkennis:  
 > * Basis Programmeren 

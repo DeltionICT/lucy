@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"bpv",
+	"coursetitle":"Stages - BPV",
+	"permalink":"/subjects/bpv/{{ title | slugify }}/{{ page.index }}"
+}

@@ -1,17 +1,15 @@
 ---
-title: js72 | vue3 cdn API
+title: Vue3-cdn basic API-gebruik
 difficulty: medium #basic | medium | expert
 date: 2023-01-31
 author: cstegeman
 technology: js
 ---
-  
-
 
 > #### Voorkennis:  
 > * JSON (zie eventueel op deze site: [js20 JSON](../../js-basis/js20-json/))
 > * JSON &amp; AJAX (zie eventueel op deze site: [js32 JSON AJAX](../../js-intermediate/js32-json-ajax/))
-> * De opdracht [js 70 base VUE3 via CDN](../js70-vue3-cdn-base/))
+> * De opdracht [js 70 base VUE3 via CDN](../js70-vue3-cdn-base/)
 
 > #### Doelen:  
 > * API koppelen in VUE3 via CDN

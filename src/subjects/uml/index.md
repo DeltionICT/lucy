@@ -1,16 +1,35 @@
 ---
 title: Introductie
 author: rkerssies
-date: 2023-04-20
+date: 2023-06-30
 ---
 
-## UML (Unified Modeling Language)
-Deze module bevat meerdere manieren om datgene wat gemaakt wordt op één manier wordt gecommuniceerd onder developers 
-en eventueel ook naar de klant.
+## Over deze opdrachten-set
+> ⏱️de nominale tijdsduur voor een enkele thema is **3** dagen<br>
+>
+> 🎖️Het afronden van drie aangegeven opdrachten uit deze module levert: **1** punt op<br>
 
-* De onderwerpen WireFrames en MockUps gaat vooral over hoe de applicatie / app er visueel 
-uit komt te zien en welke functionaliteiten er zoals moeten worden gemaakt
-* De ActiviteitenDiagrammen, ClassDiagrammen en SequenceDiagrammen maken de relaties tussen functies en classes inzichtelijk
-* Het laatste onderdeel ERD geeft inzicht in de database-tabellen en de onderlinge relaties daartussen 
+## Thema-opdrachten
+> 1.  Wireframe<br>
+> ⏱️ - &emsp; 🎖combo &emsp; 🔒verplicht<br>
 
-Al deze onderwerpen vallen onder het werkproces 'Ontwerpen' van KernTaak 1. Een 'must' voor een professionele developer.
+> 2. Mockup<br>
+> ⏱️ - &emsp; 🎖combo &emsp; 🔒verplicht<br>
+
+> 3. Diagram naar keuze<br>
+> ⏱️ - &emsp; 🎖combo &emsp; 🔒verplicht<br>
+> <small>‼️Vrije keuze uit: `ActiviteitenDiagram`, `ClassDiagram`, `SequenceDiagram`</small>
+
+
+##  Overzicht :: ModuleOpdrachten & Beoordelingen
+> | **opdracht** | **duur (d)** | **punten** | **verplicht** |
+> |--------------|:------------:|:----------:|:-------------:|
+> | ERD          |      2       |     1      |      🪽       |
+> | UML          |      3       |     1      |      🔒       |
+> | SCRUM        |      5       |     1      |      🔒       |
+> | DevOps       |      2       |     1      |      🔒       |
+> | Projecten 1  |      40      |     10     |      🔒       |
+> | Projecten 2  |      40      |     10     |      🔒       |
+> | Projecten 3  |      40      |     10     |      🪽       |
+> | Projecten 3  |      40      |     10     |      🪽       |
+

@@ -1,14 +1,34 @@
 ---
 title: Introductie
 author: rkerssies
-date: 2023-04-20
+date: 2023-06-30
 ---
 
-## Projecten ObjectgeOrienteerd Programmeren 
+## Over deze opdrachten-set
+> ⏱️de nominale tijdsduur voor een enkele opdracht is **10** dagen<br>
+>
+> 🎖️Het afronden van één van de opdrachten in deze modules levert: **3** punten / opdracht op<br>
 
-Deze module bevat mogelijke projecten om jouw OOP-skills te testen en/of te verbeteren.
-Er staan hier enkele kleine casussen als verdieping na het eindproduct onder de module "Objectgeoriënteerd".<br>
+## Geadviseerde leerlijn voor deze opdrachtenset
+> 1. Eindopdracht OOP-applicatie met PHP<br>
+> ⏱️ 10 dagen &emsp; 🎖3 punten &emsp; 🪽vrije keuze<br>
+> <small>💡 Maak de voor andere opdrachten in volgorde</small>
 
-Eén of meerdere project-casussen uitwerken in deze module is nuttig, als je:
-* OOP een backend-specialist wil worden en/of meer OOP technieken wilt leren 
-* een alternatieve casus zoekt als eindopdracht voor de module "Objectgeoriënteerd"
+> 2. Eindopdracht OOP-applicatie met C#<br>
+> ⏱️ 10 dagen &emsp; 🎖3 punten &emsp; 🪽vrije keuze<br>
+> <small>💡 Maak de voor andere opdrachten in volgorde (zonder de PHP-eindopdracht)</small>
+
+##  Overzicht :: ModuleOpdrachten & Beoordelingen
+> | **opdracht**                |     **duur (d)**     | **punten** | **verplicht** |
+> |-----------------------------|:--------------------:|:----------:|:-------------:|
+> | OOP met PHP                 |          10          |     3      |      🪽       |
+> | OOP met C#                  |          10          |     3      |      🪽       |
+> | OOP-project                 |          10          |     3      |      🪽       |
+> | MVC-applicatie PHP compleet |          10          |     3      |      🪽       |
+> | MVC-applicatie C# compleet  |          10          |     3      |      🪽       |
+> | FeatureTesting              |          10          |     3      |      🪽       |
+> | API-server PHP              |          10          |     3      |      🪽       |
+> | API-server C#               |          10          |     3      |      🪽       |
+> | API-server PHP met rbac     |          10          |     3      |      🪽       |
+> | Node JS                     |          10          |     3      |      🪽       |
+

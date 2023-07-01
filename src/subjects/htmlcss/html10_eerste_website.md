@@ -17,7 +17,7 @@ technology: html
 {{ '/_assets/basis/css.svg' | image: 'CSS3 Logo', 8 }}
 
 ## Opdracht
-* Zet een website op waarin een duidelijke layout is toegepast [layout](https://www.w3schools.com/html/html_layout.asp)
+* Zet een website op waarin een duidelijke layout is toegepast [layout](https://www.w3schools.com/html/html_layout.asp | url)
 * Zorg dat de HTML-structuur structureel is opgebouwd en alle CSS in externe bestanden is geplaatst.
 * Maak een [navigatie-balk](https://www.w3schools.com/css/css_navbar.asp) (horizontaal of verticaal) met knoppen die bij het klikken alleen dan gewenste content toont.
 * Voorzie de website van een thema met daarbij een logo, titel (met [custom-font](https://www.w3schools.com/css/css3_fonts.asp)) en bijpassende kleuren en font

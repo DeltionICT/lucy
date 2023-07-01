@@ -1,14 +1,10 @@
 ---
-key: 2427
-title: sec | Sec 2-Vigenere Cipher
+title: Vigenere Cipher
 difficulty: basic #basic | medium | expert
 date: 2023-02-09
 technology: all
 author: kstarreveld
 ---
-
-
-
 
 > #### Voorkennis:  
 > * Basis Programmeren 
