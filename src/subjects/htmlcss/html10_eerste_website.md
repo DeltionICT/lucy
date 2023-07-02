@@ -53,6 +53,9 @@ Soms lijkt je browser een pagina goed weer te geven, maar dan kan het toch nog z
 Meer uitleg over de opdracht vind je [op deze website](https://www.edutorial.nl/html/eerste-website/)
 
 
+
+
 ## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+* [Download hier het beoordelingsformulier (rubrics)](https://static.edutorial.nl/html/beoordeling_html_eerste_website.xlsx)
+* Vul het beoordelingsformulier zelf in
+* Vraag om een code-review bij een van de docenten
