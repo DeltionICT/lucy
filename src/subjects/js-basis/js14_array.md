@@ -20,8 +20,8 @@ Een array gebruik je als je een lijst wilt oplslaan, zoals een lijst met namen, 
 Bekijk het volgende voorbeeld van JS arrays op [w3schools](https://www.w3schools.com/js/js_arrays.asp)<br>
 
 ### opdracht
-* maak de voorbeeld array met de autos van w3Schools en zet er ook een tweede array bij met de prijs van de auto (getallen hoeven in een array niet met quootjes er omhee geschreven worden!)<br>
-Zet in een DIV de volgende tekst neer: "De <i>Saab</i> kost €<i>17000</i>" (cursief gedrukte tekst en getallen komen uit de array)
+* maak de voorbeeld array met de autos van w3Schools en zet er ook een tweede array bij met de prijs van de auto (getallen hoeven in een array niet met quootjes er omheen geschreven worden!)<br>
+Zet in een `<div` de volgende tekst neer: "De <i>Saab</i> kost €<i>17000</i>" (cursief gedrukte tekst en getallen komen uit de array)
 * zet (kopieer) die regels er voor de andere 2 auto's nog eens onder
 * kijk op de w3Schools site en zorg dat de auto's met een for-loop toegeveoegd worden i.p.v. 3 nieuwe regels te schrijven 
 * Je moet meer auto's met hun prijs kunnen toevoegen: 
