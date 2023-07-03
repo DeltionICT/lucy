@@ -31,6 +31,7 @@ layout: layout.webc
         <p slot="techs">
             <tech color="blue" title="Objectgeoriënteerd"></tech>
             <tech color="blue" title="OO Projects"></tech>
+            <tech color="blue" title="Laravel"></tech>
         </p>
     </module>
     <module>
