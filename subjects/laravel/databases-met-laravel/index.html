@@ -700,101 +700,75 @@ div.html table {
 
 </header>
     <main class="w9s7xnshy">
-        <main-title ref="/subjects/js-basis/introductie/" class="w3ogpr5jr"><div class="category">
-        <a href="/lucy/subjects/js-basis/introductie/"><p slot="category">JS Basis</p></a>
+        <main-title ref="/subjects/laravel/introductie/" class="w3ogpr5jr"><div class="category">
+        <a href="/lucy/subjects/laravel/introductie/"><p slot="category">Laravel</p></a>
     </div>
     <div class="authors">
-        <span slot="authors">Chris Stegeman</span> |
-        <span slot="date">Jan 31, 2023</span>
+        <span slot="authors">Jan Jaap Siewers</span> |
+        <span slot="date">Jun 13, 2023</span>
     </div>
     <div class="title">
-        <h1><div slot="title">js10 | Input value</div></h1>
+        <h1><div slot="title">Databases met Laravel</div></h1>
     </div>
 
 </main-title>
 <main-content class="webcftrhj"><div class="sidebar">
     <ul>
-        <list-link url="/subjects/js-basis/introductie/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/introductie/"><li class="notselected">Introductie</li></a>
+        <list-link url="/subjects/laravel/introductie/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/introductie/"><li class="notselected">Introductie</li></a>
 
 </list-link>
-<list-link url="/subjects/js-basis/js10-input-value/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/js10-input-value/"><li class="selected">js10 | Input value</li></a>
+<list-link url="/subjects/laravel/starten-met-laravel/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/starten-met-laravel/"><li class="notselected">Starten met Laravel</li></a>
 
 </list-link>
-<list-link url="/subjects/js-basis/js11-monkey-shuffle/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/js11-monkey-shuffle/"><li class="notselected">js11 | Monkey Shuffle</li></a>
+<list-link url="/subjects/laravel/databases-met-laravel/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/databases-met-laravel/"><li class="selected">Databases met Laravel</li></a>
 
 </list-link>
-<list-link url="/subjects/js-basis/js14-array/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/js14-array/"><li class="notselected">js14 | Array</li></a>
+<list-link url="/subjects/laravel/breeze/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/breeze/"><li class="notselected">Breeze</li></a>
 
 </list-link>
-<list-link url="/subjects/js-basis/js17-stopwatch/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/js17-stopwatch/"><li class="notselected">js17 | stopwatch</li></a>
-
-</list-link>
-<list-link url="/subjects/js-basis/css17-stopwatch/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/css17-stopwatch/"><li class="notselected">css17 | stopwatch</li></a>
-
-</list-link>
-<list-link url="/subjects/js-basis/js20-json/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/js20-json/"><li class="notselected">js20 | JSON</li></a>
-
-</list-link>
-<list-link url="/subjects/js-basis/js22-tafels/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/js22-tafels/"><li class="notselected">js22 | Tafels</li></a>
-
-</list-link>
-<list-link url="/subjects/js-basis/js27-form-validate-a/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/js27-form-validate-a/"><li class="notselected">js27 | form validate A</li></a>
-
-</list-link>
-<list-link url="/subjects/js-basis/js27b-js-events/" page="/subjects/js-basis/js10-input-value/" class="wv0jwq1on"><a href="/lucy/subjects/js-basis/js27b-js-events/"><li class="notselected">js27b | JS Events</li></a>
+<list-link url="/subjects/laravel/restaurant/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/restaurant/"><li class="notselected">Restaurant</li></a>
 
 </list-link>
     </ul>
 </div>
 <div class="content">
     <blockquote>
-<h4>Voorkennis:</h4>
+<h4>Voorkennis</h4>
 <ul>
-<li>Javascript functions</li>
-<li>input tag</li>
+<li>Je hebt kennis van object georienteerd programmeren in php</li>
 </ul>
 </blockquote>
 <blockquote>
-<h4>Doelen:</h4>
+<h4>Dit ga je leren</h4>
 <ul>
-<li>leren werken met tekst en numerieke variabelen</li>
-<li>leren hoe je teksten aan elkaar plakt</li>
-<li>leren hoe je getallen optelt</li>
+<li>Je gaat een eerste project maken met laravel</li>
+<li>Je leert werken met routes, controllers en models in laravel</li>
 </ul>
 </blockquote>
-<h3>Opdracht</h3>
+<h2>Beginsituatie</h2>
 <ul>
-<li>Maak een pagina waar 4 input-boxen op liggen (afbeelding links-onder).
+<li>Kloon de <a href="https://github.com/siewers32/restaurant">laravel-applicatie</a> met <code>git clone</code> vanaf github.com</li>
+<li>Deze applicatie is gemaakt met Laravel 10 en uitgebreid met een aantal migrations. Met <code>php artisan migrate:fresh --seed</code> wordt de database-structuur aangemaakt en worden de tabellen gevuld met data.</li>
+<li>Er zijn 2 tabellen:
 <ul>
-<li>layout:
-<ul>
-<li>output div met kader</li>
-<li>input-elementen netjes op 1 lijn</li>
-<li>geef de inputs placeholders mee</li>
+<li>menu_items (milk, cheese, potatoes etc.)</li>
+<li>categorieën (vegetables, fruit etc.)</li>
 </ul>
 </li>
 </ul>
-</li>
-<li>Met een druk op de knop:
+<h2>Opdracht</h2>
 <ul>
-<li>moet de tekst uit de inputs gelezen worden en de Output beschreven worden</li>
-<li>let op: de leeftijd wordt niet getoond, maar de optelling van de 2 getallen</li>
+<li>Maak een overzicht van dingen die je kunt eten en drinken (MenuItems) in laravel.</li>
+<li>Hernoem het .env-example bestand naar .env</li>
+<li>Pas de gegevens aan naar jouw situatie</li>
+<li>Maak een route aan in <code>web.php</code></li>
+<li>Maak een view aan in <code>resources/views</code> waarmee alle menu-items worden weergegeven zoals in onderstaand voorbeeld</li>
 </ul>
-</li>
-</ul>
-<div style="display:flex; column-gap:20px; max-width:500px; margin-top:20px;">
-    <div style="flex:4">
-        <img src="/lucy/_assets/frontend/js10_afb1.png">
-    </div>
-    <div style="flex:4">
-        <img src="/lucy/_assets/frontend/js10_afb2.png">
-    </div>
-</div>
+<p><img src="https://static.edutorial.nl/laravel/all_you_can_eat.png" alt="All you can eat and drink"></p>
+<h2>Resultaat</h2>
+<p>Een php-applicatie in Laravel op github.com</p>
 <h2>Uitleg</h2>
-<p><a href="https://www.edutorial.nl/javascript/introductie/">Javascript op edutorial.nl</a>
-<a href="https://www.w3schools.com/js/">Javascript tutorial op w3schools</a></p>
-<h2>Beoordeling</h2>
-<p><a href="https://static.edutorial.nl/js/beoordeling_js10_input_value.xlsx">Beoordelingsformulier</a></p>
+<p><a href="https://www.edutorial.nl/laravel/installatie/">https://www.edutorial.nl/laravel/installatie/</a></p>
 
 </div>
 
