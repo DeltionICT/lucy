@@ -64,17 +64,18 @@ in samenwerking met Deltion en jouw opleiding. Hier vind je het programma voor ~
     Hiervoor moet je een account aanmaken bij GitHub (gratis), waarna je voor elk project een 'repository' kan aanmaken. 
     Met een 'commit' voor brokjes werken de code en vervolgens een 'push' naar GitHub staat jouw code veilig. Je kan eventueel
     later diezelfde code met een 'pull' weer lokaal halen, ook in stapjes.
-    * Volg de volgende video voor [Git-beginners]({{ 'https://www.youtube.com/watch?v=2ReR1YJrNOM' | url }}) (engels) om het idee helder te krijgen.
-    * Voor Git op jouw computer kan je de terminal, GitBash of  
-    * Een 'how to use' [Git]({{ 'https://www.youtube.com/watch?v=USjZcfj8yxE' | url }}) (engels)
+    *Volg de volgende video voor [Git-beginners]({{ 'https://www.youtube.com/watch?v=2ReR1YJrNOM' | url }}) (engels) om het idee helder te krijgen.
+    * Een basis manier om Git te gebruiken is met GitDesktop.
+    * Volg de basis les [GitDesktop ]({{ 'https://deltionict.github.io/lucy/subjects/git-en-github/git-desktop/' | url }})-gebruik en pas dit zelf toe.
+    * Voor verdieping, kijk eventueel ook de 'how to use' [Git]({{ 'https://www.youtube.com/watch?v=USjZcfj8yxE' | url }}) (engels)
 
     
 ## Plannen en organiseren van een website
 5. Zoals overal, wil de opdrachtgever van een applicatie ook graag weten wat hij precies gaat krijgen, wanneer het product wordt opgeleverd en 
-   en wat dat gaat kosten. Goed plannen en de voortgang in de gaten houden is daarbij erg belangrijk.<br> 
+   wat dat gaat kosten. Goed plannen en de voortgang in de gaten houden is daarbij erg belangrijk.<br> 
 
   ###### stappen:
-  * Werk een design om een website te maken die de tenminste volgende indeling heeft;
+  * Werk een design om een website te maken die de tenminste volgende indeling heeft;<br>
     {{ '/_assets/intakes-en-bezoekers/html-layout_opdracht.png' | image: 'Brackets', 40 }}<br>
   * Maak een lijst alle taken die jij moet uitvoeren in relatie met onderdelen die jij ook kan zien in het design.
   * Voor elke taak schat jij zo goed mogelijk de tijd in om die taak uit te voeren.
