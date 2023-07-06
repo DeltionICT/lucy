@@ -7,7 +7,7 @@ date: 2023-06-30
 ## Over deze opdrachten-set
 > ⏱️de nominale tijdsduur voor deze opdrachten set is **12** dagen<br>
 >
-> 🎖️Het afronden van alle opdrachten-sets in deze modules levert: **3** punten<br>
+> 🎖️Het afronden van alle opdrachten-sets in deze modules levert: **3** XP's<br>
 
 ## Geadviseerde leerlijn voor deze opdrachtenset
 > 1.  Loops<br>
@@ -26,7 +26,7 @@ date: 2023-06-30
 
 
 ##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht**             |  **duur (d)**  |     **punten** | **verplicht** |
+> | **opdracht**             |  **duur (d)**  |     **XP's** | **verplicht** |
 > |--------------------------|:--------------:|:--------------:|:-------------:|
 > | Ontwikkelomgeving Webdevelopement              |    1           |        1       |     🔒        |
 > | Webservices Apache       |    1           |        1       |     🔒        |
@@ -36,6 +36,6 @@ date: 2023-06-30
 > | CodeBase - XL            |    9           |         3      |     KEUZE     |
 > | PHP-basics               |    12          |         3      |      🔒         |
 > | Database-queries         |    6           |         2      |      🔒         |
-> | *totalen*                |  *40 dagen = 8 weken*  |  *15 punten* |             |
+> | *totalen*                |  *40 dagen = 8 weken*  |  *15 XP's* |             |
 
 

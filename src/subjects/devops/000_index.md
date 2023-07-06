@@ -17,7 +17,7 @@ Vervolgens zijn de DevOps vaardigheden samen met de SCRUM-kennis in alle project
 ## Over deze opdrachten-set
 > ⏱️de nominale tijdsduur voor een enkele thema is **2** dagen<br>
 >
-> 🎖️Het afronden van alle opdrachten uit deze module levert: **1** punt op<br>
+> 🎖️Het afronden van alle opdrachten uit deze module levert: **1** XP op<br>
 
 ## Thema-opdrachten
 > 1.  DevOps (alle opdrachten)<br>
@@ -25,7 +25,7 @@ Vervolgens zijn de DevOps vaardigheden samen met de SCRUM-kennis in alle project
 
 
 ##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht** | **duur (d)** | **punten** | **verplicht** |
+> | **opdracht** | **duur (d)** | **XP's** | **verplicht** |
 > |--------------|:------------:|:----------:|:-------------:|
 > | ERD          |      2       |     1      |      🪽       |
 > | UML          |      3       |     1      |      🔒       |

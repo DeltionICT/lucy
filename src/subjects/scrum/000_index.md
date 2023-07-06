@@ -10,7 +10,7 @@ ICT bestaat zeker niet alleen uit coderen en servers inrichten, goed kunnen same
 <br><br> 
 
 Deze module geeft jou een introductie op projectmatig werken. Met name wordt SCRUM binnen de SoftwareDevelopment toegepast.
-Voor een SoftwareDeveloper zullen de volgende punten verder helpen, waarbij deze module kan helpen:
+Voor een SoftwareDeveloper zullen de volgende XP's verder helpen, waarbij deze module kan helpen:
 * Goed begrip van wat een project nou eigenlijk is
 * Projectdoelstellingen opstellen (SMART) 
 * Technieken en tips voor beter contact met collega's teamleden en klanten
@@ -45,7 +45,7 @@ Voor een SoftwareDeveloper zullen de volgende punten verder helpen, waarbij deze
 
 
 ##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht** | **duur (d)** | **punten** | **verplicht** |
+> | **opdracht** | **duur (d)** | **XP's** | **verplicht** |
 > |--------------|:------------:|:----------:|:-------------:|
 > | ERD          |      2       |     1      |      🪽       |
 > | UML          |      3       |     1      |      🔒       |

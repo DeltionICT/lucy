@@ -7,20 +7,20 @@ date: 2023-06-30
 ## Over deze opdrachten-set
 > ⏱️de nominale tijdsduur voor een enkele opdracht is **10** dagen<br>
 >
-> 🎖️Het afronden van één van de opdrachten in deze modules levert: **3** punten / opdracht op<br>
+> 🎖️Het afronden van één van de opdrachten in deze modules levert: **3** XP's / opdracht op<br>
 
 ## Geadviseerde leerlijn voor deze opdrachtenset
 > 1.  Mr. Wheely<br>
-> ⏱️ 10 dagen &emsp; 🎖3 punten &emsp; 🪽vrije keuze<br>
+> ⏱️ 10 dagen &emsp; 🎖3 XP's &emsp; 🪽vrije keuze<br>
 > <small>‼️Vrije keuze uit OOP-projecten</small>
 
 > 2. Laravel Applicatie (Restaurant-menu's)<br>
-> ⏱️ 10 dagen &emsp; 🎖3 punten &emsp; 🔒 verplicht<br>
+> ⏱️ 10 dagen &emsp; 🎖3 XP's &emsp; 🔒 verplicht<br>
 > <small>💡Tip: maak de opdrachten: `Laravel start`, `Larav Authenticatie` en `Laravel Forms` als aanloop naar deze eindopdracht</small>
 
      
 ##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht**                |     **duur (d)**     | **punten** | **verplicht** |
+> | **opdracht**                |     **duur (d)**     | **XP's** | **verplicht** |
 > |-----------------------------|:--------------------:|:----------:|:-------------:|
 > | OOP met PHP                 |          10          |     3      |      🪽       |
 > | OOP met C#                  |          10          |     3      |      🪽       |

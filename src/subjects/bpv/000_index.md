@@ -12,14 +12,20 @@ Daarnaast leer je uiteraard om de theorie en ervaringen die je op school hebt op
 Ook is stage lopen (bpv) verplicht voor het behalen van je diploma. 
 Daarvoor ga je twee keer op stage, bij voorkeur bij twee verschillende bedrijven, zodat jij een bredere ervaring op doet. 
 De stageperiodes zijn:
-* BPV1 van 800 uur (ongeveer na één jaar school)
-* BPV2 van 700 uur (meestal het laatste halfjaar)
+* BPV1 van 800 uur (ongeveer na één jaar school)  - 30 XP's
+* BPV2 van 700 uur (meestal het laatste halfjaar) - 30 XP's
 
 
 ## Wanneer kan je op stage ? 
-> * Wanneer je rond de 60 punten hebt behaald met de opdrachten, kan je op stage.<br>
->   De docenten geven hiervoor een goedkeuring.
+> * Wanneer je rond de 60 XP's hebt behaald met de opdrachten, kan je op stage.<br>
+> De docenten geven hiervoor een goedkeuring.
 > * Als het docenten-team meent dat jij voor jouw ontwikkeling een stage-ervaring kan gebruiken. 
+
+## Voorlichting
+In maart 2023 is deze eerste algemene [stagevoorlichting (pdf)]({{ 'https://deltionict.github.io/lucy/bpv/docs/2023/stagevoorlichting_2324S1.pdf' | url }})  gegeven. Deze PDF is besproken
+Bekijk het [kennis-overzicht (pdf)]({{ 'https://deltionict.github.io/lucy/bpv/docs/2023/wat_kan_ik_na_1jaar_SD.pdf' | url }}) wat je na het eerste schooljaar kan
+Alle werkzaamheden die je gaat doen tijdens de stage zijn gebaseerd op het kwalificatiedossier SD. De kerntaken en werkprocessen staan ook in bovenstaande PDF beschreven
+In mei 2023 volgt nog een 2de voorlichting met o.a. meer info over opdrachten tijdens de stage)
 
 
 ## Een stageplaats vinden
@@ -30,13 +36,47 @@ De stageperiodes zijn:
 >    Solliciteer naar meerdere stageplaaatsen tegelijk. "Wed niet op één paard..."<br>
 >   * Vraag zo nodig ondersteuning voor het schrijven van een sollicitatiebrief of het voeren van een telefoongesprek.
 > * Ga op sollicitatiegesprek voor jouw stageplaats (plan dit goed in).
-> * Laat de stage-coördinator de uitkomst van het gesprek weten.
+> * Laat de stage-coördinator via een Teams-chat het volgende weten:
+>   * Bij welk bedrijf jij een stageplaats zoekt
 >   * Gelukt? Er moet een Praktijk-OvereenKomst (POK) worden getekend
->   * Niet gelukt? Jammer... leer er van, pas je aan en probeer het opnieuw!
-> * Woon een stage-instructie bij van de stage-coördinator.
+>   * Of jij contact hebt gehad met de stage plaats
+>   * Als je bent geplaatst !!!
+>   
+> 
+> ‼️
+> * Als het niet is gelukt; Jammer... leer er van, pas je aan en probeer het bij een andere stageplaats !
+> * Bij te weinig actie heb je kans dat je de leuke plekken of dichtbij mis loopt..!
+> * Je bent in de 1ste instantie zelf verantwoordelijk om een plek te zoeken. Heb je hulp nodig hoor ik het graag!
+
+## Een Stageplaats gevonden
+> Ben je aangenomen voor een stageperiode? Vul dit "[informatieformulier-stage]({{ 'https://deltionict.github.io/lucy/bpv/docs/2023/informatieformulier_2324S1.docx' | url }})" zelf in!
+Stuur deze naar de mailadressen die bovenin die document in het ROOD aangeven staat.
+Op basis van deze gegevens wordt een PraktijkOvereenKomst (POK) opgemaakt.
+
 
 ## Tijdens de stage
 > Benodigde documenten tijdens de stage.<br>
+> 
+> **Handboek BPV Klas: Hierin staat alles over de stage, o.a.:**
+> * wat doe je tijdens een stage?
+> * Wat moet je inleveren?
+> * Hoe zet je een verslag op?
+>
+> **SD beoordelingsdocument BPV:**
+> * hierin zet je je doelen voor de stage (voor eerste stagebezoek invullen!)
+> * hier komen beoordelingen en stagebezoeken in te staan
+> * officieel document: moet op het laatst gescand worden met handtekeningen en beoordelingen
+> 
+> **SD Werkzaamheden:**
+> * werkzaamheden tijdens de stage
+> * richtlijnen voor opstellen doelen
+> * overzicht van het Kwalificatiedossier
+>
+> **Andere documenten;**
+> * zoals een Excelsheet voor urenverantwoording
+
+
+✳️ 
 > **Studenten die zijn gestart voor augustus 2023**;<br>
 >   * [SBB werkzaamheden]({{ 'https://deltionict.github.io/lucy/bpv/docs/SD_werkzaamheden_BPV_v2.0.pdf' | url }})<br>
 >   * [SBB beoordeling]({{ 'https://deltionict.github.io/lucy/bpv/docs/SD_beoordelingsset_BPV_v2.docx' | url }})<br>
@@ -50,7 +90,7 @@ De stageperiodes zijn:
 
 
 ## Stagebegeleiding
-> Tijdens de stageperioode komt minimaal tweemaal een docent op bezoek.
+> Tijdens de stageperioode komt minimaal **tweemaal een docent op bezoek**.
 > Hierin voor jouw ontwikkeling gemonitord en is er de mogelijkheid om vrage te stellen en het een en ander af te stemmen
 >  tussen jou als student, de stageopleider en de stagebegeleider (docent). 
 > * De voortgang en werkzaamheden worden o.a. besproken
@@ -64,5 +104,5 @@ De stageperiodes zijn:
 ## Afronden stage
 > * Positieve ontwikkeling gedurende de stage, aantoonbaar met Rubrics-beoordelingen
 > * Resultaten zijn gearchiveerdvan in jouw PORTFOLIO, met o.a.: codeer-, samenwerkings-, SCRUM-, GIT- en/of andere developer-activiteiten 
-> * De gestelde stageduur is volledig doorlopen, aantoonbaar met urenverantwoording
-
+> * De gestelde stageduur is volledig doorlopen, aantoonbaar met urenverantwoording in het stageverslag
+> * Beide documenten zijn geupload in CumLaude/Canvas

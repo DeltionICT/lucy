@@ -7,20 +7,20 @@ date: 2023-06-30
 ## Over Keuzedelen
 > ⏱️de nominale tijdsduur voor deze opdrachten set is **10** dagen<br>
 >
-> 🎖️Het afronden van een opdrachten-set in deze modules levert: **5** punten / opdracht<br>
+> 🎖️Het afronden van een opdrachten-set in deze modules levert: **5** XP's / opdracht<br>
 
 ## Geadviseerde leerlijn voor deze opdrachtenset
 > 1. App-Development<br>
-> ⏱️ 5+ dagen &emsp; 🎖2 punten &emsp; 🪽vrije keuze
+> ⏱️ 5+ dagen &emsp; 🎖2 XP's &emsp; 🪽vrije keuze
 
 > 💡DELTION CENTRAAL aangeboden KEUZEDEEL naar KEUZE<br>
-> ⏱️ 5+ dagen &emsp; 🎖2 punten &emsp; 🪽vrije keuze
+> ⏱️ 5+ dagen &emsp; 🎖2 XP's &emsp; 🪽vrije keuze
 > <small>inschrijvin vooraf verplicht !!!</small>
 
 > ‼️ Minimaal 3 keuzedelen moeten succesvol zijn afgerond (examen-eis).
 
 ##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **keuzedeel**                 | **duur (d)** | **punten** | **verplicht** |
+> | **keuzedeel**                 | **duur (d)** | **XP's** | **verplicht** |
 > |-------------------------------|:------------:|:----------:|:-------------:|
 > | Verdieping Software           |      5+      |     2      |      🪽       |
 > | Oriëntatie BlockChain         |      5+      |     2      |      🪽       |

@@ -29,29 +29,29 @@ date: 2023-07-01
 
 ## SCRUM-projecten
 > 1.  1e Project1 met SCRUM<br>
-> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 punten &emsp; 🔒verplicht<br>
+> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 XP's &emsp; 🔒verplicht<br>
 > <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen uit</small>
 > <small>💡Tip: probeer alle SCRUM-rollen uit</small>
  
 > 2. 2e Project met SCRUM<br>
-> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 punten &emsp; 🔒verplicht<br>
+> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 XP's &emsp; 🔒verplicht<br>
 > <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen uit</small>
 > <small>💡Tip: probeer alle SCRUM-rollen uit</small>
 
 > 3. 3e Project met SCRUM<br>
-> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 punten &emsp; 🪽keuze<br>
+> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 XP's &emsp; 🪽keuze<br>
 > <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen uit</small>
 > <small>💡Tip: probeer alle SCRUM-rollen uit</small>
 
 > 4. 4e Project met SCRUM<br>
-> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 punten &emsp; 🪽keuze<br>
+> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 XP's &emsp; 🪽keuze<br>
 > <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen uit</small>
 > <small>💡Tip: probeer alle SCRUM-rollen uit</small>
 
 
 
 ##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht** | **duur (d)** | **punten** | **verplicht** |
+> | **opdracht** | **duur (d)** | **XP's** | **verplicht** |
 > |--------------|:------------:|:----------:|:-------------:|
 > | ERD          |      2       |     1      |      🪽       |
 > | UML          |      3       |     1      |      🔒       |

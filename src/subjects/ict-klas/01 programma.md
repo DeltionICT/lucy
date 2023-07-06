@@ -24,6 +24,43 @@ Globaal zijn de school jaren als volgt ingedeeld;
 {{ '/_assets/school/programma.png'  | image: 'programma', 80 }}
 
 
+## Ontwikkel opdrachten
+Lucy (deze site) heeft verschillende blokken met daarin opdrachten-sets. Zo is er bijvoorbeeld een blok
+'Basis Programmeren' met verschillende opdrachten-sets. Deze normale volgorde van deze opdrachten-sets is van boven 
+naar beneden en hebben een achtergrondkleur. 
+
+Bij het openen van een opdracht-set wordt de geadviceerde leerlijn getoond, de eisen voor het behalen 
+voor de XP's en normale tijdsduur per opdracht. In de linker kolom staan de opdrachten, waarin de voorgestelde, 
+verplichte en/of vrij opdrachten staan. 
+In de Inleidieng is met iconen te zien of een opdracht verplicht 🔒(slot) of een vrije keuze 🪽(vleugel) toelaat.
+
+
+### Studievoortgang
+In elke periode kan je 'expirence points' ( XP's ) 🎖️ behalen. Per kwartaal zijn dat er 15 per halfjaar 30 en in
+een schooljaar 60 voor een normale doorloop van de studie voortgang. Voor elke opdracht zijn er XP's te behalen.
+Het aantal XP's dat voor een opdracht-set te behalen is is afhankelijk van de duur en noodzaak van die opdracht-set.
+De hoeveelheid XP's die jij behaald hebt geven daarmee hoe ver jij in jouw studievoortgang staat.
+
+**eXperience Points - XP's**
+Blok "Basis Programmeren en Basis webdevelopment" leveren beide 15 XP's op en zijn voor elke sttudent verplicht.
+Daarbinnen heb jij wel enige keuze in welke opdrachten je wil uitvoeren, waarbij andere opdrachten verplicht zijn.
+
+**Voorbeelden**
+Een voorbeeld van XP's; het blok "Basis programmeren" is voor iedere startende student verplicht, waarvoor 15 XP's te verdienen zijn
+en heeft een 🔒. Het blok heeft meerdere 'opdrachten sets' (balk met kleurtje in dat blok), waarbij een opdrachten-set 
+1 of meerdere punten oplevert.
+
+Een tweede voorbeeld is het blok 'Frontend development', waarbij er meerdere opdrachten-sets in de linker kolom vrije opdrachten (🪽) bevat.
+Per opdrachten-set zijn er XP's te verkrijgen. Deze opdrachten mag jij dus uitvoeren na de eerste twee verplichte blokken. 
+De opdrachten die jij uit de opdrachten-set kiest zijn vrij, zolang jij voldoet aande eisen om de XP's te behalen.
+
+Een derde voorbeeld is "BPV1", waarvoor 30 XP's te verkrijgen zijn, waarbij dit onderdeel ook een 🔒 heeft.   
+
+
+**NB:** Mocht je starten aan de opleiding met voorkennis, dan wordt aan die ervaring en kennis bijpassende opdrachten gekoppeld
+Jij krijgt dan krijg jij de XP's als startwaarde bij die bijbehorende opdrachten. Het docenten-team os hierin bepalend.   
+
+
 ## Technische know-how ICT-Lyceum docenten SD
 Het docenten-team heeft de volgende kennis in huis en kan je daarin ondersteunen;
 * Frontend: HTML, CSS, JavaScripting, jQuery, Angualar, Vue-framework

@@ -18,6 +18,7 @@ zodat het een MBO-diploma waardig is.
 
 Om jouw ontwikkeling en ambities zo goed mogelijk te kunnen ondersteunen moeten er uiteraard worden overlegd...
 
+
 ## Begeleiding
 Tijdens de lessen krijg je uiteraard ondersteuning en adviezen. 
 Maar na elke periode (kwartaal) is er een gehele week ingepland om te reflecteren en vooruit te kijken; `de Rubrics-week`.
@@ -32,7 +33,7 @@ Tijdens een Rubrics-gesprek wordt een formulier ingevuld waarin o.a. de volgende
   * waaronder een planning met welke opdrachten jij het komende kwartaal aan de slag gaat
   * welke profiel past het beste jou
 * **Hoe is jouw studiehouding?**
-  * inzet
+  * inzet (hoeveel XP's 🎖️heb jij al?)
   * aanwezigheid
   * stel je vragen
   * ben je pro-actief

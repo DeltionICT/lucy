@@ -8,11 +8,11 @@ date: 2023-06-30
 > ⏱️de nominale tijdsduur voor een enkele thema is **2** dagen<br>
 >
 > 🎖️Het afronden van de opdrachten uit de verschillende module in  
-> deze modules levert: **1** punt op<br>
+> deze modules levert: **1** XP op<br>
 
 ## Thema-opdrachten
 > 1.  Genormaliseerde ERD<br>
-> ⏱️ 2 dagen &emsp; 🎖1 punten &emsp; 🪽vrije keuze<br>
+> ⏱️ 2 dagen &emsp; 🎖1 XP &emsp; 🪽vrije keuze<br>
 > <small>‼️Vrije keuze uit één vanb de verschillende ERD-opdrachten</small>
 
 
