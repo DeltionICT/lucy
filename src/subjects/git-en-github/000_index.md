@@ -19,7 +19,7 @@ volgende leerlijn met daarin deze opdracht(en);
 > 1.  Git-Desktop (minimale basis)<br>
 > ⏱️ 2 dagen &emsp;  🔒 verplicht
 
-> ‼️ De andere opdrachten zijn een gewenste uitbreiding voor later.
+> ‼️ De andere opdrachten zijn een gewenste verdieping voor later.
 
 
 
