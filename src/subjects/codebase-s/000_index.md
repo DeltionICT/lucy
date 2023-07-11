@@ -4,50 +4,26 @@ author: rkerssies
 date: 2023-06-30
 ---
 
-## Over deze opdrachten-set
-> ⏱️de nominale tijdsduur voor deze opdrachten set is **9** dagen<br>
->
-> 🎖️Het afronden van alle opdrachten-sets in deze modules levert: **2** XP's<br>
+## Over deze set opdrachten
+Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
+Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
+Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
+Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
 
 ## Geadviseerde leerlijn voor deze opdrachtenset
+Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
+Als jij je wil *starten* met jouw ontwikkelen in **Basis coding-skills**,
+dan adviseren wij jou de volgende leerlijn met daarin deze opdracht(en);
 > 1.  Cirkel<br>
-> ⏱️ 3 dagen &emsp; 🎖️combo &emsp; 🪽vrije keuze
+> ⏱️ 2 dagen &emsp; 🪽vrije keuze
 
 > 2. Tafels<br>
-> ⏱️ 3 dagen &emsp; 🎖️combo &emsp; 🪽vrije keuze
+> ⏱️ 2 dagen &emsp; 🪽vrije keuze
 
-> 3. Dobbelsteen - Dice<br>
-> ⏱️ 3 dagen &emsp; 🎖️combo &emsp; 🪽vrije keuze
+> 3. Dobbelsteen (Dice)<br>
+> ⏱️ 2 dagen &emsp; 🪽vrije keuze
 
-> ‼️ Je mag ook andere opdrachten kiezen dan geadviceerd.<br>
->     NB: opdrachten moet een mix zijn van JS- en PHP-uitwerkingen
-
-
-##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht**             |  **duur (d)**  |     **XP's** | **verplicht** |
-> |--------------------------|:--------------:|:--------------:|:-----------:|
-> | Ontwikkelomgeving Webdevelopement              |    1           |        1       |     🔒      |
-> | Webservices Apache       |    1           |        1       |     🔒      |
-> | Git -Desktop             |    3           |         1      |             |
-> | CodeBase - S             |    9           |         2      |     KEUZE   |
-> | CodeBase - M             |    9           |         2      |     KEUZE   |
-> | CodeBase - XL            |    9           |         3      |     KEUZE   |
-> | PHP-basics               |    12          |         3      |      🔒       |
-> | Database-queries         |    6           |         2      |       🔒      |
-> | *totalen*                |  *40 dagen = 8 weken*  |  *15 XP's* |             |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> ‼️ Wissel de opdrachten af in een uitvoering van JS of PHP
 

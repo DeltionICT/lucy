@@ -13,7 +13,7 @@ Het onderwijs is ingericht op ontwikkeling. Hierbinnen heb jij zelf ook invloed,
 je kan hierin zelf ook keuzes maken. Zo mag je zelf kiezen in welke programmeertaal jij je wil specialiseren.
 De docenten bepalen niet welke lessen en de bijbehorende opdrachten jij moet maken. 
 Na een oriëntatie en het aanleren van de basis programmeer-skills mag jijzelf het werkveld verkennen en je specialiceren 
-in jouw voorkeurs programmeertalen en technieken. Uiteraard zal dit het niveau van 'beginnend beroepsbeoefenaar' moeten hebben, 
+in jouw voorkeur van programmeertalen en technieken. Uiteraard zal dit het niveau van 'beginnend beroepsbeoefenaar' moeten hebben, 
 zodat het een MBO-diploma waardig is.  
 
 Om jouw ontwikkeling en ambities zo goed mogelijk te kunnen ondersteunen moeten er uiteraard worden overlegd...
@@ -50,5 +50,5 @@ Dit ingevulde Rubrics-formulier wordt vastgelegd en opgeslagen door jouw PORTFOL
 ## Rubrics-formulier
 De Rubrics-gesprekken worden vastgelegd in een formulier en gezamenlijk tijdens het 
 Rubrics-gesprek door de LOB-er en student ingevuld;
-* [Rubrics (docx)]({{ 'https://deltionict.github.io/lucy/ict-klas/docs/Rubrics_SD.docx' | url }})<br>
-* [Rubrics (pdf)]({{ 'https://deltionict.github.io/lucy/ict-klas/docs/Rubrics_SD.pdf' | url }})
+* [Rubrics (docx)]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/Rubrics_SD.docx' | url }})<br>
+* [Rubrics (pdf)]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/Rubrics_SD.pdf' | url }})

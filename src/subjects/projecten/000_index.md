@@ -4,16 +4,35 @@ author: rkerssies
 date: 2023-07-01
 ---
 
-## Over deze opdrachten-set
-> ⏱️ een project van **40** dagen (8 weken)<br>
-> 🎖️Het afronden van een project aangegeven opdrachten uit deze module levert: **10** punt op<br>
-> 
-> ⏱️ een project van **80** dagen (16 weken)<br>
-> 🎖️Het afronden van een project aangegeven opdrachten uit deze module levert: **20** punt op<br>
-> 
-> ‼️in totaal werk je minimaal 80 dagen succesvol mee binnen een SCRUM-team 
-> Jouw team kan een casus kiezen uit de lijst met projecten, of zelf een (externe) opdrachtgever zoeken.
-> 
+## Over deze set opdrachten
+Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
+Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
+Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
+Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
+
+
+## Geadviseerde leerlijn voor deze opdrachtenset
+Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
+Als jij je wil ontwikkelen in **Projectmanagement**, **SCRUM**, **samenwerken**, **ontwerp** en/of **programmeren** dan adviseren wij jou de
+volgende leerlijn met daarin deze opdracht(en);
+> 1.  Project met SCRUM<br>
+> ⏱️ 80 of 2x40 dagen &emsp; 🔒verplicht<br>
+> <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen</small><br>
+> <small>💡Tip: probeer alle SCRUM-rollen uit</small>
+
+> 2. Een Project met SCRUM<br>
+> ⏱️ 40 dagen &emsp; 🪽keuze<br>
+> <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen</small><br>
+> <small>💡Tip: neem alle SCRUM-rollen eens op je</small>
+
+> 3. Project met SCRUM<br>
+> ⏱️ 80 dagen &emsp; 🪽keuze<br>
+> <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen</small><br>
+> <small>💡Tip: neem alle SCRUM-rollen eens op je</small>
+
+
 > **Kaders:**
 > * Een SCRUM-sprint duurt `drie weken`
 > * Een project-team heeft `3 tot 5 studenten`
@@ -26,40 +45,3 @@ date: 2023-07-01
 >   * De presentaties worden gearchiveerd in GitHub
 > * Het team houdt een `restrospective` meeting. De bevindingen worden vastgelegd in een document.
 >   * De retrospective documenten worden gearchiveerd in GitHub
-
-## SCRUM-projecten
-> 1.  1e Project1 met SCRUM<br>
-> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 XP's &emsp; 🔒verplicht<br>
-> <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen uit</small>
-> <small>💡Tip: probeer alle SCRUM-rollen uit</small>
- 
-> 2. 2e Project met SCRUM<br>
-> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 XP's &emsp; 🔒verplicht<br>
-> <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen uit</small>
-> <small>💡Tip: probeer alle SCRUM-rollen uit</small>
-
-> 3. 3e Project met SCRUM<br>
-> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 XP's &emsp; 🪽keuze<br>
-> <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen uit</small>
-> <small>💡Tip: probeer alle SCRUM-rollen uit</small>
-
-> 4. 4e Project met SCRUM<br>
-> ⏱️ 40 of 80 dagen &emsp; 🎖10 of 20 XP's &emsp; 🪽keuze<br>
-> <small>‼️Zoek zelf een project van een externe opdrachtgever of kies één van de aanwezige casussen uit</small>
-> <small>💡Tip: probeer alle SCRUM-rollen uit</small>
-
-
-
-##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht** | **duur (d)** | **XP's** | **verplicht** |
-> |--------------|:------------:|:----------:|:-------------:|
-> | ERD          |      2       |     1      |      🪽       |
-> | UML          |      3       |     1      |      🔒       |
-> | SCRUM        |      5       |     1      |      🔒       |
-> | DevOps       |      2       |     1      |      🔒       |
-> | Projecten 1  |      40      |     10     |      🔒       |
-> | Projecten 2  |      40      |     10     |      🔒       |
-> | Projecten 3  |      40      |     10     |      🪽       |
-> | Projecten 3  |      40      |     10     |      🪽       |
-
-

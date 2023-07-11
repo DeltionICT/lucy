@@ -4,7 +4,7 @@ author: rkerssies
 date: 2023-06-30
 ---
 
-{{ '/_assets/school/klas.png'  | image: 'ict-klas', 10 }}
+{{ '/_assets/school/klas.png'  | image: 'ict-lyceum', 10 }}
 
 ## Het beroep
 > Software ontwikkeling is een specialistisch vak. Desondanks dient de Software developer zich heel breed te 
@@ -56,29 +56,42 @@ van SoftwareDeveloper (bron: SBB)
     details voor één persoon. Ook kan je door effectief samen te werken sneller en goedkoper werken.    
 
   
-## KLAS
-De opleiding is te volgen in een klassikale-lesvorm. Dat betekent dat je in een groep een lesrooster
-volgt en samen met jouw klasgenoten optrekt om het beroep van SoftwareDeveloper te leren.
-Voor de programmeervakken zijn er (bij voorkeur) grote lesblokken om jezelf te ontwikkelen in het programmeren.
-De algemene vakken, zoals Nederlands, Engels, Rekenen en Burgerschap zijn er kortere lesmomenten door de week ingepland.
+## Onderwijsvormen KLAS en FLEX
+De opleiding is te volgen in een klassikale- en flex-lesvorm. De vormen zijn na genoeg identiek op met 
+kleine verschillen in groepsgewijs werken bij:
+ * aanpak en uitvoering bij de algemene vakken (Nederlands, Engels, Rekenen en Burgerschap), 
+   met daarbij een lesrooster met studenten in een klas of op basis van workshops
+ * er wordt bij flex vanaf het begin meer zelfstandigheid verwacht, waarbij er in een klas-setting in het begin nog meer wordt ondersteund 
+   in plannen, keuzes maken en een klassikale uitleg op de verschillende basis-onderwerpen
+ * de tools die worden gebruikt om jouw voortgang vast te leggen
+De programmeervakken zijn (bij voorkeur) in grote lesblokken ingepland waarin jij jezelf kan ontwikkelen. 
+Dit begint met een vaste basis, waarna je steeds meer eigen keuzes en uitwerkingsvormen kan kiezen.
 
-Na de eerste stage wordt de klas in prohectgroepen opgedeeld. Je gaat zo als projectteam een
-applicatie maken binnen de SCRUM-methodiek. De casus is bij voorkeur van een externe (non-commerciele) party,
-maar er zijn ook casussen beschikbaar op school.
+Bij een set opdrachten gaat elke student verwoorden wat hij/zij daar persoonlijk van wil leren. 
+De ontwikkelingen hierin moeten worden bijgehouden en worden telkens besproken, waarna er wordt bepaald welke 
+vervolgopdracht het beste in jouw ontwikkeling past.
 
-Het lesprogramma wordt gevolgd door de opdrachten die te vinden zijn in Lucy (deze website).
-De blokken "Basis programmeren" & "Basis webdevelopement" zijn voor iedereen verplicht. 
-Dit is nominaal in een half jaar af te ronden.
+Naast deze korte contactmomenten zijn er per jaar vier momenten waarop al het eerdere werk wordt geëvalueerd en de doelen 
+voor het komende kwartaal worden vast gelegd. In de klassikale lesvorm gebeurt dit in een speciale lesweek (Rubrics-week) die 
+cyclisch per kwartaal worden ingepland. Bij flex hebben wekelijks enkele studenten deze bespreking. 
+De gespreksresultaten (Rubrics) worden bewaard als bewijs van de voortgang. Naast (traditionele) scores bij de algemene vakken, 
+zijn er geen cijfers voor de programmeervakken. Dit ligt vast in de verschillende Rubrics en de omschrijvingen die daarin zijn gemaakt.  
+
 Afhankelijk van persoonlijke voorkeur in programmeertalen kan een student in overleg met zijn LOB-er 
 in zijn Rubrics laten vastleggen dat hij zijn focus legt op:
 * Volledig Frontend
 * Full-stack Programmeur (Frontend- en Backend-technieken)
 * Volledig Backend
-Deze specialisatie kan/mag (waar mogelijk) ook worden voortgezet tijdens de SCRUM-projecten. 
+Deze specialisatie kan/mag (waar mogelijk) ook worden voortgezet tijdens de SCRUM-projecten.
+
+Als de basis in programmeren is gelegd ga je een half jaar op stage. Na de stage ga je een applicatie maken binnen
+een projectteam volgens de SCRUM-methodiek. De casus is bij voorkeur van een externe (non-commerciele) party,
+maar er zijn ook casussen beschikbaar op school.
+Als uit de Rubrics blijkt dat jij je als beginnend beroepsbeoefenaar staande kan houden binnen het werk als `SoftwareDeveloper` , 
+dan kan jij op voor een CGI (criterium gericht interview). Het aanwezige werk in jouw portfolio, jouw presentatie, 
+de antwoorden op de gestelde vragen, etc. bepalen voor welke examenonderdelen met een voldoende of hoger zijn afgerond. 
+Voor het behalen van een diploma moeten alle wettelijke examenonderdelen, de stage(s) de drie verplichte keuzedelen 
+en de algemene vakken (minimaal gemiddelde 6,6 en één 5) positief zijn afgerond.
 
 
-## FLEX
-Naast de klassikale lesvorm is er ook een "flex" lesvorm. Hierbij doorloop je het (nominale) eerste jaar
-zelfstandig door. Er zijn voor de programmeerlessen geen lesrooster, wel workshops waarop je kan/moet inschrijven.   
-Bij het volgen van de flex-vorm wordt een hogere mate van zelfstandigheid verwacht.
 

@@ -4,23 +4,18 @@ author: rkerssies
 date: 2023-06-30
 ---
 
-## Over deze opdrachten-set
-> ⏱️de nominale tijdsduur voor een enkele thema is **5** dagen<br>
->
-> 🎖️Het afronden van één van de thema-opdrachten uit de verschillende thema's in  
-> deze modules levert: **1** XP's / thema op<br>
+## Over deze set opdrachten
+Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
+Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
+Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
+Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
 
-## Thema-opdrachten
+
+## Geadviseerde leerlijn voor deze opdrachtenset
+Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
+Als jij je wil ontwikkelen in **Python basics** dan adviseren wij jou de
+volgende leerlijn met daarin deze opdracht(en);
 > 1.  Alle losse opdrachten van PYTHON<br>
-> ⏱️ 5 dagen &emsp; 🎖1 XP's &emsp; 🪽vrije keuze<br>
-> <small>‼️Vrije keuze uit OOP-projecten</small>
-
-
-##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht** | **duur (d)** | **XP's** | **verplicht** |
-> |--------------|:------------:|:----------:|:-------------:|
-> | Python       |      5       |     1      |      🪽       |
-> | Hosting      |      5       |     1      |      🪽       |
-> | Security     |      5       |     1      |      🪽       |
-> | SEO          |      5       |     1      |      🪽       |
-
+> ⏱️ 5 dagen &emsp;  🪽vrije keuze<br>

@@ -3,31 +3,24 @@ title: Introductie
 author: rkerssies
 date: 2023-06-30
 ---
+## Over deze set opdrachten
+Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
+Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
+Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
+Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
 
-## Over deze opdrachten-set
-> ⏱️de nominale tijdsduur voor deze opdrachten set is **9** dagen<br>
->
-> 🎖️Het afronden van drie opdrachten-sets in deze modules levert: **5** XP's<br>
 
 ## Geadviseerde leerlijn voor deze opdrachtenset
+Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
+Als jij je *verder* wil ontwikkelen in **Frontend**, **JavaScript** en/of basic gebruik **API's**, 
+dan adviseren wij jou de volgende leerlijn met daarin deze opdracht(en);
 > 1.  Color-game<br>
-> ⏱️ 3 dagen &emsp; 🎖combo &emsp; 🪽vrije keuze
+> ⏱️ 3 dagen &emsp; 👉🏼 maak een keuze
 
 > 2. Weather-API<br>
-> ⏱️ 3 dagen &emsp; 🎖combo &emsp; 🪽vrije keuze
+> ⏱️ 3 dagen &emsp; 👉🏼 maak een keuze
 
 > 3. Country-API<br>
-> ⏱️ 3 dagen &emsp; 🎖combo &emsp; 🪽vrije keuze
-
-
-
-##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht**         |     **duur (d)**     | **XP's**  |   **verplicht**   |
-> |----------------------|:--------------------:|:-----------:|:-----------------:|
-> | HTML & CSS           |          9           |      2      |        🔒         |
-> | JS Basics            |          9           |      1      |       KEUZE       |
-> | JS intermediate      |          9           |      5      |       KEUZE       |
-> | UserInterface design |          4           |      2      |       KEUZE       |
-> | PHP Intermediate     |          9           |      5      |        🔒         |
-> | *totalen*            | *40 dagen = 8 weken* | *15 XP's* |                   |
-
+> ⏱️ 3 dagen &emsp; 👉🏼 maak een keuze

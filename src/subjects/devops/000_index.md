@@ -14,27 +14,18 @@ Om met DevOps te werken is het verstandig om eerst te weten hoe het SCRUM-proces
 Vervolgens zijn de DevOps vaardigheden samen met de SCRUM-kennis in alle projecten hard nodig om projecten effectief te beheren.
 
 
-## Over deze opdrachten-set
-> ⏱️de nominale tijdsduur voor een enkele thema is **2** dagen<br>
->
-> 🎖️Het afronden van alle opdrachten uit deze module levert: **1** XP op<br>
+## Over deze set opdrachten
+Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
+Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
+Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
+Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
 
-## Thema-opdrachten
+
+## Geadviseerde leerlijn voor deze opdrachtenset
+Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
+Als jij je *verder* wil ontwikkelen in **Projectmanagement**, dan adviseren wij jou de
+volgende leerlijn met daarin deze opdracht(en);
 > 1.  DevOps (alle opdrachten)<br>
-> ⏱️ - &emsp; 🎖combo &emsp; 🔒verplicht<br>
-
-
-##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht** | **duur (d)** | **XP's** | **verplicht** |
-> |--------------|:------------:|:----------:|:-------------:|
-> | ERD          |      2       |     1      |      🪽       |
-> | UML          |      3       |     1      |      🔒       |
-> | SCRUM        |      5       |     1      |      🔒       |
-> | DevOps       |      2       |     1      |      🔒       |
-> | Projecten 1  |      40      |     10     |      🔒       |
-> | Projecten 2  |      40      |     10     |      🔒       |
-> | Projecten 3  |      40      |     10     |      🪽       |
-> | Projecten 3  |      40      |     10     |      🪽       |
-
-
-
+> ⏱️ 2 dagen &emsp;  🔒verplicht<br>

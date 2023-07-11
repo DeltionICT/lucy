@@ -22,38 +22,28 @@ Voor een SoftwareDeveloper zullen de volgende XP's verder helpen, waarbij deze m
 * Het proces, het jargon, rollen en stappen van de SCRUM-methode leren kennen
 
 
-## Over deze opdrachten-set
-> ⏱️de nominale tijdsduur voor een enkele thema is **5** dagen<br>
->
-> 🎖️Het afronden van drie aangegeven opdrachten uit deze module levert: **1** punt op<br>
+## Over deze set opdrachten
+Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
+Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
+Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
+Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
 
-## Thema-opdrachten
-> 1.  Theorie: SCRUM-proces<br>
-> ⏱️ - &emsp; 🎖combo &emsp; 🔒verplicht<br>
+## Geadviseerde leerlijn voor deze opdrachtenset
+Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
+Als jij je wil ontwikkelen in **ProjectManagement** en **SCRUM-theorie** dan adviseren wij jou de
+volgende leerlijn met daarin deze opdracht(en);
+> ⏱️ 0,5 dag &emsp;  🔒verplicht<br>
 
 > 2. Theorie: Rollen SCRUM-team kunnen benoemen en hun taken<br>
-> ⏱️ - &emsp; 🎖combo &emsp; 🔒verplicht<br>
+> ⏱️ 0,5 dag &emsp;  🔒verplicht<br>
 
-> 3. Theorie: SCRUM-meetings kunnen benoemen, het nut ervan en de activiteiten daarin<br>
-> ⏱️ - &emsp; 🎖combo &emsp; 🔒verplicht<br>
+> 3. Theorie: het benoemen van de verschillende SCRUM-meetings, het nut ervan en de activiteiten daarin<br>
+> ⏱️ 0,5 dag &emsp; 🔒verplicht<br>
 
 > 4. Theorie: Burn-down kunnen lezen<br>
-> ⏱️ - &emsp; 🎖combo &emsp; 🔒verplicht<br>
+> ⏱️ 0,5 dag &emsp;  🔒verplicht<br>
 
 > 5. Theorie: Scrum-documenten benoemen en kunnen opstellen<br>
-> ⏱️ - &emsp; 🎖combo &emsp; 🔒verplicht<br>**
-
-
-##  Overzicht :: ModuleOpdrachten & Beoordelingen
-> | **opdracht** | **duur (d)** | **XP's** | **verplicht** |
-> |--------------|:------------:|:----------:|:-------------:|
-> | ERD          |      2       |     1      |      🪽       |
-> | UML          |      3       |     1      |      🔒       |
-> | SCRUM        |      5       |     1      |      🔒       |
-> | DevOps       |      2       |     1      |      🔒       |
-> | Projecten 1  |      40      |     10     |      🔒       |
-> | Projecten 2  |      40      |     10     |      🔒       |
-> | Projecten 3  |      40      |     10     |      🪽       |
-> | Projecten 3  |      40      |     10     |      🪽       |
-
-
+> ⏱️ 2 dagen &emsp;  🔒verplicht<br>

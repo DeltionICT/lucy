@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"ict-lyceum",
+	"coursetitle":"ICT-Lyceum",
+	"permalink":"/subjects/ict-lyceum/{{ title | slugify }}/{{ page.index }}"
+}

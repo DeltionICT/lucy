@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"ict-klas",
-	"coursetitle":"ICT Klas",
-	"permalink":"/subjects/ict-klas/{{ title | slugify }}/{{ page.index }}"
-}
