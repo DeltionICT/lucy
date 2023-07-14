@@ -41,6 +41,9 @@ technology: js
     </div>
 </div>
 
+## Uitleg
+[Javascript op edutorial.nl](https://www.edutorial.nl/javascript/introductie/)
+[Javascript tutorial op w3schools](https://www.w3schools.com/js/)
 
 ## Beoordeling
 [Beoordelingsformulier](https://static.edutorial.nl/js/beoordeling_js10_input_value.xlsx)
