@@ -26,22 +26,26 @@ layout: layout.webc
             <tech color="blue" title="PHP Intermediate"></tech>
         </p>
     </module>
-    <module>
-        <p slot="title">profiel: Backend</p>
-        <p slot="techs">
-            <tech color="blue" title="Objectgeoriënteerd"></tech>
-            <tech color="blue" title="OO Projects"></tech>
-        </p>
-    </module>
-    <module>
-        <p slot="title">profiel: Frontend</p>
-        <p slot="techs">
-            <tech color="green" title="JS Advanced"></tech>
-            <tech color="green" title="JS Frameworks"></tech>
-            <tech color="green" title="Webcomponents"></tech>
-            <tech color="yellow" title="User experience design"></tech>
-        </p>
-    </module>
+       <module>
+            <p slot="title">profiel: Backend</p>
+            <p slot="techs">
+                <tech color="blue" title="Objectgeoriënteerd"></tech>
+                <tech color="blue" title="OO Projects"></tech>
+                <tech color="blue" title="Laravel"></tech>
+                <tech color="blue" title="PHP MVC"></tech>
+                <tech color="blue" title="C# MVC"></tech>
+                <tech color="green" title="NodeJS"></tech>
+            </p>
+        </module>
+        <module>
+            <p slot="title">profiel: Frontend</p>
+            <p slot="techs">
+                <tech color="green" title="JS Advanced"></tech>
+                <tech color="green" title="JS Frameworks"></tech>
+                <tech color="green" title="Webcomponents"></tech>
+                <tech color="yellow" title="User experience design"></tech>
+            </p>
+        </module>
     <module>
         <p slot="title">Ontwerpen en samenwerken</p>
         <p slot="techs">
@@ -70,7 +74,6 @@ layout: layout.webc
             <tech color="red" title="SEO"></tech>
         </p>
     </module>
-
     <module>
         <p slot="title">Organisatie</p>
         <p slot="techs">
