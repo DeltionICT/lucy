@@ -35,3 +35,6 @@ Zet in een `<div` de volgende tekst neer: "De <i>Saab</i> kost €<i>17000</i>" 
 
 ### Uitbreiding:
 * Voeg inputs toe zodat je ook een auto kunt verwijderen of aanpassen
+
+## Beoordeling
+[Download hier het beoordelingsformulier](https://static.edutorial.nl/js/beoordeling_js14_arrays.xlsx)
