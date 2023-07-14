@@ -1,5 +1,5 @@
 ---
-title: js70 | vue3 cdn base
+title: Vue3-cdn basic's
 difficulty: medium #basic | medium | expert
 date: 2023-01-31
 author: cstegeman
@@ -8,8 +8,8 @@ technology: js
 
 > #### Voorkennis:  
 > * JS basics
-> * JSON (zie eventueel op deze site: [js20 JSON](../../js-basis/js20-json/))
-> * JSON &amp; AJAX (zie eventueel op deze site: [js32 JSON AJAX](../../js-intermediate/js32-json-ajax/))
+> * JSON, zie eventueel op deze site: [js20 JSON](../../js-basis/js20-json/)
+> * JSON &amp; AJAX, zie eventueel op deze site: [js32 JSON AJAX](../../js-intermediate/js32-json-ajax/)
 
 > #### Doelen:  
 > * opzetten basis VUE3 via CDN

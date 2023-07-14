@@ -14,7 +14,7 @@ technology: all, ide
 > API-requests, json
 
 > ##### Leerdoelen
-> de response van verschillende API-requests testen/uitvoeren
+> De response van verschillende API-requests testen/uitvoeren
 
 Een van de handigste tools om API's mee te testen en om code te genereren in meerdere talen en 
 frameworks om API's te benaderen is [POSTMAN](https://www.postman.com/). Deze tool is gratis.

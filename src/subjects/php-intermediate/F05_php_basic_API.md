@@ -70,6 +70,9 @@ technology: ide, html, css, functions, json
 	die;
 ?>
 ```
+Alle request worden getest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com'  }}) {{ '/_assets/_icons/postman.png' | image: 'postman', 2 }},
+bekijk eventueeel de [Postman-les]({{ 'https://deltionict.github.io/lucy/subjects/ontwikkelomgeving/tools-voor-api-ontwikkeling/' | url }})
+<br><br>
 
 4. Reorganiseer jouw code;<br> 
    plaats alle mogelijkheden in aparte PHP-functies, die ook in aparte files worden geplaatst.

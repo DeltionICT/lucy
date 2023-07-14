@@ -1,5 +1,5 @@
 ---
-title: Git like a Pro
+title: Git like a Pro (command-line)
 key: 2504
 difficulty: basic
 date: 2023-02-03

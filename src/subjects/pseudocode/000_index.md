@@ -10,8 +10,6 @@ date: 2023-05-25
 > Pseudocode is een manier om een algoritme of een stukje code te beschrijven in een informele programmeertaal. Het is geen echte programmeertaal, maar eerder een gestructureerde manier om je gedachten en logica op te schrijven (met pen en papier!) zonder je zorgen te maken over de specifieke syntaxis van een bepaalde programmeertaal. 
 >Het nut van pseudocode is dat het helpt om problemen op te lossen en algoritmes te ontwerpen zonder je te beperken tot een specifieke programmeertaal. Het stelt je in staat om je gedachten te organiseren en de logische stappen van een algoritme te structureren voordat je begint met coderen. Pseudocode is vaak eenvoudiger te begrijpen dan complexe programmeercode, vooral voor beginners.
 
-
-
 > #### Voordelen
 > Pseudocode is een manier om een algoritme of een stukje code te beschrijven in een informele programmeertaal. Het is geen echte programmeertaal, maar eerder een gestructureerde manier om je gedachten en logica op te schrijven (met pen en papier!) zonder je zorgen te maken over de specifieke syntaxis van een bepaalde programmeertaal.
 > Het nut van pseudocode is dat het helpt om problemen op te lossen en algoritmes te ontwerpen zonder je te beperken tot een specifieke programmeertaal. Het stelt je in staat om je gedachten te organiseren en de logische stappen van een algoritme te structureren voordat je begint met coderen. Pseudocode is vaak eenvoudiger te begrijpen dan complexe programmeercode, vooral voor beginners.
@@ -31,3 +29,20 @@ Over het algemeen is pseudocode een handig hulpmiddel om complexe problemen te b
 > 4. Basisoperaties: Het begrip van basiswiskundige operaties zoals optellen, aftrekken, vermenigvuldigen en delen, evenals andere operaties zoals het vergelijken van waarden.
 > 
 > Het belangrijkste is om duidelijk en gestructureerd te zijn bij het beschrijven van de logica van je algoritme, zodat anderen het gemakkelijk kunnen begrijpen en volgen. Pseudocode is een informele taal, dus er is wat flexibiliteit in de syntaxis en stijl. Het belangrijkste is dat het begrijpelijk is en de logica van het algoritme correct overbrengt.
+
+
+## Over deze set opdrachten
+Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
+Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
+Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
+Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
+
+
+## Geadviseerde leerlijn voor deze opdrachtenset
+Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
+Als jij je wil ontwikkelen in **pseudo-code** dan adviseren wij jou de
+volgende leerlijn met daarin deze opdracht(en);
+> 1.  Maak alle opdrachten in deze set<br>
+> ⏱️ 1 dag &emsp; 🪽vrije keuze

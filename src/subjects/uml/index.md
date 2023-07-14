@@ -1,16 +1,29 @@
 ---
 title: Introductie
 author: rkerssies
-date: 2023-04-20
+date: 2023-06-30
 ---
 
-## UML (Unified Modeling Language)
-Deze module bevat meerdere manieren om datgene wat gemaakt wordt op één manier wordt gecommuniceerd onder developers 
-en eventueel ook naar de klant.
+## Over deze set opdrachten
+Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
+Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
+Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
+Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
 
-* De onderwerpen WireFrames en MockUps gaat vooral over hoe de applicatie / app er visueel 
-uit komt te zien en welke functionaliteiten er zoals moeten worden gemaakt
-* De ActiviteitenDiagrammen, ClassDiagrammen en SequenceDiagrammen maken de relaties tussen functies en classes inzichtelijk
-* Het laatste onderdeel ERD geeft inzicht in de database-tabellen en de onderlinge relaties daartussen 
+## Geadviseerde leerlijn voor deze opdrachtenset
+Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
+Als jij je wil ontwikkelen in **UML** en **schema-technieken**, dan adviseren wij jou de
+volgende leerlijn met daarin deze opdracht(en);
+> 1.  Wireframe<br>
+> ⏱️ 1 dag &emsp;  🔒verplicht<br>
 
-Al deze onderwerpen vallen onder het werkproces 'Ontwerpen' van KernTaak 1. Een 'must' voor een professionele developer.
+> 2. Mockup<br>
+> ⏱️ 1 dag &emsp; 🔒verplicht<br>
+
+> 3. Diagram naar keuze<br>
+> ⏱️ 1 dag &emsp; 🔒verplicht<br>
+> <small>‼️Maak een keuze uit: `ActiviteitenDiagram`, `ClassDiagram` of `SequenceDiagram`</small>
+
+> <small>💡Tip: maak gebruik van [Balsamiq]({{ 'https://balsamiq.com' | url }})` voor het maken van schema's </small>

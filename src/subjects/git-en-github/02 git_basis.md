@@ -1,5 +1,5 @@
 ---
-title: Git Basis
+title: Git integratie met de IDE
 key: 2505
 difficulty: basic
 date: 2023-02-03

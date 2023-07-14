@@ -28,7 +28,8 @@ zoals:
   Creating your own API-service &emsp;{{ '/_assets/api/api.png' | image: 'api', 4 }}
 <br><br>
 
-Alle request worden getest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com'  }}) {{ '/_assets/_icons/postman.png' | image: 'postman', 2 }}
+Alle request worden getest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com'  }}) {{ '/_assets/_icons/postman.png' | image: 'postman', 2 }},
+bekijk eventueeel de [Postman-les]({{ 'https://deltionict.github.io/lucy/subjects/ontwikkelomgeving/tools-voor-api-ontwikkeling/' | url }})
 <br><br>
 <hr>
 

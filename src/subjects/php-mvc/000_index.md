@@ -1,23 +1,34 @@
 ---
 title: Introductie
-author: jsiewers
-date: 2023-04-10
+author: rkerssies
+date: 2023-06-30
 ---
 
-# MVC-frameworks
-Om projecten toegankelijker te maken en later onderhoud te makkelijker te maken zijn er in de loop van de jaren 'best-practices' ontstaan.<br>
-Eén van de meest wijd verspreide en toegepaste 'best-practice' is het gebruik van de MVC-methodiek.<br>
-Hoewel hiervan ook veel verschillende manieren van uitvoering zijn, is het voor programmeurs die bekend zijn met MVC eenvoudiger mee te werken in een nieuw project-team 
-of oud of nieuw project.  
-<br><br>
-In deze module ga je leren hoe de MVC-methodiek in elkaar werkt, zodat jij hierin gebruik maakt
-wat anderen al slim voor jou hebben uitgedacht en jouw ontwikkeltijd versnelt (na het leren van MVC).<br>
-Deze module geeft een basis m.b.v een PHP MVC-framework om het proces te leren. Los van de termen en naamgeving 
-zullen de MVC-processen ook bij C# terugkomen.
-<br><br>
-Ook wordt is er een onderwerp besteed aan:
-* geautomatiseerd Testing (testen samen met acceptatie-tests vallen onder een werkproces in het KD !)<br>
-* een API maken, zo leer je wat een API-server zoals doet en wat je van een API mag verwachten.
-<br><br>
+## Over deze set opdrachten
+Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
+Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
+Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
+Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
 
-{{ '/_assets/api/schema_mvc-process.png' | image: 'newbie', 80 }}
+
+## Geadviseerde leerlijn voor deze opdrachtenset
+Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
+Als jij je wil ontwikkelen in **MVC**, **PHP**, **geautomatiseerde tests** en/of **API-servers** dan adviseren wij jou de
+volgende leerlijn met daarin deze opdracht(en);
+> 1. Basics MVC-applicatie - Administratie voor gebruikers PHP<br>
+> ⏱️ 10 dagen &emsp; 🪽vrije keuze<br>
+> <small>💡Tip: maak de opdrachten: `MVC-basics PHP`, `MVC Bezoekers`, `MVC Beheer Gebruikers` en `MVC Middleware en Services` als aanloop naar deze eindopdracht</small>
+
+> 2. FeatureTesting<br>
+> ⏱️ 10 dagen &emsp; 🪽vrije keuze<br>
+> <small>💡Tip: Deze opdracht is eenvoudiger toe te passen binnen een werkende MVC-applicatie</small>
+
+> 3. API-server PHP<br>
+> ⏱️ 10 dagen &emsp; 🪽vrije keuze<br>
+> <small>💡Tip: Deze opdracht is eenvoudiger toe te passen binnen een werkende MVC-applicatie</small>
+
+> 4. API-server met Roll-Based-Access-Controll PHP<br>
+> ⏱️ 10 dagen &emsp; 🪽vrije keuze<br>
+> <small>💡Tip: Deze opdracht is eenvoudiger toe te passen binnen een werkende API-applicatie met daarin MVC-technieken</small>
