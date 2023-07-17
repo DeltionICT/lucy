@@ -33,7 +33,7 @@ Tijdens een Rubrics-gesprek wordt een formulier ingevuld waarin o.a. de volgende
   * waaronder een planning met welke opdrachten jij het komende kwartaal aan de slag gaat
   * welke profiel past het beste jou
 * **Hoe is jouw studiehouding?**
-  * inzet (hoeveel XP's 🎖️heb jij al?)
+  * inzet en voortgang
   * aanwezigheid
   * stel je vragen
   * ben je pro-actief
