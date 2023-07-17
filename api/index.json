@@ -642,8 +642,8 @@
         "date":"Thu Jan 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-voor-webdevelopment/",
-        "title":"Ontwikkelomgeving voor webdevelopment",
+        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-webdevelopement/",
+        "title":"Ontwikkelomgeving Webdevelopement",
         "author":"jsiewers",
         "date":"Thu Jan 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -702,8 +702,8 @@
         "date":"Wed Jan 11 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-c/",
-        "title":"Ontwikkelomgeving C#",
+        "url":"/lucy/subjects/ontwikkelomgeving/webeditor-c/",
+        "title":"Webeditor C#",
         "author":"kstarreveld",
         "date":"Thu Jan 12 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -774,14 +774,14 @@
         "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/js-frameworks/js70-vue3-cdn-base/",
-        "title":"js70 | vue3 cdn base",
+        "url":"/lucy/subjects/js-frameworks/vue3-cdn-basic-s/",
+        "title":"Vue3-cdn basic&#39;s",
         "author":"cstegeman",
         "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/js-frameworks/js72-vue3-cdn-api/",
-        "title":"js72 | vue3 cdn API",
+        "url":"/lucy/subjects/js-frameworks/vue3-cdn-basic-api-gebruik/",
+        "title":"Vue3-cdn basic API-gebruik",
         "author":"cstegeman",
         "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -798,14 +798,14 @@
         "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/git-en-github/git-basis/",
-        "title":"Git Basis",
+        "url":"/lucy/subjects/git-en-github/git-integratie-met-de-ide/",
+        "title":"Git integratie met de IDE",
         "author":"jsiewers",
         "date":"Fri Feb 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/git-en-github/git-like-a-pro/",
-        "title":"Git like a Pro",
+        "url":"/lucy/subjects/git-en-github/git-like-a-pro-command-line/",
+        "title":"Git like a Pro (command-line)",
         "author":"jsiewers",
         "date":"Fri Feb 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -834,14 +834,14 @@
         "date":"Thu Feb 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/security/sec-sec-1-caesar-cipher/",
-        "title":"sec | Sec 1-Caesar Cipher",
+        "url":"/lucy/subjects/security/caesar-cipher/",
+        "title":"Caesar Cipher",
         "author":"kstarreveld",
         "date":"Thu Feb 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/security/sec-sec-2-vigenere-cipher/",
-        "title":"sec | Sec 2-Vigenere Cipher",
+        "url":"/lucy/subjects/security/vigenere-cipher/",
+        "title":"Vigenere Cipher",
         "author":"kstarreveld",
         "date":"Thu Feb 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -1068,43 +1068,7 @@
         "date":"Mon Apr 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-m/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Sun Apr 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-s/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Sun Apr 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-xl/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Sun Apr 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/c-intermediate/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/c-mvc/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/c-objectoriented/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/c/introductie/",
         "title":"Introductie",
         "author":"jsiewers",
         "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
@@ -1116,97 +1080,7 @@
         "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/database-ontwerp/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/database-queries/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/git-en-github/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/hosting/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/ict-flex/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/ontwikkelomgeving/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/orientatie-blockchain/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/php-basis/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/php-intermediate/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/php-mvc/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/projecten/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/python/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/security/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/user-experience-design/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/user-interfaces-design/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/verdieping-software/introductie/",
         "title":"Introductie",
         "author":"jsiewers",
         "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
@@ -1224,18 +1098,6 @@
         "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/webcomponents/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon Apr 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/html-css/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Tue Apr 11 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/php-basis/kleurkiezer/",
         "title":"Kleurkiezer",
         "author":"jsiewers",
@@ -1243,12 +1105,6 @@
     },
     { 
         "url":"/lucy/subjects/mvc-projects/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Thu Apr 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/oo-projects/introductie/",
         "title":"Introductie",
         "author":"jsiewers",
         "date":"Thu Apr 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
@@ -1282,12 +1138,6 @@
         "title":"Cryptografie",
         "author":"jsiewers",
         "date":"Mon Apr 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/app-development/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
         "url":"/lucy/subjects/devops/introductie/",
@@ -1326,25 +1176,7 @@
         "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/objectgeorienteerd/introductie/",
-        "title":"Introductie",
-        "author":"rkerssies",
-        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/scrum/introductie/",
-        "title":"Introductie",
-        "author":"rkerssies",
-        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/seo/introductie/",
-        "title":"Introductie",
-        "author":"rkerssies",
-        "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/uml/introductie/",
         "title":"Introductie",
         "author":"rkerssies",
         "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
@@ -1354,36 +1186,6 @@
         "title":"Werken met CSV",
         "author":"jsiewers",
         "date":"Fri May 12 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/js-advanced/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/js-basis/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/js-frameworks/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/js-intermediate/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/nodejs/introductie/",
-        "title":"Introductie",
-        "author":"jsiewers",
-        "date":"Mon May 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
         "url":"/lucy/subjects/ontwikkelomgeving/webdevelopment-met-docker/",
@@ -1510,6 +1312,222 @@
         "title":"Webservices met XAMPP of WAMP",
         "author":"rkerssies",
         "date":"Thu Jun 29 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/app-development/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/bpv/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-mvc/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-objectoriented/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-xl/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-ontwerp/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/git-en-github/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/hosting/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/html-css/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-lyceum/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-lyceum/programma/",
+        "title":"Programma",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-lyceum/ontwikkelingsgericht-onderwijs/",
+        "title":"Ontwikkelingsgericht Onderwijs",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-advanced/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-frameworks/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-intermediate/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/nodejs/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ontwikkelomgeving/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/oo-projects/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/orientatie-blockchain/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-intermediate/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-mvc/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/security/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/seo/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/user-experience-design/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/user-interfaces-design/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/verdieping-software/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/webcomponents/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Sat Jul 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]

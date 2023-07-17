@@ -708,19 +708,19 @@ div.html table {
         <span slot="date">Jan 31, 2023</span>
     </div>
     <div class="title">
-        <h1><div slot="title">js72 | vue3 cdn API</div></h1>
+        <h1><div slot="title">Vue3-cdn basic's</div></h1>
     </div>
 
 </main-title>
 <main-content class="webcftrhj"><div class="sidebar">
     <ul>
-        <list-link url="/subjects/js-frameworks/introductie/" page="/subjects/js-frameworks/js72-vue3-cdn-api/" class="wv0jwq1on"><a href="/lucy/subjects/js-frameworks/introductie/"><li class="notselected">Introductie</li></a>
+        <list-link url="/subjects/js-frameworks/introductie/" page="/subjects/js-frameworks/vue3-cdn-basic-s/" class="wv0jwq1on"><a href="/lucy/subjects/js-frameworks/introductie/"><li class="notselected">Introductie</li></a>
 
 </list-link>
-<list-link url="/subjects/js-frameworks/js70-vue3-cdn-base/" page="/subjects/js-frameworks/js72-vue3-cdn-api/" class="wv0jwq1on"><a href="/lucy/subjects/js-frameworks/js70-vue3-cdn-base/"><li class="notselected">js70 | vue3 cdn base</li></a>
+<list-link url="/subjects/js-frameworks/vue3-cdn-basic-s/" page="/subjects/js-frameworks/vue3-cdn-basic-s/" class="wv0jwq1on"><a href="/lucy/subjects/js-frameworks/vue3-cdn-basic-s/"><li class="selected">Vue3-cdn basic's</li></a>
 
 </list-link>
-<list-link url="/subjects/js-frameworks/js72-vue3-cdn-api/" page="/subjects/js-frameworks/js72-vue3-cdn-api/" class="wv0jwq1on"><a href="/lucy/subjects/js-frameworks/js72-vue3-cdn-api/"><li class="selected">js72 | vue3 cdn API</li></a>
+<list-link url="/subjects/js-frameworks/vue3-cdn-basic-api-gebruik/" page="/subjects/js-frameworks/vue3-cdn-basic-s/" class="wv0jwq1on"><a href="/lucy/subjects/js-frameworks/vue3-cdn-basic-api-gebruik/"><li class="notselected">Vue3-cdn basic API-gebruik</li></a>
 
 </list-link>
     </ul>
@@ -729,25 +729,39 @@ div.html table {
     <blockquote>
 <h4>Voorkennis:</h4>
 <ul>
-<li>JSON (zie eventueel op deze site: <a href="../../js-basis/js20-json/">js20 JSON</a>)</li>
-<li>JSON &amp; AJAX (zie eventueel op deze site: <a href="../../js-intermediate/js32-json-ajax/">js32 JSON AJAX</a>)</li>
-<li>De opdracht <a href="../js70-vue3-cdn-base/">js 70 base VUE3 via CDN</a>)</li>
+<li>JS basics</li>
+<li>JSON, zie eventueel op deze site: <a href="../../js-basis/js20-json/">js20 JSON</a></li>
+<li>JSON &amp; AJAX, zie eventueel op deze site: <a href="../../js-intermediate/js32-json-ajax/">js32 JSON AJAX</a></li>
 </ul>
 </blockquote>
 <blockquote>
 <h4>Doelen:</h4>
 <ul>
-<li>API koppelen in VUE3 via CDN</li>
+<li>opzetten basis VUE3 via CDN</li>
+<li>strings, arrays en objecten uit data object van Vue ophalen en weergeven</li>
 </ul>
 </blockquote>
-<p>Bekijk in de <a href="https://std.stegion.nl/cs_codebase/js70_vue3cdn_base/index.html">tutorial</a> de sectie over API's.</p>
-<h3>Opdracht</h3>
+<p>Bekijk een basis VUE3 opzet via CDN op <a href="https://std.stegion.nl/cs_codebase/js70_vue3cdn_base/index.html">std.stegion.nl</a>.</p>
+<h3>opdracht</h3>
 <ul>
-<li>Haal de biertjes uit de API van de tutorial en plaats ze in een tabel<br>
-<img src="/lucy/_assets/frontend/js72A.png" alt="bier tabel" style="width:30%;"></li>
-<li>zet headers &lt;th&gt; boven de kolommen (zie sectie over headers)<br>
-<img src="/lucy/_assets/frontend/js72B.png" alt="headers bier tabel" style="width:30%;"></li>
+<li>neem het voorbeeld over en kijk of de variabele &quot;tekst&quot; in data ook in de HTML getoond wordt</li>
+<li>er staat ook een array &quot;lijst&quot; in data.
+<ul>
+<li>Toon deze net als &quot;tekst&quot; in de HTML</li>
+<li>zoek in Google op &quot;v-for&quot; en probeer de lijst in een &lt;ul&gt; structuur te plaatsen</li>
 </ul>
+</li>
+</ul>
+<img src="/lucy/_assets/frontend/js70A.png" alt="basis opzet VUE3 via CDN" style="width:30%;">
+<ul>
+<li>voeg aan data een array van objecten toe</li>
+</ul>
+<pre class="language-javascript"><code class="language-javascript"><span class="token literal-property property">data</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>    <span class="token literal-property property">test</span><span class="token operator">:</span> <span class="token string">"testing 123"</span><span class="token punctuation">,</span><br>    <span class="token literal-property property">aNamen</span><span class="token operator">:</span> <span class="token punctuation">[</span><br>        <span class="token punctuation">{</span> <span class="token string-property property">"vnaam"</span><span class="token operator">:</span> <span class="token string">"Jan"</span><span class="token punctuation">,</span> <span class="token string-property property">"tv"</span><span class="token operator">:</span><span class="token string">""</span><span class="token punctuation">,</span> <span class="token string-property property">"anaam"</span><span class="token operator">:</span><span class="token string">"Klaassen"</span><span class="token punctuation">}</span><span class="token punctuation">,</span><br>        <span class="token punctuation">{</span> <span class="token string-property property">"vnaam"</span><span class="token operator">:</span> <span class="token string">"Katrijn"</span><span class="token punctuation">,</span> <span class="token string-property property">"tv"</span><span class="token operator">:</span> <span class="token string">"van der"</span><span class="token punctuation">,</span> <span class="token string-property property">"anaam"</span><span class="token operator">:</span> <span class="token string">"Worp"</span> <span class="token punctuation">}</span><br>    <span class="token punctuation">]</span><br><span class="token punctuation">}</span></code></pre>
+<ul>
+<li>Zoek via &quot;v-for&quot; hoe je de &quot;index&quot; als rijnummer kunt ophalen en plaats nu de namen in een HTML &lt;table&gt;</li>
+<li>voeg ook wat CSS toe:</li>
+</ul>
+<img src="/lucy/_assets/frontend/js70B.png" alt="table" style="width:30%;">
 
 </div>
 
