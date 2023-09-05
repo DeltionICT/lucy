@@ -33,7 +33,7 @@ Tijdens een Rubrics-gesprek wordt een formulier ingevuld waarin o.a. de volgende
   * waaronder een planning met welke opdrachten jij het komende kwartaal aan de slag gaat
   * welke profiel past het beste jou
 * **Hoe is jouw studiehouding?**
-  * inzet (hoeveel XP's 🎖️heb jij al?)
+  * inzet
   * aanwezigheid
   * stel je vragen
   * ben je pro-actief
@@ -50,5 +50,5 @@ Dit ingevulde Rubrics-formulier wordt vastgelegd en opgeslagen door jouw PORTFOL
 ## Rubrics-formulier
 De Rubrics-gesprekken worden vastgelegd in een formulier en gezamenlijk tijdens het 
 Rubrics-gesprek door de LOB-er en student ingevuld;
-* [Rubrics (docx)]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/Rubrics_SD.docx' | url }})<br>
-* [Rubrics (pdf)]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/Rubrics_SD.pdf' | url }})
+* [Rubrics (docx)]({{ '/_assets/school/begeleiding/Rubrics_SD.docx' }})<br>
+* [Rubrics (pdf)]({{ '/_assets/school/begeleiding/Rubrics_SD.pdf' }})
