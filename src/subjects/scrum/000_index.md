@@ -24,7 +24,7 @@ Voor een SoftwareDeveloper zullen de volgende XP's verder helpen, waarbij deze m
 
 ## Over deze set opdrachten
 Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
-uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ 'https://deltionict.github.io/lucy/ict-lyceum/docs/voortgangsdocument.pdf' | url }})
+uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ '/_assets/school/begeleiding/voortgangsdocument.docx' }})
 of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
 Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
 Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
