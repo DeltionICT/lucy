@@ -18,7 +18,7 @@ technology: ide, php, html, css
 
 ## Presentatie ontwikkelomgeving
 - Wanneer je het control-panel van XAMPP opent, kun je Apache en MySQL (zonder errors) starten. 
-- Toon het versienummer van git als het opstart vanuit een willekeurige directory met <code>git --verson</code>.
+- Toon het versienummer van git als het opstart vanuit een willekeurige directory met <code>git --version</code>.
 - Toon php vanuit een willekeurige directory met <code>php --version</code>.
 - Laat zien dat Visual Studio is geïnstalleerd en werkt.
 - Toon je accountinformatie op github.com
