@@ -1224,6 +1224,18 @@
         "date":"Thu May 25 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/database-queries/queries-bioscoop/",
+        "title":"Queries bioscoop",
+        "author":"jsiewers",
+        "date":"Thu Jun 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/queries-radiozenders/",
+        "title":"Queries radiozenders",
+        "author":"jsiewers",
+        "date":"Thu Jun 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/js-intermediate/js33-weather-api/",
         "title":"js33 | Weather API",
         "author":"cstegeman",
@@ -1528,6 +1540,12 @@
         "title":"Introductie",
         "author":"rkerssies",
         "date":"Sat Jul 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/project-de-poort/",
+        "title":"Project De Poort",
+        "author":"jsiewers",
+        "date":"Tue Aug 08 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
