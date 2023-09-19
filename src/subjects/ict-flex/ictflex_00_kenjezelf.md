@@ -1,5 +1,5 @@
 ---
-title: Ken Jezelf
+title: Basis | Ken Jezelf
 key: 2518
 difficulty: basic
 date: 2023-01-01

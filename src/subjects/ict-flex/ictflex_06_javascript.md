@@ -1,5 +1,5 @@
 ---
-title: Javascript
+title: Basis | Javascript
 key: 2516
 difficulty: basic
 date: 2023-03-14

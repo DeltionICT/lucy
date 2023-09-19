@@ -1,5 +1,5 @@
 ---
-title: Database introductie
+title: Basis | Database introductie
 key: 2517
 difficulty: basic
 date: 2023-01-01

@@ -1,5 +1,5 @@
 ---
-title: Hosting
+title: Basis | Hosting
 key: 2512
 difficulty: basic
 date: 2023-03-13

@@ -1,5 +1,5 @@
 ---
-title: HTML en CSS
+title: Basis | HTML en CSS
 key: 2514
 difficulty: basic
 date: 2023-03-14
