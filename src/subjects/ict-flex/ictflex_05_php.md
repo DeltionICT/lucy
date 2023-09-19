@@ -1,5 +1,5 @@
 ---
-title: Beginnen met PHP
+title: Basis | Beginnen met PHP
 key: 2515
 difficulty: basic
 date: 2023-03-14

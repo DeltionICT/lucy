@@ -1,5 +1,5 @@
 ---
-title: Programmeren basis
+title: Basis | Programmeren basis
 key: 2511
 difficulty: basic
 date: 2023-03-13
