@@ -10,7 +10,6 @@ technology: database
 
 
 > #### Voorkennis
-> * Je hebt je docentenopleiding afgerond
 > * Je kunt werken met een computer
 
 > #### Dit ga je leren
