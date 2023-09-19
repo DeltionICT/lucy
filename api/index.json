@@ -174,15 +174,15 @@
         "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-flex/database-introductie/",
-        "title":"Database introductie",
-        "author":"jsiewers, adalmolen, jheuvelman, pvangemert",
+        "url":"/lucy/subjects/ict-flex/basis-ken-jezelf/",
+        "title":"Basis | Ken Jezelf",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
         "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-flex/ken-jezelf/",
-        "title":"Ken Jezelf",
-        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "url":"/lucy/subjects/ict-flex/basis-database-introductie/",
+        "title":"Basis | Database introductie",
+        "author":"jsiewers, adalmolen, jheuvelman, pvangemert",
         "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
@@ -888,39 +888,39 @@
         "date":"Tue Mar 07 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-flex/hosting/",
-        "title":"Hosting",
+        "url":"/lucy/subjects/ict-flex/basis-hosting/",
+        "title":"Basis | Hosting",
         "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
         "date":"Mon Mar 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-flex/programmeren-basis/",
-        "title":"Programmeren basis",
+        "url":"/lucy/subjects/ict-flex/basis-programmeren-basis/",
+        "title":"Basis | Programmeren basis",
         "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
         "date":"Mon Mar 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-flex/webpagina/",
-        "title":"Webpagina",
+        "url":"/lucy/subjects/ict-flex/basis-webpagina/",
+        "title":"Basis | Webpagina",
         "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
         "date":"Mon Mar 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-flex/html-en-css/",
-        "title":"HTML en CSS",
+        "url":"/lucy/subjects/ict-flex/basis-html-en-css/",
+        "title":"Basis | HTML en CSS",
         "author":"jsiewers, jheuvelman, adalmolen, pvangemert",
         "date":"Tue Mar 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-flex/javascript/",
-        "title":"Javascript",
-        "author":"jsiewers, jheuvelman, adalmolen, pvangemert",
-        "date":"Tue Mar 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/ict-flex/beginnen-met-php/",
-        "title":"Beginnen met PHP",
+        "url":"/lucy/subjects/ict-flex/basis-beginnen-met-php/",
+        "title":"Basis | Beginnen met PHP",
         "author":"jsiewers, pvangemert, jheuvelman, adalmolen",
+        "date":"Tue Mar 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/basis-javascript/",
+        "title":"Basis | Javascript",
+        "author":"jsiewers, jheuvelman, adalmolen, pvangemert",
         "date":"Tue Mar 14 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
@@ -1552,6 +1552,24 @@
         "title":"Project De Poort",
         "author":"jsiewers",
         "date":"Tue Aug 08 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/verslag-autheursrecht/",
+        "title":"Verslag | Autheursrecht",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Tue Sep 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/verslag-avg/",
+        "title":"Verslag | AVG",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Tue Sep 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-flex/verslag-licenties-nl-en/",
+        "title":"Verslag | Licenties NL/EN",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Tue Sep 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]

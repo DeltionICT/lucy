@@ -1,0 +1,1507 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy | Leeromgeving Software development</title>
+    <link rel="shortcut icon" href="/lucy/_system/favicon.ico" sizes="any"><!-- 32×32 -->
+    <link rel="icon" href="/lucy/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/lucy/_system/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="manifest" href="/lucy/manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+    
+    
+    
+    <style>.wv0jwq1on{list-style-type:none}.wv0jwq1on a{text-decoration:none}.wv0jwq1on li{width:90%;padding:2px 0px 2px 8px;border-radius:8px;margin:0 0 0.5rem 0}.wv0jwq1on li.selected{background-color:var(--c-brand);color:#fff}.wv0jwq1on li.notselected{background-color:var(--c-header-bg)}@media only screen and (max-width:600px){.wv0jwq1on li{width:100%}}
+.webcftrhj{display:flex;justify-content:flex-start}.webcftrhj div.sidebar{flex:0 0 300px}.webcftrhj div.sidebar ul{margin:0 0 1rem 0}.webcftrhj div.content{flex:1 0 0;max-width:calc(80vw - 300px)}@media only screen and (max-width:600px){.webcftrhj{flex-direction:column}.webcftrhj div.content{flex:1 0 0;max-width:80vw}}
+.w3ogpr5jr{margin:0 0 2rem 0}.w3ogpr5jr div.category{border-bottom:1px solid var(--c-brand);font-weight:bold}.w3ogpr5jr div.category a{text-decoration:none}.w3ogpr5jr div.category p{margin:0 0 0 0}.w3ogpr5jr div.authors{text-align:right;font-style:italic;font-size:0.9rem}.w3ogpr5jr div.authors p{margin:0 0 0 0}
+.wh61vald5{margin-right:30px}.wh61vald5:last-child{margin-right:0px}.wh61vald5 .notselected{color:var(--c-brand);padding:8px 0px 8px 8px;border-radius:4px;text-decoration:none}.wh61vald5 .selected{background-color:var(--c-brand);color:var(--c-bg);padding:8px;border-radius:4px;text-decoration:none}
+.w4go7t2fx{display:flex;flex-direction:row;justify-content:space-between;width:80%;margin:8px auto 0 auto}.w4go7t2fx div.links{display:block;text-align:right}@media only screen and (max-width:400px){.w4go7t2fx{flex-direction:column}.w4go7t2fx div.links{text-align:center}}
+.wq89ttfva{padding-top:1rem;padding-bottom:1rem;background-color:var(--c-header-bg);box-shadow:var(--c-box-shadow)}
+.w9s7xnshy{display:flex;flex-direction:column;width:80%;margin:1rem auto 2rem auto;flex:1 0 auto}
+.wzi47stss{display:flex;justify-content:start;flex-direction:row;background-color:var(--c-header-bg);padding:1rem;border-radius:8px;width:80%;margin:0 auto 2rem auto}.wzi47stss img{width:auto}.wzi47stss div.cc{padding-top:0.4rem;margin-right:1rem}.wzi47stss div.copy p{line-height:1.3rem}@media only screen and (max-width:600px){.wzi47stss{flex-direction:column}}
+:root {
+    scroll-behavior: smooth;
+    --c-green: #637a32;
+    --c-darkgreen: #35460d;
+    --c-orange: #f48220;
+    --c-blue: #45438a;
+    --c-yellow: #eae27e;
+    --c-purple: #7188ec;
+    --c-pink: #f8a6b1;
+    --c-red: #9b0011;
+    --c-grey: #bbb3a6;
+    --c-brown: #8c631f;
+    --c-black: #2e2e31;
+    --c-brand: #25255b;
+    --c-brand-orange: #f48220;
+    --c-white: #deeef3;
+    --c-code: rgb(232, 241, 255);
+    --c-bg: #ededed;
+    --c-header-bg: #e0e0e0;
+    --fontfamily: 'Helvetica Neue', 'Arial', sans-serif;
+    --codefont: 'Azeret Mono', monospace;
+    --lineheight: 1.8rem;
+    --fontsize: 16px;
+    --c-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --c-box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* .brown {
+    background-color: #8c631f;
+}
+.red {
+    background-color: #9b0011;
+} */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: var(--fontsize);
+    color: var(--c-brand);
+    line-height: var(--lineheight);
+    background-color: var(--c-bg);
+}
+
+ul,
+ol {
+    margin-left: 1rem;
+}
+
+a {
+    /* text-decoration: none; */
+    color: var(--c-brand);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: var(--c-text-light-3);
+    margin-bottom: 1rem;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+th {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+blockquote {
+    background-color: #fff;
+    border: 1px solid var(--c-brand);
+    border-left: 5px solid var(--c-brand);
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: var(--c-box-shadow);
+}
+
+/* Video */
+.video-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+}
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: var(--c-brand);
+}
+
+h1 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+div.content h2:first-child {
+    margin-top: 0rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+h4,
+h5 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    display: inline-block;
+
+}
+
+
+h5 {
+    border: none;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+ul {
+    margin: 0 0 1rem 1rem;
+}
+/**
+ * One Light theme for prism.js
+ * Based on Atom's One Light theme: https://github.com/atom/atom/tree/master/packages/one-light-syntax
+ */
+
+/**
+ * One Light colours (accurate as of commit eb064bf on 19 Feb 2021)
+ * From colors.less
+ * --mono-1: hsl(230, 8%, 24%);
+ * --mono-2: hsl(230, 6%, 44%);
+ * --mono-3: hsl(230, 4%, 64%)
+ * --hue-1: hsl(198, 99%, 37%);
+ * --hue-2: hsl(221, 87%, 60%);
+ * --hue-3: hsl(301, 63%, 40%);
+ * --hue-4: hsl(119, 34%, 47%);
+ * --hue-5: hsl(5, 74%, 59%);
+ * --hue-5-2: hsl(344, 84%, 43%);
+ * --hue-6: hsl(35, 99%, 36%);
+ * --hue-6-2: hsl(35, 99%, 40%);
+ * --syntax-fg: hsl(230, 8%, 24%);
+ * --syntax-bg: hsl(230, 1%, 98%);
+ * --syntax-gutter: hsl(230, 1%, 62%);
+ * --syntax-guide: hsla(230, 8%, 24%, 0.2);
+ * --syntax-accent: hsl(230, 100%, 66%);
+ * From syntax-variables.less
+ * --syntax-selection-color: hsl(230, 1%, 90%);
+ * --syntax-gutter-background-color-selected: hsl(230, 1%, 90%);
+ * --syntax-cursor-line: hsla(230, 8%, 24%, 0.05);
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     background-color: var(--c-code);
+     color: hsl(230, 8%, 24%);
+     font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+     direction: ltr;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     line-height: 1.5;
+     -moz-tab-size: 2;
+     -o-tab-size: 2;
+     tab-size: 2;
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+     overflow-x:scroll;
+     overflow-y:scroll;
+ }
+ 
+ /* Selection */
+ code[class*="language-"]::-moz-selection,
+ code[class*="language-"] *::-moz-selection,
+ pre[class*="language-"] *::-moz-selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ code[class*="language-"]::selection,
+ code[class*="language-"] *::selection,
+ pre[class*="language-"] *::selection {
+     background: hsl(230, 1%, 90%);
+     color: inherit;
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: 0.5em 0;
+     border-radius: 0.3em;
+     box-shadow:var(--c-box-shadow);
+     overflow: auto;
+ 
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+     padding: 0.2em 0.3em;
+     border-radius: 0.3em;
+     white-space: normal;
+ }
+ 
+ .token.comment,
+ .token.prolog,
+ .token.cdata {
+     color: hsl(0, 0%, 56%);
+ }
+ 
+ .token.doctype,
+ .token.punctuation,
+ .token.entity {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .token.attr-name,
+ .token.class-name,
+ .token.boolean,
+ .token.constant,
+ .token.number,
+ .token.atrule {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .token.keyword {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .token.property,
+ .token.tag,
+ .token.symbol,
+ .token.deleted,
+ .token.important {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .token.selector,
+ .token.string,
+ .token.char,
+ .token.builtin,
+ .token.inserted,
+ .token.regex,
+ .token.attr-value,
+ .token.attr-value > .token.punctuation {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .token.variable,
+ .token.operator,
+ .token.function {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .token.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ /* HTML overrides */
+ .token.attr-value > .token.punctuation.attr-equals,
+ .token.special-attr > .token.attr-value > .token.value.css {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* CSS overrides */
+ .language-css .token.selector {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .language-css .token.property {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-css .token.function,
+ .language-css .token.url > .token.function {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-css .token.url > .token.string.url {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-css .token.important,
+ .language-css .token.atrule .token.rule {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* JS overrides */
+ .language-javascript .token.operator {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-javascript .token.template-string > .token.interpolation > .token.interpolation-punctuation.punctuation {
+     color: hsl(344, 84%, 43%);
+ }
+ 
+ /* JSON overrides */
+ .language-json .token.operator {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-json .token.null.keyword {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ /* MD overrides */
+ .language-markdown .token.url,
+ .language-markdown .token.url > .token.operator,
+ .language-markdown .token.url-reference.url > .token.string {
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ .language-markdown .token.url > .token.content {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .language-markdown .token.url > .token.url,
+ .language-markdown .token.url-reference.url {
+     color: hsl(198, 99%, 37%);
+ }
+ 
+ .language-markdown .token.blockquote.punctuation,
+ .language-markdown .token.hr.punctuation {
+     color: hsl(230, 4%, 64%);
+     font-style: italic;
+ }
+ 
+ .language-markdown .token.code-snippet {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .language-markdown .token.bold .token.content {
+     color: hsl(35, 99%, 36%);
+ }
+ 
+ .language-markdown .token.italic .token.content {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ .language-markdown .token.strike .token.content,
+ .language-markdown .token.strike .token.punctuation,
+ .language-markdown .token.list.punctuation,
+ .language-markdown .token.title.important > .token.punctuation {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ /* General */
+ .token.bold {
+     font-weight: bold;
+ }
+ 
+ .token.comment,
+ .token.italic {
+     font-style: italic;
+ }
+ 
+ .token.entity {
+     cursor: help;
+ }
+ 
+ .token.namespace {
+     opacity: 0.8;
+ }
+ 
+ /* Plugin overrides */
+ /* Selectors should have higher specificity than those in the plugins' default stylesheets */
+ 
+ /* Show Invisibles plugin overrides */
+ .token.token.tab:not(:empty):before,
+ .token.token.cr:before,
+ .token.token.lf:before,
+ .token.token.space:before {
+     color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Toolbar plugin overrides */
+ /* Space out all buttons and move them away from the right edge of the code block */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+     margin-right: 0.4em;
+ }
+ 
+ /* Styling the buttons */
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 6%, 44%);
+     padding: 0.1em 0.4em;
+     border-radius: 0.3em;
+ }
+ 
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+     background: hsl(230, 1%, 78%); /* custom: darken(--syntax-bg, 20%) */
+     color: hsl(230, 8%, 24%);
+ }
+ 
+ /* Line Highlight plugin overrides */
+ /* The highlighted line itself */
+ .line-highlight.line-highlight {
+     background: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Default line numbers in Line Highlight plugin */
+ .line-highlight.line-highlight:before,
+ .line-highlight.line-highlight[data-end]:after {
+     background: hsl(230, 1%, 90%);
+     color: hsl(230, 8%, 24%);
+     padding: 0.1em 0.6em;
+     border-radius: 0.3em;
+     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); /* same as Toolbar plugin default */
+ }
+ 
+ /* Hovering over a linkable line number (in the gutter area) */
+ /* Requires Line Numbers plugin as well */
+ pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows > span:hover:before {
+     background-color: hsla(230, 8%, 24%, 0.05);
+ }
+ 
+ /* Line Numbers and Command Line plugins overrides */
+ /* Line separating gutter from coding area */
+ .line-numbers.line-numbers .line-numbers-rows,
+ .command-line .command-line-prompt {
+     border-right-color: hsla(230, 8%, 24%, 0.2);
+ }
+ 
+ /* Stuff in the gutter */
+ .line-numbers .line-numbers-rows > span:before,
+ .command-line .command-line-prompt > span:before {
+     color: hsl(230, 1%, 62%);
+ }
+ 
+ /* Match Braces plugin overrides */
+ /* Note: Outline colour is inherited from the braces */
+ .rainbow-braces .token.token.punctuation.brace-level-1,
+ .rainbow-braces .token.token.punctuation.brace-level-5,
+ .rainbow-braces .token.token.punctuation.brace-level-9 {
+     color: hsl(5, 74%, 59%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-2,
+ .rainbow-braces .token.token.punctuation.brace-level-6,
+ .rainbow-braces .token.token.punctuation.brace-level-10 {
+     color: hsl(119, 34%, 47%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-3,
+ .rainbow-braces .token.token.punctuation.brace-level-7,
+ .rainbow-braces .token.token.punctuation.brace-level-11 {
+     color: hsl(221, 87%, 60%);
+ }
+ 
+ .rainbow-braces .token.token.punctuation.brace-level-4,
+ .rainbow-braces .token.token.punctuation.brace-level-8,
+ .rainbow-braces .token.token.punctuation.brace-level-12 {
+     color: hsl(301, 63%, 40%);
+ }
+ 
+ /* Diff Highlight plugin overrides */
+ /* Taken from https://github.com/atom/github/blob/master/styles/variables.less */
+ pre.diff-highlight > code .token.token.deleted:not(.prefix),
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) {
+     background-color: hsla(353, 100%, 66%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::-moz-selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.deleted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.deleted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.deleted:not(.prefix) *::selection {
+     background-color: hsla(353, 95%, 66%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix),
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) {
+     background-color: hsla(137, 100%, 55%, 0.15);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::-moz-selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::-moz-selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::-moz-selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ pre.diff-highlight > code .token.token.inserted:not(.prefix)::selection,
+ pre.diff-highlight > code .token.token.inserted:not(.prefix) *::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix)::selection,
+ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
+     background-color: hsla(135, 73%, 55%, 0.25);
+ }
+ 
+ /* Previewers plugin overrides */
+ /* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-light-ui */
+ /* Border around popup */
+ .prism-previewer.prism-previewer:before,
+ .prism-previewer-gradient.prism-previewer-gradient div {
+     border-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Angle and time should remain as circles and are hence not included */
+ .prism-previewer-color.prism-previewer-color:before,
+ .prism-previewer-gradient.prism-previewer-gradient div,
+ .prism-previewer-easing.prism-previewer-easing:before {
+     border-radius: 0.3em;
+ }
+ 
+ /* Triangles pointing to the code */
+ .prism-previewer.prism-previewer:after {
+     border-top-color: hsl(0, 0, 95%);
+ }
+ 
+ .prism-previewer-flipped.prism-previewer-flipped.after {
+     border-bottom-color: hsl(0, 0, 95%);
+ }
+ 
+ /* Background colour within the popup */
+ .prism-previewer-angle.prism-previewer-angle:before,
+ .prism-previewer-time.prism-previewer-time:before,
+ .prism-previewer-easing.prism-previewer-easing {
+     background: hsl(0, 0%, 100%);
+ }
+ 
+ /* For angle, this is the positive area (eg. 90deg will display one quadrant in this colour) */
+ /* For time, this is the alternate colour */
+ .prism-previewer-angle.prism-previewer-angle circle,
+ .prism-previewer-time.prism-previewer-time circle {
+     stroke: hsl(230, 8%, 24%);
+     stroke-opacity: 1;
+ }
+ 
+ /* Stroke colours of the handle, direction point, and vector itself */
+ .prism-previewer-easing.prism-previewer-easing circle,
+ .prism-previewer-easing.prism-previewer-easing path,
+ .prism-previewer-easing.prism-previewer-easing line {
+     stroke: hsl(230, 8%, 24%);
+ }
+ 
+ /* Fill colour of the handle */
+ .prism-previewer-easing.prism-previewer-easing circle {
+     fill: transparent;
+ }
+pre {
+    white-space: pre;
+    overflow: auto;
+    background-color: #ffffff;
+    border: 1px solid var(--c-text);
+    padding: 5px;
+}
+
+code {
+    border-radius: 4px;
+    background-color:var(--c-code);
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+}
+div.html {
+    background-color: var(--c-header-bg);
+    padding:16px;
+    border-radius: 4px;
+}
+
+div.html table td, div.html table th {
+    border:1px solid var(--c-text);
+    padding: 4px;
+}
+div.html table {
+    border-collapse:collapse;
+}
+.w9deihfd9 {
+        flex: 0 0 245px;
+        height: 300px;
+    }
+
+    .title  {
+        margin-bottom: 5px;
+    }
+
+    .w0mp1xneb span {
+        width:  100%;
+        /* font-size: 0.6em; */
+        border-radius: 5px;
+        box-shadow: var(--c-box-shadow);
+        line-height: 1.0rem;
+        white-space: nowrap;
+        margin-bottom: 5px;
+        text-align: center;
+        display: block;
+    }</style>
+    
+
+</head>
+
+<body>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register('/lucy/sw.js');
+        }
+    </script>
+    <header class="wq89ttfva">
+        <nav class="w4go7t2fx"><a href="/lucy/">
+    <div>
+                <img loading="lazy" decoding="async" src="/lucy/_img/B36NADJHz0-120.svg" alt="logo deltion" width="120" height="41">
+            </div>
+</a>
+<div class="links">
+    <div>
+                <nav-item url="/" title="Modules" selected="selected" class="wh61vald5"><a href="/lucy/" class="selected">Modules</a>
+
+</nav-item>
+<nav-item url="/authors/" title="Auteurs" selected="notselected" class="wh61vald5"><a href="/lucy/authors/" class="notselected">Auteurs</a>
+
+</nav-item>
+            </div>
+</div>
+
+</nav>
+    
+
+</header>
+    <main class="w9s7xnshy">
+        <main-title ref="/subjects/ict-flex/introductie/" class="w3ogpr5jr"><div class="category">
+        <a href="/lucy/subjects/ict-flex/introductie/"><p slot="category">ICT Flex</p></a>
+    </div>
+    <div class="authors">
+        <span slot="authors">Jan Jaap Siewers, Jeroen Heuvelman, André Dalmolen</span> |
+        <span slot="date">Sep 19, 2023</span>
+    </div>
+    <div class="title">
+        <h1><div slot="title">Verslag | Licenties NL/EN</div></h1>
+    </div>
+
+</main-title>
+<main-content class="webcftrhj"><div class="sidebar">
+    <ul>
+        <list-link url="/subjects/ict-flex/introductie/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/introductie/"><li class="notselected">Introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/basis-ken-jezelf/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/basis-ken-jezelf/"><li class="notselected">Basis | Ken Jezelf</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/basis-hosting/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/basis-hosting/"><li class="notselected">Basis | Hosting</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/basis-programmeren-basis/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/basis-programmeren-basis/"><li class="notselected">Basis | Programmeren basis</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/basis-webpagina/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/basis-webpagina/"><li class="notselected">Basis | Webpagina</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/basis-html-en-css/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/basis-html-en-css/"><li class="notselected">Basis | HTML en CSS</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/basis-beginnen-met-php/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/basis-beginnen-met-php/"><li class="notselected">Basis | Beginnen met PHP</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/basis-javascript/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/basis-javascript/"><li class="notselected">Basis | Javascript</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/basis-database-introductie/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/basis-database-introductie/"><li class="notselected">Basis | Database introductie</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/verslag-autheursrecht/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/verslag-autheursrecht/"><li class="notselected">Verslag | Autheursrecht</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/verslag-avg/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/verslag-avg/"><li class="notselected">Verslag | AVG</li></a>
+
+</list-link>
+<list-link url="/subjects/ict-flex/verslag-licenties-nl-en/" page="/subjects/ict-flex/verslag-licenties-nl-en/" class="wv0jwq1on"><a href="/lucy/subjects/ict-flex/verslag-licenties-nl-en/"><li class="selected">Verslag | Licenties NL/EN</li></a>
+
+</list-link>
+    </ul>
+</div>
+<div class="content">
+    <blockquote>
+<h4>Voorkennis</h4>
+<ul>
+<li>Geen voorkennis nodig</li>
+</ul>
+</blockquote>
+<h2>Introductie</h2>
+<p>Iedereen met een computer, smartphone, tablet of IOT-device<sup>1</sup> maakt gebruik
+van software. Onder software verstaan wij alle programma’s die jij op jouw device(s) gebruikt.
+Denk hierbij aan programma’s als tekstverwerkers, emailclients,</p>
+<p>chatprogramma’s, games maar ook jouw operating systeem valt onder software.
+”Computersoftware omvat computerprogramma’s, bibliotheken en gerelateerde
+niet-uitvoerbare gegevens, zoals online documentatie of digitale media. Computerhardware
+en -software hebben elkaar nodig.”(<strong>codeguild</strong>)</p>
+<p>Software developers willen graag met hun opdrachtgevers afspreken onderwelke
+voorwaarden opdrachtgevers hun software mogen gebruiken. Dit gebeurt in een
+zogenaamde licentieovereenkomst.</p>
+<h3>Engels</h3>
+<p>Let op. Voor deze opdracht moet je ook een Engelstalig verslag schrijven. Zorg
+ervoor dat je Engelse lessen volgt als je Engels een lastige taal vindt.
+De Engelse docent beoordeelt het Engelse verslag op jouw kennis van de Engelse
+taal.</p>
+<p><sup>1</sup>Iot : Internet of things</p>
+<blockquote>
+<h4>Dit ga je leren</h4>
+<ul>
+<li>Je gaat leren wat commerciële softwarelicentie is met voor- en nadelen.</li>
+<li>Je gaat leren wat open source softwarelicentie is met voor- en nadelen.</li>
+<li>Je gaat leren wat creative commons licentie is met voor- en nadelen.</li>
+<li>Je gaat leren wat EULA is en wat er in moet komen te staan</li>
+</ul>
+</blockquote>
+<h2>Vakdocenten</h2>
+<ul>
+<li>Peter van Gemert - GEMEP - pgemert@deltion.nl</li>
+<li>Jeroen Heuvelman - HEUVJ - jheuvelman@deltion.nl</li>
+<li>André Dalmolen - DALMA - adalmolen@deltion.nl</li>
+</ul>
+<h2>Backlog</h2>
+<ul>
+<li>Als software developer wil ik graag weten wat een commerciële softwarelicentie voor mogelijkheden en restricties geeft zodat ik de juiste licentie kan kiezen;</li>
+<li>Als software developer wil ik graag weten wat een open source softwarelicentie voor mogelijkheden en restricties geeft zodat ik de juiste licentie kan
+kiezen;</li>
+<li>Als software developer wil ik graag weten wat een creative commons licentie voor mogelijkheden en restricties geeft zodat ik de juiste licentie kan
+kiezen;</li>
+<li>Als software developer wil ik weten wat ik in een EULA moet zetten;</li>
+</ul>
+<h2>Licentieovereenkomst</h2>
+<p>”De licentieovereenkomst is de overeenkomst waarbij aan de licentienemer het
+recht wordt verleend om gebruik te maken van werk in de zin van de Auteurswet
+of andere intellectuele eigendomsrechten van de licentiegever. (...) Een licentieovereenkomst
+kan bijvoorbeeld betrekking hebben op:</p>
+<ol>
+<li>Software of online dienst;</li>
+<li>Tekst of tekening;</li>
+<li>Ontwerp;</li>
+<li>Merk en/of logo;</li>
+<li>Uitvinding;</li>
+<li>Model;</li>
+<li>Knowhow.</li>
+</ol>
+<p>Een licentie wordt ook wel een gebruiksrecht genoemd. De voorwaarden waaronder
+de licentie/het gebruiksrecht wordt verleend, staan in de licentieovereenkomst.
+(...) Wordt het recht tot gebruik van een licentie online verleend, dan
+staan de afspraken over het gebruik van de licentie vaak in gebruiksvoorwaarden,
+licentievoorwaarden of algemene voorwaarden.”(<strong>juridischesupermarkt</strong>)</p>
+<p>Als software developer kan ik met een licentie aangeven hoe derden mijn product
+mogen gebruiken. Als gebruiker van software geeft de licentie mij informatie over
+de manier waarop ik de software mag gebruiken.</p>
+<h3>Type licentieovereenkomsten</h3>
+<p>Er zijn in de loop der jaren verschillende licentieovereenkomsten bedacht die tegenwoordig
+nog in gebruik zijn. De bekendste licentievoorwaarde is waarschijnlijk
+de EULA. Andere bekende licentievoowaarden zijn de zogenaamde open source licenties.
+Verder kennen we nog de Creative Commons licenties voor werken die
+geen software zijn.</p>
+<h2>End User License Agreement</h2>
+<p>Een EULA (End User License Agreement) is een simpele vorm van een licentieovereenkomst
+tussen een software developer en de gebruikers van zijn software.
+De eula kan gezien worden als een huurovereenkomst. Door het accepteren van
+de eula geeft de gebruiker aan dat hij belooft zich te houden aan de regels in de
+eula.
+Voorbeeld
+Op de website van Ictrecht (<strong>ictrecht-eula</strong>) vind je onderstaande voorbeeld van
+een eula.
+Eindgebruikerslicentie voor Software Y</p>
+<ol>
+<li>Scope van de licentie<br>
+(a) Licentiegever X verstrekt hierbij aan de rechtmatige verkrijger van Software Y (”u”) een gebruiksrecht voor deze software. Dit recht is beperkt
+tot het gebruik door u als natuurlijk persoon die niet handelt in de uitoefening
+van beroep of bedrijf, alsook uw huisgenoten.<br>
+(b) Deze licentie is persoonsgebonden. De software mag op een onbeperkt
+aantal computers worden ge¨ınstalleerd, maar alleen een geautoriseerd
+gebruiker (of het geautoriseerd aantal gebruikers) mag deze
+installaties daadwerkelijk gebruiken.<br>
+(c) Het is niet toegestaan:<br>
+<ul>
+<li>de broncode van de software te reverse engineeren of de Software te decompileren, behoudens voor zover dit bij bepaling van
+dwingend recht is toegestaan;</li>
+<li>de software in kopie te geven aan derden anders dan uw huisgenoten;
+de software in sublicentie te geven of beschikbaar te
+stellen aan derden, middels verhuur, software-as-a-Service constructies of anderszins;</li>
+<li>wijzigingen aan te brengen in de software, behoudens voor zover
+dit bij bepaling van dwingend recht is toegestaan;</li>
+<li>aanduidingen van Licentiegever X als rechthebbende op de Software of delen daarvan te verwijderen of onleesbaar te maken.<br>
+(d) U mag een reservekopie van de software maken. Deze reservekopie
+mag u echter niet zelfstandig gebruiken of verhandelen of verspreiden
+anders dan in combinae metde originele software.<br></li>
+</ul>
+</li>
+<li>Intellectuele eigendom<br>
+(a) Alle rechten op de software, de bijbehorende documentatie en alle
+wijzigingen en uitbreidingen op beiden liggen bij en blijven bij Licentiegever X. U verkrijgt uitsluitend de gebruiksrechten en bevoegdheden
+die voortvloeien uit de strekking van deze overeenkomst of die
+schriftelijk worden toegekend en voor het overige mag u de software
+niet gebruiken, verveelvoudigen of openbaar maken.</li>
+<li>Tegenprestatie<br>
+(a) U bent zelf verantwoordelijk voor installatie en ingebruikname van de
+software. In de documentatie vindt u aanbevolen hard- en softwareomgevingseisen.<br>
+(b) Voor het gebruiksrecht is een eenmalige betaling bij verkrijging verschuldigd.
+Over de wijze van betaling wordt u apart geïnformeerd
+door Licentiegever X.<br></li>
+<li>Updates<br>
+(a) Licentiegever X brengt periodiek updates uit die fouten herstellen of
+het functioneren van de software verbeteren.<br>
+(b) Raadpleeg voor de laatste updates regelmag de website van Licentiegever X. Er bestaat nooit aansprakelijkheid voor schade als gevolg
+van fouten die verholpen zijn in een door u niet geïnstalleerde update.<br></li>
+</ol>
+<p><strong><em>Opgave : EULA</em></strong></p>
+<ol>
+<li>Lees de voorbeeld eula goed door</li>
+<li>Beantwoord dan de volgende vragen en noteer deze antwoorden. Geef in
+je antwoord aan waar het antwoord staat:<br>
+Overleg met teamleden en docenten is natuurlijk toegestaan.<br>
+(a) Mogen huisgenoten de software gebruiken?<br>
+(b) Wie is aansprakelijk voor kosten die ontstaan door fouten in de software die nog niet door een update zijn verholpen?<br>
+(c) Mag jij proberen de software na te bouwen door uit te vogelen wat
+de software doet?<br>
+(d) Wie is aansprakelijk als jij een update niet installeert?<br>
+(e) Mag ik een reservekopie maken?<br>
+(f) Mag ik deze reservekopie verkopen?<br>
+(g) Krijg jij een auteursrecht op de handleiding van de software?<br>
+(h) Mag je de software gebruiken om je werkzaamheden voor een bedrijf
+uit te voeren?<br>
+(i) Moet je voor de software betalen?<br>
+(j) Is dit een abonnement of een eenmalige betaling?<br></li>
+<li>Beantwoord de volgende vragen over eula’s in het algemeen.<br>
+(a) Wie bepaalt de inhoud van een eula?<br>
+(b) Mag de software developer alles bepalen in de eula?<br>
+(c) Kan ik als gebruiker de eula weigeren en de software toch installeren
+of gebruiken? <br>
+<ul>
+<li>Gebeurt dit veel?<br>
+(d) Kan ik als gebruiker de voorwaarden van de eula aanpassen?</li>
+<li>Wanneer zou dit wel kunnen?<br>
+(e) Zou je deze eula gebruiken voor jouw eigen software?<br></li>
+<li>Waarom wel of waarom niet?</li>
+</ul>
+</li>
+</ol>
+<p><em><strong>Taak: Bespreek antwoorden</strong></em> <span id="DocentBespreek" label="DocentBespreek"></span>
+Bespreek jouw antwoorden met één van de docenten. Dit is niet het beoordelingsgesprek!
+Dit gesprek is vooral bedoeld om te kijken of je op de juiste weg zit</p>
+<p><strong><em>Opgave : Office 365</em></strong></p>
+<ol>
+<li>Zoek de eula van Microsoft Officce 365 Family subscription</li>
+<li>Beantwoord de volgende vragen:<br>
+(a) Hoeveel personen in jouw gezin mogen gebruik maken van een Microsoft Office 365 family subscription.<br>
+(b) Geldt de beperking op niet-commercieel gebruik in de Personal subscription ook voor Japanse gebruikers?<br></li>
+</ol>
+<h2>Open Source Software</h2>
+<p>Een eula beschermt zogenaamde closed source software. Dit is software waarvan
+jij de source code niet kunt bekijken. Van de software developer krijg jij een binary
+(in windows een .exe bestand) die je kunt installeren en gebruiken. Jij krijgt echter
+geen toegang tot de source code.
+Dit heeft tot gevolg dat jij niet kunt bekijken hoe het programma werkt en dat je
+ook geen wijzigingen kunt aanbrengen in het programma.
+Als tegenhanger is er open source software. Bij open source software krijg jij wel
+de beschikking over de source code van het programma. Je kunt hier dus wel zien
+hoe het programma werkt (als je de source code snapt) en je kunt de werking van
+het programma aanpassen (als je kunt programmeren in de taal waarin de source
+code geschreven is).
+Vaak zul je de volgende termen tegenkomen als je met open source software gaat
+werken: Free software, Open-source software, Freeware Public-domain software.</p>
+<h3>Vergelijking free en Open Source</h3>
+<figure>
+    <img src="/lucy/_assets/verslag-licentie/free-open-source.png" width="519" height="342" alt="Vergelijking Free en Open Source">
+    <figcaption>Figuur 1: Vergelijk free en open-source software, publiek domein en freeware (**moqod-openfree**)</figcaption>
+</figure>
+<p><strong><em>Taak : Bestudeer Figuur 1</em></strong></p>
+<ol>
+<li>Beantwoord de volgende vragen en noteer jouw antwoorden in.<br>
+(a) Is Free software gratis?<br>
+(b) Is Open-source software gratis?<br>
+(c) Is jouw werk beschermt door de auteurswet als jij de software als
+Public-domain software beschikbaar maakt?<br>
+(d) Is jouw werk beschermt door de auteurswet als jij jouw software als
+Open-source software beschikbaar maakt?<br></li>
+</ol>
+<p><em><strong>Taak: Bespreek antwoorden</strong></em> <span id="DocentBespreek" label="DocentBespreek"></span>
+Bespreek jouw antwoorden met één van de docenten. Dit is niet het beoordelingsgesprek!</p>
+<h2>Open Source Licenties</h2>
+<p>Open source licenties zijn ontstaan omdat mensen het gebruik van een eula te
+beperkt vonden. Een standaard eula geeft een gebruiker alleen het recht om de
+software te gebruiken. De gebruiker mag de software niet aanpassen, wijzigen,
+opnemen in een eigen product, doorverkopen, reverse-engineeren, etc, etc.
+Er zijn ook software developers die hun werk graag willen delen met andere software developers maar wel het auteursrecht willen houden. Of in ieder geval de
+erkenning willen hebben dat zij de software hebben geschreven.</p>
+<h3>Waarom open source software</h3>
+<p>Er zijn redenen waarom software developers hun code graag delen met anderen.
+Zij kunnen dit bijvoorbeeld doen omdat zijn graag hulp van anderen krijgen. Door
+de code te delen kunnen andere developers code toevoegen, aanpassen of aangeven
+dat er ook andere oplossing mogelijk zijn. Een andere reden kan zijn dat
+zij graag willen dat de rest van de wereld ook gebruik kan maken van hun code
+zonder dat ze hier geld voor wilt ontvangen. Je kunt dit zien als een soort van
+liefadigheid.
+Als houder van het auteursrecht bepaal jij hoe jij jouw code beschikbaar stelt.
+Betaald via een eula, betaald via een open source licentie, gratis via een open
+source licentie. De keuze ligt bij jouw.</p>
+<p>Open source licenties
+De open source licenties geven jouw de mogelijkheid om jouw code te delen met
+anderen maar toch zeggenschap te houden hoe jouw code gebruikt kan worden.
+Hieronder vindt je een overzicht van een aantal open source licenties en wat zij
+inhouden. (<strong>ictloket-opensourcelicenties</strong>) Er zijn veel meer licenties beschikbaar
+dan hieronder genoemd.</p>
+<ul>
+<li><strong>Apache License, 2.0</strong> De gecreëerde software mag vrijelijk verspreid worden,
+wel moet een duidelijke verwijzing worden gemaakt naar de Apache
+software Foundation, de Apache License dient toegevoegd te worden bij
+verspreiding van de gecreëeerde software. De gebruikte code van Apache
+blijft onder de Apache License vallen, de eigen geschreven code mag onder
+een andere licentie worden uitgebracht. Het openbaar maken van de
+broncode is niet verplicht. (apachelicense)</li>
+<li>Gnu General Public License (gpl) De broncode moet vrijelijk verspreid worden,
+tevens moet de broncode ook onder GPL worden verspreid, wat dus
+inhoudt dat je broncodes die onder GPL vallen nooit in closed source software kunt aantreen. (gnu-gpl3-license)</li>
+<li>GNU Library or “Lesser” General Public License (LGPL) LGPL is vergelijkbaar
+met GPL, alleen de aanpassingen in de broncode die onder de LGPL licentie vallen moeten openbaar worden gemaakt. Eigen toegevoegde code
+hoeft niet openbaar gemaakt te worden. Hierdoor is het mogelijk om code
+die onder deze licentie valt te gebruiken in closed source software. (gnu-lgpl3-license)</li>
+<li>MIT license De enige voorwaarde is dat het copyright statement en de disclaimer
+in alle kopieën moet blijven staan. (mit-license)</li>
+<li>Mozilla Public License 1.1 (MPL) Mozilla Public License is te vergelijken met
+LGPL. Het enige verschil is dat wijzigingen gedocumenteerd dienen te worden
+met de datum van de wijziging. (mozilla-license)
+In Github (Figuur 2) kun je de standaard licenties voor het software product kiezen
+wanneer je een nieuw project aanmaakt. Dit is vooral van belang als je het
+project op Public zet.</li>
+</ul>
+<figure>
+    <img src="/lucy/_assets/verslag-licentie/github.jpeg" width="309" height="465" alt="Github licenties">
+    <figcaption>Figuur 2: Github Licentiekeuze</figcaption>
+</figure>
+<p>Kies de juiste licentie voor het project dat je maakt. De licentie bepaald nml. wat
+overige software developers mogen doen met jouw code.</p>
+<h3>Permissive versus Copyle</h3>
+<p>De termen permissive en copyleft geven aan hoeveel rechten jij wilt overdragen
+aan de gebruiker van jouw software. Het gaat dan vooral om de rechten voor een
+software developer.</p>
+<ul>
+<li><strong>Permissive</strong> Met je permissive licentie geef jij andere software developers
+heel veel rechten op jouw eigen code. Zo mogen zij bijvoorbeeld jouw code
+opnemen in een closed source product.</li>
+<li><strong>Copyleft</strong> De term copyleft is ontstaan als woordgrapje op het bekendere
+copyright. Met copyleft wordt dus een licentie bedoeld die tegengesteld is
+aan een copyright.<br>Een copyleft licentie geeft jou de mogelijkheid om software van een andere
+te gebruiken maar het project waarin je deze code gebruikt moet dan
+dezelfde licentie hebben als de code die jij kopieert cq. van een ander gebruikt.</li>
+</ul>
+<p>Als jij voor een eigen project een copyleft licentie gebruikt, dan mogen andere
+software developers jouw code ook gebruiken en aanpassen, maar ze moeten
+deze aanpassingen ook onder dezelfde copyleft licentie beschikbaar maken.
+Bij een permissive licentie mag je de gratis code van een andere developer opnemen
+in een betaald product.</p>
+<p><strong><em>Opgave : Open source licentie</em></strong></p>
+<ol>
+<li>Beantwoord de volgende vragen en noteer de antwoorden. Geef niet alleen
+een ja of nee antwoord maar geef ook een reden waarom jij tot jouw
+antwoord komt. Geef aan waar op het internet jij de antwoorden gevonden
+hebt.<br>
+(a) Mag je een software productmet een GPL licentie overzetten naar een
+close source product?<br>
+(b) Mag je een software product met een permissive licentie gebruiken in
+jouw freeware product?<br>
+(c) Mag je een software product met een LGPL licentie gebruiken in jouw
+eigen closed source product?<br>
+(d) Mag je een software product met een GPL licentie gebruiken in jouw
+eigen product met GPL licentie?<br>
+(e) Mag jij wijzigingen aanbrengen in een product met een MIT licentie?<br></li>
+</ol>
+<p><em><strong>Taak: Bespreek antwoorden</strong></em> <span id="DocentBespreek" label="DocentBespreek"></span>
+Bespreek jouw antwoorden met één van de docenten. Dit is niet het beoordelingsgesprek!
+Dit gesprek is vooral bedoeld om te kijken of je op de juiste weg zit</p>
+<h2>Creatice Commons</h2>
+<p>We hebben tot nu toe gesproken over licenties die jij kunt gebruiken voor software die jij schrijft.
+Als software developer zul je soms echter ook andere werken
+maken dan software. Denk bijvoorbeeld aan handleidingen voor apps, artwork
+zoals logo’s en iconen en boeken en teksten die je op een website plaatst. De
+hiervoor besproken licenties, eula en open source, lenen zich niet om deze werken
+te beschermen.
+Een beter icentieschema voor handleidingen, logo’s, iconen, boeken en teksten
+zijn de creative commons Licenties.
+”creative Commons biedt auteurs, kunstenaars, wetenschappers, docenten en
+alle andere creatieve makers de vrijheid om op een flexibele manier met hun auteursrechten
+om te gaan. Met een keuze uit zes (gratis) beschikbare standaardlicenties bepaalt de auteursrechthebbende inwelke mate zijn of haarwerk verder
+verspreid mag worden, en onder welke voorwaarden dit mag.” (creative-commons-uitleg)</p>
+<h3>CC Bouwstenen</h3>
+<p>creative commons licenties worden gebouwd uit 4 bouwstenen.</p>
+<ul>
+<li><strong>Naamsvermelding</strong>: Je staat anderen toe om het werk waar jij auteursrecht
+op hebt te kopiëren, distribueren, vertonen, op te voeren en om afgeleid
+materiaal te maken dat op jouw werk gebaseerd is - maar uitsluitend als jij vermeld wordt als maker.</li>
+<li><strong>Niet-commercieel</strong>: Anderen mogen je werk kopiëeren, vertonen, distribueren
+en opvoeren, alsmede materiaal maken wat op jouw werk gebaseerd
+is, mits niet voor commerciëele doeleinden.</li>
+<li><strong>Geen Afgeleide Werken</strong>: Anderen mogen je werk kopiëren, distribueren,
+vertonen en opvoeren mits het werk in de originele staat blijft. Het is niet
+toegestaan dat anderen jouw werk gebruiken als basis voor nieuw materiaal.</li>
+<li><strong>Gelijk Delen</strong>: Je staat anderen toe om van jouw werk afgeleid materiaal te
+maken onder de voorwaarde dat zij het onder dezelfde icentie vrijgeven
+als het originele werk.</li>
+</ul>
+<h3>Zes licenties</h3>
+<p>Met deze 4 bouwstenen heb je de keuze uit de volgende 6 licenties</p>
+<figure>
+    <img src="/lucy/_assets/verslag-licentie/CCBY.png" width="94" height="34" alt="Naamsvermelding">
+    <figcaption>Naamsvermelding (CC BY)</figcaption>
+</figure>
+<figure>
+    <img src="/lucy/_assets/verslag-licentie/CCBYSA.png" width="94" height="34" alt="Naamsvermelding-GelijkeDelen">
+    <figcaption>Naamsvermelding-GelijkeDelen (CC BY SA)</figcaption>
+</figure>
+<figure>
+    <img src="/lucy/_assets/verslag-licentie/CCBYNC.png" width="94" height="34" alt="Naamsvermelding-NietCommercieel">
+    <figcaption>Naamsvermelding-NietCommercieel (CC BY NC)</figcaption>
+</figure>
+<figure>
+    <img src="/lucy/_assets/verslag-licentie/CCBYND.png" width="94" height="34" alt="Naamsvermelding-GeenAfgeleideWerk">
+    <figcaption>Naamsvermelding-GeenAfgeleideWerk (CC BY ND)</figcaption>
+</figure>
+<figure>
+    <img src="/lucy/_assets/verslag-licentie/CCBYNCSA.png" width="94" height="34" alt="-NietCommercieel-GelijkeDelen">
+    <figcaption>Naamsvermelding-NietCommercieel-GelijkeDelen (CC BY NC SA)</figcaption>
+</figure>
+<figure>
+    <img src="/lucy/_assets/verslag-licentie/CCBYNCND.png" width="94" height="34" alt="-NietCommercieel-GeenAfgeleideWerken">
+    <figcaption>Naamsvermelding-NietCommercieel-GeenAfgeleideWerken (CC BY NC ND)</figcaption>
+</figure>
+<p><strong><em>Opgave : Creative Commons</em></strong></p>
+<ol>
+<li>Bestudeer de voorwaarden van de 6 creative commons-licenties</li>
+<li>Beantwoord de volgende vragen. Noteer jouw antwoorden. Geef niet alleen
+antwoord maar onderbouw jouw antwoord met argumenten.
+Overleg studenen en docenten is natuurlijk toegestaan.<br>
+(a) Ik heb een website geschreven met een eigen tekst. Deze tekst wil ik
+met een licentie beschermen.<br>
+Kies ik een opensource of een creative commons-licentie?<br>
+(b) Ik ontwikkel momenteel een website. In een boek lees ik een stukje
+tekst dat ik graag op mijn website zou plaatsen. Ik lees dat het boek
+een CC BY-NC licentie heeft.<br>
+Wanneer mag ik de tekst uit het boek wel op mijn website plaatsen?<br>
+Wanneer mag ik deze tekst niet op mijn website plaatsen?<br>
+(c) Jij hebt een aantal iconen ontworpen waarvan jij vind dat derden deze
+ook zouden mogen gebruiken. Het maakt jouw niet zoveel uit wat
+derden met jouw iconen doen, zolang ze jouw naam maar noemen
+als de maker van de iconen.<br>
+Welke creative commons licentie kies jij?<br>
+(d) Ik ontwerp op dit moment een app voor een betalende opdrachtgever.
+Als achtergrond image in mijn app wil ik een image gebruiken die ik
+op het internet gevonden heb. De licentie op het image is CC BY-NC.<br>
+Mag ik de image als achtergrond in mijn app gebruiken?<br>
+(e) Op het internet vond ik een handleiding voor een software product.
+Helaas staan er fouten in de handleiding en vind ik de handleiding niet
+compleet. Ik besluit de handleiding aan te passen door de fouten eruit
+te halen. Ook voeg ik de missende informatie toe. Als laatste pas ik de
+naam van de schrijver aan en wijzig ik deze in mijn eigen naam. Ik heb
+tenslotte heel veelwerk gehad aan het aanpassen van de handleiding.<br>
+Mag ik dit doen als ik weet dat de oorspronkelijke handleiding een
+creative commons licentie heeft?<br>
+(f) Op het internet vond ik een handleiding voor een software product.
+Helaas staan er fouten in de handleiding en vind ik de handleiding
+niet compleet. Ik besluit de handleiding aan te passen door de fouten
+eruit te halen. Ook voeg ik de missende informatie toe. Ik laat de
+naam van de oorspronkelijke auteur staan maar voeg mijn eigen naam
+toe. Ik heb tenslotte heel veel werk gehad aan het aanpassen van de
+handleiding.<br>
+Mag ik dit doen als ik weet dat de oorspronkelijke handleiding een CC
+BY-ND licentie heeft.<br>
+(g) Ik heb een foto op het internet geplaats met een CC BY-SA licentie. Ik
+kom er vandaag achter dat een gebruiker op het internet mijn foto op
+haar website heeft geplaatst. Zij heeft wel mijn naam vermeld als de
+oorspronkelijke fotograaf, maar zij heeft helaas de licentie op de foto
+aangepast naar CC BY-NC-ND.<br>
+Kun jij op basis van jouw gekozen licentie bezwaar maken op deze aanpassing
+van de licentie?<br>
+(h) Voor mijn huidige project heb ik een document geschreven dat ik graag
+wil delen met de wereld. Ik wil wel dat het document gratis blij
+en niet door commerciële bedrijven gebruikt wordt. Ik heb er verder
+geen problemen mee als iemand mijn document aanpast en daarna
+weer verder deelt. Dit moet dan wel onder dezelfde licentie gebeuren
+als de licentie die ik zelf kies.<br>
+Welke licentie moet ik kiezen?<br>
+(i) Ik heb een logo gemaakt waarvan ik eigenlijk niet wil dat iemand die
+gebruikt.<br>
+Welke licenties moet ik niet gebruiken?<br>
+Hoe bescherm ik mijn logo wel tegen misbruik?<br></li>
+</ol>
+<h2>Verslag</h2>
+<p><strong><em>Opgave : Nederlands verslag</em></strong></p>
+<ul>
+<li>Bedenk een probleemstelling voor jouw verslag.</li>
+<li>Bedenk minimaal 5 deelvragen.</li>
+<li>Bespreek de probleemstelling en deelvragen met een docent.</li>
+<li>Schrijf een verslag waarin je de probleemstelling en de deelvragen beantwoord. Maak er wel een echt verslag van en geen Q&amp;A lijstje.</li>
+<li>Hou je verder aan de indeling die in de rubric gegeven wordt.</li>
+<li>Hou je bij het schrijven aan de Richtlijnen Verslag.</li>
+</ul>
+<p><strong><em>Opgave : Engels verslag</em></strong></p>
+<ul>
+<li>Vertaal het Nederlandse verslag in het Engels.</li>
+<li>Overleg met jouw Engelse docent als je dit lastig vindt.</li>
+<li>Overleg met jouw Engelse docent of de Richtlijnen verslag ook voor het
+Engelse verslag gelden.</li>
+</ul>
+<h2>Afronding</h2>
+<ol>
+<li>Gebruik de rubric om te bepalen of je een voldoende of goed haalt voor dit
+verslag;
+<ul>
+<li>Geen voldoende of goed? Pas dan je verslag aan.</li>
+</ul>
+</li>
+<li>Bespreek een review moment bij een docent;</li>
+<li>Deel het verslag via Office 365 / Onedrive met de docenten;</li>
+<li>Bereid je goed voor op het review moment;
+<ul>
+<li>Weet wat jij wilt vertellen;</li>
+<li>Weet wat er volgens de rubric van je verwacht wordt;</li>
+<li>Bespreek je verslag indien nodig voor met een docent;</li>
+<li>Hou er rekening mee dat je het verslag misschien klassikaal mag presenteren;</li>
+</ul>
+</li>
+<li>Upload het verslag na goedkeuring van de docenten in Cumlaude.</li>
+</ol>
+<h2>Naamgeving verslag</h2>
+<p>Gebruik de volgende naamgevingsconventie voor het verslag:</p>
+<p><strong>[studentnummer]_[achternaam]_licenties.docx</strong></p>
+<ul>
+<li>
+<p>Vervang [studentnummer] door je studentnummer</p>
+</li>
+<li>
+<p>Vervang [achternaam] door je achternaam</p>
+</li>
+</ul>
+<p>Gebruik de volgende naamgevingsconventie voor het engelstalig verslag:</p>
+<p><strong>[studentnummer]_[achternaam]_licences.docx</strong></p>
+<ul>
+<li>
+<p>Vervang [studentnummer] door je studentnummer</p>
+</li>
+<li>
+<p>Vervang [achternaam] door je achternaam</p>
+</li>
+</ul>
+<h2>Planning Licenties</h2>
+<p>Je kunt onderstaande sjabloon gebruiken voor jouw eigen planning. Neem
+onderstaande sjabloon daarvoor over in jouw favoriete planningtool en
+voeg waar gewenst eigen regels toe. Zet de verschillende acties daarna
+op de juiste data in jouw agenda.</p>
+<p>PS: Je kunt taken niet altijd na elkaar te plannen. Je zult taken ook
+moeten laten overlappen. Dit geldt ook voor taken in de verschillende
+opdrachten.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Actie</strong></th>
+<th style="text-align:left"><strong>Datumstart</strong></th>
+<th style="text-align:left"><strong>Datumklaar</strong></th>
+<th style="text-align:left"><strong>Klaar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Bestudeer licentieovereenkomst</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer EULA</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestuudeer Open source licenties</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Bestudeer Creative commons licenties</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Schrijf een nederlandstalig verslag over licenties</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Schrijf een engelstalig verslag over licenties</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2>Rubric Licenties</h2>
+<h4>Reflectie</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>M</em></td>
+<td style="text-align:left"><em>O</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb gereflecteerd op opdracht?</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb reflectie in verslag beschreven?</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4>Opdracht</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>M</em></td>
+<td style="text-align:left"><em>O</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik ben tevreden hoe ik deze opdracht gemaakt heb</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4>Kennis Licenties</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>M</em></td>
+<td style="text-align:left"><em>O</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan het verschil tussen open source en closed source software uitleggen</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wanneer een eula een goede keuze is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wanneer een open source software licentie een goede keuze is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan uitleggen wanneer een creative commons licentie een goede keuze is</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan vertellen welke rechten en plichten een permissive licentie geeft</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik kan vertellen welke rechten en plichten een copyleft licentie geeft</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4>Verslag</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><em>G=Goed | V=Voldoende | M=Matig | O=Onvoldoende</em></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><em>G</em></td>
+<td style="text-align:left"><em>V</em></td>
+<td style="text-align:left"><em>M</em></td>
+<td style="text-align:left"><em>O</em></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb het verslag volgens de Richtlijnen Verslag geschreven</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb in het verslag mijn probleemstelling beschreven</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik heb in het verslag de probleemstelling beantwoord</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik bespreek in het verslag de EULA</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik bespreek in het verslag open source licenties</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik bespreek in het verslag permissive licenties</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik bespreek in het verslag copyleft licenties</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Ik bespreek in het verslag creative commons licenties</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</main-content>
+    
+
+</main>
+    <footer class="wzi47stss"><div class="cc">
+    <picture><source type="image/webp" srcset="/lucy/_img/iBwJRm3wB5-88.webp 88w"><img loading="lazy" decoding="async" src="/lucy/_img/iBwJRm3wB5-88.jpeg" alt="logo deltion" width="88" height="31"></picture>
+</div>
+<div class="copy">
+    <p><span>2023</span> © Deltion ICT - Software Development<br>
+            Dit werk valt onder een <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                Naamsvermelding - NietCommercieel 4.0 internationaal-licentie</a>.
+        </p>
+</div>
+
+</footer>
+    <script type="module" defer=""></script>
+
+
+
+</body>
+</html>
