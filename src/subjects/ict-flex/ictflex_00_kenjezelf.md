@@ -35,8 +35,9 @@ gedrag van anderen te accepteren.
 
 ## Vakdocenten
 
--   Peter van Gemert - PGT - pgemert@deltion.nl
-
+-   Peter van Gemert - GEMEP - pgemert@deltion.nl
+-   Jeroen Heuvelman - HEUVJ - jheuvelman@deltion.nl
+-   André Dalmolen - DALMA - adalmolen@deltion.nl
 ## Backlog
 
 -   Als student wik ik weten welke persoonlijkheidskenmerken ik heb
@@ -335,6 +336,7 @@ opdrachten.
 | Bespreek verslag met docent       |                |                |           |
 | Reviewmoment                      |                |                |           |
 
+## Rubric Ken Je Zelf
 #### Reflectie
 
 | *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* |     |     |     |     |

@@ -12,8 +12,7 @@ technology: all
 > * Geen voorkennis nodig
 
 ## Introductie
-Als soware developer schrijf je code en ontwikkel je programma’s, apps, web-
-sites en misschien wel games. Vroeg of laat loop je dan tegen het auteursrecht
+Als sofware developer schrijf je code en ontwikkel je programma’s, apps, websites en misschien wel games. Vroeg of laat loop je dan tegen het auteursrecht
 en de auteurswet aan. Het auteursrecht regelt of je werken van een derde mag
 gebruiken. Ook regelt het of derden werken van jou mogen gebruiken.
 
@@ -44,230 +43,95 @@ auteurswet in de opdracht verwerkt hebt.
  
 ## Backlog
 
-- Als sftware developer moet ik weten of ik het werk van derden mag ge-
-bruiken zodat ik geen plagiaat pleeg;
+- Als sftware developer moet ik weten of ik het werk van derden mag gebruiken zodat ik geen plagiaat pleeg;
 
-- Als sftware developer moet ik weten wanneer derden mijn werk mogen
-gebruiken zodat ik kan optreden in het geval er inbreuk op mijn auteurs-
-recht wordt gemaakt;
+- Als sftware developer moet ik weten wanneer derden mijn werk mogen gebruiken zodat ik kan optreden in het geval er inbreuk op mijn auteursrecht wordt gemaakt;
 
-- Als student wil ik weten wat het auteursrecht inhoudt zodat ik geen plagiaat
-pleeg bij het schrijven van werkstukken en verslagen;
+- Als student wil ik weten wat het auteursrecht inhoudt zodat ik geen plagiaat pleeg bij het schrijven van werkstukken en verslagen;
 
-- Als student wil ik weten wat het auteursrecht inhoudt zodat ik bij het op-
-lossen van programmeeropdrachten geen inbreuk maak op andermans au-
-teursrecht(en).
+- Als student wil ik weten wat het auteursrecht inhoudt zodat ik bij het oplossen van programmeeropdrachten geen inbreuk maak op andermans auteursrecht(en).
 
 ## Literatuuronderzoek
 
-Voor deze opdracht doe je onderzoek naar de inhoud van de Avg en welke invloed deze wet heeft op jouw werkzaamheden als software developer.
-Een goed onderzoek bestaat uit meerdere stappen die je gestructureerd door- loopt.
+Voor deze opdracht doe je onderzoek naar de inhoud van Auteursrecht en welke invloed deze recht heeft op jouw werkzaamheden als software developer.
+Een goed onderzoek bestaat uit meerdere stappen die je gestructureerd doorloopt.
 
 ### Stappenplan
 
-Door het volgen van een stappenplan kom je tot het beste resultaat. Een stap- penplan zou er als volgt uit kunnen zien.
+Door het volgen van een stappenplan kom je tot het beste resultaat. Een stappenplan zou er als volgt uit kunnen zien.
 1. Formuleer de probleemstelling (centrale onderzoeksvraag).
 ”De hoofdvraag of probleemstelling is een vraag of korte stelling waarin je
 precies samenvat wat je in je scriptie gaat onderzoeken.” (studiemeesters-probleemstelling) De probleemstelling is dus de vraag waar je onderzoek naar doet. Het antwoord op een probleemstelling mag niet met een simpel ja of nee gegeven
 worden. Een probleemstelling is dus een open vraag.
-2. Formuleer eventuele deelvragen. Deelvragen zijn subvragen van je pro- bleemstelling. De probleemstelling is meestal niet in e ́e ́n keer te beant- woorden door zijn omvang. Deelvragen delen de probleemstelling op in kleinere vragen die je wel kunt beantwoorden.
+2. Formuleer eventuele deelvragen. Deelvragen zijn subvragen van je probleemstelling. De probleemstelling is meestal niet in één keer te beantwoorden door zijn omvang. Deelvragen delen de probleemstelling op in kleinere vragen die je wel kunt beantwoorden.
 3. Noteer kernbegrippen.
 4. Zoek op basis van de kernbegrippen naar informatiebronnen. 
 5. Noteer relevante informatiebronnen.
-6. Maak een planning voor het onderzoeken van de bronnen .
+6. Maak een planning voor het onderzoeken van de bronnen.
 7. Verricht eigen onderzoek:
-    -  Gebruik de bronnen om de juiste informatie te vinden. • Beantwoord de probleemstelling.
+    - Gebruik de bronnen om de juiste informatie te vinden. 
+    - Beantwoord de probleemstelling.
     - Beantwoord de deelvragen.
     - Maak notities.
 8. Controleer gegevens. 
-9. Trek conclusies:
-    - Leeshttps://www.afstudeergoeroes.nl/onderzoek-en-afstuderen/onderzoek/ conclusies-trekken/
+9.  Trek conclusies:
+    - Lees <https://www.afstudeergoeroes.nl/onderzoek-en-afstuderen/onderzoek/conclusies-trekken/>
 10.  Schrijf het verslag (onderzoeksrapport):
     - Let op de Richtlijnen Verslag.
     - Let op dat je de auteursrecht niet overtreedt.
     - Vergeet niet de probleemstelling te beantwoorden.
 11.  Presenteer of bespreek het verslag.
 
-Lees de volgende documentatie voor meer informatie over het doen van een li- teratuuronderzoek:
-- https://www.studielab.nl/literatuuronderzoek/
-- https://infobronnen.wordpress.com/stappen-in-onderzoek/
-- http://www.afstudeersucces/literatuuronderzoek-vijf-stappen-een-doelgerichte- aanpak/
-
-#### Taak : maak persoonlijkheidstest
-
-1.  Navigeer naar  
-    <https://www.123test.nl/persoonlijkheidstest/>
-
-2.  Maak deze test  
-    (Beantwoord de vragen naar eer en geweten, er zijn geen foute
-    antwoorden);
-
-3.  Noteer de uitkomsten van de test;
-
-4.  Onderzoek de big five factoren:
-
-    -   Openheid voor ervaring (Openheid)
-
-    -   Gewetensvolheid (Ordelijkheid)
-
-    -   Extraversie (Extraversie)
-
-    -   Meegaandheid (Vriendelijkheid)
-
-    -   Natuurlijke reactie (Emotionele stabiliteit)
-
-    Ga daarvoor naar bijv.
-    <https://www.jobpersonality.com/big-five-persoonlijkheidstheorie>
-    voor een uitleg over bovenstaande factoren.
-
-5.  Reflecteer op de uitkomst van jouw test;
-
-    -   Ben je eens met de uitslag?
-
-    -   Ben je oneens met de uitslag?
-
-    -   Waarom ben je het eens of oneens met de uitslag?
-
-6.  Welke voor- en nadelen zie jij voor jezelf als student en toekomstig
-    teamlid?
-
-7.  Optioneel: Op
-    <https://www.16personalities.com/free-personality-test> vind je een
-    leuke tweede persoonlijkheidstest.
-
-## Leerstijlentest
-
-Leren is een uniek proces waarbij ieder mens een favoriete manier van
-leren heeft. Sommige mensen leren door veel te doen, andere mensen leren
-door veel te lezen. Sommige mensen willen het liefst eerst alle voor- en
-nadelen van een oplossing op een rij zetten terwijl anderen direct
-beginnen met het opzetten van de uitwerking. Deze test leert jouw meer
-over jouw favoriete leerstijl.
-
-Ieder mens heeft een favoriete leerstijl. Maar deze leerstijl is
-afhankelijk van de leersituatie. Het kan zijn dat je in verschillende
-situaties ook een andere favoriete leerstijl hebt. Je maakt dus tijdens
-het leren gebruik van alle leerstijlen maar afhankelijk van de de
-situatie begin jouw favoriete leerstijl.
-
-**!! Let op : De test geeft geen oordeel !!**
-
-#### Taak : Maak leerstijlentest
-
-1.  Navigeer naar  
-    <https://profielen.hr.nl/leerstijlentest/>
-
-2.  Maak de test.  
-    (Beantwoord de vragen naar eer en geweten, er zijn geen foute
-    antwoorden)
-
-3.  Noteer de uitkomst van de test.
-
-4.  Onderzoek de verschillende leerstijlen:
-
-    -   Doener
-
-    -   Dromer (Beschouwer)
-
-    -   Denker
-
-    -   Beslisser
-
-    Ga naar
-    <https://www.ikleerinbeelden.nl/op-school/beelddenken-leren/de-leerstijlen-van-kolb/>
-    voor een uitleg over bovenstaande leerstijlen.
-
-5.  Reflecteer op de uitkomst van jouw test.
-
-    -   Ben je eens met de uitkomsten van de test?
-
-    -   Ben je oneens met de uitkomsten van de test?
-
-    -   Waarom ben je eens of oneens met de uitkomsten?
-
-6.  welke voor- en nadelen zie jij voor jezelf als student en toekomstig
-    teamlid?
-
-## Teamrollentest
-
-In een team hebben mensen een favoriete rol. Sommige mensen zijn geboren
-leiders en zullen direct de leiding in een project of team op zich
-nemen. Andere kijken liever eerst de kat uit de boom en volgen graag een
-leider.
-
-Sommige mensen zeggen direct wat er in hen opkomt terwijl andere mensen
-alleen praten als het strikt noodzakelijk is. De teamrollentest geeft
-inzicht in de rol die jij van nature het liefst op je neemt.
-
-**!! Let op : de test geeft geen oordeel !!**
-
-#### Taak : maak teamrollentest
-
-1.  Navigeer naar  
-    <https://werkenmetteamrollen.nl/vragenlijst/>
-
-2.  Maak de test. (Beantwoord de vragen naar eer en geweten, er zijn
-    geen foute antwoorden)
-
-3.  Noteer de uitkomst van de test.
-
-4.  Onderzoek de verschillende teamrollen:
-
-    -   Bedrijfsman
-
-    -   Brononderzoeker
-
-    -   Plant
-
-    -   Monitor
-
-    -   Vormer
-
-    -   Voorzitter
-
-    -   Zorgdrager
-
-    -   Groepswerker
-
-    Ga naar <https://werkenmetteamrollen.nl/uitleg-teamrollen/> voor een
-    uitleg van deze teamrollen.
-
-5.  Reflecteer op de uitkomst van de test.
-
-    -   Ben je eens met de uitkomsten?
-
-    -   Ben je oneens met de uitkomsten?
-
-    -   Waarom ben je eens of oneens met de uitkomsten?
-
-6.  Welke voor- en nadelen zie jij voor jezelf als student en toekomstig
-    teamlid?
-
-## Verslag
-
-#### Taak: Schrijf verslag
-
--   Schrijf een verslag met de volgende naam:
-    studentnummer_achternaam_verslag_kenjezelf.docx
-
--   Vervang \[studentnummer\] door je studentnummer
-
--   Vervang \[achternaam\] door je achternaam
-
--   Plaats het verslag in onedrive.
-
--   Schrijf de volgende onderdelen in het verslag:
-
-    1.  de uitkomsten van je persoonlijkheidstest
-
-    2.  de uitkomsten van je leerstijlentest
-
-    3.  de uitkomsten van je teamrollentest
-
-    4.  je mening over de uitkomsten van de test
+Lees de volgende documentatie voor meer informatie over het doen van een literatuuronderzoek:
+- <https://www.studielab.nl/literatuuronderzoek/>
+- <https://infobronnen.wordpress.com/stappen-in-onderzoek/>
+- <http://www.afstudeersucces/literatuuronderzoek-vijf-stappen-een-doelgerichte-aanpak/>
+
+## Probleemstelling
+Gebruik de volgende probleemstelling voor je onderzoek:
+”Waarom is het auteursrecht belangrijk voor software developers?”
+
+Deelvragen
+1. Wat regelt het auteursrecht?
+2. Wat wordt bedoelt met de term ”werk”?
+3. Wat wordt bedoelt met de term ”derden”?
+4. Wanneer krijg jij het auteursrecht op een werk?
+5. Wat is een werk volgens het auteursrecht?
+6. Zijnerooksituatieswaarinjegeenauteursrechtkrijgtvooreeneigenwerk?
+7. wat is het verschil tussen een copyright en een auteursrecht?
+8. Ishetstrafbaaromauteursrechtelijkwerkoptenemeninjouweigenwerk?
+    - Wanneer mag dit wel? 
+    - Wanneer mag dit niet?
+9. Hoe lang is een auteursrecht geldig?
+10. Ben je verplicht om het ©-teken te plaatsen?
+11. Welke rechten geeft het Auteursrecht jouw?
+12. Welke plichten geeft het Auteursrecht jouw?
+13. Wathoudtdeterm ̈ınbreukmakenopiemandsauteursrecht ̈ın? 
+14. Wanneer maak je inbreuk om andermans auteursrecht?
+15. Wanneer maakt iemand inbreuk op je auteursrecht?
+
+## Auteursrecht verslag
+
+- Doe een literatuuronderzoek naar het auteursrecht
+    – Gebruikd probleemstelling (vorige hoofdstuk) en deelvragen als leidraad.
+    – Probeer antwoorden te vinden op deze vragen.
+    – Noteer de antwoorden.
+    – Noteer de bronnen en vermeld deze later in je verslag. Doe dit volgens de APA-regels.
+#### Taak: Schrijf verslag    
+Schrijf een verslag over het Auteursrecht.
+- Controleer of het verslag voldoet aan de eisen zoals gesteld in Richtlijnen Verslag.
+- Deel het verslag via onedrive met de docenten.
 
 ***Taak: Bespreek verslag*** <span id="DocentBespreek"
 label="DocentBespreek"></span>
+Dit is geen beoordeling maar een controle of je op de goede weg bent met het verslag.
+
+Je kunt voor je onderzoek gebruik maken van de volgende bronnen. Zoek zelf ook naar bronnen.
+- <https://www.novagraaf.com/nl/diensten/auteursrecht/wat-is-auteursrecht-of-copyright-precies>
+- <https://www.auteursrecht.nl/>
+- <https://ondernemersplein.kvk.nl/auteursrecht/>
+- <https://www.justitia.nl/auteursrecht>
+• ...websites die je zelf vindt...
 
 1.  Bespreek de inhoud van je verslag regelmatig met een docent. Dit is
     geen beoordelingsmoment maar een controle om te zien of je op de
@@ -327,13 +191,13 @@ te leren wat je goed gedaan hebt en wat je kunt verbeteren.
 
 Gebruik de volgende naamgevingsconventie voor het verslag:
 
-**\[studentnummer\]\_\[achternaam\]\_kenjezelf.docx**
+**\[studentnummer\]\_\[achternaam\]\_auteursrecht.docx**
 
 -   Vervang \[studentnummer\] door je studentnummer
 
 -   Vervang \[achternaam\] door je achternaam
 
-## Planning KenJezelf
+## Planning Auteursrecht
 
 Je kunt onderstaande sjabloon gebruiken voor jouw eigen planning. Neem
 onderstaande sjabloon daarvoor over in jouw favoriete planningtool en
@@ -346,17 +210,14 @@ opdrachten.
 
 | **Actie**                         | **Datumstart** | **Datumklaar** | **Klaar** |
 |:----------------------------------|:---------------|:---------------|:----------|
-| Maak persoonlijkheidstest         |                |                |           |
-| Leer big five factoren            |                |                |           |
-| Maak leerstijlentest              |                |                |           |
-| Leer de verschillende leerstijlen |                |                |           |
-| Maak teamrollentest               |                |                |           |
-| Leer de verschillende teamrollen  |                |                |           |
-| Reflectie met docent              |                |                |           |
+| Onderzoek het auteursrecht        |                |                |           |
 | Schrijf verslag                   |                |                |           |
 | Bespreek verslag met docent       |                |                |           |
+| Leer de verschillende leerstijlen |                |                |           |
 | Reviewmoment                      |                |                |           |
+| Upload verslag in Cumlaude        |                |                |           |
 
+## Rubric Auteursrecht
 #### Reflectie
 
 | *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* |     |     |     |     |
@@ -365,56 +226,25 @@ opdrachten.
 | Ik heb gereflecteerd op opdracht?                   |     |     |     |     |
 | Ik heb reflectie in verslag beschreven?             |     |     |     |     |
 
-#### Persoonlijkheidstest
+#### Opdracht
 
 | *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* |     |     |     |     |
 |:----------------------------------------------------|:----|:----|:----|:----|
 |                                                     | *G* | *V* | *M* | *O* |
-| Ik kan het begrip Openheid voor Ervaring uitleggen? |     |     |     |     |
-| Ik kan het begrip Gewetensvolheid uitleggen?        |     |     |     |     |
-| Ik kan het begrip Extraversie uitleggen?            |     |     |     |     |
-| Ik kan het begrip Meegaandheid uitleggen?           |     |     |     |     |
-| Ik kan het begrip Natuurlijke reactie uitleggen?    |     |     |     |     |
+| Ik ben tevreden hoe ik deze opdracht gemaakt heb    |     |     |     |     |
 
-| *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende*    |     |     |     |     |
-|:-------------------------------------------------------|:----|:----|:----|:----|
-|                                                        | *G* | *V* | *M* | *O* |
-| Ik kan mijn sterke persoonlijkheidskenmerken benoemen? |     |     |     |     |
-| Ik kan mijn zwakke persoonlijkheidskenmerken benoemen? |     |     |     |     |
+#### Inhoud
 
-#### Leerstijlentest
-
-| *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* |     |     |     |     |
-|:----------------------------------------------------|:----|:----|:----|:----|
-|                                                     | *G* | *V* | *M* | *O* |
-| Ik kan de doener leerstijl uitleggen?               |     |     |     |     |
-| Ik kan de dromer leerstijl uitleggen?               |     |     |     |     |
-| Ik kan de denker leerstijl uitleggen?               |     |     |     |     |
-| Ik kan de beslisser leerstijl uitleggen?            |     |     |     |     |
-
-| *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* |     |     |     |     |
-|:----------------------------------------------------|:----|:----|:----|:----|
-|                                                     | *G* | *V* | *M* | *O* |
-| Ik kan mijn persoonlijke leerstijl benoemen?        |     |     |     |     |
-
-#### Teamrollen
-
-| *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* |     |     |     |     |
-|:----------------------------------------------------|:----|:----|:----|:----|
-|                                                     | *G* | *V* | *M* | *O* |
-| Ik kan de bedrijfsman teamrol uitleggen             |     |     |     |     |
-| Ik kan de brononderzoeker teamrol uitleggen         |     |     |     |     |
-| Ik kan de plant teamrol uitleggen                   |     |     |     |     |
-| Ik kan de monitor teamrol uitleggen                 |     |     |     |     |
-| Ik kan de vormer teamrol uitleggen                  |     |     |     |     |
-| Ik kan de voorzitter teamrol uitleggen              |     |     |     |     |
-| Ik kan de zorgdrager teamrol uitleggen              |     |     |     |     |
-| Ik kan de groepswerker teamrol uitleggen            |     |     |     |     |
-
-| *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* |     |     |     |     |
-|:----------------------------------------------------|:----|:----|:----|:----|
-|                                                     | *G* | *V* | *M* | *O* |
-| Ik kan mijn favoriete teamrol noemen                |     |     |     |     |
+| *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende*             |     |     |     |     |
+|:----------------------------------------------------------------|:----|:----|:----|:----|
+| Ik kan uitleggen:                                               | *G* | *V* | *M* | *O* |
+| - wanneer ik een auteursrecht krijg                             |     |     |     |     |
+| - wat een werk is                                               |     |     |     |     |
+| - wat de term inbreuk maken op een auteursrecht betekent        |     |     |     |     |
+| - wanneer ik andermans werk mag opnemen in mijn eigen werk      |     |     |     |     |
+| - wanneer ik andermans werk niet mag opnemen in mijn eigen werk |     |     |     |     |
+| - hoe ik een inbreuk op mijn auteursrecht kan stoppen           |     |     |     |     |
+| Ik heb het antwoord op de probleemstelling in het verslag beschreven |     |     |     |     |
 
 #### Verslag
 
