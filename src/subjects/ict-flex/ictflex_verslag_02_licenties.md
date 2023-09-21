@@ -337,26 +337,44 @@ Met deze 4 bouwstenen heb je de keuze uit de volgende 6 licenties
     <img src="/_assets/verslag-licentie/CCBY.png" width="94" height="34" alt="Naamsvermelding">
     <figcaption>Naamsvermelding (CC BY)</figcaption>
 </figure>
+
+___
+<br>
 <figure>
     <img src="/_assets/verslag-licentie/CCBYSA.png" width="94" height="34" alt="Naamsvermelding-GelijkeDelen">
     <figcaption>Naamsvermelding-GelijkeDelen (CC BY SA)</figcaption>
 </figure>
+
+___
+<br>
 <figure>
     <img src="/_assets/verslag-licentie/CCBYNC.png" width="94" height="34" alt="Naamsvermelding-NietCommercieel">
     <figcaption>Naamsvermelding-NietCommercieel (CC BY NC)</figcaption>
 </figure>
+
+___
+<br>
 <figure>
     <img src="/_assets/verslag-licentie/CCBYND.png" width="94" height="34" alt="Naamsvermelding-GeenAfgeleideWerk">
     <figcaption>Naamsvermelding-GeenAfgeleideWerk (CC BY ND)</figcaption>
 </figure>
+
+___
+<br>
 <figure>
     <img src="/_assets/verslag-licentie/CCBYNCSA.png" width="94" height="34" alt="-NietCommercieel-GelijkeDelen">
     <figcaption>Naamsvermelding-NietCommercieel-GelijkeDelen (CC BY NC SA)</figcaption>
 </figure>
+
+___
+<br>
 <figure>
     <img src="/_assets/verslag-licentie/CCBYNCND.png" width="94" height="34" alt="-NietCommercieel-GeenAfgeleideWerken">
     <figcaption>Naamsvermelding-NietCommercieel-GeenAfgeleideWerken (CC BY NC ND)</figcaption>
 </figure>
+
+___
+<br>
 
 **_Opgave : Creative Commons_**
 1. Bestudeer de voorwaarden van de 6 creative commons-licenties
