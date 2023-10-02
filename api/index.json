@@ -1576,6 +1576,18 @@
         "title":"Verslag/Presentatie | Computer",
         "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
         "date":"Tue Sep 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/database-gegevens-filteren/",
+        "title":"Database gegevens filteren",
+        "author":"jsiewers",
+        "date":"Mon Oct 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/database-gegevens-aanpassen/",
+        "title":"Database gegevens aanpassen",
+        "author":"jsiewers",
+        "date":"Mon Oct 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
