@@ -27,15 +27,15 @@ De directie van het concern wil met de gegevens uit de registratiesystemen kunne
 
 ## Queries
 Voor een applicatie die de gegevens van de registratiegegevens kan analyseren zijn de volgende queries nodig
-●	Welke medewerkers (id, voornaam, tussenvoegsel, achternaam)zijn er in dienst van de  winkelketen.
-●	Hoeveel medewerkers hebben dezelfde functie (jobtitle)
-●	Hoeveel medewerkers zijn professor of ingenieur (title = prof, ir of ing)
-●	Overzicht van medewerkers (id, voornaam, tussenvoegsel, achternaam) per gebouw (buildingname, street en buildingnumber)
-●	Overzicht van medewerkers (id, voornaam, tussenvoegsel, achternaam) die op een bepaalde datum in gebouw met id 1 waren (buildingname, street en buildingnumber).
-●	Overzicht van medewerkers die op diezelfde datum vergeten zijn om uit te checken
-●	Overzicht van het aantal medewerker per gebouw op 13 september 2023. 
-●	Overzicht van medewerkers en het aantal uur dat ze op 15 september 2023 hebben gewerkt.
-●	Medewerker van de maand! (De medewerker die het meeste uren heeft gemaakt van iedereen in de maand september)
+* Welke medewerkers (id, voornaam, tussenvoegsel, achternaam)zijn er in dienst van de  winkelketen.
+* Hoeveel medewerkers hebben dezelfde functie (jobtitle)
+* Hoeveel medewerkers zijn professor of ingenieur (title = prof, ir of ing)
+* *Overzicht van medewerkers (id, voornaam, tussenvoegsel, achternaam) per gebouw (buildingname, street en buildingnumber)
+* Overzicht van medewerkers (id, voornaam, tussenvoegsel, achternaam) die op een bepaalde datum in gebouw met id 1 waren (buildingname, street en buildingnumber).
+* Overzicht van medewerkers die op diezelfde datum vergeten zijn om uit te checken
+* Overzicht van het aantal medewerker per gebouw op 13 september 2023. 
+* Overzicht van medewerkers en het aantal uur dat ze op 15 september 2023 hebben gewerkt.
+* Medewerker van de maand! (De medewerker die het meeste uren heeft gemaakt van iedereen in de maand september)
 
 
 ## Resultaat

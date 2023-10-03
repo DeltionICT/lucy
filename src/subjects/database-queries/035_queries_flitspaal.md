@@ -21,7 +21,7 @@ author: jsiewers
 
 ## Casus
 Aanleiding / algemene omschrijving
-De politie in Luttlegeest is gestart met een uitgebreide flitscontrole. Deze actie is nodig omdat er afgelopen jaar een toenemend aantal ongelukken zijn gebeurd als gevolg van te hard rijden. 
+De politie in Luttlegeest is gestart met een uitgebreide flitscontrole. Deze actie is nodig omdat er afgelopen jaar een toenemend aantal ongelukken is gebeurd als gevolg van te hard rijden. 
 De politie wil beter in kaart brengen wie de hardrijders zijn en op welke plekken te hard wordt gereden. 
 
 ## Probleemstelling
