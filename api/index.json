@@ -1588,6 +1588,18 @@
         "title":"Database gegevens aanpassen",
         "author":"jsiewers",
         "date":"Mon Oct 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/queries-flitspaal/",
+        "title":"Queries flitspaal",
+        "author":"jsiewers",
+        "date":"Tue Oct 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/database-queries/queries-winkelketen/",
+        "title":"Queries winkelketen",
+        "author":"jsiewers",
+        "date":"Tue Oct 03 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
