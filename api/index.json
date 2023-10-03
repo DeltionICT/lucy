@@ -390,15 +390,15 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-s/array/",
-        "title":"Array",
+        "url":"/lucy/subjects/codebase-s/mijn-info/",
+        "title":"Mijn info",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-s/boottocht-op-de-seine/",
-        "title":"Boottocht op de Seine",
-        "author":"jsiewers",
+        "url":"/lucy/subjects/codebase-s/variabelen-weergeven/",
+        "title":"Variabelen weergeven",
+        "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
@@ -408,26 +408,8 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-s/deelbaar/",
-        "title":"Deelbaar",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-s/dobbelsteen/",
-        "title":"Dobbelsteen",
-        "author":"rkerssies",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-s/geheimschrijver/",
-        "title":"Geheimschrijver",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-s/getallenreeks/",
-        "title":"Getallenreeks",
+        "url":"/lucy/subjects/codebase-s/oppervlakte-berekenen/",
+        "title":"Oppervlakte berekenen",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -450,26 +432,14 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/codebase-s/wie-is-de-winnaar/",
+        "title":"Wie is de winnaar",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/codebase-s/mail-to-username/",
         "title":"Mail to username",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-s/mijn-info/",
-        "title":"Mijn info",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-s/muntje-gooien/",
-        "title":"Muntje gooien",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-s/namenlijst/",
-        "title":"Namenlijst",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -480,9 +450,27 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-s/knikkers/",
-        "title":"Knikkers",
+        "url":"/lucy/subjects/codebase-s/deelbaar/",
+        "title":"Deelbaar",
         "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/boottocht-op-de-seine/",
+        "title":"Boottocht op de Seine",
+        "author":"jsiewers",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/muntje-gooien/",
+        "title":"Muntje gooien",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/dobbelsteen/",
+        "title":"Dobbelsteen",
+        "author":"rkerssies",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
@@ -492,8 +480,14 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-s/oppervlakte-berekenen/",
-        "title":"Oppervlakte berekenen",
+        "url":"/lucy/subjects/codebase-s/getallenreeks/",
+        "title":"Getallenreeks",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/knikkers/",
+        "title":"Knikkers",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -504,14 +498,14 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-s/variabelen-weergeven/",
-        "title":"Variabelen weergeven",
+        "url":"/lucy/subjects/codebase-s/tafels/",
+        "title":"Tafels",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-s/tafels/",
-        "title":"Tafels",
+        "url":"/lucy/subjects/codebase-s/witregel/",
+        "title":"Witregel",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -522,14 +516,20 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-s/wie-is-de-winnaar/",
-        "title":"Wie is de winnaar",
+        "url":"/lucy/subjects/codebase-s/array/",
+        "title":"Array",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-s/witregel/",
-        "title":"Witregel",
+        "url":"/lucy/subjects/codebase-s/namenlijst/",
+        "title":"Namenlijst",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-s/geheimschrijver/",
+        "title":"Geheimschrijver",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
