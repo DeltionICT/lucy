@@ -1,5 +1,5 @@
 ---
-title: Formulieren met Laravel (Thema Restaurant-menu's)
+title: Restaurant
 author: jsiewers
 ---
 

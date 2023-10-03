@@ -1,5 +1,5 @@
 ---
-title: Webpagina
+title: Basis | Webpagina
 key: 2513
 difficulty: basic
 date: 2023-03-13
@@ -10,7 +10,6 @@ technology: html, css
 
 
 > #### Voorkennis
-> * Je hebt je docentenopleiding afgerond
 > * Je kunt werken met een computer
 
 > #### Dit ga je leren

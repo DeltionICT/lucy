@@ -1,5 +1,5 @@
 ---
-title: Database introductie
+title: Basis | Database introductie
 key: 2517
 difficulty: basic
 date: 2023-01-01
@@ -10,7 +10,6 @@ technology: database
 
 
 > #### Voorkennis
-> * Je hebt je docentenopleiding afgerond
 > * Je kunt werken met een computer
 
 > #### Dit ga je leren

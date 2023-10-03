@@ -1,5 +1,5 @@
 ---
-title: Authenticatie met Laravel (Breeze)
+title: Breeze
 date: 2023-06-13
 author: jsiewers
 ---

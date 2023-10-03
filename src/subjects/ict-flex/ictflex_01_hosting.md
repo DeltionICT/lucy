@@ -1,5 +1,5 @@
 ---
-title: Hosting
+title: Basis | Hosting
 key: 2512
 difficulty: basic
 date: 2023-03-13
@@ -10,7 +10,6 @@ technology: hosting
 
 
 > #### Voorkennis
-> * Je hebt je docentenopleiding afgerond
 > * Je kunt werken met een computer
 
 > #### Dit ga je leren

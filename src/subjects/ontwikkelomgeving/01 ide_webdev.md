@@ -1,5 +1,5 @@
 ---
-title: Ontwikkelomgeving Webdevelopement
+title: Ontwikkelomgeving Webdevelopment
 key: 2104
 difficulty: basic
 date: 2023-01-05
@@ -47,17 +47,5 @@ Als developer wil je vanuit iedere directory php kunnen opstarten zonder dat je 
 ## Een editor installeren
 * Installeer Visual Studio Code of PHPstorm op je systeem
 * Installeer eventueel relevante plugins afhankelijk van de taal waarin je gaat programmeren
-
-## Git installeren
-In de opleiding ga je uitgebreid werken met Git. Voor nu is het voldoende als je git op je laptop hebt geïnstalleerd.  
-Installeer git vanaf [git-scm.com](https://git-scm.com)
-
-## Github
-Vrijwel alle software developers hebben een account op github.  
-Wij gebruiken github om je werk te bekijken en om je samen te laten werken in projectgroepen.
-* Maak een account aan op Github.
-* Gebruik je Deltion email adres!
-* Gebruik je echte naam (voornaam en achternaam)
-* Ga naar je profile op Github. Vul bij 'Name' je studentnummmer, voornaam en achternaam in.
 
 
