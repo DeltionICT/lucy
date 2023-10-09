@@ -216,86 +216,8 @@
         "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-m/array-met-getallen/",
-        "title":"Array met getallen",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/bmi/",
-        "title":"BMI",
-        "author":"rkerssies",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/boodschappenlijst/",
-        "title":"Boodschappenlijst",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/breuken/",
-        "title":"Breuken",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/xml-to-json/",
-        "title":"XML to JSON",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/codebase-m/decimale-combinaties/",
         "title":"Decimale combinaties",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/elementen-tellen/",
-        "title":"Elementen tellen",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/elfproef/",
-        "title":"Elfproef",
-        "author":"kstarreveld",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/faculteit/",
-        "title":"Faculteit",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/grootste-getal/",
-        "title":"Grootste getal",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/hoeveel-dagen/",
-        "title":"Hoeveel dagen",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/kleinste-getal/",
-        "title":"Kleinste getal",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/klok/",
-        "title":"Klok",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/lotto/",
-        "title":"Lotto",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -306,14 +228,74 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/codebase-m/klok/",
+        "title":"Klok",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/hoeveel-dagen/",
+        "title":"Hoeveel dagen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/faculteit/",
+        "title":"Faculteit",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/breuken/",
+        "title":"Breuken",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/elfproef/",
+        "title":"Elfproef",
+        "author":"kstarreveld",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/codebase-m/combinaties/",
         "title":"Combinaties",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-m/letter-a/",
-        "title":"Letter A",
+        "url":"/lucy/subjects/codebase-m/verbruik-auto/",
+        "title":"Verbruik auto",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/tijd-naar-tekst/",
+        "title":"Tijd naar tekst",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/schoenverkoper/",
+        "title":"Schoenverkoper",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/array-met-getallen/",
+        "title":"Array met getallen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/pyramide/",
+        "title":"Pyramide",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/echte-pyramide/",
+        "title":"Echte pyramide",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -330,20 +312,26 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-m/echte-pyramide/",
-        "title":"Echte pyramide",
+        "url":"/lucy/subjects/codebase-m/letter-a/",
+        "title":"Letter A",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-m/pyramide/",
-        "title":"Pyramide",
+        "url":"/lucy/subjects/codebase-m/bmi/",
+        "title":"BMI",
+        "author":"rkerssies",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/lotto/",
+        "title":"Lotto",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-m/raad-het-woord/",
-        "title":"Raad het woord",
+        "url":"/lucy/subjects/codebase-m/boodschappenlijst/",
+        "title":"Boodschappenlijst",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -354,14 +342,20 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-m/schoenverkoper/",
-        "title":"Schoenverkoper",
+        "url":"/lucy/subjects/codebase-m/xml-to-json/",
+        "title":"XML to JSON",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-m/tijd-naar-tekst/",
-        "title":"Tijd naar tekst",
+        "url":"/lucy/subjects/codebase-m/elementen-tellen/",
+        "title":"Elementen tellen",
+        "author":"jheuvelman",
+        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/codebase-m/raad-het-woord-galgje/",
+        "title":"Raad het woord / galgje",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -372,20 +366,14 @@
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/codebase-m/verbruik-auto/",
-        "title":"Verbruik auto",
+        "url":"/lucy/subjects/codebase-m/zuurstof/",
+        "title":"Zuurstof",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
         "url":"/lucy/subjects/codebase-m/vermoeden-van-collatz/",
         "title":"Vermoeden van Collatz",
-        "author":"jheuvelman",
-        "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/codebase-m/zuurstof/",
-        "title":"Zuurstof",
         "author":"jheuvelman",
         "date":"Mon Jan 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
