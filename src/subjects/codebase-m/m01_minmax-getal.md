@@ -15,7 +15,7 @@ technology: all
 > Programmeertaal: naar keuze
 
 ***Voorbereiding:***  
-Maak in een editor een bestand met willekeurige 100 getallen. Plaats
+Maak in een editor een array met willekeurige 100 getallen. Plaats
 elke getal op een eigen regel.
 
 ### Resultaat
@@ -23,4 +23,4 @@ Schrijf een programma dat uit het bestand het kleinste (minimum) en
 grootste (maximum) getal haalt en deze op het beeldscherm zet.
 
 ***NB:***  
-Maak geen gebruik van de sorteer functies van de programmeertaal.
+Maak <u>geen</u> gebruik van de sorteer functies van de programmeertaal.
