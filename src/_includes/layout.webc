@@ -17,29 +17,6 @@
     <link webc:nokeep href="../_css/prism.css" rel="stylesheet">
     <link webc:nokeep href="../_css/code.css" rel="stylesheet">
     <style @raw="getBundle('css')" webc:keep></style>
-    <style>
-    .w9deihfd9 {
-        flex: 0 0 245px;
-        height: 300px;
-    }
-
-    .title  {
-        margin-bottom: 5px;
-    }
-
-    .w0mp1xneb span {
-        width:  100%;
-        /* font-size: 0.6em; */
-        border-radius: 5px;
-        box-shadow: var(--c-box-shadow);
-        line-height: 1.0rem;
-        white-space: nowrap;
-        margin-bottom: 5px;
-        text-align: center;
-        display: block;
-    }
-    </style>
-
 </head>
 
 <body>
