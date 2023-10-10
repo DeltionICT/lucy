@@ -27,11 +27,11 @@ Daarbij gelden de volgende kaders;
 > * Een project-team heeft `3 tot 5 studenten`
 > * Planning & realisatie
     >   * De userstories en taken voor het project worden gemanaged in een projectmanagement-tool, waarin de voortgang
-   m.b.v. een burn-down inzichtelijk wordt gemaakt.
+   m.b.v. een `burn-down` inzichtelijk wordt gemaakt.
     >   * Er moet een realistische planning gehandeerd en worden uitegevoerd, passend bij het bedrijfsleven.
 > * Dagelijks wordt er met het team een `Daily-standup` gehouden (vastgelegd/gedocumenteerd)
 > * Technisch
-    >   * De technische uitvoering moet voldoen aan bedrijfstandaarden en best-practices (o.a. het gebruik van frameworks). 
+    >   * De technische uitvoering moet voldoen aan bedrijfstandaarden en `best-practices` (o.a. het gebruik van frameworks). 
     >   * Alle code en documenten worden in `GitHub` gearchiveerd met gebruik van branches.
     >   * Elk teamlid doet dagelijks minimaal één push van al zijn nieuwe code
     >   * Docenten zijn toegevoegd aan de Git-repository met minimaal stakeholders-rechten
