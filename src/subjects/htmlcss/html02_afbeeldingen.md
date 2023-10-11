@@ -9,6 +9,7 @@ technology: html
 
 > #### Voorkennis
 > * Basis HTML
+> * [Uitleg op Edutorial.nl](https://www.edutorial.nl/html/afbeeldingen-aanpassen/)
 
 > #### Doelen
 > * Je leert hoe je afbeeldingen op maat maakt in de juiste verhoudingen

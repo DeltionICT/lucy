@@ -9,6 +9,7 @@ technology: html
 
 > #### Voorkennis
 > * Basis HTML kennis 
+> * [Uitleg op Edutorial.nl](https://www.edutorial.nl/html/eerste-website/)
 
 > #### Doelen
 > * Leer html-kennis te combineren en toe te passen in een eerste website
