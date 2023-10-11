@@ -39,9 +39,10 @@ Daarbij gelden de volgende kaders;
 > * Het team houdt aan het einde van elke sprint een `product-review` (presentatie) voor de klant, docent en/of klas
     >   * De presentaties worden gearchiveerd in GitHub
     >   * Verbetervoorstellen en tips worden verzameld en uitgewerkt
-> * Het team houdt een `restrospective` meeting. De bevindingen worden vastgelegd in een [Retrospective-document]({{ '/_assets/projecten/Retrospective 2024.docx' }}) 
+> * Het team houdt een `restrospective` meeting. De bevindingen worden vastgelegd in een [Retrospective-document]({{ '/_assets/projecten/Retrospective2024.docx' }}) 
  waarin de K.A.L.M. methodiek wordt toegepast.
     >   * De retrospective documenten worden gearchiveerd in GitHub
+
 
 
 ✅ Jouw persoonlijke ontwikkelingen wordt vastgesteld op basis van het team-proces en de onderdelen die jij zelf
