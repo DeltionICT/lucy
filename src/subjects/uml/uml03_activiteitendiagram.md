@@ -39,7 +39,7 @@ Details over ActiviteitenDiagrammen zijn te vinden op how to: [ActivityDiagram](
 [ActivityDiagram explained]({{ 'https://www.lucidchart.com/pages/uml-activity-diagram'  }}).
 
 <br><br>
-NB: ActiviteitenDigrammen vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
+NB: ActiviteitenDigrammen vallen onder de [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
 <img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren
