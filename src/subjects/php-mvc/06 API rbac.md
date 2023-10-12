@@ -47,7 +47,7 @@ bekijk eventueeel de [Postman-les]({{ 'https://deltionict.github.io/lucy/subject
 <br><br>
 In het framework zijn de volgende technische eigenschappen toegepast:
 * token-functionaliteit
-    * [Sanctum]({{ 'https://laravel.com/docs/10.x/sanctum'  }})
+    * [Sanctum]({{ 'https://laravel.com/docs/10.x/sanctum'  }}) of,
     * [Passport]({{ 'https://laravel.com/docs/10.x/passport'  }})
 <br><br>
 <hr>
@@ -60,7 +60,10 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * incorrecte permissies geven een 403 in json
 
 De API-applicatie bevat is o.a. :
-  * correcte api-routes om de requests van de url op te vangen
+  * een token waarmee de rol (en de verleende permissies) worden vastgesteld
+  * response-data wordt teruggestuurd afhankelijk van de rol (of permissies)
+  * eenduidige foutmelding met status, een tekstmelding en gesubmitte waarden in json, als de rol (of permissies) van de gebruiker-token INCORRECT zijn
+
 
 
 > ##### Op te leveren
