@@ -70,7 +70,7 @@ De API-applicatie bevat is o.a. :
 
 > ##### Op te leveren
 > * een REST API-applicatie met;
->   * die alle data uit verschillende databas-tabellen kan teruggeven in json 
+>   * die alle data uit verschillende database-tabellen kan teruggeven in json 
 >   * die een enkel record uit verschillende database-tabellen kan teruggeven in json
 >   * die CRUD-acties kan uitvoeren op verschillende database-tabellen en een json response teruggeeft
 >   * alle responses zijn uitsluitend in JSON en hebben een key 'meta' met daarin o.a. de status, success, melding, evt validatie-fouten
