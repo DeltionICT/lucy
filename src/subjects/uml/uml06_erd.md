@@ -39,7 +39,7 @@ of gebruik het ontwerp-tab in XAMPP om ERD's weer te geven en evt. kleine aanpas
 <img src="{{ '/_assets/themas/erd_xampp.png'  }}" style="width:50%;">
 
 <br><br>
-NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
+NB: Wireframes vallen onder de [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
 <img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren
