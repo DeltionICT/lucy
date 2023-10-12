@@ -3,7 +3,7 @@ title: API-server PHP
 key: 1405
 difficulty: expert
 date: 2023-01-05
-technology: php, dbo, dbq
+technology: php, dbo, dbq, mvc
 author: rkerssies
 ---
 

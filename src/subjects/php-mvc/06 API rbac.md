@@ -3,7 +3,7 @@ title: API-rbac PHP
 key: 1419
 difficulty: expert
 date: 2023-01-07
-technology: php, dbo, dbq
+technology: php, dbo, dbq, mvc
 author: rkerssies
 ---
 
