@@ -747,57 +747,51 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals:</p>
 <ul>
-<li>PHP of in een PHP-framework <a href="https://laravel.com/docs/9.x">LARAVEL</a></li>
+<li>PHP of in een PHP-framework <a href="https://laravel.com/docs">LARAVEL</a></li>
 <li>C#
-<br><br>
-Automated tests to ensure ALL code is still working  <img src="/lucy/_assets/api/tests.png" alt="tests" style="width:4%;">
-<br><br></li>
+<br>
+<font color="blue"><b>Automated tests to ensure ALL code is still working  <img src="/lucy/_assets/api/tests.png" alt="tests" style="width:4%;"></b></font>
+<br></li>
 </ul>
 <hr>
-1. Maak in een bestaande framework applicatie de volgende tests mogelijk;
-<br><br>
-In het framework zijn de volgende technische eigenschappen toegepast:
+<ol start="5">
+<li>Maak in een bestaande framework applicatie scenario-tests (FeatureTests) mogelijk;</li>
+</ol>
 <ul>
-<li>Een featuretest per user-scenario</li>
-<li>featuretests zijn per thema gerubriceerd in een file</li>
+<li>Een featuretest per user-scenario (meerdere acties vanuit een gebruikerperspectief)
+<ul>
+<li>de featuretests zijn per thema gerubriceerd in een file</li>
 <li>er worden voldoende asserts per test-method uitgevoerd</li>
 <li>de testresultaten zijn op een prettige manier te controleren</li>
 <li>(optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file
 <br><br></li>
 </ul>
+</li>
+</ul>
 <hr>
-2a. Maak in een bestaande framework applicatie de volgende tests mogelijk;
+<ol start="6">
+<li>Maak in een bestaande applicatie UnitTests mogelijk;</li>
+</ol>
 <ul>
 <li>controleer de correcte werking en responses van class-methods
-<br><br></li>
-</ul>
-<p>2b. In het framework zijn de volgende technische eigenschappen toegepast:</p>
 <ul>
 <li>maak unittests op methods van een class in de library-folder</li>
 <li>unittests zijn per thema gerubriceerd in een file</li>
-<li>er worden voldoende asserts per test-method uitgevoerd</li>
-<li>de testresultaten zijn op een prettige manier te controleren</li>
-<li>(optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file
-<br><br></li>
+<li>er worden ruim voldoende asserts per test-method uitgevoerd</li>
+<li>controleer niet alleen de CORRECTE respons van de methods, maar ook de respons avn INCORRECT gebruik van de methods</li>
+<li>de testresultaten worden op een prettige manier gepresenteerd (webpage/log-document)</li>
+<li>(optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file</li>
+</ul>
+</li>
 </ul>
 <blockquote>
 <h5>Op te leveren</h5>
 <ul>
-<li>
-<p>toepassen van geautomatiseerde (Feature)Tests op scenario's (proces van een UserStory)</p>
-</li>
-<li>
-<p>dit bij elke toekomstige UserStory als taak is toegevoegd</p>
-</li>
-<li>
-<p>toepassen van geautomatiseerde UnitTests op methods in bibliotheek-classes (classes in de Lib-folder)</p>
-</li>
-<li>
-<p>dat bij elke toekomstige te maken Libaray-class, er Userstory-taken worden ingepland om deze tests te maken</p>
-</li>
-<li>
-<p>dat de resultaten van geautomatiseerde tests (Feature- en UnitTests) bij de dailystandup worden besproken</p>
-</li>
+<li>toepassen van geautomatiseerde (Feature)Tests op scenario's (proces van een UserStory)</li>
+<li>dit bij elke toekomstige UserStory als taak is toegevoegd</li>
+<li>toepassen van geautomatiseerde UnitTests op methods in bibliotheek-classes (classes in de Lib-folder)</li>
+<li>dat bij elke toekomstige te maken Libaray-class, er Userstory-taken worden ingepland om deze tests te maken</li>
+<li>dat de resultaten van geautomatiseerde tests (Feature- en UnitTests) bij de dailystandup worden besproken</li>
 </ul>
 </blockquote>
 

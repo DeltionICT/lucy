@@ -747,12 +747,12 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
 zoals:</p>
 <ul>
-<li><a href="https://laravel.com/docs/9.x">LARAVEL</a></li>
-<li>C#
-<br><br>
-Creating your own API-service  <img src="/lucy/_assets/api/api.png" alt="api" style="width:4%;">
-<br><br></li>
+<li><a href="https://laravel.com/docs">LARAVEL</a></li>
+<li>C#</li>
 </ul>
+<br>
+  <font color="blue"><b>Creating your own API-service &emsp;<img src="/lucy/_assets/api/api.png" alt="api" style="width:4%;"></b></font>
+<br><br>
 <p>Alle request worden getest met een API-testtool, zoals <a href="https://www.postman.com">Postman</a> <img src="/lucy/_assets/_icons/postman.png" alt="postman" style="width:2%;">,
 bekijk eventueeel de <a href="https://deltionict.github.io/lucy/subjects/ontwikkelomgeving/tools-voor-api-ontwikkeling/">Postman-les</a>
 <br><br></p>
@@ -797,18 +797,17 @@ bekijk eventueeel de <a href="https://deltionict.github.io/lucy/subjects/ontwikk
 <li>de json-respons wordt door overerving op één plaats uitgewerkt voor alle verschillende responses</li>
 <li>voeg validatie toe voor het toevoegen en aanpassen van records</li>
 </ul>
-<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<p>De API-applicatie bevat is o.a. :</p>
 <ul>
-<li>maak gebruik van de mogelijkheid om variabelen voor een model in de API-url te plaatsen</li>
-<li>instatieer een model-class en validatie-class op basis van de class-naam in de url<br>
-<br><br></li>
+<li>maak gebruik van de mogelijkheid om variabelen in de API-url te plaatsen</li>
+<li>Objecten van een Model-class en Validatie-class worden dynamisch aangeroepen op basis van een variabele in de url</li>
 </ul>
 <blockquote>
 <h5>Op te leveren</h5>
 <ul>
 <li>een REST API-applicatie met;
 <ul>
-<li>die alle data uit verschillende databas-tabellen kan teruggeven in json</li>
+<li>die alle data uit verschillende database-tabellen kan teruggeven in json</li>
 <li>die een enkel record uit verschillende database-tabellen kan teruggeven in json</li>
 <li>die CRUD-acties kan uitvoeren op verschillende database-tabellen en een json response teruggeeft</li>
 <li>alle responses zijn uitsluitend in JSON en hebben een key 'meta' met daarin o.a. de status, success, melding, evt validatie-fouten</li>

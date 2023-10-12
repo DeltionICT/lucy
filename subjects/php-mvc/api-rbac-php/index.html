@@ -747,17 +747,19 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
 zoals:</p>
 <ul>
-<li><a href="https://laravel.com/docs/9.x">LARAVEL</a></li>
-<li>C#
-<br><br>
-Creating your own API-service  <img src="/lucy/_assets/api/api.png" alt="api" style="width:4%;">
-<br><br></li>
+<li><a href="https://laravel.com/docs">LARAVEL</a></li>
+<li>C#</li>
 </ul>
+<br>
+  <font color="blue"><b>Creating your own API-service with RBAC &emsp;<img src="/lucy/_assets/api/api.png" alt="api" style="width:4%;"></b></font>
+<br><br>
 <p>Alle request worden getest met een API-testtool, zoals <a href="https://www.postman.com">Postman</a> <img src="/lucy/_assets/_icons/postman.png" alt="postman" style="width:2%;">,
 bekijk eventueeel de <a href="https://deltionict.github.io/lucy/subjects/ontwikkelomgeving/tools-voor-api-ontwikkeling/">Postman-les</a>
 <br><br></p>
 <hr>
-1. Maak een API-server in een framework met de volgende werking;
+<ol start="4">
+<li>Maak een API-server in een framework met de volgende werking;</li>
+</ol>
 <ul>
 <li>inloggen en een token ontvangen voor gebruik in de front-end door inloggegevens te sturen naar een API-url</li>
 <li>begrip SSL vereiste voor het gebruik van tokens</li>
@@ -770,22 +772,27 @@ bekijk eventueeel de <a href="https://deltionict.github.io/lucy/subjects/ontwikk
 In het framework zijn de volgende technische eigenschappen toegepast:</li>
 <li>token-functionaliteit
 <ul>
-<li><a href="https://laravel.com/docs/9.x/sanctum">Sanctum</a></li>
-<li><a href="https://laravel.com/docs/9.x/passport">Passport</a>
+<li><a href="https://laravel.com/docs/10.x/sanctum">Sanctum</a> of,</li>
+<li><a href="https://laravel.com/docs/10.x/passport">Passport</a>
 <br><br></li>
 </ul>
 </li>
 </ul>
 <hr>
-2. Maak een API-server in een framework met de volgende werking;
-* rollen gebruik
-* er zijn meerdere verschillende permissies/abilities per rol mogelijk
-* API-verzoeken geven json-response gebaseerd op autorisatie uitgevoerd op de geldende permissies
-* incorrecte permissies geven een 403 in json
-<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<ol start="5">
+<li>Maak een API-server in een framework met de volgende werking;</li>
+</ol>
 <ul>
-<li>correcte api-routes om de requests van de url op te vangen
-<br><br></li>
+<li>rollen gebruik</li>
+<li>er zijn meerdere verschillende permissies/abilities per rol mogelijk</li>
+<li>API-verzoeken geven json-response gebaseerd op autorisatie uitgevoerd op de geldende permissies</li>
+<li>incorrecte permissies geven een 403 in json</li>
+</ul>
+<p>De API-applicatie bevat is o.a. :</p>
+<ul>
+<li>een token waarmee de rol (en de verleende permissies) worden vastgesteld</li>
+<li>response-data wordt teruggestuurd afhankelijk van de rol (of permissies)</li>
+<li>eenduidige foutmelding met status, een tekstmelding en gesubmitte waarden in json, als de rol (of permissies) van de gebruiker-token INCORRECT zijn</li>
 </ul>
 <blockquote>
 <h5>Op te leveren</h5>
