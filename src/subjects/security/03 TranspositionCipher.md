@@ -31,7 +31,7 @@ Strip en trim de input: WEAREDISCOVEREDRUNATONCE
 
           W R I O R R A N \
           E E S V E U T C \
-          A D C E D N O E \ 
+          A D C E D N O E  
 
           
 OUTPUT is dan: WRIORRAN EEDVEUTC ADCEDNOE
