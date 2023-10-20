@@ -687,25 +687,25 @@ div.html table {
     </div>
     <div class="authors">
         <span slot="authors">Koos Starreveld</span> |
-        <span slot="date">Feb 9, 2023</span>
+        <span slot="date">Oct 20, 2023</span>
     </div>
     <div class="title">
-        <h1><div slot="title">Caesar Cipher</div></h1>
+        <h1><div slot="title">Transposition Cipher</div></h1>
     </div>
 
 </main-title>
 <main-content class="webcftrhj"><div class="sidebar">
     <ul>
-        <list-link url="/subjects/security/introductie/" page="/subjects/security/caesar-cipher/" class="wv0jwq1on"><a href="/lucy/subjects/security/introductie/"><li class="notselected">Introductie</li></a>
+        <list-link url="/subjects/security/introductie/" page="/subjects/security/transposition-cipher/" class="wv0jwq1on"><a href="/lucy/subjects/security/introductie/"><li class="notselected">Introductie</li></a>
 
 </list-link>
-<list-link url="/subjects/security/caesar-cipher/" page="/subjects/security/caesar-cipher/" class="wv0jwq1on"><a href="/lucy/subjects/security/caesar-cipher/"><li class="selected">Caesar Cipher</li></a>
+<list-link url="/subjects/security/caesar-cipher/" page="/subjects/security/transposition-cipher/" class="wv0jwq1on"><a href="/lucy/subjects/security/caesar-cipher/"><li class="notselected">Caesar Cipher</li></a>
 
 </list-link>
-<list-link url="/subjects/security/vigenere-cipher/" page="/subjects/security/caesar-cipher/" class="wv0jwq1on"><a href="/lucy/subjects/security/vigenere-cipher/"><li class="notselected">Vigenere Cipher</li></a>
+<list-link url="/subjects/security/vigenere-cipher/" page="/subjects/security/transposition-cipher/" class="wv0jwq1on"><a href="/lucy/subjects/security/vigenere-cipher/"><li class="notselected">Vigenere Cipher</li></a>
 
 </list-link>
-<list-link url="/subjects/security/transposition-cipher/" page="/subjects/security/caesar-cipher/" class="wv0jwq1on"><a href="/lucy/subjects/security/transposition-cipher/"><li class="notselected">Transposition Cipher</li></a>
+<list-link url="/subjects/security/transposition-cipher/" page="/subjects/security/transposition-cipher/" class="wv0jwq1on"><a href="/lucy/subjects/security/transposition-cipher/"><li class="selected">Transposition Cipher</li></a>
 
 </list-link>
     </ul>
@@ -716,31 +716,38 @@ div.html table {
 <ul>
 <li>Basis Programmeren</li>
 <li>ASCII table</li>
+<li>De opdracht Ceasar Cipher</li>
+<li>Strings en Arrays</li>
 </ul>
 </blockquote>
 <blockquote>
 <h4>Doelen:</h4>
 <ul>
 <li>leren hoe je characters omzet naar ASCII-codes en hieraan kunt rekenen (rotation)</li>
+<li>leren een complexer algortime toe te passen met behulp van een key (sleutel).</li>
 </ul>
 </blockquote>
-<h3>opdracht</h3>
+<h3>opdracht a.</h3>
 <ul>
 <li>Maak een applicatie of website</li>
-<li>Voeg een input toe :  waar je een tekst kunt invoeren.</li>
-<li>Voeg een input toe :  waar je een getal kunt invoeren waarin je de tekst gaat roteren.</li>
+<li>Waarin je een text kunt invoeren, en een aantal Rails</li>
+<li>De text ga je nu verdelen over een aantal rails.</li>
 </ul>
-<p>Voorbeeld: 'hallo' wordt bij een rotatie van 1: 'ibmmp'.</p>
+<p>Voorbeeld: inputtext:  WE ARE DISCOVERED RUN AT ONCE
+rails:  3</p>
+<p>Strip en trim de input: WEAREDISCOVEREDRUNATONCE
+verdeel de tekst over 3 rails:  W R I O R R A N
+E E S V E U T C
+A D C E D N O E</p>
+<p>OUTPUT is dan: WRIORRAN EEDVEUTC ADCEDNOE</p>
+<h3>VRAAG:</h3>
 <ul>
-<li>Werk eerst met de letters a-z. Maak gebruik van de ascii waarde van letters. Bijvoorbeeld in PHP kun je die vinden met de functie ord() en chr() in JavaScript met charCodeAt.</li>
-<li>Wat moet je doen als je voorbij de letter z roteert?</li>
-<li>Voeg nu ook hoofdletters toe.</li>
+<li>Wat gebeurt er als het aantal input characters niet deelbaar is door het aantal rails?</li>
+<li>Hoe kun je dit oplossen ?</li>
 </ul>
 <h3>Uitbreiding:</h3>
 <ul>
-<li>Voeg nu ook getallen en leestekens toe</li>
-<li>Trim en sanitize je input tekst.</li>
-<li>maak ook een knop 'decrypt' die de rotatie weer andersom doet.</li>
+<li>maak nu ook een decrypt knop en input met aantal rails die een getransposede text weer terug brengt naar het origineel.</li>
 </ul>
 
 </div>
