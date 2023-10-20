@@ -26,7 +26,9 @@ Voorbeeld: inputtext:  WE ARE DISCOVERED RUN AT ONCE
            rails:  3
 
 Strip en trim de input: WEAREDISCOVEREDRUNATONCE
+
         verdeel de tekst over 3 rails: \
+
 
           W R I O R R A N \
           E E S V E U T C \
