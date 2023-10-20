@@ -27,13 +27,12 @@ Voorbeeld: inputtext:  WE ARE DISCOVERED RUN AT ONCE
 
 Strip en trim de input: WEAREDISCOVEREDRUNATONCE
 
-        verdeel de tekst over 3 rails: \
-
+        verdeel de tekst over 3 rails: 
 
           W R I O R R A N \
           E E S V E U T C \
           A D C E D N O E \ 
-          \
+
           
 OUTPUT is dan: WRIORRAN EEDVEUTC ADCEDNOE
 
