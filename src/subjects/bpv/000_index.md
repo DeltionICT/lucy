@@ -90,11 +90,11 @@ Op basis van deze gegevens wordt een PraktijkOvereenKomst (POK) opgemaakt.
 >   * [SBB beoordeling]({{ 'https://deltionict.github.io/lucy/bpv/docs/SD_beoordelingsset_BPV_v2.docx' | url }})<br>
 > 💡 Upload het verslag en de eindbeoordeling in PDF in CumLaude (na augustus 2023 in: Canvas).<br><br>
 >
-> **BPV met Rubrics-gesprekken**;<br>
->   * [Rubrics (docx)]({{ 'https://deltionict.github.io/lucy/ict-klas/docs/Rubrics_SD.docx' | url }})<br>
->   * [Rubrics (pdf)]({{ 'https://deltionict.github.io/lucy/ict-klas/docs/Rubrics_SD.pdf' | url }})<br>
+> **BPV met Rubrics-gesprekken**;
+> * [Rubrics (docx)]({{ '/_assets/school/begeleiding/Rubrics_SD.docx' }})<br>
+> * [Rubrics (pdf)]({{ '/_assets/school/begeleiding/Rubrics_SD.pdf' }})
 > 💡Waar mogelijk kan je ook tijdens de stage wwerken aan Lucy-opdrachten en deze toevoegen aan jouw PORTFOLIO.<br> 
->     Hiermee verkort jij de duur tijd van jouw opleiding.
+> Hiermee verkort jij de duur tijd van jouw opleiding.
 
 
 ## Stagebegeleiding
