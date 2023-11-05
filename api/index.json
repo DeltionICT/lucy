@@ -876,6 +876,18 @@
         "date":"Tue Mar 07 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/html-css/html-mondriaan/",
+        "title":"HTML Mondriaan",
+        "author":"jsiewers",
+        "date":"Sat Mar 11 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/html-css/shopsite/",
+        "title":"Shopsite",
+        "author":"jsiewers",
+        "date":"Sat Mar 11 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/ict-flex/basis-hosting/",
         "title":"Basis | Hosting",
         "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
