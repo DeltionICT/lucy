@@ -1614,10 +1614,46 @@
         "date":"Mon Oct 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/c-basis/introductie/",
+        "title":"Introductie",
+        "author":"kstarreveld",
+        "date":"Fri Oct 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/security/transposition-cipher/",
         "title":"Transposition Cipher",
         "author":"kstarreveld",
         "date":"Fri Oct 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-basis/windows-console-basis-opdrachten/",
+        "title":"Windows console basis opdrachten",
+        "author":"kstarreveld",
+        "date":"Mon Oct 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-basis/windows-forms-basis-opdrachten/",
+        "title":"Windows Forms basis opdrachten",
+        "author":"kstarreveld",
+        "date":"Mon Oct 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-basis/windows-forms-medium-opdrachten/",
+        "title":"Windows Forms medium opdrachten",
+        "author":"kstarreveld",
+        "date":"Mon Oct 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-basis/windows-forms-oefen-opdrachten/",
+        "title":"Windows Forms oefen opdrachten",
+        "author":"kstarreveld",
+        "date":"Mon Oct 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/c-basis/windows-website-duo-project/",
+        "title":"Windows website duo Project",
+        "author":"kstarreveld",
+        "date":"Mon Oct 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
