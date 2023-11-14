@@ -10,18 +10,28 @@ author: cstegeman
 
 > #### Doelen
 > * Je leert een basis layout voor een website te maken
+> * Je leert meerder CSS technieken te gebruiken
 > * Je leert om te gaan met de CSS Flexbox
+> * Een weblayout te maken die je in de toekomst bij elk web-project als basis kan gebruiken!
 
-<!-- {{ '/_assets/basis/html.svg' | image: 'HTML5 Logo', 8 }}
-{{ '/_assets/basis/css.svg' | image: 'CSS3 Logo', 8 }} -->
+## Tutorial
+* De tutorial met opdrachten vind je onder [deze link](https://std.stegion.nl/cs_codebase/css10_layout_flex/index.html)
+* Aan de hand van onderstaande voorbeelden, leer je stap voor stap een basis web-layout te bouwen met de Flexbox
+* geen gedoe met floats, sticky footers of andere veroudere CSS methoden! 
+
+{{ '/_assets/htmlcss/layout0.png' | image: 'HTML opzet',        32 }}
+{{ '/_assets/htmlcss/layout2.png' | image: 'Flexbox',           32 }}
+{{ '/_assets/htmlcss/layout4.png' | image: 'Sidebars',          32 }}
+{{ '/_assets/htmlcss/layout6.png' | image: 'Menu1',             32 }}
+{{ '/_assets/htmlcss/layout6b.png' | image: 'Menu2',            32 }}
+{{ '/_assets/htmlcss/layout8b.png' | image: 'Advanced layout',  32 }} 
 
 ## Opdracht
-* Maak van onderstaand ontwerp een websiteMaak de webpagina zo goed mogelijk na
-* Link [Lorem Ipsum](https://www.lipsum.com/)
+* Volg de [tutorial](https://std.stegion.nl/cs_codebase/css10_layout_flex/index.html) en maak per stap de opdrachten die er bij staan
 
 
 > ##### Op te leveren
-> * een webpage met tekst en meerdere koppen 
+> * een webpage met basis Flexbox layout zoals in de tutorial beschreven 
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen
