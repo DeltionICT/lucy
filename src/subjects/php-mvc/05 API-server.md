@@ -3,7 +3,7 @@ title: API-server PHP
 key: 1405
 difficulty: expert
 date: 2023-01-05
-technology: php, dbo, dbq
+technology: php, dbo, dbq, mvc
 author: rkerssies
 ---
 
@@ -22,10 +22,11 @@ author: rkerssies
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
 zoals:
-* [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
+* [LARAVEL]({{ 'https://laravel.com/docs'  }})
 * C#
-<br><br>
-  Creating your own API-service &emsp;{{ '/_assets/api/api.png' | image: 'api', 4 }}
+
+<br>
+  <font color="blue"><b>Creating your own API-service &emsp;{{ '/_assets/api/api.png' | image: 'api', 4 }}</b></font>
 <br><br>
 
 Alle request worden getest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com'  }}) {{ '/_assets/_icons/postman.png' | image: 'postman', 2 }},
@@ -34,6 +35,7 @@ bekijk eventueeel de [Postman-les]({{ 'https://deltionict.github.io/lucy/subject
 <hr>
 
 1. Maak een API-server in een framework met de volgende werking;
+
 * alle responses zijn in json, met daarbij extra meta-data ook in json
 * in de url is duidelijk welk model/databasetabel wordt aangesproken
 * key 'all' in de url levert alle records als response
@@ -62,14 +64,13 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * de json-respons wordt door overerving op één plaats uitgewerkt voor alle verschillende responses
 * voeg validatie toe voor het toevoegen en aanpassen van records
 
-In het framework zijn de volgende technische eigenschappen toegepast:
-* maak gebruik van de mogelijkheid om variabelen voor een model in de API-url te plaatsen
-* instatieer een model-class en validatie-class op basis van de class-naam in de url   
-  <br><br>
+De API-applicatie bevat is o.a. :
+* maak gebruik van de mogelijkheid om variabelen in de API-url te plaatsen 
+* Objecten van een Model-class en Validatie-class worden dynamisch aangeroepen op basis van een variabele in de url
 
 > ##### Op te leveren
 > * een REST API-applicatie met;
->   * die alle data uit verschillende databas-tabellen kan teruggeven in json 
+>   * die alle data uit verschillende database-tabellen kan teruggeven in json 
 >   * die een enkel record uit verschillende database-tabellen kan teruggeven in json
 >   * die CRUD-acties kan uitvoeren op verschillende database-tabellen en een json response teruggeeft
 >   * alle responses zijn uitsluitend in JSON en hebben een key 'meta' met daarin o.a. de status, success, melding, evt validatie-fouten

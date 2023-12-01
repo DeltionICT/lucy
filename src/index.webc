@@ -33,6 +33,7 @@ layout: layout.webc
                 <tech color="blue" title="OO Projects"></tech>
                 <tech color="blue" title="Laravel"></tech>
                 <tech color="blue" title="PHP MVC"></tech>
+                <tech color="blue" title="C# basis"></tech>
                 <tech color="blue" title="C# MVC"></tech>
                 <tech color="green" title="NodeJS"></tech>
             </p>
