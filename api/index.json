@@ -726,15 +726,15 @@
         "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/js-basis/js11-monkey-shuffle/",
-        "title":"js11 | Monkey Shuffle",
-        "author":"jsiewers",
-        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/js-basis/js14-array/",
         "title":"js14 | Array",
         "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-basis/js15-monkey-shuffle/",
+        "title":"js15 | Monkey Shuffle",
+        "author":"jsiewers",
         "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
