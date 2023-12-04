@@ -1,13 +1,13 @@
-i---
-title: js02 | Starten javascript
+---
+title: js02 | Basis javascript
 difficulty: basic #basic | medium | expert
 date: 2023-12-03
 author: cstegeman
 ---
 
-
 > #### Voorkennis:  
-> * HTML, CSS basis
+> * HTML basis
+> * CSS basis
 
 > #### Doelen:  
 > * ontdekken wat Javascript is
@@ -23,20 +23,22 @@ Met Javascript kan dat wel!
 
 ### Opdracht
 * Bekijk [deze tutorial](https://www.w3schools.com/js/)van W3Schools 
-    * Kopieer de voorbeelden van "JS Home" en "JS Introduction" en maak ze werkend in 1 pagina op jouw computer
+    * Kopieer de 1<sup>ste</sup>voorbeelden van "JS Home" en "JS Introduction" en maak ze werkend in 1 pagina op jouw computer
     * In "JS Where To" wordt verteld dat JS op verschillende plekken in je HTML kan staan en hoe je een "function" gebruikt
-        * Maak een nieuwe pagina aan!
-        * zet de scripts van de eerste opdracht in script-tags <i>vlak voor &lt;/body&gt; (body-sluiten)</i>. Doen ze het nog? 
-        * Maak weer een nieuwe pagina aan!
-        * zet de scripts in aparte functions en zet die in script-tags <i>in de &lt;head&gt;</i>. Roep ze aan via buttons in de &lt;body&gt;  
+    * Maak een nieuwe pagina aan!
+        * plaats nu die de scripts script-tags (&lt;script&gt; &lt;/script&gt;) <i>vlak voor &lt;/body&gt; (body-sluiten)</i>.
+    * Maak weer een nieuwe pagina aan!
+        * zet de scripts in aparte functions in de <i>in de &lt;head&gt;</i>. Roep ze aan via buttons in de &lt;body&gt;  
+    * Maak het voorbeeld met de lichtknopjes na uit "JS Introduction" 
+        * maak nu 4 knoppen met bijv. "koe", "schaap", "hert", "hond" en laat die afbeelding verschijnen.
+    * Bekijk bij "JS Functions" hoe je parameters mee geeft aan een function
+        * Maak dezelfde opdracht als hiervoor met 1 function
     * Bekijk in "JS Output" de werking van <i>window.alert()</i> en <i>console.log()</i>
-        * Maak in de laatste pagina ook een function aan die de omterk berekent van een cirkel met <i>let omtrek=2*Math.PI*r</i>
-        * Vul voor de r (=straal) een getal in en laat het zien op 3 plekken:
+        * Maak in de laatste pagina ook een function voor de omtrek van een cirkel met <i>let omtrek=2*Math.PI*r</i>
+        * Vul voor de r (=straal) een getal in en laat berekening en uitkomst zien op 3 plekken:
             * in een div in de body
             * in de console
             * als alert melding 
-
-
 
 ## Uitleg
 [Javascript tutorial op w3schools](https://www.w3schools.com/js/)
