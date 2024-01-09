@@ -11,7 +11,7 @@ technology: php, html, dbq
 > #### Voorkennis
 > * Basiskennis HTML
 > * Programmeertaal: PHP
-> * Basiskennis SQL queries
+> * [Basiskennis SQL queries](https://www.edutorial.nl/dbq/installeren/)
 
 > #### Dit ga je leren
 > * Basiskennis PHP
