@@ -8,6 +8,7 @@ author: jsiewers
 > #### Voorkennis
 > * Basis programmeren; variabelen, if-else, arrays, loops, functions en parameters
 > * Database-koppelingen op basis van mysqli of pdo
+> * Functions
 > * PHP Sessions
 > * Eenvoudige database queries (insert, update, delete en select)
 
