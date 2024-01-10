@@ -23,7 +23,6 @@ author: jsiewers
 * Als bezoeker wil je kunnen inloggen (na inloggen ben je student of de docent)
 * Als docent wil je cijfers voor wiskunde-toetsen op kunnen slaan en wijzigen.
 * Als docent wil je de toetsen in het systeem kunnen beheren (toevoegen, aanpassen, weggooien)
-* Als docent wil je de resultaten in het systeem kunnen beheren (toevoegen, aanpassen, weggooien)
 * Als docent wil je studenten kunnen beheren (toevoegen, aanpassen en weggooien)
 * Als student wil je graag je resultaten kunnen zien.
 
@@ -38,6 +37,8 @@ author: jsiewers
 ## Resultaat
 * Bouw de applicatie
 * Bewaar de applicatie op Github
+    * Maak een github-account als je dat nog niet hebt
+    * Volg [deze video](https://www.youtube.com/watch?v=i_23KUAEtUM) om je app op github te zetten
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
