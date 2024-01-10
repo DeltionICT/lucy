@@ -7,10 +7,10 @@ author: jsiewers
 
 > #### Voorkennis
 > * Basis programmeren; variabelen, if-else, arrays, loops, functions en parameters
-> * Database-koppelingen op basis van mysqli of pdo
+> * [Database-koppelingen](https://phpdelusions.net/pdo) op basis van mysqli of pdo
 > * Functions
-> * PHP Sessions
-> * Eenvoudige database queries (insert, update, delete en select)
+> * [PHP Sessions](https://www.edutorial.nl/php/sessions/)
+> * [Eenvoudige database queries](https://www.edutorial.nl/dbq/eenvoudige-queries/) ([insert](https://www.edutorial.nl/dbq/database-maken/#records-toevoegen), [update](https://www.edutorial.nl/dbq/database-maken/#records-updaten), [delete](https://www.edutorial.nl/dbq/database-maken/#records-verwijderen) en [select](https://www.edutorial.nl/dbq/gegevens-filteren/))
 
 > #### Dit ga je leren
 > * Een applicatie bouwen met inlog-functionaliteit
@@ -30,6 +30,7 @@ author: jsiewers
 ## Benodigdheden
 * Je maakt gebruik van een mysql-database om de benodigde gegevens in op te slaan.
 * Maak gebruik van [dit script](https://static.edutorial.nl/php/cijferapp/cijferapp.sql) om de database te installeren
+    * [Hier zie je hoe je het script kunt gebruiken om een database te importeren](https://www.edutorial.nl/dbq/installeren/)
 
 ## Wireframe
 * [Bekijk het wireframe](https://docs.google.com/document/d/1BHwjlnTkOliX98WmOJm3oVjL2K1GJUmU6N1TRsvYa5g/edit?usp=sharing)
@@ -39,7 +40,7 @@ author: jsiewers
 * Bouw de applicatie
 * Bewaar de applicatie op Github
     * Maak een github-account als je dat nog niet hebt
-    * Volg [deze video](https://www.youtube.com/watch?v=i_23KUAEtUM) om je app op github te zetten
+    * Volg [deze video](https://www.youtube.com/watch?v=i_23KUAEtUM) (of [deze](https://www.youtube.com/watch?v=HkdAHXoRtos)) om je app op github te zetten
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
