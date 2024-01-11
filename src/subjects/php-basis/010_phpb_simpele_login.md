@@ -20,6 +20,9 @@ technology: php, html
 ## Userstory
 * Als bezoeker wil ik kunnen inloggen in de applicatie zodat ik toegang krijg tot een pagina met de tekst "Hey, welkom in onze app".
 
+## Uitleg
+* Kun je vinden op [edutorial.nl](https://www.edutorial.nl/php/formulieren/)
+
 ## Activity diagram
 
 
