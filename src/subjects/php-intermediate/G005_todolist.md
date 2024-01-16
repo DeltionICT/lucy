@@ -26,6 +26,7 @@ author: jsiewers
 ## Benodigdheden
 * Je maakt gebruik van een mysql-database om de benodigde gegevens in op te slaan.
 * Volg het stappenplan op [programmeerplaats](https://programmeerplaats.nl/to-do-list-php-pdo-mysql-database/)
+* Voor mensen die [deze app in Laravel](https://masteringbackend.com/posts/laravel-framework-the-ultimate-guide#building-an-app-with-laravel) willen bouwen
 
 ## Resultaat
 * Bouw de applicatie
