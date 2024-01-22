@@ -8,9 +8,6 @@ technology: all
 ---
 
 
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 ### Resultaat

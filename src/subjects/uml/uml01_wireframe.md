@@ -38,7 +38,7 @@ Details over Wireframes zijn te vinden op how to: [WireFrames]({{ 'https://www.l
 en [WireFrames explained]({{ 'https://www.lucidchart.com/pages/wireframe'  }}).
 
 <br><br>
-NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
+NB: Wireframes vallen onder de [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
 <img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren

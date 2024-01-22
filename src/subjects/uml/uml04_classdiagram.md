@@ -38,7 +38,7 @@ Details over ClassDiagrammen zijn te vinden op how to: [ClassDiagram]({{ 'https:
 en [ClassDiagrammen explained]({{ 'https://www.lucidchart.com/pages/uml-class-diagram'  }}).
 
 <br><br>
-NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
+NB: Wireframes vallen onder de [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
 <img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren

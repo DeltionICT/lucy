@@ -35,7 +35,7 @@ en [SequenceDiagram explained]({{ 'https://www.lucidchart.com/pages/uml-sequence
 [SequenceDiagram explained 2]({{ 'https://www.archimetric.com/what-is-sequence-diagram/'  }})
 
 <br><br>
-NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
+NB: Wireframes vallen onder de [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language'  }})-bibliotheek.<br>
 <img src="{{ '/_assets/themas/UML_diagram.png'  }}" style="width:60%;">
 
 > ##### Op te leveren

@@ -23,13 +23,14 @@ author: rkerssies
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals:
-* [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
+* [LARAVEL]({{ 'https://laravel.com/docs'  }})
 * C#
-<br><br>
-Building a skeleton-project {{ '/_assets/api/dino.png' | image: 'C# Logo', 4 }}  (part 4)
-<br><br>
+  <br>
+  <font color="blue"><b>Building a skeleton-project {{ '/_assets/api/dino.png' | image: 'C# Logo', 4 }} (part 4)</b></font>
+  <br>
 <hr>
-3. Update het applicatie met de volgende werking;
+
+4. Update het applicatie met de volgende werking;
 
 * als administrator kan ik nieuwe content toevoegen, zodat ik de artikelen kan uitbreiden
 * als administrator kan ik content verwijderen, zodat ik de verouderde artikelen kan verwijderen
@@ -47,11 +48,11 @@ Building a skeleton-project {{ '/_assets/api/dino.png' | image: 'C# Logo', 4 }} 
 <br><br>
 <hr>
 <b>!</b> In het framework zijn de volgende technische eigenschappen toegepast:
+
 * RBAC (rollbased-access-control)
-  * evt uitgevoerd met: [Bouncer]({{ 'https://github.com/JosephSilber/bouncer'  }}) of [Laratrust]({{ 'https://laratrust.santigarcor.me'  }})
-  * (C#-opackage ?)
+  * evt uitgevoerd met: [Bouncer]({{'https://github.com/JosephSilber/bouncer'}}) of [Laratrust]({{ 'https://laratrust.santigarcor.me'  }})
+  * (C#-package ?)
 * dummy-accounts en daarbij gekoppelde rollen en rechten worden door seeding en factories toegevoegd aan de databasetabellen
-<br><br>
 
 > ##### Op te leveren
 > * een web-applicatie die is opgebouwd met een MVC-framework (Laravel)

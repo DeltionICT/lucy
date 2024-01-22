@@ -6,6 +6,7 @@ author: jsiewers
 
 > #### Voorkennis
 > * Je hebt kennis van object georienteerd programmeren in php
+> * Kunnen werken met databases (bijv: MySQL / MariaDB)
 
 > #### Dit ga je leren
 > * Je gaat een eerste project maken met laravel

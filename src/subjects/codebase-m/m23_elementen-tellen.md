@@ -7,10 +7,6 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
@@ -37,9 +33,10 @@ Plaats de volgende lijst in een tekstbestand:
 - Apeldoorn
 
 ### Resultaat
-Schrijf een programma dat de lijst van woonplaatsen inleest.  
+Schrijf een programma dat de bovenstaande lijst van woonplaatsen inleest uit een txt-bestand (bijv: steden.txt).  
 Voor elke woonplaats telt het hoe vaak het voorkomt in de lijst.   
 De uitvoer is een gesorteerde lijst waarin per woonplaats staat hoe vaak het voorkomt in de lijst.
+
 
 #### Voorbeeld
 ```shell

@@ -13,7 +13,8 @@ author: jsiewers
 > * Je leert gegevens te filteren met behulp van MySQL queries
 
 ## Opdracht
-Gebruik de afbeelding van het ERD van een radiozenders-database om queries te maken voor de gevraagde gegevens.
+* Gebruik de afbeelding van het ERD van een radiozenders-database om queries te maken voor de gevraagde gegevens.
+* [Download hier het sql-bestand](https://static.edutorial.nl/dbq/Kraeken.sql)
 
 ## Uitleg
 [Hier vind je uitleg over het gebruik van MySQL en queries](https://www.edutorial.nl/dbq/introductie/)

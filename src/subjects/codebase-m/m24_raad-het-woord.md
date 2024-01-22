@@ -1,5 +1,5 @@
 ---
-title: Raad het woord
+title: Raad het woord / galgje
 key: 1059
 difficulty: medium #basic | medium | expert
 date: 2023-01-02
