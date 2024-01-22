@@ -1,6 +1,0 @@
-{
-    "layout":"assignment.webc",
-    "tags":"lego, ev3, robot",
-    "coursetitle":"LEGO Mindstorms® Education EV3",
-    "permalink":"/subjects/lego/{{ title | slugify }}/{{ page.index }}"
-}
