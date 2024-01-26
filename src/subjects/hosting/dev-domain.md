@@ -53,7 +53,16 @@ ____________________________________
 ### Alle webservers
 Voorbeeld hostfile 
 
-Open de vhost-conf file in een text-editor. 
+Open de file 
+``` shell
+~etc/httpd.conf
+```
+Zoek de tweede regel op en haal de # weg (de-commentariseren);
+```shell 
+# Virtual hosts
+Include etc/extra/httpd-vhosts.conf
+```
+De vhost-conf file word nu in het opstart-proces meegenomen. Open deze vhost-file in een text-editor. 
 De file kan worden gevonden in de XAMPP applicatie-folder;
 ```shell
 ~/etc/extra/httpd-vhosts.conf
