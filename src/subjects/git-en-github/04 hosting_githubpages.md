@@ -7,12 +7,11 @@ author: jsiewers
 technology: git, hosting
 ---
 
-
-
 > Voorbereiding
 > Je hebt een website gemaakt die je op internet wilt plaatsen
-> Let op:  Statische websites maken geen gebruik van php en/of andere applicatieservers!
+> Let op: Statische websites maken geen gebruik van php en/of andere applicatieservers!
 
+<img src="{{ '/_assets/_icons/git.png'  }}" style="width:10%;">
 
 ## Resultaat
 * Een website die je vanaf iedere computer op internet kunt benaderen!

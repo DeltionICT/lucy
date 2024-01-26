@@ -21,8 +21,9 @@ technology: ide, html, css
 >   * Een lokale repository opzetten
 >   * Een workflow opzetten met Git en Github
 
-## Opdracht
+<img src="{{ '/_assets/_icons/git.png'  }}" style="width:10%;">
 
+## Opdracht
 * Maak een kookboek met recepten.
 * Uitleg over het maken van een repository en het maken van een kookboek vind je in de filmpjes op [edutorial.nl](https://www.edutorial.nl/git/introductie/)
 * Maak een [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) van het kookboek op [https://github.com/DeltionICT/the-cook-book/fork](https://github.com/DeltionICT/the-cook-book/fork)

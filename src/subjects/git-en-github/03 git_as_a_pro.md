@@ -7,7 +7,6 @@ author: jsiewers
 technology: ide, html, css
 ---
 
-
 > #### Voorkennis
 > * Je heb een IDE geïnstalleerd
 > * Je hebt Git geïnstalleerd op je computer
@@ -20,6 +19,8 @@ technology: ide, html, css
 >   * Een lokale repository opzetten
 >   * Een workflow opzetten met Git en Github
 >   * Alles over branches, issues, pull requests, code reviews, merging en merge conflicten oplossen
+
+<img src="{{ '/_assets/_icons/git.png'  }}" style="width:10%;">
 
 ## Opdracht
 De opdracht voer je met 2 personen uit.

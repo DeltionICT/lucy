@@ -3,6 +3,7 @@ title: Introductie
 author: rkerssies
 date: 2023-06-30
 ---
+<img src="{{ '/_assets/_icons/git.png'  }}" style="width:10%;">
 
 ## Over deze set opdrachten
 Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
