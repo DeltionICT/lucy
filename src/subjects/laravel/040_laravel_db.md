@@ -11,6 +11,8 @@ author: jsiewers
 > * Je gaat een eerste project maken met laravel
 > * Je leert werken met routes, controllers en models in laravel
 
+{{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
+
 ## Beginsituatie
 * Kloon de [laravel-applicatie](https://github.com/siewers32/restaurant) met `git clone` vanaf github.com
 * Deze applicatie is gemaakt met Laravel 10 en uitgebreid met een aantal migrations. Met `php artisan migrate:fresh --seed` wordt de database-structuur aangemaakt en worden de tabellen gevuld met data.

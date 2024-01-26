@@ -12,6 +12,8 @@ author: jsiewers
 > * Je gaat een eerste project maken met laravel
 > * Je leert werken met routes en views in laravel
 
+{{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
+
 ## Beginsituatie
 * Installeer composer
 * Installeer een laravel project met `composer create-project laravel/laravel mijnproject`

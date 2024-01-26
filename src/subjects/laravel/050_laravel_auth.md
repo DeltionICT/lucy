@@ -13,6 +13,8 @@ author: jsiewers
 > * Je gaat gebruikmaken van routes in Laravel
 > * Je gaat libraries installeren waarmee je authenticatie kunt toepassen in Laravel
 
+{{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
+
 ## Beginsituatie
 * Installeer de laatste versie van Laravel
 * Installeer de libraries om authenticatie toe te passen (bijv. Laravel Breeze)
