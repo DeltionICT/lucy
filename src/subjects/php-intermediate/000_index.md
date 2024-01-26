@@ -3,6 +3,8 @@ title: Introductie
 author: rkerssies
 date: 2023-06-30
 ---
+{{ '/_assets/basis/functions.png' | image: 'functions', 10 }}
+
 
 ## Over deze set opdrachten
 Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten

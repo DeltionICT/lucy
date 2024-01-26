@@ -4,7 +4,6 @@ date: 2024-01-09
 author: jsiewers
 ---
 
-
 > #### Voorkennis
 > * Basis programmeren; variabelen, if-else, arrays, loops, functions en parameters
 > * [Database-koppelingen](https://phpdelusions.net/pdo) op basis van mysqli of pdo
@@ -18,6 +17,7 @@ author: jsiewers
 > * Toevoegen, aanpassen en verwijderen van records 
 > * Security door juist gebruik van [PDO](https://phpdelusions.net/pdo) of mysqli en [password_hash](https://stackoverflow.com/questions/30279321/how-to-use-phps-password-hash-to-hash-and-verify-passwords)
 
+{{ '/_assets/basis/functions.png' | image: 'functions', 10 }}
 
 ## Opdracht
 * Maak een applicatie voor een wiskunde-docent en zijn/haar studenten. 

@@ -4,7 +4,6 @@ date: 2024-01-09
 author: jsiewers
 ---
 
-
 > #### Voorkennis
 > * Basis programmeren; variabelen, if-else, arrays, loops, functions en parameters
 > * [Database-koppelingen](https://phpdelusions.net/pdo) op basis van mysqli of pdo
@@ -15,6 +14,7 @@ author: jsiewers
 > * Een applicatie bouwen waar je de dingen die je nog moet doen in bij kan houden
 > * Toevoegen, aanpassen en verwijderen van records 
 
+{{ '/_assets/basis/functions.png' | image: 'functions', 10 }}
 
 ## Opdracht
 * Maak een applicatie met een database
