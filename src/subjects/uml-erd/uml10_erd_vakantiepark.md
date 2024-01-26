@@ -5,14 +5,11 @@ author: jsiewers
 technology: dbo
 ---
 
-
-
-
-
 > ##### Voorkennis
 > * SQL Queries
 > * Een databaseserver installeren, tabellen aanmaken en permissies instellen
 
+<img src="{{ '/_assets/themas/diagram.png'  }}" style="width:10%;">
 
 ## Opdracht
 Maak het ERD dat hoort bij onderstaande casus.

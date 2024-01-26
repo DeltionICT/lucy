@@ -7,8 +7,6 @@ technology: uml, database
 author: rkerssies
 ---
 
-
-
 <img src="{{ '/_assets/themas/diagram.png'  }}" style="width:10%;">
 
 > ##### Voorkennis
