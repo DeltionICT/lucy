@@ -17,6 +17,7 @@ technology: html, php
 > * Gebruik maken van condities (if..else)
 > * Uitvoer van PHP weergeven in HTML
 
+{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
 
 ## Voor pizza-ninja's....
 * Zorg ervoor dat je meerdere pizza's tegelijk kunt bestellen

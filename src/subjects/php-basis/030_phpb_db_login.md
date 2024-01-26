@@ -20,6 +20,7 @@ technology: php, html, dbq
 > * Gebruik maken van condities (if..else)
 > * [Een database maken met tabellen](https://www.edutorial.nl/dbq/database-maken/) en [queries toepassen in php](https://www.edutorial.nl/php2/php-en-mysql/#opdrachten)
 
+{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
 
 ## Userstory
 * Als bezoeker wil ik kunnen inloggen in de applicatie zodat ik toegang krijg tot een pagina met de tekst "Hey, welkom in onze app".

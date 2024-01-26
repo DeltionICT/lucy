@@ -17,6 +17,8 @@ technology: php, html
 > * hashing met sha1
 > * Uitvoer van PHP weergeven in HTML
 
+{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
+
 ## Userstory
 * Als bezoeker wil ik kunnen inloggen in de applicatie zodat ik toegang krijg tot een pagina met de tekst "Hey, welkom in onze app".
 

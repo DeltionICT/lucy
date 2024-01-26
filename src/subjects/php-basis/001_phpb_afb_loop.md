@@ -17,6 +17,8 @@ technology: php
 > * Basiskennis PHP
 > * Een loop maken met PHP
 
+{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
+
 ## Resultaat
 Je kunt de tafel van 1247 en een reeks afbeeldingen tonen in je browser.
 

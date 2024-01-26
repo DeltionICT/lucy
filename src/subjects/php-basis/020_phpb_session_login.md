@@ -19,6 +19,7 @@ technology: html, php
 > * Een redirect uitvoeren
 > * Uitvoer van PHP weergeven in HTML
 
+{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
 
 ## Userstory
 Als gebruiker wil ik kunnen inloggen zodat ik toegang krijg tot de content van de website.

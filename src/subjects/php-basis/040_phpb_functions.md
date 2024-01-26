@@ -15,6 +15,8 @@ technology: php
 > * Berekeningen maken met PHP
 > * Herbruikbare code maken met behulp van functies in PHP
 
+{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
+
 ### Opdracht 1
 Maak een function die 2 argumenten accepteert, namelijk:
 * controleeer of de parameters numeriek zijn, geef anders een false terug

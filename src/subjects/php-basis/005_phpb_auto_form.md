@@ -16,6 +16,8 @@ technology: php
 > * Basiskennis PHP
 > * Ingevulde waarden in een formulier bewerken en weergeven met PHP
 
+{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
+
 ## Op te leveren
 Een formulier waarbij je kunt kiezen uit minimaal 5 automerken (of games of tandpasta of ander onderwerp).  
 Zodra je je keuze hebt gemaakt en je verstuurt het formulier, dan worden er 2 plaatjes weergegeven van je favoriete automerk (of game of wat dan ook).  

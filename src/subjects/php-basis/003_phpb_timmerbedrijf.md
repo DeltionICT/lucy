@@ -16,6 +16,7 @@ technology: html, php
 > * Uitvoer van PHP weergeven in HTML
 > * Berekeningen maken met PHP
 
+{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
 
 ## Opdracht
 * Maak een calculatieprogramma voor Timmerbedrijf "About Hout".
