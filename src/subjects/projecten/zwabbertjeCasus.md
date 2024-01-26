@@ -1,5 +1,5 @@
 ---
-title: Zwabbertje-casus
+title: Project Zwabbertje-casus
 key: 2205
 difficulty: medium
 date: 2022-03-01

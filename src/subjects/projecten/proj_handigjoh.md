@@ -1,5 +1,5 @@
 ---
-title: PROJ Handig Joh
+title: Project Handig Joh
 key: 2204
 difficulty: medium
 date: 2022-11-10
