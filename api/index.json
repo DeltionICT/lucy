@@ -48,14 +48,14 @@
         "date":"Wed Feb 16 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/beer-casus/",
-        "title":"Beer-casus",
+        "url":"/lucy/subjects/projecten/project-beer-casus/",
+        "title":"Project Beer-casus",
         "author":"rkerssies, cstegeman",
         "date":"Tue Mar 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/zwabbertje-casus/",
-        "title":"Zwabbertje-casus",
+        "url":"/lucy/subjects/projecten/project-zwabbertje-casus/",
+        "title":"Project Zwabbertje-casus",
         "author":"rkerssies",
         "date":"Tue Mar 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -114,14 +114,14 @@
         "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/proj-handig-joh/",
-        "title":"PROJ Handig Joh",
+        "url":"/lucy/subjects/projecten/project-handig-joh/",
+        "title":"Project Handig Joh",
         "author":"jsiewers",
         "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/proj-kraeken/",
-        "title":"PROJ Kraeken",
+        "url":"/lucy/subjects/projecten/project-kraeken/",
+        "title":"Project Kraeken",
         "author":"jsiewers",
         "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -156,8 +156,8 @@
         "date":"Sun Nov 20 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/eigen-casus/",
-        "title":"Eigen Casus",
+        "url":"/lucy/subjects/projecten/eigen-project-casus/",
+        "title":"Eigen project-casus",
         "author":"rkerssies",
         "date":"Mon Dec 12 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
