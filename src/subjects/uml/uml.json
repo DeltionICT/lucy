@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"uml",
-	"coursetitle":"UML",
-	"permalink":"/subjects/uml/{{ title | slugify }}/{{ page.index }}"
-}

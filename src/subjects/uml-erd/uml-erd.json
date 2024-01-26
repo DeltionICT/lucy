@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"uml-erd",
+	"coursetitle":"UML - ERD Databases",
+	"permalink":"/subjects/uml-erd/{{ title | slugify }}/{{ page.index }}"
+}

@@ -26,4 +26,9 @@ volgende leerlijn met daarin deze opdracht(en);
 > ⏱️ 1 dag &emsp; 🔒verplicht<br>
 > <small>‼️Maak een keuze uit: `ActiviteitenDiagram`, `ClassDiagram` of `SequenceDiagram`</small>
 
+> 4. ERD<br>
+> ⏱️ 2 dagen &emsp; 🔒verplicht<br>
+> <small>‼️Vrije keuze uit één van de verschillende ERD-opdrachten</small>
+
+
 > <small>💡Tip: maak gebruik van [Balsamiq]({{ 'https://balsamiq.com' | url }})` voor het maken van schema's </small>
