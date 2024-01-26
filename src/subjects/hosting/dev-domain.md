@@ -84,7 +84,13 @@ De index.php file staat in de public-folder.
 
 De website is nu te benaderen met de url ```http://mvc2022.rk```
 
-## Clean URL's opzetten
+
+____________________________________
+
+## Optioneel: Clean URL's opzetten
+
+Bij het opzetten van jouw eigen applicatie (niet frameworks waar dit al geregeld is) 
+is het o.a. mogelijk op zelf clean URL's op te zetten met de .htaccess file. 
 
 Door een .htaccess file toe te voegen in de root-folder van het project.
 Voeg daarin de volgende code toe;
