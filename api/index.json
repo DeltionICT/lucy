@@ -12,37 +12,37 @@
         "date":"Fri Feb 11 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/uml/ontwerpen-wireframes/",
+        "url":"/lucy/subjects/uml-erd/ontwerpen-wireframes/",
         "title":"Ontwerpen | Wireframes",
         "author":"rkerssies",
         "date":"Sat Feb 12 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/uml/ontwerpen-mockups/",
+        "url":"/lucy/subjects/uml-erd/ontwerpen-mockups/",
         "title":"Ontwerpen | Mockups",
         "author":"rkerssies",
         "date":"Sun Feb 13 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/uml/ontwerpen-activiteitendiagram/",
+        "url":"/lucy/subjects/uml-erd/ontwerpen-activiteitendiagram/",
         "title":"Ontwerpen | ActiviteitenDiagram",
         "author":"rkerssies",
         "date":"Mon Feb 14 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/uml/ontwerpen-classdiagram/",
+        "url":"/lucy/subjects/uml-erd/ontwerpen-classdiagram/",
         "title":"Ontwerpen | ClassDiagram",
         "author":"rkerssies",
         "date":"Tue Feb 15 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/uml/ontwerpen-sequencediagram/",
+        "url":"/lucy/subjects/uml-erd/ontwerpen-sequencediagram/",
         "title":"Ontwerpen | SequenceDiagram",
         "author":"rkerssies",
         "date":"Wed Feb 16 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/uml/ontwerpen-entiteit-relatie-diagram-erd/",
+        "url":"/lucy/subjects/uml-erd/ontwerpen-entiteit-relatie-diagram-erd/",
         "title":"Ontwerpen | Entiteit Relatie Diagram (ERD)",
         "author":"rkerssies",
         "date":"Wed Feb 16 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
@@ -70,12 +70,6 @@
         "title":"Sessie login",
         "author":"jsiewers",
         "date":"Mon Oct 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/database-ontwerp/erd-vakantiepark/",
-        "title":"ERD Vakantiepark",
-        "author":"jsiewers",
-        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
         "url":"/lucy/subjects/database-queries/csv-importeren/",
@@ -134,6 +128,12 @@
     { 
         "url":"/lucy/subjects/projecten/project-stembus/",
         "title":"Project Stembus",
+        "author":"jsiewers",
+        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml-erd/erd-vakantiepark/",
+        "title":"ERD Vakantiepark",
         "author":"jsiewers",
         "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -1260,27 +1260,27 @@
         "date":"Fri Jun 02 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/database-ontwerp/erd-bloemenwinkel/",
+        "url":"/lucy/subjects/intakes-en-bezoekers/vmbo-keuzedeel-ao/",
+        "title":"vmbo-keuzedeel AO",
+        "author":"rkerssies",
+        "date":"Mon Jun 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/uml-erd/erd-bloemenwinkel/",
         "title":"ERD Bloemenwinkel",
         "author":"jsiewers",
         "date":"Mon Jun 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/database-ontwerp/erd-apotheek/",
+        "url":"/lucy/subjects/uml-erd/erd-apotheek/",
         "title":"ERD Apotheek",
         "author":"jsiewers",
         "date":"Mon Jun 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/database-ontwerp/erd-ziekenhuis/",
+        "url":"/lucy/subjects/uml-erd/erd-ziekenhuis/",
         "title":"ERD Ziekenhuis",
         "author":"jsiewers",
-        "date":"Mon Jun 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/intakes-en-bezoekers/vmbo-keuzedeel-ao/",
-        "title":"vmbo-keuzedeel AO",
-        "author":"rkerssies",
         "date":"Mon Jun 05 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
@@ -1524,7 +1524,7 @@
         "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/uml/introductie/",
+        "url":"/lucy/subjects/uml-erd/introductie/",
         "title":"Introductie",
         "author":"rkerssies",
         "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
