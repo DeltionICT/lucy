@@ -7,20 +7,18 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
-### Resultaat
-Maak een programma dat het volgende patroon tekent:
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
 
-```shell
-*
-**
-***
-****
-*****
-```
+> ### Op te leveren
+> Maak een programma dat het volgende patroon tekent:
+>
+> ```shell
+> *
+> **
+> ***
+> ****
+> *****
+> ```

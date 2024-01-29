@@ -8,14 +8,13 @@ technology: all
 ---
 
 
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
-### Resultaat
-Maak een programma waarbij de gebruiker gevraagd wordt om zijn
-geboortedatum in te voeren.  
-Op basis van de ingevoerde geboortedatum berekent het programma vervolgens de leeftijd van de gebruiker en toont
-hij deze leeftijd op het scherm.
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+
+> ### Op te leveren
+> Maak een programma waarbij de gebruiker gevraagd wordt om zijn
+> geboortedatum in te voeren.  
+> Op basis van de ingevoerde geboortedatum berekent het programma vervolgens de leeftijd van de gebruiker en toont
+> hij deze leeftijd op het scherm.

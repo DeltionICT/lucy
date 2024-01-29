@@ -7,18 +7,16 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
-### Resultaat
-Schrijf een programma dat de volgende functionaliteiten bevat:
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
 
-- Vraag de debruiker een lijst met namen in te voeren (gesplitst met een spatie).
-- Print de namen een voor een onder elkaar uit.
+> ### Op te leveren
+> Schrijf een programma dat de volgende functionaliteiten bevat:
+> 
+> - Vraag de debruiker een lijst met namen in te voeren (gesplitst met een spatie).
+> - Print de namen een voor een onder elkaar uit.
 
 #### Voorbeeld
 Voer een lijst met namen in:   

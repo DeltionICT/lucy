@@ -7,18 +7,15 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
-### Resultaat
-* Schrijf een programma dat de gebruiker vraagt een aantal knikkers in te
-voeren. 
-* Het ingevoerde aantal knikkers moet tussen de 1 en 20 liggen,
-* Laat je programma dit controleren. 
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+
+> ### Op te leveren
+> * Schrijf een programma dat de gebruiker vraagt een aantal knikkers in te voeren. 
+> * Het ingevoerde aantal knikkers moet tussen de 1 en 20 liggen,
+> * Laat je programma dit controleren. 
 
 #### Voorbeeld
 Op basis van het ingevoerde aantal knikkers geeft het programma de volgende output:

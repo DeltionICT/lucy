@@ -7,15 +7,14 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
-### Resultaat
-Schrijf een programma dat 100 willekeurige getallen onder elkaar laat zien.   
-Na elke drie regels moet er een witregel getoond worden.
+
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }} 
+
+> ### Op te leveren
+> Schrijf een programma dat 100 willekeurige getallen onder elkaar laat zien.   
+> Na elke drie regels moet er een witregel getoond worden.
 
 #### Voorbeeld
 ```shell

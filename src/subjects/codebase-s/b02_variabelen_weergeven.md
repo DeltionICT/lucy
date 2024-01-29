@@ -8,16 +8,13 @@ technology: all
 ---
 
 
-
-
-
 > ### Voorkennis
 > * Basis HTML
 > 
 > Programmeertaal: alle
 
-## Resultaat
-Je gaat een combinatie van variabelen en teksten samenvoegen en weergegeven.
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+
 
 ### Opdracht 1
 Laat een programma de volgende zin op het scherm zetten:  
@@ -44,3 +41,5 @@ $b = "en";
 $c = "niet.";
 ```
 
+> ## Op te leveren
+> * Je gaat een combinatie van variabelen en teksten samenvoegen en weergegeven.

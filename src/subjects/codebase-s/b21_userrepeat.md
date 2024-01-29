@@ -7,21 +7,18 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
-### Resultaat
-Maak een programma met onderstaande functionaliteiten, gebruik in je
-programma een while lus:
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
 
-- De gebruiken kan een begingetal opgeven.
-- De gebruiker kan een eindgetal opgeven.
-- Het programma toont het verschil tussen begin- en eindgetal.
-- Het programma toont een punt (.) voor elke verschilpunt tussen begin- en eindgetal.
-- De punten worden naast elkaar geprint, niet onder elkaar.
-- Programma-uitvoer is logisch en duidelijk.
-- Programma-code is onderhoudbaar door derden.
+> ### Op te leveren
+> Maak een programma met onderstaande functionaliteiten, gebruik in je programma een while-loop:
+>
+> - De gebruiken kan een begingetal opgeven.
+> - De gebruiker kan een eindgetal opgeven.
+> - Het programma toont het verschil tussen begin- en eindgetal.
+> - Het programma toont een punt (.) voor elke verschilpunt tussen begin- en eindgetal.
+> - De punten worden naast elkaar geprint, niet onder elkaar.
+> - Programma-uitvoer is logisch en duidelijk.
+> - Programma-code is onderhoudbaar door derden.

@@ -8,20 +8,19 @@ technology: all
 ---
 
 
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
-### Resultaat
-Schrijf een programma dat de gebruiker vraagt om een zin in te typen.
-Het programma voert het volgende uit:
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
 
-- zorgt dat de complete zin omgezet wordt in hoofdletters
-- zorgt dat decomplete zin omgezet wordt in kleine letters
-- zorgt dat de eerste letter van elk woord een hoofdletter wordt
-- zorg dat de eerste letter van de zin een hoofdletter wordt
+> ### Op te leveren
+> Schrijf een programma dat de gebruiker vraagt om een zin in te typen.
+> Het programma voert het volgende uit:
+> 
+> - zorgt dat de complete zin omgezet wordt in hoofdletters
+> - zorgt dat decomplete zin omgezet wordt in kleine letters
+> - zorgt dat de eerste letter van elk woord een hoofdletter wordt
+> - zorg dat de eerste letter van de zin een hoofdletter wordt
 
 #### Voorbeeld:
 Voer een zin in:   

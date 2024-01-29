@@ -7,13 +7,11 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
-### Resultaat
-Schrijf een programma dat willekeurig kop of munt gooit.  
-De uitkomst wordt vervolgens op het scherm getoond.
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+
+> ### Op te leveren
+> Schrijf een programma dat willekeurig kop of munt gooit.  
+> De uitkomst wordt vervolgens op het scherm getoond.

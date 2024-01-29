@@ -7,13 +7,11 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
-### Resultaat
-Schrijf een programma dat de gebruiker om een getal vraagt. In de
-uitvoer geeft het programma aan of het getal even of oneven is.
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+
+> ### Op te leveren
+> Schrijf een programma dat de gebruiker om een getal vraagt. In de
+> uitvoer geeft het programma aan of het getal even of oneven is.

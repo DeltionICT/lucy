@@ -7,13 +7,12 @@ technology: all
 author: rkerssies
 ---
 
-
-
-
-{{ '/_assets/basis/basics.png' | image:"basics", 10  }}
+[//]: # ({{ '/_assets/basis/basics.png' | image:"basics", 10  }})
 
 > #### Voorkennis
 > Programmeertaal: naar keuze
+
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
 
 > ##### Doel
 > * door een gebruikersactie wordt er een getal tussen van 1 tot en met 6 getoond    

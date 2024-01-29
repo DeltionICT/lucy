@@ -7,17 +7,15 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
 > Programmeertaal: naar keuze
 
-### Resultaat
-Schrijf een programma dat bepaalt welke speler heeft gewonnen.  
-Het programma vraagt userinput voor de score van speler 1 en van speler 2.  
-Het programma print wie er heeft gewonnen of dat er gelijk is gespeeld.
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+
+> ### Op te leveren
+> Schrijf een programma dat bepaalt welke speler heeft gewonnen.  
+> Het programma vraagt userinput voor de score van speler 1 en van speler 2.
+> Het programma print wie er heeft gewonnen of dat er gelijk is gespeeld.
 
 #### Voorbeeld
 ```shell
