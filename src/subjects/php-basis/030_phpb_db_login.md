@@ -38,7 +38,7 @@ technology: php, html, dbq
 * Meerdere gebruikers kunnen toegang krijgen tot de welkomstpagina met de tekst "Hey, welkom in onze app".
 * Bij verkeerd inloggen krijg je de waarschuwing "Je hebt geen toegang met deze naam- en wachtwoord-combinatie".
 
-## Resultaat
+## Op te leveren
 * Een website met minimaal 3 pagina's.
     * Een inlog-formulier
     * Een melding voor een juist ingelogde gebruiker
