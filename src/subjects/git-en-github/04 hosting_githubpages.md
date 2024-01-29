@@ -13,9 +13,6 @@ technology: git, hosting
 
 <img src="{{ '/_assets/_icons/git.png'  }}" style="width:10%;">
 
-## Resultaat
-* Een website die je vanaf iedere computer op internet kunt benaderen!
-* Een website die je kunt bereiken via je eigen domeinnaam.
 
 ## Github pages
 Github biedt een service die Github Pages heet. Je kunt je website op Github hosten. Hoe je dat moet doen vind je op [pages.github.com](https://pages.github.com/)
@@ -29,3 +26,6 @@ Registreer een domeinnaam bij een provider. Je kunt meestal tegen een laag tarie
 ## Alternatieven
 Je kunt ook bij andere hostingbedrijven een hostingpakket aanschaffen in combinatie met een domeinnaam. Onderzoek wat voor jou de beste oplossing is.
 
+> ## Op te leveren
+> * Een website die je vanaf iedere computer op internet kunt benaderen!
+> * Een website die je kunt bereiken via je eigen domeinnaam.
