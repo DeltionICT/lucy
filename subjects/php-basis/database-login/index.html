@@ -747,10 +747,13 @@ div.html table {
 <li><a href="https://www.edutorial.nl/dbq/database-maken/">Een database maken met tabellen</a> en <a href="https://www.edutorial.nl/php2/php-en-mysql/#opdrachten">queries toepassen in php</a></li>
 </ul>
 </blockquote>
-<img src="/lucy/_assets/_icons/php.png" alt="laravel" style="width:13%;">
+<img src="/lucy/_assets/_icons/php.png" alt="php" style="width:13%;">
 <h2>Userstory</h2>
+<p>Maak een login-systeem waarbij verschillende accounts en wachtwoorden die in een database-tabel staan kunnen inloggen.
+Het wachtwoord is gehashed (niet leesbaar opgeslagen) in de database.
+Daarnaast is er gebruik gemaakt van sessies en wachtwoorden zijn gehashed.</p>
 <ul>
-<li>Als bezoeker wil ik kunnen inloggen in de applicatie zodat ik toegang krijg tot een pagina met de tekst &quot;Hey, welkom in onze app&quot;.</li>
+<li>UserSory: Als bezoeker wil ik kunnen inloggen in de applicatie zodat ik toegang krijg tot een pagina met de tekst &quot;Hey, welkom in onze app&quot;.</li>
 </ul>
 <h2>Activity diagram</h2>
 <img src="/lucy/_assets/backend/schema_db_login.svg" alt="schema loginform" style="width:100%;">
@@ -763,17 +766,21 @@ div.html table {
 <li>Meerdere gebruikers kunnen toegang krijgen tot de welkomstpagina met de tekst &quot;Hey, welkom in onze app&quot;.</li>
 <li>Bij verkeerd inloggen krijg je de waarschuwing &quot;Je hebt geen toegang met deze naam- en wachtwoord-combinatie&quot;.</li>
 </ul>
-<h2>Resultaat</h2>
+<blockquote>
+<h3>Op te leveren</h3>
 <ul>
-<li>Een website met minimaal 3 pagina's.
+<li>Een website met minimaal 3 content-pagina's.
 <ul>
 <li>Een inlog-formulier</li>
 <li>Een melding voor een juist ingelogde gebruiker</li>
 <li>Een melding voor een niet juist ingelogde gebruiker</li>
 </ul>
 </li>
+<li>Er wordt een redirect uitgeveord bij het benaderen van content-pages zonder geldige inlog-sessie</li>
+<li>Wachtwoorden zijn correct beveiligd in de database</li>
 <li>Een ingelogde gebruiker moet ook weer kunnen uitloggen!</li>
 </ul>
+</blockquote>
 
 </div>
 

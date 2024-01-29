@@ -747,19 +747,25 @@ div.html table {
 <li>Uitvoer van PHP weergeven in HTML</li>
 </ul>
 </blockquote>
-<img src="/lucy/_assets/_icons/php.png" alt="laravel" style="width:13%;">
-<h2>Userstory</h2>
-<p>Als gebruiker wil ik kunnen inloggen zodat ik toegang krijg tot de content van de website.</p>
+<img src="/lucy/_assets/_icons/php.png" alt="php" style="width:13%;">
+<h2>Opdracht</h2>
+<p>Maak een login-systeem zonder waarbij het account en wachtwoord in de code staan en dat het wachtwoord na een
+re-fresh van de browser nog steeds een ingelogd account heeft door gebruik te maken van sessies.
+Zorg dat bij het laden van content-pages gecontroleerd wordt of er een geldige sessie is, anders wordt er een redirect uitgevoerd naar de inlog-pagina.
+* Userstory: Als gebruiker wil ik kunnen inloggen zodat ik toegang krijg tot de content van de website.</p>
 <h2>Activity diagram</h2>
 <img src="/lucy/_assets/backend/session_login.svg" alt="session login" style="width:100%;">
-<h2>Op te leveren</h2>
+<blockquote>
+<h3>Op te leveren</h3>
 <ul>
 <li>Een website die bestaat uit een index-page en 3 beveiligde content pagina's</li>
 <li>Eén van de pagina's bevat het inlogformulier</li>
 <li>Na correct inloggen kan de gebruiker de content op alle pagina's bekijken</li>
-<li>Zonder inloggen of na foutief inloggen kan de gebruiker de content niet bekijken. (Ook niet met de juiste URL)</li>
-<li>Na foutief inloggen wordt de gebruiker teruggestuurd naar het inlogformulier, met: header('Location:  ')</li>
+<li>Een geldig ingelogde gebruiker wordt in een sessie-variabele opgeslagen</li>
+<li>Zonder inloggen of na foutief inloggen wordt de gebruiker teruggestuurd naar het inlogformulier, met: header('Location:  ')</li>
+<li>Een ingelogde gebruiker moet ook weer kunnen uitloggen!</li>
 </ul>
+</blockquote>
 
 </div>
 
