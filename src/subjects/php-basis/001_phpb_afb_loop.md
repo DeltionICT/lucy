@@ -15,10 +15,8 @@ technology: php
 > * Basiskennis PHP
 > * Een loop maken met PHP
 
-{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
+{{ '/_assets/_icons/php.png'  | image: 'php', 13 }}
 
-## Resultaat
-Je kunt de tafel van 1247 en een reeks afbeeldingen tonen in je browser.
 
 ### Opdracht 1
 Maak gebruik van een for- of while-loop om de tafel van 1247 weer te geven.  
@@ -37,3 +35,5 @@ Geef de afbeeldingen de volgende namen: afb1.jpg, afb2.jpb, afb3.jpg etc.
 Gebruik nu een for-loop om alle plaatjes weer te geven in de browser.  
 TIP: [Hier vind je uitleg over php en loops](https://www.edutorial.nl/php/loops/)
 
+> ## Op te leveren
+> * Je kunt de tafel van 1247 en een reeks afbeeldingen tonen in je browser.

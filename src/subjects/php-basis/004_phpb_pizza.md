@@ -17,7 +17,7 @@ technology: html, php
 > * Gebruik maken van condities (if..else)
 > * Uitvoer van PHP weergeven in HTML
 
-{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
+{{ '/_assets/_icons/php.png'  | image: 'php', 13 }}
 
 ## Voor pizza-ninja's....
 * Zorg ervoor dat je meerdere pizza's tegelijk kunt bestellen
@@ -87,9 +87,9 @@ Bedankt voor uw bestelling!
 * U betaalt &euro; 14,00 aan onze kassa.
 
 
-## Op te leveren
-* Een website voor Pizzeria "circulare delicioso" waar je pizza's kunt bestellen.
-* Maak het formulier zoals in het voorbeeld
-* Nadat het formulier is ingevuld en verstuurd:
-  * De juiste prijs voor de pizza wordt getoond
-  * De prijs voor eventuele extra's wordt getoond.
+> ### Op te leveren
+> * Een website voor Pizzeria "circulare delicioso" waar je pizza's kunt bestellen.
+> * Maak het formulier zoals in het voorbeeld
+> * Nadat het formulier is ingevuld en verstuurd:
+>   * De juiste prijs voor de pizza wordt getoond
+>   * De prijs voor eventuele extra's wordt getoond.

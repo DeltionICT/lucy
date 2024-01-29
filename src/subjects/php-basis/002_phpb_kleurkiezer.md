@@ -16,10 +16,11 @@ technology: php, html
 > * Uitvoer van PHP weergeven in HTML
 > * Kan ook gemaakt worden met javascript, c#, python en meer
 
-{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
+{{ '/_assets/_icons/php.png'  | image: 'php', 13 }}
 
 ## Opdracht
-Maak een formulier met een selectbox. In de selectbox kun je een kleur kiezen. Als je het formulier hebt verstuurd zie je een pagina waarvan de achtergrondkleur overeenkomt met de kleur die je had gekozen.
+Maak een formulier met een selectbox. In de selectbox kun je een kleur kiezen. 
+Als je het formulier hebt verstuurd zie je een pagina waarvan de achtergrondkleur overeenkomt met de kleur die je had gekozen.
 
 ## Try it!
 
@@ -36,4 +37,5 @@ Maak een formulier met een selectbox. In de selectbox kun je een kleur kiezen. A
     </form>
 </div>
 
-
+> ### Op te leveren
+> * Een formulier dat bij elke klik op de submit-knop de de achtergrondkleur aanpast naar de opgegeven selectie

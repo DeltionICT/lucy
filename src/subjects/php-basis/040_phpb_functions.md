@@ -15,7 +15,7 @@ technology: php
 > * Berekeningen maken met PHP
 > * Herbruikbare code maken met behulp van functies in PHP
 
-{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
+{{ '/_assets/_icons/php.png'  | image: 'php', 13 }}
 
 ### Opdracht 1
 Maak een function die 2 argumenten accepteert, namelijk:
@@ -47,5 +47,7 @@ checkDeelbaar(17) //Output "Niet deelbaar door 3 of 5"
 TIP: [Uitleg over functions vind je hier](https://www.edutorial.nl/php/functions/)
 
 
-## Op te leveren
-Je hebt geleerd hoe je functions maakt en toepast in php. In de opdrachten op deze pagina laat je zien hoe je functies definieert en hoe je ze aanroept.
+> ### Op te leveren
+> * Zelf gemaakte functie waarin eigen code wordt uitgevoerd. 
+> * Met de opdrachten op deze pagina laat je zien hoe je functies definieert en hoe je ze aanroept en het resultaat toont.
+> * Functies maken __altijd__ gebruik van en 'return' en bevatten binnen de functies __geen__ echo's

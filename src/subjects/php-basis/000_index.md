@@ -4,7 +4,7 @@ author: rkerssies
 date: 2023-06-30
 ---
 
-{{ '/_assets/_icons/php.png'  | image: 'laravel', 13 }}
+{{ '/_assets/_icons/php.png'  | image: 'php', 13 }}
 
 ## Over deze set opdrachten
 Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
