@@ -3,6 +3,7 @@ title: Introductie
 author: rkerssies
 date: 2023-06-30
 ---
+{{ '/_assets/ontwikkelomgeving/laptop_services.png'  | image: 'laptop-services', 13 }}
 
 ## Over deze set opdrachten
 Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten

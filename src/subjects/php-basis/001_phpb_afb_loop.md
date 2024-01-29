@@ -7,8 +7,6 @@ author: jsiewers
 technology: php
 ---
 
-
-
 > #### Voorkennis
 > * Basiskennis HTML
 > * Programmeertaal: PHP

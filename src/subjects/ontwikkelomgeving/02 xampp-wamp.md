@@ -8,14 +8,15 @@ technology: ide, php, html, css
 
 
 > ##### Voorkennis
+> * Je hebt nog geen programmeerkennis nodig
+> * Je kunt werken met een computer
 > * Gebruik IDE, html, css
 
-> ##### Doelen
+> #### Dit ga je leren
 > * Het opzetten van een Apache webserver
 > * Het uitvoeren van PHP-scripts op een webserver
 
-{{ '/_assets/_icons/XAMPP.png' | image: 'xampp', 9 }}
-{{ '/_assets/_icons/wamp.png' | image: 'wamp', 5 }}
+{{ '/_assets/ontwikkelomgeving/laptop_services.png'  | image: 'laptop-services', 13 }}
 
 ## Downloaden en installeren
 Xampp en Wamp zijn applicaties waarin een aantal web-services zijn samengevoegd en makkelijk op te starten, 
@@ -23,7 +24,9 @@ zonder al te veel handmatig installatie werk. Ideaal voor een startende (backend
 
 1. Download één van de twee mogelijkheden. Xampp is beschikbaar voor alle OS-en en Wamp alleen voor windows-gebruikers.
    * [XAMPP]({{ 'https://www.apachefriends.org' | url }})
-   * [WAMP]({{ 'https://deltionict.github.io/lucy/subjects/codebase-s/tafels/' | url }})
+   * [WAMP]({{ 'https://deltionict.github.io/lucy/subjects/codebase-s/tafels/' | url }})<br>
+     {{ '/_assets/_icons/XAMPP.png' | image: 'xampp', 8 }}
+     {{ '/_assets/_icons/wamp.png' | image: 'wamp', 5 }}
 
 2. Installeer de applicatie en houdt de standaard installatie adviezen aan.
 
@@ -53,6 +56,9 @@ Daty zal er ongeveer als volgt uitmoeten zien;<br>
       
 > ##### Op te leveren
 > * Startende Apache-webserver met actieve PHP-module d.m.v XAMPP of WAMP
-> * Met de Internet-browser door de publicatie-folder browsen en php-sctipts starten d.m.v. klikken  
-> * De browser kan de pre-processed resultaten van PHP-scripts tonen 
+> * Werkende Apache webserver om het mogelijk te maken om PHP-code uit te voeren
+> * PHP-code uitvoeren op de CLI (command-line-interface) / Terminal
+> * Met de Internet-browser door de publicatie-folder browsen en PHP-scripts starten d.m.v. klikken
+> * Werkende MySQL- of MariaDB-server die verschillende databases met daarin tabellen en data beschikbaar te stellen
+> * Eenvoudige toegang tot de databases d.m.v. PhpMyAdmin
 

@@ -7,11 +7,14 @@ author: jsiewers
 technology: python, ide
 ---
 
+> #### Voorkennis
+> * Je hebt nog geen programmeerkennis nodig
+> * Je kunt werken met een computer
 
-
-
-> #### Leerdoelen
+> #### Dit ga je leren
 > Ontwikkelomgeving opzetten voor Python
+
+{{ '/_assets/ontwikkelomgeving/laptop_services.png'  | image: 'laptop-services', 13 }}
 
 ## Inleiding
 In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt bij het werken met Python. Maak na ieder onderdeel een schermafbeelding waarmee je aantoont dat je de opdracht hebt voldaan. Plaats de schermafbeeldingen (bij elkaar) in een nieuwe repository op github. Als je alles hebt afgerond presenteer je de ontwikkelomgeving op je eigen laptop aan 1 van de docenten.
@@ -56,3 +59,6 @@ Hello World
 >>> 
 ```
 Bovenstaand voorbeeld is op een mac gemaakt. Op windows zal je soortgelijke informatie zien, maar dan afgeleid van jouw naam en systeem.
+
+> ##### Op te leveren
+> * Een ingerichte IDE geschikt voor het coderen op een Python

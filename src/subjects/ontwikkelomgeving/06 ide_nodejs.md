@@ -14,6 +14,8 @@ technology: ide, js
 > #### Dit ga je leren
 > * Je gaat een ontwikkelomgeving opzetten om te werken met nodejs, javascript en typescript
 
+{{ '/_assets/ontwikkelomgeving/laptop_services.png'  | image: 'laptop-services', 13 }}
+
 ## Opdracht
 In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt bij het werken met javascript en nodejs. Maak na ieder onderdeel een schermafbeelding waarmee je aantoont dat je de opdracht hebt voldaan. Plaats de schermafbeeldingen (bij elkaar) in een nieuwe repository op github. Als je alles hebt afgerond presenteer je de ontwikkelomgeving op je eigen laptop aan 1 van de docenten.
 
@@ -22,7 +24,9 @@ In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt b
 * In Visual Studio Code kun je extensies installeren. Met extensies stem je Visual Studio Code helemaal af op de programmeertaal waarmee je gaat werken. Er zijn twee extensies die helpen met het optimaliseren van je code in javascript. Installeer deze extensies in Visual Studio Code:
     * ESLint
     * Prettier
-    
+
+  {{ '/_assets/_icons/nodejs.png' | image: 'xampp', 9 }}
+
 ## Git installeren
 * Installeer git op je computer [Hier vind je uitleg over hoe dat moet](https://www.edutorial.nl/git/introductie/)
 * Check of git goed is geïnstalleerd met "git --version"
@@ -68,3 +72,6 @@ hello world
 * Een schermafbeelding met de versie van npm vanuit de terminal met <code>npm --version</code>.
 * Een script gemaakt met javascript dat "hello world" in de terminal weergeeft
 * Een repository op github.com met de schermafbeeldingen en het script
+
+> ##### Op te leveren
+> * Een ingerichte IDE geschikt voor het coderen op een NodeJS

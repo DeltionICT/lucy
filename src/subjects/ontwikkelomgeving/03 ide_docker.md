@@ -7,16 +7,23 @@ author: jheuvelman
 technology: ide, docker, yml
 ---
 
+> #### Voorkennis
+> * Benodigde webservices met de benodigde configuratie mogelijkheden
+> * Configuraties maken tekst-files
 
-> #### Leerdoelen
-> Ontwikkelomgeving met docker opzetten voor webontwikkeling
+> #### Dit ga je leren
+> Ontwikkelomgeving met verschillende services in Docker opzetten voor webontwikkeling
+
+{{ '/_assets/ontwikkelomgeving/laptop_services.png'  | image: 'laptop-services', 13 }}
+
 
 ## Resultaat
 * Een ontwikkelomgeving opgezet met docker voor het maken van webapplicaties.
 * De ontwikkelomgeving bevat de volgende docker containers (Apache, Mariadb en PHPMyAdmin)
 
 ## Docker installeren
-Download en installeer Docker voor jouw operating system. (windows / mac / linux).
+Download en installeer Docker voor jouw operating system. (windows / mac / linux).<br>
+{{ '/_assets/_icons/docker.png'  | image: 'docker', 9 }}
 
 ## Docker omgeving configureren
 * Maak een lege projectmap aan op je systeem.
@@ -104,3 +111,12 @@ De PHPMyAdmin container is via de volgende url te bereiken:
 http://localhost:8080
 ```
 Gebruikersnaam en wachtwoord voor je database kun je vinden in het bestand Docker-compose.yml
+
+
+> ##### Op te leveren
+> * Startende Apache-webserver met actieve PHP-module d.m.v Docker-container te starten
+> * Werkende Apache webserver om het mogelijk te maken om PHP-code uit te voeren
+> * Met de Internet-browser door de publicatie-folder browsen en PHP-scripts starten d.m.v. klikken
+> * Werkende MySQL- of MariaDB-server die verschillende databases met daarin tabellen en data beschikbaar te stellen
+> * Eenvoudige toegang tot de databases d.m.v. PhpMyAdmin
+
