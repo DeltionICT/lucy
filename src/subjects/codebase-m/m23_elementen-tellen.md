@@ -8,7 +8,13 @@ technology: all
 ---
 
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
+
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
 ***Voorbereiding:***  
 Plaats de volgende lijst in een tekstbestand:
@@ -32,7 +38,7 @@ Plaats de volgende lijst in een tekstbestand:
 - Kampen
 - Apeldoorn
 
-### Resultaat
+### Opdracht
 Schrijf een programma dat de bovenstaande lijst van woonplaatsen inleest uit een txt-bestand (bijv: steden.txt).  
 Voor elke woonplaats telt het hoe vaak het voorkomt in de lijst.   
 De uitvoer is een gesorteerde lijst waarin per woonplaats staat hoe vaak het voorkomt in de lijst.
@@ -45,3 +51,10 @@ Elburg : 1
 Dronten : 2
 etc. etc.
 ```
+
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

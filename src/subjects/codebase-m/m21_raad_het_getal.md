@@ -7,14 +7,16 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
 
-### Resultaat
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
+
+### Opdracht
 Maak een programma dat voldoet aan de volgende requirements:  
 Het programma kiest een willekeurig getal tussen de 1 en 100; 
 
@@ -29,4 +31,9 @@ De gebruiker wordt gevraagd dit willekeurige getal te raden:
 -	Het programma stopt als de gebruiker het woord stop typt. 
 
 
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
 
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

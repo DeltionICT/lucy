@@ -7,12 +7,14 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
+
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
 ### Omschrijving
 Een faculteit is een wiskundige berekening die gebruikt wordt bij kansberekeningen.  
@@ -28,7 +30,7 @@ De faculteit van 6 is dus:
 1 * 2 * 3 * 4 * 5 * 6 = 720
 ```
 
-### Resultaat
+### Opdracht
 Schrijf een programma met de volgende functionaliteiten:
 
 - Vraag de gebruiker een getal in te voeren.
@@ -41,3 +43,10 @@ Schrijf een programma met de volgende functionaliteiten:
 Van welk getal wil je de faculteit berekenen? 6 
 De faculteit van 6 is 720
 ```
+
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

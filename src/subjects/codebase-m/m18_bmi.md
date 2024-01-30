@@ -8,16 +8,19 @@ author: rkerssies
 ---
 
 
+> ### Voorkennis
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
 
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
 <img src="{{ '/_assets/basis/basics.png'  }}" style="width:10%;">
 
-> ##### Voorkennis
-> Programmeertaal: naar keuze
-
-> ##### Doel
-> * het bepalen van een BMI (body-mass-index) op basis van een opgegeven de lengte en gewicht   
-
+## Opdracht
+> * het bepalen van een BMI (body-mass-index) op basis van een opgegeven de lengte en gewicht
 
 ***Taken:***
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
@@ -34,7 +37,14 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
     <tr><td>30 en hoger</td><td>Ernstig overgewicht (obesitas)</td></tr>
 </table>
 
-  
-> ##### Op te leveren
-> * invoer mogelijkheid voor de lente (cm) en gewicht (kg)
-> * tonen van de berekende BMI-waarde en de uitkomst daarvan.
+De uitkomst op het scherm moet het volgende gegevens tonen:
+ * invoer mogelijkheid voor de lente (cm) en gewicht (kg)
+ * tonen van de berekende BMI-waarde en de uitkomst daarvan.
+
+
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
