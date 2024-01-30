@@ -11,7 +11,7 @@ technology: html
 > * Basis HTML kennis over formulieren
 
 > #### Doelen
-> Leer een formulier te maken met html
+> Leer een formulier te maken met HTML
 
 {{ '/_assets/basis/html.svg' | image: 'HTML5 Logo', 8 }}
 {{ '/_assets/basis/css.svg' | image: 'CSS3 Logo', 8 }}
@@ -22,7 +22,7 @@ technology: html
 * Lijn alle invoervelden netjes uit door gebruik van CSS in een externe css-file in een sub-map door gebruik te maken van de  [link-tag](https://www.w3schools.com/tags/tag_link.asp)
 
 
-## Resultaat
+## Voorbeeld
 Een formulier gemaakt in HTML zoals in onderstaand voorbeeld
 
 <div class="html">
@@ -161,9 +161,11 @@ Een formulier gemaakt in HTML zoals in onderstaand voorbeeld
 ## Uitleg 
 [Uitleg over het maken van formulieren vind je hier](https://www.edutorial.nl/html/formulieren/#formulieren)
 
-> ##### Op te leveren
+> ## Op te leveren
 > * Een webpagina met een formulier met verschillende invoer-types en bijpassende labels.
+> * Voeg andere formulieren elementen toe (kijk daarvoor op het Internet)
+> * Optioneel: lijn alle labels en invoervelden uit met een tabel
 
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

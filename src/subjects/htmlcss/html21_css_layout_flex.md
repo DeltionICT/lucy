@@ -10,11 +10,11 @@ author: cstegeman
 
 > #### Doelen
 > * Je leert een basis layout voor een website te maken
-> * Je leert meerder CSS technieken te gebruiken
+> * Je leert meerder CSS-technieken te gebruiken
 > * Je leert om te gaan met de CSS Flexbox
 > * Een weblayout te maken die je in de toekomst bij elk web-project als basis kan gebruiken!
 
-## Tutorial
+## Uitleg
 * De tutorial met opdrachten vind je onder [deze link](https://std.stegion.nl/cs_codebase/css10_layout_flex/index.html)
 * Aan de hand van onderstaande voorbeelden, leer je stap voor stap een basis web-layout te bouwen met de Flexbox
 * geen gedoe met floats, sticky footers of andere veroudere CSS methoden! 
@@ -29,9 +29,8 @@ author: cstegeman
 ## Opdracht
 * Volg de [tutorial](https://std.stegion.nl/cs_codebase/css10_layout_flex/index.html) en maak per stap de opdrachten die er bij staan
 
+> ## Op te leveren
+> * Een webpage-indeling met een basis Flexbox layout, zoals in de uitleg is beschreven 
 
-> ##### Op te leveren
-> * een webpage met basis Flexbox layout zoals in de tutorial beschreven 
-
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen<br>

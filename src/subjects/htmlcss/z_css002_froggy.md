@@ -18,6 +18,11 @@ author: jsiewers
     * Zelf maken
     * Geen ChatGPT
 
-## Resultaat
-* Een perfecte kopie van de Google website op basis van CSS en Flexbox!
-* Al je code op github.com
+
+> ## Op te leveren
+> * Een compleet opgemaakte website volgens voorbeeld in de youtube-filmpjes
+> * Een perfecte kopie van de Google-website op basis van CSS en Flexbox!
+> * Je website staat op github.com in een eigen project-repository!
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen<br>

@@ -39,12 +39,11 @@ Op de webshop pagina kun je nog geen producten selecteren en bestellen, dat mag 
 Op de pagina van de winkelwagen kun je de hoeveelheid artikelen en een aantal opties selecteren. Met behulp van javascript bereken je de totale kosten.
 
 
-> ##### Resultaat
-> * Een website bestaande uit 3 html-pagina's een extern css-bestand en een extern javascript-bestand
+> ## Resultaat
+> * Een website bestaande uit 3 HTML-pagina's een extern css-bestand en een extern javascript-bestand
 > * Bij de afbeeldingen en de navigatie van de site is gebruik gemaakt van relatieve links.
 > * Er is gekozen voor lettertypen die dicht overeenkomen met het voorbeeld.
-> * Alle bestanden staan op github
+> * Je website staat op github.com in een eigen project-repository!
 
-
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen<br>

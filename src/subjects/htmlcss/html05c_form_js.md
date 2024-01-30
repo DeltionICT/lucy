@@ -14,9 +14,9 @@ author: rkerssies
 
 {{ '/_assets/basis/html.svg' | image: 'HTML5 Logo', 8 }}
 {{ '/_assets/basis/css.svg' | image: 'CSS3 Logo', 8 }}
-<!-- {{ '/_assets/basis/js.svg' | image: 'JS Logo', 8 }} -->
+{{ '/_assets/_icons/js.png'  | image: 'JS Logo', 9 }}
 
-### HTML-formlieren 
+## HTML-formlieren 
 Tijdens de CodeBase-opdrachten is er voornamelijk gewerkt met variabelen.
 Als er toch invoer van de bezoeker nodig is, dan kan deze opdracht helpend zijn.
 
@@ -24,7 +24,7 @@ De vorm en aanpak waarmee een HTML-formulier uitgewerkt is afhankelijk van de ta
 deze moet samenwerken. 
 
 
-### Voorbeeld formulier met JS
+## Voorbeeld formulier met JS
 Hieronder is een uitwerking hoe een ingevoerde waarde in een formulier door JS kan worden verwerkt;<br> 
 de bestandsnaam is: `index.html`<br>
 Let op: de extensie is HTML & dit werkt direct in de Internet-browser.
@@ -77,13 +77,12 @@ Let op: de extensie is HTML & dit werkt direct in de Internet-browser.
 ``` 
 
 ## Opdracht
-* Maak het voorbeeld na
-* voeg andere formulieren elementen toe (zoek op internet na)
+* Maak het voorbeeld met een formulier met JS
+* Voeg andere formulieren elementen toe (kijk daarvoor op het Internet)
 
   
-> ##### Op te leveren
-> Een HTML-formulier met JavaScript met verschillende formulier-elementen  
-<!-- > Een HTML-formulier dat werkt met PHP. -->
+> ## Op te leveren
+> Een HTML-formulier met verschillende invoervelden waarbij JS de gegevens op haalt en toont op het scherm.
 
 
 ## Evaluatie

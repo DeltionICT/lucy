@@ -19,16 +19,19 @@ author: jsiewers
 {{ '/_assets/basis/css.svg' | image: 'CSS3 Logo', 8 }}
 
 
-## Opdracht Youhoe Zwolle
-Samen met je team ga je de "YouHoe Zwolle website realiseren". YouHoe is een site voor nieuwe studenten die Zwolle leren kennen. De site laat zien waar de hotspots in Zwolle zijn. Wat zijn de beste uitgaansplekken, waar kan je lekker eten, met andere woorden: Waar gebeurt het in Zwolle!
-
-[Download hier de opdracht en de wireframes](https://static.edutorial.nl/css/youhoe_zwolle/youhoe_zwolle.zip) voor de YouHoe Zwolle website.
-
-#### Teams samenstellen
+## Teams samenstellen
 * Een team bestaat uit maximaal 4 personen.
 * Bepaal zelf met wie je samen gaat werken
 
-#### Resultaat
+## Opdracht Youhoe Zwolle
+Samen met je team ga je de "YouHoe Zwolle website realiseren". <br>
+YouHoe is een site voor nieuwe studenten die Zwolle leren kennen. <br>
+De site laat zien waar de hotspots in Zwolle zijn. Wat zijn de beste uitgaansplekken, <br>
+waar kan je lekker eten, met andere woorden: Waar gebeurt het in Zwolle!
+
+[Download hier de opdracht en de wireframes](https://static.edutorial.nl/css/youhoe_zwolle/youhoe_zwolle.zip) voor de YouHoe Zwolle website.
+
+De eisen van de klant zijn:
 * De site is gemaakt op basis van de wireframes die je hebt gedownload.
 * De website is online bereikbaar via bijv. Github pages.
 * De html/css-code is netjes ingesprongen en goed leesbaar
@@ -49,3 +52,9 @@ Samen met je team ga je de "YouHoe Zwolle website realiseren". YouHoe is een sit
 * Alle bestanden van de website staan in 1 map. 
 * Afbeeldingen en stylesheets staan in een submap (bijv. images en styles).
 
+> ## Op te leveren
+> * Een compleet opgemaakte website volgens de casus en gegeven eisen.
+> * Je website staat op github.com in een eigen project-repository!
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen<br>

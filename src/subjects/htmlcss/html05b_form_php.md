@@ -5,15 +5,17 @@ author: rkerssies
 ---
 
 > #### Voorkennis
-> * Basis HTML kennis 
+> * Basis HTML-kennis
 > * HTML-formulier kunnen maken
+> * PHP basiskennis
 
 > #### Doelen   
-> * Een HTML-formulier opzetten voor PHP (backend-taal)
+> * Een HTML-formulier opzetten en laten werken met PHP (backend-taal)
+
 
 {{ '/_assets/basis/html.svg' | image: 'HTML5 Logo', 8 }}
 {{ '/_assets/basis/css.svg'  | image: 'CSS3 Logo', 8 }}
-<!-- {{ '/_assets/basis/php.svg'  | image: 'PHP Logo', 8 }} -->
+{{ '/_assets/_icons/php.png'  | image: 'PHP Logo', 13 }}
 
 ### HTML-formlieren 
 Tijdens de CodeBase-opdrachten is er voornamelijk gewerkt met variabelen.
@@ -75,13 +77,13 @@ Let op de extensie is PHP & de code moet met een bijv. Apache-webserver worden u
 ```
 
 ## Opdracht
-* Maak het voorbeeld na
-* voeg andere formulieren elementen toe (zoek op internet na)
+* Maak het voorbeeld met een formulier met PHP
+* Voeg andere formulieren elementen toe (kijk daarvoor op het Internet)
 
   
-> ##### Op te leveren
-> Een HTML-formulier dat werkt met PHP.
+> ## Op te leveren
+> Een HTML-formulier met verschillende invoervelden waarbij PHP de gegevens op haalt en toont op het scherm.
 
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
