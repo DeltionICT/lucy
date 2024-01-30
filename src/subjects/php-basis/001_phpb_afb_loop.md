@@ -37,3 +37,6 @@ TIP: [Hier vind je uitleg over php en loops](https://www.edutorial.nl/php/loops/
 
 > ## Op te leveren
 > * Je kunt de tafel van 1247 en een reeks afbeeldingen tonen in je browser.
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

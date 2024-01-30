@@ -33,6 +33,9 @@ Je kunt nu plaatjes van meerdere automerken, games e.d. tonen op basis van de ge
     </form>
 </div>
 
-> ### Op te leveren
+> ## Op te leveren
 > * Een formulier waarbij je kunt kiezen uit minimaal 5 automerken (of games of tandpasta of ander onderwerp).  
 > * Zodra je je keuze hebt gemaakt en je verstuurt het formulier, dan worden er 2 plaatjes weergegeven van je favoriete automerk (of game of wat dan ook).
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

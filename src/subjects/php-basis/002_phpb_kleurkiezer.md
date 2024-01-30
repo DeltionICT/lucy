@@ -39,3 +39,6 @@ Als je het formulier hebt verstuurd zie je een pagina waarvan de achtergrondkleu
 
 > ### Op te leveren
 > * Een formulier dat bij elke klik op de submit-knop de de achtergrondkleur aanpast naar de opgegeven selectie
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
