@@ -7,11 +7,11 @@ author: jheuvelman
 technology: all
 ---
 
-
 > ### Voorkennis
-> * Basis HTML
-> 
-> Programmeertaal: alle
+> Programmeertaal: naar keuze met CLI
+
+> #### Doelen
+> * Verschillende basis programmeervaardigheden leren en met elkaar combineren
 
 {{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
 

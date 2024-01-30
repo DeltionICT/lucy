@@ -5,8 +5,11 @@ author: jsiewers
 technology: all
 ---
 
-> #### Voorkennis
-> Programmeertaal: naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze met CLI
+
+> #### Doelen
+> * Verschillende basis programmeervaardigheden leren en met elkaar combineren
 
 {{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
 
