@@ -13,11 +13,16 @@ technology: all
 > #### Doelen
 > * Verschillende basis programmeervaardigheden leren en met elkaar combineren
 
-{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+{{ '/_assets/_icons/php_cli.png'  | image: 'cli', 13 }}
 
-> ### Op te leveren
-> Bedenk een geheimschrift waarbij de ene letter een andere letter
-betekent.  
-> Maak hiervan een programma. Wanneer je bijvoorbeeld op toets "a"
-drukt dan wordt bijvoorbeeld toets "b" geschreven.  
-> Zorg dat alles precies klopt met je zelf bedachte geheimschrift.
+## Opdracht
+ *  Bedenk een geheimschrift waarbij de ene letter een andere letter betekent. 
+ * Maak hiervan een programma. Wanneer je bijvoorbeeld op toets "a" drukt dan wordt bijvoorbeeld toets "b" geschreven.
+ * Zorg dat alles precies klopt met je zelf bedachte geheimschrift.
+
+> ## Op te leveren
+> * CLI-code die functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

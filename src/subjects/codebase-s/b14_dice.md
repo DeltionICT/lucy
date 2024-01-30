@@ -22,15 +22,23 @@ author: rkerssies
 
 !! UITDAGING; dit kan worden uitgevoerd in ongeveer 6 regels code en een map met 6 afbeeldingen.
 
-{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+{{ '/_assets/_icons/php_cli.png'  | image: 'cli', 13 }}
 
-> ##### Op te leveren
-> CLI-uitvoering:
-> * Na het indrukken van een toets wordt er een willekeurig getal van 1 t/m 6 getoond  
-> 
-> Browser-uitvoering:
-> * Door op de knop te klikken wordt er een willekeurige waarde 1 t/m 6 getoond.
-> * Optioneel: als de code in de browser (niet cli) wordt uitgevoerd, dan wordt er een afbeelding van het gegooide getal getoond 
+## Opdracht
+* CLI-uitvoering:
+  * Na het indrukken van een toets wordt er een willekeurig getal van 1 t/m 6 getoond  
+ 
+* Browser-uitvoering:
+  * Door op de knop te klikken wordt er een willekeurige waarde 1 t/m 6 getoond.
+  * Optioneel: als de code in de browser (niet cli) wordt uitgevoerd, dan wordt er een afbeelding van het gegooide getal getoond 
 
 {{ '/_assets/basis/dice_zijde_2.png' | image:"dobbelsteen 2", 10 }}
 {{ '/_assets/basis/dice_zijde_6.png' | image:"dobeelsteen 6", 10 }}
+
+
+> ## Op te leveren
+> * CLI-code die functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

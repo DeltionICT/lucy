@@ -13,14 +13,14 @@ technology: all
 > #### Doelen
 > * Verschillende basis programmeervaardigheden leren en met elkaar combineren
 
-{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+{{ '/_assets/_icons/php_cli.png'  | image: 'cli', 13 }}
 
-> ### Op te leveren
-> Schrijf een programma dat bepaalt welke speler heeft gewonnen.  
-> Het programma vraagt userinput voor de score van speler 1 en van speler 2.
-> Het programma print wie er heeft gewonnen of dat er gelijk is gespeeld.
+## Opdracht
+* Schrijf een programma dat bepaalt welke speler heeft gewonnen.  
+* Het programma vraagt userinput voor de score van speler 1 en van speler 2.
+* Het programma print wie er heeft gewonnen of dat er gelijk is gespeeld.
 
-#### Voorbeeld
+## Voorbeeld
 ```shell
 Wat is de score van speler 1? 
 100
@@ -29,3 +29,10 @@ Wat is de score van speler 2?
 
 Speler 2 heeft gewonnen.
 ```
+
+> ## Op te leveren
+> * CLI-code die functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
