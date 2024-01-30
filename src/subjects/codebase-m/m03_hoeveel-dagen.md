@@ -11,7 +11,7 @@ technology: all
 > Een programmeertaal (bijv: PHP of JS) naar keuze<br>
 > Basiskennis HTML- en CSS
 
-> #### Doelen
+> ### Doelen
 > * Verschillende programmeervaardigheden leren en uitbreiden
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
