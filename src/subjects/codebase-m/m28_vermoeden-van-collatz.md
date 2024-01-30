@@ -16,7 +16,9 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
-### Omschrijving
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+## Omschrijving
 Het vermoeden van Collatz is een vermoeden in de getaltheorie dat zegt dat een bepaalde iteratie in alle gevallen uitloopt op het getal 1, waarbij het niet uitmaakt welk getal als beginwaarde gekozen wordt.
 
 Het vermoeden is dat bij herhaalde toepassing van deze regels, men uiteindelijk in een aantal stappen bij het getal 1 uitkomt. Dit vermoeden is voor het eerst geformuleerd door Lothar Collatz in 1937. Tot op heden is het vermoeden nog niet bewezen of weerlegd.  
@@ -24,7 +26,7 @@ Het vermoeden is dat bij herhaalde toepassing van deze regels, men uiteindelijk 
 Vind je het interessant om hierover meer te lezen? Kijk dan op:
 <https://nl.wikipedia.org/wiki/Vermoeden_van_Collatz>
 
-### Opdracht
+## Opdracht
 Schrijf een programma dat de gebruiker vraagt een willekeurig getal in te voeren. Het programma voert vervolgens het vermoeden van Collatz uit en doet dit net zolang tot het uiteindelijk uitloopt op het getal 1.
 
 Hierbij dienen de volgende regels gebruikt te worden:

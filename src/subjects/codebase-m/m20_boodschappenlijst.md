@@ -16,7 +16,9 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
-### Opdracht
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+## Opdracht
 Schrijf een programma dat de volgende functionaliteiten bevat:
 
 - Vraag de debruiker hoeveel producten hij op zijn boodscahppenlijst wil
@@ -26,7 +28,7 @@ Schrijf een programma dat de volgende functionaliteiten bevat:
   op in een array.
 - Print de lijst van producten die op de boodschappenlijst staan.
 
-#### Voorbeeld
+## Voorbeeld
 ```shell
 Input:
 Hoeveel producten wil je toevoegen? 3 

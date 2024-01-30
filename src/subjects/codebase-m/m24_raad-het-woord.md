@@ -16,7 +16,9 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
-### Opdracht
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+## Opdracht
 Maak een programma dat een array bevat met daarin 15 verschillende door jezelf gekozen woorden.  
 Het programma kiest vervolgens random een woord uit de array.  
 Het programma laat de lengte van het gekozen woord zien door middel van punten.  
@@ -26,7 +28,7 @@ Zodra het woord geraden is, geeft het programma aan in hoeveel pogingen
 het woord is geraden.  
 Daarna vraagt het programma of je nog een keer wilt spelen.
 
-#### Voorbeeld
+## Voorbeeld
 ```shell
 Het woord is: ..... 
 Kies een letter: b 

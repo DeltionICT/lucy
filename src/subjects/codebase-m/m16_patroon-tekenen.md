@@ -16,6 +16,8 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
 ### Opdracht
 Maak een programma dat het volgende patroon tekent:
 

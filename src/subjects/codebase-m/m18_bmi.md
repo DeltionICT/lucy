@@ -17,7 +17,7 @@ author: rkerssies
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
-<img src="{{ '/_assets/basis/basics.png'  }}" style="width:10%;">
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
 
 ## Opdracht
 > * het bepalen van een BMI (body-mass-index) op basis van een opgegeven de lengte en gewicht
@@ -26,7 +26,6 @@ author: rkerssies
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 
 <hr>
-
 * Zorg dat de invoer voor gewicht (kg) en de lengte (cm) wordt verzameld
 * Bereken de BMI met de volgende formule: gewicht / (kwadraat van lengte in meters)
 * Toon de berekende BMI-waarde en geef bijpassende uitkomst volgens de onderstaande tabel;<br>

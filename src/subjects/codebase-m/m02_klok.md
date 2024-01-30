@@ -16,6 +16,8 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
 ### Opdracht
 Programmeer een digitale klok waarbij realtime de huidige datum en tijd
 wordt weergegeven. Het programma moet voldoen aan de volgende eisen:

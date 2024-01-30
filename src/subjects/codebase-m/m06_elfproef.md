@@ -17,6 +17,8 @@ technology: all
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 > * string functies (strlen en substr)
 
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
 > #### Doelen:  
 > * leren hoe je strings doorloopt en opsplitst ( Van string naar array)
 > * leren hoe je van character naar getal gaat om er mee te rekenen.

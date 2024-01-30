@@ -16,7 +16,9 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
-### Omschrijving
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+## Omschrijving
 Patiënten met hart en longklachten krijgen vaak zuurstof toegediend.  
 De zuurstof wordt toegediend met een zuurstofcilinder en slangetje in de neus.
 
@@ -29,7 +31,7 @@ Dit kan door de volgende formule te gebruiken:
 
 * hoeveelheid zuurstof in fles (liter) = De druk (Bar) x de inhoud van de fles (cilinder)
 
-### Opdracht
+## Opdracht
 Maak met bovenstaande kennis het volgende programma:
 
 - **Invoer:**

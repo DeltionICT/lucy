@@ -16,6 +16,8 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
 ### Opdracht
 Schrijf een programma dat alle mogelijke combinaties tussen 0 en 999
 onder elkaar op het scherm toont.

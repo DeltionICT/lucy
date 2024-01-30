@@ -16,6 +16,8 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
 ### Opdracht
 Maak een programma dat aan de gebruiker vraagt hoeveel paar schoenen hij/zij wenst te kopen.  
 Ieder paar schoenen kost normaal 50 euro.  

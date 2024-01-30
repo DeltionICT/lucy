@@ -16,6 +16,8 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
 ### Omschrijving
 Een faculteit is een wiskundige berekening die gebruikt wordt bij kansberekeningen.  
 Je kunt er onder andere mee berekenen hoe groot de kans is dat je de loterij wint.  

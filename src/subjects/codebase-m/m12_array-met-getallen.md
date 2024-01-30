@@ -16,6 +16,8 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
 ### Opdracht
 In een array worden 20 willekeurig bepaalde getallen geplaatst (willekeurige waarden tussen de 0 en 500). Deze getallen worden afgedrukt op het scherm.  
 Alle getallen in de array worden vergeleken met een ingevoerd getal (vergelijkingsgetal).  

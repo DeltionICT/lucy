@@ -16,7 +16,9 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
-### Opdracht
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+## Opdracht
 1.  Vraag de gebruiker zijn 6 lotto getallen (getal tussen 1 en 42) in te geven. Het programma controleert de ingevoerde getallen op juistheid en geeft een melding wanneer de getallen niet tussen de 1 en 42 zijn. Sla de ingevoerde lotto getallen op in een array.
 2.  Simuleer een trekking, dit doe je door 6 willekeurig getallen te genereren (Random). Ook deze getallen sla je op in een array.
 3.  Doe een validatie van de getallen, de volgende opties geven een prijs:
@@ -28,7 +30,7 @@ technology: all
 Let op dat bij het tonen van de getallen deze van laag naar hoog getoond
 worden.
 
-#### Voorbeeld
+## Voorbeeld
 ```shell
 Geef je lotto getallen (getallen moeten tussen 1 en 42 liggen):
 Geef lotto nummer 1:

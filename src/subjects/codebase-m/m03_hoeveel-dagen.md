@@ -16,6 +16,8 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
 ### Opdracht
 Schrijf een programma dat de gebruiker vraagt om een jaar, maand en dag
 in te voeren. Het programma laat vervolgens zien hoeveel dagen verschil

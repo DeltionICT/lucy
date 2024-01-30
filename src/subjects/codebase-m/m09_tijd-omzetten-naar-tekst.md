@@ -16,6 +16,8 @@ technology: all
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
 
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
 ### Opdracht
 Maak een programma dat de huidige tijd omzet naar tekst.  
 Bij het starten van het programma wordt de huidige tijd bepaald, deze tijd wordt vervolgens automatisch omgezet naar tekst. 
