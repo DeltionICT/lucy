@@ -7,7 +7,6 @@ author: jheuvelman
 technology: all
 ---
 
-
 > ### Voorkennis
 > Een programmeertaal (bijv: PHP of JS) naar keuze<br>
 > Basiskennis HTML- en CSS
@@ -16,6 +15,8 @@ technology: all
 > * Verschillende programmeervaardigheden leren en uitbreiden in complexere uitdagingen
 > * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
 > * Meer HTML- en CSS- mogelijkheden toepassen binnen een grotere opdracht
+
+{{ '/_assets/omgevingen/code_advanced.png'  | image: 'advanced', 13 }}
 
 ***Extra info:***  
 Grootheden zijn:  
