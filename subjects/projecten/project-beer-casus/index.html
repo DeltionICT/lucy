@@ -730,69 +730,90 @@ div.html table {
 <h5>Voorkennis</h5>
 <ul>
 <li>OOP, MVC, databases, queries, API, git</li>
-<li>Frontend-framework</li>
+<li>Frontend, backend, SQL</li>
 <li>Kennis van projectmatig werken en/of Scrum</li>
 </ul>
 </blockquote>
 <blockquote>
 <h4>Dit ga je leren</h4>
 <ul>
-<li>Verschillend OOP- en fontend-technieken en mogelijkheden combineren in één applicatie</li>
-<li>Optimaal gebruikmaken van frameworks</li>
-<li>Vooraf ontwerpen en uitdenken van de applicatie m.b.v. UML; wireframes, mockup, flowcharts</li>
+<li>Verschillende technieken en mogelijkheden combineren in één applicatie</li>
+<li>Vooraf ontwerpen en uitdenken van de applicatie m.b.v. wireframes, ERD, Activity diagrams</li>
 <li>Projectmatig samenwerken binnen een ontwikkel-team (SCRUM)</li>
 </ul>
 </blockquote>
 <img src="/lucy/_assets/projecten/beer/prj_biertjes.png" style="width:10%;">
-<p>'We like bier' is een project voor The Belgian Beer Company om meer naamsbekendheid voor Belgische speciaal bieren te creëren onder studenten en young adults.</p>
-<p>Het project is opgedeeld in 3 fases.  Je krijgt van de TBBC een SQL-script met alle 750 bieren.<br>
-De database is geëxporteerd in een <a href="/lucy/_assets/projecten/beer/pao_beer.sql">sql-file</a> .</p>
+<h2>We like bier</h2>
+<p><i>We like bier</i> is een project voor The Belgian Beer Company om meer naamsbekendheid voor Belgische speciaal bieren te creëren onder studenten en young adults.</p>
+<p>The Belgian Beer Company organiseert regelmatig bierproeverijen voor het publiek. Tijdens deze proeverijen moeten de proevers hun mening kunnen geven over het bier. Hiertoe wil the Belgian Beer Company een app laten ontwikkelen waarmee je tijdens de proeverij iets kunt zeggen over het bier dat je hebt geproefd.</p>
+<p>De eerste proeverijen zijn al binnenkort, dus er is nogal haast bij. De ontwikkeling van de app is daarom opgesplitst in een aantal fases.</p>
+<ul>
+<li>In fase 1 wordt er gewerkt aan een <code>least viable product</code>. De functionaliteit is heel beperkt, maar de app is volledig functioneel en kan worden ingezet bij de eerste proeverij</li>
+<li>In fase 2 wordt de eerste versie van de app geëvalueerd en wordt er besproken welke functionaliteiten in de volgende versie worden ingebouwd.</li>
+<li>In fase 3 gebeurt weer hetzelfde als in fase 2. etc. etc.</li>
+<li>Aan het eind van iedere fase wordt er een werkende app opgeleverd!!</li>
+</ul>
+<p>Je krijgt van de TBBC een SQL-script met alle 750 bieren.<br>
+De database is geëxporteerd in een <a href="/lucy/_assets/projecten/beer/pao_beer.sql">sql-file</a>.</p>
 <h2>Fase 1:</h2>
-<p>Er moet een mooie aansprekende site komen met alle 750 Belgian beers.
-Iedere gebruiker kan klikken op een Biertje uit de lijst, bij iedere klik gaat er een teller omhoog. De drie meest geklikte (gelikete) biertjes komen prominent in beeld.
+<p>Er moet een mooie aansprekende app komen met alle 750 Belgian beers.
+Een gebruiker moet snel het biertje kunnen vinden dat hij net heeft geproefd. Met een klik op een like-button houdt geeft een gebruiker een <code>like</code>. De drie meest geklikte (=gelikete) biertjes komen prominent in beeld.
 Het maakt niet uit hoe vaak een gebruiker klikt.<br></p>
 <ul>
-<li>maak een eigen bier-database aan en haal de bier tabel naar binnen via het SQL-script</li>
-<li>voeg het veld &quot;likes&quot; aan de tabel toe (zie afbeelding hier rechts-onder)
-Bijvoorbeeld:<br>
-<img src="/lucy/_assets/projecten/beer/fase1.png" style="width:30%;">
-<img src="/lucy/_assets/projecten/beer/bier_likes.png" style="width:30%;">
-<br></li>
+<li>Maak een eigen bier-database aan en haal de bier tabel naar binnen via het SQL-script</li>
+<li>Voeg het veld &quot;likes&quot; aan de tabel toe (zie afbeelding hier rechts-onder)</li>
 </ul>
+<h4>ERD en activity diagram fase 1</h4>
+<blockquote>
+<img src="https://static.edutorial.nl/projecten/bier/fase_1.svg" style="width:40%;">
+</blockquote>
 <h2>Fase 2:</h2>
-<p>Er moet nu ook bijgehouden worden dat niet gebruikers meerdere malen op een biertje kunnen klikken, dus per IP-adres bijhouden of er al geklikt is. Want TBBCompany wil alleen unieke likes hebben.</p>
+<p>TTBC wil niet meer dat gebruikers meerdere malen hetzelfde biertje kunnen 'liken'. Zodra je op de site komt wordt er een cookie gezet met een uniek id. Op basis van het id wordt bijgehouden welke gebruiker aan het klikken is. TBBCompany wil alleen unieke likes hebben.</p>
 <ul>
-<li><b><i>Kopieer de map met fase1 als: fase2!</i></b>
+<li>Maak een nieuwe tussentabel aan zoals hieronder weergegeven
 <ul>
-<li>de berekening van de likes gaat anders: de likes in de bier-tabel worden <i>niet</i> meer gebruikt!</li>
+<li>In de tussentabel wordt bijgehouden welke gebruiker een biertje heeft geliked.</li>
+<li><code>cookie_id</code> en <code>bier_id</code> vormen samen een gecombineerde <code>primary key</code>.
+<ul>
+<li>Zo staat de database niet toe dat dezelfde gebruiker meerdere likes geeft bij hetzelfde biertje</li>
+<li>Een gebruiker kan wel meerdere verschillende biertjes 'liken'.</li>
+<li>Een biertje kan ook door meerdere gebruikers 'geliked' worden</li>
 </ul>
 </li>
-<li>Maak een nieuwe tabel aan zoals rechtsonder weergegeven
-<ul>
-<li>bij elke like van een IP-adres voeg je id-bier en ip-adres aan de tabel toe</li>
-<li>om aantal likes op een bier te berekeken: schrijf een query die het aantal bieren telt (per id)</li>
 </ul>
 </li>
-<li>De weergave blijft in principe gelijk<br>
-<img src="/lucy/_assets/projecten/beer/bier_likes.png" style="width:30%;">
-<img src="/lucy/_assets/projecten/beer/bier_ip.png" style="width:14%;">
-<br><br></li>
 </ul>
+<h4>ERD en activity diagram fase 2</h4>
+<blockquote>
+<img src="https://static.edutorial.nl/projecten/bier/fase_2.svg" style="width:80%;">
+</blockquote>
 <h2>Fase 3:</h2>
-<p>De TBBCompany wil nu ook dat gebruikers een profiel kunnen aanmaken en daarmee zelf rating op een schaal van 1…5 sterren kunnen geven aan een biertje, en ook een proefnotitie kunnen opschrijven.</p>
+<p>De TBBCompany wil nu ook dat ingelogde gebruikers een profiel kunnen aanmaken en daarmee zelf een rating op een schaal van 1…5 sterren kunnen geven aan een biertje. Gebruikers kunnen ook een notitie aanmaken bij een biertje.</p>
 <ul>
-<li>Maak een users tabel aan waar men op kan inloggen</li>
-<li>maak een rating-tabel aan waar users een rating kunnen geven en een proefnotitie opslaan<br>
-<img src="/lucy/_assets/projecten/beer/user_inlog.png" style="width:20%;">
-<img src="/lucy/_assets/projecten/beer/user-rating.png" style="width:45%;"><br>
-<img src="/lucy/_assets/projecten/beer/rating.png" style="width:30%;">
-<br><br></li>
+<li>Maak een gebruikers-tabel, zodat een bezoeker kan inloggen.</li>
+<li>Verwijder de <code>likes</code>-tabel</li>
+<li>Maak een nieuwe tussentabel <code>ratings</code> aan zodat er een rating en een notitie kan worden toegevoegd</li>
 </ul>
+<h4>ERD en activity diagram fase 3</h4>
+<blockquote>
+<img src="https://static.edutorial.nl/projecten/bier/fase_3.svg" style="width:80%;">
+</blockquote>
 <h2>Fase 4:</h2>
-<p>De TBBCompany wil nu ook een overzichtsrapport van hun populairste bieren.</p>
+<p>De TBBCompany wil nu ook een rapportage-pagina.
+Op basis van de ratings van gebruikers willen TBBC een pagina in ieder geval de volgende rapportages:</p>
+<ul>
+<li>Een top 10 overzicht van de bieren met de hoogste rating</li>
+<li>Een top 10 van de beste brouwers (die gemiddeld de hoogste rating hebben gehad voor hun bieren)</li>
+<li>Een overzicht van de soorten die de hoogste rating hebben gekregen</li>
+<li>Een top 10 van de bieren die het vaakst een rating hebben gekregen</li>
+</ul>
 <h2>Fase 5:</h2>
-<p>De TBBCompany weet niet of ze nog langer met PHP willen ontwikkelen, ze willen graag ook een mobiele frontend op termijn. Daarom moet alle data naar de browser gestuurd worden in JSON-formaat.</p>
-<hr>
+<p>In deze fase wil TBBCompany dat hun data gekoppeld kan worden aan meerdere front-end applicaties. Bijv. een speciale app ontwikkeld voor iphone of ipad of een android-app. Er moeten dus verschillende clients gebruik kunnen maken van de data van TBBC. TBBC wil hiervoor gebruik maken van een api-model.
+Hieronder zie je hoe dat werkt:</p>
+<h4>API Model</h4>
+<blockquote>
+<img src="https://static.edutorial.nl/projecten/uitleg_frontend_backend.svg" width="60%">
+</blockquote>
 <p>Bijgaand een simpele API voor de bier-database met CRUD-actie voorbeelden op de biertabel zelf. Voor fase 5 hoef je alleen de GET-acties vanuit je eigen API te doen, de create-update-delete acties niet (mag wel natuurlijk…!)</p>
 <p>Toelichting staat erbij, in de eerste instantie hoef je alleen maar de toegang tot de MySQL bier-tabel op jouw machine in regel 9 aan te passen.
 Met het endpoint: <code>http://localhost/[pad_naar_htdocs_map]/api_bier.php?action=getBeer</code> haal je alle biertjes op. Met de action getBrouwers zie je alle brouwers. Kijk verder in de code naar de logica en bouw je eigen opvragen op, bijvoorbeeld met JOINs op.</p>
@@ -822,6 +843,14 @@ professioneel gebruik git-hub, dailystandups, restrospective.</li>
 <li>Presentatie(s) voor de ProductPreview (per sprint)</li>
 <li>Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
 Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd</li>
+</ul>
+<h2>Uitleg</h2>
+<ul>
+<li><a href="https://edu.stegion.nl/edu/pr22">Stegion.nl</a></li>
+</ul>
+<h2>Benodigdheden</h2>
+<ul>
+<li><a href="https://static.edutorial.nl/projecten/bier/bier.sql">Biersoorten SQL Script</a></li>
 </ul>
 
 </div>
