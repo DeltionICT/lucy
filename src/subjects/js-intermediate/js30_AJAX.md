@@ -17,7 +17,7 @@ Je kunt met een zogenaamd AJAX-request allerlei informatie binnenhalen in je web
 Dus met een druk op een button in je website, kun je (met een [onclick](https://www.w3schools.com/jsref/event_onclick.asp) ) een afbeelding, een tekst of zelfs een hele lijst met gegevens ophalen en die meteen weergeven in je webpagina.<br>
 
 ### opdracht
-*   Bekijk [deze uitleg](https://www.w3schools.com/jsref/js_ajax_intro.asp) op w3schools
+*   Bekijk [deze uitleg](https://www.w3schools.com/js/js_ajax_intro.asp) op w3schools
     *   Kopieer de broncode van de HTML en het Javascript, en maak een webpagina op jouw computer waarin dit werkt 
         *   <i>let op: maak zelf de file "ajax_info.txt" bestand aan!</i>
         *   Maak jouw site ook zo als in de afbeelding, dat de button zichtbaar blijft (gebeurt bij W3Schools niet).
@@ -43,7 +43,7 @@ Dus met een druk op een button in je website, kun je (met een [onclick](https://
             </a><br>
             <i>Lorem button:</i><br>
             <a href="/_assets/js_intermediate/lorem.png">
-                <img src="{{ '/_assets/js_intermediate/Lorem.png' }}" alt="na_ajax" style="width:300px">
+                <img src="{{ '/_assets/js_intermediate/lorem.png' }}" alt="na_ajax" style="width:300px">
             </a>
 
     Ga hierna verder met [js31_api_base](https://std.stegion.nl/cs_codebase/js31_api_base/). Daarin wordt uitgelegd:
