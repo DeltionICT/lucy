@@ -786,8 +786,20 @@
         "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/js-intermediate/js31-api-base/",
+        "title":"js31 | API base",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/js-intermediate/js32-json-ajax/",
         "title":"js32 | JSON AJAX",
+        "author":"cstegeman",
+        "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-intermediate/js32b-api-json-html/",
+        "title":"js32b | API JSON HTML",
         "author":"cstegeman",
         "date":"Tue Jan 31 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
