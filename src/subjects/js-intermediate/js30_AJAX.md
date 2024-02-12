@@ -37,11 +37,11 @@ Dus met een druk op een button in je website, kun je (met een [onclick](https://
         *  "buffel" met url = "https://std.stegion.nl/cs_codebase/js30_AJAX/txt/buffel.txt'"
         *  "lorem ipsum" met url = "https://std.stegion.nl/cs_codebase/js30_AJAX/txt/lorem.txt"    
         *   Voorbeeld: (klik op afb. om te vergroten)<br>
-            <i>Beer button:</i> <br>
+            <i>Uitvoer na klik op beer button:</i> <br>
             <a href="/_assets/js_intermediate/beer.png">
                 <img src="{{ '/_assets/js_intermediate/beer.png' }}" alt="voor_ajax" style="width:300px">
             </a><br>
-            <i>Lorem button:</i><br>
+            <i>Uitvoer na klik op Lorem button:</i><br>
             <a href="/_assets/js_intermediate/lorem.png">
                 <img src="{{ '/_assets/js_intermediate/lorem.png' }}" alt="na_ajax" style="width:300px">
             </a>

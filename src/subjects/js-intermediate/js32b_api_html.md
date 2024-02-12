@@ -15,7 +15,7 @@ author: cstegeman
 
 
 ### opdracht
-Bekijk deze [handleiding](https://std.stegion.nl/cs_codebase/js32b_api_html/) 
+Bekijk deze <a href="https://std.stegion.nl/cs_codebase/js32b_api_html/" target="_blank">handleiding</a>
 *   bestudeer de workflow en kijk hoe je vanuit een API, JSON ophaalt en deze tot een HTML-table verwerkt
 *   bekijk hoe bij de rode letters <span style="color:darkred;">dit duurt even</span> een probleem ontstaat
 *   kopieer het script (met uitgebreide uitleg) en zorg dat beide methoden op jouw site werken

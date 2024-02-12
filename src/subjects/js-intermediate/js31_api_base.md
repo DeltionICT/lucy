@@ -26,7 +26,7 @@ author: cstegeman
         Maar een API geeft alleen die data weer terug in JSON-formaat en <i>geen HTML</i>!
     </div>
     <div style="flex:1; margin-left:10px;">
-        <a href="/_assets/js_intermediate/userHtmlTable.png">
+        <a href="/_assets/js_intermediate/userHtmlTable.png" target="_blank">
             <img src="{{ '/_assets/js_intermediate/userHtmlTable.png' }}" alt="userHtmlTable" style="width:400px">
         </a>
     </div>
@@ -41,7 +41,7 @@ author: cstegeman
         Uiteindelijk wordt de HTML bij A) op de server geschreven door PHP en bij B) op de client gemaakt met Javascript.
     </div>
     <div style="flex:1; margin-left:10px;">
-        <a href="/_assets/js_intermediate/API_vs_BE_C.png">
+        <a href="/_assets/js_intermediate/API_vs_BE_C.png" target="_blank">
             <img src="{{ '/_assets/js_intermediate/API_vs_BE_C.png' }}" alt="API_vs_BE_C" style="width:400px">
         </a>
     </div>
@@ -49,7 +49,7 @@ author: cstegeman
 
 
 ### opdracht
-Open de [handleiding js31_api_base](https://std.stegion.nl/cs_codebase/js31_api_base/).<br>
+Open <a href="https://std.stegion.nl/cs_codebase/js31_api_base/" target="_blank">handleiding js31_api_base</a>.<br>
 *   Bekijk bij 1: "HTML-opbouw vanuit API" het proces, hoe je van een API tot een website komt
 *   Bekijk bij 2: "API en JSON" verschillende voorbeelden van API's
     *   Bekijk alle links van API's in je browser
