@@ -7,13 +7,14 @@ author: jsiewers
 technology: html
 ---
 
-> #### Voorkennis
-> * Basis HTML
+> ### Voorkennis
+> * Basis-HTML
+> * [Uitleg op Edutorial.nl](https://www.edutorial.nl/html/afbeeldingen-aanpassen/)
 
-> #### Doelen
+> ### Doelen
 > * Je leert hoe je afbeeldingen op maat maakt in de juiste verhoudingen
 > * Je leert hoe je compressie toepast op afbeeldingen
-> * Je leert hoe je een website bouwt met afbeeldingen, links en andere html-elementen
+> * Je leert hoe je een website bouwt met afbeeldingen, links en andere HTML-elementen
 
 {{ '/_assets/basis/html.svg' | image: 'HTML5 Logo', 8 }}
 {{ '/_assets/basis/css.svg' | image: 'CSS3 Logo', 8 }}
@@ -32,12 +33,14 @@ technology: html
 ![Ontwerp webpagina](https://static.edutorial.nl/html/over_ons@0.5x.png)
 
 
-> ##### Op te leveren
+> ## Op te leveren
 > * Een webpagina gemaakt met HTML die zo goed mogelijk overeenkomt met het bijgeleverde ontwerp.
 > * De afbeeldingen van de website zijn op de juiste manier uitgesneden
 > * De afbeeldingen zijn bewaard met de meest gunstige compressie-instellingen
-> * De afbeeldingen zijn bewaard in het juiste bestands-formaat.
+> * De afbeeldingen zijn bewaard in het juiste bestandsformaat.
 
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+
+

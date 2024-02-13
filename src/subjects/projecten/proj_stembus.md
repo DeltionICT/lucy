@@ -18,6 +18,7 @@ technology: all
 > * Vooraf ontwerpen en uitdenken van de applicatie m.b.v. UML; wireframes, mockup, flowcharts
 > * Projectmatig samenwerken binnen een ontwikkel-team (SCRUM)
 
+<img src="{{ '/_assets/projecten/project-laptop.png'  }}" style="width:10%;">
 
 ## Opdracht
 In iedere klas moet een klassenvertegenwoordiger worden aangesteld. Het is belangrijk dat deze verkiezing neutraal en anoniem verloopt. Tijdens de tweede kamer verkiezingen in Nederland wordt er nog met de hand gestemd. Bij het kiezen van de klassenvertegenwoordiger wordt het stemmen digitaal georganiseerd.  

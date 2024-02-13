@@ -22,43 +22,37 @@ author: rkerssies
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals:
-* PHP of in een PHP-framework [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
+* PHP of in een PHP-framework [LARAVEL]({{ 'https://laravel.com/docs'  }})
 * C#
-<br><br>
-  Automated tests to ensure ALL code is still working &emsp;{{ '/_assets/api/tests.png' | image: 'tests', 4 }}
+  <br>
+  <font color="blue"><b>Automated tests to ensure ALL code is still working &emsp;{{ '/_assets/api/tests.png' | image: 'tests', 4 }}</b></font>
+  <br>
+<hr>
+
+5. Maak in een bestaande framework applicatie scenario-tests (FeatureTests) mogelijk;
+
+* Een featuretest per user-scenario (meerdere acties vanuit een gebruikerperspectief)
+    * de featuretests zijn per thema gerubriceerd in een file
+    * er worden voldoende asserts per test-method uitgevoerd
+    * de testresultaten zijn op een prettige manier te controleren 
+    * (optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file
 <br><br>
 <hr>
-1. Maak in een bestaande framework applicatie de volgende tests mogelijk;
-<br><br>
-In het framework zijn de volgende technische eigenschappen toegepast:
 
-* Een featuretest per user-scenario
-* featuretests zijn per thema gerubriceerd in een file
-* er worden voldoende asserts per test-method uitgevoerd
-* de testresultaten zijn op een prettige manier te controleren 
-* (optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file
-  <br><br>
-
-<hr>
-2a. Maak in een bestaande framework applicatie de volgende tests mogelijk;
+6. Maak in een bestaande applicatie UnitTests mogelijk;
 
   * controleer de correcte werking en responses van class-methods
-  <br><br>
+      * maak unittests op methods van een class in de library-folder  
+      * unittests zijn per thema gerubriceerd in een file
+      * er worden ruim voldoende asserts per test-method uitgevoerd
+      * controleer niet alleen de CORRECTE respons van de methods, maar ook de respons avn INCORRECT gebruik van de methods
+      * de testresultaten worden op een prettige manier gepresenteerd (webpage/log-document)
+      * (optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file
 
-2b. In het framework zijn de volgende technische eigenschappen toegepast:
-
-  * maak unittests op methods van een class in de library-folder  
-  * unittests zijn per thema gerubriceerd in een file
-  * er worden voldoende asserts per test-method uitgevoerd
-  * de testresultaten zijn op een prettige manier te controleren
-  * (optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file
-  <br><br>
 
 > ##### Op te leveren
 > * toepassen van geautomatiseerde (Feature)Tests op scenario's (proces van een UserStory)
 > * dit bij elke toekomstige UserStory als taak is toegevoegd
->
 > * toepassen van geautomatiseerde UnitTests op methods in bibliotheek-classes (classes in de Lib-folder)
 > * dat bij elke toekomstige te maken Libaray-class, er Userstory-taken worden ingepland om deze tests te maken
-> 
 > * dat de resultaten van geautomatiseerde tests (Feature- en UnitTests) bij de dailystandup worden besproken

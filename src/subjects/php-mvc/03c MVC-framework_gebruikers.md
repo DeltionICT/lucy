@@ -23,11 +23,11 @@ author: rkerssies
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals:
-* [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
+* [LARAVEL]({{ 'https://laravel.com/docs'  }})
 * C#
-<br><br>
-  Building a skeleton-project {{ '/_assets/api/dino.png' | image: 'C# Logo', 4 }}  (part 2)
-<br><br>
+  <br>
+  <font color="blue"><b>Building a skeleton-project {{ '/_assets/api/dino.png' | image: 'C# Logo', 4 }} (part 2)</b></font>
+  <br>
 <hr>
 1. Maak een applicatie in een framework met de volgende werking;
 
@@ -39,6 +39,7 @@ zoals:
 <br><br>
 <hr>
 <b>!</b> In het framework zijn de volgende technische eigenschappen toegepast:
+
 * correcte routes om de requests van de url op te vangen
 * overzichtelijk en goed toegepaste controllers en actions
 * in een action worden gegevens op een praktische manier beschikbaar gesteld aan de correcte view
@@ -47,7 +48,7 @@ zoals:
 * er is slechts één html-structuur die in de layout-file is uitgewerkt
 * configureerbare waarden worden centraal opgeslagen in een config-file
 * alle nieuwe classes zijn voorzien van namespaces en autoloader-proof
-* de volgende mogelijkheden zijn beschikbaar: inlog, password-verificatie en password-forgot, bijvoorbeewld in:
+* de volgende mogelijkheden zijn beschikbaar: inlog, password-verificatie en password-forgot, bijvoorbeeld in:
   * PHP met [Breeze]({{ 'https://laravel.com/docs/9.x/starter-kits#laravel-breeze'  }})
   * C# met [?????]
 * de database wordt opgebouwd en gerefreshed met 'migrations'

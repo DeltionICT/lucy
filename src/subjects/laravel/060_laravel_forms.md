@@ -17,6 +17,8 @@ author: jsiewers
 > * Je gaat models en controllers toepassen in je applicatie
 > * Je gaat formulieren maken in laravel om gegevens op te slaan, aan te passen of te verwijderen
 
+{{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
+
 ## Beginsituatie
 * Installeer de laatste versie van Laravel Breeze
 * Installeer MySQL-server en client (geïntegreerd met XAMPP)

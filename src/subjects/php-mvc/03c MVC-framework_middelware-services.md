@@ -24,29 +24,30 @@ author: rkerssies
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals: 
-* [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
+* [LARAVEL]({{ 'https://laravel.com/docs'  }})
 * C#
-<br><br>
- Building a skeleton-project {{ '/_assets/api/dino.png' | image: 'C# Logo', 4 }}  (part 3)
-<br><br>
+  <br>
+  <font color="blue"><b>Building a skeleton-project {{ '/_assets/api/dino.png' | image: 'C# Logo', 4 }} (part 3)</b></font>
+  <br>
 <hr>
-2. Maak een applicatie in een framework met de volgende werking;
+
+3. Maak een applicatie in een framework met de volgende werking;
 
 * als bezoeker wil ik mij kunnen registreren, zodat ik zelf ook toegang krijg tot beveiligde content
     * kanttekening 1: leeftijdscheck >= 18 jaar
     * bij het benaderen van een url zonder rechten voor administrators, wordt er een redirect gedaan naar de inlog-pagina
     * kanttekening 2: er wordt gebruik gemaakt van emailverificatie
-* meta-tags en seo worden optimaliseert met behulp van services
+* meta-tags en seo kunnen worden geoptimaliseerd met behulp van services
 * de naam in de browser-tab wordt bijgewerkt m.b.v. services
 * het email-account wordt bewaard in de config-file en goed beveiligd
 <br><br>
 <hr>
 <b>!</b> In het framework zijn de volgende technische eigenschappen toegepast:
+
 * middleware
 * middleware op routes
 * services
 * eigen gemaakte classes staan in de lib-folder met namespaces, zoals die voor email-, pdf- en andere mogelijkheden. 
-
 
 > ##### Op te leveren
 > * een web-applicatie die is opgebouwd met een MVC-framework (Laravel)

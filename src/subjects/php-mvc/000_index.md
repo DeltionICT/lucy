@@ -22,13 +22,13 @@ volgende leerlijn met daarin deze opdracht(en);
 > <small>💡Tip: maak de opdrachten: `MVC-basics PHP`, `MVC Bezoekers`, `MVC Beheer Gebruikers` en `MVC Middleware en Services` als aanloop naar deze eindopdracht</small>
 
 > 2. FeatureTesting<br>
-> ⏱️ 10 dagen &emsp; 🪽vrije keuze<br>
+> ⏱️ 5 dagen &emsp; 🪽vrije keuze<br>
 > <small>💡Tip: Deze opdracht is eenvoudiger toe te passen binnen een werkende MVC-applicatie</small>
 
 > 3. API-server PHP<br>
 > ⏱️ 10 dagen &emsp; 🪽vrije keuze<br>
 > <small>💡Tip: Deze opdracht is eenvoudiger toe te passen binnen een werkende MVC-applicatie</small>
 
-> 4. API-server met Roll-Based-Access-Controll PHP<br>
+> 4. API-server met Roll-Based-Access-Control PHP<br>
 > ⏱️ 10 dagen &emsp; 🪽vrije keuze<br>
 > <small>💡Tip: Deze opdracht is eenvoudiger toe te passen binnen een werkende API-applicatie met daarin MVC-technieken</small>

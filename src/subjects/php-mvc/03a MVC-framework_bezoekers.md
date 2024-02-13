@@ -23,12 +23,13 @@ author: rkerssies
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals:
-* [LARAVEL]({{ 'https://laravel.com/docs/9.x'  }})
+* [LARAVEL]({{ 'https://laravel.com/docs'  }})
 * C#
-<br><br>
-  Building a skeleton-project {{ '/_assets/api/dino.png' | image: 'C# Logo', 4 }} (part 1)
-<br><br>
+<br>
+  <font color="blue"><b>Building a skeleton-project {{ '/_assets/api/dino.png' | image: 'C# Logo', 4 }} (part 1)</b></font>
+<br>
 <hr>
+
 1. Maak een applicatie in een framework met de volgende werking;
 
 * als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
@@ -39,7 +40,6 @@ zoals:
 * als bezoeker zie ik alle content-items in het menu onder een dropbox, zodat een overzichtelijke navigatie-bar heb
 * als bezoeker zie ik een neutraal prettige layout, zodat ik de website blijf bezoeken
 * als bezoeker kan ik een content-item kiezen, zodat dat ene artikel kan bekijken
-<br><br>
 
 > ##### Op te leveren
 > * een web-applicatie die is opgebouwd met een MVC-framework (Laravel)

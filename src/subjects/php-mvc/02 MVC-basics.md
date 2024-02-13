@@ -12,25 +12,33 @@ author: rkerssies
 
 > ##### Doel
 > * introductie op de basis principes van een MVC-framework
+> * de mechanismes binnen een MVC-framework beter begrijpen
 
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 8 }}
 <br><br>
-    Understanding the MVC-methodology  {{ '/_assets/api/mvc.png' | image: 'MVC', 6 }}
+    <font color="blue"><b>"It starts here to really understand the MVC-methodology"</b></font>  {{ '/_assets/api/mvc.png' | image: 'MVC', 6 }}
 <br><br>
 
-***Taken:***
+***Voorbereidingen:***
+
 Voer de code uit volgens “best practice” en eerder geleerde technieken.<br>
-Deze opdrachten mogen met een basic MVC-framework worden uitgevoerd, dit is te vinden op: GitHub-[MVC2022]({{ 'https://github.com/InCubics/mvc2022'  }}).<br>
-Dit MVC-project vereist  [clean-urls]({{ '/thema/local-domainnames/'  }});
+Deze opdrachten mogen met een basic MVC-framework worden uitgevoerd, dit is te vinden op:<br>
+GitHub-[MVC2022]({{ 'https://github.com/InCubics/mvc2022' }}).<br>
+
 * Video's met uitleg over basic MVC-werking en staan in de 'bestanden' van het PHP [Teams-kanaal]({{ 'https://teams.microsoft.com/l/channel/19%3a58331b90c22b40ac8c56aad6cea82c5a%40thread.skype/04a%2520MVC%2520fundamentals?groupId=88bc2e4b-541f-4638-b34b-de6546be3aa7&tenantId=2867a850-2fe5-43f7-92b9-8e326586b667'  }}) (vraag evt om toegang)
 <br><br>
-* Pull het Git-project binnen naar jouw localhost.<br> 
-* Zet een database op voor het project en gebruik daarvoor de bijgevoegde sql-file.<br>
-* In de projectmap kan je het bestand app/config/config.ini zijn de database-instellingen voor het project aanpassen naar jouw specifieke situatie.<br> 
-* Met de url http://localhost/mvc2022/public wordt de MVC-applicatie getoond. <br>
+* Pull het Git-project binnen naar jouw de locatie  van jouw  PHP-projecten.<br> 
+* Volg de [stappen in de `install_config.md`]({{'https://github.com/InCubics/mvc2022/blob/master/ReadMe/install_config.md'}}) op GitHub om een eigen MVC-project op te zetten en te configureren.
 * Het standaard account is: admin@app.com met het wachtwoord: password<br>
-<br><br>
+<br>
 <hr>
+
+***Taken:***
+
+> ‼️Tip; <br>
+> Bekijk de verschillende aanwezige voorbeelden en functionaliteiten die al binnen het MVC2022-project aanwezig zijn.<br>
+> Vol de namespaces en bekijk hoe in de verschillende classes de werking is gerealiseerd 
+
 1. Maak een programma met een werking;
 
 * als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
@@ -46,7 +54,7 @@ Dit MVC-project vereist  [clean-urls]({{ '/thema/local-domainnames/'  }});
 * als gebruiker wil ik gallery-afbeeldingen kunnen bekijken, zodat ik kan zien welke foto’s er zijn gedeeld door andere gebruikers. 
 * als gebruiker wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.
 <br><br>
-Het programma heeft de volgende technische eigenschappen:
+In de applicatie die jij maakt zijn dan o.a. de volgende technische eigenschappen toegepast:
 * correcte routes om de requests van de url op te vangen
 * overzichtelijk en goed toegepaste controllers en actions
 * in een action worden gegevens op een praktische manier beschikbaar gesteld aan de correcte view
@@ -57,6 +65,7 @@ Het programma heeft de volgende technische eigenschappen:
 * alle nieuwe classes zijn voorzien van namespaces en autoloader-proof
 <br><br>
 <hr>
+
 2. Maak een programma met een werking;
 
 * als bezoeker wil ik mij kunnen registreren, zodat ik zelf ook toegang krijg tot beveiligde content
@@ -67,7 +76,7 @@ Het programma heeft de volgende technische eigenschappen:
 * het email-account wordt bewaard in de config-file en goed beveiligd
 <br><br>
 
-Het programma heeft de volgende technische eigenschappen toegepast:
+In de applicatie die jij maakt zijn dan o.a. de volgende technische eigenschappen toegepast:
 * middleware
 * middleware op routes
 * services
@@ -79,7 +88,7 @@ Het programma heeft de volgende technische eigenschappen toegepast:
 > * aantonen dat het gebruik routes wordt begrepen 
 > * aantonen dat gecentraliseerde layouts en gebruik van css-files kan worden toegepast en goed georganiseerd
 > * aantonen dat het gebruik middleware wordt begrepen 
-> * aantonen dat services wordt begerepen
+> * aantonen dat services wordt begrepen
 > * aantonen dat het gebruik van abstracte database-verzoeken kan worden toegepast (eloquent alike)
 > * aantonen dat eigen gemaakte classes op een structurele manier worden opgeslagen en beschikbaar gesteld via namespaces worden  
 

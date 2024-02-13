@@ -16,6 +16,7 @@ technology: html, php
 > * Uitvoer van PHP weergeven in HTML
 > * Berekeningen maken met PHP
 
+{{ '/_assets/_icons/php.png'  | image: 'php', 13 }}
 
 ## Opdracht
 * Maak een calculatieprogramma voor Timmerbedrijf "About Hout".
@@ -77,5 +78,5 @@ technology: html, php
 </div>
 </div>
 
-## Op te leveren
-* een applicatie die de kosten berekend op basis van de maat tafelblad en het soort hout  
+> ### Op te leveren
+> * een applicatie die de kosten berekend op basis van de maat tafelblad en het soort hout  

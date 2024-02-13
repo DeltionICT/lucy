@@ -7,7 +7,6 @@ author: jsiewers
 technology: ide, html, css
 ---
 
-
 > #### Voorkennis
 > * Je heb een IDE geïnstalleerd
 > * Je hebt Git geïnstalleerd op je computer
@@ -21,13 +20,15 @@ technology: ide, html, css
 >   * Een workflow opzetten met Git en Github
 >   * Alles over branches, issues, pull requests, code reviews, merging en merge conflicten oplossen
 
+<img src="{{ '/_assets/_icons/git.png'  }}" style="width:10%;">
+
 ## Opdracht
 De opdracht voer je met 2 personen uit.
 De opdracht zelf vind je via onderstaande link. Maak gebruik van de git-like-pro repository op [Github DeltionICT]() maak een [fork via deze link](https://github.com/DeltionICT/git-like-a-pro/fork)
 [Volg deze tutorial op freecodecamp.org (how to use git and github in a team like a pro)](https://www.freecodecamp.org/news/how-to-use-git-and-github-in-a-team-like-a-pro/)
 
-## Resultaat
-Aangezien jullie samen hebben gewerkt aan 1 repository, heb je het eindresultaat al gemaakt door de opdrachten in de tutorial uit te voeren. 
+> ## Resultaat
+> Aangezien jullie samen hebben gewerkt aan 1 repository, heb je het eindresultaat al gemaakt door de opdrachten in de tutorial uit te voeren. 
 
-## Evaluatie
-Als je de repository aan het begin van de opdracht hebt "geforked" en je hebt alle opdrachten succesvol uitgevoerd, dan is de missie voor deze opdracht volbracht.
+> ## Evaluatie
+> * Als je de repository aan het begin van de opdracht hebt "geforked" en je hebt alle opdrachten succesvol uitgevoerd, dan is de missie voor deze opdracht volbracht.

@@ -23,29 +23,15 @@ date: 2023-04-20
 > - kan testapparatuur hanteren
 > - kan schema's van programmeerbare schakelingen interpreteren
 
+> #### Leerlijnen
+> Het keuzedeel Programmeren van Microcontrollers kent 2 leerlijnen. 
+> 
+> - Leerlijn 1 is de klassieke vorm, waarbij je met een Arduino en elektronische componenenten werkt. 
+>   De bijbehorende opdrachten staan in MC1 t/m MC4.
+> - Leerlijn 2 is met LEGO® Mindstorms Education EV3. De bijbehorende opdrachten staan in MC1 en MCL.
+> 
+> Voor beide leerlijnen geldt, dat je het keuzedeel moet afronden met een eigen bedachte casus.
+> De casus wordt vooraf beoordeeld door de docenten of de casus aan de eisen voldoet.
 
-
-
-## Over deze set opdrachten
-Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
-uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ '/_assets/school/begeleiding/voortgangsdocument.docx' }})
-of vraag om een geprinte versie. Houdt tijdens het werken aan deze set opdrachten bij hoe jouw ontwikkeling verloopt.
-Al het werk moet in ieder geval zijn opgeslagen en toonbaar binnen jouw eigen GitHub-account.   
-Werk tenslotte uit welke leerdoelen jij hebt behaald. <br>
-Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkelingen en wat nu voor jou de beste vervolgstap kan zijn.
-
-
-## Geadviseerde leerlijn voor deze opdrachtenset
-Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
-Als jij je wil ontwikkelen in **MicroControllers**, dan adviseren wij jou de
-volgende leerlijn met daarin deze opdracht(en);
-> 1. Programmeren MicroControllers<br>
-> ⏱️ 5+ dagen &emsp 🪽vrije keuze
-
-> 💡 DELTION CENTRAAL aangeboden KEUZEDEEL naar KEUZE<br>
-> ⏱️ 5+ dagen &emsp; 🪽vrije keuze
-> <small>💡inschrijving vooraf is verplicht !!!</small>
-
-> ‼️ Er moeten minimaal 3 keuzedelen succesvol zijn afgerond (examen-eis).
 
 

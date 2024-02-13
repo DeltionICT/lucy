@@ -12,6 +12,8 @@ author: jsiewers
 > * Ontwerp opstellen voor een eenvoudige applicatie
 > * Stroomschema technieken
 
+<img src="{{ '/_assets/_icons/python.png'  }}" style="width:10%;">
+
 ## Opdracht
 Maak een stroomschema op basis van de volgende casus:
 Een grote bank verzameld financiële gegevens over bedrijven. 

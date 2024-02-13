@@ -7,7 +7,6 @@ author: jsiewers
 technology: php
 ---
 
-
 > #### Voorkennis
 > * Basiskennis HTML
 > * Formulier maken met HTML
@@ -16,12 +15,10 @@ technology: php
 > * Basiskennis PHP
 > * Ingevulde waarden in een formulier bewerken en weergeven met PHP
 
-## Op te leveren
-Een formulier waarbij je kunt kiezen uit minimaal 5 automerken (of games of tandpasta of ander onderwerp).  
-Zodra je je keuze hebt gemaakt en je verstuurt het formulier, dan worden er 2 plaatjes weergegeven van je favoriete automerk (of game of wat dan ook).  
-Als dat is gelukt bewaar je de opdracht en maak je een kopie van je werk.
+{{ '/_assets/_icons/php.png'  | image: 'php', 13 }}
 
-Breidt nu de vorige opdracht uit met de mogelijkheid om meerdere items te selecteren. 
+## Opdracht
+Breidt nu de "Kleurkizer"-opdracht uit met de mogelijkheid om meerdere items te selecteren. 
 Je kunt nu plaatjes van meerdere automerken, games e.d. tonen op basis van de gemaakte selectie.
 
 <div class="html">
@@ -35,3 +32,7 @@ Je kunt nu plaatjes van meerdere automerken, games e.d. tonen op basis van de ge
         <input type="submit">
     </form>
 </div>
+
+> ### Op te leveren
+> * Een formulier waarbij je kunt kiezen uit minimaal 5 automerken (of games of tandpasta of ander onderwerp).  
+> * Zodra je je keuze hebt gemaakt en je verstuurt het formulier, dan worden er 2 plaatjes weergegeven van je favoriete automerk (of game of wat dan ook).

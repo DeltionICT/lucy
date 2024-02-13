@@ -11,8 +11,9 @@ author: jsiewers
 > * Toepassen van ord() en char() functies
 > * Toepassen van de input-functie
 
-## Opdracht
+<img src="{{ '/_assets/_icons/python.png'  }}" style="width:10%;">
 
+## Opdracht
 In deze opdracht ga je werken met cryptografie
 * Je gaat een methode gebruiken waarmee je de invoer van een tekst kunt encrypten en decrypten.
 * Voor de encryptie verschuif je een letter 5 plaatsen in het alfabet. De letter 'a' wordt dus 'f'. De letter 'z' wordt dan 'e'.

@@ -7,14 +7,19 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
 
-### Resultaat
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden in complexere uitdagingen
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een grotere opdracht
+
+{{ '/_assets/omgevingen/code_advanced.png'  | image: 'advanced', 13 }}
+
+
+## Opdracht
 Maak een programma dat decimale getallen kan omzetten naar Romeinse getallen en omgekeerd.
 
 - Het programma zet hele positieve getallen om naar Romeinse cijfers
@@ -58,3 +63,10 @@ Let op! De volgende regels moeten hierbij gehanteerd worden.
 1.  Alleen de ‘C’, de ‘X’ en de ‘I’ mogen worden afgetrokken,
 2.  Steeds alleen van de 2 waarden die daar direct boven liggen en
 3.  Steeds maar 1 keer!
+
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

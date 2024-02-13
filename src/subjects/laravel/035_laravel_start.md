@@ -6,10 +6,13 @@ author: jsiewers
 
 > #### Voorkennis
 > * Je hebt kennis van object georienteerd programmeren in php
+> * Kunnen werken met databases (bijv: MySQL / MariaDB)
 
 > #### Dit ga je leren
 > * Je gaat een eerste project maken met laravel
 > * Je leert werken met routes en views in laravel
+
+{{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
 
 ## Beginsituatie
 * Installeer composer
