@@ -7,6 +7,7 @@ layout: layout.webc
     <module>
         <p slot="title">Basis programmeren</p>
         <p slot="techs">
+            <tech color="blue" title="AVG"></tech>
             <tech color="purple" title="Ontwikkelomgeving"></tech>
             <tech color="purple" title="Git en Github"></tech>
             <tech color="grey" title="Codebase S"></tech>
