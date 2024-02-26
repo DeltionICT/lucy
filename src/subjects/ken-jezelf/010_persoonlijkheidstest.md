@@ -19,8 +19,8 @@ inzicht in deze eigenschappen.
 
 #### Taak : maak persoonlijkheidstest
 
-1.  Navigeer naar  
-    <https://www.123test.nl/persoonlijkheidstest/>
+1.  Navigeer naar
+    <a href="https://www.123test.nl/persoonlijkheidstest" target="_blank">https://www.123test.nl/persoonlijkheidstest/</a>
 
 2.  Maak deze test  
     (Beantwoord de vragen naar eer en geweten, er zijn geen foute
@@ -41,7 +41,7 @@ inzicht in deze eigenschappen.
     -   Natuurlijke reactie (Emotionele stabiliteit)
 
     Ga daarvoor naar bijv.
-    <https://www.jobpersonality.com/big-five-persoonlijkheidstheorie>
+    <a href="https://www.jobpersonality.com/big-five-persoonlijkheidstheorie" target="_blank">https://www.jobpersonality.com/big-five-persoonlijkheidstheorie</a>
     voor een uitleg over bovenstaande factoren.
 
 5.  Reflecteer op de uitkomst van jouw test;
@@ -56,5 +56,5 @@ inzicht in deze eigenschappen.
     teamlid?
 
 7.  Optioneel: Op
-    <https://www.16personalities.com/free-personality-test> vind je een
+    <a href="https://www.16personalities.com/free-personality-test" target="_blank">https://www.16personalities.com/free-personality-test</a> vind je een
     leuke tweede persoonlijkheidstest.

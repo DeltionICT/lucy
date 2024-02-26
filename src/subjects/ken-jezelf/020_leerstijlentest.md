@@ -27,7 +27,7 @@ situatie begin jouw favoriete leerstijl.
 #### Taak : Maak leerstijlentest
 
 1.  Navigeer naar  
-    <https://profielen.hr.nl/leerstijlentest/>
+    <a href="https://www.testcentrumgroei.nl/leerstijlentest" target="_blank">https://www.testcentrumgroei.nl/leerstijlentest</a>
 
 2.  Maak de test.  
     (Beantwoord de vragen naar eer en geweten, er zijn geen foute
@@ -46,7 +46,7 @@ situatie begin jouw favoriete leerstijl.
     -   Beslisser
 
     Ga naar
-    <https://www.ikleerinbeelden.nl/op-school/beelddenken-leren/de-leerstijlen-van-kolb/>
+    <a href="https://www.coachingtheshift.com/nl/leercyclus-kolb-leerstijlen" target="_blank">https://www.coachingtheshift.com/nl/leercyclus-kolb-leerstijlen</a>
     voor een uitleg over bovenstaande leerstijlen.
 
 5.  Reflecteer op de uitkomst van jouw test.
