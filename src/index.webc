@@ -10,6 +10,7 @@ layout: layout.webc
             <tech color="blue" title="AVG"></tech>
             <tech color="blue" title="Auteursrecht"></tech>
             <tech color="blue" title="Software licenties"></tech>
+            <tech color="blue" title="Computers"></tech>
             <tech color="purple" title="Ontwikkelomgeving"></tech>
             <tech color="purple" title="Git en Github"></tech>
             <tech color="grey" title="Codebase S"></tech>
