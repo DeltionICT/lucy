@@ -24,5 +24,5 @@ Schrijf een verslag waarin je onderstaande hoofd- en deelvragen beantwoord:
 > * Welke rechten geeft de AVG aan gebruikers?
 > * Welke plichten geeft de AVG aan developers?
 
-Je gaat voor dit verslag eerste een literatuuronderzoek doen. 
+Je doet eerste een literatuuronderzoek voordat je begint met het schrijven van je verslag.
 Lees de pagina over literatuuronderzoek goed door als je nog geen ervaring hebt met het doen van zo'n onderzoek.
