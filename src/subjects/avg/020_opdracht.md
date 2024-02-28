@@ -23,3 +23,6 @@ Schrijf een verslag waarin je onderstaande hoofd- en deelvragen beantwoord:
 > * Wat wordt bedoeld met een datalek?
 > * Welke rechten geeft de AVG aan gebruikers?
 > * Welke plichten geeft de AVG aan developers?
+
+Je gaat voor dit verslag eerste een literatuuronderzoek doen. 
+Lees de pagina over literatuuronderzoek goed door als je nog geen ervaring hebt met het doen van zo'n onderzoek.
