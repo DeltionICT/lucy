@@ -4,7 +4,7 @@ author: pgemert
 date: 2024-02-16
 ---
 
-## Backlog
+#### Backlog
 
 - Als software developer wil ik weten wat persoonsgegevens zijn zodat ik de Avg goed kan implementeren.
 - Als software developer wil ik weten welke persoonsgegevens ik mag opslaan en verwerken zodat ik mij kan houden aan de bepalingen van de Avg.
