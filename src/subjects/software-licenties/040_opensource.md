@@ -33,7 +33,7 @@ werken: Free software, Open-source software, Freeware Public-domain software.
     3. Is jouw werk beschermt door de auteurswet als jij de software als Public-domain software beschikbaar maakt?<br>
     4. Is jouw werk beschermt door de auteurswet als jij jouw software als Open-source software beschikbaar maakt?<br>
 
-## Opdracht : Bespreek
+## Opdracht : Overleg
 
 Bespreek jouw antwoorden met één van de docenten. 
 
@@ -55,12 +55,10 @@ Als houder van het auteursrecht bepaal jij hoe jij jouw code beschikbaar stelt.
 Betaald via een eula, betaald via een open source licentie, gratis via een open
 source licentie. De keuze ligt bij jouw.
 
-Open source licenties
-De open source licenties geven jouw de mogelijkheid om jouw code te delen met
-anderen maar toch zeggenschap te houden hoe jouw code gebruikt kan worden.
-Hieronder vindt je een overzicht van een aantal open source licenties en wat zij
-inhouden. (**ictloket-opensourcelicenties**) Er zijn veel meer licenties beschikbaar
-dan hieronder genoemd.
+## Open source licenties
+De open source licenties geven jouw de mogelijkheid om jouw code te delen met anderen maar toch zeggenschap te houden hoe jouw code gebruikt kan worden.
+Hieronder vindt je een overzicht van een aantal open source licenties en wat zij inhouden. ([ICT Loket](https://www.ictloket.nl/overig/open-source-licenties/)) 
+Er zijn veel meer licenties beschikbaar dan hieronder genoemd.
 - **Apache License, 2.0** De gecreëerde software mag vrijelijk verspreid worden,
 wel moet een duidelijke verwijzing worden gemaakt naar de Apache
 software Foundation, de Apache License dient toegevoegd te worden bij
@@ -68,21 +66,21 @@ verspreiding van de gecreëeerde software. De gebruikte code van Apache
 blijft onder de Apache License vallen, de eigen geschreven code mag onder
 een andere licentie worden uitgebracht. Het openbaar maken van de
 broncode is niet verplicht. (apachelicense)
-- Gnu General Public License (gpl) De broncode moet vrijelijk verspreid worden,
+- **Gnu General Public License (gpl)** De broncode moet vrijelijk verspreid worden,
 tevens moet de broncode ook onder GPL worden verspreid, wat dus
 inhoudt dat je broncodes die onder GPL vallen nooit in closed source software kunt aantreen. (gnu-gpl3-license)
-- GNU Library or “Lesser” General Public License (LGPL) LGPL is vergelijkbaar
+- **GNU Library or “Lesser” General Public License (LGPL)** LGPL is vergelijkbaar
 met GPL, alleen de aanpassingen in de broncode die onder de LGPL licentie vallen moeten openbaar worden gemaakt. Eigen toegevoegde code
 hoeft niet openbaar gemaakt te worden. Hierdoor is het mogelijk om code
 die onder deze licentie valt te gebruiken in closed source software. (gnu-lgpl3-license)
-- MIT license De enige voorwaarde is dat het copyright statement en de disclaimer
+- **MIT license** De enige voorwaarde is dat het copyright statement en de disclaimer
 in alle kopieën moet blijven staan. (mit-license)
-- Mozilla Public License 1.1 (MPL) Mozilla Public License is te vergelijken met
+- **Mozilla Public License 1.1** (MPL) Mozilla Public License is te vergelijken met
 LGPL. Het enige verschil is dat wijzigingen gedocumenteerd dienen te worden
 met de datum van de wijziging. (mozilla-license)
+
 In Github (Figuur 2) kun je de standaard licenties voor het software product kiezen
-wanneer je een nieuw project aanmaakt. Dit is vooral van belang als je het
-project op Public zet.
+wanneer je een nieuw project aanmaakt. 
 
 <figure>
     <img src="/_assets/verslag-licentie/github.jpeg" width="309" height="465" alt="Github licenties">
@@ -92,7 +90,7 @@ project op Public zet.
 Kies de juiste licentie voor het project dat je maakt. De licentie bepaald nml. wat
 overige software developers mogen doen met jouw code.
 
-### Permissive versus Copyle
+### Permissive versus Copyleft
 De termen permissive en copyleft geven aan hoeveel rechten jij wilt overdragen
 aan de gebruiker van jouw software. Het gaat dan vooral om de rechten voor een
 software developer.
@@ -101,7 +99,8 @@ heel veel rechten op jouw eigen code. Zo mogen zij bijvoorbeeld jouw code
 opnemen in een closed source product.
 - **Copyleft** De term copyleft is ontstaan als woordgrapje op het bekendere
 copyright. Met copyleft wordt dus een licentie bedoeld die tegengesteld is
-aan een copyright.<br>Een copyleft licentie geeft jou de mogelijkheid om software van een andere
+aan een copyright.
+Een copyleft licentie geeft jou de mogelijkheid om software van een andere
 te gebruiken maar het project waarin je deze code gebruikt moet dan
 dezelfde licentie hebben als de code die jij kopieert cq. van een ander gebruikt.
 
@@ -111,22 +110,16 @@ deze aanpassingen ook onder dezelfde copyleft licentie beschikbaar maken.
 Bij een permissive licentie mag je de gratis code van een andere developer opnemen
 in een betaald product.
 
-**_Opgave : Open source licentie_**
-1. Beantwoord de volgende vragen en noteer de antwoorden. Geef niet alleen
-een ja of nee antwoord maar geef ook een reden waarom jij tot jouw
-antwoord komt. Geef aan waar op het internet jij de antwoorden gevonden
-hebt.<br>
-(a) Mag je een software productmet een GPL licentie overzetten naar een
-close source product?<br>
-(b) Mag je een software product met een permissive licentie gebruiken in
-jouw freeware product?<br>
-(c) Mag je een software product met een LGPL licentie gebruiken in jouw
-eigen closed source product?<br>
-(d) Mag je een software product met een GPL licentie gebruiken in jouw
-eigen product met GPL licentie?<br>
-(e) Mag jij wijzigingen aanbrengen in een product met een MIT licentie?<br>
+## Opdracht: Open source licenties
+Beantwoord de volgende vragen en noteer de antwoorden. 
+Geef niet alleen een ja of nee antwoord maar geef ook een reden waarom jij tot jouw
+antwoord komt. 
+Geef aan waar op het internet jij de antwoorden gevonden hebt.<br>
+    1. Mag je een software productmet een GPL licentie overzetten naar een close source product?<br>
+    2. Mag je een software product met een permissive licentie gebruiken in jouw freeware product?<br>
+    3. Mag je een software product met een LGPL licentie gebruiken in jouw eigen closed source product?<br>
+    4. Mag je een software product met een GPL licentie gebruiken in jouw eigen product met GPL licentie?<br>
+    5. Mag jij wijzigingen aanbrengen in een product met een MIT licentie?<br>
 
-***Taak: Bespreek antwoorden*** <span id="DocentBespreek"
-label="DocentBespreek"></span>
-Bespreek jouw antwoorden met één van de docenten. Dit is niet het beoordelingsgesprek!
-Dit gesprek is vooral bedoeld om te kijken of je op de juiste weg zit
+## Opdracht : Overleg
+Bespreek jouw antwoorden met één van de docenten.
