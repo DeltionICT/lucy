@@ -13,6 +13,7 @@ layout: layout.webc
             <tech color="grey" title="Codebase M"></tech>
             <tech color="grey" title="Codebase XL"></tech>
             <tech color="orange" title="HTML-CSS"></tech>
+            <tech color="pink" title="Ken jezelf"></tech>
         </p>
     </module>
     <module>
