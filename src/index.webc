@@ -24,6 +24,7 @@ layout: layout.webc
     <module>
         <p slot="title">Basis programmeren</p>
         <p slot="techs">
+            <tech color="blue" title="PHP Basis"></tech>
             <tech color="grey" title="Codebase S"></tech>
             <tech color="grey" title="Codebase M"></tech>
             <tech color="grey" title="Codebase XL"></tech>
@@ -40,31 +41,32 @@ layout: layout.webc
             <tech color="green" title="JS Intermediate"></tech>
         </p>
     </module>
-       <module>
-            <p slot="title">profiel: Backend</p>
-            <p slot="techs">
-                <tech color="blue" title="Objectgeoriënteerd"></tech>
-                <tech color="blue" title="OO Projects"></tech>
-                <tech color="blue" title="Laravel"></tech>
-                <tech color="blue" title="PHP MVC"></tech>
-                <tech color="blue" title="C# basis"></tech>
-                <tech color="blue" title="C# MVC"></tech>
-                <tech color="green" title="NodeJS"></tech>
-            </p>
-        </module>
-        <module>
-            <p slot="title">profiel: Frontend</p>
-            <p slot="techs">
-                <tech color="green" title="JS Advanced"></tech>
-                <tech color="green" title="JS Frameworks"></tech>
-                <tech color="green" title="Webcomponents"></tech>
-                <tech color="yellow" title="User experience design"></tech>
-            </p>
-        </module>
+    <module>
+        <p slot="title">profiel: Backend</p>
+        <p slot="techs">
+            <tech color="blue" title="Objectgeoriënteerd"></tech>
+            <tech color="blue" title="OO Projects"></tech>
+            <tech color="blue" title="Laravel"></tech>
+            <tech color="blue" title="PHP MVC"></tech>
+            <tech color="blue" title="C# basis"></tech>
+            <tech color="blue" title="C# MVC"></tech>
+            <tech color="green" title="NodeJS"></tech>
+        </p>
+    </module>
+    <module>
+        <p slot="title">profiel: Frontend</p>
+        <p slot="techs">
+            <tech color="green" title="JS Advanced"></tech>
+            <tech color="green" title="JS Frameworks"></tech>
+            <tech color="green" title="Webcomponents"></tech>
+            <tech color="yellow" title="User experience design"></tech>
+        </p>
+    </module>
     <module>
         <p slot="title">Ontwerpen</p>
         <p slot="techs">
             <tech color="yellow" title="UML ERD"></tech>
+                <tech color="yellow" title="User experience design"></tech>
         </p>
     </module>
     <module>
