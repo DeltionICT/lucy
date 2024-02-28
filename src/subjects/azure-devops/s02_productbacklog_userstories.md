@@ -1,5 +1,5 @@
 ---
-title: DevOps Product-BackLog
+title: Azure DevOps Product-BackLog
 key: 2550
 difficulty: basic
 date: 2023-03-24
@@ -11,13 +11,12 @@ technology: scrum
 > * Basics van projectmanagement en tennis van de SCRUM-methodiek
 
 > #### Dit ga je leren
-> * Gebruik van DevOps
+> * Gebruik van Azure DevOps
 > * Backlog aanmaken
 > * Userstories uitwerken in de product-backlog
 
 
 {{ '/_assets/scrum_devops/scrum.png' | image: 'scrum', 10 }}
-<br><br>
 NB: de screenshots kunnen afwijken door updates van DevOps<br>
 
 ## Opdracht
