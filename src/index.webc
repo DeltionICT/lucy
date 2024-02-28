@@ -5,29 +5,39 @@ layout: layout.webc
 
 <module-container>
     <module>
-        <p slot="title">Basis programmeren</p>
+        <p slot="title">Applicaties</p>
+        <p slot="techs">
+            <tech color="purple" title="Ontwikkelomgeving"></tech>
+            <tech color="purple" title="Git en Github"></tech>
+            <tech color="purple" title="Azure DevOps"></tech>
+        </p>
+    </module>
+    <module>
+        <p slot="title">Verslagen en presentaties</p>
         <p slot="techs">
             <tech color="darkgreen" title="AVG"></tech>
             <tech color="darkgreen" title="Auteursrecht"></tech>
             <tech color="darkgreen" title="Software licenties"></tech>
             <tech color="darkgreen" title="Computers"></tech>
-            <tech color="purple" title="Ontwikkelomgeving"></tech>
-            <tech color="purple" title="Git en Github"></tech>
+        </p>
+    </module>
+    <module>
+        <p slot="title">Basis programmeren</p>
+        <p slot="techs">
             <tech color="grey" title="Codebase S"></tech>
             <tech color="grey" title="Codebase M"></tech>
             <tech color="grey" title="Codebase XL"></tech>
-            <tech color="orange" title="HTML-CSS"></tech>
         </p>
     </module>
     <module>
         <p slot="title">Basis webdevelopment</p>
         <p slot="techs">
+            <tech color="orange" title="HTML-CSS"></tech>
             <tech color="blue" title="PHP Basis"></tech>
             <tech color="blue" title="PHP Intermediate"></tech>
             <tech color="brown" title="Database queries"></tech>
             <tech color="green" title="JS Basis"></tech>
             <tech color="green" title="JS Intermediate"></tech>
-
         </p>
     </module>
        <module>
@@ -52,9 +62,14 @@ layout: layout.webc
             </p>
         </module>
     <module>
-        <p slot="title">Ontwerpen en samenwerken</p>
+        <p slot="title">Ontwerpen</p>
         <p slot="techs">
             <tech color="yellow" title="UML ERD"></tech>
+        </p>
+    </module>
+    <module>
+        <p slot="title">Samenwerken</p>
+        <p slot="techs">
             <tech color="purple" title="Scrum"></tech>
             <tech color="purple" title="Azure DevOps"></tech>
             <tech color="purple" title="Projecten"></tech>
