@@ -38,6 +38,8 @@ Bijvoorbeeld:<br>
         <img src="{{ '/_assets/projecten/beer/bier_likes.png'  }}" style="width:30%;">
 <br>
 
+* [Hoe maak je een API met php en javascript](https://www.edutorial.nl/projecten/poor-man's-api/)
+
 
 ## Fase 2:
 Er moet nu ook bijgehouden worden dat niet gebruikers meerdere malen op een biertje kunnen klikken, dus per IP-adres bijhouden of er al geklikt is. Want TBBCompany wil alleen unieke likes hebben.
