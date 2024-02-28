@@ -1560,6 +1560,12 @@
         "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/verdieping-software/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/webcomponents/introductie/",
         "title":"Introductie",
         "author":"rkerssies",
@@ -1714,6 +1720,24 @@
         "title":"MCL | LEGO® Mindstorm Education EV3",
         "author":"adalmolen",
         "date":"Mon Jan 22 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/verdieping-software/basis-verdieping-software/",
+        "title":"Basis verdieping software",
+        "author":"kstarreveld",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/verdieping-software/vergelijk-verschillende-softwarepakketten/",
+        "title":"Vergelijk verschillende softwarepakketten",
+        "author":"kstarreveld",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/verdieping-software/stappen-naar-het-examen/",
+        "title":"Stappen naar het examen",
+        "author":"kstarreveld",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
