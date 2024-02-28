@@ -23,7 +23,7 @@ inzicht in de rol die jij van nature het liefst op je neemt.
 #### Taak : maak teamrollentest
 
 1.  Navigeer naar  
-    <https://werkenmetteamrollen.nl/vragenlijst/>
+    <a href="https://werkenmetteamrollen.nl/vragenlijst/" target="_blank">https://werkenmetteamrollen.nl/vragenlijst/</a>
 
 2.  Maak de test. (Beantwoord de vragen naar eer en geweten, er zijn
     geen foute antwoorden)
@@ -48,8 +48,7 @@ inzicht in de rol die jij van nature het liefst op je neemt.
 
     -   Groepswerker
 
-    Ga naar <https://werkenmetteamrollen.nl/uitleg-teamrollen/> voor een
-    uitleg van deze teamrollen.
+    Ga naar <a href="https://werkenmetteamrollen.nl/uitleg-teamrollen/" target="_blank">https://werkenmetteamrollen.nl/uitleg-teamrollen/</a> voor een uitleg van deze teamrollen.
 
 5.  Reflecteer op de uitkomst van de test.
 
