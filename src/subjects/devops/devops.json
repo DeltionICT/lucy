@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"devops",
-	"coursetitle":"DevOps",
-	"permalink":"/subjects/devops/{{ title | slugify }}/{{ page.index }}"
-}
