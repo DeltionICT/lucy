@@ -114,13 +114,12 @@ Tip:
 ```
 
 
-## Resultaat
-* Meer structuur in de index-file en andere PHP-files door functies in aparte bestanden en mappen te plaatsen
-* Een PHP-pagina met waarin alle core PHP-files met functies automatisch worden ingelezen.<br>
-Alle ander PHP-functies in de core-folder zijn daarna allemaal aan te roepen in de applicatie, zonder deze PHP-files allemaal apart in te lezen 
-* In de index.php wordt slechts één include gemaakt en alleen nog PHP-functies aangeroepen.
-* Functionaliteit volgens de beschrijving in de opdracht.
+> ## Op te leveren
+> * Meer structuur in de index-file en andere PHP-files door functies in aparte bestanden en mappen te plaatsen
+> * Een PHP-pagina met waarin alle core PHP-files met functies automatisch worden ingelezen.<br>
+> Alle ander PHP-functies in de core-folder zijn daarna allemaal aan te roepen in de applicatie, zonder deze PHP-files allemaal apart in te lezen 
+> * In de index.php wordt slechts één include gemaakt en alleen nog PHP-functies aangeroepen.
+> * Functionaliteit volgens de beschrijving in de opdracht.
 
-
-## Evaluatie
-Vraag om een code-review om feedback en tips voor best-practices op jouw aanpak te krijgen.
+> ## Evaluatie
+> Vraag om een code-review om feedback en tips voor best-practices op jouw aanpak te krijgen.
