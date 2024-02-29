@@ -33,7 +33,10 @@ Bestudeer de code van de applicatie en breidt deze uit met de volgende functiona
 * Clone je repository
 * Voeg de benodigde code toe
 * Voer de veranderingen door in je code.
-* Commit en push je veranderingen naar je eigen repo 
+* Commit en push je veranderingen naar je eigen repo
+
+## Uitwerking
+* [Uitwerking (alleen toegankelijk voor docenten!)](https://github.com/DeltionICT/elcredito_uitwerking)
 
 
 

@@ -15,6 +15,8 @@ author: cstegeman
 ### Beschrijving
 Een API kan in de Backend informatie uit een database ophalen en die terugegeven in JSON formaat.
 Met Javascript kun je met AJAX die in JSON inladen en weergeven in HTML.<br>
+
+
 Bekijk in [deze website](https://std.stegion.nl/cs_codebase/js32_json_ajax) 4 verschillende methoden om
 zo'n AJAX request aan te maken.<br>
 

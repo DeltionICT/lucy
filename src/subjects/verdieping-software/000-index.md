@@ -17,10 +17,7 @@ Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
 Als jij je wil ontwikkelen in **WordPress** en **ContentManagementSystemen (CMS)**, dan adviseren wij jou de
 volgende leerlijn met daarin deze opdracht(en);
 > 1. Verdieping Software<br>
-> ⏱️ 5+ dagen &emsp; 🪽vrije keuze
+> ⏱️ 6-10 weken &emsp; 🪽vrije keuze
 
-> 💡DELTION CENTRAAL aangeboden KEUZEDEEL naar KEUZE<br>
-> ⏱️ 5+ dagen &emsp; 🪽vrije keuze
-> <small>inschrijvin vooraf verplicht !!!</small>
-
+Aan dit onderdeel is een keuzedeelexamen verbonden wat je in overleg met je vakdocent kunt afronden.
 > ‼️ Er moeten minimaal 3 keuzedelen succesvol zijn afgerond (examen-eis).

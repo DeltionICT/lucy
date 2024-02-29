@@ -38,6 +38,3 @@ Maak een login-systeem zonder waarbij het account en wachtwoord in de code staan
 > * Nadat het formulier met gegevens is verstuurd, wordt er gecontroleerd of de gegevens valide zijn.
 > * Er kunnen 5 verschillende gebruikers toegang krijgen tot de welkomstpagina met de tekst "Hey, welkom in onze app".
 > * Bij verkeerd inloggen krijg je de waarschuwing "Je hebt geen toegang met deze naam- en wachtwoord-combinatie".
-
-> ## Evaluatie
-> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
