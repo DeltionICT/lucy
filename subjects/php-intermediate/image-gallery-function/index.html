@@ -714,9 +714,6 @@ div.html table {
 <list-link url="/subjects/php-intermediate/url-trigger-functie/" page="/subjects/php-intermediate/image-gallery-function/" class="wv0jwq1on"><a href="/lucy/subjects/php-intermediate/url-trigger-functie/"><li class="notselected">URL-trigger functie</li></a>
 
 </list-link>
-<list-link url="/subjects/php-intermediate/basic-api/" page="/subjects/php-intermediate/image-gallery-function/" class="wv0jwq1on"><a href="/lucy/subjects/php-intermediate/basic-api/"><li class="notselected">Basic API</li></a>
-
-</list-link>
 <list-link url="/subjects/php-intermediate/todo-list/" page="/subjects/php-intermediate/image-gallery-function/" class="wv0jwq1on"><a href="/lucy/subjects/php-intermediate/todo-list/"><li class="notselected">Todo-list</li></a>
 
 </list-link>
@@ -724,6 +721,9 @@ div.html table {
 
 </list-link>
 <list-link url="/subjects/php-intermediate/petshop/" page="/subjects/php-intermediate/image-gallery-function/" class="wv0jwq1on"><a href="/lucy/subjects/php-intermediate/petshop/"><li class="notselected">Petshop</li></a>
+
+</list-link>
+<list-link url="/subjects/php-intermediate/basic-api/" page="/subjects/php-intermediate/image-gallery-function/" class="wv0jwq1on"><a href="/lucy/subjects/php-intermediate/basic-api/"><li class="notselected">Basic API</li></a>
 
 </list-link>
     </ul>
@@ -772,13 +772,17 @@ Gebruik een image-editor (paint.net of photoshop) om van de afbeeldingen een uit
 <pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br>   <span class="token operator">/</span><span class="token operator">*</span><br>   <span class="token operator">*</span> @param <span class="token keyword type-declaration">array</span> <span class="token variable">$map</span><br>   <span class="token operator">*</span> @<span class="token keyword">return</span> <span class="token keyword type-declaration">string</span><br>   <span class="token operator">*</span> <br>   <span class="token operator">*</span> <span class="token operator">/</span><br>   <span class="token keyword">function</span> <span class="token function-definition function">showPictures</span><span class="token punctuation">(</span><span class="token variable">$path</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br><br>      <span class="token comment">// code om alle afbeeldingen in $path toe te voegen aan een array</span><br>      <span class="token comment">// foreach-loop met code om afbeeldingen in '$path' weer te geven</span><br>      <br>      <span class="token keyword">return</span> <span class="token variable">$html</span><span class="token punctuation">;</span><br>   <span class="token punctuation">}</span><br> <br> <span class="token operator">&lt;</span>html<span class="token operator">></span> <br>   <span class="token operator">&lt;</span>body<span class="token operator">></span><br>       <span class="token operator">&lt;</span><span class="token operator">?</span>php <span class="token keyword">echo</span> <span class="token function">showPictures</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"/map/afbeeldingen/"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token operator">?</span><span class="token operator">></span><br>   <span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">></span> <br><span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">></span></span></code></pre>
 <p>Output resulaat zichtbaar in de browser:</p>
 <pre class="language-html"><code class="language-html"> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span> <br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image-class<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/path/to/image1.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image image1.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image-class<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/path/to/image2.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image image2.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image-class<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/path/to/image3.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image image3.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>      ...<br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span> <br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<blockquote>
 <h2>Resultaat</h2>
 <ul>
 <li>Een PHP-pagina met daarin html-code en één PHP-functie.</li>
 <li>Functionaliteit volgens de beschrijving in de opdracht.</li>
 </ul>
+</blockquote>
+<blockquote>
 <h2>Evaluatie</h2>
 <p>Vraag om een code-review om feedback en tips voor best-practices op jouw aanpak te krijgen.</p>
+</blockquote>
 
 </div>
 
