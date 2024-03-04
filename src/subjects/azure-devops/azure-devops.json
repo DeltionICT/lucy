@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"devops",
+	"coursetitle":"Azure DevOps",
+	"permalink":"/subjects/azure-devops/{{ title | slugify }}/{{ page.index }}"
+}

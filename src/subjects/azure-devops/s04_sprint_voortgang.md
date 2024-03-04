@@ -1,8 +1,8 @@
 ---
-title: DevOps Sprints-voortgang
+title: Azure DevOps Sprints-voortgang
 key: 2550
 difficulty: basic
-date: 2023-03-24
+date: 2024-02-28
 author: rkerssies
 technology: scrum
 ---
@@ -12,7 +12,7 @@ technology: scrum
 > * Basics van projectmanagement en tennis van de SCRUM-methodiek
 
 > #### Dit ga je leren
-> * Gebruik van DevOps
+> * Gebruik van Azure DevOps
 > * Userstory-taken afronden
 > * Burndown bijhouden
 > * Daily stand-up

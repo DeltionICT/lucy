@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"auteursrecht",
+	"coursetitle":"auteursrecht",
+	"permalink":"/subjects/auteursrecht/{{ title | slugify }}/{{ page.index }}"
+}

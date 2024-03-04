@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"avg",
+	"coursetitle":"avg",
+	"permalink":"/subjects/avg/{{ title | slugify }}/{{ page.index }}"
+}

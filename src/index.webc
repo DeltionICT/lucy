@@ -1,12 +1,16 @@
 ---
 layout: layout.webc
 ---
-<!-- green, orange, blue, yellow, purple -->
+<!-- darkgreen, green, orange, blue, yellow, purple -->
 
 <module-container>
     <module>
         <p slot="title">Basis programmeren</p>
         <p slot="techs">
+            <tech color="darkgreen" title="AVG"></tech>
+            <tech color="darkgreen" title="Auteursrecht"></tech>
+            <tech color="darkgreen" title="Software licenties"></tech>
+            <tech color="darkgreen" title="Computers"></tech>
             <tech color="purple" title="Ontwikkelomgeving"></tech>
             <tech color="purple" title="Git en Github"></tech>
             <tech color="grey" title="Codebase S"></tech>
@@ -52,7 +56,7 @@ layout: layout.webc
         <p slot="techs">
             <tech color="yellow" title="UML ERD"></tech>
             <tech color="purple" title="Scrum"></tech>
-            <tech color="purple" title="DevOps"></tech>
+            <tech color="purple" title="Azure DevOps"></tech>
             <tech color="purple" title="Projecten"></tech>
         </p>
     </module>
