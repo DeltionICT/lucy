@@ -24,6 +24,7 @@ layout: layout.webc
     <module>
         <p slot="title">Basis programmeren</p>
         <p slot="techs">
+            <tech color="red" title="Pseudocode"></tech>
             <tech color="blue" title="PHP Basis"></tech>
             <tech color="grey" title="Codebase S"></tech>
             <tech color="grey" title="Codebase M"></tech>
@@ -93,7 +94,6 @@ layout: layout.webc
             <tech color="red" title="Hosting"></tech>
             <tech color="red" title="Security"></tech>
             <tech color="red" title="SEO"></tech>
-            <tech color="red" title="Pseudocode"></tech>
         </p>
     </module>
     <module>
