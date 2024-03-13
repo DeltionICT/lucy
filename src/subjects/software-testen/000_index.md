@@ -1,7 +1,7 @@
 ---
 title: Introductie
 difficulty: basic
-date: 2024-02-28
+date: 2024-03-13
 author: pgemert
 technology: all
 ---
@@ -41,7 +41,25 @@ Softwaretesten is een van de meest kritieke componenten van deSoftware Developme
 Wist u bijvoorbeeld dat er tegenwoordig meer dan 150 verschillende soorten softwaretests worden uitgevoerd? En er komen er regelmatig meer bij!
 [7 veelvoorkomende soorten softwaretests](https://www.zucisystems.com/nl/blog/7-veelvoorkomende-soorten-softwaretests/)
 
+0.  Trail-n-Error testen
+    Deze testen doet elke ontwikkelaar meerdere keren per dag.
+    Zodra je een stukje code hebt geprogrammeerd wil je weten of het ook werkt.
+    Dit test je door je code uit te voeren.
+    Krijg je een foutmelding? Dan ga je terug naar de code en los je het probleem op.
+    Krijg je geen foutmelding? Dan ga je verder met de volgende opdracht.
 1.  Unittesten  
+    Bij een unittest controleer je de kleinste eenheid van je software. 
+    Denk aan een functie of methode of deelprogramma van een groter geheel.
 2.  Integratietesten
+    Een integratietest controleert of alle onderdelen van een softwareproduct goed samenwerken.
 3.  Regressietesten
+    Een regressietest gebruik je om te kijken of de wijzigingen in bestaand code ook goed werkt. 
+    Je kunt hierbij denken aan bijv. een patch om een error uit je code te halen.
 4.  Acceptatietesten
+    Als laatste test kennen we de acceptatietest. 
+    Deze test wordt door de klant of opdrachtgever uitgevoerd om te controlleren of het eindproduct ook voldoet aan diens wensen.
+    De acceptatietest is (in tegenstelling tot de vorige testen) geen technische test maar vooral een test op functionaliteiten.
+    Er wordt hier gecontroleerd of alle user stories (klantwensen) zijn geprogrammeerd.
+
+Bij Unit-, integratie- en regressietesten ga je gestructureerd te werk. 
+Voor deze testen schrijf je een zogenaamd testplan.
