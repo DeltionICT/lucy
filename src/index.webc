@@ -13,7 +13,7 @@ layout: layout.webc
         </p>
     </module>
     <module>
-        <p slot="title">Verslagen en presentaties</p>
+        <p slot="title">Basiskennis</p>
         <p slot="techs">
             <tech color="pink" title="Ken jezelf"></tech>
             <tech color="darkgreen" title="AVG"></tech>
