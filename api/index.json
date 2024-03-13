@@ -2038,6 +2038,12 @@
         "title":"Stappen naar het examen",
         "author":"kstarreveld",
         "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/js-advanced/js110-json-en-vue3-via-cdn/",
+        "title":"js110 | JSON en VUE3 via CDN",
+        "author":"cstegeman",
+        "date":"Wed Mar 13 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]

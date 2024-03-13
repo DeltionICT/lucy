@@ -15,7 +15,9 @@
     
     
     
-    <style>.w_cqnoovj{list-style-type:none}.w_cqnoovj li a{text-decoration:none;color:var(--c-brand)}
+    <style>.wv0jwq1on{list-style-type:none}.wv0jwq1on a{text-decoration:none}.wv0jwq1on li{width:90%;padding:2px 0px 2px 8px;border-radius:8px;margin:0 0 0.5rem 0}.wv0jwq1on li.selected{background-color:var(--c-brand);color:#fff}.wv0jwq1on li.notselected{background-color:var(--c-header-bg)}@media only screen and (max-width:600px){.wv0jwq1on li{width:100%}}
+.webcftrhj{display:flex;justify-content:flex-start}.webcftrhj div.sidebar{flex:0 0 300px}.webcftrhj div.sidebar ul{margin:0 0 1rem 0}.webcftrhj div.content{flex:1 0 0;max-width:calc(80vw - 300px)}@media only screen and (max-width:600px){.webcftrhj{flex-direction:column}.webcftrhj div.content{flex:1 0 0;max-width:80vw}}
+.w3ogpr5jr{margin:0 0 2rem 0}.w3ogpr5jr div.category{border-bottom:1px solid var(--c-brand);font-weight:bold}.w3ogpr5jr div.category a{text-decoration:none}.w3ogpr5jr div.category p{margin:0 0 0 0}.w3ogpr5jr div.authors{text-align:right;font-style:italic;font-size:0.9rem}.w3ogpr5jr div.authors p{margin:0 0 0 0}
 .wh61vald5{margin-right:30px}.wh61vald5:last-child{margin-right:0px}.wh61vald5 .notselected{color:var(--c-brand);padding:8px 0px 8px 8px;border-radius:4px;text-decoration:none}.wh61vald5 .selected{background-color:var(--c-brand);color:var(--c-bg);padding:8px;border-radius:4px;text-decoration:none}
 .w4go7t2fx{display:flex;flex-direction:row;justify-content:space-between;width:80%;margin:8px auto 0 auto}.w4go7t2fx div.links{display:block;text-align:right}@media only screen and (max-width:400px){.w4go7t2fx{flex-direction:column}.w4go7t2fx div.links{text-align:center}}
 .wq89ttfva{padding-top:1rem;padding-bottom:1rem;background-color:var(--c-header-bg);box-shadow:var(--c-box-shadow)}
@@ -666,10 +668,10 @@ div.html table {
 </a>
 <div class="links">
     <div>
-                <nav-item url="/" title="Modules" selected="notselected" class="wh61vald5"><a href="/lucy/" class="notselected">Modules</a>
+                <nav-item url="/" title="Modules" selected="selected" class="wh61vald5"><a href="/lucy/" class="selected">Modules</a>
 
 </nav-item>
-<nav-item url="/authors/" title="Auteurs" selected="selected" class="wh61vald5"><a href="/lucy/authors/" class="selected">Auteurs</a>
+<nav-item url="/authors/" title="Auteurs" selected="notselected" class="wh61vald5"><a href="/lucy/authors/" class="notselected">Auteurs</a>
 
 </nav-item>
             </div>
@@ -680,80 +682,78 @@ div.html table {
 
 </header>
     <main class="w9s7xnshy">
-        <h1>Chris Stegeman</h1>
+        <main-title ref="/subjects/js-advanced/introductie/" class="w3ogpr5jr"><div class="category">
+        <a href="/lucy/subjects/js-advanced/introductie/"><p slot="category">JS Advanced</p></a>
+    </div>
+    <div class="authors">
+        <span slot="authors">Chris Stegeman</span> |
+        <span slot="date">Mar 13, 2024</span>
+    </div>
+    <div class="title">
+        <h1><div slot="title">js110 | JSON en VUE3 via CDN</div></h1>
+    </div>
 
-<author-content>
-    <author-doc url="/subjects/projecten/project-beer-casus/" title="Project Beer-casus" course="Projecten" class="w_cqnoovj"><li><a href="/lucy/subjects/projecten/project-beer-casus/">Projecten - Project Beer-casus</a></li>
+</main-title>
+<main-content class="webcftrhj"><div class="sidebar">
+    <ul>
+        <list-link url="/subjects/js-advanced/introductie/" page="/subjects/js-advanced/js110-json-en-vue3-via-cdn/" class="wv0jwq1on"><a href="/lucy/subjects/js-advanced/introductie/"><li class="notselected">Introductie</li></a>
 
-</author-doc>
-<author-doc url="/subjects/js-intermediate/js69-vue3-cdn-base/" title="js69 | vue3 cdn base" course="JS Intermediate" class="w_cqnoovj"><li><a href="/lucy/subjects/js-intermediate/js69-vue3-cdn-base/">JS Intermediate - js69 | vue3 cdn base</a></li>
+</list-link>
+<list-link url="/subjects/js-advanced/js110-json-en-vue3-via-cdn/" page="/subjects/js-advanced/js110-json-en-vue3-via-cdn/" class="wv0jwq1on"><a href="/lucy/subjects/js-advanced/js110-json-en-vue3-via-cdn/"><li class="selected">js110 | JSON en VUE3 via CDN</li></a>
 
-</author-doc>
-<author-doc url="/subjects/js-basis/js10-input-value/" title="js10 | Input value" course="JS Basis" class="w_cqnoovj"><li><a href="/lucy/subjects/js-basis/js10-input-value/">JS Basis - js10 | Input value</a></li>
+</list-link>
+    </ul>
+</div>
+<div class="content">
+    <blockquote>
+<h4>Voorkennis:</h4>
+<ul>
+<li>Javascript, HTML, CSS</li>
+<li>Basis: ophalen van JSON uit een API via AJAX-request</li>
+</ul>
+</blockquote>
+<blockquote>
+<h4>Doelen:</h4>
+<ul>
+<li>JSON ophalen, schrijven en wijzigen</li>
+<li>Opzetten van een VUE3 pagina via CDN</li>
+<li>Toepassen VUE3: van weergeven een platte JSON tot geneste structuren in HTML-tabel</li>
+</ul>
+</blockquote>
+<h3>Javascript</h3>
+<p>Ophalen van JSON met AJAX kan op meerdere manieren: met de FETCH-API van Javascript zelf, met Axios, plain Javascript en andere.</p>
+<ul>
+<li>In deze module leer je a.d.h.v. van meerder voorbeeldscripts omgaan met die verschillende technieken</li>
+<li>VUE is een frontend framework waar je verassend snel en met weinig code een API uit kan lezen en de data in HTML plaatsen.</li>
+<li>We gebruiken Vue via CDN, dus we halen de VUE-library als Javascript-file binnen in onze pagina. Daarna gaan we over op VUE-cli, daarover later meer..</li>
+</ul>
+<h3>Opdracht</h3>
+<ul>
+<li>Bekijk <a href="https://std.stegion.nl/cs_codebase/all_csp2/">deze website</a>
+<ul>
+<li>Begin bovenaan met item 1</li>
+<li>Kijk onder &quot;inhoud&quot; waar dit voorbeeld over gaat</li>
+<li>klik op de &quot;link&quot; en bekijk de pagina</li>
+<li><i>kopieer de complete broncode van die site en plak hem in een nieuwe map op jouw computer</i>
+<ul>
+<li>de broncode bevat ook uitleg</li>
+<li>kijk of je het bestaande script snapt en kan uitbreiden en aanpassen</li>
+</ul>
+</li>
+<li>Maak de opdrachten die onder &quot;opdrachten staan&quot;</li>
+</ul>
+</li>
+</ul>
+<!-- 
+## Uitleg
+[Voorbeeld uit les cstegeman](https://std.stegion.nl/cs_codebase/js02_basis/vb_online.html)<br>
+[Javascript tutorial op w3schools](https://www.w3schools.com/js/)<br>
+[Javascript op edutorial.nl](https://www.edutorial.nl/javascript/introductie/) -->
+<hr>
 
-</author-doc>
-<author-doc url="/subjects/js-basis/js14-array/" title="js14 | Array" course="JS Basis" class="w_cqnoovj"><li><a href="/lucy/subjects/js-basis/js14-array/">JS Basis - js14 | Array</a></li>
+</div>
 
-</author-doc>
-<author-doc url="/subjects/js-basis/js17-stopwatch/" title="js17 | stopwatch" course="JS Basis" class="w_cqnoovj"><li><a href="/lucy/subjects/js-basis/js17-stopwatch/">JS Basis - js17 | stopwatch</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-basis/css17-stopwatch/" title="css17 | stopwatch" course="JS Basis" class="w_cqnoovj"><li><a href="/lucy/subjects/js-basis/css17-stopwatch/">JS Basis - css17 | stopwatch</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-basis/js20-json/" title="js20 | JSON" course="JS Basis" class="w_cqnoovj"><li><a href="/lucy/subjects/js-basis/js20-json/">JS Basis - js20 | JSON</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-basis/js22-tafels/" title="js22 | Tafels" course="JS Basis" class="w_cqnoovj"><li><a href="/lucy/subjects/js-basis/js22-tafels/">JS Basis - js22 | Tafels</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-basis/js27-form-validate-a/" title="js27 | form validate A" course="JS Basis" class="w_cqnoovj"><li><a href="/lucy/subjects/js-basis/js27-form-validate-a/">JS Basis - js27 | form validate A</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-frameworks/vue3-cdn-basic-s/" title="Vue3-cdn basic's" course="JS Frameworks" class="w_cqnoovj"><li><a href="/lucy/subjects/js-frameworks/vue3-cdn-basic-s/">JS Frameworks - Vue3-cdn basic's</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-frameworks/vue3-cdn-basic-api-gebruik/" title="Vue3-cdn basic API-gebruik" course="JS Frameworks" class="w_cqnoovj"><li><a href="/lucy/subjects/js-frameworks/vue3-cdn-basic-api-gebruik/">JS Frameworks - Vue3-cdn basic API-gebruik</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-intermediate/js30-ajax/" title="js30 | AJAX" course="JS Intermediate" class="w_cqnoovj"><li><a href="/lucy/subjects/js-intermediate/js30-ajax/">JS Intermediate - js30 | AJAX</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-intermediate/js31-api-base/" title="js31 | API base" course="JS Intermediate" class="w_cqnoovj"><li><a href="/lucy/subjects/js-intermediate/js31-api-base/">JS Intermediate - js31 | API base</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-intermediate/js32-json-ajax/" title="js32 | JSON AJAX" course="JS Intermediate" class="w_cqnoovj"><li><a href="/lucy/subjects/js-intermediate/js32-json-ajax/">JS Intermediate - js32 | JSON AJAX</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-intermediate/js32b-api-json-html/" title="js32b | API JSON HTML" course="JS Intermediate" class="w_cqnoovj"><li><a href="/lucy/subjects/js-intermediate/js32b-api-json-html/">JS Intermediate - js32b | API JSON HTML</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-intermediate/js40-colorgame/" title="js40 | colorgame" course="JS Intermediate" class="w_cqnoovj"><li><a href="/lucy/subjects/js-intermediate/js40-colorgame/">JS Intermediate - js40 | colorgame</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-intermediate/js41-movegame/" title="js41 | Movegame" course="JS Intermediate" class="w_cqnoovj"><li><a href="/lucy/subjects/js-intermediate/js41-movegame/">JS Intermediate - js41 | Movegame</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-intermediate/js33-weather-api/" title="js33 | Weather API" course="JS Intermediate" class="w_cqnoovj"><li><a href="/lucy/subjects/js-intermediate/js33-weather-api/">JS Intermediate - js33 | Weather API</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-intermediate/js34-country-api/" title="js34 | Country API" course="JS Intermediate" class="w_cqnoovj"><li><a href="/lucy/subjects/js-intermediate/js34-country-api/">JS Intermediate - js34 | Country API</a></li>
-
-</author-doc>
-<author-doc url="/subjects/html-css/css-basis-layout-met-flexbox/" title="CSS basis Layout met Flexbox" course="HTML-CSS" class="w_cqnoovj"><li><a href="/lucy/subjects/html-css/css-basis-layout-met-flexbox/">HTML-CSS - CSS basis Layout met Flexbox</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-basis/js02-basis-javascript/" title="js02 | Basis javascript" course="JS Basis" class="w_cqnoovj"><li><a href="/lucy/subjects/js-basis/js02-basis-javascript/">JS Basis - js02 | Basis javascript</a></li>
-
-</author-doc>
-<author-doc url="/subjects/js-advanced/js110-json-en-vue3-via-cdn/" title="js110 | JSON en VUE3 via CDN" course="JS Advanced" class="w_cqnoovj"><li><a href="/lucy/subjects/js-advanced/js110-json-en-vue3-via-cdn/">JS Advanced - js110 | JSON en VUE3 via CDN</a></li>
-
-</author-doc>
-</author-content>
-
-
-
-
+</main-content>
     
 
 </main>
