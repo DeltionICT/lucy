@@ -966,27 +966,15 @@
         "date":"Tue Mar 21 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/devops/devops-project-opzetten/",
-        "title":"DevOps Project opzetten",
+        "url":"/lucy/subjects/azure-devops/azure-devops-product-backlog/",
+        "title":"Azure DevOps Product-BackLog",
         "author":"rkerssies",
         "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/devops/devops-product-backlog/",
-        "title":"DevOps Product-BackLog",
-        "author":"rkerssies",
-        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/devops/devops-sprints/",
-        "title":"DevOps Sprints",
-        "author":"rkerssies",
-        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/devops/devops-sprints-voortgang/",
-        "title":"DevOps Sprints-voortgang",
-        "author":"rkerssies",
+        "url":"/lucy/subjects/azure-devops/azure-devops-sprints/",
+        "title":"Azure DevOps Sprints",
+        "author":"rkerssies, pgemert",
         "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
@@ -1170,9 +1158,9 @@
         "date":"Mon Apr 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/devops/introductie/",
+        "url":"/lucy/subjects/azure-devops/introductie/",
         "title":"Introductie",
-        "author":"rkerssies",
+        "author":"rkerssies,pgemert",
         "date":"Thu Apr 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
@@ -1722,9 +1710,315 @@
         "date":"Mon Jan 22 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/auteursrecht/literatuuronderzoek/",
+        "title":"Literatuuronderzoek",
+        "author":"pgemert",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/avg/introductie/",
+        "title":"Introductie",
+        "author":"pgemert",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/avg/backlog/",
+        "title":"Backlog",
+        "author":"pgemert",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/avg/opdracht/",
+        "title":"Opdracht",
+        "author":"pgemert",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/avg/literatuuronderzoek/",
+        "title":"Literatuuronderzoek",
+        "author":"pgemert",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/avg/rubric/",
+        "title":"Rubric",
+        "author":"pgemert",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ken-jezelf/introductie/",
+        "title":"Introductie",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ken-jezelf/persoonlijkheidstest/",
+        "title":"Persoonlijkheidstest",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ken-jezelf/leerstijlentest/",
+        "title":"Leerstijlentest",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ken-jezelf/teamrollentest/",
+        "title":"Teamrollentest",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ken-jezelf/verslag/",
+        "title":"Verslag",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ken-jezelf/reflectie/",
+        "title":"Reflectie",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ken-jezelf/rubric/",
+        "title":"Rubric",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Fri Feb 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ken-jezelf/backlog/",
+        "title":"Backlog",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Mon Feb 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/auteursrecht/introductie/",
+        "title":"Introductie",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/auteursrecht/backlog/",
+        "title":"Backlog",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/auteursrecht/opdracht/",
+        "title":"Opdracht",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/auteursrecht/retrospective/",
+        "title":"Retrospective",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/auteursrecht/rubric/",
+        "title":"Rubric",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/avg/retrospective/",
+        "title":"Retrospective",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/azure-devops/azure-devops-project-opzetten/",
+        "title":"Azure DevOps Project opzetten",
+        "author":"rkerssies, pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/azure-devops/azure-devops-sprints-voortgang/",
+        "title":"Azure DevOps Sprints-voortgang",
+        "author":"rkerssies",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/computers/introductie/",
+        "title":"Introductie",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/computers/product-backlog/",
+        "title":"Product backlog",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/computers/opdracht/",
+        "title":"Opdracht",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/computers/computers/",
+        "title":"Computers",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/computers/computeronderdelen/",
+        "title":"Computeronderdelen",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/computers/presenteren/",
+        "title":"Presenteren",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/computers/rubric/",
+        "title":"Rubric",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/introductie/",
+        "title":"Introductie",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/backlog/",
+        "title":"Backlog",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/basis-elementen/",
+        "title":"Basis elementen",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/echo/",
+        "title":"Echo",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/variabelen/",
+        "title":"Variabelen",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/user-invoer/",
+        "title":"User invoer",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/while-lus/",
+        "title":"While lus",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/for-lus/",
+        "title":"For lus",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/if-statement/",
+        "title":"If statement",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/functie/",
+        "title":"Functie",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/array/",
+        "title":"Array",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/verdieping/",
+        "title":"Verdieping",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/een-quiz/",
+        "title":"Een Quiz",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/afronding/",
+        "title":"Afronding",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/programmeren-basis/rubric/",
+        "title":"Rubric",
+        "author":"jheuvelman",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/projecten/project-pawhaven/",
         "title":"Project PawHaven",
         "author":"adalmolen",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/software-licenties/introductie/",
+        "title":"Introductie",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/software-licenties/backlog/",
+        "title":"Backlog",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/software-licenties/opdracht/",
+        "title":"Opdracht",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/software-licenties/eula/",
+        "title":"EULA",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/software-licenties/open-source-licenties/",
+        "title":"Open Source licenties",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/software-licenties/creative-commons-licenties/",
+        "title":"Creative Commons licenties",
+        "author":"pgemert",
+        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/software-licenties/rubric/",
+        "title":"Rubric",
+        "author":"pgemert",
         "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
