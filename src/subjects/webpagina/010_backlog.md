@@ -22,5 +22,5 @@ technology: html, css
     webpagina’s kan ontwerpen en schrijven;
 -   als web developer moet ik de basis van CSS kennen zodat ik de opmaak
     van webpagina’s kan ontwerpen of aanpassen;
--   als student moet ik html en css beheersen zodat ik andere studenten
+-   als student moet ik HTML en CSS beheersen zodat ik andere studenten
     kan helpen bij vragen.

@@ -11,12 +11,12 @@ technology: html, css
 
 Je hebt nu een hele kleine introductie gehad in HTML. De komende weken
 breidt je jouw kennis over HTML uit. Gebruik de komende weken om HTML te
-leren op <a href="Codecademy.com" class="uri">Codecademy.com</a>.
+leren op <a href="https://www.codecademy.com" target="_blank">Codecademy.com</a>.
 
 #### Taak : Leer meer over HTML
 
 -   navigeer naar  
-    <https://www.codecademy.com/catalog/language/html-css>
+    <a href="https://www.codecademy.com/catalog/language/html-css" target="_blank">https://www.codecademy.com/catalog/language/html-css</a>
 
 -   start de gratis ’Learn HTML’ cursus;
 
@@ -29,14 +29,14 @@ In onderstaande lijst staan een aantal links naar meer informatie over
 HTML.
 
 -   "HTML Tutorials. And Stuff."  
-    <https://www.htmldog.com/>
+    <a href="https://www.htmldog.com/" target="_blank">https://www.htmldog.com/</a>
 
 -   " The world’s largest web developer site"  
-    <https://www.w3schools.com/html>
+    <a href="https://www.w3schools.com/html" target="_blank">https://www.w3schools.com/html</a>
 
 -   "HTML Tutorial"  
-    <https://qhmit.com/html/tutorial>
+    <a href="https://qhmit.com/html/tutorial" target="_blank">https://qhmit.com/html/tutorial</a>
 
--   <https://www.codecademy.com/>
+-   <a href="https://www.codecademy.com/" target="_blank">https://www.codecademy.com/</a>
 
--   <https://www.w3.org/Style/Examples/011/firstcss.nl.html>
+-   <a href="https://www.w3.org/Style/Examples/011/firstcss.nl.html" target="_blank">https://www.w3.org/Style/Examples/011/firstcss.nl.html</a>

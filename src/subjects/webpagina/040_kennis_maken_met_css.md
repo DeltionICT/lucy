@@ -31,8 +31,7 @@ h1 {color: orange}
     body {background-color: red}
 ```
 
-De CSS in listing <a href="#css01" data-reference-type="ref"
-data-reference="css01">[css01]</a> maakt de achtergrond van een
+De CSS in bovenstaande listing maakt de achtergrond van een
 webpagina rood en de tekst in een H1 header oranje.
 
 In de volgende taken voeg je CSS toe aan jouw webpagina.

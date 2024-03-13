@@ -48,17 +48,15 @@ In de volgende taak schrijf jij jouw eerste html pagina.
     1.  maak de folder op jouw computer;
     2.  plaats een git repository in deze folder;
     3.  gebruik een code editor (zoals <code>VScode</code> of <code>Notepad++</code>) om de
-        code van listing <a href="#index01" data-reference-type="ref"
-        data-reference="index01">[index01]</a> in het bestand te
-        plaatsen;
+        code van bovenstaande listing in het bestand te plaatsen;
     4.  commit in <code>Git</code>;
 -   bekijk de webpagina;
     1.  start een webbrowser zoals <code>Edge</code>, <code>Safari</code>, <code>Opera</code>,
         <code>Chromium</code>, <code>Chrome</code> of <code>Firefox</code>.
     2.  navigeer naar  
-        <http://localhost/helloworld>
+        <a href="http://localhost/helloworld" target="_blank">http://localhost/helloworld</a>
     3.  Navigeer naar  
-        <http://localhost/helloworld/index.html>
+        <a href="http://localhost/helloworld/index.html" target="_blank">http://localhost/helloworld/index.html</a>
 
 Je hebt nu een jouw eerste webpagina geschreven. Maar weet je ook wat je
 in deze pagina geschreven hebt? In de volgende taak doe je onderzoek
@@ -89,7 +87,7 @@ naar de verschillende onderdelen van de webpagina.
 
 -   een paginatitel toevoegen;
 
-    1.  voeg <code><title> HelloWorld! </title></code> in de head van toe
+    1.  voeg <code> \<title>HelloWorld!\</title></code> in de head van index.html toe
 
     2.  refresh de pagina in de browser.
 
@@ -104,13 +102,13 @@ naar de verschillende onderdelen van de webpagina.
 
 -   een paragraaf toevoegen;
 
-    1.  voeg na de bestaande paragraaf (<code><p>...</p></code>) drie nieuwe
+    1.  voeg na de bestaande paragraaf (\<code>\<p>...\</p>\</code>) drie nieuwe
         paragrafen toe. Vul de paragrafen met Lorem Ipsum; "Lorem Ipsum
         is slechts een proeftekst uit het drukkerij- en zetterijwezen.
         Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds
         de 16e eeuw, ..." 
 
-        -   Je kunt Lorem Ipsum laten maken op <https://nl.lipsum.com/>
+        -   Je kunt Lorem Ipsum laten maken op <a href="https://nl.lipsum.com" target="_blank">https://nl.lipsum.com</a>
 
     2.  refresh de pagina in jouw browser.
 
