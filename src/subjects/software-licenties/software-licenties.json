@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"Licenties",
+	"coursetitle":"Software Licenties",
+	"permalink":"/subjects/software-licenties/{{ title | slugify }}/{{ page.index }}"
+}
