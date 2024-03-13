@@ -10,6 +10,7 @@ layout: layout.webc
             <tech color="darkgreen" title="AVG"></tech>
             <tech color="darkgreen" title="Auteursrecht"></tech>
             <tech color="darkgreen" title="Software licenties"></tech>
+            <tech color="darkgreen" title="Software testen"></tech>
             <tech color="darkgreen" title="Computers"></tech>
             <tech color="purple" title="Ontwikkelomgeving"></tech>
             <tech color="purple" title="Git en Github"></tech>

@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"sfotware testen",
+	"coursetitle":"Software Testen",
+	"permalink":"/subjects/software-testen/{{ title | slugify }}/{{ page.index }}"
+}
