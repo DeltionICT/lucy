@@ -85,10 +85,11 @@ bekijk eventueeel de [Postman-les]({{ 'https://deltionict.github.io/lucy/subject
 6. Kijk of alles nog steeds werkt zoals bedoeld
 
 
-## Resultaat
-* Een werkend API-serverdie data op verschillende manieren toon in json op basis van de url.
+> ## Op te leveren
+> * Een werkend API-server die data op verschillende manieren toon in json op basis van de url.
+> * Het testen van de API-request wordt met PostMan uitgevoerd
 
 
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+

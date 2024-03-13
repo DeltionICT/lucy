@@ -87,9 +87,12 @@ Bedankt voor uw bestelling!
 * U betaalt &euro; 14,00 aan onze kassa.
 
 
-> ### Op te leveren
+> ## Op te leveren
 > * Een website voor Pizzeria "circulare delicioso" waar je pizza's kunt bestellen.
 > * Maak het formulier zoals in het voorbeeld
 > * Nadat het formulier is ingevuld en verstuurd:
 >   * De juiste prijs voor de pizza wordt getoond
 >   * De prijs voor eventuele extra's wordt getoond.
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

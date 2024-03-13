@@ -9,6 +9,7 @@ author: jsiewers
 > * [Database-koppelingen](https://phpdelusions.net/pdo) op basis van mysqli of pdo
 > * Functions
 > * [PHP Sessions](https://www.edutorial.nl/php/sessions/)
+> * Database gebruik
 > * [Eenvoudige database queries](https://www.edutorial.nl/dbq/eenvoudige-queries/) ([insert](https://www.edutorial.nl/dbq/database-maken/#records-toevoegen), [update](https://www.edutorial.nl/dbq/database-maken/#records-updaten), [delete](https://www.edutorial.nl/dbq/database-maken/#records-verwijderen) en [select](https://www.edutorial.nl/dbq/gegevens-filteren/))
 
 > #### Dit ga je leren
@@ -36,11 +37,11 @@ author: jsiewers
 * [Bekijk het wireframe](https://docs.google.com/document/d/1BHwjlnTkOliX98WmOJm3oVjL2K1GJUmU6N1TRsvYa5g/edit?usp=sharing)
 * Hierin vind je de schermen die nodig zijn voor de applicatie.
 
-## Resultaat
-* Bouw de applicatie
-* Bewaar de applicatie op Github
-    * Maak een github-account als je dat nog niet hebt
-    * Volg [deze video](https://www.youtube.com/watch?v=i_23KUAEtUM) (of [deze](https://www.youtube.com/watch?v=HkdAHXoRtos)) om je app op github te zetten
+> ## Op te leveren
+> * Bouw de applicatie
+> * Bewaar de applicatie op Github
+>    * Maak een github-account als je dat nog niet hebt
+>    * Volg [deze video](https://www.youtube.com/watch?v=i_23KUAEtUM) (of [deze](https://www.youtube.com/watch?v=HkdAHXoRtos)) om je app op github te zetten
 
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

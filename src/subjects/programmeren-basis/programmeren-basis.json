@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"programmeren-basis",
+	"coursetitle":"programmeren-basis",
+	"permalink":"/subjects/programmeren-basis/{{ title | slugify }}/{{ page.index }}"
+}

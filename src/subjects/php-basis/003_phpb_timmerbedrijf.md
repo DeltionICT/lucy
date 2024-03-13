@@ -80,3 +80,6 @@ technology: html, php
 
 > ### Op te leveren
 > * een applicatie die de kosten berekend op basis van de maat tafelblad en het soort hout  
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

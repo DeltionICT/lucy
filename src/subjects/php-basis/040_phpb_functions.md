@@ -47,7 +47,10 @@ checkDeelbaar(17) //Output "Niet deelbaar door 3 of 5"
 TIP: [Uitleg over functions vind je hier](https://www.edutorial.nl/php/functions/)
 
 
-> ### Op te leveren
+> ## Op te leveren
 > * Zelf gemaakte functie waarin eigen code wordt uitgevoerd. 
 > * Met de opdrachten op deze pagina laat je zien hoe je functies definieert en hoe je ze aanroept en het resultaat toont.
 > * Functies maken __altijd__ gebruik van en 'return' en bevatten binnen de functies __geen__ echo's
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

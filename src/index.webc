@@ -15,6 +15,7 @@ layout: layout.webc
     <module>
         <p slot="title">Verslagen en presentaties</p>
         <p slot="techs">
+            <tech color="pink" title="Ken jezelf"></tech>
             <tech color="darkgreen" title="AVG"></tech>
             <tech color="darkgreen" title="Auteursrecht"></tech>
             <tech color="darkgreen" title="Software licenties"></tech>
@@ -25,7 +26,7 @@ layout: layout.webc
         <p slot="title">Basis programmeren</p>
         <p slot="techs">
             <tech color="red" title="Pseudocode"></tech>
-            <tech color="blue" title="PHP Basis"></tech>
+            <tech color="grey" title="Programmeren basis"></tech>
             <tech color="grey" title="Codebase S"></tech>
             <tech color="grey" title="Codebase M"></tech>
             <tech color="grey" title="Codebase XL"></tech>

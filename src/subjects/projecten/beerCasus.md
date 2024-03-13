@@ -44,6 +44,8 @@ Het maakt niet uit hoe vaak een gebruiker klikt.<br>
 #### ERD en activity diagram fase 1
 > <img src="https://static.edutorial.nl/projecten/bier/fase_1.svg" style="width:40%;">
 
+* [Hoe maak je een API met php en javascript](https://www.edutorial.nl/projecten/poor-man's-api/)
+
 
 ## Fase 2:
 TTBC wil niet meer dat gebruikers meerdere malen hetzelfde biertje kunnen 'liken'. Zodra je op de site komt wordt er een cookie gezet met een uniek id. Op basis van het id wordt bijgehouden welke gebruiker aan het klikken is. TBBCompany wil alleen unieke likes hebben.

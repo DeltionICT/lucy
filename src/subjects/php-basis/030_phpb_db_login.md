@@ -39,7 +39,7 @@ Daarnaast is er gebruik gemaakt van sessies en wachtwoorden zijn gehashed.
 * Meerdere gebruikers kunnen toegang krijgen tot de welkomstpagina met de tekst "Hey, welkom in onze app".
 * Bij verkeerd inloggen krijg je de waarschuwing "Je hebt geen toegang met deze naam- en wachtwoord-combinatie".
 
-> ### Op te leveren
+> ## Op te leveren
 > * Een website met minimaal 3 content-pagina's.
 >    * Een inlog-formulier
 >    * Een melding voor een juist ingelogde gebruiker
@@ -48,3 +48,6 @@ Daarnaast is er gebruik gemaakt van sessies en wachtwoorden zijn gehashed.
 > * Wachtwoorden zijn correct beveiligd in de database
 > * Een ingelogde gebruiker moet ook weer kunnen uitloggen!
 
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

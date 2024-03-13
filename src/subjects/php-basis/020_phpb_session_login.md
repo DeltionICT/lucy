@@ -31,10 +31,13 @@ Zorg dat bij het laden van content-pages gecontroleerd wordt of er een geldige s
 {{ '/_assets/backend/session_login.svg' | image: 'session login', 100 }}
 
 
-> ### Op te leveren
+> ## Op te leveren
 > * Een website die bestaat uit een index-page en 3 beveiligde content pagina's
 > * Eén van de pagina's bevat het inlogformulier
 > * Na correct inloggen kan de gebruiker de content op alle pagina's bekijken
 > * Een geldig ingelogde gebruiker wordt in een sessie-variabele opgeslagen
 > * Zonder inloggen of na foutief inloggen wordt de gebruiker teruggestuurd naar het inlogformulier, met: header('Location:  ')
 > * Een ingelogde gebruiker moet ook weer kunnen uitloggen!
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

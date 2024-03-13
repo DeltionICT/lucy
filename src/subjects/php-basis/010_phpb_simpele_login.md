@@ -32,7 +32,7 @@ Maak een login-systeem zonder waarbij het account en wachtwoord in de code staan
 {{ '/_assets/backend/schema_loginform.svg' | image: 'schema loginform', 100 }}
 
 
-> ### Op te leveren
+> ## Op te leveren
 > * Een login-systeem met een formulier waar je een naam en een wachtwoord in kunt vullen.
 > * Het wachtwoord staat in de code, maar is 'ge-hashed' met "sha1"
 > * Nadat het formulier met gegevens is verstuurd, wordt er gecontroleerd of de gegevens valide zijn.
