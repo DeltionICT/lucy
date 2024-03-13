@@ -1,9 +1,9 @@
 ---
-title: DevOps Project opzetten
+title: Azure DevOps Project opzetten
 key: 2550
 difficulty: basic
-date: 2023-03-24
-author: rkerssies
+date: 2024-02-28
+author: rkerssies, pgemert
 technology: scrum
 ---
 
@@ -12,26 +12,25 @@ technology: scrum
 > * Basics van projectmanagement en tennis van de SCRUM-methodiek
  
 > #### Dit ga je leren
-> * Gebruik van DevOps
+> * Gebruik van Azure DevOps
 > * SCRUM-project aanmaken
 > * Teamleden toevoegen
 > * Stakeholders toevoegen
 > * Rollen en rechten correct instellen
 
 {{ '/_assets/scrum_devops/scrum.png' | image: 'scrum', 10 }}
-<br><br>
-NB: de screenshots kunnen afwijken door updates van DevOps<br> 
+NB: de screenshots kunnen afwijken door updates van Azure DevOps<br> 
 
 ## Opdracht
 1. Maak een gratis account aan bij MS Azure, met jouw school-account:
-   [Aanmelden DevOps]({{ ' https://azure.microsoft.com/nl-nl/products/devops/'  }})<br>
+   [Aanmelden Azure DevOps]({{ ' https://azure.microsoft.com/nl-nl/products/devops/'  }})<br>
   Volg de procedure. 
-2. Maak een DevOps-project aan. Zorg dat het een "SCRUM" project is!<br>
+2. Maak een Azure DevOps-project aan. Zorg dat het een "SCRUM" project is!<br>
    {{ '/_assets/scrum_devops/devops/01 create project.png' | image: 'Devops', 30 }}
 
-3. Maak en team van mede-developers aan en voeg deze toe aan jouw project
-4. Geef alle mede-developers ALLE rechten binnen het project. Zo kunnen bij afwezigheid/ziekte team-leden
-    wel wijzigingen en updates in het project aanbrengen
+3. Maak een team van mede-developers aan en voeg deze toe aan jouw project
+4. Geef alle mede-developers ALLE rechten binnen het project. 
+  Zo kunnen bij afwezigheid/ziekte team-leden wel wijzigingen en updates in het project aanbrengen
 5. Voeg de begeleidende leraren toe als 'stake-holders'
 6. Pas de Widgets aan en voeg daar onder andere de 'Sprint Burndown' en de 'Welcome' toe.<br>
     Dit zal er later bijvoorbeeld als volgt uitzien;<br> 
@@ -39,7 +38,7 @@ NB: de screenshots kunnen afwijken door updates van DevOps<br>
 
 
 ## Resultaat
-* Een DevOps project met in de SCRUM-methodiek
+* Een Azure DevOps project met de SCRUM-methodiek
 * Alle mede-developers hebben alle administrator rechten
 * Docenten hebben stakeholder-rechten
 * Optioneel zijn de widgets ingesteld
