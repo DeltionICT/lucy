@@ -20,6 +20,7 @@ layout: layout.webc
             <tech color="darkgreen" title="Auteursrecht"></tech>
             <tech color="darkgreen" title="Software licenties"></tech>
             <tech color="darkgreen" title="Computers"></tech>
+            <tech color="darkgreen" title="Testen"></tech>
         </p>
     </module>
     <module>
@@ -33,77 +34,24 @@ layout: layout.webc
         </p>
     </module>
     <module>
-        <p slot="title">Basis webdevelopment</p>
+        <p slot="title">Programmeren</p>
         <p slot="techs">
             <tech color="orange" title="HTML-CSS"></tech>
-            <tech color="blue" title="PHP Basis"></tech>
-            <tech color="blue" title="PHP Intermediate"></tech>
-            <tech color="brown" title="Database queries"></tech>
-            <tech color="green" title="JS Basis"></tech>
-            <tech color="green" title="JS Intermediate"></tech>
-        </p>
-    </module>
-    <module>
-        <p slot="title">profiel: Backend</p>
-        <p slot="techs">
-            <tech color="blue" title="Objectgeoriënteerd"></tech>
-            <tech color="blue" title="OO Projects"></tech>
-            <tech color="blue" title="Laravel"></tech>
-            <tech color="blue" title="PHP MVC"></tech>
-            <tech color="blue" title="C# basis"></tech>
-            <tech color="blue" title="C# MVC"></tech>
-            <tech color="green" title="NodeJS"></tech>
-        </p>
-    </module>
-    <module>
-        <p slot="title">profiel: Frontend</p>
-        <p slot="techs">
-            <tech color="green" title="JS Advanced"></tech>
-            <tech color="green" title="JS Frameworks"></tech>
-            <tech color="green" title="Webcomponents"></tech>
-            <tech color="yellow" title="User experience design"></tech>
-        </p>
-    </module>
-    <module>
-        <p slot="title">Ontwerpen</p>
-        <p slot="techs">
-            <tech color="yellow" title="UML ERD"></tech>
-                <tech color="yellow" title="User experience design"></tech>
+            <tech color="green" title="Javascript programmeren"></tech>
+            <tech color="blue" title="PHP programmeren"></tech>
+            <tech color="blue" title="OOP programmeren"></tech>
         </p>
     </module>
     <module>
         <p slot="title">Samenwerken</p>
         <p slot="techs">
             <tech color="purple" title="Scrum"></tech>
-            <tech color="purple" title="Azure DevOps"></tech>
+        </p>
+    </module>
+    <module>
+        <p slot="title">Projecten</p>
+        <p slot="techs">
             <tech color="purple" title="Projecten"></tech>
-        </p>
-    </module>
-    <module>
-        <p slot="title">Keuzedelen</p>
-        <p slot="techs">
-            <tech color="yellow" title="Verdieping Software"></tech>
-            <tech color="brown" title="Oriëntatie Blockchain"></tech>
-            <tech color="darkgreen" title="App Development"></tech>
-            <tech color="purple" title="Programmeren van Microcontrollers"></tech>
-        </p>
-    </module>
-    <module>
-        <p slot="title">Thema</p>
-        <p slot="techs">
-            <tech color="blue" title="Python"></tech>
-            <tech color="red" title="Hosting"></tech>
-            <tech color="red" title="Security"></tech>
-            <tech color="red" title="SEO"></tech>
-        </p>
-    </module>
-    <module>
-        <p slot="title">Organisatie</p>
-        <p slot="techs">
-            <tech color="pink" title="ICT-flex"></tech>
-            <tech color="pink" title="ICT-Lyceum"></tech>
-            <tech color="pink" title="BPV"></tech>
-            <tech color="grey" title="Intakes en bezoekers"></tech>
         </p>
     </module>
 </module-container>
