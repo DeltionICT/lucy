@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"kenjezelf",
+	"coursetitle":"kenjezelf",
+	"permalink":"/subjects/ken-jezelf/{{ title | slugify }}/{{ page.index }}"
+}
