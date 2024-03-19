@@ -61,7 +61,7 @@ Constructors zijn optioneel.
     }
 
     $objectSom = new clsCalc();                     // make 1st object with rounding of default value 2
-    $renderedSom =  $objectSom->som(10.12345);     // call methode on object 
+    $renderSom =  $objectSom->som(10.12345);     // call methode on object 
    
     $objectSom1 = new clsCalc(3);                    // optional: make 2nd object with rounding of 3
     $renderSom1 =   $objectSom1->som(1234.567, 3377.99999);     // call methode on object  
@@ -70,7 +70,7 @@ Constructors zijn optioneel.
 <html>  
     <div>
          <?php 
-            echo $renderedSom .' met een afronding van: '.$objectSom1->round; 
+            echo $renderSom .' met een afronding van: '.$objectSom->round; 
          ?>              
     </div>
      <br>
