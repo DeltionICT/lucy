@@ -18,6 +18,82 @@ technology: ide, html, css, php, functions, oop, csharp
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
 {{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 8 }}
 
+### Introductie
+Een voorbeeld van het gebruik van een constructor ingebouwd in het eerdere voorbeeld:
+Input en ophalen van waarden die gezet moeten worden bij het aanmaken van elk object van een specifieke class.
+Constructors zijn optioneel.
+```php
+<?php
+    // reading classes with methods
+    class clsCalc
+    {
+        public $failMessage   = '';
+        public $round         = null;
+        puclic $valueX        = 0;             // property valueX
+        public $valueY        = 1;             // property valueY
+        private $failValues   = [];
+   
+        public function __construct($round = 2) 
+        {
+            $this->round = $round;
+        }
+  
+        
+        public function setX($pX)           // setter of X
+        {
+            $this->valueX = $pX;
+        }
+    
+        public function setY($pY)           // setter of Y
+        {
+            $this->valueX = $pX;
+        }
+ 
+        public function getSom()      
+        {
+            if($this->check($this->valueX ) && $this->check($this->valueY ) )     // cll to private method
+            {
+                $som = ($this->valueX  + $this->valueY);
+                return round( $som, $this->round );
+            }
+            return false;
+        }
+       
+        private function check( $pX )                   // private method, only within class callable
+        {
+            if(is_numeric($pX))  {
+                return true;
+            }
+            $this->failValues[] = $pX;      // add failed param to array
+            $this->failMessage .= 'failed value is: '.$pX.'.<br>';
+            return false;
+        }
+    }
+    // initiating an object from a classes and logic
+    $objectSom = new clsCalc();                     // make 1st object with rounding of default value 2
+    $renderedSom =  $objectSom->som(10.12345);     // call methode on object 
+   
+    $objectSom1 = new clsCalc(3);                    // optional: make 2nd object with rounding of 3
+    $renderSom1 =   $objectSom1->som(1234.567, 3377.99999);     // call methode on object  
+
+?>
+<html>  
+    <div>
+         <?php 
+            echo $renderedSom .' met fouten: '. $objectSom->failMessage.'<br>';
+            echo 'met een afronding van: '.$objectSom1->round; 
+         ?>              
+    </div>
+     <br>
+    <div>
+         <?php 
+            echo $renderSom1 .' met fouten: '. $objectSom1->failMessage.'<br>'; 
+            echo 'met een afronding van: '.$objectSom1->round;
+         ?>
+                
+    </div>
+</html>
+```
 
 ## Opdracht
 Houdt de volgende structuur aan in je code:

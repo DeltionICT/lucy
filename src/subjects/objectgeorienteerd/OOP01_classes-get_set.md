@@ -1,6 +1,6 @@
 ---
-title: Gebruik van parameters
-date: 2023-03-24
+title: Gebruik van getters en setters
+date: 2024-03-19
 author: rkerssies
 technology: ide, html, css, php, functions, oop, csharp
 ---
@@ -14,27 +14,47 @@ technology: ide, html, css, php, functions, oop, csharp
 
 > #### Dit ga je leren
 > * Basiskennis Objectgeoriënteerd programmeren
-> * Het gebruik van klassen, objecten en methods
+> * Het gebruik van getter- en setter-methods
 
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
 {{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 8 }}
 
+[php getters & setters]({{ 'https://www.w3schools.com/php/php_oop_classes_objects.asp' | url }})
+
+
 ### Introductie
-Een class is als een cake-vorm waarmee je meerdere cakes kan bakken.
-Zo is van een class meerdere objecten te maken.
+Waarden die nodig zijn om de werking/gedrag van een object te bepalen kunnen met parameters
+worden meegegeven aan methods. Het is 'best-practice' om dit via setter- en getter-methods te doen.
+
 ```php
 <?php
     // define classes with methods
     class clsCalc
     {
-        public function som( $pX, $pY=1 )		
+        puclic $valueX = 0;             // property valueX
+        public $valueY = 0;             // property valueY
+        
+        public function setX($pX)           // setter of X
         {
-            return ( $pX + $pY );
+            $this->valueX = $pX;
+        }
+    
+        public function setY($pY)           // setter of Y
+        {
+            $this->valueX = $pX;
+        }
+    
+        public function getSom(  )		    // getter Som
+        {
+            return ( this->valueX + $this->valueY );
         }
     }
     // initiating an object from a clasess and logic
-    $objectSom = new clsCalc();	            // maak een object ofwel instantie 
-    $renderSom =  $objectSom->som(10);	// roep een methode aan op het object (methode van de class)
+    $objectSom = new clsCalc();	    // make an object  
+    $objectSom->setX(10);	        // set value of X (stored in property valueX)
+    $objectSom->setY(2);	        // set value of Y (stored in property valueY)
+    $objectSom->setY(3);	        // overrides previous value of Y (stored in property valueY)
+    $renderSom =  getSom();       // get calculated value of the som of X and Y 
 ?>
 
 <!-- showing html and rendered variables -->

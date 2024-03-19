@@ -26,7 +26,11 @@ technology: ide, html, css, php, functions, oop, csharp
 [php private]({{ 'https://www.w3schools.com/php/keyword_private.asp' | url }})<br>
 [php protected]({{ 'https://www.w3schools.com/php/keyword_protected.asp' | url }})
 
+
+### Introductie
 Een voorbeeld van het gebruik van class met private en public properties en methods;
+Binnen een class kunnen stukken code staan die binnen een class herbruikbaar zijn, private-methods.
+Ook kunnen er properties zijn die alleen binnen de class mogen worden gebruikt, private properties.
 ```php
 <?php
     // reading classes with methods
@@ -34,16 +38,29 @@ Een voorbeeld van het gebruik van class met private en public properties en meth
     {
         public $failMessage   = '';
         private $failValues   = [];
-   
-        public function som( $pX, $pY=1 )      
+        puclic $valueX = 0;             // property valueX
+        public $valueY = 1;             // property valueY
+        
+        public function setX($pX)           // setter of X
         {
-            if($this->check($pX) && $this->check($pY) ) {
-                return ( $pX + $pY );
+            $this->valueX = $pX;
+        }
+    
+        public function setY($pY)           // setter of Y
+        {
+            $this->valueX = $pX;
+        }
+ 
+        public function getSom()      
+        {
+            if($this->check($this->valueX ) && $this->check($this->valueY ) )     // cll to private method
+            {
+                return ( $this->valueX + $this->valueY );
             }
             return false;
         }
        
-        private function check( $pX )      
+        private function check( $pX )                   // private method, only within class callable
         {
             if(is_numeric($pX))  {
                 return true;
@@ -55,27 +72,30 @@ Een voorbeeld van het gebruik van class met private en public properties en meth
     }
     // initiating an object from a classes and logic
     $objectSom = new clsCalc();                     // make 1st object
-    $renderedSome =  $objectSom->som(10);           // call methode on object (must be public) with correct param
+
+    $objectSom->setY(2);	        // set value of Y (stored in property valueY)
+    $renderSom =  $objectSom->getSom();           // call methode on object (must be public) with correct param
    
-    $objectSom1 = new clsCalc();                    // make 2nd object
-    $rendersome1 =   $objectSom1->som('hallo');     // call methode on object (must be public) with incorrect param    
+    $objectSom1 = new clsCalc();               // optional: make 2nd object
+    $objectSom->setX('hallo');	               // set value of X (stored in property valueX)
+    $renderSom1 =   $objectSom1->getSom();     // call methode on object (must be public) with incorrect param    
 
 ?>
 <html>  
     <div>
-         <?php echo $renderedSome .' met fouten: '. $objectSom->failMessage.'<br>'; 
+         <?php echo $renderSom .' met fouten: '. $objectSom->failMessage.'<br>'; 
                 //showing successful result of 1st object  ?>              
     </div>
     <br>
     <div>
-         <?php echo $rendersome1 .' met fouten: '. $objectSom1->failMessage.'<br>'; 
-                //showing failed result of 2nd object  ?>
-        <?php //print_r($objectSom1->failValues);
-                // not possible; calling private property?>
+         <?php 
+            echo $renderSom1 .' met fouten: '. $objectSom1->failMessage.'<br>'; 
+              //   showing failed result of 2nd object  
+              //   print_r($objectSom1->failValues);    // not possible; calling private property
+         ?>
     </div>
 </html>
 ```
-
 
 ## Opdracht
 Houdt de volgende structuur aan in je code:
