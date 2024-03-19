@@ -1,7 +1,7 @@
 ---
-title: Classes overerven
-date: 2023-03-24
-author: rkerssies
+title: Overerven
+date: 2024-03-19
+author: rkerssies,kstarreveld
 technology: ide, html, css, php, functions, oop, csharp
 ---
 
@@ -14,31 +14,54 @@ technology: ide, html, css, php, functions, oop, csharp
 
 
 > #### Dit ga je leren
+> * Met OOP leer je gestructureerder coderen, waardoor de code inzichtelijk wordt en beter herbruikbaar is.
+> * Advances Objectgeoriënteerd programmeren
+> * Het gebruik van klassen, objecten, methods, parameters en properties
 > * Overeenkomsten/relaties tussen classes door overerven (inheritance) eenduidig maken
 
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
 {{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 8 }}
 
+### Bronnen
+[erven]({{ 'https://www.w3schools.com/php/php_oop_inheritance.asp' | url }})<br>
+[OOP]({{ 'https://www.phptutorial.net/php-oop/' | url }})<br>
 
-## Opdracht
-Houdt de volgende structuur aan in je code:
-* lezen van classes
-* objecten maken en logica uitvoeren en het renderen van gegevens
-* tonen van html-structuur en het weergeven van de gerenderde gegevens.
-* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+### Opdracht
+Inleiding: We gaan nu een Trainer en Spelers toevoegen aan het team. Hiervoor maken we classes aan voor Trainer en Speler, maar omdat deze veel gemeenschappelijk hebben ( naam, geboortedatum, adres, postcode , woonplaats, telefoonnummer) willen we deze gegevens 1x voor allebei de classes vastleggen. Daarom maken we een base class Persoon ( basis) waarvan we gaan afleiden (overerven of inheritance). Door deze overerving krijgen we automatisch in de afgeleide classes ( Trainer en Speler) alle methoden en properties van de base Class Persoon.
 
-1. Maak een class die methods heeft om waarden op te slaan en uit te vragen (getters & setters) die elk voortuig heeft (bijv: wielen, stuur, zitplaatsen, etc).
-2. Maak een class 'autos' met methods veel eigenschappen van de class 'voertuigen' erft.<br>
-   Voeg specifieke aspecten van een auto met getters en setters uitbreid.
-3. Maak een class 'bicycles' met methods veel eigenschappen van de class 'voertuigen' erft.<br>
-   Voeg specifieke aspecten van een auto met getters en setters uitbreid.
-4. Maak een object van de class 'bicycles' en set verschillende properties, ook methods van voertuigen. Toon de verzamelde gegevens vanuit
-   de getters op het scherm.
-5. Maak een object van de class 'autos' en set verschillende properties, ook methods van voertuigen. Toon de verzamelde gegevens vanuit
-   de getters op het scherm.
+1. Maak deze drie classes, begin bij Persoon.
+
+      Class Persoon:   <br>
+      Properties zijn: naam, geboortedatum, adres, postcode, woonplaats, telefoonnummer
+   <br>   <br>
+      Class Trainer : Persoon   <br>
+      Properties zijn: diploma ( bv: Geen, UEFA A, UEFA B, UEFA C, Coach Betaald Voetbal )
+   <br><br>
+      Class Speler: Persoon   <br>
+      Properties zijn: positie ( Spits, Middenvelder, Aanvaller, Verdediger, Keeper, CVM etc.)
+   <br><br>
+      Geblesseerd ( true/false)<br>
+   <br>
+   Let op: Alle properties hebben getters/setters!!! Maak de properties private.
+
+
+2. Maak constructors. Zorg ervoor dat de constructor van Trainer en Speler de base constructor van Persoon aanroept.
+
+
+3. Maak voor elke class een Display methode die de properties in een nette string teruggeeft. 
+Denk na hoe je met de base class omgaat, probeer dubbele code te vermijden.
+
+
+4. De class Team, geef je nu 2 nieuwe properties:
+    Trainer trainer
+    array/list spelers
+ 
+a. Maak een getter en setter voor de trainer property, maak deze property private.<br>
+b. Maak een add en een remove functie voor spelers
+
 
 ## Resultaat
-Overeenkomsten tussen objecten kunnen in aparte classes worden verzameld en worden hergebruikt en gecombineerd in verschillende objecten
+Overeenkomsten tussen objecten kunnen in aparte classes worden verzameld en worden hergebruikt en gecombineerd met andere objecten
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

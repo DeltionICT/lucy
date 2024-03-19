@@ -1,7 +1,7 @@
 ---
-title: Gebruik van parameters
-date: 2023-03-24
-author: rkerssies
+title: Van Classes naar Objecten
+date: 2024-03-19
+author: rkerssies,kstarreveld
 technology: ide, html, css, php, functions, oop, csharp
 ---
 
@@ -13,13 +13,29 @@ technology: ide, html, css, php, functions, oop, csharp
 > * Zelf methodes kunnen maken en toepassen  
 
 > #### Dit ga je leren
+> * Met OOP leer je gestructureerder coderen, waardoor de code inzichtelijk wordt en beter herbruikbaar is.
 > * Basiskennis Objectgeoriënteerd programmeren
-> * Het gebruik van klassen, objecten en methods
+> * Het gebruik van klassen, objecten, methods, parameters en properties
 
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
 {{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 8 }}
 
+### Bronnen
+[OOP]({{ 'https://www.phptutorial.net/php-oop/' | url }})<br>
+
 ### Introductie
+Een class is als mal waarin objecten kunnen worden gemaakt.<br>
+Zie het als een cake-vorm en stappen waarmee je meerdere soorten cakes kan bakken.<br>
+
+Zo bevat een class in vaak methods (functions) waarmee waarden gezet en opgehaald kunnen worden,<br>
+maar ook methods om activiteiten uit te voeren.
+
+De class is de beschrijving van het soort object en de mogelijke bewerkingen.<br>
+Als er een object van een class is gemaakt kan daarna verschillende bewerkingen worden uiutgevoerd,
+die unieke zijn voor dat ene object.<br>
+Zie het als een cake die je bakt, waarbij elke gebakken cake ook een ander object is, los van de ingrediënten en de manier van bakken.
+
+
 Een class is als een cake-vorm waarmee je meerdere cakes kan bakken.
 Zo is van een class meerdere objecten te maken.
 ```php
@@ -32,7 +48,7 @@ Zo is van een class meerdere objecten te maken.
             return ( $pX + $pY );
         }
     }
-    // initiating an object from a clasess and logic
+    // initiating an object from a class and calling its logic
     $objectSom = new clsCalc();	            // maak een object ofwel instantie 
     $renderSom =  $objectSom->som(10);	// roep een methode aan op het object (methode van de class)
 ?>
@@ -44,58 +60,22 @@ Zo is van een class meerdere objecten te maken.
    </body> 
 </html>
 ```
-
-#### Stappen
-1. Maak een class met daarin één methode.  
-2. In de methode wordt bij het aanroepen van die methode een teller opgehoogd.  
-3. Maak een object van de klasse en roep vanuit het object de methode aan.   
-4. Toon het resultaat (return van de method) op het scherm.  
-
-
 ## Opdracht
-Houdt de volgende structuur aan in je code:
-* Definiëren van een klasse
-* Objecten maken (initialiseren)
-* Een methode (function in een class) van een object aanroepen
-* Parameters meegeven aan methods
-* Renderen (vergaren/verzamelen) en weergeven van het resultaat in html
+Voor de nieuwe competitie moet er een indeling gemaakt worden van teams van verschillende sportclubs.
+Aan jou de vraag om daar een systeem voor te maken. Met object georiënteerde code.
+Uiteindelijk moet er een indeling uit komen.
 
+Maak een class (in een apart bestand )voor een Sport Team, deze klas noem je: Team
 
-************
-## Opdracht
-Houdt de volgende structuur aan in je code:
-* lezen van classes
-* objecten maken en logica uitvoeren en het renderen van gegevens
-* tonen van html-structuur en het weergeven van de gerenderde gegevens.
-* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
-
-1. Maak een class waarin sportteams worden verzameld.
-
-2. Maak een method waarin van een sportteam de naam en de plaats kan worden team vastgelegd
-    * controleer bij het toevoegen of de naam van het team al bestaat. Zo ja, dan wordt het team niet toegevoegd
-
-3. Maak een method waarin een sportteam kan worden verwijderd op basis van de naam
-
-4. Maak een method aan waarin een actuele status van alle toegevoegde (zonder de verwijderde) sportteams in een array wordt teruggegeven
-
-5. Het proces om het geheel aan te laten werken:
-    * lees de class voor sportteams
-    * maak een object aan voor de sportteams
-    * voeg meerdere sportteams toe door enkele malen de method voor het toevoegen aan te roepen en parameters mee te geven
-    * verwijder in ieder geval één sportteam door een method aan te roepen
-    * vraag de huidige status van de sportteams uit door een method aan te roepen, sla het resultaat op in een (gerenderde) variabele
-    * na de doctype-tag in de body wordt een weergave getoond van het resultaat dat in de (gerenderde) variabele.
-
-6. Meerder objecten van dezelfde class;
-    * Herhaal opdracht 4, maar maak nu meerdere objecten aan van dezelfde class en voer de vervolgstappen voor elk afzonderlijke object
-    * Toon aan dat per request het object (of objecten) op de gewenste manier werken (doorloop meerdere scenario's)
-
-
+De class heeft de volgende public properties:
+**string clubNaam**<br>
+**string plaats**<br>
+**string teamCode ( bijv. JO13-1, JO13-2, JO14-1, JO15-1, JO15-2, JO19-2 etc.)**<br>
 
 
 ## Resultaat
 * Een werkend script gebaseerd op een class, object en een method.  
-* Het resultaat wordt weergegeven
+* Renderen (vergaren/verzamelen) en weergeven van het resultaat
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
