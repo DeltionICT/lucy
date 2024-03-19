@@ -978,44 +978,20 @@
         "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/objectgeorienteerd/gebruik-van-parameters/",
-        "title":"Gebruik van parameters",
-        "author":"rkerssies",
+        "url":"/lucy/subjects/objectgeorienteerd/verwerking-2/",
+        "title":"Verwerking 2",
+        "author":"kstarreveld",
         "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/objectgeorienteerd/een-class-maken/",
-        "title":"Een &#39;class&#39; maken",
-        "author":"rkerssies",
-        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/objectgeorienteerd/private-and-public/",
-        "title":"Private &amp; Public",
-        "author":"rkerssies",
-        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/objectgeorienteerd/de-constructor/",
-        "title":"De constructor",
-        "author":"rkerssies",
-        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/objectgeorienteerd/classes-overerven/",
-        "title":"Classes overerven",
-        "author":"rkerssies",
-        "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/objectgeorienteerd/gebruik-van-use-en-namespaces/",
-        "title":"Gebruik van Use en Namespaces",
+        "url":"/lucy/subjects/objectgeorienteerd/php-gebruik-van-use-en-namespaces/",
+        "title":"PHP - Gebruik van Use en Namespaces",
         "author":"rkerssies",
         "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
         "url":"/lucy/subjects/objectgeorienteerd/php-een-autoloader-toepassen/",
-        "title":"(PHP) een autoloader toepassen",
+        "title":"PHP - Een autoloader toepassen",
         "author":"rkerssies",
         "date":"Fri Mar 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
@@ -1465,12 +1441,6 @@
     },
     { 
         "url":"/lucy/subjects/nodejs/introductie/",
-        "title":"Introductie",
-        "author":"rkerssies",
-        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/objectgeorienteerd/introductie/",
         "title":"Introductie",
         "author":"rkerssies",
         "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
@@ -2044,6 +2014,42 @@
         "title":"js110 | JSON en VUE3 via CDN",
         "author":"cstegeman",
         "date":"Wed Mar 13 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Tue Mar 19 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/van-classes-naar-objecten/",
+        "title":"Van Classes naar Objecten",
+        "author":"rkerssies,kstarreveld",
+        "date":"Tue Mar 19 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/constructing-object-basisinstellingen/",
+        "title":"Constructing object basisinstellingen",
+        "author":"rkerssies,kstarreveld",
+        "date":"Tue Mar 19 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/private-and-public/",
+        "title":"Private &amp; Public",
+        "author":"rkerssies,kstarreveld",
+        "date":"Tue Mar 19 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/verwerking-1/",
+        "title":"Verwerking 1",
+        "author":"kstarreveld",
+        "date":"Tue Mar 19 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/objectgeorienteerd/overerven/",
+        "title":"Overerven",
+        "author":"rkerssies,kstarreveld",
+        "date":"Tue Mar 19 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
