@@ -1,17 +1,15 @@
 ---
-title: Gebruik van Use en Namespaces  
+title: PHP - Gebruik van Use en Namespaces  
 date: 2023-03-24
 author: rkerssies
 technology: ide, html, css, php, functions, oop, csharp
 ---
 
 
-> #### Voorkennis
-> * Basiskennis van een backend-taal zoals PHP of C#
-> * Classes en daarvan objecten kunnen maken, daarop methods aanroepen
-> * Properties instellen en acties uitvoeren voordat de eerste method wordt aangeroepen
-> * Het gebruik van public/private properies en methods & de constructor
-> * Classes elkaars methodes laten overerven
+> #### Dit ga je leren
+> * Met OOP leer je gestructureerder coderen, waardoor de code inzichtelijk wordt en beter herbruikbaar is.
+> * Advances Objectgeoriënteerd programmeren
+> * Classes op een unieke manier aanroepen en dubbele class-namen voorkomen
 
 
 > #### Dit ga je leren
@@ -43,7 +41,8 @@ Houdt de volgende structuur aan in je code:
    Zoek uit waarom deze manier van namespaces gebruiken als 'best-practice' wordt gezien.
 
 ## Resultaat
-Kennis van namespaces en het gebruik hiervan (kunnen toepassen)
+Kennis van namespaces en het gebruik hiervan (kunnen toepassen)<br>
+Class-namen uniek maken door hun namespace
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

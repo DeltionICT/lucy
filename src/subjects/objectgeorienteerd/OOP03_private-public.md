@@ -1,7 +1,7 @@
 ---
 title: Private & Public
-date: 2023-03-24
-author: rkerssies
+date: 2024-03-19
+author: rkerssies,kstarreveld
 technology: ide, html, css, php, functions, oop, csharp
 ---
 
@@ -12,21 +12,28 @@ technology: ide, html, css, php, functions, oop, csharp
 
 
 > #### Dit ga je leren
-> * De herbruikbaarheid van classes en methods vergroten
+> * Met OOP leer je gestructureerder coderen, waardoor de code inzichtelijk wordt en beter herbruikbaar is.
+> * Basiskennis Objectgeoriënteerd programmeren
+> * Het gebruik van klassen, objecten, methods, parameters en properties
 > * Methods aanroepen binnen andere methods
-> * Methods alleen binnen de classe beschikbaar stellen (private)
+> * Methods alleen binnen de class beschikbaar stellen (private)
 > * Meerdere (sub)resultaten (proporties) in een method makkelijk beschikbaar maken voor hergebruik BINNEN de class (private)
 > * Meerdere (sub)resultaten (proporties) in een method makkelijk beschikbaar maken voor hergebruik BUITEN de class (public)
 
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
 {{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 8 }}
 
-### Bronnen 
+### Bronnen
+[OOP]({{ 'https://www.phptutorial.net/php-oop/' | url }})<br>
 [php public]({{ 'https://www.w3schools.com/php/keyword_public.asp' | url }})<br>
 [php private]({{ 'https://www.w3schools.com/php/keyword_private.asp' | url }})<br>
 [php protected]({{ 'https://www.w3schools.com/php/keyword_protected.asp' | url }})
 
+
+### Introductie
 Een voorbeeld van het gebruik van class met private en public properties en methods;
+Binnen een class kunnen stukken code staan die binnen een class herbruikbaar zijn, private-methods.
+Ook kunnen er properties zijn die alleen binnen de class mogen worden gebruikt, private properties.
 ```php
 <?php
     // reading classes with methods
@@ -34,16 +41,29 @@ Een voorbeeld van het gebruik van class met private en public properties en meth
     {
         public $failMessage   = '';
         private $failValues   = [];
-   
-        public function som( $pX, $pY=1 )      
+        puclic $valueX = 0;             // property valueX
+        public $valueY = 1;             // property valueY
+        
+        public function setX($pX)           // setter of X
         {
-            if($this->check($pX) && $this->check($pY) ) {
-                return ( $pX + $pY );
+            $this->valueX = $pX;
+        }
+    
+        public function setY($pY)           // setter of Y
+        {
+            $this->valueX = $pX;
+        }
+ 
+        public function getSom()      
+        {
+            if($this->check($this->valueX ) && $this->check($this->valueY ) )     // cll to private method
+            {
+                return ( $this->valueX + $this->valueY );
             }
             return false;
         }
        
-        private function check( $pX )      
+        private function check( $pX )                   // private method, only within class callable
         {
             if(is_numeric($pX))  {
                 return true;
@@ -55,54 +75,45 @@ Een voorbeeld van het gebruik van class met private en public properties en meth
     }
     // initiating an object from a classes and logic
     $objectSom = new clsCalc();                     // make 1st object
-    $renderedSome =  $objectSom->som(10);           // call methode on object (must be public) with correct param
+
+    $objectSom->setY(2);	        // set value of Y (stored in property valueY)
+    $renderSom =  $objectSom->getSom();           // call methode on object (must be public) with correct param
    
-    $objectSom1 = new clsCalc();                    // make 2nd object
-    $rendersome1 =   $objectSom1->som('hallo');     // call methode on object (must be public) with incorrect param    
+    $objectSom1 = new clsCalc();               // optional: make 2nd object
+    $objectSom->setX('hallo');	               // set value of X (stored in property valueX)
+    $renderSom1 =   $objectSom1->getSom();     // call methode on object (must be public) with incorrect param    
 
 ?>
 <html>  
     <div>
-         <?php echo $renderedSome .' met fouten: '. $objectSom->failMessage.'<br>'; 
+         <?php echo $renderSom .' met fouten: '. $objectSom->failMessage.'<br>'; 
                 //showing successful result of 1st object  ?>              
     </div>
     <br>
     <div>
-         <?php echo $rendersome1 .' met fouten: '. $objectSom1->failMessage.'<br>'; 
-                //showing failed result of 2nd object  ?>
-        <?php //print_r($objectSom1->failValues);
-                // not possible; calling private property?>
+         <?php 
+            echo $renderSom1 .' met fouten: '. $objectSom1->failMessage.'<br>'; 
+              //   showing failed result of 2nd object  
+              //   print_r($objectSom1->failValues);    // not possible; calling private property
+         ?>
     </div>
 </html>
 ```
 
-
 ## Opdracht
-Houdt de volgende structuur aan in je code:
-* lezen van classes
-* objecten maken en logica uitvoeren en het renderen van gegevens
-* tonen van html-structuur en het weergeven van de gerenderde gegevens.
-* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+Maak een public member methode : Display, die een string teruggeeft waarin de naam, 
+team en woonplaats netjes wordt weergegeven: Het team <teamCode> van de club <clubnaam> is gevestigd in <plaats>
 
-1.  Kopieer de vorige OOP-opdracht en geef het project een nieuwe naam
+Deze Display-methode moet gebruik maken van de ‘getter’ methodes
 
-2. Maak een property aan waarin het maximale aantal spelers van een team wordt bepaald
-3. Maak een method aan om spelers team worden toegevoegd, door de naam van het team, de naam van de speler en de het rugnummer mee te geven
-4. Maak een method(s) aan die alléén binnen de class kan worden aangeroepen die controleert of:
-   * het aantal spelers voor een team niet is overschreven
-   * het rugnummer in een team al in gebruik is
-   * als hier niet aan wordt voldaan wordt er een public property 'fails' aan gemaakt waarin alle foutieve toevoegingen worden verzameld in een array
-   * als er een speler wordt aangemaakt met een niet bestaand team, dan wordt er een private property gezet van 'true' naar 'false'
-5. Pas de method aan die de teams teruggeeft door alle spelers en hun rugnummer (nested) mee te geven per team
-6. Het moet nu onmogelijk zijn om in de weergave meer spelers dan het maximum per team te zien en rugnummers per team komen maar 1x voor
+Om te testen roep je van de 3 eerder aangemaakte objecten deze Display methode aan
 
 
 ## Resultaat
-Methods binnen een class die elkaar kunnen aanroepen.<br>
-Uitwisselen van proporties binnen methods van een class en evt. deze beschikbaar maken buiten de class.
-Elk object krijgt verschillende parameters mee en geeft correcte resultaten terug.
-
-
+* Methods binnen een class aanroepen.<br>
+* Uitwisselen van proporties binnen methods van een class en deze evt. beschikbaar maken buiten de class.<br>
+* Elk object krijgt verschillende parameters mee en geeft correcte resultaten terug.
+* Renderen (vergaren/verzamelen) en weergeven van het resultaat
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

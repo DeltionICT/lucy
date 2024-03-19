@@ -1,7 +1,7 @@
 ---
 title: Introductie
 author: rkerssies
-date: 2023-06-30
+date: 2024-03-19
 ---
 
 ## Over deze set opdrachten
@@ -19,10 +19,9 @@ Als jij je *verder* wil ontwikkelen in **OOP**, **PHP** en/of **C#**, dan advise
 volgende leerlijn met daarin deze opdracht(en);
 > 1. Eindopdracht OOP-applicatie met PHP<br>
 > ⏱️ 10 dagen &emsp; 👉🏼 maak een keuzekeuze<br>
-> <small>💡 Alle voorgaande opdrachten werken stapsgewijs naar de eindopdracht</small>
-
 en/of
-
-> 1. Eindopdracht OOP-applicatie met C#<br>
+> 2. Eindopdracht OOP-applicatie met C#<br>
 > ⏱️ 10 dagen &emsp; 👉🏼 maak een keuze<br>
-> <small>💡 Alle voorgaande opdrachten werken stapsgewijs naar de eindopdracht (zonder de opdracht: PHP-autoloader)</small>
+>
+> <small>💡 Alle voorgaande BASIS-opdrachten die bijdragen aan het maken van de eindopdracht</small><br>
+> <small>💡 Alle voorgaande ADVANCED-opdrachten die bijdragen aan het maken van de eindopdracht<</small>

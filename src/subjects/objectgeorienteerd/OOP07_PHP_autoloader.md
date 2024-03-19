@@ -1,5 +1,5 @@
 ---
-title: (PHP) een autoloader toepassen 
+title: PHP - Een autoloader toepassen 
 date: 2023-03-24
 author: rkerssies
 technology: ide, html, css, php, functions, oop, csharp
@@ -16,6 +16,8 @@ technology: ide, html, css, php, functions, oop, csharp
 
 
 > #### Dit ga je leren
+> * Met OOP leer je gestructureerder coderen, waardoor de code inzichtelijk wordt en beter herbruikbaar is.
+> * Advances Objectgeoriënteerd programmeren
 > * PHP; automatisch laden van classes die 'ge-used' worden op basis van hun namespace
 
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
@@ -38,7 +40,8 @@ Houdt de volgende structuur aan in je code:
 ```php
 spl_autoload_register( function ($class) {
 } );
-$class = strtolower(str_replace("\\", "/", $class)); include('../app/'.$class.'.php');
+$class = strtolower(str_replace("\\", "/", $class)); 
+include('../app/'.$class.'.php');
 // convert back-slashes to slashes
 spl_autoload_extensions('.php');
 ```

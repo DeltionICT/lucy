@@ -1,7 +1,7 @@
 ---
-title: Gebruik van parameters
-date: 2023-03-24
-author: rkerssies
+title: Van Classes naar Objecten
+date: 2024-03-19
+author: rkerssies,kstarreveld
 technology: ide, html, css, php, functions, oop, csharp
 ---
 
@@ -13,22 +13,31 @@ technology: ide, html, css, php, functions, oop, csharp
 > * Zelf methodes kunnen maken en toepassen  
 
 > #### Dit ga je leren
+> * Met OOP leer je gestructureerder coderen, waardoor de code inzichtelijk wordt en beter herbruikbaar is.
 > * Basiskennis Objectgeoriënteerd programmeren
-> * Het gebruik van klassen, objecten en methods
+> * Het gebruik van klassen, objecten, methods, parameters en properties
 
 {{ '/_assets/api/PHP-logo.png' | image: 'PHP Logo', 10 }}
 {{ '/_assets/api/c-sharp.png' | image: 'C# Logo', 8 }}
 
+### Bronnen
+[OOP]({{ 'https://www.phptutorial.net/php-oop/' | url }})<br>
 
-## Opdracht
-Houdt de volgende structuur aan in je code:
-* Definiëren van een klasse
-* Objecten maken (initialiseren) 
-* Een methode van een object aanroepen
-* Renderen en weergeven van het resultaat in html  
-  
-Een voorbeeld:
+### Introductie
+Een class is als mal waarin objecten kunnen worden gemaakt.<br>
+Zie het als een cake-vorm en stappen waarmee je meerdere soorten cakes kan bakken.<br>
 
+Zo bevat een class in vaak methods (functions) waarmee waarden gezet en opgehaald kunnen worden,<br>
+maar ook methods om activiteiten uit te voeren.
+
+De class is de beschrijving van het soort object en de mogelijke bewerkingen.<br>
+Als er een object van een class is gemaakt kan daarna verschillende bewerkingen worden uiutgevoerd,
+die unieke zijn voor dat ene object.<br>
+Zie het als een cake die je bakt, waarbij elke gebakken cake ook een ander object is, los van de ingrediënten en de manier van bakken.
+
+
+Een class is als een cake-vorm waarmee je meerdere cakes kan bakken.
+Zo is van een class meerdere objecten te maken.
 ```php
 <?php
     // define classes with methods
@@ -39,28 +48,34 @@ Een voorbeeld:
             return ( $pX + $pY );
         }
     }
-    // initiating an object from a clasess and logic
-    $objectSom = new clsCalc();	        // maak een object ofwel instantie 
-    $renderedSom =  $objectSom->som(10);	// roep een methode aan op het object (methode van de class)
+    // initiating an object from a class and calling its logic
+    $objectSom = new clsCalc();	            // maak een object ofwel instantie 
+    $renderSom =  $objectSom->som(10);	// roep een methode aan op het object (methode van de class)
 ?>
 
 <!-- showing html and rendered variables -->
 <html> 
    <body>
-       <?php echo $renderedSom; ?>
+       <?php echo $renderSom; ?>
    </body> 
 </html>
 ```
+## Opdracht
+Voor de nieuwe competitie moet er een indeling gemaakt worden van teams van verschillende sportclubs.
+Aan jou de vraag om daar een systeem voor te maken. Met object georiënteerde code.
+Uiteindelijk moet er een indeling uit komen.
 
-#### Stappen
-1. Maak een class met daarin één methode.  
-2. In de methode wordt bij het aanroepen van die methode een teller opgehoogd.  
-3. Maak een object van de klasse en roep vanuit het object de methode aan.   
-4. Toon het resultaat (return van de method) op het scherm.  
+Maak een class (in een apart bestand )voor een Sport Team, deze klas noem je: Team
+
+De class heeft de volgende public properties:
+**string clubNaam**<br>
+**string plaats**<br>
+**string teamCode ( bijv. JO13-1, JO13-2, JO14-1, JO15-1, JO15-2, JO19-2 etc.)**<br>
+
 
 ## Resultaat
 * Een werkend script gebaseerd op een class, object en een method.  
-* Het resultaat wordt weergegeven
+* Renderen (vergaren/verzamelen) en weergeven van het resultaat
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
