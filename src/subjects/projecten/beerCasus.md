@@ -123,3 +123,8 @@ Toepassen van andere API’s via Laravel of C# mag natuurlijk ook maar kost waar
 
 ## Benodigdheden
 * [Biersoorten SQL Script](https://static.edutorial.nl/projecten/bier/bier.sql)
+
+## Voorbeelden
+* [Poor man's API](https://www.edutorial.nl/projecten/poor-man's-api/)
+* [Swaggie (api/frontend)](https://static.edutorial.nl/projecten/swaggie)
+* [Swaggie (repo op github)](https://github.com/DeltionICT/swaggie)
