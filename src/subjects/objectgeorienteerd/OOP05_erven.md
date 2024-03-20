@@ -27,21 +27,23 @@ technology: ide, html, css, php, functions, oop, csharp
 [OOP]({{ 'https://www.phptutorial.net/php-oop/' | url }})<br>
 
 ### Opdracht
-Inleiding: We gaan nu een Trainer en Spelers toevoegen aan het team. Hiervoor maken we classes aan voor Trainer en Speler, maar omdat deze veel gemeenschappelijk hebben ( naam, geboortedatum, adres, postcode , woonplaats, telefoonnummer) willen we deze gegevens 1x voor allebei de classes vastleggen. Daarom maken we een base class Persoon ( basis) waarvan we gaan afleiden (overerven of inheritance). Door deze overerving krijgen we automatisch in de afgeleide classes ( Trainer en Speler) alle methoden en properties van de base Class Persoon.
+Inleiding: We gaan nu een Trainer en Spelers toevoegen aan het team. Hiervoor maken we classes aan voor Trainer en Speler, 
+maar omdat deze veel gemeenschappelijk hebben ( naam, geboortedatum, adres, postcode , woonplaats, telefoonnummer) 
+willen we deze gegevens 1x voor allebei de classes vastleggen. Daarom maken we een base class Persoon (basis) waarvan 
+we gaan afleiden (overerven of inheritance). Door deze overerving krijgen we automatisch in de afgeleide classes 
+(Trainer en Speler) alle methoden en properties van de base Class Persoon.
 
-1. Maak deze drie classes, begin bij Persoon.
+1. Maak deze drie classes;
 
-      Class Persoon:   <br>
-      Properties zijn: naam, geboortedatum, adres, postcode, woonplaats, telefoonnummer
+      Class **Persoon**<br>
+      met de properties zijn: naam, geboortedatum, adres, huisnr, postcode, woonplaats, telefoonnummer
    <br>   <br>
-      Class Trainer : Persoon   <br>
-      Properties zijn: diploma ( bv: Geen, UEFA A, UEFA B, UEFA C, Coach Betaald Voetbal )
+      Class **Trainer** erft van **Persoon**<br>
+      met de property: diploma (bijv: Geen, UEFA A, UEFA B, UEFA C, Coach Betaald Voetbal )
    <br><br>
-      Class Speler: Persoon   <br>
-      Properties zijn: positie ( Spits, Middenvelder, Aanvaller, Verdediger, Keeper, CVM etc.)
+      Class **Speler** erft van **Persoon**<br>
+      met de property: positie (Spits, Middenvelder, Aanvaller, Verdediger, Keeper, CVM etc.) en geblesseerd (true/false).<br>
    <br><br>
-      Geblesseerd ( true/false)<br>
-   <br>
    Let op: Alle properties hebben getters/setters!!! Maak de properties private.
 
 
