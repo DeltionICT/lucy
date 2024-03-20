@@ -758,30 +758,56 @@ div.html table {
 <p><a href="https://www.w3schools.com/php/php_oop_inheritance.asp">erven</a><br>
 <a href="https://www.phptutorial.net/php-oop/">OOP</a><br></p>
 <h3>Opdracht</h3>
-<p>Maak nu UI voor je backend-classes: Trainer, Team, Competitie, Speler.
-Als gebruiker kan ik een Competitie aanmaken voor een jaar.
-Als gebruiker kan ik Teams toeveogen aan een competitie.
-Als gebruiker kan ik Spelers en een Trainer aanmaken en deze toevoegen aan een team.</p>
-<p>Als gebruiker kan ik een overzicht krijgen van alle teams in een competitie.
-Als gebruiker kan ik een overzicht krijgen van spelers en trainer per team.</p>
-<p><strong>!!</strong> Voor werken met PHP moet het object 'Competitie' moet in een SESSION worden opgeslagen.
-Anders ben je de gegevens kwijt tussen de verschillende requests.</p>
-<p><strong>ADVANCED</strong><br>
-A. UI</p>
+<p><strong>UI</strong><br></p>
+<ol>
+<li>Bedenk en teken (met Balsamiq/Paint of Figma) een mooie Graphical User Interface (GUI),
+om deze gegevens in te voeren en te bekijken. De interface moet voldoen aan de volgende <code>userstories</code>:<br></li>
+</ol>
+<ul>
+<li>
+<p>Als gebruiker kan ik een Competitie aanmaken voor een jaar.</p>
+</li>
+<li>
+<p>Als gebruiker kan ik Teams toevoegen aan een competitie.</p>
+</li>
+<li>
+<p>Als gebruiker kan ik Spelers en een Trainer aanmaken en deze toevoegen aan een team.</p>
+</li>
+<li>
+<p>Als gebruiker kan ik een overzicht krijgen van alle teams in een competitie.</p>
+</li>
+<li>
+<p>Als gebruiker kan ik een overzicht krijgen van spelers en trainer per team.</p>
+</li>
+<li>
+<p>Als gebruiker kan ik alle gegevens opslag exporteren naar een jso-file</p>
+</li>
+<li>
+<p>Als gebruiker kan ik alle eerdere geëxporteerde gegevens importeren vanuit een json-file</p>
+</li>
+</ul>
+<ol start="2">
+<li>Bouw deze User Interface voor de backend-classes: Trainer, Team, Competitie, Speler.</li>
+</ol>
+<p><strong>Opslag</strong><br></p>
 <ol>
 <li>
-<p>Bedenk en teken ( met Balsamiq/Paint of Figma) een mooie Graphical User Interface ( GUI ) , om deze gegevens in te voeren en te bekijken.
-Laat je ontwerp eerst controleren door je vakcoach.</p>
+<p>Alle gegevens worden opgeslagen/bijgewerkt binnen het Competitie-object (eerdere opdracht).<br>
+Zorg dat de werking van de applicatie gelijk blijft, maar nu met gebruik van de GUI.<br>
+alle toevoegingen (evt. ook wijzigingen en verwijderingen) worden op het object uitgevoerd.</p>
 </li>
 <li>
-<p>Bouw deze User Interface.</p>
+<p>Bij het aanroepen van een export-method wordt het object Competitie en alle gerelateerde data
+weggeschreven naar een JSON-file die in een submap staat.
+Als de applicatie nieuw wordt opgestart of er de import-method aangeroepen,
+dan wordt het de JSON-file weer ingelezen en de data met alle relatie-gegevens weer in het Competitie-object geplaatst.</p>
 </li>
 </ol>
-<p>B. Opslag</p>
-<p>Schrijf alle ingevoerde data weg naar een database of JSON-file.
-En zorg ervoor dat als je weer opnieuw opstart je kunt inlezen van deze JSON-file
-of Database.</p>
-<p>Tip, vraag je docent om hulp in C# is het wegschrijven en inlezen naar JSON vrij gemakkelijk ( 2 regels code). Om in PHP een Database te gebruiken moet je deze eerst opzetten met PHPMyAdmin. Overleg met je vakcoach wat je gaat doen.</p>
+<p>Tip, vraag je docent om hulp in C# en PHP is het wegschrijven en inlezen naar JSON vrij gemakkelijk.
+(functies: serialize en unserialize)</p>
+<p><strong>!!</strong> Voor werken met <strong>PHP</strong> moet het data-object 'Competitie' met daarin alle onderliggende
+gerelateerde objecten in een SESSION worden opgeslagen.
+Anders ben je de gegevens in het object Competitie kwijt tussen de verschillende requests.</p>
 <h2>Resultaat</h2>
 <p>Een werkende applicatie met frontend waarin alle aspecten van basic OOP-onderwerpen aanbod zijn gekomen.</p>
 <h2>Evaluatie</h2>

@@ -759,21 +759,23 @@ div.html table {
 <p><a href="https://www.w3schools.com/php/php_oop_inheritance.asp">erven</a><br>
 <a href="https://www.phptutorial.net/php-oop/">OOP</a><br></p>
 <h3>Opdracht</h3>
-<p>Inleiding: We gaan nu een Trainer en Spelers toevoegen aan het team. Hiervoor maken we classes aan voor Trainer en Speler, maar omdat deze veel gemeenschappelijk hebben ( naam, geboortedatum, adres, postcode , woonplaats, telefoonnummer) willen we deze gegevens 1x voor allebei de classes vastleggen. Daarom maken we een base class Persoon ( basis) waarvan we gaan afleiden (overerven of inheritance). Door deze overerving krijgen we automatisch in de afgeleide classes ( Trainer en Speler) alle methoden en properties van de base Class Persoon.</p>
+<p>Inleiding: We gaan nu een Trainer en Spelers toevoegen aan het team. Hiervoor maken we classes aan voor Trainer en Speler,
+maar omdat deze veel gemeenschappelijk hebben ( naam, geboortedatum, adres, postcode , woonplaats, telefoonnummer)
+willen we deze gegevens 1x voor allebei de classes vastleggen. Daarom maken we een base class Persoon (basis) waarvan
+we gaan afleiden (overerven of inheritance). Door deze overerving krijgen we automatisch in de afgeleide classes
+(Trainer en Speler) alle methoden en properties van de base Class Persoon.</p>
 <ol>
 <li>
-<p>Maak deze drie classes, begin bij Persoon.</p>
-<p>Class Persoon:   <br>
-Properties zijn: naam, geboortedatum, adres, postcode, woonplaats, telefoonnummer
+<p>Maak deze drie classes;</p>
+<p>Class <strong>Persoon</strong><br>
+met de properties zijn: naam, geboortedatum, adres, huisnr, postcode, woonplaats, telefoonnummer
 <br>   <br>
-Class Trainer : Persoon   <br>
-Properties zijn: diploma ( bv: Geen, UEFA A, UEFA B, UEFA C, Coach Betaald Voetbal )
+Class <strong>Trainer</strong> erft van <strong>Persoon</strong><br>
+met de property: diploma (bijv: Geen, UEFA A, UEFA B, UEFA C, Coach Betaald Voetbal )
 <br><br>
-Class Speler: Persoon   <br>
-Properties zijn: positie ( Spits, Middenvelder, Aanvaller, Verdediger, Keeper, CVM etc.)
+Class <strong>Speler</strong> erft van <strong>Persoon</strong><br>
+met de property: positie (Spits, Middenvelder, Aanvaller, Verdediger, Keeper, CVM etc.) en geblesseerd (true/false).<br>
 <br><br>
-Geblesseerd ( true/false)<br>
-<br>
 Let op: Alle properties hebben getters/setters!!! Maak de properties private.</p>
 </li>
 <li>
