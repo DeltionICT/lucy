@@ -31,7 +31,6 @@ Constructors zijn optioneel.
     // reading classes with methods
     class clsCalc
     {
-        public $failMessage   = '';
         public $round         = null;
         puclic $valueX        = 0;             // property valueX
         public $valueY        = 1;             // property valueY
@@ -49,7 +48,7 @@ Constructors zijn optioneel.
     
         public function setY($pY)           // setter of Y
         {
-            $this->valueX = $pX;
+            $this->valueY = $pY;
         }
  
         public function getSom()      
@@ -61,10 +60,13 @@ Constructors zijn optioneel.
     }
 
     $objectSom = new clsCalc();                     // make 1st object with rounding of default value 2
-    $renderSom =  $objectSom->som(10.12345);     // call methode on object 
+    $objectSom->setX(10.12345);
+    $renderSom =  $objectSom->getSom();     // call methode on object 
    
     $objectSom1 = new clsCalc(3);                    // optional: make 2nd object with rounding of 3
-    $renderSom1 =   $objectSom1->som(1234.567, 3377.99999);     // call methode on object  
+    $objectSom1->setX(1234.567);
+    $objectSom1->setY(3377.99999);
+    $renderSom1 =   $objectSom1->getSom();     // call methode on object  
 
 ?>
 <html>  
