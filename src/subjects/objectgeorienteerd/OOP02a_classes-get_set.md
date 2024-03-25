@@ -1,4 +1,4 @@
-~~---
+---
 title: Getters en setters gebruiken
 date: 2024-03-19
 author: rkerssies,kstarreveld
