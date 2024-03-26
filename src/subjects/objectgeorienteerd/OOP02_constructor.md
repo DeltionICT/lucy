@@ -85,11 +85,11 @@ Constructors zijn optioneel.
 ```
 
 ## Opdracht
-Maak drie verschillende objecten aanmaakt, voor elk voedbalteam één object.
+Maak drie verschillende objecten aanmaakt, voor elk voetbalteam één object.
 De clubnaam, plaats en teamcode worden met de constructor in properties gezet.
 
 ## Resultaat
-* Bij het maken van een objecten van een class, worden er direct waarbij bij het
+* Bij het maken van een objecten op basis van een class worden er direct parameters gebruikt en properties geset. 
 * Renderen (vergaren/verzamelen) en weergeven van het resultaat
 
 ## Evaluatie

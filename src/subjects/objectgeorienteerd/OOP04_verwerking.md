@@ -55,7 +55,6 @@ en je het juiste team ook terugkrijgt, of null als deze niet aanwezig is.
 Eerdere basic OOP-vaardigheden combineren en toepassen
 
 
-
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
 Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

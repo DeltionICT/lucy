@@ -35,7 +35,7 @@ worden meegegeven aan methods. Het is 'best-practice' om dit via setter- en gett
     // define classes with methods
     class clsCalc
     {
-        puclic $valueX = 0;             // property valueX
+        public $valueX = 0;             // property valueX
         public $valueY = 0;             // property valueY
         
         public function setX($pX)           // setter of X
@@ -45,7 +45,7 @@ worden meegegeven aan methods. Het is 'best-practice' om dit via setter- en gett
     
         public function setY($pY)           // setter of Y
         {
-            $this->valueX = $pX;
+            $this->valueY = $pY;
         }
     
         public function getSom(  )		    // getter Som

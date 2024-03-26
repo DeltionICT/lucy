@@ -41,7 +41,7 @@ Ook kunnen er properties zijn die alleen binnen de class mogen worden gebruikt, 
     {
         public $failMessage   = '';
         private $failValues   = [];
-        puclic $valueX = 0;             // property valueX
+        public $valueX = 0;             // property valueX
         public $valueY = 1;             // property valueY
         
         public function setX($pX)           // setter of X
@@ -51,7 +51,7 @@ Ook kunnen er properties zijn die alleen binnen de class mogen worden gebruikt, 
     
         public function setY($pY)           // setter of Y
         {
-            $this->valueX = $pX;
+            $this->valueY = $pY;
         }
  
         public function getSom()      
