@@ -47,19 +47,13 @@ we gaan afleiden (overerven of inheritance). Door deze overerving krijgen we aut
    Let op: Alle properties hebben getters/setters!!! Maak de properties private.
 
 
-2. Maak constructors. Zorg ervoor dat de constructor van Trainer en Speler de base constructor van Persoon aanroept.
+2. Zorg ervoor dat er constructors voor Trainer en Speler de base constructor van Persoon aanroepen.
 
-
-3. Maak voor elke class een Display methode die de properties in een nette string teruggeeft. 
-Denk na hoe je met de base class omgaat, probeer dubbele code te vermijden.
-
-
-4. De class Team, geef je nu 2 nieuwe properties:
-    Trainer trainer
-    array/list spelers
- 
-a. Maak een getter en setter voor de trainer property, maak deze property private.<br>
-b. Maak een add en een remove functie voor spelers
+3. De class Team, geef je nu 2 nieuwe properties:
+    - Trainer trainer<br>
+    - array/list met meerdere spelers<br>
+  <br>
+   Maak een getter en setter voor de trainer property, maak deze property private.<br>
 
 
 ## Resultaat
