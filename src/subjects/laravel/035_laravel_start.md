@@ -17,6 +17,8 @@ author: jsiewers
 ## Beginsituatie
 * Installeer composer
 * Installeer een laravel project met `composer create-project laravel/laravel mijnproject`
+  * Voer eventueel `composer update` uit in de terminal
+  * Controleer of jij jouw eigen `.env` file hebt met de correcte structuur
 * Start de webserver met `php artisan serve` 
 
 ##  Opdracht
