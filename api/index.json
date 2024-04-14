@@ -2068,6 +2068,18 @@
         "title":"js120 | Vue - NodeJS",
         "author":"cstegeman",
         "date":"Mon Apr 08 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/project-bso/",
+        "title":"Project BSO",
+        "author":"jsiewers",
+        "date":"Sun Apr 14 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/project-kinderopvang/",
+        "title":"Project Kinderopvang",
+        "author":"jsiewers",
+        "date":"Sun Apr 14 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
