@@ -687,34 +687,34 @@ div.html table {
     </div>
     <div class="authors">
         <span slot="authors">Koos Starreveld</span> |
-        <span slot="date">Oct 30, 2023</span>
+        <span slot="date">Apr 10, 2024</span>
     </div>
     <div class="title">
-        <h1><div slot="title">Windows Forms oefen opdrachten</div></h1>
+        <h1><div slot="title">Windows Forms met Mysql database</div></h1>
     </div>
 
 </main-title>
 <main-content class="webcftrhj"><div class="sidebar">
     <ul>
-        <list-link url="/subjects/c-basis/introductie/" page="/subjects/c-basis/windows-forms-oefen-opdrachten/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/introductie/"><li class="notselected">Introductie</li></a>
+        <list-link url="/subjects/c-basis/introductie/" page="/subjects/c-basis/windows-forms-met-mysql-database/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/introductie/"><li class="notselected">Introductie</li></a>
 
 </list-link>
-<list-link url="/subjects/c-basis/windows-console-basis-opdrachten/" page="/subjects/c-basis/windows-forms-oefen-opdrachten/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-console-basis-opdrachten/"><li class="notselected">Windows console basis opdrachten</li></a>
+<list-link url="/subjects/c-basis/windows-console-basis-opdrachten/" page="/subjects/c-basis/windows-forms-met-mysql-database/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-console-basis-opdrachten/"><li class="notselected">Windows console basis opdrachten</li></a>
 
 </list-link>
-<list-link url="/subjects/c-basis/windows-forms-basis-opdrachten/" page="/subjects/c-basis/windows-forms-oefen-opdrachten/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-forms-basis-opdrachten/"><li class="notselected">Windows Forms basis opdrachten</li></a>
+<list-link url="/subjects/c-basis/windows-forms-basis-opdrachten/" page="/subjects/c-basis/windows-forms-met-mysql-database/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-forms-basis-opdrachten/"><li class="notselected">Windows Forms basis opdrachten</li></a>
 
 </list-link>
-<list-link url="/subjects/c-basis/windows-forms-medium-opdrachten/" page="/subjects/c-basis/windows-forms-oefen-opdrachten/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-forms-medium-opdrachten/"><li class="notselected">Windows Forms medium opdrachten</li></a>
+<list-link url="/subjects/c-basis/windows-forms-medium-opdrachten/" page="/subjects/c-basis/windows-forms-met-mysql-database/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-forms-medium-opdrachten/"><li class="notselected">Windows Forms medium opdrachten</li></a>
 
 </list-link>
-<list-link url="/subjects/c-basis/windows-forms-oefen-opdrachten/" page="/subjects/c-basis/windows-forms-oefen-opdrachten/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-forms-oefen-opdrachten/"><li class="selected">Windows Forms oefen opdrachten</li></a>
+<list-link url="/subjects/c-basis/windows-forms-oefen-opdrachten/" page="/subjects/c-basis/windows-forms-met-mysql-database/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-forms-oefen-opdrachten/"><li class="notselected">Windows Forms oefen opdrachten</li></a>
 
 </list-link>
-<list-link url="/subjects/c-basis/windows-website-duo-project/" page="/subjects/c-basis/windows-forms-oefen-opdrachten/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-website-duo-project/"><li class="notselected">Windows website duo Project</li></a>
+<list-link url="/subjects/c-basis/windows-website-duo-project/" page="/subjects/c-basis/windows-forms-met-mysql-database/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-website-duo-project/"><li class="notselected">Windows website duo Project</li></a>
 
 </list-link>
-<list-link url="/subjects/c-basis/windows-forms-met-mysql-database/" page="/subjects/c-basis/windows-forms-oefen-opdrachten/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-forms-met-mysql-database/"><li class="notselected">Windows Forms met Mysql database</li></a>
+<list-link url="/subjects/c-basis/windows-forms-met-mysql-database/" page="/subjects/c-basis/windows-forms-met-mysql-database/" class="wv0jwq1on"><a href="/lucy/subjects/c-basis/windows-forms-met-mysql-database/"><li class="selected">Windows Forms met Mysql database</li></a>
 
 </list-link>
     </ul>
@@ -723,13 +723,58 @@ div.html table {
     <blockquote>
 <h3>Voorkennis</h3>
 <p>Basis van programmeren: (if -else / for loops/ arrays beheersen).
-Basis Windows Forms application kunnen maken.</p>
+Basis Windows Forms application kunnen maken.
+Basis OOP  ( objecten kunnen aanmaken )</p>
 </blockquote>
 <h3>Resultaat</h3>
-<p>Windows Forms applications kunnen maken.</p>
+<p>Windows Forms applications kunnen maken die een connectie maakt en data ophaalt uit een Mysql db. ( Mr Wheely)</p>
 <h3>Opdracht</h3>
-<p>Werk de 1e <a href="/lucy/_assets/csharp/Oefenopdracht%20Forms%20(Premie%20Berekenen).pdf">Windows Forms oefenopdrachten</a> uit</p>
-<p>Werk de 2e <a href="/lucy/_assets/csharp/Oefenopdracht%20Forms%20(Verkeersboete%20Berekenen).pdf">Windows Forms oefenopdrachten</a> uit</p>
+<p>Maak een  Windows Forms APP (.NET Framework) die gegevens leest ( en schrijft) uit een mysql
+database tabel. De gegevens in de tabel zijn gegeven in een sql scriptje en bestaat uit auto gegevens ( cars ) . cartype, license_plate, year, manufacturer, km.
+In stappen ga je code schrijven om deze gegevens weer te geven. En om nieuwe auto data in te voeren in deze tabel .</p>
+<h1>De Setup:</h1>
+<ol>
+<li>
+<p>Check dat XAMPP met MYSQL draait.</p>
+</li>
+<li>
+<p>Maak zelf een nieuwe database aan : mycarcompany,</p>
+</li>
+<li>
+<p>Run het <a href="/lucy/_assets/csharp/mysql/cars.sql">cars</a> script in PHPMyadmin in de database mycarcompany.</p>
+</li>
+<li>
+<p>Create een  nieuw project in Visual Studio Community 2022 : kies een  Windows Forms APP (.NET Framework) project</p>
+</li>
+<li>
+<p>Voeg met de NuGet Package Manager aan je project de library voor Mysql toe.</p>
+</li>
+</ol>
+<blockquote>
+<ul>
+<li>via menu : Tools =&gt; NuGet Package Manager =&gt; Manage NuGet Packages for Solution</li>
+<li>Browse en installeer Mysql.Data ( zie plaatje ) volg hierbij de installatie stappen.</li>
+</ul>
+</blockquote>
+<img src="/lucy/_assets/csharp/mysql/nuget.png" alt="nuget" style="width:850px">
+<h1>De opdracht</h1>
+<p>Maak nu een scherm met een overzicht van auto's . Als dit gelukt is moet je de mogelijkheid om een nieuwe auto toe te voegen aan de database en het overzicht maken.</p>
+<p>Hiervoor moet je een aantal stappen nemen:</p>
+<ol>
+<li>Connectie met de database (gebruik de class MySqlConnection )</li>
+<li>Query maken en versturen ( gebruik de class  MySqlCommand )</li>
+<li>Eventueel resultaten ophalen ( gebruik de class MySqlDataReader )
+<br>
+<br></li>
+</ol>
+<blockquote>
+<p>Een compleet voorbeeld met andere data vind je met uitleg op </p><h3><a href="https://youtu.be/qjrbEZk9_ZQ?feature=shared">Beginners C# Tutorial with MySQL Database Connection</a> op Youtube</h3>.<br>
+Een aantal los staande code voorbeelden voor gebruik van de Mysql Connector classes kun je vinden op <h3><a href="https://zetcode.com/csharp/mysql/">Zetcode.com in deze tutorial</a></h3><p></p>
+</blockquote>
+<ol start="4">
+<li>Vergeet niet aan het eind je connectie met de database weer te sluiten ( Close )</li>
+</ol>
+<p>Succes.</p>
 
 </div>
 
