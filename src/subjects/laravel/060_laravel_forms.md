@@ -1,35 +1,48 @@
 ---
 title: Restaurant
-author: jsiewers
+author: jsiewers,rkerssies
 ---
 
 > #### Voorkennis
-> * Je hebt kennis van object georienteerd programmeren in php
-> * Je hebt kennis van composer en je kunt libraries installeren met composer
-> * Je kunt Laravel Breeze installeren en je kunt php artisan gebruiken om je installatie op te starten
+> * Je hebt kennis van object geörienteerd programmeren in php
+> * Je hebt kennis van composer en je kunt packages installeren met composer
+> * Je kunt Laravel-Breeze installeren en je kunt php artisan gebruiken om je installatie op te starten
 > * Je kunt beveiligde routes maken in Laravel
 > * Je kunt eenvoudige queries toepassen met mysql
 > * Deze opdracht is een vervolg op de opdracht `Laravel authenticatie`
 
 > #### Dit ga je leren
-> * Je gaat een database gebruiken met Laravel
-> * Je gaat migrations aanmaken in Laravel artisan.
-> * Je gaat models en controllers toepassen in je applicatie
-> * Je gaat formulieren maken in laravel om gegevens op te slaan, aan te passen of te verwijderen
+> * Je gaat een database en Models toepassen met Laravel
+> * Je gaat migrations en seeders toepassen in Laravel met Artisan.
+> * Je gaat Models en Controllers toepassen in je applicatie
+> * Je gaat formulieren maken in Laravel om gegevens op te slaan, aan te passen of te verwijderen (CRUD)
 
 {{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
 
 ## Beginsituatie
-* Installeer de laatste versie van Laravel Breeze
-* Installeer MySQL-server en client (geïntegreerd met XAMPP)
+* Installeer de laatste versie van Laravel met de package Breeze
+* Zorg dat je een database-server hebt opgestart een database beschikbaar hebt voor jouw Laravel-project (evt. geïntegreerd met XAMPP)
+* Zorg dat de basis applicatie staat en werkt (.env, app-key, db-connectie, etc.)
 
 ##  Opdracht
-* Maak een database aan in MySQL met `create database .....`
-* Maak in Laravel een migration om een tabel `menu_items` toe te voegen
-* Maak een model en een controller voor menu_items
-* Maak velden aan voor `id, name en category_id`
-* Maak een formulier zodat alleen `ingelogde gebruikers` menu_items kunnen toevoegen
-* Maak een pagina waarop een bezoeker `alle menu_items` kan weergeven
+* Maak een homepage voor een restaurant in jouw woonplaats (restaurant naar eigen keuze)
+* Zorg dat de layout er fris en uitnodigend uitziet
+  * Maak daarbij gebruik van CSS en een hergebruikbare layout (@section en @yield gebruiken)
+  * Maak eventueel gebruik van bootstrap of andere CSS-bibliotheken
+* Zorg voor een gallery met sfeer-impressies van het restaurant.
+* Zorg ervoor dat de contactgegevens en de openingstijden getoond worden op de 'contact-page', waarbij de openingstijden aanpasbaar zijn met data uit de database
+* De bezoeker moet een page kunnen bekijken met het gehele menu (of per gang; voorgerecht, hoofdgerecht, desserts, warme dranken, bieren en wijnen, etc.)
+  * Naast de productnaam, prijs en een foto van het gerecht, is ook een beschrijving van de producten te zien, hoe scherp het gerecht is of het gluten/lactose vrij is
+* De restauranteigenaar moet na inloggen het volgende kunnen:
+  * Nieuwe gerechten (in specifieke categorieën) kunnen toevoegen, verwijderen en aanpassen.
+  * Alle gegevens worden in ieder geval gevalideerd
+  * Alle andere bezoekers kunnen deze mogelijkheden niet aanroepen zonder geldige inlog-actie
+### Aandachtspunten
+* De database tabellen kunnne worden opgebouwd door migraties
+* Maak gebruik van dummy-data door gebruik van seders en factories (ook dummy-data voor o.a.: foto's, namen, prijzen, email-adressen, etc. moeten aanwezigzijn)
+* Alle code moet voldoen aan de Laravel code-conventies en locaties
+* Alle code moet voldoen aan de huidige 'best-practices' van OOP
+* Streef een zo gebruikersvriendelijk mogelijke website na
 
 ## Resultaat
 * Een php-applicatie in Laravel op github.com

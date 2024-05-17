@@ -1,7 +1,7 @@
 ---
 title: Breeze
 date: 2023-06-13
-author: jsiewers
+author: jsiewers,rkerssies
 ---
 
 > #### Voorkennis
@@ -17,16 +17,22 @@ author: jsiewers
 
 ## Beginsituatie
 * Installeer de laatste versie van Laravel
-* Installeer de libraries om authenticatie toe te passen (bijv. Laravel Breeze)
+  * Zorg dat de .env-file, de app-key correct zijn uitgevoerd en alle packages met composer zijn opgehaald
+
 
 ##  Opdracht
 * Maak een website waar je je als bezoeker kunt registreren
-* Je kunt in- en uitloggen
-* Er zijn 2 pagina's die je als bezoeker kunt bekijken
-* De andere 2 pagina's zijn beveiligd. Je kunt deze pagina's alleen als gebruiker bezoeken.
+* Installeer de libraries om authenticatie toe te passen (bijv. Laravel Breeze) met composer
+* Zorg dat de package correct wordt geconfigureerd binnen het framework
+* Je kunt nu in- en uitloggen, maar het heeft alleen effect op een dashboard-page (die automatisch is toegevoegd)
+  * Maak twee extra web-pages aan met elk een route en Controller en actions en bij behorende views.
+  * Zorg ervoor dat deze 2 nieuwe webpagina's alleen te bekijken zijn als je bent ingelogd
+  * Beveilig de routes met een route-group en de 'auth-middleware'.
+  * Als je niet bent ingelogd en toch de url (path) opvraagt in de browser, dan word je geredirect naar de inlog-pagina.  
+  * Andere webpagina's die niet in de route-groep met auth-middle ware staan zijn altijd te benaderen.
 
 ## Resultaat
-* Een php-applicatie in Laravel op github.com
+* Een php-applicatie met inlog-systeem in Laravel op github.com
 
 
 ## Uitleg
