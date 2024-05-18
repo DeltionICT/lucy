@@ -5,14 +5,14 @@ author: jsiewers
 ---
 
 > #### Voorkennis
-> * Je hebt kennis van object georienteerd programmeren in php
-> * Kunnen werken met databases (bijv: MySQL / MariaDB)
+> * Je hebt kennis van object georienteerd programmeren (OOP) in PHP
+> * Kunnen werken met databases en queries (bijv: MySQL / MariaDB)
 
 > #### Dit ga je leren
 > * Je gaat een eerste project maken met Laravel
-> * Je leert werken met routes, Controllers met actions en views in Laravel
-> * Je leert een enkele layout-view her te gebruiken voor meerder web-pages
-> * Je leert in een layout-file gebruik te maken van CSS-files in de public-map
+> * Je leert werken met routes, Controllers met actions en views in Laravel en dit toepassen
+> * Je leert een enkele layout-view her te gebruiken voor meerder web-pages en dit toepassen
+> * Je leert in een layout-file gebruik te maken van CSS-files in de public-map en dit toepassen
 
 {{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
 
@@ -29,11 +29,12 @@ author: jsiewers
 * Maak een website over een willekeurig onderwerp (bijvoorbeeld jouw eigen portfolio-site, of kijk op Lucy voor andere project-ideeën.)
 
 * De site moet minimaal 3 webpagina's tonen die worden aangeroepen via de actions van een Controller-class.
-  * Maak benodigde Controller-classes aan met `php artisan` en houdt je aan de naamgeving standaarden.
+  * Maak benodigde Controller-classes aan met `php artisan make:controller ......` en houdt je aan de naamgeving standaarden.
   * Maak routes in de `routes/wep.php' file die verwijzen naar een Controller-class en een action.<br>
   Een Controller-class kan meerdere actions hebben (binnen één thema, bijv: gebruikers beheer, of gallery). Voor elke action kan er een aparte route gemaakt worden.
-  * Maak de benodigde view-files aan met `php artisan`, deze moeten te vinden zijn in de folder 'resources/views'.
+  * Maak de benodigde view-files aan met `php artisan view  .....`, deze moeten te vinden zijn in de folder 'resources/views'.
   * Zorg dat alle actions in de Controller-class de benodigde view-file (Blade) aanroepen en dit teruggeven met een `return` in de action.
+    * Zorg eventueel dat (statische) data-array in de Controller-action wordt opgebouwd en dat deze array-data in de view kan wordt getoond.  
     
 
 * Maak eigen layout met look en feel in een view-file 'layout', waarin de eerder gemaakte viewfiles worden ingevoegd.
@@ -111,4 +112,12 @@ NB: de href-links zijn hier niet correct uitgevoerd!
 * Jouw code en werkwijze kunnen toelichten
 
 ## Uitleg
+[Routing](https://laravel.com/docs/11.x/routing#the-default-route-files)<br>
+[Controllers](https://laravel.com/docs/11.x/controllers#basic-controllers)<br>
+[Views met Blade](https://laravel.com/docs/11.x/views#creating-and-rendering-views)<br>
+[Layouts in Blade-views](https://laravel.com/docs/4.2/templates#controller-layouts)<br>
+[Passing data from a Controller-action to a view](https://laravel.com/docs/11.x/views#passing-data-to-views)
+
+[Optimize (refresh) routes, views and cache](https://laravel.com/docs/11.x/deployment#optimization)
+
 [https://www.edutorial.nl/laravel/views/](https://www.edutorial.nl/laravel/views/)

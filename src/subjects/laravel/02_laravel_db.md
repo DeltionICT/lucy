@@ -1,5 +1,5 @@
 ---
-title: Databases met Laravel
+title: Databases en data-interacties
 date: 2024-05-17
 author: jsiewers,rkerssies
 ---
@@ -7,11 +7,11 @@ author: jsiewers,rkerssies
 > #### Voorkennis
 > * Je hebt kennis van object georienteerd programmeren in php
 > * Je hebt een basis web-applicatie gemaakt in Laravel
-> * Je begrijpt het werken van routes naar Controller-actions naar views 
+> * Je begrijpt en kan werken met routes, Controller-actions en views 
 
 > #### Dit ga je leren
 > * Je gaat een tweede project maken met laravel
-> * Je leert werken met routes, controllers en models in laravel
+> * Je leert werken met routes, controllers en models in Laravel
 > * Je leert data ophalen/bewerken door middel van een Model 
 > * Je leert migraties en seeders te gebruiken 
 
@@ -26,7 +26,7 @@ author: jsiewers,rkerssies
     * Voer eventueel ook `php artisan key:generate` uit, zodat jouw applicatie een eigen unieke sleutel heeft voor encryptie
 * Deze applicatie is gemaakt met Laravel 10 en uitgebreid met een aantal migrations. Met `php artisan migrate:fresh --seed` wordt de database-structuur aangemaakt en worden de tabellen gevuld met data.
   * Er wordt gebruik gemaakt van files in de map 'database/migrations' om de database tabellen op te bouwen
-  * ERr wordt gebruik gemaakt van sseders en factories in de map 'database/factory' en 'database/seerders' om dummy-data aan te maken. 
+  * Er wordt gebruik gemaakt van seeders en factories in de map 'database/factory' en 'database/seerders' om dummy-data aan te maken. 
 * Er zijn 2 tabellen in de database:
     * menu_items (milk, cheese, potatoes etc.)
     * categorieën (vegetables, fruit etc.)
@@ -35,7 +35,7 @@ author: jsiewers,rkerssies
 * Maak een overzicht van dingen die je kunt eten en drinken (MenuItems) in laravel.
 * Maak een route aan in `web.php`
 * Maak een Model 'MenuItems' aan en plaats daarin de property `$fillable` met een array met alle gewenste keys
-* Voer een query uit door het Model aan te roepen en met "Eloquent" de data op dat het Model-object op te halen, bijvoorbeeld door;<br>
+* Voer een query uit door het Model aan te roepen en met "Eloquent" in een Controller-action. De data kan via het Model-object op te halen door bijvoorbeeld;<br>
   ```php
   $model = new MenuItems(); // make Model-object of class MenuUtems
   $data = $model->all();    // query all records from table `menu_items`
@@ -69,4 +69,22 @@ author: jsiewers,rkerssies
 
 
 ## Uitleg
-[https://www.edutorial.nl/laravel/installatie/](https://www.edutorial.nl/laravel/installatie/)
+- [Migration om database-tabellen te maken](https://laravel.com/docs/11.x/migrations)
+- [Dummy-data maken met seeding](https://laravel.com/docs/11.x/seeding#main-content)
+- [Faker options](https://fakerphp.github.io) are already in place within Laravel
+
+- [Models aanmaken](https://laravel.com/docs/11.x/eloquent#generating-model-classes)
+- [Models gebruiken, Eloquent](https://laravel.com/docs/11.x/eloquent#retrieving-models), Dit kan met 'Facades' van laravel of op de gebruikelijke PHP-OOP manier;<br>
+```php
+use App\Models\Flight;
+
+$flightObject = new Flight();
+dd( $flightObject->all() );      // with PHP-OOP, dumps all records of the table `flights` on screen
+ 
+dd( Flight::all() );              // with a Larvel-Facade, dumps all records of the table `flights` on screen
+```
+- [Paginationing data](https://laravel.com/docs/11.x/pagination#paginating-query-builder-results)<br>
+- In migrations kunnen relaties tussen tabellen worden gelegd (één-op-één, één-op-veel en veel-op-veel), zodat de relaties in een gegenereerde ERD zichtbaar worden<br>
+- In Models kunnen relaties tussen tabellen worden gelegd (één-op-één, één-op-veel en veel-op-veel), zodat er met Eloquent data en records over verschillende tabellen kan uitvragen   
+
+- [https://www.edutorial.nl/laravel/installatie/](https://www.edutorial.nl/laravel/installatie/)
