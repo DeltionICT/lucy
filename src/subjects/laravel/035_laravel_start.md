@@ -1,7 +1,7 @@
 ---
 title: Starten met Laravel
 date: 2024-05-17
-author: rkersies,jsiewers
+author: jsiewers
 ---
 
 > #### Voorkennis
@@ -40,6 +40,8 @@ author: rkersies,jsiewers
   * Maak een view-file aan in submap 'resources/views/basislayout'. 
   * In de basis-layout met `Blade` met daarin een navigariebalk en een `@yield('content')` om aangeroepen view-files in te tonen.<br>
   Een basis voorbeeld is hieronder gegeven;
+
+{% raw %}
 ```html
 <html>
   <head>
@@ -67,12 +69,12 @@ author: rkersies,jsiewers
   </body>
 </html>
 ```
+{% endraw %}
 NB: de href-links zijn hier niet correct uitgevoerd!
 
 
 <div class="html">
     <div style="width:80%;margin:auto;background-color:lightgray;border-radius:8px;padding:8px; color:darkolivegreen">
-      <header>
         <h1>My Laravel-site</h1>
         <nav>
             <a href="#" style="padding:4px;display:inline-block;background-color:lightblue">Home</a>
@@ -80,25 +82,28 @@ NB: de href-links zijn hier niet correct uitgevoerd!
             <a href="#" style="padding:4px;display:inline-block;background-color:lightblue">Contact</a>
             <a href="#" style="padding:4px;display:inline-block;background-color:lightblue">Producten</a>
         </nav>
-      </header>
-      <article>
         <main>
             <h2>Over ons</h2>
             <p>Dummy-content. Lorum Vivamus massa nunc, pharetra sed laoreet eu, iaculis ut tortor. Fusce molestie, metus ut
-              condimentum consectetur, sem mi luctus mi, vitae mattis eros ipsum sodales lorem. 
-              Proin mattis malesuada libero, in gravida elit posuere in. Praesent viverra viverra libero, 
+              condimentum consectetur, sem mi luctus mi, vitae mattis eros ipsum sodales lorem.
+              Proin mattis malesuada libero, in gravida elit posuere in. Praesent viverra viverra libero,
               ac convallis lorem congue vitae. Nam malesuada efficitur libero in tincidunt. </p>
         </main>
-      </article>
-      <footer>©2024 by Me</footer>
+      <div style="background-color:darkgrey">©2024 by Me</div>
     </div>
 </div>
 
 
-  * Maak de layout in de view-files (web-pages) beschikbaar door `@extends('basislayout.layout')` bovenin de verschillende view-files te plaatsen. en plaats alle eerder gemaakte views-files met eigen content in de gemaakte layout.<br>
-    Plaats de eerder gemaakte content van de view-files tussen een section; `@section('content')` en `@endsection`.
-  * Werk de look 'n feel verder uit van jouw web-applicatie, gebruik zo nodig een template van het internet of een eigen eerder gemaakte HTML-structuur met CSS.<br>
-    NB: Een CSS-file in 'public/css/style' kan in de layout worden aangeroepen met `<link rel="stylesheet" href="{{ asset('css/style.css') }}">`.
+  * Maak de layout in de view-files (web-pages) beschikbaar door ```@extends('basislayout.layout')```
+  bovenin de verschillende view-files te plaatsen. en plaats alle eerder gemaakte views-files met eigen content in de gemaakte layout.<br>
+    Plaats de eerder gemaakte content van de view-files tussen een section; ```@section('content')``` en ```@endsection```.
+* Werk de look 'n feel verder uit van jouw web-applicatie, gebruik zo nodig een template van het internet of een eigen eerder gemaakte HTML-structuur met CSS.<br>
+  NB: Een CSS-file in 'public/css/style' kan in de layout worden aangeroepen met
+{% raw %}
+```html 
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+```
+{% endraw %}
 
 
 ## Resultaat

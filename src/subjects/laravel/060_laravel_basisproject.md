@@ -1,5 +1,6 @@
 ---
 title: Restaurant
+date: 2024-05-17
 author: jsiewers,rkerssies
 ---
 
@@ -40,7 +41,7 @@ author: jsiewers,rkerssies
   * Alle andere bezoekers kunnen deze mogelijkheden niet aanroepen zonder geldige inlog-actie
 ### Aandachtspunten
 * De database tabellen kunnen worden opgebouwd door migraties
-* Maak gebruik van dummy-data door gebruik van seders en factories (ook dummy-data voor o.a.: foto's, namen, prijzen, email-adressen, etc. moeten aanwezigzijn)
+* Maak gebruik van dummy-data door gebruik van seders en factories (ook dummy-data voor o.a.: foto's, namen, prijzen, email-adressen, etc. moeten aanwezig zijn)
 * Alle code moet voldoen aan de Laravel code-conventies en locaties
 * Alle code moet voldoen aan de huidige 'best-practices' van OOP
 * Streef een zo gebruikersvriendelijk mogelijke website na

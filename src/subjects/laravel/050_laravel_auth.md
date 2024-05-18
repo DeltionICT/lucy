@@ -30,7 +30,7 @@ author: jsiewers,rkerssies
   * Zorg ervoor dat deze 2 nieuwe webpagina's alleen te bekijken zijn als je bent ingelogd
   * Beveilig de routes met een route-group en de 'auth-middleware'.
   * Als je niet bent ingelogd en toch de url (path) opvraagt in de browser, dan word je geredirect naar de inlog-pagina.  
-  * Andere webpagina's die niet in de route-groep met auth-middle ware staan zijn altijd te benaderen.
+  * Andere webpagina's die niet in de route-group met auth-middleware staan zijn altijd te benaderen.
 
 ## Resultaat
 * Een php-applicatie met inlog-systeem in Laravel op github.com
