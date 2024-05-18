@@ -18,6 +18,7 @@ author: jsiewers,rkerssies
 {{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
 
 ## Beginsituatie
+* Zorg voor een PHP-versie die benodigd is voor de te installeren Laravel-versie. Update PHP (XAMPP) eventueel.
 * Kloon de [laravel-applicatie](https://github.com/siewers32/restaurant) met `git clone` vanaf github.com (oudere Laravel-versie)
   * Voer eventueel `composer update` uit in de terminal
   * Controleer of jij jouw eigen `.env` file hebt en dat daarin de juiste database gegevens staan. (de database moet wel bestaan op de db-server)
@@ -63,7 +64,8 @@ author: jsiewers,rkerssies
 
 
 ## Resultaat
-Een php-applicatie met database en CRUD-mogelijkheden en validatie in Laravel op github.com
+* Een PHP-applicatie met database en CRUD-mogelijkheden en validatie in Laravel op github.com
+* Jouw code en werkwijze kunnen toelichten
 
 
 ## Uitleg

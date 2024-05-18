@@ -16,6 +16,7 @@ author: jsiewers,rkerssies
 {{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
 
 ## Beginsituatie
+* Zorg voor een up-to-date versie van Composer en PHP.
 * Installeer de laatste versie van Laravel
   * Zorg dat de .env-file, de app-key correct zijn uitgevoerd en alle packages met composer zijn opgehaald
 
@@ -33,7 +34,7 @@ author: jsiewers,rkerssies
 
 ## Resultaat
 * Een php-applicatie met inlog-systeem in Laravel op github.com
-
+* Jouw code en werkwijze kunnen toelichten
 
 ## Uitleg
 [Laravel uitleg op edutorial.nl](http://www.edutorial.nl/laravel/introductie/)

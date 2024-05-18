@@ -20,6 +20,7 @@ author: jsiewers,rkerssies
 {{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
 
 ## Beginsituatie
+* Zorg voor een up-to-date versie van Composer en PHP.
 * Installeer de laatste versie van Laravel met de package Breeze
 * Zorg dat je een database-server hebt opgestart een database beschikbaar hebt voor jouw Laravel-project (evt. geïntegreerd met XAMPP)
 * Zorg dat de basis applicatie staat en werkt (.env, app-key, db-connectie, etc.)
@@ -29,8 +30,8 @@ author: jsiewers,rkerssies
 * Zorg dat de layout er fris en uitnodigend uitziet
   * Maak daarbij gebruik van CSS en een hergebruikbare layout (@section en @yield gebruiken)
   * Maak eventueel gebruik van bootstrap of andere CSS-bibliotheken
-* Zorg voor een gallery met sfeer-impressies van het restaurant.
-* Zorg ervoor dat de contactgegevens en de openingstijden getoond worden op de 'contact-page', waarbij de openingstijden aanpasbaar zijn met data uit de database
+* Maak voor een gallery met sfeer-impressies van het restaurant.
+* Maak ervoor dat de contactgegevens en de openingstijden getoond worden op de 'contact-page', waarbij de openingstijden aanpasbaar zijn met data uit de database
 * De bezoeker moet een page kunnen bekijken met het gehele menu (of per gang; voorgerecht, hoofdgerecht, desserts, warme dranken, bieren en wijnen, etc.)
   * Naast de productnaam, prijs en een foto van het gerecht, is ook een beschrijving van de producten te zien, hoe scherp het gerecht is of het gluten/lactose vrij is
 * De restauranteigenaar moet na inloggen het volgende kunnen:
@@ -45,7 +46,8 @@ author: jsiewers,rkerssies
 * Streef een zo gebruikersvriendelijk mogelijke website na
 
 ## Resultaat
-* Een php-applicatie in Laravel op github.com
+* Een complete PHP-applicatie in Laravel op github.com
+* Jouw code en werkwijze kunnen toelichten
 
 
 ## Uitleg
