@@ -686,8 +686,8 @@ div.html table {
         <a href="/lucy/subjects/laravel/introductie/"><p slot="category">Laravel</p></a>
     </div>
     <div class="authors">
-        <span slot="authors">Jan Jaap Siewers</span> |
-        <span slot="date">Invalid DateTime</span>
+        <span slot="authors">Ronald Kerssies, Jan Jaap Siewers</span> |
+        <span slot="date">May 17, 2024</span>
     </div>
     <div class="title">
         <h1><div slot="title">Restaurant</div></h1>
@@ -717,9 +717,9 @@ div.html table {
     <blockquote>
 <h4>Voorkennis</h4>
 <ul>
-<li>Je hebt kennis van object georienteerd programmeren in php</li>
-<li>Je hebt kennis van composer en je kunt libraries installeren met composer</li>
-<li>Je kunt Laravel Breeze installeren en je kunt php artisan gebruiken om je installatie op te starten</li>
+<li>Je hebt kennis van object geörienteerd programmeren in php</li>
+<li>Je hebt kennis van composer en je kunt packages installeren met composer</li>
+<li>Je kunt Laravel-Breeze installeren en je kunt php artisan gebruiken om je installatie op te starten</li>
 <li>Je kunt beveiligde routes maken in Laravel</li>
 <li>Je kunt eenvoudige queries toepassen met mysql</li>
 <li>Deze opdracht is een vervolg op de opdracht <code>Laravel authenticatie</code></li>
@@ -728,30 +728,56 @@ div.html table {
 <blockquote>
 <h4>Dit ga je leren</h4>
 <ul>
-<li>Je gaat een database gebruiken met Laravel</li>
-<li>Je gaat migrations aanmaken in Laravel artisan.</li>
-<li>Je gaat models en controllers toepassen in je applicatie</li>
-<li>Je gaat formulieren maken in laravel om gegevens op te slaan, aan te passen of te verwijderen</li>
+<li>Je gaat een database en Models toepassen met Laravel</li>
+<li>Je gaat migrations en seeders toepassen in Laravel met Artisan.</li>
+<li>Je gaat Models en Controllers toepassen in je applicatie</li>
+<li>Je gaat formulieren maken in Laravel om gegevens op te slaan, aan te passen of te verwijderen (CRUD)</li>
 </ul>
 </blockquote>
 <img src="/lucy/_assets/_icons/laravel-logo.png" alt="laravel" style="width:13%;">
 <h2>Beginsituatie</h2>
 <ul>
-<li>Installeer de laatste versie van Laravel Breeze</li>
-<li>Installeer MySQL-server en client (geïntegreerd met XAMPP)</li>
+<li>Zorg voor een up-to-date versie van Composer en PHP.</li>
+<li>Installeer de laatste versie van Laravel met de package Breeze</li>
+<li>Zorg dat je een database-server hebt opgestart een database beschikbaar hebt voor jouw Laravel-project (evt. geïntegreerd met XAMPP)</li>
+<li>Zorg dat de basis applicatie staat en werkt (.env, app-key, db-connectie, etc.)</li>
 </ul>
 <h2>Opdracht</h2>
 <ul>
-<li>Maak een database aan in MySQL met <code>create database .....</code></li>
-<li>Maak in Laravel een migration om een tabel <code>menu_items</code> toe te voegen</li>
-<li>Maak een model en een controller voor menu_items</li>
-<li>Maak velden aan voor <code>id, name en category_id</code></li>
-<li>Maak een formulier zodat alleen <code>ingelogde gebruikers</code> menu_items kunnen toevoegen</li>
-<li>Maak een pagina waarop een bezoeker <code>alle menu_items</code> kan weergeven</li>
+<li>Maak een homepage voor een restaurant in jouw woonplaats (restaurant naar eigen keuze)</li>
+<li>Zorg dat de layout er fris en uitnodigend uitziet
+<ul>
+<li>Maak daarbij gebruik van CSS en een hergebruikbare layout (@section en @yield gebruiken)</li>
+<li>Maak eventueel gebruik van bootstrap of andere CSS-bibliotheken</li>
+</ul>
+</li>
+<li>Maak voor een gallery met sfeer-impressies van het restaurant.</li>
+<li>Maak ervoor dat de contactgegevens en de openingstijden getoond worden op de 'contact-page', waarbij de openingstijden aanpasbaar zijn met data uit de database</li>
+<li>De bezoeker moet een page kunnen bekijken met het gehele menu (of per gang; voorgerecht, hoofdgerecht, desserts, warme dranken, bieren en wijnen, etc.)
+<ul>
+<li>Naast de productnaam, prijs en een foto van het gerecht, is ook een beschrijving van de producten te zien, hoe scherp het gerecht is of het gluten/lactose vrij is</li>
+</ul>
+</li>
+<li>De restauranteigenaar moet na inloggen het volgende kunnen:
+<ul>
+<li>Nieuwe gerechten (in specifieke categorieën) kunnen toevoegen, verwijderen en aanpassen.</li>
+<li>Alle gegevens worden in ieder geval gevalideerd</li>
+<li>Alle andere bezoekers kunnen deze mogelijkheden niet aanroepen zonder geldige inlog-actie</li>
+</ul>
+</li>
+</ul>
+<h3>Aandachtspunten</h3>
+<ul>
+<li>De database tabellen kunnen worden opgebouwd door migraties</li>
+<li>Maak gebruik van dummy-data door gebruik van seders en factories (ook dummy-data voor o.a.: foto's, namen, prijzen, email-adressen, etc. moeten aanwezig zijn)</li>
+<li>Alle code moet voldoen aan de Laravel code-conventies en locaties</li>
+<li>Alle code moet voldoen aan de huidige 'best-practices' van OOP</li>
+<li>Streef een zo gebruikersvriendelijk mogelijke website na</li>
 </ul>
 <h2>Resultaat</h2>
 <ul>
-<li>Een php-applicatie in Laravel op github.com</li>
+<li>Een complete PHP-applicatie in Laravel op github.com</li>
+<li>Jouw code en werkwijze kunnen toelichten</li>
 </ul>
 <h2>Uitleg</h2>
 <ul>

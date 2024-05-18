@@ -687,7 +687,7 @@ div.html table {
     </div>
     <div class="authors">
         <span slot="authors">Jan Jaap Siewers</span> |
-        <span slot="date">Jun 13, 2023</span>
+        <span slot="date">May 17, 2024</span>
     </div>
     <div class="title">
         <h1><div slot="title">Starten met Laravel</div></h1>
@@ -724,46 +724,84 @@ div.html table {
 <blockquote>
 <h4>Dit ga je leren</h4>
 <ul>
-<li>Je gaat een eerste project maken met laravel</li>
-<li>Je leert werken met routes en views in laravel</li>
+<li>Je gaat een eerste project maken met Laravel</li>
+<li>Je leert werken met routes, Controllers met actions en views in Laravel</li>
+<li>Je leert een enkele layout-view her te gebruiken voor meerder web-pages</li>
+<li>Je leert in een layout-file gebruik te maken van CSS-files in de public-map</li>
 </ul>
 </blockquote>
 <img src="/lucy/_assets/_icons/laravel-logo.png" alt="laravel" style="width:13%;">
 <h2>Beginsituatie</h2>
 <ul>
-<li>Installeer composer</li>
-<li>Installeer een laravel project met <code>composer create-project laravel/laravel mijnproject</code>
+<li>Zorg voor een PHP-versie die benodigd is voor de te installeren Laravel-versie. Update PHP (XAMPP) eventueel.</li>
+<li>Installeer of update <a href="https://getcomposer.org">Composer</a> naar de laatste versie en zorg dat deze globaal op jouw systeem is aan te roepen.</li>
+<li>Installeer een laravel project met <code>composer create-project laravel/laravel mijnproject</code> (&quot;mijnproject&quot; is hierbij de applicatie-naam)
 <ul>
-<li>Voer eventueel <code>composer update</code> uit in de terminal</li>
-<li>Controleer of jij jouw eigen <code>.env</code> file hebt met de correcte structuur</li>
+<li>Voer eventueel <code>composer update</code> uit in de terminal, zeker als het project van Git is gepulled.</li>
+<li>Controleer of jij jouw eigen <code>.env</code> file hebt met de correcte structuur en de juiste gegevens voor een database (dan moet db deze ook bestaan)</li>
+<li>Voer eventueel ook <code>php artisan key:generate</code> uit, zodat jouw applicatie een eigen unieke sleutel heeft voor encryptie</li>
 </ul>
 </li>
-<li>Start de webserver met <code>php artisan serve</code></li>
+<li>Start de webserver met <code>php artisan serve</code> en gebruik de aangegeven link met poortnummer. (Het is ook mogelijk om dit via XAMPP uit te voeren)</li>
 </ul>
 <h2>Opdracht</h2>
 <ul>
-<li>Maak een website over een willekeurig onderwerp (portfolio, apen, tandpasta etc.)</li>
-<li>Er zijn minimaal 3 pagina's</li>
-<li>Je maakt een basis-layout met <code>Blade</code> met minimaal een <code>@section('content')</code> en een <code>@section('navigatie')</code>.</li>
-<li>Met <code>@extends('layout')</code> breidt je de overige pagina's uit met eigen content.</li>
-<li>In de navigatiebalk heeft de huidige pagina andere opmaak</li>
+<li>
+<p>Maak een website over een willekeurig onderwerp (bijvoorbeeld jouw eigen portfolio-site, of kijk op Lucy voor andere project-ideeën.)</p>
+</li>
+<li>
+<p>De site moet minimaal 3 webpagina's tonen die worden aangeroepen via de actions van een Controller-class.</p>
+<ul>
+<li>Maak benodigde Controller-classes aan met <code>php artisan</code> en houdt je aan de naamgeving standaarden.</li>
+<li>Maak routes in de `routes/wep.php' file die verwijzen naar een Controller-class en een action.<br>
+Een Controller-class kan meerdere actions hebben (binnen één thema, bijv: gebruikers beheer, of gallery). Voor elke action kan er een aparte route gemaakt worden.</li>
+<li>Maak de benodigde view-files aan met <code>php artisan</code>, deze moeten te vinden zijn in de folder 'resources/views'.</li>
+<li>Zorg dat alle actions in de Controller-class de benodigde view-file (Blade) aanroepen en dit teruggeven met een <code>return</code> in de action.</li>
 </ul>
+</li>
+<li>
+<p>Maak eigen layout met look en feel in een view-file 'layout', waarin de eerder gemaakte viewfiles worden ingevoegd.</p>
+<ul>
+<li>Maak een view-file aan in submap 'resources/views/basislayout'.</li>
+<li>In de basis-layout met <code>Blade</code> met daarin een navigariebalk en een <code>@yield('content')</code> om aangeroepen view-files in te tonen.<br>
+Een basis voorbeeld is hieronder gegeven;</li>
+</ul>
+</li>
+</ul>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css"><br>      &lt;!-- <span class="token comment">/*your own links to CSS-files*/</span> --><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>My Laravel-site<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">></span></span><br>              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Home<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Over ons<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Contact<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Producten<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span><span class="token punctuation">></span></span><br>              @yield('content')<br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span><span class="token punctuation">></span></span>&amp;copy2024 by Me<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>footer</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<p>NB: de href-links zijn hier niet correct uitgevoerd!</p>
 <div class="html">
-    <div style="width:80%;margin:auto;background-color:lightyellow;border-radius:8px;padding:8px;">
+    <div style="width:80%;margin:auto;background-color:lightgray;border-radius:8px;padding:8px; color:darkolivegreen">
+        <h1>My Laravel-site</h1>
         <nav>
-            <a href="#" style="padding:4px;display:inline-block;background-color:yellow">Home</a>
-            <a href="#" style="padding:4px;display:inline-block;background-color:lightgreen">Over ons</a>
-            <a href="#" style="padding:4px;display:inline-block;background-color:yellow">Contact</a>
-            <a href="#" style="padding:4px;display:inline-block;background-color:yellow">Produkten</a>
+            <a href="#" style="padding:4px;display:inline-block;background-color:lightblue">Home</a>
+            <a href="#" style="padding:4px;display:inline-block;background-color:darkseagreen">Over ons</a>
+            <a href="#" style="padding:4px;display:inline-block;background-color:lightblue">Contact</a>
+            <a href="#" style="padding:4px;display:inline-block;background-color:lightblue">Producten</a>
         </nav>
         <main>
-            <h1>Over ons</h1>
-            <p>Vivamus massa nunc, pharetra sed laoreet eu, iaculis ut tortor. Fusce molestie, metus ut condimentum consectetur, sem mi luctus mi, vitae mattis eros ipsum sodales lorem. Proin mattis malesuada libero, in gravida elit posuere in. Praesent viverra viverra libero, ac convallis lorem congue vitae. Nam malesuada efficitur libero in tincidunt. </p>
+            <h2>Over ons</h2>
+            <p>Dummy-content. Lorum Vivamus massa nunc, pharetra sed laoreet eu, iaculis ut tortor. Fusce molestie, metus ut
+              condimentum consectetur, sem mi luctus mi, vitae mattis eros ipsum sodales lorem.
+              Proin mattis malesuada libero, in gravida elit posuere in. Praesent viverra viverra libero,
+              ac convallis lorem congue vitae. Nam malesuada efficitur libero in tincidunt. </p>
         </main>
+      <div style="background-color:darkgrey">©2024 by Me</div>
     </div>
 </div>
+<ul>
+<li>Maak de layout in de view-files (web-pages) beschikbaar door <code>@extends('basislayout.layout')</code>
+bovenin de verschillende view-files te plaatsen. en plaats alle eerder gemaakte views-files met eigen content in de gemaakte layout.<br>
+Plaats de eerder gemaakte content van de view-files tussen een section; <code>@section('content')</code> en <code>@endsection</code>.</li>
+<li>Werk de look 'n feel verder uit van jouw web-applicatie, gebruik zo nodig een template van het internet of een eigen eerder gemaakte HTML-structuur met CSS.<br>
+NB: Een CSS-file in 'public/css/style' kan in de layout worden aangeroepen met</li>
+</ul>
+<pre class="language-html"><code class="language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ asset('css/style.css') }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
 <h2>Resultaat</h2>
-<p>Een php-applicatie in Laravel op github.com</p>
+<ul>
+<li>Een PHP-applicatie in Laravel op github.com</li>
+<li>Jouw code en werkwijze kunnen toelichten</li>
+</ul>
 <h2>Uitleg</h2>
 <p><a href="https://www.edutorial.nl/laravel/views/">https://www.edutorial.nl/laravel/views/</a></p>
 

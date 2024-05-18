@@ -686,7 +686,7 @@ div.html table {
         <a href="/lucy/subjects/laravel/introductie/"><p slot="category">Laravel</p></a>
     </div>
     <div class="authors">
-        <span slot="authors">Jan Jaap Siewers</span> |
+        <span slot="authors">Ronald Kerssies, Jan Jaap Siewers</span> |
         <span slot="date">Jun 13, 2023</span>
     </div>
     <div class="title">
@@ -732,19 +732,32 @@ div.html table {
 <img src="/lucy/_assets/_icons/laravel-logo.png" alt="laravel" style="width:13%;">
 <h2>Beginsituatie</h2>
 <ul>
-<li>Installeer de laatste versie van Laravel</li>
-<li>Installeer de libraries om authenticatie toe te passen (bijv. Laravel Breeze)</li>
+<li>Zorg voor een up-to-date versie van Composer en PHP.</li>
+<li>Installeer de laatste versie van Laravel
+<ul>
+<li>Zorg dat de .env-file, de app-key correct zijn uitgevoerd en alle packages met composer zijn opgehaald</li>
+</ul>
+</li>
 </ul>
 <h2>Opdracht</h2>
 <ul>
 <li>Maak een website waar je je als bezoeker kunt registreren</li>
-<li>Je kunt in- en uitloggen</li>
-<li>Er zijn 2 pagina's die je als bezoeker kunt bekijken</li>
-<li>De andere 2 pagina's zijn beveiligd. Je kunt deze pagina's alleen als gebruiker bezoeken.</li>
+<li>Installeer de libraries om authenticatie toe te passen (bijv. Laravel Breeze) met composer</li>
+<li>Zorg dat de package correct wordt geconfigureerd binnen het framework</li>
+<li>Je kunt nu in- en uitloggen, maar het heeft alleen effect op een dashboard-page (die automatisch is toegevoegd)
+<ul>
+<li>Maak twee extra web-pages aan met elk een route en Controller en actions en bij behorende views.</li>
+<li>Zorg ervoor dat deze 2 nieuwe webpagina's alleen te bekijken zijn als je bent ingelogd</li>
+<li>Beveilig de routes met een route-group en de 'auth-middleware'.</li>
+<li>Als je niet bent ingelogd en toch de url (path) opvraagt in de browser, dan word je geredirect naar de inlog-pagina.</li>
+<li>Andere webpagina's die niet in de route-group met auth-middleware staan zijn altijd te benaderen.</li>
+</ul>
+</li>
 </ul>
 <h2>Resultaat</h2>
 <ul>
-<li>Een php-applicatie in Laravel op github.com</li>
+<li>Een php-applicatie met inlog-systeem in Laravel op github.com</li>
+<li>Jouw code en werkwijze kunnen toelichten</li>
 </ul>
 <h2>Uitleg</h2>
 <p><a href="http://www.edutorial.nl/laravel/introductie/">Laravel uitleg op edutorial.nl</a></p>

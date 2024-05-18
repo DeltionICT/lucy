@@ -1278,21 +1278,9 @@
         "date":"Thu Jun 08 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/laravel/starten-met-laravel/",
-        "title":"Starten met Laravel",
-        "author":"jsiewers",
-        "date":"Tue Jun 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/laravel/databases-met-laravel/",
-        "title":"Databases met Laravel",
-        "author":"jsiewers",
-        "date":"Tue Jun 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/laravel/breeze/",
         "title":"Breeze",
-        "author":"jsiewers",
+        "author":"jsiewers,rkerssies",
         "date":"Tue Jun 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
@@ -2086,6 +2074,24 @@
         "title":"Project Kinderopvang",
         "author":"jsiewers",
         "date":"Sun Apr 14 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/laravel/starten-met-laravel/",
+        "title":"Starten met Laravel",
+        "author":"jsiewers",
+        "date":"Fri May 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/laravel/databases-met-laravel/",
+        "title":"Databases met Laravel",
+        "author":"jsiewers,rkerssies",
+        "date":"Fri May 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/laravel/restaurant/",
+        "title":"Restaurant",
+        "author":"jsiewers,rkerssies",
+        "date":"Fri May 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
