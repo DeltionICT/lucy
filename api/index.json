@@ -1278,15 +1278,15 @@
         "date":"Thu Jun 08 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/laravel/breeze/",
-        "title":"Breeze",
+        "url":"/lucy/subjects/laravel/breeze-inlog-systeem/",
+        "title":"Breeze inlog-systeem",
         "author":"jsiewers,rkerssies",
         "date":"Tue Jun 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
         "url":"/lucy/subjects/laravel/introductie/",
         "title":"Introductie",
-        "author":"jsiewers",
+        "author":"jsiewers,rkerssies",
         "date":"Wed Jun 21 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
@@ -2082,9 +2082,15 @@
         "date":"Fri May 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/laravel/databases-met-laravel/",
-        "title":"Databases met Laravel",
+        "url":"/lucy/subjects/laravel/databases-en-data-interacties/",
+        "title":"Databases en data-interacties",
         "author":"jsiewers,rkerssies",
+        "date":"Fri May 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/laravel/formulieren/",
+        "title":"Formulieren",
+        "author":"rkerssies",
         "date":"Fri May 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 

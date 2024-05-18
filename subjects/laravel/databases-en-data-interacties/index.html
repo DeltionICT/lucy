@@ -686,32 +686,32 @@ div.html table {
         <a href="/lucy/subjects/laravel/introductie/"><p slot="category">Laravel</p></a>
     </div>
     <div class="authors">
-        <span slot="authors">Jan Jaap Siewers</span> |
+        <span slot="authors">Ronald Kerssies, Jan Jaap Siewers</span> |
         <span slot="date">May 17, 2024</span>
     </div>
     <div class="title">
-        <h1><div slot="title">Starten met Laravel</div></h1>
+        <h1><div slot="title">Databases en data-interacties</div></h1>
     </div>
 
 </main-title>
 <main-content class="webcftrhj"><div class="sidebar">
     <ul>
-        <list-link url="/subjects/laravel/introductie/" page="/subjects/laravel/starten-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/introductie/"><li class="notselected">Introductie</li></a>
+        <list-link url="/subjects/laravel/introductie/" page="/subjects/laravel/databases-en-data-interacties/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/introductie/"><li class="notselected">Introductie</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/starten-met-laravel/" page="/subjects/laravel/starten-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/starten-met-laravel/"><li class="selected">Starten met Laravel</li></a>
+<list-link url="/subjects/laravel/starten-met-laravel/" page="/subjects/laravel/databases-en-data-interacties/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/starten-met-laravel/"><li class="notselected">Starten met Laravel</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/databases-en-data-interacties/" page="/subjects/laravel/starten-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/databases-en-data-interacties/"><li class="notselected">Databases en data-interacties</li></a>
+<list-link url="/subjects/laravel/databases-en-data-interacties/" page="/subjects/laravel/databases-en-data-interacties/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/databases-en-data-interacties/"><li class="selected">Databases en data-interacties</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/breeze-inlog-systeem/" page="/subjects/laravel/starten-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/breeze-inlog-systeem/"><li class="notselected">Breeze inlog-systeem</li></a>
+<list-link url="/subjects/laravel/breeze-inlog-systeem/" page="/subjects/laravel/databases-en-data-interacties/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/breeze-inlog-systeem/"><li class="notselected">Breeze inlog-systeem</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/formulieren/" page="/subjects/laravel/starten-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/formulieren/"><li class="notselected">Formulieren</li></a>
+<list-link url="/subjects/laravel/formulieren/" page="/subjects/laravel/databases-en-data-interacties/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/formulieren/"><li class="notselected">Formulieren</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/restaurant/" page="/subjects/laravel/starten-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/restaurant/"><li class="notselected">Restaurant</li></a>
+<list-link url="/subjects/laravel/restaurant/" page="/subjects/laravel/databases-en-data-interacties/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/restaurant/"><li class="notselected">Restaurant</li></a>
 
 </list-link>
     </ul>
@@ -720,103 +720,126 @@ div.html table {
     <blockquote>
 <h4>Voorkennis</h4>
 <ul>
-<li>Je hebt kennis van object georienteerd programmeren (OOP) in PHP</li>
-<li>Kunnen werken met databases en queries (bijv: MySQL / MariaDB)</li>
+<li>Je hebt kennis van object georienteerd programmeren in php</li>
+<li>Je hebt een basis web-applicatie gemaakt in Laravel</li>
+<li>Je begrijpt en kan werken met routes, Controller-actions en views</li>
 </ul>
 </blockquote>
 <blockquote>
 <h4>Dit ga je leren</h4>
 <ul>
-<li>Je gaat een eerste project maken met Laravel</li>
-<li>Je leert werken met routes, Controllers met actions en views in Laravel en dit toepassen</li>
-<li>Je leert een enkele layout-view her te gebruiken voor meerder web-pages en dit toepassen</li>
-<li>Je leert in een layout-file gebruik te maken van CSS-files in de public-map en dit toepassen</li>
+<li>Je gaat een tweede project maken met laravel</li>
+<li>Je leert werken met routes, controllers en models in Laravel</li>
+<li>Je leert data ophalen/bewerken door middel van een Model</li>
+<li>Je leert migraties en seeders te gebruiken</li>
 </ul>
 </blockquote>
 <img src="/lucy/_assets/_icons/laravel-logo.png" alt="laravel" style="width:13%;">
 <h2>Beginsituatie</h2>
 <ul>
 <li>Zorg voor een PHP-versie die benodigd is voor de te installeren Laravel-versie. Update PHP (XAMPP) eventueel.</li>
-<li>Installeer of update <a href="https://getcomposer.org">Composer</a> naar de laatste versie en zorg dat deze globaal op jouw systeem is aan te roepen.</li>
-<li>Installeer een laravel project met <code>composer create-project laravel/laravel mijnproject</code> (&quot;mijnproject&quot; is hierbij de applicatie-naam)
+<li>Kloon de <a href="https://github.com/siewers32/restaurant">laravel-applicatie</a> met <code>git clone</code> vanaf github.com (oudere Laravel-versie)
 <ul>
-<li>Voer eventueel <code>composer update</code> uit in de terminal, zeker als het project van Git is gepulled.</li>
-<li>Controleer of jij jouw eigen <code>.env</code> file hebt met de correcte structuur en de juiste gegevens voor een database (dan moet db deze ook bestaan)</li>
+<li>Voer eventueel <code>composer update</code> uit in de terminal</li>
+<li>Controleer of jij jouw eigen <code>.env</code> file hebt en dat daarin de juiste database gegevens staan. (de database moet wel bestaan op de db-server)
+<ul>
+<li>Kopieer eventueel het .env-example bestand naar .env en pas de inhoud aan naar jouw situatie</li>
 <li>Voer eventueel ook <code>php artisan key:generate</code> uit, zodat jouw applicatie een eigen unieke sleutel heeft voor encryptie</li>
 </ul>
 </li>
-<li>Start de webserver met <code>php artisan serve</code> en gebruik de aangegeven link met poortnummer. (Het is ook mogelijk om dit via XAMPP uit te voeren)</li>
+</ul>
+</li>
+<li>Deze applicatie is gemaakt met Laravel 10 en uitgebreid met een aantal migrations. Met <code>php artisan migrate:fresh --seed</code> wordt de database-structuur aangemaakt en worden de tabellen gevuld met data.
+<ul>
+<li>Er wordt gebruik gemaakt van files in de map 'database/migrations' om de database tabellen op te bouwen</li>
+<li>Er wordt gebruik gemaakt van seeders en factories in de map 'database/factory' en 'database/seerders' om dummy-data aan te maken.</li>
+</ul>
+</li>
+<li>Er zijn 2 tabellen in de database:
+<ul>
+<li>menu_items (milk, cheese, potatoes etc.)</li>
+<li>categorieën (vegetables, fruit etc.)</li>
+</ul>
+</li>
 </ul>
 <h2>Opdracht</h2>
 <ul>
-<li>
-<p>Maak een website over een willekeurig onderwerp (bijvoorbeeld jouw eigen portfolio-site, of kijk op Lucy voor andere project-ideeën.)</p>
+<li>Maak een overzicht van dingen die je kunt eten en drinken (MenuItems) in laravel.</li>
+<li>Maak een route aan in <code>web.php</code></li>
+<li>Maak een Model 'MenuItems' aan en plaats daarin de property <code>$fillable</code> met een array met alle gewenste keys</li>
+<li>Voer een query uit door het Model aan te roepen en met &quot;Eloquent&quot; in een Controller-action. De data kan via het Model-object op te halen door bijvoorbeeld;<br><pre class="language-php"><code class="language-php"><span class="token variable">$model</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MenuItems</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// make Model-object of class MenuUtems</span><br><span class="token variable">$data</span> <span class="token operator">=</span> <span class="token variable">$model</span><span class="token operator">-></span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// query all records from table `menu_items`</span></code></pre>
 </li>
-<li>
-<p>De site moet minimaal 3 webpagina's tonen die worden aangeroepen via de actions van een Controller-class.</p>
-<ul>
-<li>Maak benodigde Controller-classes aan met <code>php artisan make:controller ......</code> en houdt je aan de naamgeving standaarden.</li>
-<li>Maak routes in de `routes/wep.php' file die verwijzen naar een Controller-class en een action.<br>
-Een Controller-class kan meerdere actions hebben (binnen één thema, bijv: gebruikers beheer, of gallery). Voor elke action kan er een aparte route gemaakt worden.</li>
-<li>Maak de benodigde view-files aan met <code>php artisan view  .....</code>, deze moeten te vinden zijn in de folder 'resources/views'.</li>
-<li>Zorg dat alle actions in de Controller-class de benodigde view-file (Blade) aanroepen en dit teruggeven met een <code>return</code> in de action.
-<ul>
-<li>Zorg eventueel dat (statische) data-array in de Controller-action wordt opgebouwd en dat deze array-data in de view kan wordt getoond.</li>
+<li>Maak een view aan in <code>resources/views</code>.</li>
+<li>Zorg dat de data van de Controller-action wordt doorgegeven naar de view en toon daar alle data, zoals in onderstaand voorbeeld</li>
 </ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Maak eigen layout met look en feel in een view-file 'layout', waarin de eerder gemaakte viewfiles worden ingevoegd.</p>
+<p><img src="https://static.edutorial.nl/laravel/all_you_can_eat.png" alt="All you can eat and drink"></p>
 <ul>
-<li>Maak een view-file aan in submap 'resources/views/basislayout'.</li>
-<li>In de basis-layout met <code>Blade</code> met daarin een navigariebalk en een <code>@yield('content')</code> om aangeroepen view-files in te tonen.<br>
-Een basis voorbeeld is hieronder gegeven;</li>
+<li>Maak een overzichtslijst van alle records</li>
+<li>Maak de mogelijkheid om database-records toe te voegen
+<ul>
+<li>Door te klikken op de add-knop wordt een url aangeroepen die een formulier toont op basis van een eigen Controller-action en view</li>
+<li>Na het formulier te vullen en de toevoeg-knop te klikken worden de gegevens aan de database toegevoegd en wordt er een redirect uitgevoerd naar de page met de overzichtslijst</li>
 </ul>
 </li>
-</ul>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css"><br>      &lt;!-- <span class="token comment">/*your own links to CSS-files*/</span> --><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>My Laravel-site<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">></span></span><br>              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Home<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Over ons<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Contact<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Producten<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span><span class="token punctuation">></span></span><br>              @yield('content')<br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span><span class="token punctuation">></span></span>&amp;copy2024 by Me<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>footer</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
-<p>NB: de href-links zijn hier niet correct uitgevoerd!</p>
-<div class="html">
-    <div style="width:80%;margin:auto;background-color:lightgray;border-radius:8px;padding:8px; color:darkolivegreen">
-        <h1>My Laravel-site</h1>
-        <nav>
-            <a href="#" style="padding:4px;display:inline-block;background-color:lightblue">Home</a>
-            <a href="#" style="padding:4px;display:inline-block;background-color:darkseagreen">Over ons</a>
-            <a href="#" style="padding:4px;display:inline-block;background-color:lightblue">Contact</a>
-            <a href="#" style="padding:4px;display:inline-block;background-color:lightblue">Producten</a>
-        </nav>
-        <main>
-            <h2>Over ons</h2>
-            <p>Dummy-content. Lorum Vivamus massa nunc, pharetra sed laoreet eu, iaculis ut tortor. Fusce molestie, metus ut
-              condimentum consectetur, sem mi luctus mi, vitae mattis eros ipsum sodales lorem.
-              Proin mattis malesuada libero, in gravida elit posuere in. Praesent viverra viverra libero,
-              ac convallis lorem congue vitae. Nam malesuada efficitur libero in tincidunt. </p>
-        </main>
-      <div style="background-color:darkgrey">©2024 by Me</div>
-    </div>
-</div>
+<li>Maak de mogelijkheid om database-records aan te passen
 <ul>
-<li>Maak de layout in de view-files (web-pages) beschikbaar door <code>@extends('basislayout.layout')</code>
-bovenin de verschillende view-files te plaatsen. en plaats alle eerder gemaakte views-files met eigen content in de gemaakte layout.<br>
-Plaats de eerder gemaakte content van de view-files tussen een section; <code>@section('content')</code> en <code>@endsection</code>.</li>
-<li>Werk de look 'n feel verder uit van jouw web-applicatie, gebruik zo nodig een template van het internet of een eigen eerder gemaakte HTML-structuur met CSS.<br>
-NB: Een CSS-file in 'public/css/style' kan in de layout worden aangeroepen met</li>
+<li>Selecteer het record op basis van het id dat in de url-path is aangegeven</li>
+<li>Door te klikken op de edit-knop wordt een url aangeroepen die een formulier toont met de juiste geveens van het database-record. Dit gebeurt via een eigen Controller-action en view</li>
+<li>Na het formulier aan te passen en de edit-knop te klikken worden de gegevens aan de database overschreven en wordt er een redirect uitgevoerd naar de page met de overzichtslijst.</li>
 </ul>
-<pre class="language-html"><code class="language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ asset('css/style.css') }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+</li>
+<li>Verwijder-knop te klikken
+<ul>
+<li>Selecteer het record op basis van het id dat in de url-path is aangegeven</li>
+<li>Via een eigen Controller-action wordt het record verwijdert en een redirect uitgevoerd naar de pagina met de overzichtslijst</li>
+</ul>
+</li>
+<li>Valideer de invoer niet alleen met frontend-technieken, maar ook op de backend (frontend is aanpasbaar door de bezoeker).
+<ul>
+<li>Maak gebruik van FormRequests (class) om de invoer van gegevens te controleren, voordat deze in de database worden toegevoegd of gewijzigd.</li>
+<li>Maak daarbij ook gebruik van property <code>$fillabel</code> in de Models om makkelijk alleen de benodigde velden uit de gesubmitte data te selecteren.</li>
+</ul>
+</li>
+</ul>
+<img src="/lucy/_assets/laravel/crud_in_laravel.png" alt="laravel_crud" style="width:200%;">
 <h2>Resultaat</h2>
 <ul>
-<li>Een PHP-applicatie in Laravel op github.com</li>
+<li>Een PHP-applicatie met database en CRUD-mogelijkheden en validatie in Laravel op github.com</li>
 <li>Jouw code en werkwijze kunnen toelichten</li>
 </ul>
 <h2>Uitleg</h2>
-<p><a href="https://laravel.com/docs/11.x/routing#the-default-route-files">Routing</a><br>
-<a href="https://laravel.com/docs/11.x/controllers#basic-controllers">Controllers</a><br>
-<a href="https://laravel.com/docs/11.x/views#creating-and-rendering-views">Views met Blade</a><br>
-<a href="https://laravel.com/docs/4.2/templates#controller-layouts">Layouts in Blade-views</a><br>
-<a href="https://laravel.com/docs/11.x/views#passing-data-to-views">Passing data from a Controller-action to a view</a></p>
-<p><a href="https://laravel.com/docs/11.x/deployment#optimization">Optimize (refresh) routes, views and cache</a></p>
-<p><a href="https://www.edutorial.nl/laravel/views/">https://www.edutorial.nl/laravel/views/</a></p>
+<ul>
+<li>
+<p><a href="https://laravel.com/docs/11.x/migrations">Migration om database-tabellen te maken</a></p>
+</li>
+<li>
+<p><a href="https://laravel.com/docs/11.x/seeding#main-content">Dummy-data maken met seeding</a></p>
+</li>
+<li>
+<p><a href="https://fakerphp.github.io">Faker options</a> are already in place within Laravel</p>
+</li>
+<li>
+<p><a href="https://laravel.com/docs/11.x/eloquent#generating-model-classes">Models aanmaken</a></p>
+</li>
+<li>
+<p><a href="https://laravel.com/docs/11.x/eloquent#retrieving-models">Models gebruiken, Eloquent</a>, Dit kan met 'Facades' van laravel of op de gebruikelijke PHP-OOP manier;<br></p>
+</li>
+</ul>
+<pre class="language-php"><code class="language-php"><span class="token keyword">use</span> <span class="token package">App<span class="token punctuation">\</span>Models<span class="token punctuation">\</span>Flight</span><span class="token punctuation">;</span><br><br><span class="token variable">$flightObject</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Flight</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token function">dd</span><span class="token punctuation">(</span> <span class="token variable">$flightObject</span><span class="token operator">-></span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment">// with PHP-OOP, dumps all records of the table `flights` on screen</span><br> <br><span class="token function">dd</span><span class="token punctuation">(</span> <span class="token class-name static-context">Flight</span><span class="token operator">::</span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>              <span class="token comment">// with a Larvel-Facade, dumps all records of the table `flights` on screen</span></code></pre>
+<ul>
+<li>
+<p><a href="https://laravel.com/docs/11.x/pagination#paginating-query-builder-results">Paginationing data</a><br></p>
+</li>
+<li>
+<p>In migrations kunnen relaties tussen tabellen worden gelegd (één-op-één, één-op-veel en veel-op-veel), zodat de relaties in een gegenereerde ERD zichtbaar worden<br></p>
+</li>
+<li>
+<p>In Models kunnen relaties tussen tabellen worden gelegd (één-op-één, één-op-veel en veel-op-veel), zodat er met Eloquent data en records over verschillende tabellen kan uitvragen</p>
+</li>
+<li>
+<p><a href="https://www.edutorial.nl/laravel/installatie/">https://www.edutorial.nl/laravel/installatie/</a></p>
+</li>
+</ul>
 
 </div>
 

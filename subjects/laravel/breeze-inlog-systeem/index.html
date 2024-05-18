@@ -687,28 +687,31 @@ div.html table {
     </div>
     <div class="authors">
         <span slot="authors">Ronald Kerssies, Jan Jaap Siewers</span> |
-        <span slot="date">May 17, 2024</span>
+        <span slot="date">Jun 13, 2023</span>
     </div>
     <div class="title">
-        <h1><div slot="title">Databases met Laravel</div></h1>
+        <h1><div slot="title">Breeze inlog-systeem</div></h1>
     </div>
 
 </main-title>
 <main-content class="webcftrhj"><div class="sidebar">
     <ul>
-        <list-link url="/subjects/laravel/introductie/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/introductie/"><li class="notselected">Introductie</li></a>
+        <list-link url="/subjects/laravel/introductie/" page="/subjects/laravel/breeze-inlog-systeem/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/introductie/"><li class="notselected">Introductie</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/starten-met-laravel/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/starten-met-laravel/"><li class="notselected">Starten met Laravel</li></a>
+<list-link url="/subjects/laravel/starten-met-laravel/" page="/subjects/laravel/breeze-inlog-systeem/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/starten-met-laravel/"><li class="notselected">Starten met Laravel</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/databases-met-laravel/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/databases-met-laravel/"><li class="selected">Databases met Laravel</li></a>
+<list-link url="/subjects/laravel/databases-en-data-interacties/" page="/subjects/laravel/breeze-inlog-systeem/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/databases-en-data-interacties/"><li class="notselected">Databases en data-interacties</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/breeze/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/breeze/"><li class="notselected">Breeze</li></a>
+<list-link url="/subjects/laravel/breeze-inlog-systeem/" page="/subjects/laravel/breeze-inlog-systeem/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/breeze-inlog-systeem/"><li class="selected">Breeze inlog-systeem</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/restaurant/" page="/subjects/laravel/databases-met-laravel/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/restaurant/"><li class="notselected">Restaurant</li></a>
+<list-link url="/subjects/laravel/formulieren/" page="/subjects/laravel/breeze-inlog-systeem/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/formulieren/"><li class="notselected">Formulieren</li></a>
+
+</list-link>
+<list-link url="/subjects/laravel/restaurant/" page="/subjects/laravel/breeze-inlog-systeem/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/restaurant/"><li class="notselected">Restaurant</li></a>
 
 </list-link>
     </ul>
@@ -718,94 +721,55 @@ div.html table {
 <h4>Voorkennis</h4>
 <ul>
 <li>Je hebt kennis van object georienteerd programmeren in php</li>
-<li>Je hebt een basis web-applicatie gemaakt in Laravel</li>
-<li>Je begrijpt het werken van routes naar Controller-actions naar views</li>
+<li>Je hebt kennis van composer en je kunt libraries installeren met composer</li>
+<li>Je kunt Laravel installeren en je kunt php artisan gebruiken om je installatie op te starten</li>
 </ul>
 </blockquote>
 <blockquote>
 <h4>Dit ga je leren</h4>
 <ul>
-<li>Je gaat een tweede project maken met laravel</li>
-<li>Je leert werken met routes, controllers en models in laravel</li>
-<li>Je leert data ophalen/bewerken door middel van een Model</li>
-<li>Je leert migraties en seeders te gebruiken</li>
+<li>Je gaat gebruikmaken van routes in Laravel</li>
+<li>Je gaat libraries installeren waarmee je authenticatie kunt toepassen in Laravel</li>
+<li>Je gaat routes beveiligen door gebruik te maken van MiddelWare</li>
 </ul>
 </blockquote>
 <img src="/lucy/_assets/_icons/laravel-logo.png" alt="laravel" style="width:13%;">
 <h2>Beginsituatie</h2>
 <ul>
-<li>Zorg voor een PHP-versie die benodigd is voor de te installeren Laravel-versie. Update PHP (XAMPP) eventueel.</li>
-<li>Kloon de <a href="https://github.com/siewers32/restaurant">laravel-applicatie</a> met <code>git clone</code> vanaf github.com (oudere Laravel-versie)
+<li>Zorg voor een up-to-date versie van Composer en PHP.</li>
+<li>Installeer de laatste versie van Laravel
 <ul>
-<li>Voer eventueel <code>composer update</code> uit in de terminal</li>
-<li>Controleer of jij jouw eigen <code>.env</code> file hebt en dat daarin de juiste database gegevens staan. (de database moet wel bestaan op de db-server)
-<ul>
-<li>Kopieer eventueel het .env-example bestand naar .env en pas de inhoud aan naar jouw situatie</li>
-<li>Voer eventueel ook <code>php artisan key:generate</code> uit, zodat jouw applicatie een eigen unieke sleutel heeft voor encryptie</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Deze applicatie is gemaakt met Laravel 10 en uitgebreid met een aantal migrations. Met <code>php artisan migrate:fresh --seed</code> wordt de database-structuur aangemaakt en worden de tabellen gevuld met data.
-<ul>
-<li>Er wordt gebruik gemaakt van files in de map 'database/migrations' om de database tabellen op te bouwen</li>
-<li>ERr wordt gebruik gemaakt van sseders en factories in de map 'database/factory' en 'database/seerders' om dummy-data aan te maken.</li>
-</ul>
-</li>
-<li>Er zijn 2 tabellen in de database:
-<ul>
-<li>menu_items (milk, cheese, potatoes etc.)</li>
-<li>categorieën (vegetables, fruit etc.)</li>
+<li>Zorg dat de .env-file, de app-key correct zijn uitgevoerd en alle packages met composer zijn opgehaald</li>
 </ul>
 </li>
 </ul>
 <h2>Opdracht</h2>
 <ul>
-<li>Maak een overzicht van dingen die je kunt eten en drinken (MenuItems) in laravel.</li>
-<li>Maak een route aan in <code>web.php</code></li>
-<li>Maak een Model 'MenuItems' aan en plaats daarin de property <code>$fillable</code> met een array met alle gewenste keys</li>
-<li>Voer een query uit door het Model aan te roepen en met &quot;Eloquent&quot; de data op dat het Model-object op te halen, bijvoorbeeld door;<br><pre class="language-php"><code class="language-php"><span class="token variable">$model</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MenuItems</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// make Model-object of class MenuUtems</span><br><span class="token variable">$data</span> <span class="token operator">=</span> <span class="token variable">$model</span><span class="token operator">-></span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// query all records from table `menu_items`</span></code></pre>
-</li>
-<li>Maak een view aan in <code>resources/views</code>.</li>
-<li>Zorg dat de data van de Controller-action wordt doorgegeven naar de view en toon daar alle data, zoals in onderstaand voorbeeld</li>
-</ul>
-<p><img src="https://static.edutorial.nl/laravel/all_you_can_eat.png" alt="All you can eat and drink"></p>
+<li>Maak een website waar je je als bezoeker kunt registreren</li>
+<li>Installeer de libraries om authenticatie toe te passen (bijv. Laravel Breeze) met composer</li>
+<li>Zorg dat de package correct wordt geconfigureerd binnen het framework</li>
+<li>Maak in een Seeder enkele standaard accounts aan en voer deze Seerder uit, zodat jij altijd dezelfde gebruikersnamen en wachtwoorden kan gebruiken.</li>
+<li>Je kunt nu in- en uitloggen, maar het heeft alleen effect op een dashboard-page (die automatisch is toegevoegd)
 <ul>
-<li>Maak een overzichtslijst van alle records</li>
-<li>Maak de mogelijkheid om database-records toe te voegen
-<ul>
-<li>Door te klikken op de add-knop wordt een url aangeroepen die een formulier toont op basis van een eigen Controller-action en view</li>
-<li>Na het formulier te vullen en de toevoeg-knop te klikken worden de gegevens aan de database toegevoegd en wordt er een redirect uitgevoerd naar de page met de overzichtslijst</li>
-</ul>
-</li>
-<li>Maak de mogelijkheid om database-records aan te passen
-<ul>
-<li>Selecteer het record op basis van het id dat in de url-path is aangegeven</li>
-<li>Door te klikken op de edit-knop wordt een url aangeroepen die een formulier toont met de juiste geveens van het database-record. Dit gebeurt via een eigen Controller-action en view</li>
-<li>Na het formulier aan te passen en de edit-knop te klikken worden de gegevens aan de database overschreven en wordt er een redirect uitgevoerd naar de page met de overzichtslijst.</li>
-</ul>
-</li>
-<li>Verwijder-knop te klikken
-<ul>
-<li>Selecteer het record op basis van het id dat in de url-path is aangegeven</li>
-<li>Via een eigen Controller-action wordt het record verwijdert en een redirect uitgevoerd naar de pagina met de overzichtslijst</li>
-</ul>
-</li>
-<li>Valideer de invoer niet alleen met frontend-technieken, maar ook op de backend (frontend is aanpasbaar door de bezoeker).
-<ul>
-<li>Maak gebruik van FormRequests (class) om de invoer van gegevens te controleren, voordat deze in de database worden toegevoegd of gewijzigd.</li>
-<li>Maak daarbij ook gebruik van property <code>$fillabel</code> in de Models om makkelijk alleen de benodigde velden uit de gesubmitte data te selecteren.</li>
+<li>Maak twee extra web-pages aan met elk een route en Controller en actions en bij behorende views.</li>
+<li>Zorg ervoor dat deze 2 nieuwe webpagina's alleen te bekijken zijn als je bent ingelogd</li>
+<li>Beveilig de routes met een route-group en de 'auth-middleware'.</li>
+<li>Als je niet bent ingelogd en toch een beveiligde url (path) opvraagt in de browser, dan word je geredirect naar de inlog-pagina.</li>
+<li>Andere webpagina's die niet in de route-group met auth-middleware staan zijn altijd te benaderen.</li>
 </ul>
 </li>
 </ul>
-<img src="/lucy/_assets/laravel/crud_in_laravel.png" alt="laravel_crud" style="width:200%;">
 <h2>Resultaat</h2>
 <ul>
-<li>Een PHP-applicatie met database en CRUD-mogelijkheden en validatie in Laravel op github.com</li>
+<li>Een PHP-applicatie met inlog-systeem in Laravel op github.com</li>
 <li>Jouw code en werkwijze kunnen toelichten</li>
 </ul>
 <h2>Uitleg</h2>
-<p><a href="https://www.edutorial.nl/laravel/installatie/">https://www.edutorial.nl/laravel/installatie/</a></p>
+<p><a href="https://laravel.com/docs/11.x/starter-kits#laravel-breeze">Laravel Breeze</a><br>
+<a href="http://www.edutorial.nl/laravel/introductie/">Laravel uitleg op edutorial.nl</a></p>
+<p>Wil je nog een stap verder gaan met rollen en rechten, kijk dan bijvoorbeeld naar:<br>
+<a href="https://github.com/JosephSilber/bouncer">Bouncer</a>, RBAC-toepassing <br>
+<a href="https://laratrust.santigarcor.me">Laratrust</a>, met RBAC en de mogelijkheid om Teams toe te passen</p>
 
 </div>
 

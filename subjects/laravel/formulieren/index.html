@@ -686,29 +686,32 @@ div.html table {
         <a href="/lucy/subjects/laravel/introductie/"><p slot="category">Laravel</p></a>
     </div>
     <div class="authors">
-        <span slot="authors">Ronald Kerssies, Jan Jaap Siewers</span> |
-        <span slot="date">Jun 13, 2023</span>
+        <span slot="authors">Ronald Kerssies</span> |
+        <span slot="date">May 17, 2024</span>
     </div>
     <div class="title">
-        <h1><div slot="title">Breeze</div></h1>
+        <h1><div slot="title">Formulieren</div></h1>
     </div>
 
 </main-title>
 <main-content class="webcftrhj"><div class="sidebar">
     <ul>
-        <list-link url="/subjects/laravel/introductie/" page="/subjects/laravel/breeze/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/introductie/"><li class="notselected">Introductie</li></a>
+        <list-link url="/subjects/laravel/introductie/" page="/subjects/laravel/formulieren/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/introductie/"><li class="notselected">Introductie</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/starten-met-laravel/" page="/subjects/laravel/breeze/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/starten-met-laravel/"><li class="notselected">Starten met Laravel</li></a>
+<list-link url="/subjects/laravel/starten-met-laravel/" page="/subjects/laravel/formulieren/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/starten-met-laravel/"><li class="notselected">Starten met Laravel</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/databases-met-laravel/" page="/subjects/laravel/breeze/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/databases-met-laravel/"><li class="notselected">Databases met Laravel</li></a>
+<list-link url="/subjects/laravel/databases-en-data-interacties/" page="/subjects/laravel/formulieren/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/databases-en-data-interacties/"><li class="notselected">Databases en data-interacties</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/breeze/" page="/subjects/laravel/breeze/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/breeze/"><li class="selected">Breeze</li></a>
+<list-link url="/subjects/laravel/breeze-inlog-systeem/" page="/subjects/laravel/formulieren/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/breeze-inlog-systeem/"><li class="notselected">Breeze inlog-systeem</li></a>
 
 </list-link>
-<list-link url="/subjects/laravel/restaurant/" page="/subjects/laravel/breeze/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/restaurant/"><li class="notselected">Restaurant</li></a>
+<list-link url="/subjects/laravel/formulieren/" page="/subjects/laravel/formulieren/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/formulieren/"><li class="selected">Formulieren</li></a>
+
+</list-link>
+<list-link url="/subjects/laravel/restaurant/" page="/subjects/laravel/formulieren/" class="wv0jwq1on"><a href="/lucy/subjects/laravel/restaurant/"><li class="notselected">Restaurant</li></a>
 
 </list-link>
     </ul>
@@ -718,49 +721,123 @@ div.html table {
 <h4>Voorkennis</h4>
 <ul>
 <li>Je hebt kennis van object georienteerd programmeren in php</li>
-<li>Je hebt kennis van composer en je kunt libraries installeren met composer</li>
-<li>Je kunt Laravel installeren en je kunt php artisan gebruiken om je installatie op te starten</li>
+<li>Je kan zelf een basis web-applicatie in Laravel aanmaken</li>
+<li>Je begrijpt het proces van routes naar Controller-actions naar views en kan dit ook zelfstandig uitvoeren</li>
+<li>Je begrijpt en de werking van Models en kan zelfstandig data op verschillende manieren ophalen en tonen in een view</li>
+<li>Je begrijpt en de werking van migraties en seederes en kan zelfstandig database-tabellen aanmaken en deze met dummy-data vullen</li>
 </ul>
 </blockquote>
 <blockquote>
 <h4>Dit ga je leren</h4>
 <ul>
-<li>Je gaat gebruikmaken van routes in Laravel</li>
-<li>Je gaat libraries installeren waarmee je authenticatie kunt toepassen in Laravel</li>
+<li>Je leert een view te maken met een HTML-formlier</li>
+<li>Je leert routes en formulieren te maken die grbuikmaken van verschillende request-methods (GET, POST, PUT, PATCH, DELETE)</li>
+<li>Je leert werken met Models in een Controller-action in Laravel en hierop op CRUD-acties uitvoeren</li>
 </ul>
 </blockquote>
 <img src="/lucy/_assets/_icons/laravel-logo.png" alt="laravel" style="width:13%;">
 <h2>Beginsituatie</h2>
 <ul>
-<li>Zorg voor een up-to-date versie van Composer en PHP.</li>
-<li>Installeer de laatste versie van Laravel
+<li>
+<p>Zorg voor een PHP-versie die benodigd is voor de te installeren Laravel-versie. Update PHP (XAMPP) eventueel.</p>
+</li>
+<li>
+<p>Voer eventueel <code>composer update</code> uit in de terminal, zodat alle benodigde packages gedownload zijn</p>
+</li>
+<li>
+<p>Controleer of jij jouw eigen <code>.env</code> file hebt en dat daarin de juiste database gegevens staan. (de database moet wel bestaan op de db-server)</p>
 <ul>
-<li>Zorg dat de .env-file, de app-key correct zijn uitgevoerd en alle packages met composer zijn opgehaald</li>
+<li>Kopieer eventueel het .env-example bestand naar .env en pas de inhoud aan naar jouw situatie</li>
+<li>Voer eventueel ook <code>php artisan key:generate</code> uit, zodat jouw applicatie een eigen unieke sleutel heeft voor encryptie</li>
+</ul>
+</li>
+<li>
+<p>Er zijn 2 tabellen in de database:</p>
+<ul>
+<li>menu_items (milk, cheese, potatoes etc.)</li>
+<li>categorieën (vegetables, fruit etc.)</li>
 </ul>
 </li>
 </ul>
 <h2>Opdracht</h2>
 <ul>
-<li>Maak een website waar je je als bezoeker kunt registreren</li>
-<li>Installeer de libraries om authenticatie toe te passen (bijv. Laravel Breeze) met composer</li>
-<li>Zorg dat de package correct wordt geconfigureerd binnen het framework</li>
-<li>Je kunt nu in- en uitloggen, maar het heeft alleen effect op een dashboard-page (die automatisch is toegevoegd)
+<li>Maak een overzichtslijst van alle records in de database-tabel</li>
+<li>Maak de mogelijkheid om database-records toe te voegen
 <ul>
-<li>Maak twee extra web-pages aan met elk een route en Controller en actions en bij behorende views.</li>
-<li>Zorg ervoor dat deze 2 nieuwe webpagina's alleen te bekijken zijn als je bent ingelogd</li>
-<li>Beveilig de routes met een route-group en de 'auth-middleware'.</li>
-<li>Als je niet bent ingelogd en toch de url (path) opvraagt in de browser, dan word je geredirect naar de inlog-pagina.</li>
-<li>Andere webpagina's die niet in de route-group met auth-middleware staan zijn altijd te benaderen.</li>
+<li>Door te klikken op de add-knop wordt een url aangeroepen die een formulier toont op basis van een eigen Controller-action en view</li>
+<li>Na het formulier te vullen en de toevoeg-knop te klikken worden de gegevens aan de database toegevoegd en wordt er een redirect uitgevoerd naar de page met de overzichtslijst</li>
+</ul>
+</li>
+<li>Maak de mogelijkheid om database-records aan te passen
+<ul>
+<li>Selecteer het record op basis van het id dat in de url-path is aangegeven</li>
+<li>Door te klikken op de edit-knop wordt een url aangeroepen die een formulier toont met de juiste geveens van het database-record. Dit gebeurt via een eigen Controller-action en view</li>
+<li>Na het formulier aan te passen en de edit-knop te klikken worden de gegevens aan de database overschreven en wordt er een redirect uitgevoerd naar de page met de overzichtslijst.</li>
+</ul>
+</li>
+<li>Verwijder-knop te klikken
+<ul>
+<li>Selecteer het record op basis van het id dat in de url-path is aangegeven</li>
+<li>Via een eigen Controller-action wordt het record verwijdert en een redirect uitgevoerd naar de pagina met de overzichtslijst</li>
 </ul>
 </li>
 </ul>
+<h3>Stappen &amp; hints</h3>
+<ul>
+<li>
+<p>Maak een migratie aan en werk daarin uit de velden voor een databasetabel. De migratie is te vinden in de map 'database/migrations'</p>
+</li>
+<li>
+<p>Maak een seeder of factory aan en zorg dat deze kan worden uitgevoerd in de Seerder.php - file in de map 'database/seerders' om dummy-data te genereren.</p>
+<ul>
+<li>Met <code>php artisan migrate:fresh --seed</code> wordt de database-structuur opnieuw verwijderd, opnieuw opgebouwd en worden de tabellen gevuld met dummy-data.</li>
+</ul>
+</li>
+<li>
+<p>Maak een Model aan volgens de laravel-conventies en aan en plaats daarin de property <code>$fillable</code> met een array met alle gewenste tabel-keys</p>
+</li>
+<li>
+<p>Maak een view aan voor een create-view en edit-view met formulieren om een record toe te voegen en te bij te werken, in <code>resources/views</code>.</p>
+</li>
+<li>
+<p>Maak een bijpassende Controller met actions: 'create' en 'store' om records toe te voegen (Add) en 'edit' en 'update' voor wijzigingen (Update)</p>
+<ul>
+<li>'create' voor het formulier aan e roepen en 'store' voor de validatie stappen en de database-interactie.</li>
+<li>'edit' voor het formulier aan te roepen en 'update' voor de validatie stappen en de database-interactie.</li>
+<li>Een basis formulier voor aanpassen van database-gegevens in Laravel met Bootstrap-CSS en MaterialIcons;</li>
+</ul>
+</li>
+</ul>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ url('/users/'.request()->user)}}@endif<span class="token punctuation">"</span></span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>POST<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  @csrf<br>  @method('PUT')<br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-group<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>input-group cols4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>username<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>username<span class="token punctuation">"</span></span><br>           <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>name<span class="token punctuation">"</span></span><br>           <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span><br>           <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-control @if(!empty($errors->messages()['name'])){{' field_invalid'}}@endif<span class="token punctuation">"</span></span><br>           <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ (old('name')) ? old('name') : $user->name }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-group<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>input-group cols4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>email<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><br>           <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><br>           <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span><br>           <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-control @if(!empty($errors->messages()['email'])){{' field_invalid'}}@endif<span class="token punctuation">"</span></span><br>           <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ (old('email')) ? old('email') : $user->email }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-group<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>input-group cols4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span><br>            <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn btn-mb antraciet bghoverblue bgbluegrey<span class="token punctuation">"</span></span><br>            <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>glyphicon glyphicon-wrench<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>      edit<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+<p>NB: Enkele velden in de database-tabel <code>users</code> moeten mogelijk &quot;nullable&quot; zijn om dit zo te laten werken</p>
+<ul>
+<li>In de Controller-actions wordt er gebruik gemaakt van het Model en het Request-object met alle gesubmitte waarden.<br>
+Een effectieve update-actie is bijvoorbeeld;<br></li>
+</ul>
+<pre class="language-php"><code class="language-php">    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function-definition function">update</span><span class="token punctuation">(</span><span class="token class-name type-declaration">Request</span> <span class="token variable">$request</span><span class="token punctuation">,</span> <span class="token variable">$id</span><span class="token punctuation">)</span>               <span class="token comment">// NB: Request replaceable with a ForRequest-classname </span><br>    <span class="token punctuation">{</span><br>        <span class="token variable">$user</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">-></span><span class="token function">find</span><span class="token punctuation">(</span><span class="token variable">$id</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                        <span class="token comment">// Model Users is used to find user data for a given id</span><br>        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token variable">$user</span><span class="token operator">-></span><span class="token function">fill</span><span class="token punctuation">(</span><span class="token variable">$request</span><span class="token operator">-></span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">-></span><span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>                <span class="token comment">// all Model-fillable keys are added to the model and saved  </span><br>        <span class="token punctuation">{</span>                                           <br>            <span class="token keyword">return</span> <span class="token function">redirect</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-></span><span class="token function">to</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'/users'</span><span class="token punctuation">)</span>                     <span class="token comment">// a succesfull save, redirect to overview page with all users</span><br>                <span class="token operator">-></span><span class="token function">with</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'success'</span><span class="token operator">=></span><span class="token constant boolean">true</span><span class="token punctuation">,</span> <span class="token string single-quoted-string">'message'</span><span class="token operator">=></span><span class="token string single-quoted-string">'Record '</span><span class="token operator">.</span><span class="token variable">$user</span><span class="token operator">-></span><span class="token property">name</span><span class="token operator">.</span><span class="token string single-quoted-string">' Successfully Updated!'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br>        <span class="token keyword">return</span> <span class="token function">back</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-></span><span class="token function">with</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'error'</span><span class="token operator">=></span><span class="token constant boolean">true</span><span class="token punctuation">,</span> <span class="token string single-quoted-string">'message'</span><span class="token operator">=></span><span class="token string single-quoted-string">'Something Went Wrong!'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment">// redirtct when failed save on db-table</span><br>    <span class="token punctuation">}</span></code></pre>
+<ul>
+<li>Valideer de invoer <em>altijd</em> op de backend, frontend is aanpasbaar door bezoekers!
+<ul>
+<li>Maak gebruik van de FormsRequests validatie van Laravel, waarbij de validatie regels in een class worden geplaatst in de map 'app/Http/Requests'</li>
+<li>De FormRequest-validatie wordt uitgevoerd bij de methods 'store' en 'update', voordat deze gegevens in de database worden toegevoegd of gewijzigd.</li>
+<li>Als de validatie incorrect is, moeten de validatiefouten bij het formulier worden getoond</li>
+</ul>
+</li>
+</ul>
+<div style="border:1px solid green">
+  voorbeeld formulier for updaten waarin data van het opgevraagde record in de input-velden staat ;
+  <img src="/lucy/_assets/laravel/laravel_editform.png" alt="laravel_edit" style="width:200%;">
+</div>
 <h2>Resultaat</h2>
 <ul>
-<li>Een php-applicatie met inlog-systeem in Laravel op github.com</li>
+<li>Een PHP-applicatie met database en CRUD-mogelijkheden en validatie in Laravel op github.com</li>
 <li>Jouw code en werkwijze kunnen toelichten</li>
 </ul>
 <h2>Uitleg</h2>
-<p><a href="http://www.edutorial.nl/laravel/introductie/">Laravel uitleg op edutorial.nl</a></p>
+<p><a href="https://laravel.com/docs/11.x/requests#accessing-the-request">Request data opdragen</a><br>
+<a href="https://laravel.com/docs/11.x/validation#form-request-validation">Forms validation</a><br>
+<a href="https://laravel.com/docs/11.x/csrf">CSRF beveiliging op forms</a></p>
+<p><a href="https://www.edutorial.nl/laravel/installatie/">https://www.edutorial.nl/laravel/installatie/</a></p>
 
 </div>
 
