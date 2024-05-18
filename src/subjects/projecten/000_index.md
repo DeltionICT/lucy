@@ -4,6 +4,7 @@ author: rkerssies
 date: 2023-07-01
 ---
 
+<img src="{{ '/_assets/projecten/project-laptop.png'  }}" style="width:10%;">
 
 > ##### Voorkennis
 > * SCRUM-methodiek, Ervaringen met DevOps, 

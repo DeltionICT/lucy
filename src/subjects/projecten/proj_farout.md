@@ -18,6 +18,7 @@ technology: scrum
 > * Vooraf ontwerpen en uitdenken van de applicatie m.b.v. UML; wireframes, mockup, flowcharts
 > * Projectmatig samenwerken binnen een ontwikkel-team (SCRUM)
 
+<img src="{{ '/_assets/projecten/project-laptop.png'  }}" style="width:10%;">
 
 ## Uitvoering
 Dit project kun je met 2 - 4 studenten uitvoeren.

@@ -1,5 +1,5 @@
 ---
-title: PROJ Handig Joh
+title: Project Handig Joh
 key: 2204
 difficulty: medium
 date: 2022-11-10
@@ -17,6 +17,8 @@ technology: scrum
 > * Optimaal gebruikmaken van frameworks
 > * Vooraf ontwerpen en uitdenken van de applicatie m.b.v. UML; wireframes, mockup, flowcharts
 > * Projectmatig samenwerken binnen een ontwikkel-team (SCRUM)
+
+<img src="{{ '/_assets/projecten/project-laptop.png'  }}" style="width:10%;">
 
 ## Resultaat
 * Een overzicht van geplande en gerealiseerde taken. Gebruik hiervoor een scrumboard of andere projecttool zoal Github, Azure DevOps of vergelijkbaar.

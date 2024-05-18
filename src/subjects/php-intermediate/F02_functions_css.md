@@ -80,10 +80,10 @@ Output resulaat zichtbaar in de browser:
 </html>
 ```
 
-## Resultaat
-* Een PHP-pagina met daarin html-code en één PHP-functie.
-* Functionaliteit volgens de beschrijving in de opdracht.
+> ## Resultaat
+> * Een PHP-pagina met daarin html-code en één PHP-functie.
+> * Functionaliteit volgens de beschrijving in de opdracht.
 
 
-## Evaluatie
-Vraag om een code-review om feedback en tips voor best-practices op jouw aanpak te krijgen.
+> ## Evaluatie
+> Vraag om een code-review om feedback en tips voor best-practices op jouw aanpak te krijgen.

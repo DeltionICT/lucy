@@ -12,6 +12,8 @@ author: jsiewers
 > * Toepassen van de input-functie
 > * Toepassen van openen en schrijven in tekstbestanden
 
+<img src="{{ '/_assets/_icons/python.png'  }}" style="width:10%;">
+
 ## Resultaat
 * Een python-bestand met de code
 * Een tekstbestand met gegevens volgens opdracht

@@ -7,14 +7,18 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
 
-### Resultaat
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
+
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+## Opdracht
 Maak een programma dat een array bevat met daarin 15 verschillende door jezelf gekozen woorden.  
 Het programma kiest vervolgens random een woord uit de array.  
 Het programma laat de lengte van het gekozen woord zien door middel van punten.  
@@ -24,7 +28,7 @@ Zodra het woord geraden is, geeft het programma aan in hoeveel pogingen
 het woord is geraden.  
 Daarna vraagt het programma of je nog een keer wilt spelen.
 
-#### Voorbeeld
+## Voorbeeld
 ```shell
 Het woord is: ..... 
 Kies een letter: b 
@@ -43,3 +47,10 @@ Kies een letter: l
 Het woord is appel, je hebt het geraden in 5 pogingen. 
 Wil je nog een keer spelen (j/n):
 ```
+
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

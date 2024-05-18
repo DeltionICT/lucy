@@ -7,14 +7,18 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
 
-### Resultaat
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
+
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+### Opdracht
 Schrijf een programma dat de gebruiker om twee getallen vraagt. Het
 eerste getal noemen we het deeltal. Het tweede getal noemen we de deler.
 
@@ -48,3 +52,10 @@ Deeltal ? 965
 Deler   ? 427    
 965    427  965 / 427 = 2 111/427 
 ```
+
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

@@ -132,12 +132,12 @@ Mooi als dit werkt, maar er zijn geen functies gebruikt.
 Tips:
 * Controleer of de PHP-bestanden bestaan voordat je ze include met bijvoorbeeld de functie: `file_exist()`.
 
-## Resultaat
-* Een werkend menu, dat content ophaalt uit een specifiek bestand EN de functie aanroept die daar in staat.
-* Heldere en duidelijke folderstructuur voor content en core-bestanden die de applicatie laten werken.
-* Eén Layout, geen herhalingen van de complete html-structuur, zoals <html>, <head> en <article>.
-* Bij benadering van de website voor de eerste keer wordt een 'homepage' getoond.
+> ## Op te leveren
+> * Een werkend menu, dat content ophaalt uit een specifiek bestand EN de functie aanroept die daar in staat.
+> * Heldere en duidelijke folderstructuur voor content en core-bestanden die de applicatie laten werken.
+> * Eén Layout, geen herhalingen van de complete html-structuur, zoals <html>, <head> en <article>.
+> * Bij benadering van de website voor de eerste keer wordt een 'homepage' getoond.
 
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

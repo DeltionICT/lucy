@@ -7,11 +7,18 @@ author: jheuvelman
 technology: all
 ---
 
-
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
 
-### Resultaat
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
+
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+### Opdracht
 
 - De gebruiker vraagt om de omvang van de diamant.
 - Het programma tekent een diamant met de opgegeven omvang.
@@ -27,3 +34,10 @@ Geef de omvang van de diamant: 5
     *   *   *                 
         *     
 ```
+
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

@@ -1,5 +1,5 @@
 ---
-title: Eigen Casus
+title: Eigen project-casus
 key: 2201
 difficulty: expert
 date: 2022-12-12

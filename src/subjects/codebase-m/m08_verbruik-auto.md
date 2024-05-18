@@ -7,14 +7,18 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
 
-### Resultaat
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
+
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+### Opdracht
 Maak een programa dat het gemiddelde verbruik van een auto kan berekenen.  
 Het programma vraagt de gebruiker om de volgende invoer:
 
@@ -30,8 +34,6 @@ De formule die je hiervoor kunt gebruiken is:
 (100 * (aantalLiterinTankVoorRit - aantalLiterinTankNaRit) / (kilometerstandNaRit - kilometerstandVoorRit))
 ```
 
-
-
 #### Voorbeeld
 ```shell
 Geef het aantal liter in de tank voor de rit: 75 
@@ -41,3 +43,11 @@ Geef de kilomterstand aan het einde van de rit: 40698
 
 Het gemiddelde verbruik van de auto tijdens deze rit was: 8,31
 ```
+
+
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

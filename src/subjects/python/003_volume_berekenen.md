@@ -11,8 +11,9 @@ author: jsiewers
 > * Definiëren en aanroepen van functies
 > * Van alles over volumes berekenen
 
-## Opdracht
+<img src="{{ '/_assets/_icons/python.png'  }}" style="width:10%;">
 
+## Opdracht
 * Maak gebruik van het bestand: opdr_3.py
 * Pas de code aan van opdr_3.py
 * Push en submit je code naar github  

@@ -4,6 +4,8 @@ author: rkerssies
 date: 2023-06-30
 ---
 
+{{ '/_assets/_icons/php_cli.png'  | image: 'laravel', 13 }}
+
 ## Over deze set opdrachten
 Bedenk van tevoren welke leeropbrengsten jij voor jezelf wil behalen met één of meerdere van opdrachten
 uit deze set opdrachten. Noteer deze in een [voortgangsdocument]({{ '/_assets/school/begeleiding/voortgangsdocument.docx' }})

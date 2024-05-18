@@ -13,6 +13,8 @@ author: jsiewers
 > * Een ontwerp lezen en omzetten in een werkende applicatie
 > * Stroomschema technieken
 
+<img src="{{ '/_assets/_icons/python.png'  }}" style="width:10%;">
+
 ## Opdracht
 Maak een applicatie die met 1 opdracht meerdere afbeeldingen kan aanpassen. De applicatie vraagt de gebruiker om de map met bestanden die aangepast moeten worden, het nieuwe formaat van de afbeeldingen en de map waar de aangepaste bestanden moeten worden bewaard, dus:
 

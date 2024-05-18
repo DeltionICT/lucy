@@ -9,6 +9,8 @@ author: jsiewers
 > #### Dit ga je leren
 > * Toepassen van berekeningen mbv pentas.
 
+<img src="{{ '/_assets/_icons/python.png'  }}" style="width:10%;">
+
 ## Materiaal
 Deze opdracht hoort bij de cursus python op [edutorial.nl](https://www.edutorial.nl/python/introductie/)
 

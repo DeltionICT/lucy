@@ -13,7 +13,12 @@ author: jsiewers
 > * Je leert gegevens te filteren met behulp van MySQL queries
 
 ## Opdracht
-Gebruik de afbeelding van het ERD van een reisbureau-database om queries te maken voor de gevraagde gegevens.
+* Gebruik de afbeelding van het ERD van een reisbureau-database om queries te maken voor de gevraagde gegevens.
+<<<<<<< HEAD
+* [Download het sql-bestand hier](https://static.edutorial.nl/dbq/reisbureau.sql)
+=======
+* Maak een nieuwe database aan en [importeer het sql-script](https://static.edutorial.nl/dbq/reisbureau.sql).
+>>>>>>> e50c8d77e498606fb8083c76235e7130e7728b38
 
 ## Uitleg
 [Hier vind je uitleg over het gebruik van MySQL en queries](https://www.edutorial.nl/dbq/introductie/)

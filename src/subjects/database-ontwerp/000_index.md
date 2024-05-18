@@ -16,6 +16,3 @@ Vraag vervolgens een gesprek aan met een vakdocent en bespreek jouw ontwikkeling
 Mocht je zelf geen idee hebben welk opdracht jij zou kunnen doen.
 Als jij je *verder* wil ontwikkelen in **Databases**, dan adviseren wij jou de
 volgende leerlijn met daarin deze opdracht(en);
-> 1.  Genormaliseerde ERD<br>
-> ⏱️ 2 dagen &emsp; 🪽vrije keuze<br>
-> <small>‼️Vrije keuze uit één van de verschillende ERD-opdrachten</small>

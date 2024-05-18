@@ -1,29 +1,35 @@
 ---
 layout: layout.webc
 ---
-<!-- green, orange, blue, yellow, purple -->
+<!-- darkgreen, green, orange, blue, yellow, purple -->
 
 <module-container>
     <module>
         <p slot="title">Basis programmeren</p>
         <p slot="techs">
+            <tech color="darkgreen" title="AVG"></tech>
+            <tech color="darkgreen" title="Auteursrecht"></tech>
+            <tech color="darkgreen" title="Software licenties"></tech>
+            <tech color="darkgreen" title="Computers"></tech>
             <tech color="purple" title="Ontwikkelomgeving"></tech>
             <tech color="purple" title="Git en Github"></tech>
             <tech color="grey" title="Codebase S"></tech>
             <tech color="grey" title="Codebase M"></tech>
             <tech color="grey" title="Codebase XL"></tech>
-            <tech color="blue" title="PHP Basis"></tech>
-            <tech color="brown" title="Database queries"></tech>
+            <tech color="orange" title="HTML-CSS"></tech>
+            <tech color="pink" title="Ken jezelf"></tech>
+            <tech color="grey" title="Programmeren basis"></tech>
         </p>
     </module>
     <module>
         <p slot="title">Basis webdevelopment</p>
         <p slot="techs">
-            <tech color="orange" title="HTML-CSS"></tech>
+            <tech color="blue" title="PHP Basis"></tech>
+            <tech color="blue" title="PHP Intermediate"></tech>
+            <tech color="brown" title="Database queries"></tech>
             <tech color="green" title="JS Basis"></tech>
             <tech color="green" title="JS Intermediate"></tech>
-            <tech color="yellow" title="User interfaces design"></tech>
-            <tech color="blue" title="PHP Intermediate"></tech>
+
         </p>
     </module>
        <module>
@@ -33,6 +39,7 @@ layout: layout.webc
                 <tech color="blue" title="OO Projects"></tech>
                 <tech color="blue" title="Laravel"></tech>
                 <tech color="blue" title="PHP MVC"></tech>
+                <tech color="blue" title="C# basis"></tech>
                 <tech color="blue" title="C# MVC"></tech>
                 <tech color="green" title="NodeJS"></tech>
             </p>
@@ -49,10 +56,9 @@ layout: layout.webc
     <module>
         <p slot="title">Ontwerpen en samenwerken</p>
         <p slot="techs">
-            <tech color="brown" title="Database ontwerp"></tech>
-            <tech color="yellow" title="UML"></tech>
+            <tech color="yellow" title="UML ERD"></tech>
             <tech color="purple" title="Scrum"></tech>
-            <tech color="purple" title="DevOps"></tech>
+            <tech color="purple" title="Azure DevOps"></tech>
             <tech color="purple" title="Projecten"></tech>
         </p>
     </module>

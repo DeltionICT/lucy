@@ -8,6 +8,7 @@ technology: html
 
 > #### Voorkennis
 > * Interesse in HTML en websites
+> * [Uitleg op Edutorial.nl](https://www.edutorial.nl/html/starten-met-html/)
 
 > #### Doelen
 > * Je leert verschillende manieren van tekst op te maken
@@ -35,7 +36,7 @@ Gebruik daarbij de [a-tag](https://www.w3schools.com/tags/tag_a.asp).
 * Voeg meerdere [speciale karakters](https://www.w3schools.com/html/html_symbols.asp) toe aan de tekst
 * Onderzoek hoe de opmaak van tekst ook met CSS kan worden uitgevoerd. 
 
-> ##### Op te leveren
+> ## Op te leveren
 > * een webpage met tekst en meerdere koppen 
 > * een webpage met tekst en meerdere paragrafen
 > * een webpage met vette, scheve en onderstreepte teksten
@@ -43,8 +44,7 @@ Gebruik daarbij de [a-tag](https://www.w3schools.com/tags/tag_a.asp).
 > * een webpage met linkje naar een url van een bestand dat in een submapje staat
 > * een webpage met waarin speciale tekens staan en op de correcte wijze zijn toegevoegd  
 
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
-
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
 

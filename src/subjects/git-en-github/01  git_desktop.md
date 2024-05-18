@@ -100,7 +100,7 @@ Kijk wat de volgende onderwerpen binnen Git voor jou kunnen bieden;
 * ontwikkelteams maken
 
 
-> ##### Op te leveren
+> ### Op te leveren
 > * GitDesktop werken op eigen computer-systeem 
 > * Account aangemaakt bij GitHub (online) met het school email-adres
 > * Een eigen repository aanmaken (lokaal en online)

@@ -7,14 +7,18 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
 
-### Resultaat
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
+
+{{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
+
+### Opdracht
 In een array worden 20 willekeurig bepaalde getallen geplaatst (willekeurige waarden tussen de 0 en 500). Deze getallen worden afgedrukt op het scherm.  
 Alle getallen in de array worden vergeleken met een ingevoerd getal (vergelijkingsgetal).  
   
@@ -35,3 +39,11 @@ Uitvoer:
 7 10 24 27 112 -2 77 433 -2 7 ...
 
 ```
+
+
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
+
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

@@ -7,14 +7,19 @@ author: jheuvelman
 technology: all
 ---
 
-
-
-
-
 > ### Voorkennis
-> Programmeertaal: naar keuze
+> Een programmeertaal (bijv: PHP of JS) naar keuze<br>
+> Basiskennis HTML- en CSS
 
-### Omschrijving
+> #### Doelen
+> * Verschillende programmeervaardigheden leren en uitbreiden in complexere uitdagingen
+> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
+> * Meer HTML- en CSS- mogelijkheden toepassen binnen een grotere opdracht
+
+{{ '/_assets/omgevingen/code_advanced.png'  | image: 'advanced', 13 }}
+
+
+## Opdracht
 Steen-papier-schaar kent 2 spelers. Beide spelers steken tegelijkertijd de hand naar voren in een bepaalde vorm.  
 Het doel van het spel is om de vorm te kiezen die je tegenstander verslaat.  
 Beide spelers tellen tegelijk af en steken tegelijk zonder aarzelen de hand uit in een van de volgende vormen:
@@ -39,4 +44,9 @@ Het toevoegen van 2 extra opties biedt veel meer mogelijkheden waardoor een geli
 
 {{ 'https://camo.githubusercontent.com/685d0459ef1fec598b62c19f3bd7421f6090b665e887df5f7cca684544b390a8/68747470733a2f2f692e696d6775722e636f6d2f7333334d4e384d2e706e67' | image: 'Rock-Paper-Scissors-Lizard-Spock', 60 }}
 
+> ## Op te leveren
+> * een Webpage die met behulp van code functioneert zoals beschreven in de opdracht
 
+> ## Evaluatie
+> Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+> Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

@@ -7,6 +7,7 @@ author: adalmolen
 ---
 > #### Voorkennis
 > Voordat je aan het examen kan deelnemen, moet je wel de basiskennis op orde hebben. Door eerst MC 1 t/m 3 te volgen, leer je de basis van het programmeren, de Arduino IDE en Arduino UNO en maak je kennis met verschillende componenten en sensoren.
+> Heb je gekozen voor de leerlijn met LEGO®, dan volg je eerst MC 1 en MCL. 
 
 > #### Doel:
 > Met goed gevolg het examen van het keuzedeel Programmeren van Microcontrollers maken
@@ -33,3 +34,5 @@ author: adalmolen
 >   - Uitvoeren testen
 >   - Doorvoeren aanpassingen
 
+> #### Oplevering
+> Tijdens de uitvoer van jouw casus hou je bij wat je gedaan hebt en film je (delen) van het proces. Op het einde film je ook een werkend eindresultaat. Uiteindelijk upload je jouw materiaal in de ELO (volgt nog!) en maak je een afspraak met de docent voor eindgesprek en beoordeling.
