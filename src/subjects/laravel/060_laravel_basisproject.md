@@ -39,7 +39,7 @@ author: jsiewers,rkerssies
   * Alle gegevens worden in ieder geval gevalideerd
   * Alle andere bezoekers kunnen deze mogelijkheden niet aanroepen zonder geldige inlog-actie
 ### Aandachtspunten
-* De database tabellen kunnne worden opgebouwd door migraties
+* De database tabellen kunnen worden opgebouwd door migraties
 * Maak gebruik van dummy-data door gebruik van seders en factories (ook dummy-data voor o.a.: foto's, namen, prijzen, email-adressen, etc. moeten aanwezigzijn)
 * Alle code moet voldoen aan de Laravel code-conventies en locaties
 * Alle code moet voldoen aan de huidige 'best-practices' van OOP
