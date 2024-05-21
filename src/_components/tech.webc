@@ -50,7 +50,7 @@
       color = "var(--c-blue)"
       text = "#fff"
   }
-  `<span style=background-color:${color}; width:100%;><a style="color:${text};" href=${myhref}>${title}</a><slot></slot></span>`;
+  `<a style="color:${text};" href=${myhref}><span style=background-color:${color}; width:100%;>${title}<slot></slot></span></a>`;
 </script>
 
 <style webc:scoped>
@@ -67,7 +67,7 @@
     margin: 0 0 5px 0;
   }
 
-  span a {
+  a {
     text-decoration: none;
     color: var(--c-brand);
   }
