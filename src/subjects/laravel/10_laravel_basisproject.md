@@ -10,19 +10,19 @@ author: jsiewers,rkerssies
 > * Je kunt Laravel-Breeze installeren en je kunt php artisan gebruiken om je installatie op te starten
 > * Je kunt beveiligde routes maken in Laravel
 > * Je kunt eenvoudige queries toepassen met mysql
-> * Deze opdracht is een vervolg op de opdracht `Laravel authenticatie`
 
 > #### Dit ga je leren
-> * Je gaat een database en Models toepassen met Laravel
-> * Je gaat migrations en seeders toepassen in Laravel met Artisan.
-> * Je gaat Models en Controllers toepassen in je applicatie
-> * Je gaat formulieren maken in Laravel om gegevens op te slaan, aan te passen of te verwijderen (CRUD)
+> * Je gaat een zakelijke applicatie opbouwen vanuit een casus met verschillende aspecten; 
+>   * Je gaat een login-systeem toepassen en daarmee specifieke content en formulieren beveiligen
+>   * Je gaat een database opzetten met migraties, seeders en daarbij Models toepassen voor de interacties
+>   * Je gaat een layout en views met een zakelijke look 'n feel opzetten
+>   * Je gaat formulieren maken om gegevens op te slaan, aan te passen of te verwijderen (CRUD) op gegevens in een database-tabel
 
 {{ '/_assets/_icons/laravel-logo.png'  | image: 'laravel', 13 }}
 
 ## Beginsituatie
 * Zorg voor een up-to-date versie van Composer en PHP.
-* Installeer de laatste versie van Laravel met de package Breeze
+* Installeer de laatste versie van Laravel-framework met de package Breeze
 * Zorg dat je een database-server hebt opgestart een database beschikbaar hebt voor jouw Laravel-project (evt. geïntegreerd met XAMPP)
 * Zorg dat de basis applicatie staat en werkt (.env, app-key, db-connectie, etc.)
 
@@ -42,13 +42,13 @@ author: jsiewers,rkerssies
 ### Aandachtspunten
 * De database tabellen kunnen worden opgebouwd door migraties
 * Maak gebruik van dummy-data door gebruik van seders en factories (ook dummy-data voor o.a.: foto's, namen, prijzen, email-adressen, etc. moeten aanwezig zijn)
-* Alle code moet voldoen aan de Laravel code-conventies en locaties
+* Alle code moet voldoen aan de Laravel code-conventies, gebruik van mappen en naamgeving van classes en methods
 * Alle code moet voldoen aan de huidige 'best-practices' van OOP
 * Streef een zo gebruikersvriendelijk mogelijke website na
 
 ## Resultaat
 * Een complete PHP-applicatie in Laravel op github.com
-* Jouw code en werkwijze kunnen toelichten
+* Jouw code en werkwijze begrijpbaar correct kunnen toelichten
 
 
 ## Uitleg
