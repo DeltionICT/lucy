@@ -1,5 +1,5 @@
 ---
-title: Python Imageconverter
+title: Imageconverter
 date: 2023-06-08
 author: jsiewers
 ---
@@ -21,7 +21,7 @@ Maak een applicatie die met 1 opdracht meerdere afbeeldingen kan aanpassen. De a
 #### Input
 * pad naar een map afbeeldingen (source)
 * pad naar een uitvoermap (destination)
-* Maximale formaat van de afbeeldingen
+* Maximale formaat van de afbeeldingen (niet groter dat 2000 pixels)
 
 #### Output
 * Een map met aangepaste afbeeldingen
@@ -29,11 +29,9 @@ Maak een applicatie die met 1 opdracht meerdere afbeeldingen kan aanpassen. De a
     * Aantal bestanden dat is gevonden (in source)
     * Bestandsnaam van de afbeelding die wordt aangepast
     * Niet-afbeeldingen die worden overgeslagen
+* Bekijk onderstaand stroomschema en maak de applicatie in python.
 
-
-
-Bekijk onderstaand stroomschema en maak de applicatie in python.
-![imageconverter ontwerp](https://static.edutorial.nl/python/image-app-v2.svg) 
+{{ 'https://static.edutorial.nl/python/image-app-v2.svg' | image: 'imageconverter ontwerp', 40 }}
 
 ## Resultaat
 * Een applicatie die op basis van input van de gebruiker meerdere afbeeldingen kan aanpassen
