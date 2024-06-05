@@ -51,3 +51,6 @@ bijv. input
 ## Uitleg
 * Uitleg over [stroomschema's](https://static.edutorial.nl/python/activiteiten_diagram.docx)
 * Uitleg over [os module](https://www.w3schools.com/python/module_os.asp) en [os.replace](https://www.w3schools.com/python/ref_os_rename.asp).
+
+## Beoordeling
+* [IT2B P4 2024 Beoordelingsformulier](https://static.edutorial.nl/python/beoordeling_P4_scripting.xlsx)

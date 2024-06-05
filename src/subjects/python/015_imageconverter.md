@@ -44,3 +44,6 @@ Maak een applicatie die met 1 opdracht meerdere afbeeldingen kan aanpassen. De a
 
 ## Evaluatie en beoordeling
 [Download hier](https://static.edutorial.nl/python/python_beoordeling_imageconverter.xlsx) het beoordelingsformulier
+
+## Beoordeling
+* [IT2B P4 2024 Beoordelingsformulier](https://static.edutorial.nl/python/beoordeling_P4_scripting.xlsx)

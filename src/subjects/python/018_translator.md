@@ -38,4 +38,9 @@ Nadat de teksten zijn vertaald, kun je ook een lijst genereren van de vertaalde 
 ## Uitleg
 Er zijn meerdere manieren om text om te zetten naar geluid. Met openai.com krijg je mooie resultaten, maar dan moet je ook een api-key hebben. (wel gratis, maar je moet je aanmelden!). Er zijn ook andere modules beschikbaar, waarbij een api-key niet nodig is. Er zit wel verschil in de kwaliteit van de verschillende modules. Onderzoek welke jij het beste vind voor deze toepassing.
 
+## Beoordeling
+* [IT2B P4 2024 Beoordelingsformulier](https://static.edutorial.nl/python/beoordeling_P4_scripting.xlsx)
+
+
+
 
