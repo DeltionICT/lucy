@@ -48,18 +48,6 @@
         "date":"Wed Feb 16 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/project-beer-casus/",
-        "title":"Project Beer-casus",
-        "author":"rkerssies, cstegeman",
-        "date":"Tue Mar 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/projecten/project-zwabbertje-casus/",
-        "title":"Project Zwabbertje-casus",
-        "author":"rkerssies",
-        "date":"Tue Mar 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/php-basis/simpele-login/",
         "title":"Simpele login",
         "author":"jsiewers",
@@ -108,30 +96,6 @@
         "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/project-farout/",
-        "title":"Project FarOut",
-        "author":"jsiewers",
-        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/projecten/project-handig-joh/",
-        "title":"Project Handig Joh",
-        "author":"jsiewers",
-        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/projecten/project-kraeken/",
-        "title":"Project Kraeken",
-        "author":"jsiewers",
-        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/projecten/project-stembus/",
-        "title":"Project Stembus",
-        "author":"jsiewers",
-        "date":"Thu Nov 10 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/uml-erd/erd-vakantiepark/",
         "title":"ERD Vakantiepark",
         "author":"jsiewers",
@@ -154,12 +118,6 @@
         "title":"Pizza",
         "author":"jsiewers",
         "date":"Sun Nov 20 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/projecten/eigen-project-casus/",
-        "title":"Eigen project-casus",
-        "author":"rkerssies",
-        "date":"Mon Dec 12 2022 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
         "url":"/lucy/subjects/codebase-xl/digitale-nummers/",
@@ -1524,12 +1482,6 @@
         "date":"Sat Jul 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/project-de-poort/",
-        "title":"Project De Poort",
-        "author":"jsiewers",
-        "date":"Tue Aug 08 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/ict-flex/verslag-autheursrecht/",
         "title":"Verslag | Autheursrecht",
         "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
@@ -1932,12 +1884,6 @@
         "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/project-pawhaven/",
-        "title":"Project PawHaven",
-        "author":"adalmolen",
-        "date":"Wed Feb 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/software-licenties/introductie/",
         "title":"Introductie",
         "author":"pgemert",
@@ -2046,12 +1992,6 @@
         "date":"Tue Mar 19 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/projecten/project-movies/",
-        "title":"Project Movies",
-        "author":"jsiewers",
-        "date":"Tue Mar 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/js-advanced/js120-vue-nodejs/",
         "title":"js120 | Vue - NodeJS",
         "author":"cstegeman",
@@ -2062,18 +2002,6 @@
         "title":"Windows Forms met Mysql database",
         "author":"kstarreveld",
         "date":"Wed Apr 10 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/projecten/project-bso/",
-        "title":"Project BSO",
-        "author":"jsiewers",
-        "date":"Sun Apr 14 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/projecten/project-kinderopvang/",
-        "title":"Project Kinderopvang",
-        "author":"jsiewers",
-        "date":"Sun Apr 14 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
         "url":"/lucy/subjects/laravel/starten-met-laravel/",
