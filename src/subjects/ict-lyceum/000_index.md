@@ -1,30 +1,37 @@
 ---
 title: Introductie
 author: rkerssies
-date: 2023-06-30
+date: 2024-06-24
 ---
 
 {{ '/_assets/school/klas.png'  | image: 'ict-lyceum', 10 }}
 
 ## Het beroep
-> Software ontwikkeling is een specialistisch vak. Desondanks dient de Software developer zich heel breed te 
-> oriënteren als het gaat om kennis en vaardigheden (zoals werkmethodieken, programmeertalen en de diverse 
-> informatiesystemen en platformen waar de programmatuur werkend moet zijn). Bovendien moet hij/zij breed 
-> onderlegd zijn daar waar het gaat om de enorme diversiteit aan mogelijke software en devices waar hij/zij 
-> mee te maken krijgt. Denk hierbij bijvoorbeeld aan het ontwikkelen van webbased software, websites, toepassingssoftware, 
-> games en andere entertainmentsoftware en media-uitingen.   
+> Softwareontwikkeling is een specialistisch vak. Maar toch moet een Softwaredeveloper zich breed 
+> oriënteren in kennisgebieden en vaardigheden (denk daarbij aan: (samen)werkmethodieken, programmeertalen, ontwerptechnieken en tools). 
+> Daarbij komt een grote variatie aan zakelijke vraagstukken die werken met verschillende platformen, 
+> informatiesystemen en devices waar de software voor geschreven wordt.
+> 
+> Zo kunnen de zakelijk vraagstukken wrden uitgewerkt als: webbased software, websites, app's, toepassingssoftware, 
+> immersive applications (3D, VR, AR) en games.   
 ><br><br> 
->De Software developer werkt voornamelijk zelfstandig aan het realiseren van software. 
-> De eindverantwoordelijkheid voor het eindproduct ligt vaak bij de projectleider of leidinggevende. 
-> In veel gevallen werkt hij/zij samen met andere disciplines, zoals andere developers en designers. 
-> Gedurende het ontwikkelproces heeft hij/zij bovendien regelmatig contact met de opdrachtgever/ 
-> leidinggevende/ belanghebbenden, wat specifieke eisen stelt aan communicatieve vaardigheden.  
+> De Softwaredeveloper werkt voornamelijk in teamverband aan het realiseren van software, 
+> en is er een samenwerking met andere disciplines, zoals andere developers en designers.
+> Er wordt in een grote mate van zelfstandigheid  gevraagd in uit uitvoeren van en communiceren over eigen taken en werkzaamheden.
+> 
+
+> 
+> Gedurende het ontwikkelproces heeft bovendien regelmatig contact met de opdrachtgever, 
+> leidinggevende en belanghebbenden, wat communicatieve vaardigheden vraagt van een softwaredeveloper.  
+> De verantwoordelijkheid voor het relaisatie proces ligt vaak bij het gehele ontwikkelteam. Overleg over het eindproduct 
+> wordt vaak door een projectleider (product-owner) of leidinggevende uitgevoerd.
 > <br><br> 
-> De Software developer werkt in vrijwel alle sectoren van de economie, zoals de brede ICT-sector, 
-> game-industrie, de creatieve sector, de logistieke sector, de mobiliteitsbranche, de maakindustrie, 
-> de zorg en nog veel meer. Binnen de sector waar hij/zij gaat werken moet hij/zij tevens breed onderlegd
-> zijn met de voor die sector belangrijke ondersteunende kennis. Veelal is de beginnend beroepsbeoefenaar 
-> werkzaam in het midden- en kleinbedrijf.
+> De Software developer werkt in vrijwel alle sectoren zoals; de brede ICT-sector, de economische secror, 
+> zorg, onderwijs, transport en de creatieve sector en nog veel meer. 
+> Het helpt dat naast het vak softwaredeevloper ook affiniteit te hebben met andere sector om
+> zo goed mogelijk de klantsituatie te kunnen in te leven. 
+> Als softwaredeveloper ben je beginnend beroepsbeoefenaar vaak werkzaam in het midden- en kleinbedrijf, maar grotere concerns/organisatie 
+> en werken als ZZP-er is zeker ook mogelijk.
 > <br><br>
 > Het is van essentieel belang dat de Software developer de 
 > privacy van klanten, opdrachtgevers, en van alle (toekomstige) gebruikers van de software beschermt. 
@@ -41,19 +48,21 @@ van SoftwareDeveloper (bron: SBB)
     de uitdagingen van de toekomst het hoofd te bieden. 
 
 * **Doen**;<br>
-    Om goed te worden in het programmeren moet je veel expirimenteren. 
-    Dit gaat niet altijd direct goed. Bij tegenslagen moet je kunnen/willen doorzetten en vragen durfen stellen.
-    Dit gaat tijd kosten tijdens de les, maar (hopelijk) ook thuis.
+    Om goed te worden in het programmeren moet je veel expirimenteren met code. 
+    Het schrijven van werkende code gaat niet altijd direct goed. Laat staan dat is uitgevoerd op een 'best-practice' manier.
+    Bij tegenslagen moet je kunnen/willen doorzetten en vragen durfen stellen om de (beste) oplossing te vinden.
+    Ervaringen opdoen gaat veel tijd kosten tijdens de les, maar (hopelijk/waarschijnlijk) ook thuis.
 
 * **Communicatie**;<br>
     Je gaat applicaties maken voor klanten, die specifieke wensen en eisen hebben. 
-    Wat je moet maken en hoe kan je alleen weten als je goed kan communiceren.  
-    communicatie en samenwerking (team-werk !)
+    Om goed te begrijpen wat de oplossing exact inhoudt moet je goed communiceren en vragen stellen 
+    en samenwerking.
 
 * **Samenwerken**;<br>
-    ICT-ers en dus ook SoftwareDevelopers zijn geen eenlingen die ergens iets achter een computer zitten te doen.
+    Een ICT-ers, en dus ook SoftwareDevelopers, zijn geen eenlingen die ergens iets achter een computer zitten te doen.
     Voor het maken van een applicatie zijn verschillende specialises nodig, dit is vaak te breed en bevat te veel 
-    details voor één persoon. Ook kan je door effectief samen te werken sneller en goedkoper werken.    
+    details voor één persoon. Ook kan er door effectief samen te werken en goed teamoverleg sneller en goedkoper worden gewerkt. 
+    Programmeren is teamwerk !    
 
   
 ## Onderwijsvormen KLAS en FLEX
@@ -68,30 +77,38 @@ De programmeervakken zijn (bij voorkeur) in grote lesblokken ingepland waarin ji
 Dit begint met een vaste basis, waarna je steeds meer eigen keuzes en uitwerkingsvormen kan kiezen.
 
 Bij een set opdrachten gaat elke student verwoorden wat hij/zij daar persoonlijk van wil leren. 
-De ontwikkelingen hierin moeten worden bijgehouden en worden telkens besproken, waarna er wordt bepaald welke 
-vervolgopdracht het beste in jouw ontwikkeling past.
+De ontwikkelingen hierin moeten worden telkens besproken en bijgehouden, zodat ook de volgende opdrachten 
+goed aansluiten bij jouw ontwikkeling.
 
-Naast deze korte contactmomenten zijn er per jaar vier momenten waarop al het eerdere werk wordt geëvalueerd en de doelen 
-voor het komende kwartaal worden vast gelegd. In de klassikale lesvorm gebeurt dit in een speciale lesweek (Rubrics-week) die 
-cyclisch per kwartaal worden ingepland. Bij flex hebben wekelijks enkele studenten deze bespreking. 
-De gespreksresultaten (Rubrics) worden bewaard als bewijs van de voortgang. Naast (traditionele) scores bij de algemene vakken, 
-zijn er geen cijfers voor de programmeervakken. Dit ligt vast in de verschillende Rubrics en de omschrijvingen die daarin zijn gemaakt.  
+Naast deze lesmomenten zijn er per jaar vier momenten waarop al jouw eerdere werk wordt geëvalueerd en dat er nieuwe doelen 
+voor het komende kwartaal worden vastgelegd. In de klassikale lesvorm gebeurt dit in een speciale lesweek (Rubrics-week) die 
+cyclisch per kwartaal worden ingepland. Bij flex zijn er wekelijks bespreking voor studenten die cyclisch worden herhaald. 
+De gespreksresultaten (Rubrics) worden bewaard om inzicht te krijgen in jouw voortgang en ontwikkelingspad. 
+Naast traditionele scores (cijfers) bij de algemene vakken, 
+worden er géén cijfers gegeven voor de programmeervakken. De voortgang en kwaliteit daarvan is 
+verwerkt in de verschillende Rubrics met een omschrijvingen.  
 
 Afhankelijk van persoonlijke voorkeur in programmeertalen kan een student in overleg met zijn LOB-er 
 in zijn Rubrics laten vastleggen dat hij zijn focus legt op:
 * Volledig Frontend
-* Full-stack Programmeur (Frontend- en Backend-technieken)
+* Full-stack Programmeur (beide Frontend- en Backend-technieken)
 * Volledig Backend
-Deze specialisatie kan/mag (waar mogelijk) ook worden voortgezet tijdens de SCRUM-projecten.
+* Anders (in overleg is het mogelijk om je te ontwikkelen in een ander programmeer werkveld)
+Deze specialisatie moet/mag (waar mogelijk) ook worden uitgevoerd binnen de SCRUM-projecten.
 
-Als de basis in programmeren is gelegd ga je een half jaar op stage. Na de stage ga je een applicatie maken binnen
-een projectteam volgens de SCRUM-methodiek. De casus is bij voorkeur van een externe (non-commerciele) party,
-maar er zijn ook casussen beschikbaar op school.
-Als uit de Rubrics blijkt dat jij je als beginnend beroepsbeoefenaar staande kan houden binnen het werk als `SoftwareDeveloper` , 
-dan kan jij op voor een CGI (criterium gericht interview). Het aanwezige werk in jouw portfolio, jouw presentatie, 
-de antwoorden op de gestelde vragen, etc. bepalen voor welke examenonderdelen met een voldoende of hoger zijn afgerond. 
-Voor het behalen van een diploma moeten alle wettelijke examenonderdelen, de stage(s) de drie verplichte keuzedelen 
-en de algemene vakken (minimaal gemiddelde 6,6 en één 5) positief zijn afgerond.
+Binnen het standaard (nominale) programma begint elke student met de basis in het programmeren.
+Als de basis is gelegd kan een student een half jaar op stage (BPV). Na de stage ga je een applicatie maken binnen
+een projectteam volgens de SCRUM-methodiek. De casus is bij voorkeur van een externe (non-commerciële) partij,
+maar er zijn ook verschillende fictieve- en oude examencasussen beschikbaar. In al dit werk kunnen er bewijsstukken 
+worden verzameld voor het portfolio. Hierop kan jij een akkoord met feedback of feedforward krijgen. Als het bewijsstuk niet akkoord is, 
+dan wordt er verwacht dat jij het bewijsstuk vanuit een andere context opnieuw maakt en de feedforward daarin meeneemt. 
+De bewijsstukken per WerkProces worden uitgewerkt in een STARR-document, waarin inzichtelijk wordt in elke situaties de bewijsstukken
+zijn uitgewerkt, hoe deze in stappen zijn uitgewerkt, het bewijstuk(ken) zelf, en de ontvangen feedforward, feedback en hoe dit is toegepast. 
+ 
+Als uit Rubrics (LOB), De STARR-uitwerkingen en de aangeleverde bewijsstukken blijkt als jij je gedraagt als een beginnend beroepsbeoefenaar
+`SoftwareDeveloper`en bewijsstukken van voldoende kwalitatieve waarde in jouw portfolio hebt verzameld, kan jij per KernTaak 
+(of als het niet anders kan) ook per WerkProces een presentatie en eindgesprek aanvragen. 
+Bij het examen wordt er gebruik gemaakt van de SPL-criteria die gelden voor de opleiding `SoftwareDeveloper`.
 
 
 

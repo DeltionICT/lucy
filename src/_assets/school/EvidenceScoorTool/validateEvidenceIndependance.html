@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Context-complexiteit score</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			padding: 20px;
+			display: flex;
+			justify-content: center;
+		}
+		.container {
+			width: 80%;
+			max-width: 600px; /* Limit max-width for better mobile view */
+			background-color: #f8f8f8;
+			padding: 20px;
+			border-radius: 10px;
+			position: relative; /* To position the chosen answers div */
+		}
+		.header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+		.header h1 {
+			margin: 0;
+		}
+		.result {
+			font-size: 1.8em;
+			margin-top: 20px;
+		}
+		.question {
+			margin-bottom: 20px;
+			padding: 10px;
+			background-color: #e0e0e0;
+			border-radius: 5px;
+		}
+		.question-label {
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		.question-content {
+			display: flex;
+			flex-direction: column;
+		}
+		.answer-container {
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+		}
+		.score-input {
+			margin-right: 10px;
+			flex-shrink: 0;
+		}
+		label {
+			margin-left: 5px; /* Add slight margin to labels for better readability */
+		}
+		.answer-divider {
+			border-top: 1px solid #b3d7ff; /* Light blue color for the divider */
+			margin-top: 10px; /* Space above the divider */
+			margin-bottom: 10px; /* Space below the divider */
+		}
+		button {
+			background-color: #689bc6; /* Blue background color */
+			color: white; /* White text color */
+			font-size: 1.2em; /* Larger font size */
+			padding: 10px 20px; /* Padding for button */
+			border: none; /* No border */
+			border-radius: 5px; /* Rounded corners */
+			cursor: pointer; /* Pointer cursor on hover */
+			margin-top: 10px; /* Space above the button */
+			transition: background-color 0.3s ease; /* Smooth transition for background-color */
+		}
+		button[disabled] {
+			background-color: #cccccc; /* Light gray background color when disabled */
+			cursor: not-allowed; /* Not-allowed cursor when disabled */
+		}
+		button:hover:not([disabled]) {
+			background-color: #5a88ad; /* Darker blue on hover */
+		}
+		.button-tooltip {
+			position: relative;
+			display: inline-block;
+		}
+		.button-tooltip .tooltiptext {
+			visibility: hidden;
+			width: 120px;
+			background-color: #555;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 5px 0;
+			position: absolute;
+			z-index: 1;
+			bottom: 125%;
+			left: 50%;
+			margin-left: -60px;
+			opacity: 0;
+			transition: opacity 0.3s;
+		}
+		.button-tooltip .tooltiptext::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			margin-left: -5px;
+			border-width: 5px;
+			border-style: solid;
+			border-color: #555 transparent transparent transparent;
+		}
+		.button-tooltip:hover .tooltiptext {
+			visibility: visible;
+			opacity: 1;
+		}
+		.result-grade {
+			font-weight: bold; /* Bold font weight */
+		}
+		.result-grade-b {
+			color: #444444; /* Dark gray color for grade B */
+		}
+		.result-grade-c {
+			color: #aaaaaa; /* Light gray color for grade C */
+		}
+		.chosen-answers {
+			font-size: 0.9em; /* Smaller font size for chosen answers */
+			margin-top: 10px; /* Space above chosen answers */
+		}
+		.chosen-answers ol {
+			padding-left: 20px; /* Indentation for ordered list */
+		}
+		.answer-list {
+			font-size: 0.9em; /* Smaller font size for answer list */
+			font-style: italic; /* Italic style for answer list */
+			margin-top: 5px; /* Space above answer list */
+		}
+		@media (max-width: 600px) {
+			.container {
+				width: 100%;
+				padding: 10px;
+			}
+		}
+		.oranje-button {
+			background-color: #f79c42; /* Orange background color */
+		}
+		.oranje-button:hover:not([disabled]) {
+			background-color: #e68a32; /* Darker orange on hover */
+		}
+		.button-container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h1>Zelfstandigheid-score</h1>
+		<img src="indepedendance.png" alt="Context" width="66" height="66">
+	</div>
+	<form id="scoreForm"></form>
+	<div class="button-container">
+		<div class="button-tooltip">
+			<button type="button" onclick="calculateScore()" id="calculateButton" disabled>
+				<span>Bepaal score</span>
+				<span class="tooltiptext">Beantwoord alle vragen om door te gaan</span>
+			</button>
+		</div>
+		<div class="button-tooltip">
+			<a href="validateEvidenceContext.html">
+				<button type="button" class="oranje-button">
+					<span>naar Context-scoren</span>
+				</button>
+			</a>
+		</div>
+	</div>
+	<div id="result" class="result"></div>
+	<div id="chosenAnswers" class="chosen-answers"></div>
+</div>
+
+<!-- Inclusie van het externe JavaScript-bestand -->
+<script src="IndependanceQuestions.js"></script>
+<script>
+	// Dynamisch formulier genereren
+	const form = document.getElementById('scoreForm');
+
+	questions.forEach((question, index) => {
+		const questionDiv = document.createElement('div');
+		questionDiv.classList.add('question');
+
+		// Vraagtekst toevoegen
+		const questionLabel = document.createElement('div');
+		questionLabel.classList.add('question-label');
+		questionLabel.innerHTML = `<strong>${question.text}</strong>`;
+		questionDiv.appendChild(questionLabel);
+
+		// Inhoud van de vraag
+		const questionContent = document.createElement('div');
+		questionContent.classList.add('question-content');
+
+		// Antwoorden toevoegen
+		question.answers.forEach((answer, answerIndex) => {
+			const answerContainer = document.createElement('div');
+			answerContainer.classList.add('answer-container');
+
+			const answerInput = document.createElement('input');
+			answerInput.type = 'radio';
+			answerInput.id = `${question.id}_${answerIndex}`;
+			answerInput.name = question.id;
+			answerInput.value = answerIndex;
+			answerInput.classList.add('score-input');
+			answerInput.addEventListener('change', checkAllAnswered);
+
+			const answerLabel = document.createElement('label');
+			answerLabel.setAttribute('for', `${question.id}_${answerIndex}`);
+			answerLabel.textContent = answer;
+
+			answerContainer.appendChild(answerInput);
+			answerContainer.appendChild(answerLabel);
+			questionContent.appendChild(answerContainer);
+
+			// Add answer separators
+			if (answerIndex < question.answers.length - 1) {
+				const answerSeparator = document.createElement('div');
+				answerSeparator.classList.add('answer-separator');
+				questionContent.appendChild(answerSeparator);
+			}
+		});
+
+		questionDiv.appendChild(questionContent);
+		form.appendChild(questionDiv);
+
+		// Add question dividers
+		if (index < questions.length - 1) {
+			const divider = document.createElement('div');
+			divider.classList.add('answer-divider');
+			form.appendChild(divider);
+		}
+	});
+
+	// Score berekenen en resultaat weergeven
+	function calculateScore() {
+		let totalScore = 0;
+		let maxScore = 0;
+		let answerListHTML = '<div class="chosen-answers"><ol>';
+
+		questions.forEach((question) => {
+			const selected = document.querySelector(`input[name="${question.id}"]:checked`);
+			if (selected) {
+				const value = parseInt(selected.value) || 0; // Value ranges from 0 to 4
+				totalScore += value;
+				maxScore += 4; // Assuming the highest value for each question is 4
+
+				const answerText = questions.find(q => q.id === question.id).answers[value];
+				answerListHTML += `<li>${answerText}</li>`;
+			}
+		});
+
+		answerListHTML += '</ol></div>';
+
+		let grade = '';
+		const percentageScore = (totalScore / maxScore) * 100;
+
+		if (percentageScore >= 82.5) { // 82.5% and above
+			grade = '<span class="result-grade result-grade-a">A</span>';
+		} else if (percentageScore >= 70) { // 70% to 82.5%
+			grade = '<span class="result-grade result-grade-b">B</span>';
+		} else { // below 70%
+			grade = '<span class="result-grade result-grade-c">C</span>';
+		}
+
+		document.getElementById('result').innerHTML = `De score voor de context-complexiteit is: ${grade}`;
+		document.getElementById('chosenAnswers').innerHTML = answerListHTML;
+	}
+
+	// Enable button when all questions are answered
+	function checkAllAnswered() {
+		const allAnswered = questions.every((question) => {
+			return document.querySelector(`input[name="${question.id}"]:checked`);
+		});
+
+		const calculateButton = document.getElementById('calculateButton');
+		calculateButton.disabled = !allAnswered;
+
+		const tooltipText = calculateButton.querySelector('.tooltiptext');
+		tooltipText.textContent = allAnswered ? '' : 'Beantwoord alle vragen om door te gaan';
+	}
+
+	// Event listener for radio button changes
+	const inputs = document.querySelectorAll('input[type="radio"]');
+	inputs.forEach(input => {
+		input.addEventListener('change', checkAllAnswered);
+	});
+
+	// Initially check if button should be enabled
+	checkAllAnswered();
+</script>
+</body>
+</html>
