@@ -14,6 +14,17 @@ const questions  = [
 	},
 	{
 		id: "question2",
+		text: "Moeilijkheid vakkennis",
+		answers: [
+			"Het is onbekend welke specifieke vakkennis nodig zal zijn voor de uitvoering van de opdracht.",
+			"Er is basiskennis nodig die geïntegreerd enkele onderwerpen samenbrengt.",
+			"Er is basiskennis nodig die meerdere onderwerpen geïntegreerd en laat samenwerken.",
+			"Er is redelijke kennis nodig die meerdere onderwerpen geïntegreerd en laat samenwerken binnen één systeem.",
+			"Er is gevorderde, specialistische kennis nodig om meerdere onderwerpen geïntegreerd te laten samenwerken over meerdere systemen"
+		]
+	},
+	{
+		id: "question3",
 		text: "Impact op bedrijfsprocessen",
 		answers: [
 			"De impact op de bedrijfsprocessen is niet in te schatten.",
@@ -24,7 +35,7 @@ const questions  = [
 		]
 	},
 	{
-		id: "question3",
+		id: "question4",
 		text: "Betrokkenen",
 		answers: [
 			"Het aantal direct betrokkenen bij de uitvoering van de opdracht is niet duidelijk",
@@ -35,7 +46,7 @@ const questions  = [
 		]
 	},
 	{
-		id: "question4",
+		id: "question5",
 		text: "Tijdsdruk, Planning en Deadlines",
 		answers: [
 			"Er is geen tijdsdruk of planning; deadlines zijn niet van toepassing.",

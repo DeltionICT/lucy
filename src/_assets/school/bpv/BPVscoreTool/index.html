@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPV Beoordelingsformulier</title>
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.2/dist/signature_pad.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Achtergrondkleur van de pagina */
+        }
+        .container {
+            background-color: #ffffff; /* Achtergrondkleur van de container */
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        #signature-pad {
+            border: 1px solid #ccc; /* Lichte rand om handtekeningveld */
+            width: 100%;
+            height: 200px;
+        }
+        .section-heading {
+            background-color: #e0e0e0; /* Zachte grijze achtergrond voor sectie titels */
+            color: #333; /* Donkere tekstkleur voor sectie titels */
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .section-content {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd; /* Lichtere rand om sectie inhoud */
+            border-radius: 5px;
+            background-color: #f5f5f5; /* Zachte grijze achtergrond voor sectie inhoud */
+        }
+        .form-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .radio-label {
+            display: inline-block;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-4">BPV Beoordelingsformulier</h1>
+        <div class="form-header">
+            <h3>Studentgegevens</h3>
+        </div>
+        <form id="bpvForm">
+            <div class="form-group">
+                <label for="studentName">Naam Student:</label>
+                <input type="text" class="form-control" id="studentName" required>
+            </div>
+            <div class="form-group">
+                <label for="studentNumber">Studentnummer:</label>
+                <input type="text" class="form-control" id="studentNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="bpvPeriod">BPV-periode:</label>
+                <input type="text" class="form-control" id="bpvPeriod" required>
+            </div>
+            <div class="form-group">
+                <label for="companyName">Bedrijf:</label>
+                <input type="text" class="form-control" id="companyName" required>
+            </div>
+            <div class="form-group">
+                <label for="companyMentor">Praktijkopleider bij het bedrijf:</label>
+                <input type="text" class="form-control" id="companyMentor" required placeholder="Naam praktijkopleider">
+            </div>
+            <div class="form-group">
+                <label for="schoolMentor">Praktijkbegeleider van school:</label>
+                <input type="text" class="form-control" id="schoolMentor" required placeholder="Naam docent">
+            </div>
+            <div class="section-heading">
+                <h3>Beoordelingscriteria</h3>
+            </div>
+            <div class="section-content">
+                <div class="form-group">
+                    <label>Technische vaardigheden:</label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="technicalSkills" value="1"> Onvoldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="technicalSkills" value="2" checked> Voldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="technicalSkills" value="3"> Goed
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="technicalSkills" value="4"> Uitstekend
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Programmeertalen:</label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="programmingLanguages" value="1"> Onvoldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="programmingLanguages" value="2" checked> Voldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="programmingLanguages" value="3"> Goed
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="programmingLanguages" value="4"> Uitstekend
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Probleemoplossend vermogen:</label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="problemSolving" value="1"> Onvoldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="problemSolving" value="2" checked> Voldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="problemSolving" value="3"> Goed
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="problemSolving" value="4"> Uitstekend
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Samenwerken:</label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="teamwork" value="1"> Onvoldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="teamwork" value="2" checked> Voldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="teamwork" value="3"> Goed
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="teamwork" value="4"> Uitstekend
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Communicatieve vaardigheden:</label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="communication" value="1"> Onvoldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="communication" value="2" checked> Voldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="communication" value="3"> Goed
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="communication" value="4"> Uitstekend
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Projectmanagement:</label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="projectManagement" value="1"> Onvoldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="projectManagement" value="2" checked> Voldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="projectManagement" value="3"> Goed
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="projectManagement" value="4"> Uitstekend
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Zelfstandigheid:</label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="independence" value="1"> Onvoldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="independence" value="2" checked> Voldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="independence" value="3"> Goed
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="independence" value="4"> Uitstekend
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Klantgerichtheid:</label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="customerFocus" value="1"> Onvoldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="customerFocus" value="2" checked> Voldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="customerFocus" value="3"> Goed
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="customerFocus" value="4"> Uitstekend
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Leer- en aanpassingsvermogen:</label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="learningAdaptability" value="1"> Onvoldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="learningAdaptability" value="2" checked> Voldoende
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="learningAdaptability" value="3"> Goed
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="learningAdaptability" value="4"> Uitstekend
+                    </label>
+                </div>
+                
+            <div class="section-heading">
+                <h3>Opmerkingen</h3>
+            </div>
+            <div class="section-content">
+                <div class="form-group">
+                    <label for="strengths">Sterke punten:</label>
+                    <textarea class="form-control" id="strengths" rows="3" placeholder="Voer sterke punten in"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="improvements">Verbeterpunten:</label>
+                    <textarea class="form-control" id="improvements" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Aanvullende opmerkingen:</label>
+                    <textarea class="form-control" id="comments" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="section-heading">
+                <h3>Handtekening</h3>
+            </div>
+            <div class="section-content">
+                <canvas id="signature-pad" class="mb-2"></canvas>
+                <button type="button" class="btn btn-secondary mb-2" onclick="clearSignature()">Handtekening wissen</button>
+            </div>
+            <div class="form-group text-center">
+                <button type="button" class="btn btn-primary" onclick="generatePDF()">Genereer PDF</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Function to convert Base64 to Uint8Array
+
+        const canvas = document.getElementById('signature-pad');
+        const signaturePad = new SignaturePad(canvas);
+
+        function clearSignature() {
+            signaturePad.clear();
+        }
+
+        async function generatePDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+            
+            // Datum in Nederlandse notatie
+            const currentDate = new Date().toLocaleDateString('nl-NL');
+
+            // Ophalen van waarden uit het formulier
+            const studentName = document.getElementById('studentName').value.trim();
+            const studentNumber = document.getElementById('studentNumber').value.trim();
+            const bpvPeriod = document.getElementById('bpvPeriod').value.trim();
+
+            const companyName = document.getElementById('companyName').value.trim();
+            const companyMentor = document.getElementById('companyMentor').value.trim();
+            const schoolMentor = document.getElementById('schoolMentor').value.trim();
+
+            // Ophalen van beoordelingscriteria
+            const technicalSkills = document.querySelector('input[name="technicalSkills"]:checked').value;
+            const programmingLanguages = document.querySelector('input[name="programmingLanguages"]:checked').value;
+            const problemSolving = document.querySelector('input[name="problemSolving"]:checked').value;
+            const teamwork = document.querySelector('input[name="teamwork"]:checked').value;
+            const communication = document.querySelector('input[name="communication"]:checked').value;
+            const projectManagement = document.querySelector('input[name="projectManagement"]:checked').value;
+            const independence = document.querySelector('input[name="independence"]:checked').value;
+            const customerFocus = document.querySelector('input[name="customerFocus"]:checked').value;
+            const learningAdaptability = document.querySelector('input[name="learningAdaptability"]:checked').value;
+
+            const strengths = document.getElementById('strengths').value.trim();
+            const improvements = document.getElementById('improvements').value.trim();
+            const comments = document.getElementById('comments').value.trim();
+
+            const sum = technicalSkills * 1 + programmingLanguages* 1 + problemSolving * 1+
+             teamwork* 1 + communication* 1 +
+                projectManagement* 1 + independence* 1 + customerFocus* 1 + learningAdaptability* 1;
+    const average = sum / 9;
+     // Determine grade based on average score
+     let grade = '';
+    if (average < 2.0) {
+        grade = 'Onvoldoende';
+    } else if (average >= 2.0 && average < 3.0) {
+        grade = 'Voldoende';
+    } else if (average >= 3.0 && average < 3.5) {
+        grade = 'Goed';
+    } else {
+        grade = 'Uitstekend';
+    }
+
+            // Voeg PNG-logo rechtsboven toe
+            const logoWidth = 50; // Breedte van het logo
+            const logoHeight = 50; // Hoogte van het logo
+            const marginLeft = 160; // Marge vanaf de linkerzijde
+            const marginTop = 10; // Marge vanaf de bovenzijde
+            const pageWidth = doc.internal.pageSize.getWidth(); // Breedte van de pagina
+
+            // Bereken positie rechtsboven
+            const x = pageWidth - marginLeft - logoWidth;
+            const y = marginTop;
+
+            // doc.addImage('./logo.png', 'PNG', x, y, logoWidth, logoHeight);
+
+            // Achtergrondkleuren instellen voor secties
+            doc.setFillColor(240, 240, 240); // Zachte grijze tint
+            doc.rect(10, 10, 190, 20, 'F'); // Bovenste sectie
+            doc.rect(10, 50, 95, 200, 'F'); // Linker sectie
+            doc.rect(105, 50, 95, 200, 'F'); // Rechter sectie
+
+            // Tekst instellingen
+            doc.setFont('helvetica');
+            doc.setFontSize(12);
+            doc.setTextColor(0, 0, 0); // Zwart
+
+            // Bovenste sectie
+            doc.text('BPV Beoordelingsformulier', 105, 18, null, null, 'center');
+
+            // Linker sectie (Studentgegevens)
+            doc.text('Studentgegevens', 20, 70);
+            doc.text(`Naam Student: ${studentName}`, 20, 80);
+            doc.text(`Studentnummer: ${studentNumber}`, 20, 90);
+            doc.text(`BPV-periode: ${bpvPeriod}`, 20, 100);
+            doc.text(`Bedrijf: ${companyName}`, 20, 110);
+            doc.text(`Mentor bij het bedrijf: ${companyMentor}`, 20, 120);
+            doc.text(`Mentor van school: ${schoolMentor}`, 20, 130);
+
+            // Rechter sectie (Beoordelingscriteria)
+            doc.text('Beoordelingscriteria', 110, 70);
+            // Tekst instellingen
+            //doc.setFont('helvetica');
+            doc.setFontSize(8);
+           // doc.setTextColor(0, 0, 0); // Zwart
+            doc.text(`Technische vaardigheden: ${technicalSkills}`, 110, 80);
+            doc.text(`Programmeertalen: ${programmingLanguages}`, 110, 85);
+            doc.text(`Probleemoplossend vermogen: ${problemSolving}`, 110, 90);
+            doc.text(`Samenwerken: ${teamwork}`, 110, 95);
+            doc.text(`Communicatieve vaardigheden: ${communication}`, 110, 100);
+            doc.text(`Projectmanagement: ${projectManagement}`, 110, 105);
+            doc.text(`Zelfstandigheid: ${independence}`, 110, 110);
+            doc.text(`Klantgerichtheid: ${customerFocus}`, 110, 115);
+            doc.text(`Leer- en aanpassingsvermogen: ${learningAdaptability}`, 110, 120);
+            doc.setFontSize(12);
+            // Sum and Average
+   doc.text(`Totaal score: ${sum}`, 110, 140);
+    doc.text(`Gemiddelde score: ${average.toFixed(2)}`, 110, 150);
+    doc.text(`Beoordeling: ${grade}`, 110, 160);
+
+    // Onderste sectie (Opmerkingen)
+            doc.text('Opmerkingen', 20, 140);
+            doc.text('Sterke punten:', 20, 150);
+            doc.text(strengths, 20, 160);
+            doc.text('Verbeterpunten:', 20, 170);
+            doc.text(improvements, 20, 180);
+            doc.text('Aanvullende opmerkingen:', 20, 190);
+            doc.text(comments, 20, 200);
+           // Datum in Nederlandse notatie toevoegen
+            doc.text(`Datum: ${currentDate}`, 20, 210);
+
+            // Naam van de schoolmentor boven de handtekening
+            doc.text(`Naam schoolmentor: ${schoolMentor}`, 20, 220);
+
+            // Handtekening toevoegen
+            const imageData = signaturePad.toDataURL();
+           doc.addImage(imageData, 'PNG', 20, 230, 50, 20);
+
+            const  pngBase64 = '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';
+            const imgDataLogo = `data:image/jpeg;base64,${pngBase64}`;
+            const imgWidth = 30; // Adjust image width as needed
+            const imgHeight = 11; // Adjust image height as needed
+            const margin = 10; // Margin from top and right edges
+
+            // Calculate coordinates for top right corner
+            doc.addImage(imgDataLogo, 'PNG', pageWidth - imgWidth - margin, margin, imgWidth, imgHeight);
+
+ // Tabel met beoordelingsschaal
+ const gradesData = [
+        { score: '< 2,0', beoordeling: 'Onvoldoende' },
+        { score: '2,0 - 2,9', beoordeling: 'Voldoende' },
+        { score: '3,0 - 3,5', beoordeling: 'Goed' },
+        { score: '> 3,5', beoordeling: 'Uitstekend' }
+    ];
+ // Headers
+ const headers = ['Score', 'Beoordeling'];
+
+    // Definieer de positie van de tabel
+    const tableStartX = 20;
+    let currentY = 250;// doc.internal.pageSize.height - 20; // Begin onderaan de pagina
+
+    // Teken de headers
+    doc.setFont('helvetica', 'bold');
+    doc.text(headers[0], tableStartX, currentY);
+    doc.text(headers[1], tableStartX + 50, currentY);
+    currentY += 10;
+
+    // Teken de rijen
+    doc.setFont('helvetica', 'normal');
+    gradesData.forEach(row => {
+        doc.text(row.score, tableStartX, currentY);
+        doc.text(row.beoordeling, tableStartX + 50, currentY);
+        currentY += 10;
+    });
+    // Create JSON object with all data
+    const data = {
+        studentName: studentName,
+        studentNumber: studentNumber,
+        bpvPeriod: bpvPeriod,
+        companyName: companyName,
+        companyMentor: companyMentor,
+        schoolMentor: schoolMentor,
+        technicalSkills: technicalSkills,
+        programmingLanguages: programmingLanguages,
+        problemSolving: problemSolving,
+        teamwork: teamwork,
+        communication: communication,
+        projectManagement: projectManagement,
+        independence: independence,
+        customerFocus: customerFocus,
+        learningAdaptability: learningAdaptability,
+        strengths: strengths,
+        improvements: improvements,
+        comments: comments,
+        sum: sum,
+        average: average.toFixed(2),
+        grade: grade,
+        currentDate: currentDate
+    };
+
+    // Log the JSON object to console
+    console.log(data);
+
+            // Bestandsnaam en opslaan
+            const fileName = `${studentNumber}_${studentName.replace(/\s/g, '_')}_bpv${bpvPeriod}.pdf`;
+            doc.save(fileName);
+        }
+    </script>
+</body>
+</html>

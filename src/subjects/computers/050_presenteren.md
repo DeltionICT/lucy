@@ -19,6 +19,8 @@ Waar moet je op letten bij jouw presentatie?
    Zorg ervoor dat jouw presentatie niet te kort of te lang is.
    Neem je tijd op tijdens het oefenen voor de spiegel. 
    Hoe vaker je oefent, hoe beter je leert jouw presentatie binnen de gewenste tijd te geven.
+   Niemand zit te wachten op een presentatie "start de powerpoint en zoek de presentatie of demo-site"...<br>
+   Zorg dat alles `ready to go is`.
 2. Stopwoordjes: ”Woorden als ‘uh,. . . ’ brengen haperingen aan in je verhaal,
    waardoor je snel ongemakkelijk en onprofessioneel overkomt. 
    Dit is natuurlijk niet te bedoeling wanneer je een presentatie staat te geven.”

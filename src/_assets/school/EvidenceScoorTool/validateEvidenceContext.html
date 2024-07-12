@@ -164,17 +164,17 @@
 	<form id="scoreForm"></form>
 	<div class="button-container">
 		<div class="button-tooltip">
-			<button type="button" onclick="calculateScore()" id="calculateButton" disabled>
-				<span>Bepaal score</span>
-				<span class="tooltiptext">Beantwoord alle vragen om door te gaan</span>
-			</button>
-		</div>
-		<div class="button-tooltip">
 			<a href="validateEvidenceIndependance.html">
 				<button type="button" class="oranje-button">
 					<span>naar Zelfstandigheid-scoren</span>
 				</button>
 			</a>
+		</div>
+		<div class="button-tooltip">
+			<button type="button" onclick="calculateScore()" id="calculateButton" disabled>
+				<span>Bepaal score</span>
+				<span class="tooltiptext">Beantwoord alle vragen om door te gaan</span>
+			</button>
 		</div>
 	</div>
 	<div id="result" class="result"></div>
@@ -264,9 +264,9 @@
 		let grade = '';
 		const percentageScore = (totalScore / maxScore) * 100;
 
-		if (percentageScore >= 82.5) { // 82.5% and above
+		if (percentageScore >= 85) { // 85% and above
 			grade = '<span class="result-grade result-grade-a">A</span>';
-		} else if (percentageScore >= 70) { // 70% to 82.5%
+		} else if (percentageScore >= 75) { // 75% to 85%
 			grade = '<span class="result-grade result-grade-b">B</span>';
 		} else { // below 70%
 			grade = '<span class="result-grade result-grade-c">C</span>';

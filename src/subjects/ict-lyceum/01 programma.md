@@ -10,31 +10,31 @@ technology: school
 
 ## Nominale opleidingsplanning
 Globaal zijn de schooljaren als volgt (nominaal) ingedeeld:
-* 1e jaar; `de basiscs`; leren programmeren in Frontend-, Backend-programmertalen, databases en de SCRUM-methodiek leren kennen
-* 2e jaar - `portfolio opstarten`; eerste semester; stage (BPV1)
-* 2e jaar - `portfolio uitbreiden`; tweede semester; projecten met de SCRUM methodiek + verdieping 
-* 3e jaar - `portfolio uitbreiden`; eerste semester; projecten met de SCRUM methodiek + verdieping & SD-examens
-* 3e jaar - `portfolio afronden`; tweede semester; stage (BPV2) --> diploma
-* 4e jaar; uitloop indien noodzakelijk.<br>
+* 1e fase; `de basiscs`; leren programmeren in Frontend-, Backend-programmeertalen, databases en de SCRUM-methodiek leren kennen (1e leerjaar)
+* 2e fase - `portfolio opstarten`; één semester stage lopen (BPV1) 
+* 3e fase - `portfolio uitbreiden`; projecten met de SCRUM methodiek + verdieping & SD-examens (twee semesters)
+* 4e fase - `portfolio afronden`; één semester stage lopen (BPV2) --> diploma
+* uitloop indien noodzakelijk.<br>
   NB: Afhankelijk van de individuele ontwikkeling kan hier, in overleg met het docenten-team, van worden afgeweken.
 
 
 ## Programmaschema
 Het onderstaande schema toont hoe jij (nominaal) door de opleiding kan gaan (van links naar rechts) en
-daarin een keuze kan maken uit verschillende profielen. 
+daarin een keuze kan maken uit verschillende profielen.
 <br>
-{{ '/_assets/school/programma.png'  | image: 'programma', 80 }}
+{{'/_assets/school/roosters/jaarplan2024-2025.png' | image: 'jaarprogramma 2024-2025', 80}}<br>
+<a href="/_assets/school/roosters/Onderwijsjaarplanning-Deltion-2024-2025-incl.-periodes-versie-1.1.xlsx">xls jaarplanning</a>
 
 ## Ontwikkel opdrachten
 Lucy (deze site) heeft verschillende blokken met daarin meerdere sets met opdrachten.<br>
-Bij het openen van een opdrachtenset wordt een geadviseerde leerlijn getoond, de normale tijdsduur per opdracht
+Bij het openen van een opdrachten-set wordt een geadviseerde leerlijn getoond, de normale tijdsduur per opdracht
 en optionele tips en eisen. In de linker kolom staan de verschillende opdrachten van de gekozen set. Na de eerste twee blokken is er
 veel keuzevrijheid, met uitzondering van opdrachten-sets die een directe link hebben met het kwalificatie-dossier.
-Verplichte worden aangegeven met een slot-icoon ( 🔒). Welke opdrachten jij kiest, is vrij. Echter is het de bedoeling dat je naast
+Verplichte worden aangegeven met een slot-icoon (🔒). Welke opdrachten jij kiest, is vrij. Echter is het de bedoeling dat je naast
 een werkend eindresultaat ook mondeling kunt onderbouwen hoe het werkt.
 Dit geldt voor ALLE verdere opdrachten, projecten en bewijsstukken die jij oplevert.
 
-Zo is er bijvoorbeeld een blok 'Basis Programmeren' dat meerdere sets basisopdrachten, waaronder de opdrachtenset 'CodeBas S', 'CodeBase M' en 'CodeBase XL'. 
+Zo is er bijvoorbeeld een blok 'Basis Programmeren' dat meerdere sets basisopdrachten, waaronder de opdrachten-set 'CodeBas S', 'CodeBase M' en 'CodeBase XL'. 
 Deze sets met opdrachten hebben een themakleur en zijn in een geadviseerde volgorde geplaatst, van boven 
 naar beneden. Vervolgens kan jij code meer integreren met elkaar en o.a. met databases, frameworks, API's en projectmatig leren werken.
 Vervolgen kan jij starten met een SCRUM projectteam een praktijk realistische casus op te zetten en daarvoor een applicatie en/of app te realiseren.  
@@ -42,7 +42,7 @@ Vervolgen kan jij starten met een SCRUM projectteam een praktijk realistische ca
 
 ## Technische know-how ICT-Lyceum docenten SD
 Het docententeam heeft de volgende kennis in huis en kan je daarin ondersteunen;
-* Frontend: HTML, CSS, JavaScripting, jQuery, Angualar, Vue-framework
+* Frontend: HTML, CSS, JavaScripting, jQuery, TypeSctipt, Angualar, Vue-framework
 * Backend: PHP (OOP), C#, Laravel-framework, React-Native, Unity, Python, NodeJS
 * Databases & data: SQL, PhpMyAdmin, JSON, XML, API-servers
 * Webhosting ed.: Apache, Nginx, XAMPP, WAMP, Composer, Docker, CLI / terminal Linux, Windows-server

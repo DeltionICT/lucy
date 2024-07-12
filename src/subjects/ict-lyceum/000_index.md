@@ -8,36 +8,35 @@ date: 2024-06-24
 
 ## Het beroep
 > Softwareontwikkeling is een specialistisch vak. Maar toch moet een Softwaredeveloper zich breed 
-> oriënteren in kennisgebieden en vaardigheden (denk daarbij aan: (samen)werkmethodieken, programmeertalen, ontwerptechnieken en tools). 
+> oriënteren in kennisgebieden en vaardigheden, denk daarbij aan o.a.: (samen)werkmethodieken, klanten/opdrachtgevers, programmeertalen, ontwerptechnieken en tools. 
 > Daarbij komt een grote variatie aan zakelijke vraagstukken die werken met verschillende platformen, 
-> informatiesystemen en devices waar de software voor geschreven wordt.
+> informatiesystemen en devices waar de software voor wordt geschreven.
 > 
-> Zo kunnen de zakelijk vraagstukken wrden uitgewerkt als: webbased software, websites, app's, toepassingssoftware, 
-> immersive applications (3D, VR, AR) en games.   
+> Zo kunnen er zakelijk vraagstukken worden uitgewerkt als: web-applicaties, websites, app's en toepassingssoftware.<br> 
+> Voor een opleiding die 'immersive applications', zoals 3D, VR, AR en games maakt, is de opleiding CreativeDeveloper.   
 ><br><br> 
-> De Softwaredeveloper werkt voornamelijk in teamverband aan het realiseren van software, 
-> en is er een samenwerking met andere disciplines, zoals andere developers en designers.
-> Er wordt in een grote mate van zelfstandigheid  gevraagd in uit uitvoeren van en communiceren over eigen taken en werkzaamheden.
+> De Softwaredeveloper werkt bij het realiseren van software vooral in teamverband,
+> waarbij er meestal wordt samengewerkt met andere disciplines, zoals andere developers en designers.
+> Er wordt in een grote mate van zelfstandigheid gevraagd in uit uitvoeren van en communiceren over eigen taken en werkzaamheden.
 > 
 
-> 
-> Gedurende het ontwikkelproces heeft bovendien regelmatig contact met de opdrachtgever, 
-> leidinggevende en belanghebbenden, wat communicatieve vaardigheden vraagt van een softwaredeveloper.  
-> De verantwoordelijkheid voor het relaisatie proces ligt vaak bij het gehele ontwikkelteam. Overleg over het eindproduct 
-> wordt vaak door een projectleider (product-owner) of leidinggevende uitgevoerd.
+> Tijdens het ontwikkelproces is er regelmatig contact met de opdrachtgever, 
+> leidinggevende en belanghebbenden. Een Softwaredeveloper moet zeker communicatieve vaardigheden hebben.  
+> De verantwoordelijkheid voor het realisatie proces ligt vaak bij het gehele ontwikkelteam. 
+> Overleg over het eindproduct wordt vaak door een projectleider (product-owner) of leidinggevende uitgevoerd.
 > <br><br> 
-> De Software developer werkt in vrijwel alle sectoren zoals; de brede ICT-sector, de economische secror, 
+> De Softwaredeveloper werkt in vrijwel alle sectoren zoals; de brede ICT-sector, de economische sector, 
 > zorg, onderwijs, transport en de creatieve sector en nog veel meer. 
-> Het helpt dat naast het vak softwaredeevloper ook affiniteit te hebben met andere sector om
-> zo goed mogelijk de klantsituatie te kunnen in te leven. 
-> Als softwaredeveloper ben je beginnend beroepsbeoefenaar vaak werkzaam in het midden- en kleinbedrijf, maar grotere concerns/organisatie 
-> en werken als ZZP-er is zeker ook mogelijk.
+> Het helpt dat naast het vak Softwaredeveloper ook affiniteit te hebben met andere sector om
+> de klantsituatie zo goed mogelijk te kunnen in te leven. 
+> Als softwaredeveloper ben je beginnend beroepsbeoefenaar vaak werkzaam in het midden- en kleinbedrijf, 
+> maar grotere concerns/organisatie en werken als ZZP-er vallen ook onde de mogelijkheden.
 > <br><br>
 > Het is van essentieel belang dat de Software developer de 
 > privacy van klanten, opdrachtgevers, en van alle (toekomstige) gebruikers van de software beschermt. 
 > Daarnaast moet software veilig zijn en beschermd zijn tegen oneigenlijk of crimineel gebruik.
 
-De opleiding moet voldoet aan het [kwalificatiedossier]({{ 'https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1145987' | url }})
+De opleiding moet voldoet aan het [kwalificatiedossier]({{'https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1145987' | url}})
 van SoftwareDeveloper (bron: SBB)
 
 

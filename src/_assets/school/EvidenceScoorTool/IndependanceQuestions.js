@@ -25,17 +25,6 @@ const questions  = [
 	},
 	{
 		id: "question3",
-		text: "Moeilijkheid vakkennis",
-		answers: [
-			"Het is onbekend welke specifieke vakkennis nodig zal zijn voor de uitvoering van de opdracht.",
-			"Er is basiskennis nodig die geïntegreerd enkele onderwerpen samenbrengt.",
-			"Er is basiskennis nodig die meerdere onderwerpen geïntegreerd en laat samenwerken.",
-			"Er is redelijke kennis nodig die meerdere onderwerpen geïntegreerd en laat samenwerken binnen één systeem.",
-			"Er is gevorderde, specialistische kennis nodig om meerdere onderwerpen geïntegreerd te laten samenwerken over meerdere systemen"
-		]
-	},
-	{
-		id: "question5",
 		text: "Ervaring",
 		answers: [
 			"Het is niet duidelijk hoeveel ervaring er nodig is voor de opdracht.",
@@ -46,7 +35,7 @@ const questions  = [
 		]
 	},
 	{
-		id: "question6",
+		id: "question4",
 		text: "Ondersteuning",
 		answers: [
 			"Het is niet duidelijk hoeveel ondersteuning nodig is voor de opdracht.",
@@ -57,7 +46,7 @@ const questions  = [
 		]
 	},
 	{
-		id: "question4",
+		id: "question5",
 		text: "Verantwoordelijkheden",
 		answers: [
 			"De verantwoordelijkheden en rollen zijn niet afgebakend.",

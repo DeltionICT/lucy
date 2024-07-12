@@ -12,7 +12,7 @@ technology: school
 Het onderwijs is ingericht op ontwikkeling. Hierbinnen heb jij zelf ook invloed, 
 je kan hierin zelf ook keuzes maken. Zo mag je zelf kiezen in welke programmeertaal jij je wil specialiseren.
 De docenten bepalen niet welke lessen en de bijbehorende opdrachten jij moet maken. 
-Na een oriëntatie en het aanleren van de basis programmeer-skills mag jijzelf het werkveld verkennen en je specialiceren 
+Na een oriëntatie en het aanleren van de basis programmeer-skills mag jijzelf het werkveld verkennen en je specialiseren
 in jouw voorkeur van programmeertalen en technieken. Uiteraard zal dit het niveau van 'beginnend beroepsbeoefenaar' moeten hebben, 
 zodat het een MBO-diploma waardig is.  
 
@@ -39,12 +39,19 @@ Tijdens een Rubrics-gesprek wordt direct in een Osiris-notitie ingevuld waarin o
   * stel je vragen
   * ben je pro-actief
   * waar sta je qua niveau ?
-* **Andere onderwerpen**;
+* **Andere onderwerpen**
   * stage lopen
   * status `LOB-werkstukken`
   * planning en afronding `keuzedelen`
   * scores voor de algemene vakken
   * `sport` (ingepland / afgerond)
+
+NB: De punten hierboven zijn aangehaakt bij de LOB-kwaliteieten van Dektion:  
+  a. wie ben ik, wat kan ik?
+  b. motievenreflectie: wat wil ik, wat drijft mij? 
+  c. werkexploratie: welk soort werk past bij mij? 
+  d. loopbaansturing: wat wil ik worden? 
+  e. netwerken: wie kan mij daar bij helpen?
 
 Aan het einde van een semester voeg jij alle Rubrics-noties in Osiris samen in een Rubrics-formulier 
 en upload dat in jouw PORTFOLIO onder LOB (Loopbaanoriëntatie- en -begeleiding).
