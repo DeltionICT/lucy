@@ -18,7 +18,7 @@ Vaak ga je daarna voor het eerst op stage, maar je kan je ook verder gaan verdie
 in softwareoplossingen, best-practices, programmeertechnieken, ontwerp-skills, samenwerken en communiceren, ed.
 
 
-## Quik read - what to do {{ '/_assets/school/begeleiding/SD portfolio examinering flowchart.pdf' | image: 'flowchart', 4 }}
+## Quik read - what to do {{ '/_assets/school/begeleiding/SD_portfolio_examinering_flowchart.pdf' | image: 'flowchart', 4 }}
 Dit is wat je in enkele punten moet voor het opbouwen van een portfolio t.b.v. jouw examen;
 1. verzamel bewijsstukken die bij werkprocessen passen
 2. waardeer jouw bewijsstuk op Context en Zelfstandigheid 
