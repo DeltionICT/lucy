@@ -15,7 +15,7 @@ Globaal zijn de schooljaren als volgt (nominaal) ingedeeld:
 * 3e fase - `portfolio uitbreiden`; projecten met de SCRUM methodiek + verdieping & SD-examens (twee semesters)
 * 4e fase - `portfolio afronden`; één semester stage lopen (BPV2) --> diploma
 * uitloop indien noodzakelijk.<br>
-  NB: Afhankelijk van de individuele ontwikkeling kan hier, in overleg met het docenten-team, van worden afgeweken.
+  NB: Afhankelijk van de individuele ontwikkeling kan in overleg hierin met het docenten-team van worden afgeweken.
 
 
 ## Programmaschema
@@ -28,15 +28,17 @@ daarin een keuze kan maken uit verschillende profielen.
 ## Ontwikkel opdrachten
 Lucy (deze site) heeft verschillende blokken met daarin meerdere sets met opdrachten.<br>
 Bij het openen van een opdrachten-set wordt een geadviseerde leerlijn getoond, de normale tijdsduur per opdracht
-en optionele tips en eisen. In de linker kolom staan de verschillende opdrachten van de gekozen set. Na de eerste twee blokken is er
-veel keuzevrijheid, met uitzondering van opdrachten-sets die een directe link hebben met het kwalificatie-dossier.
-Verplichte worden aangegeven met een slot-icoon (🔒). Welke opdrachten jij kiest, is vrij. Echter is het de bedoeling dat je naast
-een werkend eindresultaat ook mondeling kunt onderbouwen hoe het werkt.
-Dit geldt voor ALLE verdere opdrachten, projecten en bewijsstukken die jij oplevert.
+en optionele tips en eisen. In de linker kolom staan de verschillende opdrachten van de gekozen set. 
 
-Zo is er bijvoorbeeld een blok 'Basis Programmeren' dat meerdere sets basisopdrachten, waaronder de opdrachten-set 'CodeBas S', 'CodeBase M' en 'CodeBase XL'. 
-Deze sets met opdrachten hebben een themakleur en zijn in een geadviseerde volgorde geplaatst, van boven 
-naar beneden. Vervolgens kan jij code meer integreren met elkaar en o.a. met databases, frameworks, API's en projectmatig leren werken.
+Zo is er bijvoorbeeld een blok 'Basis Programmeren' dat meerdere sets basisopdrachten,
+waaronder de opdrachten-set 'CodeBas S', 'CodeBase M' en 'CodeBase XL'.
+Deze sets met opdrachten hebben een themakleur en zijn in een geadviseerde volgorde geplaatst, van boven naar beneden.
+Het de bedoeling dat je naast een werkend eindresultaat ook mondeling kunt onderbouwen hoe het werkt.
+
+Na de eerste twee blokken is er veel keuzevrijheid, uiteraard in overleg.
+Vervolgens kan jij code meer integreren met elkaar en verdiepen met o.a.: databases, frameworks, API's en projectmatig leren werken.
+Ook hier geldt dat jij ALLE verdere uitwerkingen van opdrachten, projecten en bewijsstukken mondeling kan onderbouwen.
+
 Vervolgen kan jij starten met een SCRUM projectteam een praktijk realistische casus op te zetten en daarvoor een applicatie en/of app te realiseren.  
 
 

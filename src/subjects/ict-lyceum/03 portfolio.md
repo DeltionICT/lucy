@@ -10,10 +10,10 @@ technology: school
 
 ## Introductie
 In overleg met je LOB-er en de vakdocenten kun jij, als je de basis beheerst, gaan werken aan je portfolio. 
-Dat betekent dat jij de vaardigheden hebt en gaat ontwikkelen om te coderen volgens met best-practices
-binnen frameworks en weet hoe je moet samenwerken met SCRUM. 
-Je bent proactief, zelfstandig en onderzoekend naar oplossingen.
-(je hebt bij de klas-lesvorm bijvoorbeeld alle diagnostische tests doorlopen)
+Dat betekent dat jij de benodigde basis vaardigheden hebt en jezelf gaat ontwikkelen om te coderen volgens de huidige best-practices
+en dat je weet hoe jij moet samenwerken binnen een SCRUM-team. 
+Je bent dan proactief, zelfstandig en onderzoekend naar oplossingen voor jouw eigen ontwikkeling
+(je hebt bij de klas-lesvorm bijvoorbeeld alle diagnostische tests doorlopen).
 Vaak ga je daarna voor het eerst op stage, maar je kan je ook verder gaan verdiepen 
 in softwareoplossingen, best-practices, programmeertechnieken, ontwerp-skills, samenwerken en communiceren, ed.
 
@@ -31,11 +31,13 @@ vraag dan een examen moment aan (bij voorkeur per KernTaak)
 _________________________________________________________
 # Het portfolio in detail
 
-## Portfolio opbouw {{'/_assets/school/begeleiding/portfolio.png' | image: 'eindbeoordeling', 4 }}
+## Een portfolio opbouwen {{'/_assets/school/begeleiding/portfolio.png' | image: 'eindbeoordeling', 4}}
 Het portfolio moet worden opgebouwd met examen-waardige bewijsstukken. 
-Er is een [lijst met bewijsstukken {{ '/_assets/school/begeleiding/evidence.png' | image: 'bewijsstukken', 3 }}]({{'/_assets/school/begeleiding/GeadviseerdeBewijsstukken.pdf'}})
-opgesteld als richtlijn, zodat jij weet welke bewijsstukken er zoal worden geaccepteerd. Jij mag hiervan afwijken, maar overleg dit met het docententeam om 
-er zeker van te zijn dat jouw mogelijke bewijsstuk wel passend is binnen een WerkProces. Bewijsstukken kunnen worden verzameld vanuit:
+Er is een voorbeeld [lijst met bewijsstukken {{'/_assets/school/begeleiding/evidence.png' | image: 'bewijsstukken', 3}}]({{'/_assets/school/begeleiding/GeadviseerdeBewijsstukken.pdf'}})
+opgesteld als richtlijn die als uitvoeringsvorm worden geaccepteerd. 
+Jij mag hiervan afwijken, maar overleg dit met het docententeam om 
+er zeker van te zijn dat jouw mogelijke bewijsstuk wel passend is binnen een WerkProces. 
+Bewijsstukken kunnen worden verzameld vanuit:
 - school opdrachten
 - school-, externe projecten
 - stageopdrachten / stagewerkzaamheden
@@ -58,7 +60,7 @@ en voegt dit toe aan het STARR-document. Waardeer jouw bewijsstuk op:
   <br>Beide leveren een letter A (hoog), of C (laag) op.
 
 **STARR-uitwerking**<br>
-De `STARR` uitwerking bevat vijf kopjes;<br>
+Elke `STARR`-uitwerking bevat vijf kopjes met tekst;<br>
 - *`Situatie`*<br>
     Een beschrijving van alle scenatio's / context bij alle bewijsstukken<br>
 -  *`Taak`*<br>
