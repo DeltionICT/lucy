@@ -26,7 +26,7 @@ Dit is wat je in enkele punten moet voor het opbouwen van een portfolio t.b.v. j
 4. heb jij alle bewijsstukken voor werkprocessen als 'beginnend beroepsbeoefenaar' uitgevoerd, 
 vraag dan een examen moment aan (bij voorkeur per KernTaak)
 <br><br>
-[ {{ '/_assets/school/begeleiding/SD portfolio examinering flowchart.pdf' | image: 'flowchart', 50 }} ]({{'/_assets/school/begeleiding/SD_portfolio_examinering_flowchart.pdf'}})
+[ {{'/_assets/school/begeleiding/SD_portfolio_examinering_flowchart.pdf' | image: 'flowchart', 50}} ]({{'/_assets/school/begeleiding/SD_portfolio_examinering_flowchart.pdf'}})
 <br><br>
 _________________________________________________________
 # Het portfolio in detail
