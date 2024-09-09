@@ -1,10 +1,7 @@
 ---
 title: Ontwikkelomgeving Webdevelopment
-key: 2104
-difficulty: basic
-date: 2023-01-05
+date: 2024-09-02
 author: jsiewers
-technology: ide, php, html, css
 ---
 
 
@@ -14,26 +11,11 @@ technology: ide, php, html, css
 > #### Dit ga je leren
 > * Een IDE installeren en de basis mogelijkheden toepassen
 
-[//]: # (## Resultaat)
-
-[//]: # (* Een ontwikkelomgeving op je eigen laptop die je nodig hebt bij het maken van applicaties.)
-
-[//]: # (* Schermafbeeldingen waarmee je aantoont dat je een onderdeel hebt geïnstalleerd en geconfigureerd.)
-
-[//]: # (* Presentatie van je de ontwikkelomgeving op je eigen laptop aan 1 van de docenten.)
 
 {{ '/_assets/ontwikkelomgeving/laptop_services.png'  | image: 'laptop-services', 13 }}
 
-## Presentatie ontwikkelomgeving
-- Wanneer je het control-panel van XAMPP opent, kun je Apache en MySQL (zonder errors) starten. 
-- Toon het versienummer van git als het opstart vanuit een willekeurige directory met <code>git --version</code>.
-- Toon php vanuit een willekeurige directory met <code>php --version</code>.
-- Laat zien dat 'Visual Studio' of PHPstorm is geïnstalleerd en werkt.
-
-[//]: # (- Toon het versienummer van git als het opstart vanuit een willekeurige directory met <code>git --verson</code>.)
-
-[//]: # (- Toon je accountinformatie op github.com)
-
+## Opdracht
+In deze opdracht ga je de gereedschappen installeren die je als developer nodig hebt om te kunnen werken. 
 
 ## Browsers
 Installeer minimaal 2 browsers die je kunt gebruiken om websites te bekijken en te testen.  
@@ -43,31 +25,6 @@ Denk aan:
 * Safari
 * Opera
 
-> Tip: Ontdek de "inspector" in de browser van jouw voorkeur. bijv: RMB --> Inspect<br>
-> {{ '/_assets/ontwikkelomgeving/chrome_inspect_element.png'  | image: 'inspector', 70 }}
-> 
-
-> Tip: Ontdek het verversen van het scherm, waarbij de cache (geheugen) van de browser wordt opgeschoond 
-
-[//]: # (## XAMPP)
-
-[//]: # (Xampp is een verzameling servers die je gebruikt bij de ontwikkeling van dynamische websites.  )
-
-[//]: # (Download Xampp voor jouw operating system. &#40;windows / mac / linux&#41;.  )
-
-[//]: # (Installeer XAMPP zoals uitgelegd in onderstaande video.)
-
-[//]: # ()
-[//]: # (## Configureer PHP)
-
-[//]: # (Als developer wil je vanuit iedere directory php kunnen opstarten zonder dat je het hele pad naar php.exe moet opgeven.)
-
-[//]: # (* Voeg het pad naar PHP toe aan de omgevingsvariabele PATH &#40;windows&#41;)
-
-[//]: # (* Voeg het pad naar PHP toe aan ~/.bash_profile of ~/.zprofile &#40;mac / linux&#41;)
-
-[//]: # ()
-[//]: # ({% video "playlist?list=PLBtXOV0WuE_GKUVvPsP-ms6ZgBKRMktri" %})
 
 ## Een editor installeren
 {{ '/_assets/_icons/visual_studio_code.png'  | image: 'visual studio', 9 }}
@@ -79,7 +36,14 @@ Denk aan:
 * Installeer eventueel relevante plugins afhankelijk van de taal waarin je gaat programmeren
 
 
-> ##### Op te leveren
-> * Werkende Apache webserver om het mogelijk te maken om PHP-code uit te voeren
-> * Werkende MySQL of MariaDB database beschikbaar te stellen
+## Resultaat
+- Wanneer je het control-panel van XAMPP opent, kun je Apache en MySQL (zonder errors) starten. 
+- Toon het versienummer van git als het opstart vanuit een willekeurige directory met <code>git --version</code>.
+- Toon php vanuit een willekeurige directory met <code>php --version</code>. Om dit te laten werken moet je de omgevingsvariabelen van windows aanpassen. [Zie de uitleg in het tweede filmpje van deze videos](https://www.youtube.com/watch?v=lydpYoYdnkw&list=PLBtXOV0WuE_GKUVvPsP-ms6ZgBKRMktri))
+- Laat zien dat 'Visual Studio' of PHPstorm is geïnstalleerd en werkt.
 
+
+#### Uitleg
+* In deze [serie video's](https://www.youtube.com/watch?v=lydpYoYdnkw&list=PLBtXOV0WuE_GKUVvPsP-ms6ZgBKRMktri) wordt precies uitgelegd hoe je XAMPP en PHP Storm moet installeren!
+* [Hier een blog over de installatie van XAMPP](https://thewindowsclub.blog/nl/how-to-install-xampp-on-windows-10-11/) voor de mensen die liever stap-voor-stap uitleg lezen.
+* Bekijk op [deze website van digital ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-visual-studio-code-for-php-projects) hoe je visual studio code optimaal kunt inrichten om in PHP te programmeren.
