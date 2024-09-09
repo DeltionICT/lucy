@@ -1380,24 +1380,6 @@
         "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-lyceum/introductie/",
-        "title":"Introductie",
-        "author":"rkerssies",
-        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/ict-lyceum/programma/",
-        "title":"Programma",
-        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
-        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/ict-lyceum/ontwikkelingsgericht-onderwijs/",
-        "title":"Ontwikkelingsgericht Onderwijs",
-        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
-        "date":"Fri Jun 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/js-advanced/introductie/",
         "title":"Introductie",
         "author":"rkerssies",
@@ -2116,6 +2098,36 @@
         "title":"Project ComfortLiving",
         "author":"rkerssies",
         "date":"Mon Jun 10 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-lyceum/introductie/",
+        "title":"Introductie",
+        "author":"rkerssies",
+        "date":"Mon Jun 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-lyceum/programma/",
+        "title":"Programma",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Mon Jun 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-lyceum/ontwikkelingsgericht-onderwijs/",
+        "title":"Ontwikkelingsgericht Onderwijs",
+        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
+        "date":"Mon Jun 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-lyceum/portfolio-examen/",
+        "title":"Portfolio-examen",
+        "author":"rkerssies",
+        "date":"Mon Jun 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/ict-lyceum/bpv-stages/",
+        "title":"BPV-stages",
+        "author":"rkerssies",
+        "date":"Fri Jul 12 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
         "url":"/lucy/subjects/ontwikkelomgeving/ontwikkelomgeving-webdevelopment/",
