@@ -55,8 +55,8 @@ de 'Context-complexiteit' en het 'Zelfredzaamheidsniveau' zijn bijgevoegd en kun
 **Bewijsstukken waarderen**<br>
 Niet elk bewijsstuk heeft hetzelfde waarde/niveau. Hiervoor doe jij per bewijsstuk op twee punten een check
 en voegt dit toe aan het STARR-document. Waardeer jouw bewijsstuk op:
-- de "[Context {{ '/_assets/_icons/context.png' | image: 'context', 3 }}]({{'/_assets/school/EvidenceScoorTool/vlaidateEvidenceContext.html'}})", en
-- het "[Zelfstandigheid {{ '/_assets/_icons/independance.png' | image: 'independance', 3 }}]({{'/_assets/school/EvidenceScoorTool/vlaidateEvidenceIndependance.html'}})"
+- de "[Context {{ '/_assets/_icons/context.png' | image: 'context', 3 }}]({{'/_assets/school/EvidenceScoorTool/validateEvidenceContext.html'}})", en
+- het "[Zelfstandigheid {{ '/_assets/_icons/independance.png' | image: 'independance', 3 }}]({{'/_assets/school/EvidenceScoorTool/validateEvidenceIndependance.html'}})"
   <br>Beide leveren een letter A (hoog), of C (laag) op.
 
 **STARR-uitwerking**<br>
