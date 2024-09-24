@@ -1,10 +1,7 @@
 ---
 title: Array met getallen
-key: 1022
-difficulty: medium #basic | medium | expert
 date: 2023-01-02
 author: jheuvelman
-technology: all
 ---
 
 > ### Voorkennis
@@ -12,9 +9,7 @@ technology: all
 > Basiskennis HTML- en CSS
 
 > #### Doelen
-> * Verschillende programmeervaardigheden leren en uitbreiden
-> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
-> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht
+> * Verschillende programmeervaardigheden leren
 
 {{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
 
