@@ -1,6 +1,0 @@
-{
-	"layout":"assignment.webc",
-	"tags":"Verslagen",
-	"coursetitle":"Verslagen",
-	"permalink":"/subjects/verslagen/{{ title | slugify }}/{{ page.index }}"
-}
