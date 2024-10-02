@@ -7,17 +7,13 @@ layout: layout.webc
     <module>
         <p slot="title">Basis programmeren</p>
         <p slot="techs">
-            <tech color="darkgreen" title="AVG"></tech>
-            <tech color="darkgreen" title="Auteursrecht"></tech>
-            <tech color="darkgreen" title="Software licenties"></tech>
-            <tech color="darkgreen" title="Computers"></tech>
+            <tech color="darkgreen" title="Basiskennis"></tech>
             <tech color="purple" title="Ontwikkelomgeving"></tech>
             <tech color="purple" title="Git en Github"></tech>
             <tech color="grey" title="Codebase S"></tech>
             <tech color="grey" title="Codebase M"></tech>
             <tech color="grey" title="Codebase XL"></tech>
             <tech color="orange" title="HTML-CSS"></tech>
-            <tech color="pink" title="Ken jezelf"></tech>
             <tech color="grey" title="Programmeren basis"></tech>
         </p>
     </module>
@@ -84,7 +80,6 @@ layout: layout.webc
     <module>
         <p slot="title">Organisatie</p>
         <p slot="techs">
-            <tech color="pink" title="ICT-flex"></tech>
             <tech color="pink" title="ICT-Lyceum"></tech>
             <tech color="pink" title="BPV"></tech>
             <tech color="grey" title="Intakes en bezoekers"></tech>
