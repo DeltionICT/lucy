@@ -2,42 +2,55 @@
 title: Software licenties
 difficulty: basic
 author: pgemert
-date: 2024-09-25
+date: 2024-10-02
 ---
 
-## Literatuuronderzoek
+> #### Voorkennis
+> * Maak eerste de opdracht Auteursrecht.
 
-Voor deze opdracht doe je onderzoek naar de inhoud van de AVG en welke invloed deze wet heeft op jouw werkzaamheden als software developer.
-Een goed onderzoek bestaat uit meerdere stappen die je gestructureerd doorloopt.
+# Introductie
+Iedereen met een computer, smartphone, tablet of IOT-device maakt gebruik
+van software. 
+Onder software verstaan wij alle programma’s die je op je device(s) gebruikt. 
+Denk hierbij aan programma’s als tekstverwerkers, emailclients,
+chatprogramma’s, games maar ook jouw operating systeem valt onder software.
 
-## Stappenplan
 
-Door het volgen van een stappenplan kom je tot het beste resultaat. Een stappenplan zou er als volgt uit kunnen zien:
+”Computersoftware omvat computerprogramma’s, bibliotheken en gerelateerde niet-uitvoerbare gegevens, zoals online documentatie of digitale media. Computerhardware en -software hebben elkaar nodig.”
 
-1. Formuleer de probleemstelling (centrale onderzoeksvraag).
-”De hoofdvraag of probleemstelling is een vraag of korte stelling waarin je
-precies samenvat wat je in je scriptie gaat onderzoeken.” (studiemeesters-probleemstelling) De probleemstelling is dus de vraag waar je onderzoek naar doet. Het antwoord op een probleemstelling mag niet met een simpel ja of nee gegeven
-worden. Een probleemstelling is dus een open vraag.
-2. Formuleer eventuele deelvragen. Deelvragen zijn subvragen van je probleemstelling. De probleemstelling is meestal niet in één keer te beantwoorden door zijn omvang. Deelvragen delen de probleemstelling op in kleinere vragen die je wel kunt beantwoorden.
-3. Noteer kernbegrippen.
-4. Zoek op basis van de kernbegrippen naar informatiebronnen. 
-5. Noteer relevante informatiebronnen.
-6. Maak een planning voor het onderzoeken van de bronnen.
-7. Verricht eigen onderzoek:
-    - Gebruik de bronnen om de juiste informatie te vinden. 
-    - Beantwoord de probleemstelling.
-    - Beantwoord de deelvragen.
-    - Maak notities.
-8. Controleer gegevens. 
-9.  Trek conclusies:
-    - Lees <https://www.afstudeergoeroes.nl/onderzoek-en-afstuderen/onderzoek/conclusies-trekken/>
-10.  Schrijf het verslag (onderzoeksrapport):
-    - Let op de Richtlijnen Verslag.
-    - Let op dat je de auteursrecht niet overtreedt.
-    - Vergeet niet de probleemstelling te beantwoorden.
-11.  Presenteer of bespreek het verslag.
+In deze opdracht onderzoek je verschillende licentievormen.
 
-Lees de volgende documentatie voor meer informatie over het doen van een literatuuronderzoek:
-- <https://www.studielab.nl/literatuuronderzoek/>
-- <https://infobronnen.wordpress.com/stappen-in-onderzoek/>
-- <http://www.afstudeersucces/literatuuronderzoek-vijf-stappen-een-doelgerichte-aanpak/>
+# Onderzoek
+
+*   Onderzoek wat software licenties inhouden.
+*   Onderzoek wat een Closed source licentie inhoudt.
+*   Onderzoek wat Open source software is.
+*   Onderzoek welke Open source licenties er zijn.
+    *   Waarom zou je als ontwikkelaar je eigen software onder een Open source licentie uitbrengen?
+    *   Waarom zou je als ontwikkelaar je eigen software niet onder een open source licentie uitbrengen?
+*   Onderzoek wat een permissive licentie betekent.
+*   Onderzoek waar GPL voor staat.
+*   Onderzoek waar Creative commons licenties voor staan.
+*   Welke CC bouwstenen zijn er?
+
+# Verslag
+
+Schrijf een verslag waarin je de verschillende licenties en hun voor- en nadelen beschrijft.
+
+# Beoordeling
+
+Overleg met een docent hoe je deze opdracht afrondt.
+Gebruik onderstaande rubric om te kijken of je aan de eisen van de opdracht voldoet.
+
+# Rubric
+
+*G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* 
+
+| *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* | *G* | *V* | *M* | *O* |
+|:----------------------------------------------------|:----|:----|:----|:----|
+| Ik heb een lekker leesbaar verslag geschreven       |     |     |     |     |
+| Ik heb het document <a href="https://xerte.deltion.nl/play.php?template_id=9848" target="_blank">Richtlijnen verslag</a> gebruikt |  |  |  |  |
+| Ik heb de EULA beschreven                      |     |     |     |     |
+| Ik heb Closed source licenties beschreven      |     |     |     |     |
+| Ik heb Open source licenties beschreven        |     |     |     |     |
+| Ik heb Creative commons licenties beschreven   |     |     |     |     |

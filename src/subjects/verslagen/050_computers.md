@@ -2,42 +2,61 @@
 title: Computers
 difficulty: basic
 author: pgemert
-date: 2024-09-25
+date: 2024-10-02
 ---
 
-## Literatuuronderzoek
+> #### Voorkennis
+> * Geen voorkennis nodig
 
-Voor deze opdracht doe je onderzoek naar de inhoud van de AVG en welke invloed deze wet heeft op jouw werkzaamheden als software developer.
-Een goed onderzoek bestaat uit meerdere stappen die je gestructureerd doorloopt.
+# Introductie
+Een computer is tegenwoordig een gebruiksvoorwerp. 
+De meeste mensen weten niet hoe een computer werkt en uit welke onderdelen deze computer is opgebouwd.
 
-## Stappenplan
+Als software developer maak je software die gebruik maakt van een computer. 
+Het is daarom handig als je weet uit welke onderdelen een computer bestaat.
+De werking en performance van je applicaties is direct afhankelijk van de hardware waarop je applicatie draait.
+In deze les leer je wat een computer is.
 
-Door het volgen van een stappenplan kom je tot het beste resultaat. Een stappenplan zou er als volgt uit kunnen zien:
+# Onderzoek
 
-1. Formuleer de probleemstelling (centrale onderzoeksvraag).
-”De hoofdvraag of probleemstelling is een vraag of korte stelling waarin je
-precies samenvat wat je in je scriptie gaat onderzoeken.” (studiemeesters-probleemstelling) De probleemstelling is dus de vraag waar je onderzoek naar doet. Het antwoord op een probleemstelling mag niet met een simpel ja of nee gegeven
-worden. Een probleemstelling is dus een open vraag.
-2. Formuleer eventuele deelvragen. Deelvragen zijn subvragen van je probleemstelling. De probleemstelling is meestal niet in één keer te beantwoorden door zijn omvang. Deelvragen delen de probleemstelling op in kleinere vragen die je wel kunt beantwoorden.
-3. Noteer kernbegrippen.
-4. Zoek op basis van de kernbegrippen naar informatiebronnen. 
-5. Noteer relevante informatiebronnen.
-6. Maak een planning voor het onderzoeken van de bronnen.
-7. Verricht eigen onderzoek:
-    - Gebruik de bronnen om de juiste informatie te vinden. 
-    - Beantwoord de probleemstelling.
-    - Beantwoord de deelvragen.
-    - Maak notities.
-8. Controleer gegevens. 
-9.  Trek conclusies:
-    - Lees <https://www.afstudeergoeroes.nl/onderzoek-en-afstuderen/onderzoek/conclusies-trekken/>
-10.  Schrijf het verslag (onderzoeksrapport):
-    - Let op de Richtlijnen Verslag.
-    - Let op dat je de auteursrecht niet overtreedt.
-    - Vergeet niet de probleemstelling te beantwoorden.
-11.  Presenteer of bespreek het verslag.
+Doe op het internet onderzoek naar de volgende termen:
 
-Lees de volgende documentatie voor meer informatie over het doen van een literatuuronderzoek:
-- <https://www.studielab.nl/literatuuronderzoek/>
-- <https://infobronnen.wordpress.com/stappen-in-onderzoek/>
-- <http://www.afstudeersucces/literatuuronderzoek-vijf-stappen-een-doelgerichte-aanpak/>
+*   Hardware
+*   Invoer apparaat
+*   Uivoer apparaat
+*   I/O
+*   Devices
+
+Doe op het internet onderzoek naar de volgende computeronderdelen:
+
+*   Moederbord (mainboard)
+*   Toetsenbord (keyboard)
+*   Muis (mouse)
+*   Processor (cpu)
+*   Grafische processor (gpu)
+*   Grafische adapter (gpu)
+*   Intern geheugen (internal memory)
+*   Harde schijf (hard disk) HDD
+*   Harde schijf (SSD disk) SSD
+*   Netwerk adapter (NIC)
+
+
+# Verslag
+
+Schrijf een verslag waarin je uitlegt welke onderdelen in een computer zitten. Je beschrijft ook wat de functie van deze onderdelen zijn.
+
+# Beoordeling
+
+Overleg met een docent hoe je deze opdracht afrondt.
+Gebruik onderstaande rubric om te kijken of je aan de eisen van de opdracht voldoet.
+
+# Rubric
+
+*G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* 
+
+| *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* | *G* | *V* | *M* | *O* |
+|:----------------------------------------------------|:----|:----|:----|:----|
+| Ik heb een lekker leesbaar verslag geschreven       |     |     |     |     |
+| Ik heb het document <a href="https://xerte.deltion.nl/play.php?template_id=9848" target="_blank">Richtlijnen verslag</a> gebruikt |  |  |  |  |
+| Ik heb belangrijkste onderdelen van een computer beschreven     |     |     |
+| Ik kan in een gesprek uitleggen hoe een computer werkt        |     |     |     |     |

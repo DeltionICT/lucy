@@ -26,7 +26,6 @@ Kennis van je eigen karaktereigenschappen zal jouw helpen om beter in een team t
 
 Kennis van karaktereigenschappen bij je teamleden helpt je om bepaald gedrag van anderen te accepteren.
 
-<hr>
 
 # Persoonlijkheidstest
 
@@ -46,7 +45,6 @@ inzicht in deze eigenschappen.
 
 3.  Noteer de uitkomsten van de test
 
-<hr>
 
 # Leerstijlentest
 
@@ -73,7 +71,6 @@ situatie begin jouw favoriete leerstijl.
 
 3.  Noteer de uitkomst van de test.
 
-<hr>
 
 # Teamrollentest
 
@@ -96,7 +93,6 @@ inzicht in de rol die jij van nature het liefst op je neemt.
 
 3.  Noteer de uitkomst van de test.
 
-<hr>
 
 # Verslag
 
@@ -107,7 +103,6 @@ Als laatste schrijf je een reflectie op deze opdracht. Vond je hem leuk om te do
 
 Let op dat je het verslag schrijf volgens de Richtlijnen Verslag.
 
-<hr>
 
 # Beoordeling
 
@@ -116,11 +111,11 @@ Overleg met een docent hoe je deze opdracht kunt afronden. Gebruik onderstaande 
 <hr>
 
 # Rubric
+
 | *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* |     |     |     |     |
 |:----------------------------------------------------|:----|:----|:----|:----|
-| Ik heb gereflecteerd op opdracht?                   |     |     |     |     |
-| Ik heb reflectie in verslag beschreven?             |     |     |     |     |
-| Ik heb mijn persoonlijkheid beschreven?             |     |     |     |     |
-| Ik heb mijn leerstijl(en) beschreven?               |     |     |     |     |
-| Ik heb mijn teamrol(len) beschreven?                |     |     |     |     |
-| Ik heb het document <a href="https://ict-flex.nl/download/richtlijnen-verslag/?tmstv=1727265713" target="_blank">Richtlijnen verslag</a> gebruikt |  |  |  |  |
+| Ik heb een lekker leesbaar verslag geschreven       |     |     |     |     |
+| Ik heb het document <a href="https://xerte.deltion.nl/play.php?template_id=9848" target="_blank">Richtlijnen verslag</a> gebruikt |  |  |  |  |
+| Ik heb mijn persoonlijkheid beschreven              |     |     |     |     |
+| Ik heb mijn leerstijl(en) beschreven                |     |     |     |     |
+| Ik heb mijn teamrol(len) beschreven                 |     |     |     |     |

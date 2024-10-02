@@ -18,7 +18,6 @@ Hoe reageer je in bepaalde situaties, hoe gedraag jij je in teams en op welke ma
 Deze kennis doe je op in het verslag Ken Jezelf.
 
 
-
 ## Geadviseerde leerlijn voor deze opdrachtenset
-Deze verslagen moet je in de eerste 5 maanden van de opleiding geschreven hebben.
-Je kunt daarna deze kennis gebruiken in je programmeeropdrachten.
+Deze verslagen moet je in de eerste 5 maanden van de opleiding schrijven.
+De kennis die je daarna hebt gebruik je dan in alle programmeeropdrachten.
