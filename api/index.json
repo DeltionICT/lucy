@@ -174,12 +174,6 @@
         "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-flex/basis-ken-jezelf/",
-        "title":"Basis | Ken Jezelf",
-        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
-        "date":"Sun Jan 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/ict-flex/basis-database-introductie/",
         "title":"Basis | Database introductie",
         "author":"jsiewers, adalmolen, jheuvelman, pvangemert",
@@ -1506,30 +1500,6 @@
         "date":"Tue Aug 08 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
-        "url":"/lucy/subjects/ict-flex/verslag-autheursrecht/",
-        "title":"Verslag | Autheursrecht",
-        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
-        "date":"Tue Sep 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/ict-flex/verslag-avg/",
-        "title":"Verslag | AVG",
-        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
-        "date":"Tue Sep 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/ict-flex/verslag-licenties-nl-en/",
-        "title":"Verslag | Licenties NL/EN",
-        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
-        "date":"Tue Sep 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
-        "url":"/lucy/subjects/ict-flex/verslag-presentatie-computer/",
-        "title":"Verslag/Presentatie | Computer",
-        "author":"jsiewers, pvangemert, adalmolen, jheuvelman",
-        "date":"Tue Sep 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    { 
         "url":"/lucy/subjects/database-queries/database-gegevens-filteren/",
         "title":"Database gegevens filteren",
         "author":"jsiewers",
@@ -2134,6 +2104,42 @@
         "title":"Ontwikkelomgeving Webdevelopment",
         "author":"jsiewers",
         "date":"Mon Sep 02 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/basiskennis/introductie/",
+        "title":"Introductie",
+        "author":"pgemert",
+        "date":"Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/basiskennis/kenjezelf/",
+        "title":"KenJezelf",
+        "author":"pgemert",
+        "date":"Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/basiskennis/avg/",
+        "title":"AVG",
+        "author":"pgemert",
+        "date":"Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/basiskennis/auteursrecht/",
+        "title":"Auteursrecht",
+        "author":"pgemert",
+        "date":"Wed Oct 02 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/basiskennis/software-licenties/",
+        "title":"Software licenties",
+        "author":"pgemert",
+        "date":"Wed Oct 02 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/basiskennis/computers/",
+        "title":"Computers",
+        "author":"pgemert",
+        "date":"Wed Oct 02 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
