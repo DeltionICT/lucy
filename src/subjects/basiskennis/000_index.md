@@ -18,6 +18,18 @@ Hoe reageer je in bepaalde situaties, hoe gedraag jij je in teams en op welke ma
 Deze kennis doe je op in het verslag Ken Jezelf.
 
 
-## Geadviseerde leerlijn voor deze opdrachtenset
+## Geadviseerde leerlijn 
 Deze verslagen moet je in de eerste 5 maanden van de opleiding schrijven.
-De kennis die je daarna hebt gebruik je dan in alle programmeeropdrachten.
+Deze kennis gebruik je daarna in alle programmeeropdrachten.
+
+>   1.  KenJezelf<br>
+>       ⏱️ 2 dagen &emsp;  🔒verplicht<br>
+>   2.  AVG<br>
+>       ⏱️ 5 dagen &emsp;  🔒verplicht<br>
+>   3.  Auteursrecht<br>
+>       ⏱️ 10 dagen &emsp;  🔒verplicht<br>
+>   4.  Software licenties<br>
+>       ⏱️ 10 dagen &emsp;  🔒verplicht<br>
+>   5.  Computers<br>
+>       ⏱️ 10 dagen &emsp;  🔒verplicht<br>
+
