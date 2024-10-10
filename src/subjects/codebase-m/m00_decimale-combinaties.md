@@ -13,17 +13,15 @@ technology: all
 
 > #### Doelen
 > * Verschillende programmeervaardigheden leren en uitbreiden
-> * Een gebruikerservaring coderen door verschillende functionaliteiten en processen te combineren
-> * Meer HTML- en CSS- mogelijkheden toepassen binnen een kleine opdracht  
+
 
 {{ '/_assets/omgevingen/basics.png'  | image: 'basis', 13 }}
 
 ### Resultaat
-Maak een programma dat alle mogelijke combinaties toont van twee
-decimalen.
+Geef alle getallen van 0 tot 100, maar alle getallen onder de 10 worden voorafgegaan door een 0 en het getal 100 wordt niet weergegeven. Zie onderstaand voorbeeld.
 
 ***Voorbeeld:***  
-Het programma geeft minimaal de volgende uitvoer:
+Het programma geeft de volgende uitvoer:
 
 Let op: achter 99 staat GEEN komma!
 
