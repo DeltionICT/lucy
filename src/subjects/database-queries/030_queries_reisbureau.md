@@ -36,4 +36,4 @@ author: jsiewers
 
 ## Resultaat
 * De gevraagde queries
-* Een verslag met schermafbeeldingen van de uitvoer van de queries.
+* Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.

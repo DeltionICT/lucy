@@ -39,4 +39,4 @@ Voor een applicatie die de gegevens van de registratiegegevens kan analyseren zi
 
 
 ## Resultaat
-* Een document met daarin de gemaakte queries en het resultaat als schermafbeelding.
+* Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.

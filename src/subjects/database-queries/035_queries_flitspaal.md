@@ -41,4 +41,4 @@ Om een applicatie te bouwen die deze gegevens inzichtelijk maakt moeten er een a
 *   Overzicht van auto’s (kenteken, merk, type) waarvan het kenteken overeenkomt met sitecode 10 (zoals X-999-XX)  https://nl.wikipedia.org/wiki/Nederlands_kenteken 
 
 ## Resultaat
-* Een document met daarin de gemaakte queries en het resultaat als schermafbeelding.
+* Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.
