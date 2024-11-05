@@ -1,0 +1,6 @@
+{
+	"layout":"assignment.webc",
+	"tags":"Vestaboard",
+	"coursetitle":"Vestaboard",
+	"permalink":"/subjects/vestaboard/{{ title | slugify }}/{{ page.index }}"
+}
