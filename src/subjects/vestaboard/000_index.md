@@ -4,23 +4,26 @@ author: pgemert
 date: 2024-09-25
 ---
 
-> ## Geadviseerde leerlijn voor deze opdrachtenset
-> Om deze opdracht goed te kunnen maken heb je kennis nodig van de volgende technieken:
-> * Html / Css
-> * Javascript (of een andere frontend taal)
-> * Php (of een andere backend taal)
-> * MariaDB (databases en sql)
-> * Api
+## Introductie
 
-# Opdracht
+Het vestaboard is een IOT device.
+Het is een mechanische mededelingenbord.
+Met het vestaboard kunnen we communiceren met (groepen) gebruikers.
+Kijk eens op de [website]({{'https://vestaboard.com'}}) van vestaboard om te leren over het device.
 
-Onze klant Great Gig in the Sky wil een webapplicatie voor het aansturen van hun vestaboard.
-Op dit vestaboard willen zij meldingen tonen.
+## Local API
 
-# Requirements
+Met de local api kun je communiceren met het vestaboard.
+Zoek op het internet naar de documentatie voor de local api.
 
-Meldingen hebben een maximale omvang. (zoek zelf uit wat deze maximale omvang is)
-Meldingen worden in een database opgeslagen.
-Meldingen hebben een start en eindtijd.
-Meldingen kunnen in een presentatie getoond worden.
+## Characterset
+
+Je weet nu hoe je met het vestaboard communiceert.
+Het plaatsen van teksten op het vestaboard gaat dmv het local api endpoint.
+Daarvoor heb je de vestaboard character codes nodig.
+Zoek deze op het internet op.
+
+## Registratie
+
+Als je wilt werken aan de vestaboard opdrachten, reserveer dan een tijdslot bij Peter of Jeroen.
 
