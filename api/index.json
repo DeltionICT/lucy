@@ -2130,6 +2130,12 @@
         "date":"Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/vestaboard/introductie/",
+        "title":"Introductie",
+        "author":"pgemert",
+        "date":"Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/basiskennis/auteursrecht/",
         "title":"Auteursrecht",
         "author":"pgemert",
@@ -2152,6 +2158,36 @@
         "title":"Chatbox met NodeJS",
         "author":"jheuvelman",
         "date":"Tue Oct 15 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/vestaboard/teksten/",
+        "title":"Teksten",
+        "author":"pgemert",
+        "date":"Tue Nov 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/vestaboard/vlaggen/",
+        "title":"Vlaggen",
+        "author":"pgemert",
+        "date":"Tue Nov 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/vestaboard/figuren/",
+        "title":"Figuren",
+        "author":"pgemert",
+        "date":"Tue Nov 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/vestaboard/mededelingenbord/",
+        "title":"Mededelingenbord",
+        "author":"pgemert",
+        "date":"Tue Nov 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/vestaboard/kan-de-bbq-aan/",
+        "title":"Kan de BBQ aan?",
+        "author":"pgemert",
+        "date":"Tue Nov 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
