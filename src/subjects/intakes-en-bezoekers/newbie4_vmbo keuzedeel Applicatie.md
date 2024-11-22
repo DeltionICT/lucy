@@ -24,7 +24,7 @@ author: rkerssies
 Welkom bij het ICT-Lyceum. Je doet mee aan het vmbo-keuzedeel 'ApplicatieOntwikkelaar' 
 in samenwerking met Deltion en jouw opleiding. Hier vind je het programma voor ~ 5 a 8 weken:
 
-[PGO]({{ '/_assets/intakes-en-bezoekers/PGP-keuzevak-Applicatieontwikkelaar-versie-TAK.pdf' }}) - versie TAK 2024 - 5 weken
+[PGO]({{ '/_assets/intakes-en-bezoekers/PGP-keuzevak-Applicatieontwikkelaar-versie-TAK.docx' }}) - versie TAK 2024 - 5 weken
 
 ## Week 1 ##
 
