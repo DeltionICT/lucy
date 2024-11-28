@@ -711,7 +711,7 @@ div.html table {
 <list-link url="/subjects/vestaboard/mededelingenbord/" page="/subjects/vestaboard/introductie/" class="wv0jwq1on"><a href="/lucy/subjects/vestaboard/mededelingenbord/"><li class="notselected">Mededelingenbord</li></a>
 
 </list-link>
-<list-link url="/subjects/vestaboard/kan-de-bbq-aan/" page="/subjects/vestaboard/introductie/" class="wv0jwq1on"><a href="/lucy/subjects/vestaboard/kan-de-bbq-aan/"><li class="notselected">Kan de BBQ aan?</li></a>
+<list-link url="/subjects/vestaboard/gaat-de-bbq-aan/" page="/subjects/vestaboard/introductie/" class="wv0jwq1on"><a href="/lucy/subjects/vestaboard/gaat-de-bbq-aan/"><li class="notselected">Gaat de BBQ aan?</li></a>
 
 </list-link>
     </ul>
@@ -726,12 +726,25 @@ Kijk eens op de <a href="https://vestaboard.com">website</a> van vestaboard om t
 <p>Met de local api kun je communiceren met het vestaboard.
 Zoek op het internet naar de documentatie voor de local api.</p>
 <h2>Characterset</h2>
-<p>Je weet nu hoe je met het vestaboard communiceert.
+<p>Je weet nu hoe je met met het vestaboard communiceert.
 Het plaatsen van teksten op het vestaboard gaat dmv het local api endpoint.
 Daarvoor heb je de vestaboard character codes nodig.
 Zoek deze op het internet op.</p>
 <h2>Registratie</h2>
 <p>Als je wilt werken aan de vestaboard opdrachten, reserveer dan een tijdslot bij Peter of Jeroen.</p>
+<h2>Handleiding</h2>
+<p>Het vestaboard kan door studenten gebruikt worden als IOT device. Om het vestaboard te gebruiken is de volgende informatie belangrijk.</p>
+<p>Het vestaboard is <strong>niet</strong> verbonden met een wifi netwerk.</p>
+<p>Communiceren met het vestaboard gaat via een <strong>bekabeld netwerk</strong>.
+Hiervoor is een router beschikbaar, nml. &quot;<em>Michiel de Router</em>&quot;.
+Het vestaboard krijgt <strong>192.168.42.2</strong> als ip adres als deze verbonden wordt met Michiel de Router. De student-laptop krijgt een willekeurig ip-adres uit de <strong>192.168.42.X</strong> reeks.</p>
+<p>Het vestaboard heeft een <strong>local-api</strong> waarmee teksten en tekens op het vestaboard geplaatst kunnen worden. Op het internet is de informatie over deze local-api te vinden. De api is te benaderbaar op <strong>poort 7000</strong>.</p>
+<p>De local API acces key is:<br>
+<strong>NTIwMDBkNjctOTQ0My00NjJkLTg4NjItZWQyMmM3ZmNjODkw</strong></p>
+<p>Het vestaboard gebruikt een eigen tekenset. Deze is te vinden op het internet.</p>
+<p>Als beide devices (laptop en vestaboard) verbonden zijn met Michiel de Router, dan kun je de verbinding testen met het ping commando.
+Voer in een cmd-box <em>ping 192.168.42.2</em> uit.
+Als dit commando geen foutmelding geeft, dan kan je laptop met het vestaboard communiceren.</p>
 
 </div>
 
