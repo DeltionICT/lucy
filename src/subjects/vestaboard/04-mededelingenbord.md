@@ -4,6 +4,8 @@ author: pgemert
 date: 2024-11-05
 ---
 
+De opdracht bestaat uit een aantal deelopdrachten. 
+
 ## Mededelingenbord Mk1
 
 > Vul voor Mk1 een projectkaart in.
