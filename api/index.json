@@ -2194,6 +2194,36 @@
         "title":"De Veenhoop",
         "author":"jsiewers",
         "date":"Wed Nov 27 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/db-select/",
+        "title":"db Select",
+        "author":"rkerssies",
+        "date":"Tue Dec 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/db-insert/",
+        "title":"db Insert",
+        "author":"rkerssies",
+        "date":"Tue Dec 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/db-delete/",
+        "title":"db Delete",
+        "author":"rkerssies",
+        "date":"Tue Dec 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/db-update/",
+        "title":"db Update",
+        "author":"rkerssies",
+        "date":"Tue Dec 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/php-basis/site-met-navbar-en-een-db/",
+        "title":"Site met navbar en een db",
+        "author":"rkerssies",
+        "date":"Tue Dec 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
