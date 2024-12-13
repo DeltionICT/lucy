@@ -42,3 +42,6 @@ Om een applicatie te bouwen die deze gegevens inzichtelijk maakt moeten er een a
 
 ## Resultaat
 * Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.
+
+## Uitleg
+* [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)

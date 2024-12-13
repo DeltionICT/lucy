@@ -40,3 +40,6 @@ Voor een applicatie die de gegevens van de registratiegegevens kan analyseren zi
 
 ## Resultaat
 * Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.
+
+## Uitleg
+* [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)

@@ -34,3 +34,6 @@ technology: dbq
 * Export van de database als sql-bestand met:
     * Database-structuur en
     * Database-gegevens
+
+## Uitleg
+* [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)

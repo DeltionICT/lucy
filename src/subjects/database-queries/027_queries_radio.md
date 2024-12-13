@@ -22,7 +22,7 @@ author: jsiewers
 
 1. Geef een overzicht van alle zenders
 2. Geef een overzicht van de gegevens van alle programma's en sorteer op titel
-3. Geef een overzicht van de gegevens van alle programma's met presid 2
+3. Geef een overzicht van de gegevens van alle programma's die door `craig` worden gepresenteerd
 4. Geef een overzicht van de uitzendingen die worden uitgezonden tussen 12:00 en 14:00 uur.
 5. Geef het gemiddelde aantal stoelen in de bioscoopzalen
 6. Geef een overzicht van de verschillende (unieke) steden waarin een

@@ -30,10 +30,9 @@ Download het bestand [wereld_v3.sql](https://static.edutorial.nl/dbq/wereld_v3.s
 14. Geef de query om een nieuwe tabel `stad` aan te maken. De tabel heeft 3 velden, te weten: `stadcode`, `landcode` en `stadnaam`, waarbij `stadcode` de primaire sleutel is. 
 15. Voeg voor ieder land de hoofdstad toe aan de nieuwe tabel `stad`.
 
-## Uitleg
-[Hier vind je uitleg over het gebruik van MySQL en queries](https://www.edutorial.nl/dbq/introductie/)
-
-
 ## Resultaat
 * De gevraagde queries
 * Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.
+
+## Uitleg
+* [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)
