@@ -17,6 +17,7 @@ author: jsiewers
 ## Benodigheden
 * Hier vind je het [sql-bestand voetbal.sql](https://static.edutorial.nl/php/toets/voetbal.sql) met informatie over het nederlandse voetbalteam van het WK74
 * Hier zie je een voorbeeld van het [eindresultaat](https://static.edutorial.nl/php/voetbal/index.php) dat je moet gaan maken.
+* Hier een [zip-bestand met afbeeldingen](https://static.edutorial.nl/php/toets/afbeeldingen.zip) die zijn gebruikt
 
 ## Opdracht 1
 * Maak een pagina 'index.php'. Op deze pagina is een overzicht van alle voetballers te zien.
