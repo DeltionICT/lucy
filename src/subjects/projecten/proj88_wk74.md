@@ -45,7 +45,7 @@ author: jsiewers
 
 ## Go Crazy
 * Gebruik javascript om de formulier-input te controleren en feedback te geven aan de gebruiker.
-* Grebruik AJAX-requests om onderdelen van de pagina's te update in plaats van de gehele pagina te laden.
+* Grebruik AJAX-requests om onderdelen van de pagina's te updaten in plaats van de gehele pagina te laden.
 
 ## Inleveren
 * Cumlaude
