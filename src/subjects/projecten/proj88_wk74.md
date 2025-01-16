@@ -15,7 +15,7 @@ author: jsiewers
 <img src="{{ '/_assets/projecten/project-laptop.png'  }}" style="width:10%;">
 
 ## Benodigheden
-* Hier vind je het [sql-bestand voetbal.sql](https://static.edutorial.nl/toets/voetbal.sql) met informatie over het nederlandse voetbalteam van het WK74
+* Hier vind je het [sql-bestand voetbal.sql](https://static.edutorial.nl/php/toets/voetbal.sql) met informatie over het nederlandse voetbalteam van het WK74
 * Hier zie je een voorbeeld van het [eindresultaat](https://static.edutorial.nl/php/voetbal/index.php) dat je moet gaan maken.
 
 ## Opdracht 1
