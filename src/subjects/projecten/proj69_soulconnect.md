@@ -4,7 +4,7 @@ date: 2025-01-21
 author: rkerssies
 ---
 
-> ##### Voorkennis van een aantal van de volgende technieken
+> ##### Voorkennis van een aantal van de volgende technieken 
 > * OOP, MVC, databases, queries, API, git
 > * Frontend-framework, backend-framework
 > * Kennis van projectmatig werken en/of Scrum
