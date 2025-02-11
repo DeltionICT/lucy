@@ -53,10 +53,14 @@ author: jsiewers
 
 ## Verbetervoorstel
 * ***Tijd***: 1,5 uur
-* ***Opleveren***: Verbetervoorstel in ***pdf-formaat*** (doc-verbeter)
-* Schrijf een verbetervoorstel op basis van de gekregen feedback tijdens de groepreview
-* Bespreek met je groep het opgeleverde product en het verloop van het groepsproces. Gebruik hiervoor een [passende methode](https://www.edutorial.nl/projecten/retrospective/)  
-* Voeg uitwerkingen van de methode toe aan het verbetervoorstel.
+* ***Opleveren***: Verbetervoorstel (doc-verbeter) in ***pdf-formaat*** 
+* Schrijf een verbetervoorstel (individueel) op basis van de gekregen feedback tijdens de groepreview op de door jou gerealiseerde applicatie-onderdelen en jouw rol tijdens het proces (doc-verbeter).
+
+## Retrospective
+* ***Tijd***: 1,5 uur
+* ***Opleveren***: Documentatie retrospective (doc-retro) in ***pdf-formaat*** 
+* Bespreek met je groep het verloop van het groepsproces tijdens de retrospective. Gebruik hiervoor een [passende methode](https://www.edutorial.nl/projecten/retrospective/) 
+* Voeg uitwerkingen van de methode toe aan de documentatie.
 
 ## Code Review
 * ***Tijd***: 30 minuten
