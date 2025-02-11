@@ -2070,6 +2070,12 @@
         "date":"Wed May 22 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
     },
     { 
+        "url":"/lucy/subjects/php-basis/toets/",
+        "title":"Toets",
+        "author":"jsiewers",
+        "date":"Sun Jun 09 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
         "url":"/lucy/subjects/projecten/project-comfortliving/",
         "title":"Project ComfortLiving",
         "author":"rkerssies",
@@ -2236,6 +2242,12 @@
         "title":"SoulConnect",
         "author":"rkerssies",
         "date":"Tue Jan 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/projecten/examenvoorbereiding/",
+        "title":"Examenvoorbereiding",
+        "author":"jsiewers",
+        "date":"Tue Feb 11 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
