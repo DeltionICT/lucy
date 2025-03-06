@@ -33,26 +33,22 @@ Je bent ten alle tijden vrij om de opdrachten uit te breiden met eigen functies,
 
 ***Opdrachten***
 
->**Als je de introductieles hebt gemist**
->
->*Voordat je begint met de eerste opdracht:*
->
->Volg de [instructie video](https://youtu.be/IHGcqp-KoSs) om een start te maken met de textbased adventure game. Alle opvolgende opdrachten breiden deze start uit met nieuwe mechanieken en leer je verschillende principes van OOP programmeren. Eind resultaat is dus 1 werkende text based adventure game!
->
 
 <br>
 
  ## **Opdracht 1 - Humble Beginnings**
  
- Voordat je verder gaat moet je het volgende hebben gedaan: het instantiëren van een enemy object en deze kunnen beschadigen door een commando uit te typen. Heb je dat nog niet, volg dan de video in het *Als je de introductieles hebt gemist* blok hierboven.
+We beginnen eerst met het opzetten van onze speelomgeving. Start met een aantal Console.WriteLines om een introductie in onze game te maken (denk bijvoorbeeld aan "Welcome Adventurer", of "You wake up in a dark, damp cave!"). Wees vrij om hier zelf iets moois van te maken. Vraag uiteindelijk via een Console.ReadLine om de speler's naam en stop die in een variabele.
 
- Heb je deze onderdelen al wel klaar dan heb je al een kleine start gemaakt met een text based adventure game! Maar we kunnen het nog zeker geen 'echte' game noemen. Wat je nu hebt gemaakt ga je uitbreiden tot een werkende game en ondertussen leer je ook nog eens OOP programmeren in C#!
- 
-Breid wat je tot nu toe hebt met het volgende uit:
+Maak nu de volgende opdrachten om het gevechtsysteem op te zetten:
 
  <ol> 
  <li>
- <alt>Maak een nieuwe klasse genaamd <c>Player</c>. Zorg ervoor dat beide de <c>Player</c> en <c>Enemy</c> klassen dezelfde variabelen hebben (<v>name, health en damage</v>). Instantieer een <c>Player</c> object op dezelfde manier als <c>Enemy</c>. Deze <c>Player</c> object gebruiken we om alle waardes van de speler bij te houden. Wanneer je als speler <v>damage</v> doet met een aanval commando, gebruik dan de <v>damage</v> variabele van het <c>speler object</c> in plaats van 10. Nadat de speler heeft aangevallen, valt de enemy de speler aan en doet het zijn <v>damage</v> variabele als schade aan de speler.</alt>
+ <alt>Maak twee nieuwe klasses genaamd <c>Player</c> en <c>Enemy</c>. Zorg ervoor dat beide de <c>Player</c> en <c>Enemy</c> klassen dezelfde variabelen hebben (<v>name, health en damage</v>). Instantieer een <c>Player</c> en een <c>Enemy</c> object met de <c>new</c> keyword. Deze objecten gebruiken we om alle waardes van de speler en vijand bij te houden.</li>
+ 
+ <li> Nadat de speler en vijand aangemaakt zijn voeg je een Console.WriteLine toe om het gevecht te laten beginnen (bijvoorbeeld "A wild *monster name* appeared!").
+
+ Vraag via een Console.ReadLine() wat de speler wilt doen. Als de speler "Attack" intypt valt de speler de vijand aan. Gebruik de <v>damage</v> variabele van het <c>speler object</c> om de vijand schade te doen. Nadat de speler heeft aangevallen, valt de enemy de speler aan en doet het zijn <v>damage</v> variabele als schade aan de speler.</alt>
  
 
 >**Extra** <br>
@@ -63,9 +59,11 @@ Breid wat je tot nu toe hebt met het volgende uit:
 
  >Het herhalen van acties en mechanics om tot een bepaalt doel te komen noemen we ook wel een gameloop.
 </li>
+
 <li>
- Als de vijand is verslagen stopt de gameloop met een <o>‘MONSTER VANQUISHED!’</o> bericht. Als de speler is verslagen stopt de gameloop met een <o>‘YOU DIED!’</o> bericht. Zorg voor wat opvulling tussen acties met <code>WriteLine</code> (omschrijf wat de speler/vijand doet en wat het gevolg is. Bijv: <o>players attacks! Dealt 10 damage!</o> 
- 
+ Als de vijand is verslagen stopt de gameloop met een <o>‘MONSTER VANQUISHED!’</o> bericht. Maar als de SPELER is verslagen stopt de gameloop met een <o>‘YOU DIED!’</o> bericht. Zorg voor wat opvulling tussen acties met <code>WriteLine</code> (omschrijf wat de speler/vijand doet en wat het gevolg is. Bijv: <o>players attacks! Dealt 10 damage!</o> 
+ </li>
+ <li>
  Een muur aan text is natuurlijk niet fijn om te zien. Zorg voor een goeie afwisseling met <c>Console.Write</c> en <c>Console.WriteLine</c> zodat er een mooie structuur ontstaat. Met de volgende code kan je kleur toevoegen aan de tekst en tekstachtergrond (Blue en White als voorbeeld):
 
 >    <code>
