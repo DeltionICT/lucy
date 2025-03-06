@@ -33,9 +33,6 @@ Je bent ten alle tijden vrij om de opdrachten uit te breiden met eigen functies,
 
 ***Opdrachten***
 
-
-<br>
-
  ## **Opdracht 1 - Humble Beginnings**
  
 We beginnen eerst met het opzetten van onze speelomgeving. Start met een aantal Console.WriteLines om een introductie in onze game te maken (denk bijvoorbeeld aan "Welcome Adventurer", of "You wake up in a dark, damp cave!"). Wees vrij om hier zelf iets moois van te maken. Vraag uiteindelijk via een Console.ReadLine om de speler's naam en stop die in een variabele.
@@ -57,7 +54,7 @@ Maak nu de volgende opdrachten om het gevechtsysteem op te zetten:
 <li>
  Een keer aanvallen en aangevallen worden is niet heel spectaculair. Stop daarom het geven en krijgen van schade in een loop zodat beide de speler en vijand kunnen blijven vechten tot een van de twee dood is. Dit betekend dus dat je meerdere keren, en om de beurt, commando's kan uitvoeren. Voeg een nieuwe <v>boolean variabele gameOver</v> en laat de loop herhalen tot <v>gameOver</v> waar is (wanneer de speler zijn health 0 of lager is).
 
- >Het herhalen van acties en mechanics om tot een bepaalt doel te komen noemen we ook wel een gameloop.
+ > &#128221; **Note:** Het herhalen van acties en mechanics om tot een bepaalt doel te komen noemen we ook wel een gameloop.
 </li>
 
 <li>
