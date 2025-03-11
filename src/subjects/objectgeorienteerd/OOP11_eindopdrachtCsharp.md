@@ -56,12 +56,9 @@ De Print methode werkt nu zo dat als je geen tweede argument meegeeft, de text s
 Je hebt nu een goeie opzet om stukken tekst gekleurd uit te schrijven. Werk de volgende opdrachten naar keuze uit (opdrachten die VERPLICHT zijn gemarkeerd moeten natuurlijk gemaakt worden).
 
 > **Opdrachten**
-
-- *Verplicht* - Maak een extra schrijf methode om de Console.Write functie te gebruiken (inclusief kleurgebruik). 
-     - *Bonus*: Breid alleen de bestaande Print methode uit met een extra argument zodat je kan meegeven of het een Write of WriteLine moet uitvoeren.
-- 
-
-Maak nu de volgende opdrachten om het gevechtsysteem op te zetten:
+>- *Verplicht* - Maak een extra schrijf methode om de Console.Write functie te gebruiken (inclusief kleurgebruik). 
+>     - *Bonus*: Breid alleen de bestaande Print methode uit met een extra argument zodat je kan meegeven of het een Write of WriteLine moet zijn.
+>- 
 
 ---
 
@@ -71,7 +68,10 @@ Maak nu de volgende opdrachten om het gevechtsysteem op te zetten:
 
  1. Maak twee nieuwe scripts aan voor een <c>Player</c> en <c>Enemy</c>. Geef beide klassen variabelen voor name, health en attack. Wijzig de setter van de variabelen zodat ze alleen opgehaald ('get') kunnen worden.
 
- 2. Maak drie set methodes (met argumenten) voor alle drie variabelen zodat de variabelen ingevuld kunnen worden.
+ 2. Maak drie methodes (met argumenten) voor het invullen van de naam, het krijgen van schade en het zetten van de attack:
+     - SetName()
+     - TakeDamage()
+     - SetAttack()
 
  3. Voeg bovenaan de 'main' script het aanmaken van het speler object. Wanneer om de speler zijn naam wordt gevraagd stop je de input in de naam variabele van de speler klassen. Vul op dit moment ook de spelers attack en de health variabelen in via de set methodes.
 
@@ -79,11 +79,13 @@ Maak nu de volgende opdrachten om het gevechtsysteem op te zetten:
 
 De objecten zijn nu klaar om te vechten en alles staat op een mooie volgorde. Voeg als laatst in de 'main' script helemaal bovenaan een nieuwe bool variabele gameOver toe en onderaan een while loop toe die blijft loopen tot gameOver waar is. Maak nu de volgende onderdelen:
 
- - Aan het begin van de loop moet de speler input geven met wat hij wilt doen. Wanneer de speler "Attack" intypt wordt het vijand object beschadigd.
-     - Vang onbekende commandos op.
- - Als de speler is geweest valt de vijand de speler aan.
+ - Aan het begin van de loop moet de speler input geven met wat hij wilt doen. Wanneer de speler "Attack" intypt wordt de vijand object beschadigd door zijn TakeDamage methode aan te roepen en de spelers attack mee te geven als argument.
+     - Vang onbekende commandos op. Bepaal zelf of de speler dan zijn beurt kwijt is of nog een kans krijgt.
+ - Als de speler is geweest valt de vijand de speler aan op dezelfde manier als hierboven..
  - Laat met prints en verschillende kleuren zien wat er precies gebeurt.
  - Aan het einde van de loop wordt er gekeken of dat de speler of de enemy verslagen is; stop dan de loop en sluit het spel af met nog wat prints gebasseerd op wie er verslagen is.
+
+> &#128221; **NOTE** Het herhalen van acties om tot een bepaalt resultaat te komen noemen we ook wel een *gameloop*
 
 >**Extra** <br>
 >Experimenteer met <c>Random()</c> om een variatie in <v>health</v> en <v>damage</v> te implementeren bij beide objecten.
@@ -91,66 +93,99 @@ De objecten zijn nu klaar om te vechten en alles staat op een mooie volgorde. Vo
 
 ---
 
- ## **Opdracht 3 - And they won't stop coming!**
- Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en wat uitbreiden.  Voeg een enum toe voor de volgende gamestates:
- 
-  ><code>COMBAT <br>
-  >STORY <br>
-  >GAMEOVER</code>
-  
- Voeg een variabele voor de <v>gamestate</v> toe aan Program.cs. Maak het gehele combat segment zo dat het in een eigen methode/functie zit en alleen aangeroepen wordt als de gamestate COMBAT is. Maak nog twee extra methodes toe voor:
- 
->STORY - comment een todo voor story segmenten (je hoeft hier dus nog geen logica voor te schrijven)<br>
->GAMEOVER - wanneer de speler zijn health op 0 of lager komt wordt de gamestate omgezet naar GAMEOVER. 
+ ## **Opdracht 3 - Adapt or die!**
 
-Voeg in de <m>gameover</m> methode wat writelines toe over hoe de speler dood gaat en meld <o>"Game Over"</o>.
-Het resultaat moet als volgt zijn: 
+Voor deze opdracht gaan wij Inheritance gebruiken om de herbruikbaar- en uitbreidbaarheid van onze objecten te verbeteren. We maken ook een paar wijzigingen aan de game mechanics wat al geschreven is.
 
->als de gamestate op COMBAT staat wordt de combat uitgevoerd zoals voorheen en kan de speler commando's geven om aan te vallen en/of items gebruiken (als je dat hebt geprogrammeerd), waarna de vijand de speler aanvalt. Er moet een functie zijn voor het wijzigen van de gamestate wanneer dat evt. nodig is. Dit moet altijd aan het einde van de gameloop gebeuren zodat de volgende loop methodes wordt bepaalt. Als de speler dood is word de gamestate omgezet naar GAMEOVER en word de gameover logica uitgevoerd.
- 
-Wijzig de enemy naar een <v>enemy verzameling</v> zodat de speler tegen 2, 3 of zelfs 10 enemies tegelijk kan vechten. <c>Enemies</c> die aangemaakt worden met dezelfde naam (zoals Goblin) moeten een nummer aan hun naam toegevoegd krijgen (dus Goblin1, Goblin2). Breidt de commando's van de speler uit zodat er ook een naam opgegeven kan worden van de vijand om aan te vallen (bijv. Attack Goblin1). Nadat de speler is geweest krijgt elke vijand in de verzameling een beurt om de speler aan te vallen. Doe dit via een foreach loop om door de <v>enemy verzameling</v> te loopen. Zorg er voor dat de juiste writelines zijn toegevoegd.
- 
+1. Maak eerst een superklasse <c>Entity</c> en laat de <c>Player</c> en <c>Enemy</c> klasse hiervan overerven. Geef de Entity klasse de gedeelde variabelen en methodes die ALLEEN beide Player en Enemy hebben en haal ze weg bij de twee klassen.
+
+2. Wijzig de loop zodat het begint met een check of er een enemy object aanwezig is. Zo niet, instantieer dan een nieuwe enemy object. Wijzig daarbij ook de gameover check: er kan alleen een gameover ontstaan als de speler verslagen wordt. 
+
 >**Resultaat** <br>
-Er kunnen meerdere vijanden tegelijk verschijnen en worden samengevoegd in de intro (bijv.: A wild Goblin and Giant Rat appeared!). De speler kan in zijn aanval commando een naam meegeven voor welke vijand hij/zij wilt aanvallen. Daarna krijgt elke vijand een beurt om de speler aan te vallen. Dit blijft herhalen tot de speler dood is of alle vijanden zijn verslagen; in dit 
-geval worden er weer nieuwe vijanden aangemaakt en begint het gevecht opnieuw!).
- 
+> In essentie kan je nu oneindig blijven vechten tegen steeds nieuwe vijanden.
+
+Op het moment gaat de speler niet ver kunnen komen tegen oneindig veel vijanden. Breid ALLEEN de Player class uit met de volgende mechanics:
+
+> &#128221; **NOTE** Mechanics acties en functies die gespeeld kunnen worden en gezamenlijk een 'game' maken (denk aan schieten, springen, puzzles, racen etc.)
+
+3. Voeg een mechanic toe om te helen (levens weer terug krijgen). Gebruik hiervoor ook een <v>maxHealth</v> variabele zodat de speler niet meer HEALED dan mag. Zorg dat het healen een commando is die de speler kan typen tijdens een gevecht. 
+
+4. Voeg een mechanic toe voor de speler om te levelen (sterker worden). Met elke verslagen vijand krijgt de speler een x-aantal experience points. Wanneer de speler over een experience threshold komt gaat de speler 'level up' en worden zijn maxHealth en Attack omhoog. Bedenk zelf wat voor waardes er meer verbeterd worden met een level up. Bepaal ook of de speler al zijn levens terug krijgt bij een level up of niet.
+
+>**Resultaat** <br>
+> De speler kan nu sterker worden door steeds meer vijanden te verslaan. Wanneer zijn levens te laag worden kan hij er ook voor kiezen om zichzelf te helen. Elke keer als een vijand verslagen wordt krijgt de speler experience points en wordt er weer een nieuwe monsters aangemaakt.
+
+>**Bonus**
+Je kan een constructor gebruiken om het aanmaken van nieuwe objecten en het invullen van zijn variabelen te vereenvoudigen. Uiteindelijk heb je maar 1 regel code nodig! 
+
 ---
 ## **Opdracht 4 - Are they getting stronger?**
 
-We gaan variatie in de vijanden brengen doormiddel van polymorfisme.
+We gaan variatie in de vijanden aanbrengen doormiddel van Polymorphisme.
+
+> &#128221; **NOTE**: Polymorphisme is grieks voor meerdere (poly) vormen (morphism)
 
 Creëer twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Entity</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen:
 
->De <c>TankEnemy</c> heeft een extra <v>variabele armorValue</v>. Elke keer als deze vijand schade krijgt, gaat het eerst van de <v>armorValue</v> af, voordat het van zijn <v>health</v> af gaat.
+>De <c>TankEnemy</c> heeft een extra <v>variabele armorValue</v>. Elke keer als deze vijand schade krijgt, wordt de totale schade verminderd met de <v>armorValue</v>.
 >
 >De <c>BlitzEnemy</c> heeft elke keer als het aanvalt een kans om nog een keer aan te vallen. Deze kans begint hoog, maar wordt bij elke aanval kleiner.
 >
->Polymorph beide damage en aanval methodes zodat ze wel dezelfde methode naam en argumenten houden maar dat het de bovengenoemde functionaliteiten implementeert.
+>Polymorph beide damage en aanval methodes zodat ze wel dezelfde methode naam en argumenten houden maar dat het de bovengenoemde functionaliteiten implementeert met hun unieke variabelen.
 
 Laat deze nieuwe vijanden, samen met de originele, ook verschijnen in de gameloop bij gevechten doormiddel van kans.
- 
+
+**Bonus**
+> Je bent zelf natuurlijk vrij om extra vijanden en mechanics toe te voegen!
 
 ---
 
 ## **Opdracht 5 - In a single file line, please!**
 
-Voor deze opdracht gaan je wat meer order creëren in de combat, met name de volgorde van wie als eerste acties mag uitvoeren!
+Voor deze opdracht ga je wat meer order creëren in de combat, met name de volgorde van wie als eerste acties mag uitvoeren!
  
-Voeg aan <c>Entity</c> een nieuwe variabele <v>speed</v> met een default waarde van 1 toe. Zorg ervoor dat dit meegenomen wordt in de <m>constructor</m> en <m>getters</m> en <m>setters</m>. Aan Program.cs voeg je een queue toe van het type <c>Entity</c>. Maak een nieuwe methode/functie <m>CombatSetup()</m>, voor het opzetten van deze queue. Deze methode moet dus entiteiten in de queue stoppen wat de volgorde van beurten tijdens combat bepaalt. Wijzig de combat code zodat het gebruikt maakt van deze queue. Zodra een entiteit zijn actie(s) heeft gedaan wordt hij uit de queue gehaald (en weer gequeued) en krijgt de volgende entiteit zijn beurt. 
- 
-Voeg aan <m>CombatSetup()</m>, een nieuwe tijdelijke verzameling van entiteiten toe. Voordat de entiteiten aan de queue worden toegevoegd worden ze eerst in deze verzameling gestopt. Voer een sorteer algoritme op deze lijst uit, gebaseerd op de speed variabele van de entiteiten (snelste vooraan). Als dit klaar is worden de entiteiten op deze gesorteerde volgorde toegevoegd aan de queue.
+Voeg een <c>Entity List</c> toe aan de main script. Alle entiteiten die meedoen in een gevecht worden toegevoegd aan deze list. Elke entiteit die verslagen wordt, wordt er ook weer uit gehaald.
 
-Je kan zelf bepalen wat voor sortering gebruikt gaat worden, maar een mooie start in deze wereld is de [BubbelSort](https://www.geeksforgeeks.org/bubble-sort/).
+Met de Entity List staand voer je de volgende stappen uit:
+
+1. Ken aan <c>Entity</c> een nieuwe variabele <v>speed</v> met een default waarde van 1 toe. Zorg ervoor dat dit meegenomen wordt in een eventuele <m>constructor</m> en <m>getters</m> en <m>setters</m>. Speel ook weer met een Random() om varierende waardes toe te kennen aan speed.
+
+2. Maak een nieuwe methode/functie <m>CombatSetup()</m> in de main, voor het opzetten van een nieuwe combat volgorde. Deze methode moet dus entiteiten in de list stoppen; op volgorde van de hoogste speed variabele tot de laagste. Het bepalen van de volgorde kan je uitvoeren met LINQ.
+
+3. Wijzig de combat code zodat het gebruikt maakt van deze lijst. Zodra een entiteit zijn actie(s) heeft gedaan is de volgende in de lijst aan de beurt 
  
 >**Eindresultaat** <br>
-Voordat combat begint worden alle entiteiten in het gevecht gesorteerd op hun snelheid. Deze volgorde wordt overgenomen in de combat queue, waardoor er een variërende volgorde in beurten ontstaat: snellere entiteiten zijn als eerste aan de beurt!
+Voordat combat begint worden alle entiteiten in het gevecht toegevoegd aan een lijst. Deze lijst wordt gesorteerd naar de snelheid van de entiteiten. Hierdoor ontstaat er een variërende volgorde in beurten: snellere entiteiten zijn als eerste aan de beurt!
+
 >>**Bonus** <br>
-Voeg een mechanic toe dat de speed variabele van de entiteiten versneld/vertraagd kunnen worden tijdens combat. Bijvoorbeeld: wanneer een entiteit geraakt wordt met ice magic dan wordt zijn speed gehalveerd (waardoor hij dus later aan de beurt is). Hiervoor moet je dus alle entiteiten opnieuw sorteren nadat iedereen aan de beurt is geweest. Als je hier een dynamischere manier voor kan bedenken dan is dat bonus punten!
+Voeg een mechanic toe dat de speed variabele van de entiteiten versneld/vertraagd kunnen worden tijdens combat. Bijvoorbeeld: wanneer een entiteit geraakt wordt met ice magic dan wordt zijn speed gehalveerd (waardoor hij dus later aan de beurt is). Hiervoor moet je dus alle entiteiten opnieuw sorteren nadat iedereen aan de beurt is geweest.
 
 ---
 
-## **Opdracht 6 - What happens next?**
-Maak eerst een backup van jouw huidige project; deze opdracht is namelijk een flinke ingreep! Deze opdracht vraagt ook inzicht in code architectuur en volgorde!
+## **Super Bonus Opdracht 6 - What happens next?**
+Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en wat uitbreiden.  Voeg een enum toe voor de volgende gamestates:
+ 
+  ><code>COMBAT <br>
+  >STORY <br>
+  >GAMEOVER</code>
+  
+Voeg een variabele voor de <v>gamestate</v> toe aan Program.cs. Maak het gehele combat segment zo dat het in een eigen methode/functie zit en alleen aangeroepen wordt als de gamestate COMBAT is. Maak nog twee extra methodes toe voor:
+ 
+>STORY - comment een todo voor story segmenten (je hoeft hier dus nog geen logica voor te schrijven)<br>
+>GAMEOVER - wanneer de speler zijn health op 0 of lager komt wordt de gamestate omgezet naar GAMEOVER.
+ 
+Voeg in de <m>gameover</m> methode wat writelines toe over hoe de speler dood gaat en meld <o>"Game Over"</o>.
+Het resultaat moet als volgt zijn:
+ 
+>als de gamestate op COMBAT staat wordt de combat uitgevoerd zoals voorheen en kan de speler commando's geven om aan te vallen en/of items gebruiken (als je dat hebt geprogrammeerd), waarna de vijand de speler aanvalt. Er moet een functie zijn voor het wijzigen van de gamestate wanneer dat evt. nodig is. Dit moet altijd aan het einde van de gameloop gebeuren zodat de volgende loop methodes wordt bepaalt. Als de speler dood is word de gamestate omgezet naar GAMEOVER en word de gameover logica uitgevoerd.
+ 
+Wijzig de enemy naar een <v>enemy verzameling</v> zodat de speler tegen 2, 3 of zelfs 10 enemies tegelijk kan vechten. <c>Enemies</c> die aangemaakt worden met dezelfde naam (zoals Goblin) moeten een nummer aan hun naam toegevoegd krijgen (dus Goblin1, Goblin2). Breidt de commando's van de speler uit zodat er ook een naam opgegeven kan worden van de vijand om aan te vallen (bijv. Attack Goblin1). Nadat de speler is geweest krijgt elke vijand in de verzameling een beurt om de speler aan te vallen. Doe dit via een foreach loop om door de <v>enemy verzameling</v> te loopen. Zorg er voor dat de juiste writelines zijn toegevoegd.
+ 
+>**Resultaat** <br>
+Er kunnen meerdere vijanden tegelijk verschijnen en worden samengevoegd in de intro (bijv.: A wild Goblin and Giant Rat appeared!). De speler kan in zijn aanval commando een naam meegeven voor welke vijand hij/zij wilt aanvallen. Daarna krijgt elke vijand een beurt om de speler aan te vallen. Dit blijft herhalen tot de speler dood is of alle vijanden zijn verslagen; in dit
+geval worden er weer nieuwe vijanden aangemaakt en begint het gevecht opnieuw!).
+
+Maak nu eerst een backup van jouw huidige project; deze opdracht is namelijk een flinke ingreep! Deze opdracht vraagt ook inzicht in code architectuur en volgorde!
 
 Maak een nieuwe folder "Datastructures" aan. Maak binnen deze folder de benodigde klassen voor een linkedlist (zoals in de video). Via een aparte klasse <c>StoryManager</c> ga je jouw text based adventure game afmaken: 
  
