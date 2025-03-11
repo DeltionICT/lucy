@@ -53,13 +53,8 @@ Het scheelt nu al redelijk wat typ werk als we nieuwe regels willen gaan uitprin
 
 De Print methode werkt nu zo dat als je geen tweede argument meegeeft, de text standaard wit wordt uitgeprint. Ken je wel een tweede argument toe met bijvoorbeeld ConsoleColor.Red, wordt de tekst rood afgedrukt.
 
-Je hebt nu een goeie opzet om stukken tekst gekleurd uit te schrijven. Werk de volgende opdrachten naar keuze uit (opdrachten die VERPLICHT zijn gemarkeerd moeten natuurlijk gemaakt worden).
-
-> **Opdrachten**
->- *Verplicht* - Maak een extra schrijf methode om de Console.Write functie te gebruiken (inclusief kleurgebruik). 
->     - *Bonus*: Breid alleen de bestaande Print methode uit met een extra argument zodat je kan meegeven of het een Write of WriteLine moet zijn.
->- 
-
+6. Maak een extra schrijf methode om de Console.Write methode te gebruiken (inclusief kleurgebruik). 
+    - *Bonus*: Breid alleen de bestaande Print methode uit met een extra argument zodat je kan meegeven of het een Write of WriteLine moet zijn.
 ---
 
  ## **Opdracht 2 - Humble Beginnings**
