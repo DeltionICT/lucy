@@ -33,87 +33,65 @@ Je bent ten alle tijden vrij om de opdrachten uit te breiden met eigen functies,
 
 ***Opdrachten***
 
- ## **Opdracht 1 - Humble Beginnings**
- 
-We beginnen eerst met het opzetten van onze speelomgeving. Start met een aantal Console.WriteLines om een introductie in onze game te maken (denk bijvoorbeeld aan "Welcome Adventurer", of "You wake up in a dark, damp cave!"). Wees vrij om hier zelf iets moois van te maken. Vraag uiteindelijk via een Console.ReadLine om de speler's naam en stop die in een variabele.
+ ## **Opdracht 1 - Once upon a time**
+
+We beginnen eerst met het opzetten van onze speelomgeving. Start met een aantal <c>Console.WriteLine</c>'s om een introductie in onze game te maken (denk bijvoorbeeld aan <o>"Welcome Adventurer"</o>, of <o>"You wake up in a dark, damp cave!"</o>). Wees vrij om hier zelf iets moois van te maken. Vraag uiteindelijk via een <c>Console.ReadLine</c> om de speler's naam en stop die in een variabele. Begroet de speler in een laatste <c>Console.WriteLine</c> met zijn ingevulde naam. 
+
+> &#128161; **TIP**: Met <c> Console.Write </c> kan je een regel uitprinten zonder een breakline (geen nieuwe regel).
+
+Zoals je nu al ziet, en kan verwachten, gaan we heel veel Console.WriteLine's gebruiken om informatie te visualiseren voor de speler. Dit gaan wij simpeler maken met een eigen schrijf methode:
+
+1. Maak een nieuwe, publieke, lege methode aan met een goed omschrijvende naam en geef het een type string argument mee (kies voor een logische benaming!). Deze methode moet de meegegeven string argument uitschrijven naar de console.
+
+2. Elke Console.WriteLine die je hebt geschreven aan het begin van de opdracht vervang je met een call naar deze methode en vul je zijn argument in.
+
+Het scheelt nu al redelijk wat typ werk als we nieuwe regels willen gaan uitprinten voor de speler, maar het blijft een beetje saai zo met alle witte tekst. Met Console.ForegroundColor zetten we een nieuwe kleur vast waarmee elk nieuwe regel tekst in die kleur wordt geschreven. Maak de volgende wijzigingen aan de gemaakte schrijf methode:
+
+4. Voeg het wijzigen van kleur toe aan de schrijf methode. Zorg er voor dat de kleur van de tekst naderhand weer terugvalt op wit.
+
+5. Voeg een extra optional argument toe aan de methode met de juiste type om een kleur mee te geven bij het aanroepen van de schrijf methode. Ken een wit waarde toe. 
+
+De Print methode werkt nu zo dat als je geen tweede argument meegeeft, de text standaard wit wordt uitgeprint. Ken je wel een tweede argument toe met bijvoorbeeld ConsoleColor.Red, wordt de tekst rood afgedrukt.
+
+Je hebt nu een goeie opzet om stukken tekst gekleurd uit te schrijven. Werk de volgende opdrachten naar keuze uit (opdrachten die VERPLICHT zijn gemarkeerd moeten natuurlijk gemaakt worden).
+
+> **Opdrachten**
+
+- *Verplicht* - Maak een extra schrijf methode om de Console.Write functie te gebruiken (inclusief kleurgebruik). 
+     - *Bonus*: Breid alleen de bestaande Print methode uit met een extra argument zodat je kan meegeven of het een Write of WriteLine moet uitvoeren.
+- 
 
 Maak nu de volgende opdrachten om het gevechtsysteem op te zetten:
 
- <ol> 
- <li>
- <alt>Maak twee nieuwe klasses genaamd <c>Player</c> en <c>Enemy</c>. Zorg ervoor dat beide de <c>Player</c> en <c>Enemy</c> klassen dezelfde variabelen hebben (<v>name, health en damage</v>). Instantieer een <c>Player</c> en een <c>Enemy</c> object met de <c>new</c> keyword. Deze objecten gebruiken we om alle waardes van de speler en vijand bij te houden.</li>
- 
- <li> Nadat de speler en vijand aangemaakt zijn voeg je een Console.WriteLine toe om het gevecht te laten beginnen (bijvoorbeeld "A wild *monster name* appeared!").
-
- Vraag via een Console.ReadLine() wat de speler wilt doen. Als de speler "Attack" intypt valt de speler de vijand aan. Gebruik de <v>damage</v> variabele van het <c>speler object</c> om de vijand schade te doen. Nadat de speler heeft aangevallen, valt de enemy de speler aan en doet het zijn <v>damage</v> variabele als schade aan de speler.</alt>
- 
-
->**Extra** <br>
->Experimenteer met <c>Random()</c> om een variatie in <v>health</v> en <v>damage</v> te implementeren.
- </li>
-<li>
- Een keer aanvallen en aangevallen worden is niet heel spectaculair. Stop daarom het geven en krijgen van schade in een loop zodat beide de speler en vijand kunnen blijven vechten tot een van de twee dood is. Dit betekend dus dat je meerdere keren, en om de beurt, commando's kan uitvoeren. Voeg een nieuwe <v>boolean variabele gameOver</v> en laat de loop herhalen tot <v>gameOver</v> waar is (wanneer de speler zijn health 0 of lager is).
-
- > &#128221; **Note:** Het herhalen van acties en mechanics om tot een bepaalt doel te komen noemen we ook wel een gameloop.
-</li>
-
-<li>
- Als de vijand is verslagen stopt de gameloop met een <o>‘MONSTER VANQUISHED!’</o> bericht. Maar als de SPELER is verslagen stopt de gameloop met een <o>‘YOU DIED!’</o> bericht. Zorg voor wat opvulling tussen acties met <code>WriteLine</code> (omschrijf wat de speler/vijand doet en wat het gevolg is. Bijv: <o>players attacks! Dealt 10 damage!</o> 
- </li>
- <li>
- Een muur aan text is natuurlijk niet fijn om te zien. Zorg voor een goeie afwisseling met <c>Console.Write</c> en <c>Console.WriteLine</c> zodat er een mooie structuur ontstaat. Met de volgende code kan je kleur toevoegen aan de tekst en tekstachtergrond (Blue en White als voorbeeld):
-
->    <code>
->        Console.BackgroundColor = ConsoleColor.Blue;<br>
->        Console.ForegroundColor = ConsoleColor.White;
->    </code>
-<br>
-Color code gebeurtenissen/commandos doormiddel van kleuren om het allemaal mooier en nog beter leesbaar te maken. <br>
-</li>
-</ol>
-
->**Extra** <br>
->Probeer alvast de <code>playerInput</code> in een switch case te stoppen, met ‘Attack’ en ‘Use item’ als cases. Voor nu kan je bij ‘Use item’ de speler een waarde laten ‘healen’ (health weer terug krijgen. Dit mag met een vaste waarde maar ook met <c>Random()</c>).
- 
 ---
 
- ## **Opdracht 2 - And they won't stop coming!**
+ ## **Opdracht 2 - Humble Beginnings**
  
- Maak eerst een superklasse <c>Entity</c> zoals in de video en laat de <c>Player</c> en <c>Enemy</c> klasse hiervan overerven. Geef de <c>Player</c> klasse een <v>maxHealth</v> variabele. Deze variabele gebruik je als grens (zodat de speler niet meer HEALED dan mag). Als je 'healen' al hebt gemaakt zorg er dan voor dat deze grens gebruikt gaat worden.
- 
- Zet de variabelen van <c>Player</c> en <c>Enemy</c> om naar private en geef beide klassen een constructor voor deze variabelen. Wijzig het aanmaken van een speler en enemy zodat het gebruik maakt van de constructor (en dat het dus maar uit een lijn per <c>object</c> bestaat).
- 
- Zorg ervoor dat alle gedeelde variabelen tussen <c>Player</c> en <c>Enemy</c>, <m>getters</m> en <m>setters</m> krijgen in de superklasse <c>Entity</c> (zoals <m>GetName()</m> of <m>SetHealth()</m>). Maak alleen unieke <m>getters</m> en <m>setters</m> aan in <c>Player</c> of <c>Enemy</c> als het om een variabele gaat die niet gedeelt is. Denk verder goed om goeie benamingen van de <m>getters/setters</m> en maak gebruik van argumenten en returnwaardes waar nodig. Wijzig de code in de <c>Main</c> zodat het gebruik maakt van deze getters en setters, inplaats van directe referenties naar de variabelen.
- 
- Met het verplaatsen van het aanmaken van de enemy naar bovenin de gameloop kan je er voor zorgen dat bij elke loop er een nieuwe <c>Enemy</c> aangemaakt wordt. Zorg ervoor dat bij het verslaan van een <c>Enemy</c>, er een nieuwe wordt aangemaakt aan het begin van de loop (dus pas wanneer de huidige enemy is verslagen.)
- >TIP: de Enemy variabele moet NIET in de loop, het initialiseren ervan wel!. 
- 
- De loop stopt nu dus alleen wanneer de speler dood gaat.
- 
-  >**Extra** <br>
-  Geef nieuwe <c>Enemies</c> een random <v>health</v> en <v>damage</v> waarde (wees gebalanceerd!)
-  >>**bonus**: geef nieuwe <c>Enemies</c> een random naam uit een naam verzameling (randomize de index)
- 
- Je kan nu eindeloos vechten tegen enemies tot jij, de speler, dood gaat. <br><br>
- 
- Voeg nu de volgende functionaliteit toe (je zou nu de kennis moeten hebben om dit zelf te implementeren. X en Y zijn waardes die je zelf 'gebalanceerd' bepaalt):
- 
- >Geef de speler een <v>level</v> en een <v>experience</v> variabele; geef alleen level de waarde 1. Bij elke verslagen vijand krijgt de speler een X aantal exp erbij (via een <m>setter</m>). Wanneer de <v>experience</v> hoger is dan Y gaat de speler LEVELUP (via een <m>setter</m>). Bij elke LEVELUP worden de volgende variabelen gewijzigd:
->
->>* level van de speler +1
->>* maxHealth van de speler + Random tussen 5 en 10
->>* health krijgt de waarde van maxHealth
->>* damage van de speler + Random tussen 1 en 3
->>* De Y grens voor een levelup * 1.2 
->>* exp gaat weer terug naar 0
->
->**Resultaat** <br>
-Je kan nu eindeloos vechten tegen vijanden en ga je een level omhoog gaan wanneer X aantal vijanden zijn verslagen (en je zo steeds sterker wordt). <br>
-**Let op!**: zorg dat het uitlezen en wijzigen van variabelen altijd via <m>getters</m> en <m>setters</m> gaat.
+ We gaan beginnen met de 'meat' van ons spel: de combat. Hiervoor moet er gebruik gemaakt worden van 'objecten' zodat het aanmaken en bijhouden van vijanden een stuk makkelijker gaat.
+
+ 1. Maak twee nieuwe scripts aan voor een <c>Player</c> en <c>Enemy</c>. Geef beide klassen variabelen voor name, health en attack. Wijzig de setter van de variabelen zodat ze alleen opgehaald ('get') kunnen worden.
+
+ 2. Maak drie set methodes (met argumenten) voor alle drie variabelen zodat de variabelen ingevuld kunnen worden.
+
+ 3. Voeg bovenaan de 'main' script het aanmaken van het speler object. Wanneer om de speler zijn naam wordt gevraagd stop je de input in de naam variabele van de speler klassen. Vul op dit moment ook de spelers attack en de health variabelen in via de set methodes.
+
+ 4. Maak onderaan de 'main' code een enemy object aan en geeft het een naam, health en attack value via de set methodes. Vervolg het aanmaken van de vijand met een stukje tekst dat het monster verschijnt en maak gebruik van de naam. Toon ook de hoeveelheid health en attack.
+
+De objecten zijn nu klaar om te vechten en alles staat op een mooie volgorde. Voeg als laatst in de 'main' script helemaal bovenaan een nieuwe bool variabele gameOver toe en onderaan een while loop toe die blijft loopen tot gameOver waar is. Maak nu de volgende onderdelen:
+
+ - Aan het begin van de loop moet de speler input geven met wat hij wilt doen. Wanneer de speler "Attack" intypt wordt het vijand object beschadigd.
+     - Vang onbekende commandos op.
+ - Als de speler is geweest valt de vijand de speler aan.
+ - Laat met prints en verschillende kleuren zien wat er precies gebeurt.
+ - Aan het einde van de loop wordt er gekeken of dat de speler of de enemy verslagen is; stop dan de loop en sluit het spel af met nog wat prints gebasseerd op wie er verslagen is.
+
+>**Extra** <br>
+>Experimenteer met <c>Random()</c> om een variatie in <v>health</v> en <v>damage</v> te implementeren bij beide objecten.
+>>**Bonus** geef de enemy een random naam uit een namen verzameling.
 
 ---
 
- ## **Opdracht 3 - I command you to...**
+ ## **Opdracht 3 - And they won't stop coming!**
  Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en wat uitbreiden.  Voeg een enum toe voor de volgende gamestates:
  
   ><code>COMBAT <br>
