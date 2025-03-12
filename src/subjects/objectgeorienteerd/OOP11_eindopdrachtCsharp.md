@@ -33,6 +33,8 @@ Je bent ten alle tijden vrij om de opdrachten uit te breiden met eigen functies,
 
 ***Opdrachten***
 
+> &#128161; **TIP**: Voor alles wat je maakt met OOP, onthoud de <m>Single Responsibility Principle!</m>
+
  ## **Opdracht 1 - Once upon a time**
 
 We beginnen eerst met het opzetten van onze speelomgeving. Start met een aantal <c>Console.WriteLine</c>'s om een introductie in onze game te maken (denk bijvoorbeeld aan <o>"Welcome Adventurer"</o>, of <o>"You wake up in a dark, damp cave!"</o>). Wees vrij om hier zelf iets moois van te maken. Vraag uiteindelijk via een <c>Console.ReadLine</c> om de speler's naam en stop die in een variabele. Begroet de speler in een laatste <c>Console.WriteLine</c> met zijn ingevulde naam. 
@@ -41,17 +43,17 @@ We beginnen eerst met het opzetten van onze speelomgeving. Start met een aantal 
 
 Zoals je nu al ziet, en kan verwachten, gaan we heel veel Console.WriteLine's gebruiken om informatie te visualiseren voor de speler. Dit gaan wij simpeler maken met een eigen schrijf methode:
 
-1. Maak een nieuwe, publieke, lege methode aan met een goed omschrijvende naam en geef het een type string argument mee (kies voor een logische benaming!). Deze methode moet de meegegeven string argument uitschrijven naar de console.
+1. Maak een nieuwe, publieke, lege methode aan met een goed omschrijvende naam en geef het een <m>type string argument</m> mee (kies voor een logische benaming!). Deze methode moet de meegegeven string argument uitschrijven naar de console.
 
-2. Elke Console.WriteLine die je hebt geschreven aan het begin van de opdracht vervang je met een call naar deze methode en vul je zijn argument in.
+2. Elke <c>Console.WriteLine</c> die je hebt geschreven aan het begin van de opdracht vervang je met een call naar deze methode en vul je zijn argument in.
 
-Het scheelt nu al redelijk wat typ werk als we nieuwe regels willen gaan uitprinten voor de speler, maar het blijft een beetje saai zo met alle witte tekst. Met Console.ForegroundColor zetten we een nieuwe kleur vast waarmee elk nieuwe regel tekst in die kleur wordt geschreven. Maak de volgende wijzigingen aan de gemaakte schrijf methode:
+Het scheelt nu al redelijk wat typ werk als we nieuwe regels willen gaan uitprinten voor de speler, maar het blijft een beetje saai zo met alle witte tekst. Met <c>Console.ForegroundColor</c> zetten we een nieuwe kleur vast waarmee elk nieuwe regel tekst in die kleur wordt geschreven. Maak de volgende wijzigingen aan de gemaakte schrijf methode:
 
 4. Voeg het wijzigen van kleur toe aan de schrijf methode. Zorg er voor dat de kleur van de tekst naderhand weer terugvalt op wit.
 
 5. Voeg een extra optional argument toe aan de methode met de juiste type om een kleur mee te geven bij het aanroepen van de schrijf methode. Ken een wit waarde toe. 
 
-De Print methode werkt nu zo dat als je geen tweede argument meegeeft, de text standaard wit wordt uitgeprint. Ken je wel een tweede argument toe met bijvoorbeeld ConsoleColor.Red, wordt de tekst rood afgedrukt.
+De <c> Print </c> methode werkt nu zo dat als je geen tweede argument meegeeft, de text standaard wit wordt uitgeprint. Ken je wel een tweede argument toe met bijvoorbeeld ConsoleColor.Red, wordt de tekst rood afgedrukt.
 
 6. Maak een extra schrijf methode om de Console.Write methode te gebruiken (inclusief kleurgebruik). 
     - *Bonus*: Breid alleen de bestaande Print methode uit met een extra argument zodat je kan meegeven of het een Write of WriteLine moet zijn.
@@ -63,14 +65,17 @@ De Print methode werkt nu zo dat als je geen tweede argument meegeeft, de text s
 
  1. Maak twee nieuwe scripts aan voor een <c>Player</c> en <c>Enemy</c>. Geef beide klassen variabelen voor name, health en attack. Wijzig de setter van de variabelen zodat ze alleen opgehaald ('get') kunnen worden.
 
- 2. Maak drie methodes (met argumenten) voor het invullen van de naam, het krijgen van schade en het zetten van de attack:
-     - SetName()
-     - TakeDamage()
-     - SetAttack()
+ 2. Maak drie methodes (met argumenten) voor het invullen van de naam, het krijgen van schade en het zetten van de attack: 
+     - <c>SetName()
+     - <c>TakeDamage()
+     - <c>SetAttack()
 
  3. Voeg bovenaan de 'main' script het aanmaken van het speler object. Wanneer om de speler zijn naam wordt gevraagd stop je de input in de naam variabele van de speler klassen. Vul op dit moment ook de spelers attack en de health variabelen in via de set methodes.
 
  4. Maak onderaan de 'main' code een enemy object aan en geeft het een naam, health en attack value via de set methodes. Vervolg het aanmaken van de vijand met een stukje tekst dat het monster verschijnt en maak gebruik van de naam. Toon ook de hoeveelheid health en attack.
+
+>**Bonus**
+Je kan een constructor gebruiken om het aanmaken van nieuwe objecten en het invullen van zijn variabelen te vereenvoudigen. Uiteindelijk heb je maar 1 regel code nodig! 
 
 De objecten zijn nu klaar om te vechten en alles staat op een mooie volgorde. Voeg als laatst in de 'main' script helemaal bovenaan een nieuwe bool variabele gameOver toe en onderaan een while loop toe die blijft loopen tot gameOver waar is. Maak nu de volgende onderdelen:
 
@@ -110,23 +115,23 @@ Op het moment gaat de speler niet ver kunnen komen tegen oneindig veel vijanden.
 >**Resultaat** <br>
 > De speler kan nu sterker worden door steeds meer vijanden te verslaan. Wanneer zijn levens te laag worden kan hij er ook voor kiezen om zichzelf te helen. Elke keer als een vijand verslagen wordt krijgt de speler experience points en wordt er weer een nieuwe monsters aangemaakt.
 
->**Bonus**
-Je kan een constructor gebruiken om het aanmaken van nieuwe objecten en het invullen van zijn variabelen te vereenvoudigen. Uiteindelijk heb je maar 1 regel code nodig! 
-
 ---
 ## **Opdracht 4 - Are they getting stronger?**
 
-We gaan variatie in de vijanden aanbrengen doormiddel van Polymorphisme.
+We gaan variatie in de speler en vijanden aanbrengen doormiddel van Polymorphisme.
 
 > &#128221; **NOTE**: Polymorphisme is grieks voor meerdere (poly) vormen (morphism)
 
 Creëer twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Entity</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen:
 
+>Wanneer de speler aanvalt heeft hij een kans op een 'Critical Hit'. Wanneer dit gebeurt doet de speler meer schade. Hoeveel extra schade wordt bepaald door een critical damage variabele. Wanneer de speler een Critical Hit krijgt word bepaald door een critical rate variabelen. 
+>> &#128161; **TIP**: Gebruik percentage berekeningen!
+>
 >De <c>TankEnemy</c> heeft een extra <v>variabele armorValue</v>. Elke keer als deze vijand schade krijgt, wordt de totale schade verminderd met de <v>armorValue</v>.
 >
 >De <c>BlitzEnemy</c> heeft elke keer als het aanvalt een kans om nog een keer aan te vallen. Deze kans begint hoog, maar wordt bij elke aanval kleiner.
 >
->Polymorph beide damage en aanval methodes zodat ze wel dezelfde methode naam en argumenten houden maar dat het de bovengenoemde functionaliteiten implementeert met hun unieke variabelen.
+>Polymorph de damage en aanval methodes zodat ze wel dezelfde methode naam en argumenten houden maar dat het de bovengenoemde functionaliteiten implementeert met hun unieke variabelen.
 
 Laat deze nieuwe vijanden, samen met de originele, ook verschijnen in de gameloop bij gevechten doormiddel van kans.
 
@@ -149,8 +154,10 @@ Met de Entity List staand voer je de volgende stappen uit:
 
 3. Wijzig de combat code zodat het gebruikt maakt van deze lijst. Zodra een entiteit zijn actie(s) heeft gedaan is de volgende in de lijst aan de beurt 
  
+4.<c>Enemies</c> die aangemaakt worden met dezelfde naam (zoals Goblin) moeten een nummer aan hun naam toegevoegd krijgen (dus Goblin1, Goblin2). Breidt de commando's van de speler uit zodat er ook een naam opgegeven kan worden van de vijand om aan te vallen (bijv. Attack Goblin1).
+ 
 >**Eindresultaat** <br>
-Voordat combat begint worden alle entiteiten in het gevecht toegevoegd aan een lijst. Deze lijst wordt gesorteerd naar de snelheid van de entiteiten. Hierdoor ontstaat er een variërende volgorde in beurten: snellere entiteiten zijn als eerste aan de beurt!
+Voordat combat begint worden alle entiteiten in het gevecht toegevoegd aan een lijst. Deze lijst wordt gesorteerd naar de snelheid van de entiteiten. Hierdoor ontstaat er een variërende volgorde in beurten: snellere entiteiten zijn als eerste aan de beurt! De speler kan kiezen uit meerdere targets om aan te vallen.
 
 >>**Bonus** <br>
 Voeg een mechanic toe dat de speed variabele van de entiteiten versneld/vertraagd kunnen worden tijdens combat. Bijvoorbeeld: wanneer een entiteit geraakt wordt met ice magic dan wordt zijn speed gehalveerd (waardoor hij dus later aan de beurt is). Hiervoor moet je dus alle entiteiten opnieuw sorteren nadat iedereen aan de beurt is geweest.
@@ -158,33 +165,28 @@ Voeg een mechanic toe dat de speed variabele van de entiteiten versneld/vertraag
 ---
 
 ## **Super Bonus Opdracht 6 - What happens next?**
-Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en wat uitbreiden.  Voeg een enum toe voor de volgende gamestates:
+Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en  uitbreiden. Voeg een gameState <c>Enum</c> toe:
  
   ><code>COMBAT <br>
   >STORY <br>
   >GAMEOVER</code>
-  
-Voeg een variabele voor de <v>gamestate</v> toe aan Program.cs. Maak het gehele combat segment zo dat het in een eigen methode/functie zit en alleen aangeroepen wordt als de gamestate COMBAT is. Maak nog twee extra methodes toe voor:
+
+1. Voeg een variabele voor de <v>gamestate</v> toe aan Program.cs. Maak het gehele combat segment zo dat het in een eigen methode/functie zit en alleen aangeroepen wordt als de gamestate COMBAT is. Maak nog twee extra methodes toe voor:
  
 >STORY - comment een todo voor story segmenten (je hoeft hier dus nog geen logica voor te schrijven)<br>
 >GAMEOVER - wanneer de speler zijn health op 0 of lager komt wordt de gamestate omgezet naar GAMEOVER.
  
-Voeg in de <m>gameover</m> methode wat writelines toe over hoe de speler dood gaat en meld <o>"Game Over"</o>.
+2. Voeg in de <m>gameover</m> methode wat writelines toe over hoe de speler dood gaat en meld <o>"Game Over"</o>.
 Het resultaat moet als volgt zijn:
  
 >als de gamestate op COMBAT staat wordt de combat uitgevoerd zoals voorheen en kan de speler commando's geven om aan te vallen en/of items gebruiken (als je dat hebt geprogrammeerd), waarna de vijand de speler aanvalt. Er moet een functie zijn voor het wijzigen van de gamestate wanneer dat evt. nodig is. Dit moet altijd aan het einde van de gameloop gebeuren zodat de volgende loop methodes wordt bepaalt. Als de speler dood is word de gamestate omgezet naar GAMEOVER en word de gameover logica uitgevoerd.
  
-Wijzig de enemy naar een <v>enemy verzameling</v> zodat de speler tegen 2, 3 of zelfs 10 enemies tegelijk kan vechten. <c>Enemies</c> die aangemaakt worden met dezelfde naam (zoals Goblin) moeten een nummer aan hun naam toegevoegd krijgen (dus Goblin1, Goblin2). Breidt de commando's van de speler uit zodat er ook een naam opgegeven kan worden van de vijand om aan te vallen (bijv. Attack Goblin1). Nadat de speler is geweest krijgt elke vijand in de verzameling een beurt om de speler aan te vallen. Doe dit via een foreach loop om door de <v>enemy verzameling</v> te loopen. Zorg er voor dat de juiste writelines zijn toegevoegd.
- 
->**Resultaat** <br>
-Er kunnen meerdere vijanden tegelijk verschijnen en worden samengevoegd in de intro (bijv.: A wild Goblin and Giant Rat appeared!). De speler kan in zijn aanval commando een naam meegeven voor welke vijand hij/zij wilt aanvallen. Daarna krijgt elke vijand een beurt om de speler aan te vallen. Dit blijft herhalen tot de speler dood is of alle vijanden zijn verslagen; in dit
-geval worden er weer nieuwe vijanden aangemaakt en begint het gevecht opnieuw!).
 
-Maak nu eerst een backup van jouw huidige project; deze opdracht is namelijk een flinke ingreep! Deze opdracht vraagt ook inzicht in code architectuur en volgorde!
+Maak nu eerst een backup van jouw huidige project; deze opdracht is namelijk een flinke ingreep! Deze opdracht vraagt ook inzicht in code architectuur en kennis van <c>Linked Lists</c>!
 
-Maak een nieuwe folder "Datastructures" aan. Maak binnen deze folder de benodigde klassen voor een linkedlist (zoals in de video). Via een aparte klasse <c>StoryManager</c> ga je jouw text based adventure game afmaken: 
+3. Maak een nieuwe folder "Datastructures" aan. Maak binnen deze folder de benodigde klassen voor een <m>linkedlist</m>. Via een aparte klasse <c>StoryManager</c> ga je jouw text based adventure game afmaken: 
  
-De <c>toryManager</c> regelt de gameflow; per node in de linkedlist kijkt het of er een verhaal verteld moet worden of dat er combat moet starten. Dit kan je op de volgende manier doen. Voeg aan de node klasse een boolean <v>isCombat</v> toe. Deze variabele kan je op false zetten waar alleen een string uitgeschreven moet worden (story segment) en true wanneer de combat code moet starten zoals je het nu hebt geschreven. Vanuit de <c>GameManager</c> moet er eerst gekeken worden of de huidige linkedlist node een combat node is, om daarna de gamestate te veranderen naar de bijbehorende state (en zo dus de juiste code uitgevoerd wordt). Hier komt dus die gamestate switch goed van pas!
+De <c>StoryManager</c> regelt de gameflow; per node in de linkedlist kijkt het of er een verhaal verteld moet worden of dat er combat moet starten. Dit kan je op de volgende manier doen. Voeg aan de node klasse een boolean <v>isCombat</v> toe. Deze variabele kan je op false zetten waar alleen een string uitgeschreven moet worden (story segment) en true wanneer de combat code moet starten zoals je het nu hebt geschreven. Vanuit de <c>GameManager</c> moet er eerst gekeken worden of de huidige linkedlist node een combat node is, om daarna de gamestate te veranderen naar de bijbehorende state (en zo dus de juiste code uitgevoerd wordt). Hier komt dus die gamestate switch goed van pas!
  
 Als voorbeeld
 >De GameManager kijkt naar de huidige gamestate: deze staat op STORY en kijkt naar de huidige linkedlist node. De isCombat boolean staat op false en de print methode van de huidige linkedlist node wordt uitgevoerd. De node data wordt via een Console.WriteLine uitgeschreven naar de console en de opvolgende node word nu de huidige node. 
