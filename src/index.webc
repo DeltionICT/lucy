@@ -76,6 +76,7 @@ layout: layout.webc
             <tech color="red" title="SEO"></tech>
             <tech color="red" title="Pseudocode"></tech>
             <tech color="green" title="Vestaboard"></tech>
+             <tech color="green" title="AAR - API (SD-flex)"></tech>
         </p>
     </module>
     <module>
