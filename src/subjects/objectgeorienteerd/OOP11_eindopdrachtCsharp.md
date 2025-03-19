@@ -65,6 +65,8 @@ De <c> Print </c> methode werkt nu zo dat als je geen tweede argument meegeeft, 
 
  1. Maak twee nieuwe scripts aan voor een <c>Player</c> en <c>Enemy</c>. Geef beide klassen variabelen voor name, health en attack. Wijzig de setter van de variabelen zodat ze alleen opgehaald ('get') kunnen worden.
 
+ > &#128680; <m>Zorg sowieso altijd voor logische **ENCAPSULATION** (publics an privates)!</m>
+
  2. Maak drie methodes (met argumenten) voor het invullen van de naam, het krijgen van schade en het zetten van de attack: 
      - <c>SetName()
      - <c>TakeDamage()
