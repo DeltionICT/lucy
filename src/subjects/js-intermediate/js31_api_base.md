@@ -47,7 +47,6 @@ author: cstegeman
     </div>
 </div>
 
-
 ### opdracht
 Open <a href="https://std.stegion.nl/cs_codebase/js31_api_base/" target="_blank">handleiding js31_api_base</a>.<br>
 *   Bekijk bij 1: "HTML-opbouw vanuit API" het proces, hoe je van een API tot een website komt
@@ -58,10 +57,7 @@ Open <a href="https://std.stegion.nl/cs_codebase/js31_api_base/" target="_blank"
 *   Bekijk bij 4: "AJAX => JSON => HTML", een voorbeeld van hoe je de JSON met Axios van een API binnen haalt en verwerkt tot HTML
 
 ### vervolg    
-Ga hierna verder met [js32b_api_html](https://std.stegion.nl/cs_codebase/js32b_api_html/). Daarin wordt uitgelegd:
-*   Hoe je een AJAX request op een API uitvoert 
-*   Dat je een API via AJAX kan laden
-*   Hoe je op een andere (betere) manier Ga hierna verder met [AJAX kan gebruiken](https://std.stegion.nl/cs_codebase/js32_json_ajax/) (js32_json_ajax) dan in bovenstaande oefening (via plain JS)
+*   Ga hierna verder met de JS33: Weather API of de  JS_34 Country API, waar bovenstaande technieken verder worden toegepast.
 
 
 
