@@ -93,6 +93,7 @@ De objecten zijn nu klaar om te vechten en alles staat op een mooie volgorde. Vo
 >Experimenteer met <c>Random()</c> om een variatie in <v>health</v> en <v>damage</v> te implementeren bij beide objecten.
 >
 >> &#128221; **NOTE** In Computer Role Playing Games (CRPGS in het kort) wordt de mogelijke schade vaak willekeurig bepaalt tussen een minimale en maximale waarde; zoals het Diablo 2 voorbeeld van een axe die, bij elke aanval, tussen 7 en 19 schade doet.
+>>
 >> <img src="https://www.d2rpg.com/wp-content/uploads/2018/12/bladebone50ed.jpg" alt="Diablo 2 Axe stats" width="256" height="256">
 >>
 >>Je bent natuurlijk vrij om een heel wapen systeem te maken voor de speler en vijanden doormiddel van objecten!
