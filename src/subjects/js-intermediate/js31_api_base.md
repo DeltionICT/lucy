@@ -55,6 +55,7 @@ Open <a href="https://std.stegion.nl/cs_codebase/js31_api_base/" target="_blank"
     *   Bekijk alle links van API's in je browser
     *   Installeer een plugin in je browser om de JSON beter leesbaar weer te geven
 *   Bekijk bij 3: "AJAX" hoe je met een Javascript AJAX-request, data uit de API kan ophalen
+*   Bekijk bij 4: "AJAX => JSON => HTML", een voorbeeld van hoe je de JSON met Axios van een API binnen haalt en verwerkt tot HTML
 
 ### vervolg    
 Ga hierna verder met [js32b_api_html](https://std.stegion.nl/cs_codebase/js32b_api_html/). Daarin wordt uitgelegd:
