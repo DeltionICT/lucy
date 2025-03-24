@@ -127,7 +127,7 @@ Op het moment gaat de speler niet ver kunnen komen tegen oneindig veel vijanden.
 
 > &#128221; **NOTE** In CRPG's bepalen vaak 6 kern waardes, ook wel abilities genoemd, hoe sterk een speler is en wat hij wel of niet kan doen (zie het voorbeeld van Dungeons and Dragons).
 >
-> <img src="../../_assets/csharp/TextBasedGame/DNDSheet.png" alt=" Dungeons & Dragons abilities" width="200" height="256">
+> {{ '/_assets/csharp/TextBasedGame/DNDSheet.png' | image: 'DND Sheet', 50 }}
 >
 > 1. <b style = 'color: crimson'>Strength</b> - voor kracht en schade met melee wapens
 > 2. <b style = 'color: lightgreen'>Dexterity</b> - voor behendigheid en schade met ranged wapens
