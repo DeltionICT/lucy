@@ -11,6 +11,7 @@ c { color: darkcyan; font-weight: bold;}
 m { color: crimson; font-weight: bold;}
 v { color: gold; }
 o { color: lightslategray; font-style: italic;}
+bn { color: slateblue; font-style: italic;}
 </style>
 
 # {{ title }}
@@ -94,7 +95,7 @@ De objecten zijn nu klaar om te vechten en alles staat op een mooie volgorde. Vo
 >
 >> &#128221; **NOTE** In Computer Role Playing Games (CRPGS in het kort) wordt de mogelijke schade vaak willekeurig bepaalt tussen een minimale en maximale waarde; zoals het Diablo 2 voorbeeld van een axe die, bij elke aanval, tussen 7 en 19 schade doet.
 >>
->> <img src="https://www.d2rpg.com/wp-content/uploads/2018/12/bladebone50ed.jpg" alt="Diablo 2 Axe stats" width="256" height="256">
+>> <img src="../../_assets/csharp/TextBasedGame/diabloblade.png" alt="Diablo 2 Axe stats" width="256" height="256">
 >>
 >>Je bent natuurlijk vrij om een heel wapen systeem te maken voor de speler en vijanden doormiddel van objecten!
 >
@@ -118,14 +119,27 @@ Voor deze opdracht gaan wij Inheritance gebruiken om de herbruikbaar- en uitbrei
 
 Op het moment gaat de speler niet ver kunnen komen tegen oneindig veel vijanden. Breid ALLEEN de Player class uit met de volgende mechanics:
 
-> &#128221; **NOTE** Mechanics acties en functies die gespeeld kunnen worden en gezamenlijk een 'game' maken (denk aan schieten, springen, puzzles, racen etc.)
-
 3. Voeg een mechanic toe om te helen (levens weer terug krijgen). Gebruik hiervoor ook een <v>maxHealth</v> variabele zodat de speler niet meer HEALED dan mag. Zorg dat het healen een commando is die de speler kan typen tijdens een gevecht. 
 
-4. Voeg een mechanic toe voor de speler om te levelen (sterker worden). Met elke verslagen vijand krijgt de speler een x-aantal experience points. Wanneer de speler over een experience threshold komt gaat de speler 'level up' en worden zijn maxHealth en Attack omhoog. Bedenk zelf wat voor waardes er meer verbeterd worden met een level up. Bepaal ook of de speler al zijn levens terug krijgt bij een level up of niet.
+> &#128221; **NOTE** Mechanics acties en functies die gespeeld kunnen worden en gezamenlijk een 'game' maken (denk aan schieten, springen, puzzles, racen etc.)
+
+4. Voeg een mechanic toe voor de speler om te levelen (sterker worden). Met elke verslagen vijand krijgt de speler een x-aantal experience points (<bn>**extra** - dit kan natuurlijk met een random gebasseerd op een base exp value van de vijand</bn>). Wanneer de speler over een experience threshold komt gaat de speler 'level up' en gaan zijn maxHealth en Attack omhoog. Bedenk zelf wat voor waardes de speler nog meer kan hebben om hem te helpen en welke er verhoogd worden met een level up.
+
+> &#128221; **NOTE** In CRPG's bepalen vaak 6 kern waardes, ook wel abilities genoemd, hoe sterk een speler is en wat hij wel of niet kan doen (zie het voorbeeld van Dungeons and Dragons).
+>
+> <img src="../../_assets/csharp/TextBasedGame/DNDSheet.png" alt=" Dungeons & Dragons abilities" width="200" height="256">
+>
+> 1. <b style = 'color: crimson'>Strength</b> - voor kracht en schade met melee wapens
+> 2. <b style = 'color: lightgreen'>Dexterity</b> - voor behendigheid en schade met ranged wapens
+> 3. <b style = 'color: peru'>Constitution</b> - voor uithoudingsvermogen en aantal levens
+> 4. <b style = 'color: darkturquoise'>Intelligence</b> - hoeveel iets weet en voor spellcasting
+> 5. <b style = 'color: blueviolet'>Wisdom</b> - hoe wijs iets is en voor spellcasting
+> 6. <b style = 'color: orangered'>Charisma</b> - voor aantrekkingskracht en spellcasting
+
+Bepaal ook zelf of de speler -*al*- zijn levens weer terugkrijgt bij een level up of dat hij ten alle tijden zichzelf moet helen (<bn>helen kan je ook uitbreiden naar een magie systeem wat gebruikt maakt van bijv. de intelligence waarde</bn>).
 
 >**Resultaat** <br>
-> De speler kan nu sterker worden door steeds meer vijanden te verslaan. Wanneer zijn levens te laag worden kan hij er ook voor kiezen om zichzelf te helen. Elke keer als een vijand verslagen wordt krijgt de speler experience points en wordt er weer een nieuwe monsters aangemaakt.
+ De speler kan nu sterker worden door steeds meer vijanden te verslaan. Wanneer zijn levens te laag worden kan hij er ook voor kiezen om zichzelf te helen. Elke keer als een vijand verslagen wordt krijgt de speler experience points en wordt er weer een nieuwe monsters aangemaakt.
 
 ---
 ## **Opdracht 4 - Are they getting stronger?**
