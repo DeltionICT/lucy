@@ -95,7 +95,7 @@ De objecten zijn nu klaar om te vechten en alles staat op een mooie volgorde. Vo
 >
 >> &#128221; **NOTE** In Computer Role Playing Games (CRPGS in het kort) wordt de mogelijke schade vaak willekeurig bepaalt tussen een minimale en maximale waarde; zoals het Diablo 2 voorbeeld van een axe die, bij elke aanval, tussen 7 en 19 schade doet.
 >>
->> <img src="../../_assets/csharp/TextBasedGame/diabloblade.png" alt="Diablo 2 Axe stats" width="256" height="256">
+>> {{ '/_assets/csharp/TextBasedGame/diabloblade.png' | image: 'Diablo 2 Axe stats', 25 }}
 >>
 >>Je bent natuurlijk vrij om een heel wapen systeem te maken voor de speler en vijanden doormiddel van objecten!
 >
@@ -127,7 +127,7 @@ Op het moment gaat de speler niet ver kunnen komen tegen oneindig veel vijanden.
 
 > &#128221; **NOTE** In CRPG's bepalen vaak 6 kern waardes, ook wel abilities genoemd, hoe sterk een speler is en wat hij wel of niet kan doen (zie het voorbeeld van Dungeons and Dragons).
 >
-> {{ '/_assets/csharp/TextBasedGame/DNDSheet.png' | image: 'DND Sheet', 50 }}
+> {{ '/_assets/csharp/TextBasedGame/DNDSheet.png' | image: 'DND Sheet', 25 }}
 >
 > 1. <b style = 'color: crimson'>Strength</b> - voor kracht en schade met melee wapens
 > 2. <b style = 'color: lightgreen'>Dexterity</b> - voor behendigheid en schade met ranged wapens
