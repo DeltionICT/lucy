@@ -740,6 +740,7 @@ c { color: darkcyan; font-weight: bold;}
 m { color: crimson; font-weight: bold;}
 v { color: gold; }
 o { color: lightslategray; font-style: italic;}
+bn { color: slateblue; font-style: italic;}
 </style>
 <h1>C# OOP Verdieping</h1>
 <blockquote>
@@ -844,7 +845,7 @@ Je kan een constructor gebruiken om het aanmaken van nieuwe objecten en het invu
 Experimenteer met <c>Random()</c> om een variatie in <v>health</v> en <v>damage</v> te implementeren bij beide objecten.</p>
 <blockquote>
 <p>📝 <strong>NOTE</strong> In Computer Role Playing Games (CRPGS in het kort) wordt de mogelijke schade vaak willekeurig bepaalt tussen een minimale en maximale waarde; zoals het Diablo 2 voorbeeld van een axe die, bij elke aanval, tussen 7 en 19 schade doet.</p>
-<img src="https://www.d2rpg.com/wp-content/uploads/2018/12/bladebone50ed.jpg" alt="Diablo 2 Axe stats" width="256" height="256">
+<img src="../../_assets/csharp/TextBasedGame/diabloblade.png" alt="Diablo 2 Axe stats" width="256" height="256">
 <p>Je bent natuurlijk vrij om een heel wapen systeem te maken voor de speler en vijanden doormiddel van objecten!</p>
 </blockquote>
 <p><strong>Bonus</strong> geef de enemy een random naam uit een namen verzameling.</p>
@@ -865,17 +866,28 @@ Experimenteer met <c>Random()</c> om een variatie in <v>health</v> en <v>damage<
 In essentie kan je nu oneindig blijven vechten tegen steeds nieuwe vijanden.</p>
 </blockquote>
 <p>Op het moment gaat de speler niet ver kunnen komen tegen oneindig veel vijanden. Breid ALLEEN de Player class uit met de volgende mechanics:</p>
+<ol start="3">
+<li>Voeg een mechanic toe om te helen (levens weer terug krijgen). Gebruik hiervoor ook een <v>maxHealth</v> variabele zodat de speler niet meer HEALED dan mag. Zorg dat het healen een commando is die de speler kan typen tijdens een gevecht.</li>
+</ol>
 <blockquote>
 <p>📝 <strong>NOTE</strong> Mechanics acties en functies die gespeeld kunnen worden en gezamenlijk een 'game' maken (denk aan schieten, springen, puzzles, racen etc.)</p>
 </blockquote>
-<ol start="3">
-<li>
-<p>Voeg een mechanic toe om te helen (levens weer terug krijgen). Gebruik hiervoor ook een <v>maxHealth</v> variabele zodat de speler niet meer HEALED dan mag. Zorg dat het healen een commando is die de speler kan typen tijdens een gevecht.</p>
-</li>
-<li>
-<p>Voeg een mechanic toe voor de speler om te levelen (sterker worden). Met elke verslagen vijand krijgt de speler een x-aantal experience points. Wanneer de speler over een experience threshold komt gaat de speler 'level up' en worden zijn maxHealth en Attack omhoog. Bedenk zelf wat voor waardes er meer verbeterd worden met een level up. Bepaal ook of de speler al zijn levens terug krijgt bij een level up of niet.</p>
-</li>
+<ol start="4">
+<li>Voeg een mechanic toe voor de speler om te levelen (sterker worden). Met elke verslagen vijand krijgt de speler een x-aantal experience points (<bn><strong>extra</strong> - dit kan natuurlijk met een random gebasseerd op een base exp value van de vijand</bn>). Wanneer de speler over een experience threshold komt gaat de speler 'level up' en gaan zijn maxHealth en Attack omhoog. Bedenk zelf wat voor waardes de speler nog meer kan hebben om hem te helpen en welke er verhoogd worden met een level up.</li>
 </ol>
+<blockquote>
+<p>📝 <strong>NOTE</strong> In CRPG's bepalen vaak 6 kern waardes, ook wel abilities genoemd, hoe sterk een speler is en wat hij wel of niet kan doen (zie het voorbeeld van Dungeons and Dragons).</p>
+<img src="../../_assets/csharp/TextBasedGame/DNDSheet.png" alt=" Dungeons & Dragons abilities" width="200" height="256">
+<ol>
+<li><b style="color: crimson">Strength</b> - voor kracht en schade met melee wapens</li>
+<li><b style="color: lightgreen">Dexterity</b> - voor behendigheid en schade met ranged wapens</li>
+<li><b style="color: peru">Constitution</b> - voor uithoudingsvermogen en aantal levens</li>
+<li><b style="color: darkturquoise">Intelligence</b> - hoeveel iets weet en voor spellcasting</li>
+<li><b style="color: blueviolet">Wisdom</b> - hoe wijs iets is en voor spellcasting</li>
+<li><b style="color: orangered">Charisma</b> - voor aantrekkingskracht en spellcasting</li>
+</ol>
+</blockquote>
+<p>Bepaal ook zelf of de speler -<em>al</em>- zijn levens weer terugkrijgt bij een level up of dat hij ten alle tijden zichzelf moet helen (<bn>helen kan je ook uitbreiden naar een magie systeem wat gebruikt maakt van bijv. de intelligence waarde</bn>).</p>
 <blockquote>
 <p><strong>Resultaat</strong> <br>
 De speler kan nu sterker worden door steeds meer vijanden te verslaan. Wanneer zijn levens te laag worden kan hij er ook voor kiezen om zichzelf te helen. Elke keer als een vijand verslagen wordt krijgt de speler experience points en wordt er weer een nieuwe monsters aangemaakt.</p>
