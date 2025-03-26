@@ -148,21 +148,22 @@ We gaan variatie in de speler en vijanden aanbrengen doormiddel van Polymorphism
 
 > &#128221; **NOTE**: Polymorphisme is grieks voor meerdere (poly) vormen (morphism)
 
-Creëer twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Entity</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen:
-
+Maar maak eerst de volgende toevoeging aan de speler:
 >Wanneer de speler aanvalt heeft hij een kans op een 'Critical Hit'. Wanneer dit gebeurt doet de speler meer schade. Hoeveel extra schade wordt bepaald door een critical damage variabele. Wanneer de speler een Critical Hit krijgt word bepaald door een critical rate variabelen. 
 >> &#128161; **TIP**: Gebruik percentage berekeningen!
->
->De <c>TankEnemy</c> heeft een extra <v>variabele armorValue</v>. Elke keer als deze vijand schade krijgt, wordt de totale schade verminderd met de <v>armorValue</v>.
->
->De <c>BlitzEnemy</c> heeft elke keer als het aanvalt een kans om nog een keer aan te vallen. Deze kans begint hoog, maar wordt bij elke aanval kleiner.
->
->Polymorph de damage en aanval methodes zodat ze wel dezelfde methode naam en argumenten houden maar dat het de bovengenoemde functionaliteiten implementeert met hun unieke variabelen.
 
-Laat deze nieuwe vijanden, samen met de originele, ook verschijnen in de gameloop bij gevechten doormiddel van kans.
+Creëer nu twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Entity</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen (gebruik je constructors zorg dan dat de overgeërfde variabelen doorgegeven worden aan de base constructor): 
+
+>De <c>TankEnemy</c> heeft een extra <v>variabele armorValue</v>. Elke keer als deze vijand schade krijgt, wordt de totale schade verminderd met de <v>armorValue</v>. 
+>
+>De <c>BlitzEnemy</c> heeft elke keer als het aanvalt een kans om nog een keer aan te vallen. Deze kans begint hoog, maar wordt bij elke aanval kleiner en wordt gereset wanneer de aanval mist. 
+> 
+>Polymorph de damage en aanval methodes zodat ze wel dezelfde methode naam en argumenten houden maar dat het de bovengenoemde functionaliteiten implementeert met hun unieke variabelen en logica. 
+
+Laat deze nieuwe vijanden, samen met de originele, ook verschijnen gebasseerd op een moeilijkheidsgraad die verhoogt per gewonnen gevecht. 
 
 **Bonus**
-> Je bent zelf natuurlijk vrij om extra vijanden en mechanics toe te voegen!
+> Je bent zelf natuurlijk vrij om extra vijanden en mechanics toe te voegen! We hebben nu polymorphisme gebruikt voor onze vijanden, maar het kan natuurlijk voor alles gebruikt worden: voorwerpen, wapens, magie, kamers en gangen etc. 
 
 ---
 
@@ -178,9 +179,9 @@ Met de Entity List staand voer je de volgende stappen uit:
 
 2. Maak een nieuwe methode/functie <m>CombatSetup()</m> in de main, voor het opzetten van een nieuwe combat volgorde. Deze methode moet dus entiteiten in de list stoppen; op volgorde van de hoogste speed variabele tot de laagste. Het bepalen van de volgorde kan je uitvoeren met LINQ.
 
-3. Wijzig de combat code zodat het gebruikt maakt van deze lijst. Zodra een entiteit zijn actie(s) heeft gedaan is de volgende in de lijst aan de beurt 
+3. Wijzig de combat code zodat het gebruikt maakt van deze lijst. Zodra een entiteit zijn actie(s) heeft gedaan is de volgende in de lijst aan de beurt.
  
-4.<c>Enemies</c> die aangemaakt worden met dezelfde naam (zoals Goblin) moeten een nummer aan hun naam toegevoegd krijgen (dus Goblin1, Goblin2). Breidt de commando's van de speler uit zodat er ook een naam opgegeven kan worden van de vijand om aan te vallen (bijv. Attack Goblin1).
+4. <c>Enemies</c> die aangemaakt worden met dezelfde naam (zoals Goblin) moeten een nummer aan hun naam toegevoegd krijgen (dus Goblin1, Goblin2). Breidt de commando's van de speler uit zodat er ook een naam opgegeven kan worden van de vijand om aan te vallen (bijv. Attack Goblin1).
  
 >**Eindresultaat** <br>
 Voordat combat begint worden alle entiteiten in het gevecht toegevoegd aan een lijst. Deze lijst wordt gesorteerd naar de snelheid van de entiteiten. Hierdoor ontstaat er een variërende volgorde in beurten: snellere entiteiten zijn als eerste aan de beurt! De speler kan kiezen uit meerdere targets om aan te vallen.
@@ -190,7 +191,7 @@ Voeg een mechanic toe dat de speed variabele van de entiteiten versneld/vertraag
 
 ---
 
-## **Super Bonus Opdracht 6 - What happens next?**
+## **Bonus Opdracht 6 - What's your current status!?**
 Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en  uitbreiden. Voeg een gameState <c>Enum</c> toe:
  
   ><code>COMBAT <br>
@@ -208,11 +209,12 @@ Het resultaat moet als volgt zijn:
 >als de gamestate op COMBAT staat wordt de combat uitgevoerd zoals voorheen en kan de speler commando's geven om aan te vallen en/of items gebruiken (als je dat hebt geprogrammeerd), waarna de vijand de speler aanvalt. Er moet een functie zijn voor het wijzigen van de gamestate wanneer dat evt. nodig is. Dit moet altijd aan het einde van de gameloop gebeuren zodat de volgende loop methodes wordt bepaalt. Als de speler dood is word de gamestate omgezet naar GAMEOVER en word de gameover logica uitgevoerd.
  
 
-Maak nu eerst een backup van jouw huidige project; deze opdracht is namelijk een flinke ingreep! Deze opdracht vraagt ook inzicht in code architectuur en kennis van <c>Linked Lists</c>!
+## **Super Bonus Opdracht 7 - What happens next?**
+Maak eerst een backup van jouw huidige project; deze opdracht is namelijk een flinke ingreep! Deze opdracht vraagt ook inzicht in code architectuur en kennis van <c>Linked Lists</c>!
 
-3. Maak een nieuwe folder "Datastructures" aan. Maak binnen deze folder de benodigde klassen voor een <m>linkedlist</m>. Via een aparte klasse <c>StoryManager</c> ga je jouw text based adventure game afmaken: 
- 
-De <c>StoryManager</c> regelt de gameflow; per node in de linkedlist kijkt het of er een verhaal verteld moet worden of dat er combat moet starten. Dit kan je op de volgende manier doen. Voeg aan de node klasse een boolean <v>isCombat</v> toe. Deze variabele kan je op false zetten waar alleen een string uitgeschreven moet worden (story segment) en true wanneer de combat code moet starten zoals je het nu hebt geschreven. Vanuit de <c>GameManager</c> moet er eerst gekeken worden of de huidige linkedlist node een combat node is, om daarna de gamestate te veranderen naar de bijbehorende state (en zo dus de juiste code uitgevoerd wordt). Hier komt dus die gamestate switch goed van pas!
+1. Maak een nieuwe folder "Datastructures" aan. Maak binnen deze folder de benodigde klassen voor een <m>linkedlist</m>. Via een aparte klasse <c>StoryManager</c> ga je jouw text based adventure game afmaken.
+
+2. De <c>StoryManager</c> regelt de gameflow; per node in de linkedlist kijkt het of er een verhaal verteld moet worden of dat er combat moet starten. Dit kan je op de volgende manier doen. Voeg aan de node klasse een boolean <v>isCombat</v> toe. Deze variabele kan je op false zetten waar alleen een string uitgeschreven moet worden (story segment) en true wanneer de combat code moet starten zoals je het nu hebt geschreven. Vanuit de <c>GameManager</c> moet er eerst gekeken worden of de huidige linkedlist node een combat node is, om daarna de gamestate te veranderen naar de bijbehorende state (en zo dus de juiste code uitgevoerd wordt). Hier komt dus die gamestate switch goed van pas!
  
 Als voorbeeld
 >De GameManager kijkt naar de huidige gamestate: deze staat op STORY en kijkt naar de huidige linkedlist node. De isCombat boolean staat op false en de print methode van de huidige linkedlist node wordt uitgevoerd. De node data wordt via een Console.WriteLine uitgeschreven naar de console en de opvolgende node word nu de huidige node. 
@@ -221,6 +223,6 @@ Als voorbeeld
 > 
 >De GameManager kijkt opnieuw naar de huidige gamestate: deze staat op COMBAT en word vervolgens de combat code uitgevoerd tot dat alle vijanden verslagen zijn. Bij het verslaan van alle vijanden word de gamestate weer gewijzigd naar STORY en gaat het weer verder zoals gewoon.
  
-Voeg een aantal nodes toe om een basic verhaal te vertellen met halverwege wat combat (minimaal drie nodes voor introductie, combat, afsluiting). 
+3. Voeg een aantal nodes toe om een basic verhaal te vertellen met halverwege wat combat (minimaal drie nodes voor introductie, combat, afsluiting). 
  
 >Bonus: voeg een keuze toe aan nodes. Geef de speler de opdracht om een keuze te maken na een kort verhaal. Houd het op twee keuzes die elk wijzen naar twee verschillende next nodes. Of deze nodes combat of story zijn mag je zelf bepalen. Beide routes wijzen naar dezelfde next node om de splitting weer samen te voegen.
