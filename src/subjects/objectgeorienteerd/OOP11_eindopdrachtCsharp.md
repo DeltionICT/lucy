@@ -152,7 +152,7 @@ Maar maak eerst de volgende toevoeging aan de speler:
 >Wanneer de speler aanvalt heeft hij een kans op een 'Critical Hit'. Wanneer dit gebeurt doet de speler meer schade. Hoeveel extra schade wordt bepaald door een critical damage variabele. Wanneer de speler een Critical Hit krijgt word bepaald door een critical rate variabelen. 
 >> &#128161; **TIP**: Gebruik percentage berekeningen!
 
-Creëer nu twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Entity</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen (gebruik je constructors zorg dan dat de overgeërfde variabelen doorgegeven worden aan de base constructor): 
+Creëer nu twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Enemy</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen (gebruik je constructors zorg dan dat de overgeërfde variabelen doorgegeven worden aan de base constructor): 
 
 >De <c>TankEnemy</c> heeft een extra <v>variabele armorValue</v>. Elke keer als deze vijand schade krijgt, wordt de totale schade verminderd met de <v>armorValue</v>. 
 >
