@@ -905,7 +905,7 @@ De speler kan nu sterker worden door steeds meer vijanden te verslaan. Wanneer z
 <p>💡 <strong>TIP</strong>: Gebruik percentage berekeningen!</p>
 </blockquote>
 </blockquote>
-<p>Creëer nu twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Entity</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen (gebruik je constructors zorg dan dat de overgeërfde variabelen doorgegeven worden aan de base constructor):</p>
+<p>Creëer nu twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Enemy</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen (gebruik je constructors zorg dan dat de overgeërfde variabelen doorgegeven worden aan de base constructor):</p>
 <blockquote>
 <p>De <c>TankEnemy</c> heeft een extra <v>variabele armorValue</v>. Elke keer als deze vijand schade krijgt, wordt de totale schade verminderd met de <v>armorValue</v>.</p>
 <p>De <c>BlitzEnemy</c> heeft elke keer als het aanvalt een kans om nog een keer aan te vallen. Deze kans begint hoog, maar wordt bij elke aanval kleiner en wordt gereset wanneer de aanval mist.</p>
