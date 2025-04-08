@@ -37,6 +37,8 @@ Je bent ten alle tijden vrij om de opdrachten uit te breiden met eigen functies,
 > &#128161; **TIP**: Voor alles wat je maakt met OOP, onthoud de <m>Single Responsibility Principle!</m>
 
  ## **Opdracht 1 - Once upon a time**
+<a id="o1"></a>
+
 
 We beginnen eerst met het opzetten van onze speelomgeving. Start met een aantal <c>Console.WriteLine</c>'s om een introductie in onze game te maken (denk bijvoorbeeld aan <o>"Welcome Adventurer"</o>, of <o>"You wake up in a dark, damp cave!"</o>). Wees vrij om hier zelf iets moois van te maken. Vraag uiteindelijk via een <c>Console.ReadLine</c> om de speler's naam en stop die in een variabele. Begroet de speler in een laatste <c>Console.WriteLine</c> met zijn ingevulde naam. 
 
@@ -60,7 +62,8 @@ De <c> Print </c> methode werkt nu zo dat als je geen tweede argument meegeeft, 
     - *Bonus*: Breid alleen de bestaande Print methode uit met een extra argument zodat je kan meegeven of het een Write of WriteLine moet zijn.
 ---
 
- ## **Opdracht 2 - Humble Beginnings**
+ ## **Opdracht 2 - Humble Beginnings** 
+<a id="o2"></a>
  
  We gaan beginnen met de 'meat' van ons spel: de combat. Hiervoor moet er gebruik gemaakt worden van 'objecten' zodat het aanmaken en bijhouden van vijanden een stuk makkelijker gaat.
 
@@ -107,6 +110,7 @@ De objecten zijn nu klaar om te vechten en alles staat op een mooie volgorde. Vo
 ---
 
  ## **Opdracht 3 - Adapt or die!**
+<a id="o3"></a>
 
 Voor deze opdracht gaan wij Inheritance gebruiken om de herbruikbaar- en uitbreidbaarheid van onze objecten te verbeteren. We maken ook een paar wijzigingen aan de game mechanics wat al geschreven is.
 
@@ -143,6 +147,7 @@ Bepaal ook zelf of de speler -*al*- zijn levens weer terugkrijgt bij een level u
 
 ---
 ## **Opdracht 4 - Are they getting stronger?**
+<a id="o4"></a>
 
 We gaan variatie in de speler en vijanden aanbrengen doormiddel van Polymorphisme.
 
@@ -152,7 +157,7 @@ Maar maak eerst de volgende toevoeging aan de speler:
 >Wanneer de speler aanvalt heeft hij een kans op een 'Critical Hit'. Wanneer dit gebeurt doet de speler meer schade. Hoeveel extra schade wordt bepaald door een critical damage variabele. Wanneer de speler een Critical Hit krijgt word bepaald door een critical rate variabelen. 
 >> &#128161; **TIP**: Gebruik percentage berekeningen!
 
-Creëer nu twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Enemy</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen (gebruik je constructors zorg dan dat de overgeërfde variabelen doorgegeven worden aan de base constructor): 
+Creëer nu twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Enemy4</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen (gebruik je constructors zorg dan dat de overgeërfde variabelen doorgegeven worden aan de base constructor): 
 
 >De <c>TankEnemy</c> heeft een extra <v>variabele armorValue</v>. Elke keer als deze vijand schade krijgt, wordt de totale schade verminderd met de <v>armorValue</v>. 
 >
@@ -168,6 +173,7 @@ Laat deze nieuwe vijanden, samen met de originele, ook verschijnen gebasseerd op
 ---
 
 ## **Opdracht 5 - In a single file line, please!**
+<a id="o5"></a>
 
 Voor deze opdracht ga je wat meer order creëren in de combat, met name de volgorde van wie als eerste acties mag uitvoeren!
  
@@ -192,6 +198,8 @@ Voeg een mechanic toe dat de speed variabele van de entiteiten versneld/vertraag
 ---
 
 ## **Bonus Opdracht 6 - What's your current status!?**
+<a id="o6"></a>
+
 Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en  uitbreiden. Voeg een gameState <c>Enum</c> toe:
  
   ><code>COMBAT <br>
@@ -210,6 +218,8 @@ Het resultaat moet als volgt zijn:
  
 
 ## **Super Bonus Opdracht 7 - What happens next?**
+<a id="o7"></a>
+
 Maak eerst een backup van jouw huidige project; deze opdracht is namelijk een flinke ingreep! Deze opdracht vraagt ook inzicht in code architectuur en kennis van <c>Linked Lists</c>!
 
 1. Maak een nieuwe folder "Datastructures" aan. Maak binnen deze folder de benodigde klassen voor een <m>linkedlist</m>. Via een aparte klasse <c>StoryManager</c> ga je jouw text based adventure game afmaken.
