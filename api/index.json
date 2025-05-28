@@ -2266,6 +2266,12 @@
         "title":"AAR API opdracht",
         "author":"jheuvelman",
         "date":"Tue Mar 18 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+    },
+    { 
+        "url":"/lucy/subjects/python/simple-ai-chat/",
+        "title":"Simple AI Chat",
+        "author":"jsiewers",
+        "date":"Wed May 28 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
     }
 
 ]
