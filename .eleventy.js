@@ -249,6 +249,3 @@ module.exports = function(eleventyConfig) {
         },
     };
 };
-
-
-
