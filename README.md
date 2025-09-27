@@ -137,8 +137,6 @@ Onderstaande extra stijlen in de table-tag werken niet in deze readme, maar wel 
 
 ## Updates
 
-Nieuwe versie lucy gelanceerd op https://edu.tydglas.nl/lucy
-
 Reverting
 
 rel v0.1.0 2023-02-09
@@ -152,3 +150,11 @@ title: Whatever
 author: jsiewers, cstegeman
 technology: php, html, css
 date: 04-04-2023
+
+## Docker
+* Dockerfile en docker-compose.yml toegevoegd.
+* Start de container in detached mode met `docker compose up -d`
+* Open een nieuw terminal window en log in op de docker container met `docker exec -t <naam/id container> bash`
+* Switch naar de directory app met `cd /app`
+* Installeer modules met `npm install`
+* Start de ontwikkelserver met `npm run start`
