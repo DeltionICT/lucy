@@ -32,7 +32,7 @@ De eerste proeverijen zijn al binnenkort, dus er is nogal haast bij. De ontwikke
 * Aan het eind van iedere fase wordt er een werkende app opgeleverd!!
 
 Je krijgt van de TBBC een SQL-script met alle 750 bieren.<br>
-De database is geëxporteerd in een [sql-file]({{'/_assets/projecten/beer/pao_beer.sql' }}).
+De database is geëxporteerd in een [sql-file]({{'/_assets/projecten/beer/beer.sql' }}).
 
 ## Fase 1:
 Er moet een mooie aansprekende app komen met alle 750 Belgian beers.
@@ -123,6 +123,10 @@ Toepassen van andere API’s via Laravel of C# mag natuurlijk ook maar kost waar
 
 ## Benodigdheden
 * [Biersoorten SQL Script](https://static.edutorial.nl/projecten/bier/bier.sql)
+
+## Extra uitdaging
+Wil je extra uitdaging bekijk dan de uitgebreide SQL voor dit project met test data. Probeer de functionaliteit die erbij hoort ook werkend te krijgen. [Advance-SQL-file]({{'/_assets/projecten/beer/pao_beer.sql' }}).
+
 
 ## Voorbeelden
 * [Poor man's API](https://www.edutorial.nl/projecten/poor-man's-api/)
