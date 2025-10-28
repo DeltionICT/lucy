@@ -32,7 +32,7 @@ De eerste proeverijen zijn al binnenkort, dus er is nogal haast bij. De ontwikke
 * Aan het eind van iedere fase wordt er een werkende app opgeleverd!!
 
 Je krijgt van de TBBC een SQL-script met alle 750 bieren.<br>
-De database is geëxporteerd in een [sql-file]({{'/_assets/projecten/beer/beer.sql' }}).
+De database is geëxporteerd in een [sql-file]({{'/_assets/projecten/beer/bier.sql' }}).
 
 ## Fase 1:
 Er moet een mooie aansprekende app komen met alle 750 Belgian beers.
