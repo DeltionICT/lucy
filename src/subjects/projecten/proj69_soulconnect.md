@@ -41,10 +41,6 @@ naar matches kan worden gezocht of ‘likes’ kunnen worden gegeven. De inhoud 
 Het moet ook mogelijk zijn voor iedereen met een account om zijn email-adres te wijzigen.
 
 
-#### Verdere mogelijkheden:
-*	Bepaalde docenten moeten studenten kunnen invoeren en cijferstructuren kunnen bouwen 
-*	Enige technisch vereiste is dat het een webapplicatie wordt. Het team staat open voor verdere suggesties en platform
-
 
 #### Veilig daten gegarandeerd
 Gebruikersvoorwaarden, privacyregels, goedkeuring van geüpload  fotomateriaal en omgangsregels worden toegepast.
@@ -118,21 +114,21 @@ Naast de <b>geautomatiseerde matches</b> worden uitgevoerd op basis van een stan
 7.	Heeft kinderen
 
 Naast de geautomatiseerde matches kan er ook <b>handmatig</b> worden gezocht op basis van een eigen zoekprofiel. 
-Bij het handmatig zoeken naar matches zijn alle mogelijke velden en selecties afzonderlijk in te stellen door de accounthouder. Alle gevonden match-resultaten worden op een pagina getoond met hun profiel-foto (foto 1), de nickname en de one-liner daaronder.  Het aantal resultaten is gepagineerd. Het aantal matches per page is configureerbaar.
+Bij het handmatig zoeken naar matches (handmatige matches) zijn alle mogelijke velden en selecties afzonderlijk in te stellen door de accounthouder. Alle handmatige gevonden match-resultaten worden op een pagina getoond met hun profiel-foto (foto 1), de nickname en de one-liner daaronder. Het aantal resultaten is gepagineerd. Het aantal matches per page is configureerbaar.
 
-Op alle match resultaten is het mogelijk om een match te ‘liken’ of een ‘like’ weer in te trekken.
+Op alle match resultaten (handmatig en geautomatiseerd) is het mogelijk om een match te ‘liken’ of een ‘like’ weer in te trekken.
 De berichten-button is zichtbaar, als er betaald is en de periode nog niet is verlopen. 
-Door op een gelikete match te klikken wordt de berichten-history getoond en kan er een nieuw bericht worden verstuurd. 
+Door op een gelikete match te klikken wordt de berichten-history net die metch getoond en kan er tevens een nieuw bericht worden verstuurd. 
 Als er geen lopende termijn is van de berichtenservice wordt na het klikken van de berichten icoon de abonnementen getoond, 
 prijzen en de mogelijkheid tot betaling.
 
 Een accounthouder kan alle ‘likes’ die een accounthouder heeft ontvangen en gegeven in een overzichtelijke pagina bekijken en beheren.
 
-Alleen als er een ‘like’ is gegeven kun de accounthouder de match openen en wordt er naast de profielfoto en one-liner match, 
-de tekst en foto’s bekijken wat jij waardeert in een relatie en wat die te bieden heeft bekijken. 
+Alleen als er een ‘like’ is gegeven kan de accounthouder de match openen en wordt er naast de profielfoto en one-liner match, meer details weergegeven. 
+Zo worden de tekst over wat de accounthouder in een relatie waardeerd foto’s, geslacht/gender, postcode, soort relatie bekijken. 
 Alle geüploade foto’s in de mini-gallery (matrix) worden vergroot door erop te klikken.
 
-Als er een wederzijdse like is gegeven worden ook alle andere details zichtbaar gemaakt in op een overzichtelijke manier.
+Als er een wederzijdse like is gegeven worden ook alle andere details zichtbaar gemaakt in op een overzichtelijke manier (alle gegevens zijn en weer inzichtelijk).
 
 Berichten sturen kan alleen als er een transactie heeft plaats gevonden. 
 De hoogte van het bedrag en de duur van de activering (standaard een maand) moet door 
