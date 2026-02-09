@@ -44,7 +44,8 @@ Het maakt niet uit hoe vaak een gebruiker klikt.<br>
 #### ERD en activity diagram fase 1
 > <img src="https://static.edutorial.nl/projecten/bier/fase_1.svg" style="width:40%;">
 
-* [Hoe maak je een API met php en javascript](https://www.edutorial.nl/projecten/poor-man's-api/)
+* [Poormans API via edutorial](https://www.edutorial.nl/projecten/poor-man's-api/)
+* [Uitleg van poormans API tot restAPI](https://std.stegion.nl/cs_codebase/php50_restAPI/index.php)
 
 
 ## Fase 2:
