@@ -14,15 +14,21 @@ author: cstegeman
 
 ### Beschrijving
 Een API kan in de Backend informatie uit een database ophalen en die terugegeven in JSON formaat.
-Met Javascript kun je met AJAX die in JSON inladen en weergeven in HTML.<br>
+Met Javascript kun je met AJAX die in JSON inladen en weergeven in HTML.
+Dit is uitgelegd in de [vorige opdracht](https://std.stegion.nl/cs_codebase/js31_api_base/) <br>
+* Hierin zijn 2 methoden toegelicht om JSON (via AJAX) op te halen: 
+    *   via de Fetch-API van Javascript zelf (hoef je verder geen bibliotheek te gebruiken)
+    *   via Axios: een betere, meer uitgebreide AJAX bibliotheek (wel eerst Axios JS-script inladen)
 
+* Op [deze website](https://std.stegion.nl/cs_codebase/js32_json_ajax) zijn ook de volgende methoden nog uitgelegd: 
+    *   via de Plain Javascript punt 1) (geen Fetch, geen Axios, maar meer code. Voor de Javascript puristen ;-)
+    *   via jQuery punt 3): grote AJAX bibliotheek (inmiddels verouderd maar nog wel veel toegepast)
 
-Bekijk in [deze website](https://std.stegion.nl/cs_codebase/js32_json_ajax) 4 verschillende methoden om
-zo'n AJAX request aan te maken.<br>
 
 ### opdracht
 *   Bekijk in ieder geval punt 4) JSON laden via Axios
     *   Bekijk de broncode, neem deze over op je eigen site en kijk of het werkt
-    *   Maak onderstaande tabel op met de verschillende bieren  
+    *   Maak onderstaande tabel op met de verschillende bieren
+    * probeer ook plain Javascript  
 
 <img src="{{ '/_assets/js_intermediate/biertabel.png'  }}" alt="biertabel" style="width:800px">
