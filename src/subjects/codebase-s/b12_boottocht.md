@@ -11,8 +11,6 @@ technology: all
 > #### Doelen
 > * Verschillende basis programmeervaardigheden leren en met elkaar combineren
 
-{{ '/_assets/_icons/php_cli.png'  | image: 'cli', 13 }}
-
 ## Opdracht
 Een rondvaartboot op de Seine in Parijs heeft speciale tarieven voor mensen die een tochtje willen maken.
 * Normaal kost een kaartje 12 euro
@@ -22,12 +20,12 @@ Een rondvaartboot op de Seine in Parijs heeft speciale tarieven voor mensen die 
 
 Voer onderstaand testplan uit:
 ```shell
-| leeftijd &nbsp; &nbsp; |uitvoer &nbsp; &nbsp;| resultaat
-|--------- |------  |---|
-| 15 | 6 euro |?|
-| 2 | gratis |?|
-| 24 | 12 euro |?|
-| 66 | 9 euro  |?|
+| leeftijd | uitvoer | resultaat |
+|----------|---------|:---------:|
+| 15       | 6       |     ?     |
+| 2        | gratis  |     ?     |
+| 24       | 12      |     ?     |
+| 66       | 9       |     ?     |
 ```
 
 > ### Op te leveren
