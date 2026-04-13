@@ -17,7 +17,7 @@ author: jsiewers
 ## Tip:
 * Gebruik mysql-client of PhpMyAdmin of vergelijkbare tool
 ## Database installeren
-* [Download het SQL-bestand en installeer de database idscan](https://static.edutorial.nl/dbq/idscan.sql)
+* [Download het SQL-bestand en installeer de database idscan](/_assets/dbq/idscan.sql)
 
 ## Casus
 Een winkelketen bestaat uit verschillende filialen. Om bij te houden wanneer medewerkers van de winkelketen aan het werk zijn is er een registratiesysteem. Medewerkers scannen hun personeelspas bij de ingang van een gebouw. De gegevens van de medewerker, het gebouw en de tijd worden opgeslagen in een database.
@@ -39,7 +39,7 @@ Voor een applicatie die de gegevens van de registratiegegevens kan analyseren zi
 
 
 ## Resultaat
-* Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.
+* Een [verslag met schermafbeeldingen van de uitvoer](/_assets/dbq/SQL_Verslag.docx) van de queries.
 
 ## Uitleg
 * [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)

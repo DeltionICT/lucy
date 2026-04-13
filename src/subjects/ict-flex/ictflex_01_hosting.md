@@ -69,7 +69,7 @@ werkzaam zijn bij de ict-flex opleiding. Hij weet dat hij daarvoor op de
 website van ict-flex moet zijn. Gelukkig is Bob een man van de huidige
 tijd en heeft hij een laptop waarmee hij het web op kan.
 
-![Het Web](https://static.edutorial.nl/lucy/hosting/hetweb.png)
+![Het Web](/_assets/lucy/hosting/hetweb.png)
 
 #### De laptop
 

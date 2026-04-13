@@ -18,8 +18,8 @@ author: jsiewers
 
 ## Opdracht
 In deze opdracht ga je een webshop nabouwen. Maak een keuze uit 1 van onderstaande webshops:
-* [Northern Lights](https://www.youtube.com/watch?v=JGQQ-oa7veg) (webshop waar je posters kunt bestellen) [Download hier de afbeeldingen van de posters](https://static.edutorial.nl/html/webshop/northern-lights.zip)
-* [Indian Bikes](https://www.youtube.com/watch?v=Z3X2N65MYlc) (webshop waar je motoren kunt bestellen) [Download hier de afbeeldingen van de bikes](https://static.edutorial.nl/html/webshop/bikeshop.zip)
+* [Northern Lights](https://www.youtube.com/watch?v=JGQQ-oa7veg) (webshop waar je posters kunt bestellen) [Download hier de afbeeldingen van de posters](/_assets/html/webshop/northern-lights.zip)
+* [Indian Bikes](https://www.youtube.com/watch?v=Z3X2N65MYlc) (webshop waar je motoren kunt bestellen) [Download hier de afbeeldingen van de bikes](/_assets/html/webshop/bikeshop.zip)
 
 De website bestaat uit 3 pagina's
 * Homepage

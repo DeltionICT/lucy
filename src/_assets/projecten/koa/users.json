@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "voornaam": "Bram",
+      "achternaam": "",
+      "noodoproep": "0622338448",
+      "dieet": "",
+      "created_at": "2021-11-07T17:47:11.000000Z",
+      "updated_at": null
+    },
+    {
+      "id": 2,
+      "voornaam": "Emilie",
+      "achternaam": "",
+      "noodoproep": "069884438",
+      "dieet": "",
+      "created_at": "2021-11-07T17:47:11.000000Z",
+      "updated_at": null
+    },
+  ]
+}

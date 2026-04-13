@@ -44,7 +44,7 @@ De basiskleuren van het logo zijn:
 *	lichtblauw: RGB(14, 146, 202) 
 *	donkerblauw: RGB(0, 105, 141)
 
-<img src="https://static.edutorial.nl/projecten/veenhoop/logo_veenhoop.jpg" alt="logo de veenhoop" style="width:10%;display:block">
+<img src="/_assets/projecten/veenhoop/logo_veenhoop.jpg" alt="logo de veenhoop" style="width:10%;display:block">
 
 
 * Lay-out is niet vastgelegd maar moet gebaseerd zijn op de basiskleuren

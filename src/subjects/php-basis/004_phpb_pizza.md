@@ -26,21 +26,21 @@ technology: html, php
 
 <div class="html">
 <div>
-  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/pizzas/spianata_piccante.jpg">
+  <img style="width:100px;display:block;" src="/_assets/php/pizzas/spianata_piccante.jpg">
   <input type="radio" name="pizza" id="spianata_piccante" value="12.50" checked>
   <label for="spianata_piccante">
       Pizza Spianata Piccante &euro; 12,50
   </label>
 </div>
 <div>
-  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/pizzas/seppi.jpg">
+  <img style="width:100px;display:block;" src="/_assets/php/pizzas/seppi.jpg">
   <input type="radio" name="pizza" id="seppi" value="11.50">
   <label for="seppi">
       Pizza Seppi &euro; 11,50
   </label>
 </div>
 <div>
-  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/pizzas/tirato.jpg">
+  <img style="width:100px;display:block;" src="/_assets/php/pizzas/tirato.jpg">
   <input type="radio" name="pizza" id="tirato" value="10.50">
   <label for="tirato">
       Pizza Tirato  &euro; 10,50

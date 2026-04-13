@@ -23,14 +23,14 @@ technology: html
 * Maak van onderstaand ontwerp een website
 * Maak de webpagina zo goed mogelijk na
 * Voor de tekst mag je fake-tekst gebruiken zoals [Lorem Ipsum](https://www.lipsum.com/)
-* Download de bijbehorende afbeeldingen: [Afbeeldingen voor de website](https://static.edutorial.nl/html/wilkens-materiaal.zip)
+* Download de bijbehorende afbeeldingen: [Afbeeldingen voor de website](/_assets/html/wilkens-materiaal.zip)
 * Bewerk de afbeeldingen in een geschikte editor zoals [paint.net](https://www.getpaint.net/download.html). (LET OP: niet in windows paint!)
-* [Download hier de afbeeldingen voor de website](https://static.edutorial.nl/html/wilkens-materiaal.zip)
+* [Download hier de afbeeldingen voor de website](/_assets/html/wilkens-materiaal.zip)
 
 ## Uitleg
 [Hier vind je alles wat je moet weten over het aanpassen van afbeeldingen](https://www.edutorial.nl/html/afbeeldingen-aanpassen/)
 
-![Ontwerp webpagina](https://static.edutorial.nl/html/over_ons@0.5x.png)
+![Ontwerp webpagina](/_assets/html/over_ons@0.5x.png)
 
 
 > ## Op te leveren

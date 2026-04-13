@@ -34,7 +34,7 @@ De webapplicatie heeft de volgende functionaliteiten:
 
 ## Bijlagen
 Download hier de overzichten en formulieren zoals die nu gebruikt worden bij de bloemenzaak.
-[Bijlagen bloemenzaak](https://static.edutorial.nl/dbo/bijlagen_flowerpower.pdf)
+[Bijlagen bloemenzaak](/_assets/dbo/bijlagen_flowerpower.pdf)
 
 ## Uitleg
 [Uitleg over het ERD voor deze casus](https://www.edutorial.nl/dbo/bloemenzaak/)

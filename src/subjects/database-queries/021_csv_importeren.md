@@ -26,8 +26,8 @@ technology: dbq
 * Exporteer de volledige database inclusief gegevens naar een .sql bestand (bijv. met mysqladmin)
 
 ## Benodigde bestanden
-* [Download het sql-bestand met de structuur van de database](https://static.edutorial.nl/dbq/superduper/idscan.sql)
-* [Download de databastanden](https://static.edutorial.nl/dbq/superduper/databestanden.zip)
+* [Download het sql-bestand met de structuur van de database](/_assets/dbq/superduper/idscan.sql)
+* [Download de databastanden](/_assets/dbq/superduper/databestanden.zip)
 
 
 ## Resultaat

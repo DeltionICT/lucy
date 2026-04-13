@@ -30,7 +30,7 @@ author: jsiewers
 
 ## Benodigdheden
 * Je maakt gebruik van een mysql-database om de benodigde gegevens in op te slaan.
-* Maak gebruik van [dit script](https://static.edutorial.nl/php/cijferapp/cijferapp.sql) om de database te installeren
+* Maak gebruik van [dit script](/_assets/php/cijferapp/cijferapp.sql) om de database te installeren
     * [Hier zie je hoe je het script kunt gebruiken om een database te importeren](https://www.edutorial.nl/dbq/installeren/)
 
 ## Wireframe

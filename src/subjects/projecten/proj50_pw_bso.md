@@ -27,7 +27,7 @@ author: jsiewers
 
 ## Eerste ontwerp en voorbereiding
 * De eerste ideeën zijn uitgewerkt in wireframes. Hieronder een voorbeeld van een eerste opzet voor de applicatie.
-![BSO first impression](https://static.edutorial.nl/projecten/bso/bso.svg)
+![BSO first impression](/_assets/projecten/bso/bso.svg)
 * De wireframes zijn om je op weg te helpen. Je kunt je de ontwerpen aanpassen.
 
 ## Todo's eerste sprint
@@ -38,7 +38,7 @@ author: jsiewers
     * Taken verdelen
     * Github inrichten
 * Ontwikkelen frontend op basis van wireframe
-* Ontwikkelen van backend op basis van eerste informatie [zie deze bijgevoegde json-bestanden](https://static.edutorial.nl/projecten/bso/json.zip)
+* Ontwikkelen van backend op basis van eerste informatie [zie deze bijgevoegde json-bestanden](/_assets/projecten/bso/json.zip)
 * Let op: json-bestanden zijn gemaakt op basis van getoonde wireframes. Als het uiterlijk van de applicatie wijzigt, dan moeten deze json-bestanden ook aangepast worden! 
 * Afspraak maken met klant voor een eerste oplevering
     * Vragen voorbereiden voor 2e sprint

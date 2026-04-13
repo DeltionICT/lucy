@@ -62,7 +62,7 @@ door middel van phpMyAdmin.
 
 Ga naar: <http://localhost/phpmyadmin>
 
-{{ 'https://static.edutorial.nl/lucy/database/afbeelding1.jpg' | image: 'Database beheren in phpMyAdmin', 30 }}
+{{ '/_assets/lucy/database/afbeelding1.jpg' | image: 'Database beheren in phpMyAdmin', 30 }}
 
 
 Naast gegevens uitvragen, toevoegen, aanpassen of verwijderen zijn er
@@ -227,7 +227,7 @@ Voor de volgende opdrachten wordt een eigen database aangemaakt, toegang
 tot databaseservices op de localhost zijn hiervoor nodig. De volgende
 ERD is hierop van toepassing:
 
-{{ 'https://static.edutorial.nl/lucy/database/afbeelding2.jpg' | image: 'Entiteit Relatie Diagram', 70 }}
+{{ '/_assets/lucy/database/afbeelding2.jpg' | image: 'Entiteit Relatie Diagram', 70 }}
 
 <br>
 

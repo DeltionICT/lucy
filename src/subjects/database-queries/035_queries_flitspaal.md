@@ -17,7 +17,7 @@ author: jsiewers
 ## Tip:
 * Gebruik mysql-client of PhpMyAdmin of vergelijkbare tool
 ## Database installeren
-* [Download het SQL-bestand en installeer de database flits](https://static.edutorial.nl/dbq/flits.sql)
+* [Download het SQL-bestand en installeer de database flits](/_assets/dbq/flits.sql)
 
 ## Casus
 Aanleiding / algemene omschrijving
@@ -41,7 +41,7 @@ Om een applicatie te bouwen die deze gegevens inzichtelijk maakt moeten er een a
 *   Overzicht van auto’s (kenteken, merk, type) waarvan het kenteken overeenkomt met sitecode 10 (zoals X-999-XX)  https://nl.wikipedia.org/wiki/Nederlands_kenteken 
 
 ## Resultaat
-* Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.
+* Een [verslag met schermafbeeldingen van de uitvoer](/_assets/dbq/SQL_Verslag.docx) van de queries.
 
 ## Uitleg
 * [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)

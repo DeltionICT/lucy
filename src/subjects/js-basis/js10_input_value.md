@@ -41,4 +41,4 @@ technology: js
 [Javascript tutorial op w3schools](https://www.w3schools.com/js/)
 
 ## Beoordeling
-[Beoordelingsformulier](https://static.edutorial.nl/js/beoordeling_js10_input_value.xlsx)
+[Beoordelingsformulier](/_assets/js/beoordeling_js10_input_value.xlsx)

@@ -43,7 +43,7 @@ author: jsiewers,rkerssies
 * Maak een view aan in `resources/views`.
 * Zorg dat de data van de Controller-action wordt doorgegeven naar de view en toon daar alle data, zoals in onderstaand voorbeeld
 
-![All you can eat and drink](https://static.edutorial.nl/laravel/all_you_can_eat.png)
+![All you can eat and drink](/_assets/laravel/all_you_can_eat.png)
 
 * Maak een overzichtslijst van alle records
 * Maak de mogelijkheid om database-records toe te voegen

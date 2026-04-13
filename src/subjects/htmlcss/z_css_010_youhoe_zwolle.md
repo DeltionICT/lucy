@@ -29,7 +29,7 @@ YouHoe is een site voor nieuwe studenten die Zwolle leren kennen. <br>
 De site laat zien waar de hotspots in Zwolle zijn. Wat zijn de beste uitgaansplekken, <br>
 waar kan je lekker eten, met andere woorden: Waar gebeurt het in Zwolle!
 
-[Download hier de opdracht en de wireframes](https://static.edutorial.nl/css/youhoe_zwolle/youhoe_zwolle.zip) voor de YouHoe Zwolle website.
+[Download hier de opdracht en de wireframes](/_assets/css/youhoe_zwolle/youhoe_zwolle.zip) voor de YouHoe Zwolle website.
 
 De eisen van de klant zijn:
 * De site is gemaakt op basis van de wireframes die je hebt gedownload.

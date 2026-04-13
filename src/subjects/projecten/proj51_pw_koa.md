@@ -28,7 +28,7 @@ author: jsiewers
 
 ## Eerste ontwerp en voorbereiding
 * De eerste ideeën zijn uitgewerkt in wireframes. Hieronder een voorbeeld van een eerste opzet voor de applicatie.
-![Koa first impression](https://static.edutorial.nl/projecten/koa/koa.svg)
+![Koa first impression](/_assets/projecten/koa/koa.svg)
 
 ## Todo's eerste sprint
 * In kaart brengen functionaliteiten op basis van het wireframe.
@@ -38,7 +38,7 @@ author: jsiewers
     * Taken verdelen
     * Github inrichten
 * Ontwikkelen frontend op basis van wireframe
-* Ontwikkelen van backend op basis van eerste informatie [zie deze bijgevoegde json-bestanden voor de kinderen](https://static.edutorial.nl/projecten/koa/users.json) en [de datums](https://static.edutorial.nl/projecten/koa/op_datum.json)
+* Ontwikkelen van backend op basis van eerste informatie [zie deze bijgevoegde json-bestanden voor de kinderen](/_assets/projecten/koa/users.json) en [de datums](/_assets/projecten/koa/op_datum.json)
 * Afspraak maken met klant voor een eerste oplevering
     * Vragen voorbereiden voor 2e sprint
 

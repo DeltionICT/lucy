@@ -14,7 +14,7 @@ author: jsiewers
 <img src="{{ '/_assets/_icons/python.png'  }}" style="width:10%;">
 
 ## Opdracht 1
-* [Download deze afbeeldingen](https://static.edutorial.nl/python/movie_posters.zip) (of gebruik afbeeldingen die je zelf hebt verzameld) 
+* [Download deze afbeeldingen](/_assets/python/movie_posters.zip) (of gebruik afbeeldingen die je zelf hebt verzameld) 
 * Maak een nieuw python-project aan en plaats de afbeeldingen in een map.
 * Maak een python-applicatie die vraagt om de naam van de map met afbeeldingen
 * De applicatie genereert een tekstbestand met daarin alle bestandsnamen
@@ -49,8 +49,8 @@ bijv. input
 * Maak een stroomschema voor deze applicatie
 
 ## Uitleg
-* Uitleg over [stroomschema's](https://static.edutorial.nl/python/activiteiten_diagram.docx)
+* Uitleg over [stroomschema's](/_assets/python/activiteiten_diagram.docx)
 * Uitleg over [os module](https://www.w3schools.com/python/module_os.asp) en [os.replace](https://www.w3schools.com/python/ref_os_rename.asp).
 
 ## Beoordeling
-* [IT2B P4 2024 Beoordelingsformulier](https://static.edutorial.nl/python/beoordeling_P4_scripting.xlsx)
+* [IT2B P4 2024 Beoordelingsformulier](/_assets/python/beoordeling_P4_scripting.xlsx)

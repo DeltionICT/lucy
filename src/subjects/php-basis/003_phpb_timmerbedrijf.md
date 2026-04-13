@@ -29,21 +29,21 @@ technology: html, php
 <div class="html">
 
 <div>
-  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/hout/berken.jpg">
+  <img style="width:100px;display:block;" src="/_assets/php/hout/berken.jpg">
   <input type="radio" name="hout" id="berken" value="9.50" checked>
   <label for="berken">
       Berken - prijs per m2 &euro; 9,50
   </label>
 </div>
 <div>
-  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/hout/grenen.jpg">
+  <img style="width:100px;display:block;" src="/_assets/php/hout/grenen.jpg">
   <input type="radio" name="hout" id="grenen" value="8.50">
   <label for="grenen">
       Grenen - prijs per m2 &euro; 8,50
   </label>
 </div>
 <div>
-  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/hout/hardhout.jpg">
+  <img style="width:100px;display:block;" src="/_assets/php/hout/hardhout.jpg">
   <input type="radio" name="hout" id="hardhout" value="11.50">
   <label for="hardhout">
       Hardhout - prijs per m2 &euro; 11,50

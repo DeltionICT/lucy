@@ -22,7 +22,7 @@ Het bedrijf wil graag een nette website. Er moet dus nagedacht worden over inhou
 maar ook over design. Met behulp van CSS wordt het design voor de website vormgegeven.
 
 ## Opdracht
-* [Download](https://static.edutorial.nl/html/wilkens-materiaal.zip) de basisbestanden voor Wilkens website
+* [Download](/_assets/html/wilkens-materiaal.zip) de basisbestanden voor Wilkens website
 * Maak de pagina's zo goed mogelijk na. Het eindresultaat wordt weergegeven in [deze youtube-playlist](https://www.youtube.com/watch?v=PWWw99TyLBU&list=PLwzcTrPriiGaLqSB_lH7F3RYAB6cJnjXc) 
 * Op [edutorial.nl](https://www.edutorial.nl) vind je uitleg over het toepassen van CSS
 * In de [youtube-playlist](https://www.youtube.com/watch?v=PWWw99TyLBU&list=PLwzcTrPriiGaLqSB_lH7F3RYAB6cJnjXc) wordt stap voor stap uitgelegd hoe je het design kan maken met html en css.

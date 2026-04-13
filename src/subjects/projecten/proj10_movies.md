@@ -27,20 +27,20 @@ author: jsiewers
 
 
 ## Techniek frontend
-* Maak gebruik van de bijgeleverde [json-files](https://static.edutorial.nl/projecten/movies/json-bestanden.zip) om de pagina's op te bouwen.
+* Maak gebruik van de bijgeleverde [json-files](/_assets/projecten/movies/json-bestanden.zip) om de pagina's op te bouwen.
 * Maak gebruik van `fetch` of `axios` om de informatie te laden.
 * Gebruik vanilla javascript, Vue of een ander framework om de pagina's op te bouwen.
 
-![mobile wireframes](https://static.edutorial.nl/projecten/movies/mobile_movies.svg)
-![tablet wireframes](https://static.edutorial.nl/projecten/movies/movies_ipad.svg)
+![mobile wireframes](/_assets/projecten/movies/mobile_movies.svg)
+![tablet wireframes](/_assets/projecten/movies/movies_ipad.svg)
 
 ## Backend
-* De bijgeleverde [json-files](https://static.edutorial.nl/projecten/movies/json-bestanden.zip) dienen als voorbeeld voor de output van de api-server.
+* De bijgeleverde [json-files](/_assets/projecten/movies/json-bestanden.zip) dienen als voorbeeld voor de output van de api-server.
 * Het ERD geeft weer hoe de database is opgebouwd en welke relaties er zijn.
-* Gebruik het bijgeleverde [sql-bestand](https://static.edutorial.nl/projecten/movies/imdb.sql) om de database te importeren
+* Gebruik het bijgeleverde [sql-bestand](/_assets/projecten/movies/imdb.sql) om de database te importeren
 * Kies zelf een programmeertaal en framework waarin je de server gaat bouwen.
 
-![ERD](https://static.edutorial.nl/projecten/movies/movies_erd.svg)
+![ERD](/_assets/projecten/movies/movies_erd.svg)
 
 ## Eerder klaar?
 * Probeer de afbeeldingen van een bestaande api-server (TMDB) te downloaden.

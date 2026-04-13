@@ -27,7 +27,7 @@ author: jsiewers
 * Pad naar een pdf-bestand
 
 ## Beoordeling
-* [IT2B P4 2024 Beoordelingsformulier](https://static.edutorial.nl/python/beoordeling_P4_scripting.xlsx)
+* [IT2B P4 2024 Beoordelingsformulier](/_assets/python/beoordeling_P4_scripting.xlsx)
 
 ## Stroomschema
-{{ 'https://static.edutorial.nl/python/image_to_pdf.svg' | image: 'image to pdf', 40 }}
+{{ '/_assets/python/image_to_pdf.svg' | image: 'image to pdf', 40 }}

@@ -14,7 +14,7 @@ author: jsiewers
 
 ## Opdracht
 * Gebruik de afbeelding van het ERD van een reisbureau-database om queries te maken voor de gevraagde gegevens.
-* Maak een nieuwe database aan en [importeer het sql-script](https://static.edutorial.nl/dbq/reisbureau.sql).
+* Maak een nieuwe database aan en [importeer het sql-script](/_assets/dbq/reisbureau.sql).
 
 ## Uitleg
 [Hier vind je uitleg over het gebruik van MySQL en queries](https://www.edutorial.nl/dbq/introductie/)
@@ -36,4 +36,4 @@ author: jsiewers
 
 ## Resultaat
 * De gevraagde queries
-* Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.
+* Een [verslag met schermafbeeldingen van de uitvoer](/_assets/dbq/SQL_Verslag.docx) van de queries.

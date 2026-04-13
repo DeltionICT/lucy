@@ -17,7 +17,7 @@ author: jsiewers
 ## Tip:
 * Gebruik mysql-client of PhpMyAdmin of vergelijkbare tool
 ## Database installeren
-* [Download het SQL-bestand en installeer de database school](https://static.edutorial.nl/dbq/school.sql)
+* [Download het SQL-bestand en installeer de database school](/_assets/dbq/school.sql)
 
 ## Queries
 * Geef de query voor een overzicht van de naam en roepnaam van alle cursisten die in Oosterhout wonen.

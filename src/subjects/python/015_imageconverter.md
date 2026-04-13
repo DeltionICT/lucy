@@ -31,7 +31,7 @@ Maak een applicatie die met 1 opdracht meerdere afbeeldingen kan aanpassen. De a
     * Niet-afbeeldingen die worden overgeslagen
 * Bekijk onderstaand stroomschema en maak de applicatie in python.
 
-{{ 'https://static.edutorial.nl/python/image-app-v2.svg' | image: 'imageconverter ontwerp', 40 }}
+{{ '/_assets/python/image-app-v2.svg' | image: 'imageconverter ontwerp', 40 }}
 
 ## Resultaat
 * Een applicatie die op basis van input van de gebruiker meerdere afbeeldingen kan aanpassen
@@ -39,11 +39,11 @@ Maak een applicatie die met 1 opdracht meerdere afbeeldingen kan aanpassen. De a
 
 ## Uitleg
 * Uitleg over projecten en stroomschema's vind je op [https://www.edutorial.nl/python/projectopdrachten/](https://www.edutorial.nl/python/projectopdrachten/)
-* Uitleg over [stroomschema's](https://static.edutorial.nl/python/activiteiten_diagram.docx)
+* Uitleg over [stroomschema's](/_assets/python/activiteiten_diagram.docx)
 * Uitleg over [PIL (python image library) op PyPi](https://pypi.org/project/Pillow/)
 
 ## Evaluatie en beoordeling
-[Download hier](https://static.edutorial.nl/python/python_beoordeling_imageconverter.xlsx) het beoordelingsformulier
+[Download hier](/_assets/python/python_beoordeling_imageconverter.xlsx) het beoordelingsformulier
 
 ## Beoordeling
-* [IT2B P4 2024 Beoordelingsformulier](https://static.edutorial.nl/python/beoordeling_P4_scripting.xlsx)
+* [IT2B P4 2024 Beoordelingsformulier](/_assets/python/beoordeling_P4_scripting.xlsx)

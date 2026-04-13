@@ -52,17 +52,17 @@ Het reisbureau heeft al een complete database met gegevens, deze (sql) database 
 
 ### Technisch ontwerp (API)
 &nbsp;   
-{{ 'https://static.edutorial.nl/projecten/uitleg_frontend_backend.svg' | image: 'Technisch ontwerp', 60 }}
+{{ '/_assets/projecten/uitleg_frontend_backend.svg' | image: 'Technisch ontwerp', 60 }}
 
 ### ERD  
 &nbsp;     
-{{ 'https://static.edutorial.nl/projecten/reisbureau-erd.png' | image: 'ERD Handig Joh', 60 }}
+{{ '/_assets/projecten/reisbureau-erd.png' | image: 'ERD Handig Joh', 60 }}
 
 
 ### Overige Documentatie
-* [SQL Data van het reisbureau](https://static.edutorial.nl/projecten/reisbureau_001.sql)
-* [Voorbeeld van de JSON data van reserveringen](https://static.edutorial.nl/projecten/reservations.json)
-* [Voorbeeld van een reservering van 1 klant](https://static.edutorial.nl/projecten/customer_reservations.json)
+* [SQL Data van het reisbureau](/_assets/projecten/reisbureau_001.sql)
+* [Voorbeeld van de JSON data van reserveringen](/_assets/projecten/reservations.json)
+* [Voorbeeld van een reservering van 1 klant](/_assets/projecten/customer_reservations.json)
 
 
 ## Eisen

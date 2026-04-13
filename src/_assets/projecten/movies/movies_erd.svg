@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.8.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Laag_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="385.5px" height="372px"
+	 viewBox="0 0 385.5 372" style="enable-background:new 0 0 385.5 372;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C0C0C0;fill-opacity:0.2;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{font-family:'Arial-BoldMT';}
+	.st4{font-size:13px;}
+	.st5{font-family:'ArialMT';}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="369" width="382.5" x="0" y="3"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<rect x="129" y="265" class="st0" width="86.4" height="104"/>
+<rect x="122" y="258" class="st1" width="86.4" height="104"/>
+<path class="st2" d="M122,258h86.4v104H122V258z"/>
+<path class="st2" d="M122,281h86.4"/>
+<path class="st2" d="M132,281v81"/>
+<path class="st2" d="M198.4,281v81"/>
+<path class="st2" d="M0,0"/>
+<text transform="matrix(1 0 0 1 138.0823 273.4685)" class="st3 st4">favorites</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 137 295.6426)" class="st5 st4">user_id</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 137 310.6426)" class="st5 st4">movie_id</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<rect x="145" y="17" class="st0" width="85.6" height="61"/>
+<rect x="138" y="10" class="st1" width="85.6" height="61"/>
+<path class="st2" d="M138,10h85.6v61H138V10z"/>
+<path class="st2" d="M138,33h85.6"/>
+<path class="st2" d="M148,33v38"/>
+<path class="st2" d="M193.4,33v38"/>
+<path class="st2" d="M0,0"/>
+<text transform="matrix(1 0 0 1 159.4905 26.0356)" class="st3 st4">genres</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 153 48.2295)" class="st5 st4">id</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 153 63.2295)" class="st5 st4">genre</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<rect x="17" y="105" class="st0" width="101.5" height="106"/>
+<rect x="10" y="98" class="st1" width="101.5" height="106"/>
+<path class="st2" d="M10,98h101.5v106H10V98z"/>
+<path class="st2" d="M10,121h101.5"/>
+<path class="st2" d="M20,121v83"/>
+<path class="st2" d="M101.5,121v83"/>
+<path class="st2" d="M0,0"/>
+<text transform="matrix(1 0 0 1 38.365 114.0356)" class="st3 st4">movies</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 25 136.7722)" class="st5 st4">id</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 25 151.7722)" class="st5 st4">movie_type</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 25 166.7722)" class="st5 st4">title</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 25 181.7722)" class="st5 st4">year</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 25 196.7722)" class="st5 st4">minutes</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<rect x="281" y="89" class="st0" width="97.4" height="80"/>
+<rect x="274" y="82" class="st1" width="97.4" height="80"/>
+<path class="st2" d="M274,82h97.4v80H274V82z"/>
+<path class="st2" d="M274,105h97.4"/>
+<path class="st2" d="M284,105v57"/>
+<path class="st2" d="M350.4,105v57"/>
+<path class="st2" d="M0,0"/>
+<text transform="matrix(1 0 0 1 279 98.0356)" class="st3 st4">movie_genres</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 289 119)" class="st5 st4">genre_id</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 289 134)" class="st5 st4">movie_id</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<rect x="281" y="193" class="st0" width="101.5" height="61"/>
+<rect x="274" y="186" class="st1" width="101.5" height="61"/>
+<path class="st2" d="M274,186h101.5v61H274V186z"/>
+<path class="st2" d="M274,209h101.5"/>
+<path class="st2" d="M284,209v38"/>
+<path class="st2" d="M365.5,209v38"/>
+<path class="st2" d="M0,0"/>
+<text transform="matrix(1 0 0 1 285.385 201.4687)" class="st3 st4">movie_types</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 289 224.5)" class="st5 st4">id</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 289 239.5)" class="st5 st4">movie_type</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<rect x="289" y="273" class="st0" width="90.7" height="76"/>
+<rect x="282" y="266" class="st1" width="90.7" height="76"/>
+<path class="st2" d="M282,266h90.7v76H282V266z"/>
+<path class="st2" d="M282,289h90.7"/>
+<path class="st2" d="M292,289v53"/>
+<path class="st2" d="M362.7,289v53"/>
+<path class="st2" d="M0,0"/>
+<text transform="matrix(1 0 0 1 309.9968 281.4685)" class="st3 st4">users</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 297.8579 303)" class="st5 st4">id</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 297.8579 318)" class="st5 st4">email</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<text transform="matrix(1 0 0 1 297.8579 333)" class="st5 st4">password</text>
+<path d="M0,0"/>
+<path d="M0,0"/>
+<path class="st2" d="M274,232h-72l0,0c-4.4,0-8-3.6-8-8v-70l0,0c0-4.4-3.6-8-8-8h-74"/>
+<path class="st2" d="M126,146l-14-7"/>
+<path class="st2" d="M126,146l-14,7"/>
+<path class="st1" d="M127,146c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S127,149.9,127,146z"/>
+<path class="st2" d="M127,146c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S127,149.9,127,146z"/>
+<path class="st2" d="M267,239v-14"/>
+<path class="st2" d="M260,239v-14"/>
+<rect x="248" y="240" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+<rect x="137" y="154" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+<path class="st2" d="M112,130h162"/>
+<path class="st2" d="M260,130l14,7"/>
+<path class="st2" d="M260,130l14-7"/>
+<path class="st1" d="M245,130c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S245,133.9,245,130z"/>
+<path class="st2" d="M245,130c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S245,133.9,245,130z"/>
+<path class="st2" d="M119,123v14"/>
+<path class="st2" d="M126,123v14"/>
+<rect x="137" y="109" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+<rect x="248" y="109" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+<path class="st2" d="M180,71v29l0,0c0,4.4,3.6,8,8,8h86"/>
+<path class="st2" d="M260,108l14,7"/>
+<path class="st2" d="M260,108l14-7"/>
+<path class="st1" d="M245,108c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S245,111.9,245,108z"/>
+<path class="st2" d="M245,108c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S245,111.9,245,108z"/>
+<path class="st2" d="M187,78h-14"/>
+<path class="st2" d="M187,85h-14"/>
+<rect x="195" y="90" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+<rect x="248" y="87" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+<path class="st2" d="M282,312h-74"/>
+<path class="st2" d="M222,312l-14-7"/>
+<path class="st2" d="M222,312l-14,7"/>
+<path class="st1" d="M223,312c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S223,315.9,223,312z"/>
+<path class="st2" d="M223,312c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S223,315.9,223,312z"/>
+<path class="st2" d="M275,319v-14"/>
+<path class="st2" d="M268,319v-14"/>
+<rect x="256" y="320" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+<rect x="233" y="320" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+<path class="st2" d="M60,204v114l0,0c0,4.4,3.6,8,8,8h54"/>
+<path class="st2" d="M108,326l14,7"/>
+<path class="st2" d="M108,326l14-7"/>
+<path class="st1" d="M93,326c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S93,329.9,93,326z"/>
+<path class="st2" d="M93,326c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S93,329.9,93,326z"/>
+<path class="st2" d="M67,211H53"/>
+<path class="st2" d="M67,218H53"/>
+<rect x="75" y="223" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+<rect x="96" y="305" class="st1" width="0" height="13"/>
+<path class="st1" d="M0,0"/>
+</svg>

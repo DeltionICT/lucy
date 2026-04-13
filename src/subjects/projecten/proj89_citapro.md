@@ -32,4 +32,4 @@ Maak gebruik van de juiste plug-ins die voor Wordpress beschikbaar zijn om te ko
 
 
 ## Benodigdheden
-* [Stappenplan](https://static.edutorial.nl/projecten/citapro/stappenplan_realiseren.docx)
+* [Stappenplan](/_assets/projecten/citapro/stappenplan_realiseren.docx)

@@ -1,0 +1,46 @@
+
+{
+  "data": [
+	{
+	  "datum": "2021-11-07T17:47:11.000000Z",
+	  "taken": [
+		{
+		  "id": 1,
+		  "title": "Bedjes opmaken",
+		  "done": false,
+		  "created_at": "2021-11-07T17:47:11.000000Z",
+		  "updated_at": null
+		},
+		{
+		  "id": 2,
+		  "title": "Maaltijden maken",
+		  "done": false,
+		  "created_at": "2021-11-07T17:47:11.000000Z",
+		  "updated_at": null
+		}
+	  ],
+	  "opmerkingen": "Ruimte voor opmerkingen", 
+	},
+	{
+	  "datum": "2021-12-07T17:47:11.000000Z",
+	  "taken": [
+		{
+		  "id": 1,
+		  "title": "Prullebak legen",
+		  "done": false,
+		  "created_at": "2021-11-07T17:47:11.000000Z",
+		  "updated_at": null
+		},
+		{
+		  "id": 2,
+		  "title": "Maaltijden maken",
+		  "done": false,
+		  "created_at": "2021-11-07T17:47:11.000000Z",
+		  "updated_at": null
+		}
+	  ],
+	  "opmerkingen": "Ruimte voor opmerkingen", 
+	},	  
+  ]
+}
+

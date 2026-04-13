@@ -14,7 +14,7 @@ technology: dbo
 ## Opdracht
 Maak het ERD voor een applicatie van een apotheek. Download de casus en maak gebruik van het overzicht om het ERD te maken.
 
-[Download Casus Apotheek](https://static.edutorial.nl/dbo/apotheek.pdf)
+[Download Casus Apotheek](/_assets/dbo/apotheek.pdf)
 
 ## Resultaat
 Een entiteit relatiediagram in .pdf of .png formaat

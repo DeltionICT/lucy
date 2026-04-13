@@ -17,7 +17,7 @@ author: jsiewers
 ## Tip:
 * Gebruik mysql-client of PhpMyAdmin of vergelijkbare tool
 ## Database installeren
-* [Download het SQL-bestand en installeer de database reisbureau](https://static.edutorial.nl/projecten/reisbureau_001.sql)
+* [Download het SQL-bestand en installeer de database reisbureau](/_assets/projecten/reisbureau_001.sql)
 
 ## Queries
 * Geef de query om alle tabellen in de database 'reisbureau' weer te gegeven

@@ -22,7 +22,7 @@ Breidt nu de "Kleurkizer"-opdracht uit met de mogelijkheid om meerdere items te 
 Je kunt nu plaatjes van meerdere automerken, games e.d. tonen op basis van de gemaakte selectie.
 
 <div class="html">
-    <form action="https://static.edutorial.nl/php/auto_choice.php" method="post">
+    <form action="/_assets/php/auto_choice.php" method="post">
         <label style="display:block;" for="auto">Kies een auto</label>
         <select name="auto[]" multiple>
             <option>audi</option>

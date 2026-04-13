@@ -14,9 +14,9 @@ author: jsiewers
 {{ '/_assets/basis/css.svg' | image: 'CSS3 Logo', 8 }}
 
 ## Opdracht
-Maak onderstaand Mondriaan-achtig schilderij met tabellen! Gebruik [dit materiaal](https://static.edutorial.nl/html/mondriaan/mondriaan_materiaal.zip) om het 'schilderij' te maken in HTML.
+Maak onderstaand Mondriaan-achtig schilderij met tabellen! Gebruik [dit materiaal](/_assets/html/mondriaan/mondriaan_materiaal.zip) om het 'schilderij' te maken in HTML.
 
-{{ 'https://static.edutorial.nl/html/mondriaan/mondriaan.png' | image: 'Mondriaan', 50 }}
+{{ '/_assets/html/mondriaan/mondriaan.png' | image: 'Mondriaan', 50 }}
 
 
 
@@ -26,9 +26,9 @@ Maak onderstaand Mondriaan-achtig schilderij met tabellen! Gebruik [dit materiaa
 
 Het Mondriaan-schilderij is opgebouwd uit allemaal losse plaatjes met een groen, rode of blauwe kleur. Hier zie je een voorbeeld waarbij de verschillende blokjes zichtbaar zijn.  
 
-{{ 'https://static.edutorial.nl/html/mondriaan/mondriaan_streepjes.png' | image: 'Mondriaan', 30 }}  
+{{ '/_assets/html/mondriaan/mondriaan_streepjes.png' | image: 'Mondriaan', 30 }}  
 
-De blokjes verschillen in grootte. De blauwe blokjes zijn het kleinst! In het bestand <code>hulpcode.html</code> bij [het materiaal](https://static.edutorial.nl/html/mondriaan/mondriaan_materiaal.zip) is een stukje css-code opgenomen dat er voor zorgt dat de blokjes naadloos tegen elkaar aankomen
+De blokjes verschillen in grootte. De blauwe blokjes zijn het kleinst! In het bestand <code>hulpcode.html</code> bij [het materiaal](/_assets/html/mondriaan/mondriaan_materiaal.zip) is een stukje css-code opgenomen dat er voor zorgt dat de blokjes naadloos tegen elkaar aankomen
 
 ```css
     <style>

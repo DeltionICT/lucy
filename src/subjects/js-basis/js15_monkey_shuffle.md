@@ -30,6 +30,6 @@ Monkey Shuffle is een webpagina met 9 plaatjes van apen. Door op een knop te kli
 * Maak een fork van [javascript_11](https://github.com/DeltionICT/javascript_js11) en upload je bestanden.
 
 ## Beoordeling
-[beoordeling_js11_monkey_shuffle.xlsx](https://static.edutorial.nl/js/beoordeling_js11_monkey_shuffle.xlsx)
+[beoordeling_js11_monkey_shuffle.xlsx](/_assets/js/beoordeling_js11_monkey_shuffle.xlsx)
 
-![Monkey Shuffle](https://static.edutorial.nl/js/monkey_shuffle.png)
+![Monkey Shuffle](/_assets/js/monkey_shuffle.png)

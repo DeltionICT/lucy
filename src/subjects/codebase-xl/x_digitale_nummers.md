@@ -40,7 +40,7 @@ technology: ide, html, css
 ## Opdracht
 * Maak een overzicht waarop alle programmeerstappen zijn uitgewerkt 
 * Maak een stroomdiagram waarmee je duidelijk maakt welke programmeerstappen te nemen zijn en welke beslismomenten voorkomen bij de realisatie. 
-    * [Voorbeeld van een stroomdiagram](https://static.edutorial.nl/python/python_stroomschema.pdf)
+    * [Voorbeeld van een stroomdiagram](/_assets/python/python_stroomschema.pdf)
     * Uitleg over het maken van een stroomdiagram.
 * Bouw de applicatie:
     * Als gebruiker kan ik een willekeurig positief getal invoeren
@@ -68,7 +68,7 @@ choose a number: 34534523
 [//]: # ()
 [//]: # (## Evaluatie)
 
-[//]: # (* Het stroomschema is gemaakt volgens de richtlijnen in [stroomschema]&#40;https://static.edutorial.nl/python/activiteiten_diagram.docx&#41;)
+[//]: # (* Het stroomschema is gemaakt volgens de richtlijnen in [stroomschema]&#40;/_assets/python/activiteiten_diagram.docx&#41;)
 
 [//]: # (* Een goed werkende applicatie die aansluit bij de gevraagde functionaliteit.)
 

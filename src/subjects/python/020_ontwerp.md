@@ -40,7 +40,7 @@ De data wordt aangeleverd in 2 bestanden
 * bedrijven.csv
 
 ## ERD
-![ERD Financieel](https://static.edutorial.nl/python/financieel.png)
+![ERD Financieel](/_assets/python/financieel.png)
 
 ## Resultaat
 * Een ontwerp voor een applicatie die op basis van input van de gebruiker de gewenste grafieken kan produceren in excel.
@@ -49,4 +49,4 @@ De data wordt aangeleverd in 2 bestanden
 
 ## Uitleg
 * Uitleg over projecten en stroomschema's vind je op [https://www.edutorial.nl/python/projectopdrachten/](https://www.edutorial.nl/python/projectopdrachten/)
-* Uitleg over [stroomschema's](https://static.edutorial.nl/python/activiteiten_diagram.docx)
+* Uitleg over [stroomschema's](/_assets/python/activiteiten_diagram.docx)

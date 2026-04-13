@@ -13,7 +13,7 @@ author: jsiewers
 > * Je leert gegevens toe te voegen of te manipuleren met SQL
 
 ## Opdracht
-Download het bestand [wereld_v3.sql](https://static.edutorial.nl/dbq/wereld_v3.sql).
+Download het bestand [wereld_v3.sql](/_assets/dbq/wereld_v3.sql).
 1. Gebruik dit bestand om de databases `wereld` aan te maken
 2. Geef de query waarmee alle tabellen in de database `wereld` worden weergegeven
 3. Wat is de primaire sleutel van de tabel `werelddeel`
@@ -32,7 +32,7 @@ Download het bestand [wereld_v3.sql](https://static.edutorial.nl/dbq/wereld_v3.s
 
 ## Resultaat
 * De gevraagde queries
-* Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.
+* Een [verslag met schermafbeeldingen van de uitvoer](/_assets/dbq/SQL_Verslag.docx) van de queries.
 
 ## Uitleg
 * [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)

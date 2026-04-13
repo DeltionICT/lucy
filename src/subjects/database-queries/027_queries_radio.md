@@ -14,7 +14,7 @@ author: jsiewers
 
 ## Opdracht
 * Gebruik de afbeelding van het ERD van een radiozenders-database om queries te maken voor de gevraagde gegevens.
-* [Download hier het sql-bestand](https://static.edutorial.nl/dbq/Kraeken.sql)
+* [Download hier het sql-bestand](/_assets/dbq/Kraeken.sql)
 
 ## Uitleg
 [Hier vind je uitleg over het gebruik van MySQL en queries](https://www.edutorial.nl/dbq/introductie/)
@@ -38,4 +38,4 @@ untouchables’ heeft gedraaid
 
 ## Resultaat
 * De gevraagde queries
-* Een [verslag met schermafbeeldingen van de uitvoer](https://static.edutorial.nl/dbq/SQL_Verslag.docx) van de queries.
+* Een [verslag met schermafbeeldingen van de uitvoer](/_assets/dbq/SQL_Verslag.docx) van de queries.

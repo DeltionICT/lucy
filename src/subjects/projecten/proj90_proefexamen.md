@@ -18,7 +18,7 @@ author: jsiewers
 
 ## Instructie
 * Hieronder zie je de verschillende onderdelen die je in een periode van 2 weken gaat uitwerken.
-* Gebruik voor de uitwerking van de opdrachten de [sjabloondocumenten](https://static.edutorial.nl/examen/sjablonen.zip)
+* Gebruik voor de uitwerking van de opdrachten de [sjabloondocumenten](/_assets/examen/sjablonen.zip)
 * Lever alle documentatie op als ***pdf-document***
 * Sla je documentatie op bij het project in de repository van het versiesysteem.
 * Deel je repository met de docent
@@ -69,7 +69,7 @@ author: jsiewers
 * Beoordeling (zie beoordelingsformulieren) 
 
 ## Links
-* [Examenrooster (algemeen)](https://static.edutorial.nl/examen/examenrooster-algemeen.xlsx)
-* [Sjabloon documenten](https://static.edutorial.nl/examen/sjablonen.zip)
-* [Beoordelingsformuier B1-K1](https://static.edutorial.nl/examen/Beoordelingsformulier-SD_SD20_B1-K1.xlsm)
-* [Beoordelingsformuier B1-K2](https://static.edutorial.nl/examen/Beoordelingsformulier-SD_SD20_B1-K2.xlsm)
+* [Examenrooster (algemeen)](/_assets/examen/examenrooster-algemeen.xlsx)
+* [Sjabloon documenten](/_assets/examen/sjablonen.zip)
+* [Beoordelingsformuier B1-K1](/_assets/examen/Beoordelingsformulier-SD_SD20_B1-K1.xlsm)
+* [Beoordelingsformuier B1-K2](/_assets/examen/Beoordelingsformulier-SD_SD20_B1-K2.xlsm)

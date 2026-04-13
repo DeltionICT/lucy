@@ -31,7 +31,7 @@ technology: html
 > ## Op te leveren
 > * Je kunt 3 tabellen laten zien op je laptop die je hebt gemaakt volgens de voorbeelden bij onderstaande link.  
 > * Je mag zelf kiezen welke tabellen je gaat maken. 
-> * [Tabellen downloaden](https://static.edutorial.nl/html/tabellen.zip)
+> * [Tabellen downloaden](/_assets/html/tabellen.zip)
 
 > ## Evaluatie
 > Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

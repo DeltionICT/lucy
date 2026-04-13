@@ -42,7 +42,7 @@ Het maakt niet uit hoe vaak een gebruiker klikt.<br>
 * Voeg het veld "likes" aan de tabel toe (zie afbeelding hier rechts-onder)
 
 #### ERD en activity diagram fase 1
-> <img src="https://static.edutorial.nl/projecten/bier/fase_1.svg" style="width:40%;">
+> <img src="/_assets/projecten/bier/fase_1.svg" style="width:40%;">
 
 * [Poormans API via edutorial](https://www.edutorial.nl/projecten/poor-man's-api/)
 * [Uitleg van poormans API tot restAPI](https://std.stegion.nl/cs_codebase/php50_restAPI/index.php)
@@ -58,7 +58,7 @@ TTBC wil niet meer dat gebruikers meerdere malen hetzelfde biertje kunnen 'liken
         * Een biertje kan ook door meerdere gebruikers 'geliked' worden
 
 #### ERD en activity diagram fase 2
-> <img src="https://static.edutorial.nl/projecten/bier/fase_2.svg" style="width:80%;">
+> <img src="/_assets/projecten/bier/fase_2.svg" style="width:80%;">
 
 ## Fase 3:
 De TBBCompany wil nu ook dat ingelogde gebruikers een profiel kunnen aanmaken en daarmee zelf een rating op een schaal van 1…5 sterren kunnen geven aan een biertje. Gebruikers kunnen ook een notitie aanmaken bij een biertje.
@@ -67,7 +67,7 @@ De TBBCompany wil nu ook dat ingelogde gebruikers een profiel kunnen aanmaken en
 * Maak een nieuwe tussentabel `ratings` aan zodat er een rating en een notitie kan worden toegevoegd
 
 #### ERD en activity diagram fase 3
-> <img src="https://static.edutorial.nl/projecten/bier/fase_3.svg" style="width:80%;">
+> <img src="/_assets/projecten/bier/fase_3.svg" style="width:80%;">
 
 ## Fase 4:
 De TBBCompany wil nu ook een rapportage-pagina.
@@ -83,7 +83,7 @@ In deze fase wil TBBCompany dat hun data gekoppeld kan worden aan meerdere front
 Hieronder zie je hoe dat werkt:
 
 #### API Model
-> <img src="https://static.edutorial.nl/projecten/uitleg_frontend_backend.svg" width="60%">
+> <img src="/_assets/projecten/uitleg_frontend_backend.svg" width="60%">
 
 Bijgaand een simpele API voor de bier-database met CRUD-actie voorbeelden op de biertabel zelf. Voor fase 5 hoef je alleen de GET-acties vanuit je eigen API te doen, de create-update-delete acties niet (mag wel natuurlijk…!)
 
@@ -123,7 +123,7 @@ Toepassen van andere API’s via Laravel of C# mag natuurlijk ook maar kost waar
 * [Stegion.nl](https://edu.stegion.nl/edu/pr22)
 
 ## Benodigdheden
-* [Biersoorten SQL Script](https://static.edutorial.nl/projecten/bier/bier.sql)
+* [Biersoorten SQL Script](/_assets/projecten/bier/bier.sql)
 
 ## Extra uitdaging
 Wil je extra uitdaging bekijk dan de uitgebreide SQL voor dit project met test data. Probeer de functionaliteit die erbij hoort ook werkend te krijgen. [Advance-SQL-file]({{'/_assets/projecten/beer/pao_beer.sql' }}).
@@ -131,5 +131,5 @@ Wil je extra uitdaging bekijk dan de uitgebreide SQL voor dit project met test d
 
 ## Voorbeelden
 * [Poor man's API](https://www.edutorial.nl/projecten/poor-man's-api/)
-* [Swaggie (api/frontend)](https://static.edutorial.nl/projecten/swaggie)
+* [Swaggie (api/frontend)](/_assets/projecten/swaggie)
 * [Swaggie (repo op github)](https://github.com/DeltionICT/swaggie)
