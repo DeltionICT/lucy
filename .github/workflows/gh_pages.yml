@@ -1,34 +1,45 @@
-name: Build & Deploy
+name: Deploy Eleventy to Pages
 
 on:
   push:
-    branches: ['master']
+    branches: ["master"] # Of je standaard branch naam
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: ['18.x']
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: '24' # De update die je wilde doorvoeren
           cache: 'npm'
 
-      - name: Install packages
-        run: npm ci
+      - name: Install dependencies
+        run: npm install
 
-      - name: Run npm build
-        run: npm run build
+      - name: Build
+        run: npx @11ty/eleventy
 
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          publish_dir: ./docs
-          deploy_key: ${{ secrets.GH_LUCY }}
+          path: 'docs' # De map die Eleventy genereert
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
