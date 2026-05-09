@@ -6,7 +6,6 @@ const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const { eleventyImagePlugin } = require("@11ty/eleventy-img");
 const { DateTime } = require("luxon")
-const pluginPWA = require("eleventy-plugin-pwa-v2");
 
 module.exports = function(eleventyConfig) {
 
@@ -31,11 +30,11 @@ module.exports = function(eleventyConfig) {
         ]      
     });
 
-    eleventyConfig.addPlugin(pluginPWA, {
-        swDest: "./docs/sw.js",
-        globDirectory: "./docs",
-        globPatterns: ["**/*.{js,css,html}"]
-    });
+    // eleventyConfig.addPlugin(pluginPWA, {
+    //     swDest: "./docs/sw.js",
+    //     globDirectory: "./docs",
+    //     globPatterns: ["**/*.{js,css,html}"]
+    // });
 
     eleventyConfig.addPlugin(eleventyImagePlugin, {
 		// Set global default options
