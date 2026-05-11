@@ -22,8 +22,9 @@ Globaal zijn de schooljaren als volgt (nominaal) ingedeeld:
 Het onderstaande schema toont hoe jij (nominaal) door de opleiding kan gaan (van links naar rechts) en
 daarin een keuze kan maken uit verschillende profielen.
 <br>
-{{'/_assets/school/roosters/jaarplan2024-2025.png' | image: 'jaarprogramma 2024-2025', 80}}<br>
-<a href="/_assets/school/roosters/Onderwijsjaarplanning-Deltion-2024-2025-incl.-periodes-versie-1.1.xlsx">xls jaarplanning</a>
+Zie Canvas voor een actueel overzicht
+<!-- {{'/_assets/school/roosters/jaarplan2024-2025.png' | image: 'jaarprogramma 2024-2025', 80}}<br>
+<a href="/_assets/school/roosters/Onderwijsjaarplanning-Deltion-2024-2025-incl.-periodes-versie-1.1.xlsx">xls jaarplanning</a> -->
 
 ## Ontwikkel opdrachten
 Lucy (deze site) heeft verschillende blokken met daarin meerdere sets met opdrachten.<br>
