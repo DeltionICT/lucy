@@ -11,14 +11,14 @@ technology: php, html, dbq
 > #### Voorkennis
 > * Basiskennis HTML
 > * Programmeertaal: PHP
-> * [Basiskennis SQL queries](https://www.edutorial.nl/dbq/installeren/)
+> * [Basiskennis SQL queries](https://deltionict.github.io/edutorial/dbq/installeren/)
 
 > #### Dit ga je leren
 > * Basiskennis PHP
-> * [Sessievariabelen toepassen](https://www.edutorial.nl/php/sessions/)
+> * [Sessievariabelen toepassen](https://deltionict.github.io/edutorial/php/sessions/)
 > * [Hashing (bijv: sha1, md5)](https://stackoverflow.com/questions/30279321/how-to-use-phps-password-hash-to-hash-and-verify-passwords)
 > * Gebruik maken van condities (if..else)
-> * [Een database maken met tabellen](https://www.edutorial.nl/dbq/database-maken/) en [queries toepassen in php](https://www.edutorial.nl/php2/php-en-mysql/#opdrachten)
+> * [Een database maken met tabellen](https://deltionict.github.io/edutorial/dbq/database-maken/) en [queries toepassen in php](https://deltionict.github.io/edutorial/php2/php-en-mysql/#opdrachten)
 
 {{ '/_assets/_icons/php.png'  | image: 'php', 13 }}
 

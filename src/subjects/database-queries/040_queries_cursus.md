@@ -22,7 +22,7 @@ technology: dbq
 * Medewerkers kunnen zich inschrijven op uitvoeringen van een cursus
 
 ## Uitleg
-[Hier vind je uitleg over het gebruik van MySQL en queries](https://www.edutorial.nl/dbq/introductie/)
+[Hier vind je uitleg over het gebruik van MySQL en queries](https://deltionict.github.io/edutorial/dbq/introductie/)
 
 ## Opdracht
 Maak queries op basis van onderstaand ERD (entiteit-relatie-diagram)

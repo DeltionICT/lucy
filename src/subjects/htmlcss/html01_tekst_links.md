@@ -8,7 +8,7 @@ technology: html
 
 > #### Voorkennis
 > * Interesse in HTML en websites
-> * [Uitleg op Edutorial.nl](https://www.edutorial.nl/html/starten-met-html/)
+> * [Uitleg op Edutorial.nl](https://deltionict.github.io/edutorial/html/starten-met-html/)
 
 > #### Doelen
 > * Je leert verschillende manieren van tekst op te maken

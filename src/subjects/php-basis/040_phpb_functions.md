@@ -44,7 +44,7 @@ checkDeelbaar(10) //Output "Deelbaar door 5 maar niet door 3"
 checkDeelbaar(17) //Output "Niet deelbaar door 3 of 5"  
 ```
 
-TIP: [Uitleg over functions vind je hier](https://www.edutorial.nl/php/functions/)
+TIP: [Uitleg over functions vind je hier](https://deltionict.github.io/edutorial/php/functions/)
 
 
 > ## Op te leveren

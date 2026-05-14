@@ -8,9 +8,9 @@ author: jsiewers
 > * Basis programmeren; variabelen, if-else, arrays, loops, functions en parameters
 > * [Database-koppelingen](https://phpdelusions.net/pdo) op basis van mysqli of pdo
 > * Functions
-> * [PHP Sessions](https://www.edutorial.nl/php/sessions/)
-> * [Eenvoudige database queries](https://www.edutorial.nl/dbq/eenvoudige-queries/) ([insert](https://www.edutorial.nl/dbq/database-maken/#records-toevoegen), [update](https://www.edutorial.nl/dbq/database-maken/#records-updaten), [delete](https://www.edutorial.nl/dbq/database-maken/#records-verwijderen) en [select](https://www.edutorial.nl/dbq/gegevens-filteren/))
-> * [Javascript DOM / Functies / Events](https://www.edutorial.nl/javascript/javascript-en-formulieren/)
+> * [PHP Sessions](https://deltionict.github.io/edutorial/php/sessions/)
+> * [Eenvoudige database queries](https://deltionict.github.io/edutorial/dbq/eenvoudige-queries/) ([insert](https://deltionict.github.io/edutorial/dbq/database-maken/#records-toevoegen), [update](https://deltionict.github.io/edutorial/dbq/database-maken/#records-updaten), [delete](https://deltionict.github.io/edutorial/dbq/database-maken/#records-verwijderen) en [select](https://deltionict.github.io/edutorial/dbq/gegevens-filteren/))
+> * [Javascript DOM / Functies / Events](https://deltionict.github.io/edutorial/javascript/javascript-en-formulieren/)
 
 ## Opdracht
 * Bij de Petshop willen ze een systeem waarmee je kunt bijhouden welk huisdier bij welk baasje hoort. 

@@ -24,7 +24,7 @@ maar ook over design. Met behulp van CSS wordt het design voor de website vormge
 ## Opdracht
 * [Download](/_assets/html/wilkens-materiaal.zip) de basisbestanden voor Wilkens website
 * Maak de pagina's zo goed mogelijk na. Het eindresultaat wordt weergegeven in [deze youtube-playlist](https://www.youtube.com/watch?v=PWWw99TyLBU&list=PLwzcTrPriiGaLqSB_lH7F3RYAB6cJnjXc) 
-* Op [edutorial.nl](https://www.edutorial.nl) vind je uitleg over het toepassen van CSS
+* Op [edutorial.nl](https://deltionict.github.io/edutorial) vind je uitleg over het toepassen van CSS
 * In de [youtube-playlist](https://www.youtube.com/watch?v=PWWw99TyLBU&list=PLwzcTrPriiGaLqSB_lH7F3RYAB6cJnjXc) wordt stap voor stap uitgelegd hoe je het design kan maken met html en css.
 * Voor de tekst mag je fake-tekst gebruiken zoals [Lorem Ipsum](https://www.lipsum.com/)
 * Maak gebruik van meegeleverde afbeeldingen.

@@ -9,7 +9,7 @@ technology: html
 
 > ### Voorkennis
 > * Basis-HTML
-> * [Uitleg op Edutorial.nl](https://www.edutorial.nl/html/afbeeldingen-aanpassen/)
+> * [Uitleg op Edutorial.nl](https://deltionict.github.io/edutorial/html/afbeeldingen-aanpassen/)
 
 > ### Doelen
 > * Je leert hoe je afbeeldingen op maat maakt in de juiste verhoudingen
@@ -28,7 +28,7 @@ technology: html
 * [Download hier de afbeeldingen voor de website](/_assets/html/wilkens-materiaal.zip)
 
 ## Uitleg
-[Hier vind je alles wat je moet weten over het aanpassen van afbeeldingen](https://www.edutorial.nl/html/afbeeldingen-aanpassen/)
+[Hier vind je alles wat je moet weten over het aanpassen van afbeeldingen](https://deltionict.github.io/edutorial/html/afbeeldingen-aanpassen/)
 
 ![Ontwerp webpagina](/_assets/html/over_ons@0.5x.png)
 

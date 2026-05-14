@@ -50,7 +50,7 @@ $ao->add(new Auto("Volkswagen", "Tiguan", "groen", 22500));
 ```
 Voeg nieuwe methoden toe aan de AutoOverzicht-class en/of aan de Auto-class om de onderstaande functionaliteit te realiseren.
 
-[Uitleg over deze opdracht vind je op edutorial.nl](https://www.edutorial.nl/php2/oo-programmeren/)
+[Uitleg over deze opdracht vind je op edutorial.nl](https://deltionict.github.io/edutorial/php2/oo-programmeren/)
 
 {% video "playlist?list=PLBtXOV0WuE_FyhyCJ3KZCprpzAaexwEnr" %}
 

@@ -36,4 +36,4 @@ technology: dbq
     * Database-gegevens
 
 ## Uitleg
-* [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)
+* [Uitleg op edutorial.nl](https://deltionict.github.io/edutorial/dbq/introductie/)

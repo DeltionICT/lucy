@@ -8,9 +8,9 @@ author: jsiewers
 > * Basis programmeren; variabelen, if-else, arrays, loops, functions en parameters
 > * [Database-koppelingen](https://phpdelusions.net/pdo) op basis van mysqli of pdo
 > * Functions
-> * [PHP Sessions](https://www.edutorial.nl/php/sessions/)
+> * [PHP Sessions](https://deltionict.github.io/edutorial/php/sessions/)
 > * Database gebruik
-> * [Eenvoudige database queries](https://www.edutorial.nl/dbq/eenvoudige-queries/) ([insert](https://www.edutorial.nl/dbq/database-maken/#records-toevoegen), [update](https://www.edutorial.nl/dbq/database-maken/#records-updaten), [delete](https://www.edutorial.nl/dbq/database-maken/#records-verwijderen) en [select](https://www.edutorial.nl/dbq/gegevens-filteren/))
+> * [Eenvoudige database queries](https://deltionict.github.io/edutorial/dbq/eenvoudige-queries/) ([insert](https://deltionict.github.io/edutorial/dbq/database-maken/#records-toevoegen), [update](https://deltionict.github.io/edutorial/dbq/database-maken/#records-updaten), [delete](https://deltionict.github.io/edutorial/dbq/database-maken/#records-verwijderen) en [select](https://deltionict.github.io/edutorial/dbq/gegevens-filteren/))
 
 > #### Dit ga je leren
 > * Een applicatie bouwen met inlog-functionaliteit
@@ -31,7 +31,7 @@ author: jsiewers
 ## Benodigdheden
 * Je maakt gebruik van een mysql-database om de benodigde gegevens in op te slaan.
 * Maak gebruik van [dit script](/_assets/php/cijferapp/cijferapp.sql) om de database te installeren
-    * [Hier zie je hoe je het script kunt gebruiken om een database te importeren](https://www.edutorial.nl/dbq/installeren/)
+    * [Hier zie je hoe je het script kunt gebruiken om een database te importeren](https://deltionict.github.io/edutorial/dbq/installeren/)
 
 ## Wireframe
 * [Bekijk het wireframe](https://docs.google.com/document/d/1BHwjlnTkOliX98WmOJm3oVjL2K1GJUmU6N1TRsvYa5g/edit?usp=sharing)

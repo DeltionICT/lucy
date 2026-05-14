@@ -159,7 +159,7 @@ Een formulier gemaakt in HTML zoals in onderstaand voorbeeld
 </div>
 
 ## Uitleg 
-[Uitleg over het maken van formulieren vind je hier](https://www.edutorial.nl/html/formulieren/#formulieren)
+[Uitleg over het maken van formulieren vind je hier](https://deltionict.github.io/edutorial/html/formulieren/#formulieren)
 
 > ## Op te leveren
 > * Een webpagina met een formulier met verschillende invoer-types en bijpassende labels.

@@ -36,8 +36,8 @@ Gebruik een image-editor (paint.net of photoshop) om van de afbeeldingen een uit
 
 
 ## Uitleg
-* [Uitleg over het bijsnijden en opslaan van afbeeldingen](https://www.edutorial.nl/html/afbeeldingen-aanpassen/)
-* [Uitleg over functions in php](https://www.edutorial.nl/php/functions/)
+* [Uitleg over het bijsnijden en opslaan van afbeeldingen](https://deltionict.github.io/edutorial/html/afbeeldingen-aanpassen/)
+* [Uitleg over functions in php](https://deltionict.github.io/edutorial/php/functions/)
 * [Uitleg over functions op w3schools](https://www.w3schools.com/php/php_functions.asp)
 
 Signatuur van de functie:

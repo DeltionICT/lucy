@@ -147,4 +147,4 @@ likes, banned-accounts en accounts op de blacklist.
 
 
 ## Uitleg
-[Examenvoorbereiding](https://www.edutorial.nl/examen/examen-25604/)
+[Examenvoorbereiding](https://deltionict.github.io/edutorial/examen/examen-25604/)

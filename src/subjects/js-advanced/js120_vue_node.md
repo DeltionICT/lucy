@@ -33,5 +33,5 @@ In de 3<sup>de</sup> week volgt er een toets.<br>
 ## Uitleg
 [Voorbeeld uit les cstegeman](https://std.stegion.nl/cs_codebase/js02_basis/vb_online.html)<br>
 [Javascript tutorial op w3schools](https://www.w3schools.com/js/)<br>
-[Javascript op edutorial.nl](https://www.edutorial.nl/javascript/introductie/) -->
+[Javascript op edutorial.nl](https://deltionict.github.io/edutorial/javascript/introductie/) -->
 <hr>

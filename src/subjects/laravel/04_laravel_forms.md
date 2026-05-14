@@ -128,4 +128,4 @@ NB: Enkele velden in de database-tabel `users` moeten mogelijk "nullable" zijn o
 [Forms validation](https://laravel.com/docs/11.x/validation#form-request-validation)<br>
 [CSRF beveiliging op forms](https://laravel.com/docs/11.x/csrf)
 
-[https://www.edutorial.nl/laravel/installatie/](https://www.edutorial.nl/laravel/installatie/)
+[https://deltionict.github.io/edutorial/laravel/installatie/](https://deltionict.github.io/edutorial/laravel/installatie/)

@@ -40,7 +40,7 @@ author: jsiewers,rkerssies
 
 ## Uitleg
 [Laravel Breeze](https://laravel.com/docs/11.x/starter-kits#laravel-breeze)<br>
-[Laravel uitleg op edutorial.nl](http://www.edutorial.nl/laravel/introductie/)
+[Laravel uitleg op edutorial.nl](http://deltionict.github.io/edutorial/laravel/introductie/)
 
 Wil je nog een stap verder gaan met rollen en rechten, kijk dan bijvoorbeeld naar:<br>
 [Bouncer](https://github.com/JosephSilber/bouncer), RBAC-toepassing <br>

@@ -9,7 +9,7 @@ author: jsiewers
 > * [Database-koppelingen](https://phpdelusions.net/pdo) op basis van mysqli of pdo
 > * Functions
 > * Database gebruik
-> * [Eenvoudige database queries](https://www.edutorial.nl/dbq/eenvoudige-queries/) ([insert](https://www.edutorial.nl/dbq/database-maken/#records-toevoegen), [update](https://www.edutorial.nl/dbq/database-maken/#records-updaten), [delete](https://www.edutorial.nl/dbq/database-maken/#records-verwijderen) en [select](https://www.edutorial.nl/dbq/gegevens-filteren/))
+> * [Eenvoudige database queries](https://deltionict.github.io/edutorial/dbq/eenvoudige-queries/) ([insert](https://deltionict.github.io/edutorial/dbq/database-maken/#records-toevoegen), [update](https://deltionict.github.io/edutorial/dbq/database-maken/#records-updaten), [delete](https://deltionict.github.io/edutorial/dbq/database-maken/#records-verwijderen) en [select](https://deltionict.github.io/edutorial/dbq/gegevens-filteren/))
 
 > #### Dit ga je leren
 > * Een applicatie bouwen waar je de dingen die je nog moet doen in bij kan houden
@@ -34,7 +34,7 @@ author: jsiewers
 > * Bouw de applicatie volgens de opdracht
 > * Bewaar de applicatie op Github in een aparte project-repository
 >    * Maak een github-account als je dat nog niet hebt
->    * Volg [deze uitleg](https://www.edutorial.nl/git/introductie/) of [deze video](https://www.youtube.com/watch?v=i_23KUAEtUM) (of [deze video](https://www.youtube.com/watch?v=HkdAHXoRtos)) om je app op github te zetten. 
+>    * Volg [deze uitleg](https://deltionict.github.io/edutorial/git/introductie/) of [deze video](https://www.youtube.com/watch?v=i_23KUAEtUM) (of [deze video](https://www.youtube.com/watch?v=HkdAHXoRtos)) om je app op github te zetten. 
 
 > ## Evaluatie
 > Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

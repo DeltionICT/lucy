@@ -16,7 +16,7 @@ author: jsiewers
 Gebruik de afbeelding van het ERD van een bioscoop-database om queries te maken voor de gevraagde gegevens.
 
 ## Uitleg
-[Hier vind je uitleg over het gebruik van MySQL en queries](https://www.edutorial.nl/dbq/introductie/)
+[Hier vind je uitleg over het gebruik van MySQL en queries](https://deltionict.github.io/edutorial/dbq/introductie/)
 
 
 1. Geef een overzicht van alle films

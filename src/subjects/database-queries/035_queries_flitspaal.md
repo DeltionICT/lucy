@@ -44,4 +44,4 @@ Om een applicatie te bouwen die deze gegevens inzichtelijk maakt moeten er een a
 * Een [verslag met schermafbeeldingen van de uitvoer](/_assets/dbq/SQL_Verslag.docx) van de queries.
 
 ## Uitleg
-* [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)
+* [Uitleg op edutorial.nl](https://deltionict.github.io/edutorial/dbq/introductie/)

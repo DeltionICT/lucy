@@ -38,7 +38,7 @@ Maak een applicatie die met 1 opdracht meerdere afbeeldingen kan aanpassen. De a
 * Een overzicht van de benodigde modules voor deze applicatie (requirements.txt)
 
 ## Uitleg
-* Uitleg over projecten en stroomschema's vind je op [https://www.edutorial.nl/python/projectopdrachten/](https://www.edutorial.nl/python/projectopdrachten/)
+* Uitleg over projecten en stroomschema's vind je op [https://deltionict.github.io/edutorial/python/projectopdrachten/](https://deltionict.github.io/edutorial/python/projectopdrachten/)
 * Uitleg over [stroomschema's](/_assets/python/activiteiten_diagram.docx)
 * Uitleg over [PIL (python image library) op PyPi](https://pypi.org/project/Pillow/)
 
