@@ -27,7 +27,7 @@ De verzamelde gegevens heb je geanalyseerd. Op basis van deze analyse heb je een
 Daarnaast komt in je verslag je voortgang uit :
 >* stap 01 Basis verdieping software
 >* stap 02 Vergelijk verschillende softwarepakketten
->* stap 03 Reflecteer op jouw ervaringene en bevindingen
+>* stap 03 Reflecteer op jouw ervaringen en bevindingen
 
 
 * Lever het procesverslag met een [ARApagina]({{ '/_assets/verdieping_software/ARA.docx' }})
