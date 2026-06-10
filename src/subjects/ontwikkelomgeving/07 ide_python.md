@@ -25,7 +25,7 @@ In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt b
 * Toon de repository op github.com met schermafbeeldingen die je tijdens installatie hebt gemaakt.
 
 ## Git installeren
-* Installeer git op je computer [Hier vind je uitleg over hoe dat moet](https://www.edutorial.nl/git/introductie/)
+* Installeer git op je computer [Hier vind je uitleg over hoe dat moet](https://deltionict.github.io/edutorial/git/introductie/)
 * Check of git goed is geïnstalleerd
 ```shell
 janjaap@iMac-Pro-van-Jan pythonproject % git --version
@@ -33,7 +33,7 @@ git version 2.37.1
 ```
 
 ## Python installeren
-Installeer python op je computer. [Hier vind je uitleg over hoe dat moet!](https://www.edutorial.nl/python/python-installeren/)  
+Installeer python op je computer. [Hier vind je uitleg over hoe dat moet!](https://deltionict.github.io/edutorial/python/python-installeren/)  
 
 * Check of python is geïnstalleerd op je computer  
 * Start een terminal op en type "python --version"  

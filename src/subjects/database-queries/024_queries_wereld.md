@@ -35,4 +35,4 @@ Download het bestand [wereld_v3.sql](/_assets/dbq/wereld_v3.sql).
 * Een [verslag met schermafbeeldingen van de uitvoer](/_assets/dbq/SQL_Verslag.docx) van de queries.
 
 ## Uitleg
-* [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)
+* [Uitleg op edutorial.nl](https://deltionict.github.io/edutorial/dbq/introductie/)

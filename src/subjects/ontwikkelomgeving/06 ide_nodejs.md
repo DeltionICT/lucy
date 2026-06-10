@@ -28,7 +28,7 @@ In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt b
   {{ '/_assets/_icons/nodejs.png' | image: 'xampp', 9 }}
 
 ## Git installeren
-* Installeer git op je computer [Hier vind je uitleg over hoe dat moet](https://www.edutorial.nl/git/introductie/)
+* Installeer git op je computer [Hier vind je uitleg over hoe dat moet](https://deltionict.github.io/edutorial/git/introductie/)
 * Check of git goed is geïnstalleerd met "git --version"
 ```shell
 $ git --version

@@ -37,7 +37,7 @@ Download hier de overzichten en formulieren zoals die nu gebruikt worden bij de 
 [Bijlagen bloemenzaak](/_assets/dbo/bijlagen_flowerpower.pdf)
 
 ## Uitleg
-[Uitleg over het ERD voor deze casus](https://www.edutorial.nl/dbo/bloemenzaak/)
+[Uitleg over het ERD voor deze casus](https://deltionict.github.io/edutorial/dbo/bloemenzaak/)
 
 ## Resultaat
 Een entiteit relatiediagram in .pdf of .png formaat

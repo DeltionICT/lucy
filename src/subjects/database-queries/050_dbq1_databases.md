@@ -99,4 +99,4 @@ author: rkerssies
 Vraag om een code-review om feedback en tips voor best-practices op jouw aanpak te krijgen.
 
 ## Uitleg
-* [Uitleg op edutorial.nl](https://www.edutorial.nl/dbq/introductie/)
+* [Uitleg op edutorial.nl](https://deltionict.github.io/edutorial/dbq/introductie/)

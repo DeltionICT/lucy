@@ -52,5 +52,5 @@ author: jsiewers,rkerssies
 
 
 ## Uitleg
-* Bekijk de uitleg op [Edutorial](http://www.edutorial.nl/laravel/introductie/)
+* Bekijk de uitleg op [Edutorial](http://deltionict.github.io/edutorial/laravel/introductie/)
 * [YouTube tutorial](https://www.youtube.com/watch?v=MYyJ4PuL4pY&t=14354s)

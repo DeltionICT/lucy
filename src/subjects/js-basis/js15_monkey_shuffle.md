@@ -22,7 +22,7 @@ Monkey Shuffle is een webpagina met 9 plaatjes van apen. Door op een knop te kli
 
 
 ### Uitleg
-[Hier vind je uitleg over de uitwerking van de opdracht](https://www.edutorial.nl/javascript/javascript-arrays/)
+[Hier vind je uitleg over de uitwerking van de opdracht](https://deltionict.github.io/edutorial/javascript/javascript-arrays/)
 
 ## Resultaat
 * Een html-pagina met 9 afbeeldingen in rijen van 3 onder elkaar en een knop

@@ -17,7 +17,7 @@ author: jsiewers
 * [Download hier het sql-bestand](/_assets/dbq/Kraeken.sql)
 
 ## Uitleg
-[Hier vind je uitleg over het gebruik van MySQL en queries](https://www.edutorial.nl/dbq/introductie/)
+[Hier vind je uitleg over het gebruik van MySQL en queries](https://deltionict.github.io/edutorial/dbq/introductie/)
 
 
 1. Geef een overzicht van alle zenders

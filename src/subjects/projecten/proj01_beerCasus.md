@@ -44,7 +44,7 @@ Het maakt niet uit hoe vaak een gebruiker klikt.<br>
 #### ERD en activity diagram fase 1
 > <img src="/_assets/projecten/bier/fase_1.svg" style="width:40%;">
 
-* [Poormans API via edutorial](https://www.edutorial.nl/projecten/poor-man's-api/)
+* [Poormans API via edutorial](https://deltionict.github.io/edutorial/projecten/poor-man's-api/)
 * [Uitleg van poormans API tot restAPI](https://std.stegion.nl/cs_codebase/php50_restAPI/index.php)
 
 
@@ -130,6 +130,6 @@ Wil je extra uitdaging bekijk dan de uitgebreide SQL voor dit project met test d
 
 
 ## Voorbeelden
-* [Poor man's API](https://www.edutorial.nl/projecten/poor-man's-api/)
+* [Poor man's API](https://deltionict.github.io/edutorial/projecten/poor-man's-api/)
 * [Swaggie (api/frontend)](/_assets/projecten/swaggie)
 * [Swaggie (repo op github)](https://github.com/DeltionICT/swaggie)

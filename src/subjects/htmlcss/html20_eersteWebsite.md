@@ -9,7 +9,7 @@ technology: html
 
 > #### Voorkennis
 > * Basis HTML-kennis 
-> * [Uitleg op Edutorial.nl](https://www.edutorial.nl/html/eerste-website/)
+> * [Uitleg op Edutorial.nl](https://deltionict.github.io/edutorial/html/eerste-website/)
 
 > #### Doelen
 > * Leer HTML- en CSS-kennis te combineren en toe te passen in een eerste website
@@ -44,7 +44,7 @@ technology: html
   * Een link naar de homepage
 
 ## Uitleg
-Meer uitleg over de opdracht vind je [op deze website](https://www.edutorial.nl/html/eerste-website/)
+Meer uitleg over de opdracht vind je [op deze website](https://deltionict.github.io/edutorial/html/eerste-website/)
 
 ## Een website valideren
 Op de [W3C Markup Validation Service](https://validator.w3.org/) kun je bekijken of je geen fouten hebt gemaakt in je code.

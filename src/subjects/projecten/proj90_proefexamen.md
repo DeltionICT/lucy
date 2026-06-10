@@ -59,7 +59,7 @@ author: jsiewers
 ## Retrospective
 * ***Tijd***: 1,5 uur
 * ***Opleveren***: Documentatie retrospective (doc-retro) in ***pdf-formaat*** 
-* Bespreek met je groep het verloop van het groepsproces tijdens de retrospective. Gebruik hiervoor een [passende methode](https://www.edutorial.nl/projecten/retrospective/) 
+* Bespreek met je groep het verloop van het groepsproces tijdens de retrospective. Gebruik hiervoor een [passende methode](https://deltionict.github.io/edutorial/projecten/retrospective/) 
 * Voeg uitwerkingen van de methode toe aan de documentatie.
 
 ## Code Review

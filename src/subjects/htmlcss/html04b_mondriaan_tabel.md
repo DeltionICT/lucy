@@ -21,7 +21,7 @@ Maak onderstaand Mondriaan-achtig schilderij met tabellen! Gebruik [dit materiaa
 
 
 ## Uitleg
-* [Uitleg over tabellen vind je hier](https://www.edutorial.nl/html/tabellen/)
+* [Uitleg over tabellen vind je hier](https://deltionict.github.io/edutorial/html/tabellen/)
 * [Tabellen](https://www.w3schools.com/html/html_tables.asp)
 
 Het Mondriaan-schilderij is opgebouwd uit allemaal losse plaatjes met een groen, rode of blauwe kleur. Hier zie je een voorbeeld waarbij de verschillende blokjes zichtbaar zijn.  

@@ -120,4 +120,4 @@ NB: de href-links zijn hier niet correct uitgevoerd!
 
 [Optimize (refresh) routes, views and cache](https://laravel.com/docs/11.x/deployment#optimization)
 
-[https://www.edutorial.nl/laravel/views/](https://www.edutorial.nl/laravel/views/)
+[https://deltionict.github.io/edutorial/laravel/views/](https://deltionict.github.io/edutorial/laravel/views/)

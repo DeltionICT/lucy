@@ -25,7 +25,7 @@ technology: ide, html, css
 
 ## Opdracht
 * Maak een kookboek met recepten.
-* Uitleg over het maken van een repository en het maken van een kookboek vind je in de filmpjes op [edutorial.nl](https://www.edutorial.nl/git/introductie/)
+* Uitleg over het maken van een repository en het maken van een kookboek vind je in de filmpjes op [edutorial.nl](https://deltionict.github.io/edutorial/git/introductie/)
 * Maak een [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) van het kookboek op [https://github.com/DeltionICT/the-cook-book/fork](https://github.com/DeltionICT/the-cook-book/fork)
 * Om je op weg te helpen is er al 1 recept beschikbaar. Bedenk zelf nog 2 recepten en voeg die toe aan het kookboek.
 

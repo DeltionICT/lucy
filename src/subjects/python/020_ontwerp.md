@@ -48,5 +48,5 @@ De data wordt aangeleverd in 2 bestanden
 * Een stroomschema waarmee de flow van het programma wordt weergegeven
 
 ## Uitleg
-* Uitleg over projecten en stroomschema's vind je op [https://www.edutorial.nl/python/projectopdrachten/](https://www.edutorial.nl/python/projectopdrachten/)
+* Uitleg over projecten en stroomschema's vind je op [https://deltionict.github.io/edutorial/python/projectopdrachten/](https://deltionict.github.io/edutorial/python/projectopdrachten/)
 * Uitleg over [stroomschema's](/_assets/python/activiteiten_diagram.docx)

@@ -87,4 +87,4 @@ dd( Flight::all() );              // with a Larvel-Facade, dumps all records of 
 - In migrations kunnen relaties tussen tabellen worden gelegd (één-op-één, één-op-veel en veel-op-veel), zodat de relaties in een gegenereerde ERD zichtbaar worden<br>
 - In Models kunnen relaties tussen tabellen worden gelegd (één-op-één, één-op-veel en veel-op-veel), zodat er met Eloquent data en records over verschillende tabellen kan uitvragen   
 
-- [https://www.edutorial.nl/laravel/installatie/](https://www.edutorial.nl/laravel/installatie/)
+- [https://deltionict.github.io/edutorial/laravel/installatie/](https://deltionict.github.io/edutorial/laravel/installatie/)

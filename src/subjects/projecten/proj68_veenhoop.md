@@ -51,4 +51,4 @@ De basiskleuren van het logo zijn:
 * In een plan van aanpak kan je aangeven dat GAST zijn eigen kantoorruimtes heeft en serverruimte inhuurt  bij derden.
 
 ## Uitleg
-[Examenvoorbereiding](https://www.edutorial.nl/examen/examen-25604/)
+[Examenvoorbereiding](https://deltionict.github.io/edutorial/examen/examen-25604/)

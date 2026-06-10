@@ -17,7 +17,7 @@ author: jsiewers
 * Maak een nieuwe database aan en [importeer het sql-script](/_assets/dbq/reisbureau.sql).
 
 ## Uitleg
-[Hier vind je uitleg over het gebruik van MySQL en queries](https://www.edutorial.nl/dbq/introductie/)
+[Hier vind je uitleg over het gebruik van MySQL en queries](https://deltionict.github.io/edutorial/dbq/introductie/)
 
 
 {{ '/_assets/dbq/sql1.png' | image: 'Reisbureau ERD', 100 }}

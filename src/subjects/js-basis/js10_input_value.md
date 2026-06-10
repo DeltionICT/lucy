@@ -37,7 +37,7 @@ technology: js
 </div>
 
 ## Uitleg
-[Javascript op edutorial.nl](https://www.edutorial.nl/javascript/introductie/)
+[Javascript op edutorial.nl](https://deltionict.github.io/edutorial/javascript/introductie/)
 [Javascript tutorial op w3schools](https://www.w3schools.com/js/)
 
 ## Beoordeling

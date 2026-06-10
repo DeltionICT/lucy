@@ -25,7 +25,7 @@ technology: html
 * Geef de cellen, regels en kolommen met CSS verschillende achtergrondkleuren, rand-kleuren, rand-stijlen en tekst opmaak.
 
 ## Uitleg
-[Uitleg over tabellen vind je hier](https://www.edutorial.nl/html/tabellen/)
+[Uitleg over tabellen vind je hier](https://deltionict.github.io/edutorial/html/tabellen/)
 [Tabellen](https://www.w3schools.com/html/html_tables.asp)
 
 > ## Op te leveren

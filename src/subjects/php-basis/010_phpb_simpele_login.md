@@ -26,7 +26,7 @@ Maak een login-systeem zonder waarbij het account en wachtwoord in de code staan
     * UserSory: Als bezoeker wil ik kunnen inloggen in de applicatie zodat ik toegang krijg tot een pagina met de tekst "Hey, welkom in onze app".
 
 ## Uitleg
-* Kun je vinden op [edutorial.nl](https://www.edutorial.nl/php/formulieren/)
+* Kun je vinden op [edutorial.nl](https://deltionict.github.io/edutorial/php/formulieren/)
 
 ## Activity diagram
 {{ '/_assets/backend/schema_loginform.svg' | image: 'schema loginform', 100 }}
