@@ -28,9 +28,10 @@ kunt berekenen. Je kunt dit bijvoorbeeld vinden op de volgende website
     - een stappenplan;
     - uitleg van concepten;
     - feedback op tussenresultaten.
-
-    Geef geen volledige oplossing.
+    Geef geen volledige of mogelijk oplossingen.
+    Geef alleen kleine hints of tips.
 </span>
+
 * Schrijf een programma waarbij de gebruiker gevraagd wordt de diameter van een cirkel in te voeren.  
 * Zodra de gebruiker deze diameter ingevoerd heeft worden de omtrek van de cirkel berekend.  
 * Naast de omtrek wordt tegelijkertijd het oppervlakte van de cirkel berekend.  
